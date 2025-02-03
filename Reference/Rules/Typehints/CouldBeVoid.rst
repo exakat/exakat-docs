@@ -20,7 +20,7 @@ Could Be Void
 	:og:description: Mark return types that can be set to void
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Void.html
 	:og:locale: en
-Mark return types that can be set to void.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Typehints\/CouldBeVoid.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Typehints\/CouldBeVoid.html","name":"Could Be Void","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Mark return types that can be set to void","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Could Be Void.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Mark return types that can be set to void.
 All abstract methods (in classes or in interfaces) are omitted here.
 
 .. code-block:: php

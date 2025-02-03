@@ -20,7 +20,7 @@ Argument Should Be Typed
 	:og:description: When a method expects objects as argument, those arguments should be typed
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Argument Should Be Typed.html
 	:og:locale: en
-When a method expects objects as argument, those arguments should be typed. This way, it provides early warning that a wrong object is being sent to the method.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/ShouldBeTypehinted.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/ShouldBeTypehinted.html","name":"Argument Should Be Typed","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jan 2025 10:21:35 +0000","dateModified":"Fri, 24 Jan 2025 10:21:35 +0000","description":"When a method expects objects as argument, those arguments should be typed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Argument Should Be Typed.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>When a method expects objects as argument, those arguments should be typed. This way, it provides early warning that a wrong object is being sent to the method.
 
 The analyzer will detect situations where a class, or the keywords 'array' or 'callable'. 
 `Closure <https://www.php.net/manual/en/class.`closure <https://www.php.net/closure>`_.php>`_ arguments are omitted.

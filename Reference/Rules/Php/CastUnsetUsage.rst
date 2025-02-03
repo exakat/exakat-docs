@@ -20,7 +20,7 @@ Cast Unset Usage
 	:og:description: Usage of the `(unset)` cast operator was removed
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cast Unset Usage.html
 	:og:locale: en
-Usage of the `(unset)` cast operator was removed. The operator was deprecated since PHP 7.2.0.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/CastUnsetUsage.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/CastUnsetUsage.html","name":"Cast Unset Usage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Usage of the `(unset)` cast operator was removed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Cast Unset Usage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Usage of the `(unset)` cast operator was removed. The operator was deprecated since PHP 7.2.0.
 
 .. code-block:: php
    

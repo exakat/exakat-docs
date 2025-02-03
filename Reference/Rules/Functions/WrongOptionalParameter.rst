@@ -20,7 +20,7 @@ Wrong Optional Parameter
 	:og:description: Wrong placement of optional parameters
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Optional Parameter.html
 	:og:locale: en
-Wrong placement of optional parameters.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/WrongOptionalParameter.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/WrongOptionalParameter.html","name":"Wrong Optional Parameter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Wrong placement of optional parameters","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Wrong Optional Parameter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Wrong placement of optional parameters.
 
 PHP parameters are optional when they defined with a default value, like this : 
 

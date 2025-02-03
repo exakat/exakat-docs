@@ -20,7 +20,7 @@ Strict Or Relaxed Comparison
 	:og:description: PHP has two comparison styles : strict and relaxed
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Strict Or Relaxed Comparison.html
 	:og:locale: en
-PHP has two comparison styles : strict and relaxed. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ComparisonFavorite.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ComparisonFavorite.html","name":"Strict Or Relaxed Comparison","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"PHP has two comparison styles : strict and relaxed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Strict Or Relaxed Comparison.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>PHP has two comparison styles : strict and relaxed. 
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 
 

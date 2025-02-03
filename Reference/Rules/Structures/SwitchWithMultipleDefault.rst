@@ -20,7 +20,7 @@ Switch With Too Many Default
 	:og:description: Switch statements should only hold one default, not more
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Switch With Too Many Default.html
 	:og:locale: en
-Switch statements should only hold one default, not more. Check the code and remove the extra default.  
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/SwitchWithMultipleDefault.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/SwitchWithMultipleDefault.html","name":"Switch With Too Many Default","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Switch statements should only hold one default, not more","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Switch With Too Many Default.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Switch statements should only hold one default, not more. Check the code and remove the extra default.  
 
 PHP 7.0 won't compile a script that allows for several default cases. 
 

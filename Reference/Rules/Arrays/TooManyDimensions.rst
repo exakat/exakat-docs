@@ -20,7 +20,7 @@ Too Many Array Dimensions
 	:og:description: This analysis reports when arrays have too many dimensions
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Array Dimensions.html
 	:og:locale: en
-This analysis reports when arrays have too many dimensions. This happens when arrays are too deeply nested inside other arrays. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/TooManyDimensions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/TooManyDimensions.html","name":"Too Many Array Dimensions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"This analysis reports when arrays have too many dimensions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Too Many Array Dimensions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This analysis reports when arrays have too many dimensions. This happens when arrays are too deeply nested inside other arrays. 
 
 PHP has no nesting limit, and accepts any number of of dimensions. This is usually very memory hungry, and could be better replaced with classes.
 

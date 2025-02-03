@@ -20,7 +20,7 @@ Strange Name For Constants
 	:og:description: Those constants looks like a typo from other names
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Strange Name For Constants.html
 	:og:locale: en
-Those constants looks like a typo from other names. It is an unknown constant, and with a slight change of name, it could be another constant, that exists.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Constants\/StrangeName.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Constants\/StrangeName.html","name":"Strange Name For Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:52:58 +0000","dateModified":"Tue, 14 Jan 2025 12:52:58 +0000","description":"Those constants looks like a typo from other names","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Strange Name For Constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Those constants looks like a typo from other names. It is an unknown constant, and with a slight change of name, it could be another constant, that exists.
 
 .. code-block:: php
    

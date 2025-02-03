@@ -20,7 +20,7 @@ SQL queries
 	:og:description: SQL queries, detected in literal strings
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/SQL queries.html
 	:og:locale: en
-SQL queries, detected in literal strings. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Type\/Sql.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Type\/Sql.html","name":"SQL queries","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"SQL queries, detected in literal strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/SQL queries.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>SQL queries, detected in literal strings. 
 
 SQL queries are detected with keywords, inside literals or concatenations.
 

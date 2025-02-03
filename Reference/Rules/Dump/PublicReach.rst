@@ -20,7 +20,7 @@ Public Reach To Private Methods
 	:og:description: This rule reports the ways to reach private and protected methods, by using only public methods
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Public Reach To Private Methods.html
 	:og:locale: en
-This rule reports the ways to reach private and protected methods, by using only public methods. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Dump\/PublicReach.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Dump\/PublicReach.html","name":"Public Reach To Private Methods","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"This rule reports the ways to reach private and protected methods, by using only public methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Public Reach To Private Methods.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This rule reports the ways to reach private and protected methods, by using only public methods. 
 
 Each internal is reported here, with the origin and destination. When connecting the calls from methods to method, it is possible to draw the path from public methods to private methods.
 

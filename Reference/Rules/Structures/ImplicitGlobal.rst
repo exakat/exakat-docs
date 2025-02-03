@@ -20,7 +20,7 @@ Implicit Global
 	:og:description: Global variables, that are used in local scope with global keyword, but are not declared as global in the global scope
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Implicit Global.html
 	:og:locale: en
-Global variables, that are used in local scope with global keyword, but are not declared as global in the global scope. They may be mistaken with distinct values, while, in PHP, variables in the global scope are truly global.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ImplicitGlobal.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ImplicitGlobal.html","name":"Implicit Global","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 11:40:49 +0000","dateModified":"Tue, 14 Jan 2025 11:40:49 +0000","description":"Global variables, that are used in local scope with global keyword, but are not declared as global in the global scope","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Implicit Global.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Global variables, that are used in local scope with global keyword, but are not declared as global in the global scope. They may be mistaken with distinct values, while, in PHP, variables in the global scope are truly global.
 
 .. code-block:: php
    

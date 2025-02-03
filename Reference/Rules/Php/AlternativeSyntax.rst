@@ -20,7 +20,7 @@ PHP Alternative Syntax
 	:og:description: This rule identifies the usage of alternative syntax in the code, for if then, switch, while, for and foreach
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP Alternative Syntax.html
 	:og:locale: en
-This rule identifies the usage of alternative syntax in the code, for if then, switch, while, for and foreach.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/AlternativeSyntax.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/AlternativeSyntax.html","name":"PHP Alternative Syntax","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"This rule identifies the usage of alternative syntax in the code, for if then, switch, while, for and foreach","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/PHP Alternative Syntax.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This rule identifies the usage of alternative syntax in the code, for if then, switch, while, for and foreach.
 
 Alternative syntax is another way to write the same expression. Alternative syntax is less popular than the normal one, and associated with older coding practices.
 

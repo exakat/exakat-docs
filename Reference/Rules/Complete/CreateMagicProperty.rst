@@ -20,7 +20,7 @@ Create Magic Property
 	:og:description: This command creates a link DEFINITION between a ``__get`` and ``__set`` calls, and its equivalent magic method
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Create Magic Property.html
 	:og:locale: en
-This command creates a link DEFINITION between a ``__get`` and ``__set`` calls, and its equivalent magic method.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/CreateMagicProperty.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/CreateMagicProperty.html","name":"Create Magic Property","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"This command creates a link DEFINITION between a ``__get`` and ``__set`` calls, and its equivalent magic method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Create Magic Property.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This command creates a link DEFINITION between a ``__get`` and ``__set`` calls, and its equivalent magic method.
 
 It also adds links between ``__invoke`` and ``__toString`` in adapted situations.
 This command may not detect all possible link for the ``__get`` and ``__set`` call. It may be missing information about the nature of the object.

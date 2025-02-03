@@ -20,7 +20,7 @@ Hexadecimal In String
 	:og:description: Mark strings that may be confused with hexadecimal
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Hexadecimal In String.html
 	:og:locale: en
-Mark strings that may be confused with hexadecimal. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Type\/HexadecimalString.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Type\/HexadecimalString.html","name":"Hexadecimal In String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Mark strings that may be confused with hexadecimal","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Hexadecimal In String.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Mark strings that may be confused with hexadecimal. 
 
 Until PHP 7.0, PHP recognizes hexadecimal numbers inside strings, and converts them accordingly. 
 

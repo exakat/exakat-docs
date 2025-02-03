@@ -20,7 +20,7 @@ Could Be Callable
 	:og:description: This rule marks arguments and return types that can be set to ``callable``
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Callable.html
 	:og:locale: en
-This rule marks arguments and return types that can be set to ``callable``.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Typehints\/CouldBeCallable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Typehints\/CouldBeCallable.html","name":"Could Be Callable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:55:32 +0000","dateModified":"Tue, 14 Jan 2025 12:55:32 +0000","description":"This rule marks arguments and return types that can be set to ``callable``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Could Be Callable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This rule marks arguments and return types that can be set to ``callable``.
 
 The analysis also reports properties that could be 'callable', although PHP doesn't allow that configuration.
 

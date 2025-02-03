@@ -20,7 +20,7 @@ Maybe Missing New
 	:og:description: This functioncall looks like a class instantiation that is missing the ``new`` keyword
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Maybe Missing New.html
 	:og:locale: en
-This functioncall looks like a class instantiation that is missing the ``new`` keyword.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MissingNew.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MissingNew.html","name":"Maybe Missing New","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"This functioncall looks like a class instantiation that is missing the ``new`` keyword","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Maybe Missing New.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This functioncall looks like a class instantiation that is missing the ``new`` keyword.
 
 Any function definition was found for that function, but a class with that name was. New is probably missing.
 

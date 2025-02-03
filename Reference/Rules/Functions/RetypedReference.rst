@@ -20,7 +20,7 @@ Retyped Reference
 	:og:description: A parameter with a reference may be typed differently, at the end of a method call
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Retyped Reference.html
 	:og:locale: en
-A parameter with a reference may be typed differently, at the end of a method call. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/RetypedReference.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/RetypedReference.html","name":"Retyped Reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"A parameter with a reference may be typed differently, at the end of a method call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Retyped Reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>A parameter with a reference may be typed differently, at the end of a method call. 
 
 It is possible for a referenced and typed parameter to be retyped during a method call. As such, the type of the used variable might both be checked and changed. 
 

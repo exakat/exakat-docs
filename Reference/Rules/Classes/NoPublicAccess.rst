@@ -20,7 +20,7 @@ No Public Access
 	:og:description: The properties below are declared with public access, but are never used publicly
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Public Access.html
 	:og:locale: en
-The properties below are declared with public access, but are never used publicly. They can be made protected or private.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/NoPublicAccess.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/NoPublicAccess.html","name":"No Public Access","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"The properties below are declared with public access, but are never used publicly","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Public Access.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>The properties below are declared with public access, but are never used publicly. They can be made protected or private.
 
 .. code-block:: php
    

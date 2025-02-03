@@ -20,7 +20,7 @@ Wrong Typed Name
 	:og:description: The parameter name doesn't reflect the type used
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Typed Name.html
 	:og:locale: en
-The parameter name doesn't reflect the type used.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/WrongTypehintedName.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/WrongTypehintedName.html","name":"Wrong Typed Name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jan 2025 10:21:35 +0000","dateModified":"Fri, 24 Jan 2025 10:21:35 +0000","description":"The parameter name doesn't reflect the type used","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Wrong Typed Name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>The parameter name doesn't reflect the type used.
 
 There are no restriction on parameter names, except its uniqueness in the signature. Yet, using a scalar type as the name for another typed value is just misleading. 
 

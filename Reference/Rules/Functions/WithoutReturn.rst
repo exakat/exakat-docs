@@ -20,7 +20,7 @@ Methods Without Return
 	:og:description: List of all the functions, closures, methods that have no explicit return
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Methods Without Return.html
 	:og:locale: en
-List of all the functions, closures, methods that have no explicit return. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/WithoutReturn.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/WithoutReturn.html","name":"Methods Without Return","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"List of all the functions, closures, methods that have no explicit return","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Methods Without Return.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>List of all the functions, closures, methods that have no explicit return. 
 
 Functions with the ``void`` or ``never`` return types, are omitted.
 

@@ -20,7 +20,7 @@ Is_A() With String
 	:og:description: When using is_a() with a string as first argument, the third argument is compulsory
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is_A() With String.html
 	:og:locale: en
-When using `is_a() <https://www.php.net/is_a>`_ with a string as first argument, the third argument is compulsory. The third argument is ``$allow_string``, and is necessary to work on strings.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/IsAWithString.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/IsAWithString.html","name":"Is_A() With String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"When using is_a() with a string as first argument, the third argument is compulsory","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Is_A() With String.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>When using `is_a() <https://www.php.net/is_a>`_ with a string as first argument, the third argument is compulsory. The third argument is ``$allow_string``, and is necessary to work on strings.
 
 .. code-block:: php
    

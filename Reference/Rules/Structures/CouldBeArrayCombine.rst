@@ -20,7 +20,7 @@ Could Be array_combine()
 	:og:description: This rule suggests using the native function array_combine() to merge two arrays into a hash
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be array_combine().html
 	:og:locale: en
-This rule suggests using the native function `array_combine() <https://www.php.net/array_combine>`_ to merge two arrays into a hash. `array_combine() <https://www.php.net/array_combine>`_ takes the keys and the values from two distinct arrays, and merge them into one.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CouldBeArrayCombine.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CouldBeArrayCombine.html","name":"Could Be array_combine()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"This rule suggests using the native function array_combine() to merge two arrays into a hash","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Could Be array_combine().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This rule suggests using the native function `array_combine() <https://www.php.net/array_combine>`_ to merge two arrays into a hash. `array_combine() <https://www.php.net/array_combine>`_ takes the keys and the values from two distinct arrays, and merge them into one.
 
 .. code-block:: php
    

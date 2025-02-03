@@ -20,7 +20,7 @@ Variable Global
 	:og:description: Variable ``global`` such are valid in PHP 5
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Variable Global.html
 	:og:locale: en
-Variable ``global`` such are valid in PHP 5.6, but no in PHP 7.0. They should be replaced with ${$foo->bar}.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/VariableGlobal.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/VariableGlobal.html","name":"Variable Global","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Variable ``global`` such are valid in PHP 5","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Variable Global.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Variable ``global`` such are valid in PHP 5.6, but no in PHP 7.0. They should be replaced with ${$foo->bar}.
 
 .. code-block:: php
    

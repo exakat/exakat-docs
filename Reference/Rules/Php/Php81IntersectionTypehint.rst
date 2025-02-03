@@ -20,7 +20,7 @@ Intersection Type
 	:og:description: Intersection types allows the combination of several types for the same argument or return value
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Intersection Type.html
 	:og:locale: en
-Intersection types allows the combination of several types for the same argument or return value. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php81IntersectionTypehint.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php81IntersectionTypehint.html","name":"Intersection Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jan 2025 10:21:35 +0000","dateModified":"Fri, 24 Jan 2025 10:21:35 +0000","description":"Intersection types allows the combination of several types for the same argument or return value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Intersection Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Intersection types allows the combination of several types for the same argument or return value. 
 
 Several types are specified at the same place as a single one. The different values are separated by a ampersand character ``&``. 
 

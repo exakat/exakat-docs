@@ -20,7 +20,7 @@ Ambiguous Types With Variables
 	:og:description: The same variable is assigned various types, in different methods
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Ambiguous Types With Variables.html
 	:og:locale: en
-The same variable is assigned various types, in different methods. This means that one may expect the same named variable to behave differently in different context.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/AmbiguousTypes.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/AmbiguousTypes.html","name":"Ambiguous Types With Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"The same variable is assigned various types, in different methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Ambiguous Types With Variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>The same variable is assigned various types, in different methods. This means that one may expect the same named variable to behave differently in different context.
 
 .. code-block:: php
    

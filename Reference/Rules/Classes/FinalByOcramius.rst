@@ -20,7 +20,7 @@ Class Should Be Final By Ocramius
 	:og:description: 'Make your classes always final, if they implement an interface, and no other public methods are defined'
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class Should Be Final By Ocramius.html
 	:og:locale: en
-'Make your classes always final, if they implement an interface, and no other public methods are defined'.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/FinalByOcramius.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/FinalByOcramius.html","name":"Class Should Be Final By Ocramius","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"'Make your classes always final, if they implement an interface, and no other public methods are defined'","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Class Should Be Final By Ocramius.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>'Make your classes always final, if they implement an interface, and no other public methods are defined'.
 
 When a class should be final, as explained by ``Ocramius`` (``Marco Pivetta``).
 

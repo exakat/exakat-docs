@@ -20,7 +20,7 @@ Getter And Setter
 	:og:description: A getter is a method whose purpose is to read the internal value of a class
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Getter And Setter.html
 	:og:locale: en
-A getter is a method whose purpose is to read the internal value of a class; a setter is a method whose purpose is to write a value inside a class. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Patterns\/GetterSetter.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Patterns\/GetterSetter.html","name":"Getter And Setter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"A getter is a method whose purpose is to read the internal value of a class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Getter And Setter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>A getter is a method whose purpose is to read the internal value of a class; a setter is a method whose purpose is to write a value inside a class. 
 
 Exakat marks simple setters and getters : their content only writes (resp. reads) on property at a time. More refined getters/setters might appear in the future, when formatting and filter is detected and omitted.
 

@@ -20,7 +20,7 @@ Unused Private Properties
 	:og:description: Unused static properties should be removed
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Private Properties.html
 	:og:locale: en
-Unused `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties should be removed. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UnusedPrivateProperty.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UnusedPrivateProperty.html","name":"Unused Private Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Unused static properties should be removed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Unused Private Properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Unused `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties should be removed. 
 
 Unused private properties are dead code. They are usually leftovers of development or refactorisation : they used to have a mission, but are now left. 
 

@@ -20,9 +20,10 @@ Dangling Array References
 	:og:description: Always unset a referenced-variable used in a loop
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dangling Array References.html
 	:og:locale: en
-Always unset a referenced-variable used in a loop.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DanglingArrayReferences.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DanglingArrayReferences.html","name":"Dangling Array References","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Feb 2025 17:19:52 +0000","dateModified":"Mon, 03 Feb 2025 17:19:52 +0000","description":"Always unset a referenced-variable used in a loop","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Dangling Array References.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Always unset a referenced-variable used in a loop.
 
 It is highly recommended to unset blind variables when they are set up as references after a loop. 
+
 When omitting this step, the next loop that will also require this variable will deal with garbage values, and produce unexpected results.
 
 .. code-block:: php
@@ -36,7 +37,6 @@ When omitting this step, the next loop that will also require this variable will
    }
    // This only unset the reference, not the value
    unset($a);
-   
    
    // Dangling array problem
    foreach($array as &$a) {

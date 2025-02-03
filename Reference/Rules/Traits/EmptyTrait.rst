@@ -20,7 +20,7 @@ Empty Traits
 	:og:description: List of all empty traits, defined in the code
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty Traits.html
 	:og:locale: en
-List of all empty traits, defined in the code. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/EmptyTrait.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/EmptyTrait.html","name":"Empty Traits","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 28 Jan 2025 15:14:39 +0000","dateModified":"Tue, 28 Jan 2025 15:14:39 +0000","description":"List of all empty traits, defined in the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Empty Traits.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>List of all empty traits, defined in the code. 
 
 Empty traits, unlike empty classes or interface, do not provide any useful feature, so they might as well be removed.
 

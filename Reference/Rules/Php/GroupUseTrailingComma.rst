@@ -20,7 +20,7 @@ Group Use Trailing Comma
 	:og:description: The usage of a final empty slot in array() was allowed with use statements
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Group Use Trailing Comma.html
 	:og:locale: en
-The usage of a final empty slot in `array() <https://www.php.net/array>`_ was allowed with use statements. This works in PHP 7.2 and more recent.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/GroupUseTrailingComma.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/GroupUseTrailingComma.html","name":"Group Use Trailing Comma","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"The usage of a final empty slot in array() was allowed with use statements","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Group Use Trailing Comma.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>The usage of a final empty slot in `array() <https://www.php.net/array>`_ was allowed with use statements. This works in PHP 7.2 and more recent.
 
 Although this empty instruction is ignored at execution, this allows for clean presentation of code, and short diff when committing in a VCS.
 

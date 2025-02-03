@@ -20,7 +20,7 @@ Crc32() Might Be Negative
 	:og:description: crc32() may return a negative number, on 32 bits platforms
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Crc32() Might Be Negative.html
 	:og:locale: en
-`crc32() <https://www.php.net/crc32>`_ may return a negative number, on 32 bits platforms.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Crc32MightBeNegative.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Crc32MightBeNegative.html","name":"Crc32() Might Be Negative","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"crc32() may return a negative number, on 32 bits platforms","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Crc32() Might Be Negative.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>`crc32() <https://www.php.net/crc32>`_ may return a negative number, on 32 bits platforms.
 
 According to the manual : Because PHP\'s integer type is signed many ``CRC32`` checksums will `result <https://www.php.net/result>`_ in negative integers on 32 bits platforms. On 64 bits installations, all `crc32() <https://www.php.net/crc32>`_ results will be positive integers though.
 

@@ -20,7 +20,7 @@ Class Could Be Final
 	:og:description: Any class that has no extension should be ``final`` by default
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class Could Be Final.html
 	:og:locale: en
-Any class that has no extension should be ``final`` by default.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/CouldBeFinal.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/CouldBeFinal.html","name":"Class Could Be Final","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"Any class that has no extension should be ``final`` by default","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Class Could Be Final.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Any class that has no extension should be ``final`` by default.
 
 As stated by ``Matthias Noback`` : ``If a class is not marked final, it has at least one subclass``.
 

@@ -20,7 +20,7 @@ Strtr Arguments
 	:og:description: Strtr() replaces characters by others in a string
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Strtr Arguments.html
 	:og:locale: en
-`Strtr() <https://www.php.net/strtr>`_ replaces characters by others in a string. When using strings, `strtr() <https://www.php.net/strtr>`_ replaces characters as long as they have a replacement. All others are ignored.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/StrtrArguments.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/StrtrArguments.html","name":"Strtr Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Strtr() replaces characters by others in a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Strtr Arguments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>`Strtr() <https://www.php.net/strtr>`_ replaces characters by others in a string. When using strings, `strtr() <https://www.php.net/strtr>`_ replaces characters as long as they have a replacement. All others are ignored.
 
 In particular, `strtr() <https://www.php.net/strtr>`_ works on strings of the same size, and cannot be used to remove chars.
 

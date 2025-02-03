@@ -20,7 +20,7 @@ Undefined Class Constants
 	:og:description: Class constants that are used, but never defined
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Class Constants.html
 	:og:locale: en
-Class constants that are used, but never defined. This yield a fatal `error <https://www.php.net/error>`_ upon execution, but no feedback at compile level.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UndefinedConstants.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UndefinedConstants.html","name":"Undefined Class Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"Class constants that are used, but never defined","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Undefined Class Constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Class constants that are used, but never defined. This yield a fatal `error <https://www.php.net/error>`_ upon execution, but no feedback at compile level.
 
 This analysis takes into account native PHP class constants, extensions and stubs. It also disambiguate enumeration cases. 
 

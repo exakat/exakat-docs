@@ -20,7 +20,7 @@ Utf8 Encode And Decode Are Deprecated
 	:og:description: utf8_encode() and utf8_decode() are deprecated in PHP 8
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Utf8 Encode And Decode Are Deprecated.html
 	:og:locale: en
-`utf8_encode() <https://www.php.net/utf8_encode>`_ and `utf8_decode() <https://www.php.net/utf8_decode>`_ are deprecated in PHP 8.0. They are planned removal in PHP 9.0.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Utf8EncodeDeprecated.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Utf8EncodeDeprecated.html","name":"Utf8 Encode And Decode Are Deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"utf8_encode() and utf8_decode() are deprecated in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Utf8 Encode And Decode Are Deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>`utf8_encode() <https://www.php.net/utf8_encode>`_ and `utf8_decode() <https://www.php.net/utf8_decode>`_ are deprecated in PHP 8.0. They are planned removal in PHP 9.0.
 
 See also `PHP RFC: Deprecate and Remove utf8_encode and utf8_decode <https://wiki.php.net/rfc/remove_utf8_decode_and_utf8_encode>`_.
 

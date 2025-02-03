@@ -20,7 +20,7 @@ Mixed Type Usage
 	:og:description: Usage of the ``mixed`` type
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mixed Type Usage.html
 	:og:locale: en
-Usage of the ``mixed`` type. The ``mixed`` type represents all the available types. It is the same as leaving the type empty, except that the intention to use any type is now explicit.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/MixedUsage.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/MixedUsage.html","name":"Mixed Type Usage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jan 2025 10:21:35 +0000","dateModified":"Fri, 24 Jan 2025 10:21:35 +0000","description":"Usage of the ``mixed`` type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Mixed Type Usage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Usage of the ``mixed`` type. The ``mixed`` type represents all the available types. It is the same as leaving the type empty, except that the intention to use any type is now explicit.
 
 .. code-block:: php
    

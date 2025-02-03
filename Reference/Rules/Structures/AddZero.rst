@@ -20,7 +20,7 @@ Adding Zero
 	:og:description: Adding 0 is useless, as 0 is the neutral element for addition
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Adding Zero.html
 	:og:locale: en
-Adding 0 is useless, as 0 is the neutral element for addition. Besides, when one of the operands is an integer, PHP silently triggers a cast to integer for the other operand. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/AddZero.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/AddZero.html","name":"Adding Zero","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Adding 0 is useless, as 0 is the neutral element for addition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Adding Zero.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Adding 0 is useless, as 0 is the neutral element for addition. Besides, when one of the operands is an integer, PHP silently triggers a cast to integer for the other operand. 
 
 This rule also report using ``+`` with variables, proeprties, etc. which triggers an automated conversion to integer.
 

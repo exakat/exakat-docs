@@ -20,7 +20,7 @@ Serialize Magic Method
 	:og:description: Classes that defines __serialize() and __unserialize() are using Serialize Magic
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Serialize Magic Method.html
 	:og:locale: en
-Classes that defines __serialize() and __unserialize() are using Serialize Magic.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/SerializeMagic.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/SerializeMagic.html","name":"Serialize Magic Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Classes that defines __serialize() and __unserialize() are using Serialize Magic","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Serialize Magic Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Classes that defines __serialize() and __unserialize() are using Serialize Magic.
 
 Serialize magic methods were introduced in PHP 7.4, and are not effective before.
 

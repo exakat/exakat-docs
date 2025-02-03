@@ -20,7 +20,7 @@ Child Class Removes Type
 	:og:description: PHP 7
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Child Class Removes Type.html
 	:og:locale: en
-PHP 7.2 introduced the ability to remove a type when overloading a method. This is not valid code for older versions.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ChildRemoveTypehint.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ChildRemoveTypehint.html","name":"Child Class Removes Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jan 2025 10:21:35 +0000","dateModified":"Fri, 24 Jan 2025 10:21:35 +0000","description":"PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Child Class Removes Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>PHP 7.2 introduced the ability to remove a type when overloading a method. This is not valid code for older versions.
 
 .. code-block:: php
    

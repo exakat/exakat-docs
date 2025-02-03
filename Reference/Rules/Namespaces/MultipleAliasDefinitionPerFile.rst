@@ -20,7 +20,7 @@ Multiple Alias Definitions Per File
 	:og:description: Avoid aliasing the same name with different aliases
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Alias Definitions Per File.html
 	:og:locale: en
-Avoid aliasing the same name with different aliases. This leads to confusion.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Namespaces\/MultipleAliasDefinitionPerFile.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Namespaces\/MultipleAliasDefinitionPerFile.html","name":"Multiple Alias Definitions Per File","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Avoid aliasing the same name with different aliases","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Multiple Alias Definitions Per File.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Avoid aliasing the same name with different aliases. This leads to confusion.
 
 .. code-block:: php
    

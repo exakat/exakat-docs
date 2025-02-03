@@ -20,7 +20,7 @@ ext/pcov
 	:og:description: CodeCoverage compatible driver for PHP
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/pcov.html
 	:og:locale: en
-CodeCoverage compatible driver for PHP.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extpcov.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extpcov.html","name":"ext\/pcov","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"CodeCoverage compatible driver for PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/ext\/pcov.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>CodeCoverage compatible driver for PHP.
 
 A `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ contained CodeCoverage compatible driver for PHP7. CodeCoverage provides collection, processing, and rendering functionality for PHP code coverage information.
 

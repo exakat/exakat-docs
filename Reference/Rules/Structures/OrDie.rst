@@ -20,7 +20,7 @@ Or Die
 	:og:description: Classic old style failed error management
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Or Die.html
 	:og:locale: en
-Classic old style failed `error <https://www.php.net/error>`_ management. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/OrDie.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/OrDie.html","name":"Or Die","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"Classic old style failed error management","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Or Die.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Classic old style failed `error <https://www.php.net/error>`_ management. 
 
 Interrupting a script will leave the application with a blank page, will make your life miserable for testing. Just don't do that.
 

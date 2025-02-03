@@ -20,7 +20,7 @@ ext/eio
 	:og:description: Extension EIO
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/eio.html
 	:og:locale: en
-Extension EIO.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Exteio.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Exteio.html","name":"ext\/eio","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Extension EIO","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/ext\/eio.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Extension EIO.
 
 This is a PHP extension wrapping functions of the `libeio <http://software.schmorp.de/pkg/libeio.html>`_ library written by Marc Lehmann.
 

@@ -20,7 +20,7 @@ Excimer
 	:og:description: Excimer is a PHP 7
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Excimer.html
 	:og:locale: en
-Excimer is a PHP 7.1+ extension that provides an interrupting timer and a low-overhead sampling profiler.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extexcimer.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extexcimer.html","name":"Excimer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Excimer is a PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Excimer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Excimer is a PHP 7.1+ extension that provides an interrupting timer and a low-overhead sampling profiler.
 
 .. code-block:: php
    

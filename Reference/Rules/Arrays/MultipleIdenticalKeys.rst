@@ -20,7 +20,7 @@ Multiple Index Definition
 	:og:description: This rules lists the indexes that are defined multiple times in the same array
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Index Definition.html
 	:og:locale: en
-This rules lists the indexes that are defined multiple times in the same array. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/MultipleIdenticalKeys.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/MultipleIdenticalKeys.html","name":"Multiple Index Definition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"This rules lists the indexes that are defined multiple times in the same array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Multiple Index Definition.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This rules lists the indexes that are defined multiple times in the same array. 
 
 In reality, they are overwriting each other. This is most probably a typo or a failed copy/paste.
 

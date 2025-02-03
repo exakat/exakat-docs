@@ -20,7 +20,7 @@ Uninitialized Property
 	:og:description: Uninitialized properties are not fully bootstrapped at the end of the constructor
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Uninitialized Property.html
 	:og:locale: en
-Uninitialized properties are not fully bootstrapped at the end of the constructor. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UninitedProperty.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UninitedProperty.html","name":"Uninitialized Property","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Uninitialized properties are not fully bootstrapped at the end of the constructor","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Uninitialized Property.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Uninitialized properties are not fully bootstrapped at the end of the constructor. 
 
 Properties may be initialized at definition time, along with their visibility and type. Some types are not initialized at definition time, as any object (before PHP 8.2) or resources, so they should be initialized during constructor. At the end of the former, all properties shall have a legit value, and be ready for usage.
 

@@ -20,7 +20,7 @@ Const Visibility Usage
 	:og:description: Visibility for class constant controls the accessibility to class constant
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Const Visibility Usage.html
 	:og:locale: en
-Visibility for class constant controls the accessibility to class constant.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ConstVisibilityUsage.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ConstVisibilityUsage.html","name":"Const Visibility Usage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Visibility for class constant controls the accessibility to class constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Const Visibility Usage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Visibility for class constant controls the accessibility to class constant.
 
 A public constant may be used anywhere in the code; a protected constant usage is restricted to the class and its relatives; a private constant is restricted to itself.
 

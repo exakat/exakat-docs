@@ -20,7 +20,7 @@ Sidelined Method
 	:og:description: A method, defined in a trait, which is overwritten by a class's method
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Sidelined Method.html
 	:og:locale: en
-A method, defined in a trait, which is overwritten by a class's method. This makes the trait's method useless and unreachable. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/SidelinedMethod.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/SidelinedMethod.html","name":"Sidelined Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"A method, defined in a trait, which is overwritten by a class's method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Sidelined Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>A method, defined in a trait, which is overwritten by a class's method. This makes the trait's method useless and unreachable. 
 
 It is recommended to check if this is not a typo, as the trait may not be able to work correctly.
 

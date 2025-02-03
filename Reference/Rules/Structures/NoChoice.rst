@@ -20,7 +20,7 @@ No Choice
 	:og:description: A conditional structure is being used, and both alternatives are the same, leading to the illusion of choice
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Choice.html
 	:og:locale: en
-A conditional structure is being used, and both alternatives are the same, leading to the illusion of choice. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/NoChoice.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/NoChoice.html","name":"No Choice","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"A conditional structure is being used, and both alternatives are the same, leading to the illusion of choice","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Choice.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>A conditional structure is being used, and both alternatives are the same, leading to the illusion of choice. 
 
 Either the condition is useless, and may be removed, or the alternatives need to be distinguished.
 

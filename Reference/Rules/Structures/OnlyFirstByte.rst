@@ -20,7 +20,7 @@ Only First Byte Will Be Assigned
 	:og:description: When assigning a char to a string with an array notation, only the first byte is used
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Only First Byte Will Be Assigned.html
 	:og:locale: en
-When assigning a char to a string with an array notation, only the first byte is used.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/OnlyFirstByte.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/OnlyFirstByte.html","name":"Only First Byte Will Be Assigned","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Feb 2025 17:19:52 +0000","dateModified":"Mon, 03 Feb 2025 17:19:52 +0000","description":"When assigning a char to a string with an array notation, only the first byte is used","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Only First Byte Will Be Assigned.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>When assigning a char to a string with an array notation, only the first byte is used.
 
 .. code-block:: php
    
@@ -42,6 +42,13 @@ Related PHP errors
   + `Only the first byte will be assigned to the string offset <https://php-errors.readthedocs.io/en/latest/messages/only-the-first-byte-will-be-assigned-to-the-string-offset.html>`_
 
 
+
+Connex PHP features
+-------------------
+
+  + `byte <https://php-dictionary.readthedocs.io/en/latest/dictionary/byte.ini.html>`_
+  + `character <https://php-dictionary.readthedocs.io/en/latest/dictionary/character.ini.html>`_
+  + `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
 
 
 Suggestions

@@ -20,7 +20,7 @@ Ternary In Concat
 	:og:description: Ternary and coalesce operator have higher priority than dot '
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Ternary In Concat.html
 	:og:locale: en
-Ternary and coalesce operator have higher priority than dot '.' for concatenation. This means that : 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/TernaryInConcat.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/TernaryInConcat.html","name":"Ternary In Concat","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Ternary and coalesce operator have higher priority than dot '","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Ternary In Concat.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Ternary and coalesce operator have higher priority than dot '.' for concatenation. This means that : 
 prints actually ``'E'``, instead of the awaited ``'B0CE'``.
 
 To be safe, always add parenthesis when using ternary operator with concatenation.

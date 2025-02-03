@@ -20,7 +20,7 @@ Count() Is Not Negative
 	:og:description: This rule reports when the Countable method ``count`` is poised to return a negative value
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Count() Is Not Negative.html
 	:og:locale: en
-This rule reports when the `Countable <https://www.php.net/countable>`_ method ``count`` is poised to return a negative value. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CountIsNotNegative.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CountIsNotNegative.html","name":"Count() Is Not Negative","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"This rule reports when the Countable method ``count`` is poised to return a negative value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Count() Is Not Negative.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This rule reports when the `Countable <https://www.php.net/countable>`_ method ``count`` is poised to return a negative value. 
 
 It also reports when a call to ``count()`` is compared to a value that might be negative.
 

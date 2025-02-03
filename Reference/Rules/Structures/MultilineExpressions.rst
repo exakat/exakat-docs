@@ -20,7 +20,7 @@ Multiline Expressions
 	:og:description: List of expressions that are spread across several lines
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiline Expressions.html
 	:og:locale: en
-List of expressions that are spread across several lines. The default is 2.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MultilineExpressions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MultilineExpressions.html","name":"Multiline Expressions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"List of expressions that are spread across several lines","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Multiline Expressions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>List of expressions that are spread across several lines. The default is 2.
 
 Structures that commonly accept several lines, like `match() <https://www.php.net/manual/en/control-structures.match.php>`_, `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_, classes, functions, closures, constant definitions, etc. are omitted. 
 

@@ -20,7 +20,7 @@ Named Parameter Usage
 	:og:description: Named parameters is a way to call a method, by specifying the name of the argument, instead of their position order
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Named Parameter Usage.html
 	:og:locale: en
-Named parameters is a way to call a method, by specifying the name of the argument, instead of their position order.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/NamedParameterUsage.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/NamedParameterUsage.html","name":"Named Parameter Usage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Named parameters is a way to call a method, by specifying the name of the argument, instead of their position order","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Named Parameter Usage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Named parameters is a way to call a method, by specifying the name of the argument, instead of their position order.
 
 Named parameters works for both custom methods and PHP native functions.
 

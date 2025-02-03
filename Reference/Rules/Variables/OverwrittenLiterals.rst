@@ -20,7 +20,7 @@ Overwritten Literals
 	:og:description: The same variable is assigned a literal twice
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Overwritten Literals.html
 	:og:locale: en
-The same variable is assigned a literal twice. It is possible that one of the assignation is too many.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/OverwrittenLiterals.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/OverwrittenLiterals.html","name":"Overwritten Literals","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"The same variable is assigned a literal twice","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Overwritten Literals.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>The same variable is assigned a literal twice. It is possible that one of the assignation is too many.
 
 This analysis doesn't take into account the distance between two assignations : it may report false positives when the variable is actually used for several purposes, and, as such, assigned twice with different values.
 

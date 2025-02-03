@@ -20,7 +20,7 @@ Must Use Result, So It Returns
 	:og:description: A method or function that uses the #[MustUseResult] attribute, must return a value
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Must Use Result, So It Returns.html
 	:og:locale: en
-A method or function that uses the #[MustUseResult] `attribute <https://www.php.net/attribute>`_, must return a value. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Attributes\/MustUseReturnReturns.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Attributes\/MustUseReturnReturns.html","name":"Must Use Result, So It Returns","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jan 2025 10:53:43 +0000","dateModified":"Mon, 13 Jan 2025 10:53:43 +0000","description":"A method or function that uses the #[MustUseResult] attribute, must return a value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Must Use Result, So It Returns.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>A method or function that uses the #[MustUseResult] `attribute <https://www.php.net/attribute>`_, must return a value. 
 
 Hence, it cannot use the ``void`` and ``never`` returntypes, and it must use a ``return`` in the body of the method.
 

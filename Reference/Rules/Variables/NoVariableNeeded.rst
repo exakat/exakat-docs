@@ -20,7 +20,7 @@ No Variable Needed
 	:og:description: This analysis reports methods where the local variables are not needed
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Variable Needed.html
 	:og:locale: en
-This analysis reports methods where the local variables are not needed.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/NoVariableNeeded.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/NoVariableNeeded.html","name":"No Variable Needed","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"This analysis reports methods where the local variables are not needed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Variable Needed.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This analysis reports methods where the local variables are not needed.
 
 Such variables may be used to improve readability. 
 

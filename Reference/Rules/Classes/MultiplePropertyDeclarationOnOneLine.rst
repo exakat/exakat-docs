@@ -20,7 +20,7 @@ Multiple Property Declaration On One Line
 	:og:description: Multiple properties are defined on the same line
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Property Declaration On One Line.html
 	:og:locale: en
-Multiple properties are defined on the same line. They could be defined independently, on separate expressions.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/MultiplePropertyDeclarationOnOneLine.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/MultiplePropertyDeclarationOnOneLine.html","name":"Multiple Property Declaration On One Line","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Multiple properties are defined on the same line","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Multiple Property Declaration On One Line.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Multiple properties are defined on the same line. They could be defined independently, on separate expressions.
 
 Keeping properties separate helps documenting and refactoring them independently.
 

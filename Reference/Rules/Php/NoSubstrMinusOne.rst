@@ -20,7 +20,7 @@ No Substr Minus One
 	:og:description: Negative index on string reaches offsets starting from the end of the string
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Substr Minus One.html
 	:og:locale: en
-Negative index on string reaches offsets starting from the end of the string. This is equivalent to removing the requested offset from the full length of the string.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/NoSubstrMinusOne.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/NoSubstrMinusOne.html","name":"No Substr Minus One","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"Negative index on string reaches offsets starting from the end of the string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Substr Minus One.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Negative index on string reaches offsets starting from the end of the string. This is equivalent to removing the requested offset from the full length of the string.
 
 This syntax also prevents relying on `substr() <https://www.php.net/substr>`_ to collect characters at the end of the string.
 

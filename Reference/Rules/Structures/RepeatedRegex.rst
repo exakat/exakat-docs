@@ -20,7 +20,7 @@ Repeated Regex
 	:og:description: Repeated regex should be centralized
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Repeated Regex.html
 	:og:locale: en
-Repeated regex should be centralized. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/RepeatedRegex.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/RepeatedRegex.html","name":"Repeated Regex","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Repeated regex should be centralized","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Repeated Regex.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Repeated regex should be centralized. 
 
 When a regex is repeatedly used in the code, it is getting harder to update. 
 Regex that are repeated at least once (aka, used twice or more) are reported. Regex that are dynamically build are not reported.

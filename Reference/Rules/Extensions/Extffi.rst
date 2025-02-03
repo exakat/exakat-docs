@@ -20,7 +20,7 @@ ext/ffi
 	:og:description: Extension ``FFI`` : Foreign Function Interface 
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/ffi.html
 	:og:locale: en
-Extension ``FFI`` : Foreign Function Interface .
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extffi.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extffi.html","name":"ext\/ffi","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Extension ``FFI`` : Foreign Function Interface ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/ext\/ffi.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Extension ``FFI`` : Foreign Function Interface .
 
 This extension allows the loading of shared libraries (.DLL or .so), calling of C functions and accessing of C data structures in pure PHP, without having to have deep knowledge of the Zend extension API, and without having to learn a third “intermediate” language. The public API is implemented as a single class `FFI <https://www.php.net/ffi>`_ with several `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods (some of them may be called dynamically), and overloaded object methods, which perform the actual interaction with C data.
 

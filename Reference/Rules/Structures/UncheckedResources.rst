@@ -20,7 +20,7 @@ Unchecked Resources
 	:og:description: Resources are created, but never checked before being used
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unchecked Resources.html
 	:og:locale: en
-Resources are created, but never checked before being used. This is not safe.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UncheckedResources.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UncheckedResources.html","name":"Unchecked Resources","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Resources are created, but never checked before being used","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Unchecked Resources.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Resources are created, but never checked before being used. This is not safe.
 
 Always check that resources are correctly created before using them.
 

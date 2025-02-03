@@ -20,7 +20,7 @@ Yield From Usage
 	:og:description: Usage of generator delegation, with ``yield from`` keyword
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Yield From Usage.html
 	:og:locale: en
-Usage of `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ delegation, with ``yield from`` keyword.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/YieldFromUsage.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/YieldFromUsage.html","name":"Yield From Usage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Usage of generator delegation, with ``yield from`` keyword","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Yield From Usage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Usage of `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ delegation, with ``yield from`` keyword.
 
 In PHP 7, `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ delegation allows you to yield values from another ``Generator``, ``Traversable`` object, or array by using the ``yield from``. 
 

@@ -20,7 +20,7 @@ Mbstring Third Arg
 	:og:description: Some mbstring functions use the third argument for offset, not for encoding
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mbstring Third Arg.html
 	:og:locale: en
-Some mbstring functions use the third argument for offset, not for encoding.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MbstringThirdArg.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MbstringThirdArg.html","name":"Mbstring Third Arg","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Some mbstring functions use the third argument for offset, not for encoding","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Mbstring Third Arg.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Some mbstring functions use the third argument for offset, not for encoding.
 
 Those are the following functions : 
 

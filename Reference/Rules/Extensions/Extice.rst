@@ -20,7 +20,7 @@ Ice framework
 	:og:description: Ice - simple, fast and open-source PHP framework frozen in C-extension
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Ice framework.html
 	:og:locale: en
-Ice - simple, fast and open-source PHP framework frozen in C-extension. Ice is loosely coupled, allowing developers to use only the components that they need.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extice.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extice.html","name":"Ice framework","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Ice - simple, fast and open-source PHP framework frozen in C-extension","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Ice framework.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Ice - simple, fast and open-source PHP framework frozen in C-extension. Ice is loosely coupled, allowing developers to use only the components that they need.
 
 See also `ice framework <https://www.iceframework.org/>`_ and `ice framework : Hello world tutorial <https://www.iceframework.org/doc/tutorial/hello>`_.
 

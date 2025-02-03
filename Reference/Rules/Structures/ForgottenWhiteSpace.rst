@@ -20,7 +20,7 @@ Forgotten Whitespace
 	:og:description: Forgotten whitespaces brings unexpected error messages
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Forgotten Whitespace.html
 	:og:locale: en
-Forgotten whitespaces brings unexpected `error <https://www.php.net/error>`_ messages.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ForgottenWhiteSpace.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ForgottenWhiteSpace.html","name":"Forgotten Whitespace","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jan 2025 17:40:16 +0000","dateModified":"Thu, 16 Jan 2025 17:40:16 +0000","description":"Forgotten whitespaces brings unexpected error messages","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Forgotten Whitespace.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Forgotten whitespaces brings unexpected `error <https://www.php.net/error>`_ messages.
 
 White spaces have been left at either end of a file : before the PHP opening tag, or after the closing tag. 
 

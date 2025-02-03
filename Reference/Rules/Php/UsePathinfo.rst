@@ -20,7 +20,7 @@ Use Pathinfo
 	:og:description: Use pathinfo() function instead of string manipulations
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Pathinfo.html
 	:og:locale: en
-Use `pathinfo() <https://www.php.net/pathinfo>`_ function instead of string manipulations.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/UsePathinfo.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/UsePathinfo.html","name":"Use Pathinfo","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 28 Jan 2025 15:14:39 +0000","dateModified":"Tue, 28 Jan 2025 15:14:39 +0000","description":"Use pathinfo() function instead of string manipulations","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Use Pathinfo.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Use `pathinfo() <https://www.php.net/pathinfo>`_ function instead of string manipulations.
 
 `pathinfo() <https://www.php.net/pathinfo>`_ is more efficient and readable and string functions.
 When the path contains UTF-8 characters, `pathinfo() <https://www.php.net/pathinfo>`_ may strip them. There, string functions are necessary.

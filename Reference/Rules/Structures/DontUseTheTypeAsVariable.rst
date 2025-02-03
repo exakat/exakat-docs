@@ -20,7 +20,7 @@ Don't Use The Type As Variable Name
 	:og:description: When it is difficult to find a good name, it is very tempting to use the type
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Use The Type As Variable Name.html
 	:og:locale: en
-When it is difficult to find a good name, it is very tempting to use the type.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DontUseTheTypeAsVariable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DontUseTheTypeAsVariable.html","name":"Don't Use The Type As Variable Name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"When it is difficult to find a good name, it is very tempting to use the type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Don't Use The Type As Variable Name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>When it is difficult to find a good name, it is very tempting to use the type.
 
 Such a name should carry its actual usage, as the type is already hold by the data.
 

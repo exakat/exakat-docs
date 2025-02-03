@@ -20,7 +20,7 @@ Prefix And Suffixes With Type
 	:og:description: This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return type
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Prefix And Suffixes With Type.html
 	:og:locale: en
-This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return type.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/PrefixToType.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/PrefixToType.html","name":"Prefix And Suffixes With Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jan 2025 10:21:35 +0000","dateModified":"Fri, 24 Jan 2025 10:21:35 +0000","description":"This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Prefix And Suffixes With Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return type.
 
 For example, a method with the signature ``function isACustomer() {}`` should return a boolean. That boolean can then be read when calling the method : ``if ($user->isACustomer()) {}``.
 

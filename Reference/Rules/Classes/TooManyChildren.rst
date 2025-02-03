@@ -20,7 +20,7 @@ Too Many Children
 	:og:description: Classes that have more than 15 children
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Children.html
 	:og:locale: en
-Classes that have more than 15 children. It is worth checking if they cannot be refactored in anyway.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/TooManyChildren.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/TooManyChildren.html","name":"Too Many Children","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Classes that have more than 15 children","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Too Many Children.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Classes that have more than 15 children. It is worth checking if they cannot be refactored in anyway.
 
 The threshold of 15 children can be configured. There is no technical limitation of the number of children and grand-children for a class. 
 

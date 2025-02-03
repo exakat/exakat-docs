@@ -20,7 +20,7 @@ Cant Instantiate Non Class
 	:og:description: It is not possible to instantiate anything else than a class
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cant Instantiate Non Class.html
 	:og:locale: en
-It is not possible to instantiate anything else than a class. Interfaces, enumerations and traits cannot be instantiated.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/CantInstantiateNonClass.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/CantInstantiateNonClass.html","name":"Cant Instantiate Non Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"It is not possible to instantiate anything else than a class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Cant Instantiate Non Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>It is not possible to instantiate anything else than a class. Interfaces, enumerations and traits cannot be instantiated.
 
 .. code-block:: php
    

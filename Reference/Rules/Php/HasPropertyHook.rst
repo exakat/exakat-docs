@@ -20,7 +20,7 @@ Has Property Hook
 	:og:description: The analyzed code makes use of property hooks
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Has Property Hook.html
 	:og:locale: en
-The analyzed code makes use of property hooks. Property hooks are special methods, ``get`` and ``set``, which are called when a property is read or written. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/HasPropertyHook.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/HasPropertyHook.html","name":"Has Property Hook","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"The analyzed code makes use of property hooks","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Has Property Hook.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>The analyzed code makes use of property hooks. Property hooks are special methods, ``get`` and ``set``, which are called when a property is read or written. 
 
 Property hooks were introduced in PHP 8.4.
 

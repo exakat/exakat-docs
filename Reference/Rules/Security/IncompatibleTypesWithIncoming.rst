@@ -20,7 +20,7 @@ Incompatible Types With Incoming Values
 	:og:description: This analysis report invalid type used when extracting data from an HTTP request, and using them with typed method
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Incompatible Types With Incoming Values.html
 	:og:locale: en
-This analysis report invalid type used when extracting data from an HTTP request, and using them with typed method. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Security\/IncompatibleTypesWithIncoming.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Security\/IncompatibleTypesWithIncoming.html","name":"Incompatible Types With Incoming Values","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"This analysis report invalid type used when extracting data from an HTTP request, and using them with typed method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Incompatible Types With Incoming Values.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This analysis report invalid type used when extracting data from an HTTP request, and using them with typed method. 
 
 This currently is based on \symfony\component\httpfoundation\request class, and its related `get*()` methods. 
 

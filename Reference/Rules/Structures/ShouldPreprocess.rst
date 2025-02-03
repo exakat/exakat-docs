@@ -20,7 +20,7 @@ Preprocessable
 	:og:description: The following expressions are made of literals or already known values : they may be fully calculated before running PHP
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Preprocessable.html
 	:og:locale: en
-The following expressions are made of literals or already known values : they may be fully calculated before running PHP.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ShouldPreprocess.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ShouldPreprocess.html","name":"Preprocessable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"The following expressions are made of literals or already known values : they may be fully calculated before running PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Preprocessable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>The following expressions are made of literals or already known values : they may be fully calculated before running PHP.
 By doing so, this will reduce the amount of work of PHP. This is a micro-optimisation, when this is used once, or the amount of work is small. It may be kept for readability.
 
 .. code-block:: php

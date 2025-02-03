@@ -20,7 +20,7 @@ PHP 8.0 Types
 	:og:description: New scalar types were introduced : mixed and false
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 8.0 Types.html
 	:og:locale: en
-New scalar types were introduced : mixed and false. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/PHP80scalartypehints.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/PHP80scalartypehints.html","name":"PHP 8.0 Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jan 2025 10:21:35 +0000","dateModified":"Fri, 24 Jan 2025 10:21:35 +0000","description":"New scalar types were introduced : mixed and false","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/PHP 8.0 Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>New scalar types were introduced : mixed and false. 
 
 They can't be used before PHP 8.0, and will be confused with classes or interfaces, or generate a parse `error <https://www.php.net/error>`_.
 

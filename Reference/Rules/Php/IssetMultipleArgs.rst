@@ -20,7 +20,7 @@ Isset Multiple Arguments
 	:og:description: isset() may be used with multiple arguments and acts as a AND
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Isset Multiple Arguments.html
 	:og:locale: en
-`isset() <https://www.www.php.net/isset>`_ may be used with multiple arguments and acts as a AND.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/IssetMultipleArgs.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/IssetMultipleArgs.html","name":"Isset Multiple Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"isset() may be used with multiple arguments and acts as a AND","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Isset Multiple Arguments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>`isset() <https://www.www.php.net/isset>`_ may be used with multiple arguments and acts as a AND.
 
 .. code-block:: php
    

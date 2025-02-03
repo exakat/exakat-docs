@@ -20,7 +20,7 @@ Protocol lists
 	:og:description: List of all protocols that were found in the code
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Protocol lists.html
 	:og:locale: en
-List of all protocols that were found in the code.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Type\/Protocols.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Type\/Protocols.html","name":"Protocol lists","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"List of all protocols that were found in the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Protocol lists.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>List of all protocols that were found in the code.
 
 From the manual : PHP comes with many built-in wrappers for various URL-style protocols for use with the filesystem functions such as `fopen() <https://www.php.net/fopen>`_, `copy() <https://www.php.net/copy>`_, `file_exists() <https://www.php.net/file_exists>`_ and `filesize() <https://www.php.net/filesize>`_.
 

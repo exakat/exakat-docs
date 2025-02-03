@@ -20,7 +20,7 @@ Goto Names
 	:og:description: This rule lists of all goto labels used in the code
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Goto Names.html
 	:og:locale: en
-This rule lists of all goto labels used in the code. The labels must match a goto call, although it is possible to create a label without a goto.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Gotonames.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Gotonames.html","name":"Goto Names","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"This rule lists of all goto labels used in the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Goto Names.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This rule lists of all goto labels used in the code. The labels must match a goto call, although it is possible to create a label without a goto.
 
 .. code-block:: php
    

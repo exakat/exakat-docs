@@ -20,7 +20,7 @@ Raised Access Level
 	:og:description: A visibility may be lowered, but not raised
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Raised Access Level.html
 	:og:locale: en
-A visibility may be lowered, but not raised. Visibilities apply to properties, methods and class constants. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/RaisedAccessLevel.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/RaisedAccessLevel.html","name":"Raised Access Level","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"A visibility may be lowered, but not raised","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Raised Access Level.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>A visibility may be lowered, but not raised. Visibilities apply to properties, methods and class constants. 
 
 This `error <https://www.php.net/error>`_ may be detected by PHP when the classes are in the same file, and declared in the right order : then, PHP reports a compilation `error <https://www.php.net/error>`_. However, when the classes are separated in different files, as it is customary, PHP won't check this at linting time, yielding a fatal `error <https://www.php.net/error>`_ at execution time.
 

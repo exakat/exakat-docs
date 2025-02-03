@@ -20,7 +20,7 @@ Override Attribute
 	:og:description: Override is a native PHP attribute
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Override Attribute.html
 	:og:locale: en
-`Override <https://www.php.net/override>`_ is a native PHP `attribute <https://www.php.net/attribute>`_. It was introduced in PHP 8.3, and was not available before. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Attributes\/Override.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Attributes\/Override.html","name":"Override Attribute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Feb 2025 17:19:52 +0000","dateModified":"Mon, 03 Feb 2025 17:19:52 +0000","description":"Override is a native PHP attribute","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Override Attribute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>`Override <https://www.php.net/override>`_ is a native PHP `attribute <https://www.php.net/attribute>`_. It was introduced in PHP 8.3, and was not available before. 
 
 In fact, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ analysis can perform that check on previous versions of PHP.
 
@@ -49,6 +49,12 @@ This analysis is not valid after PHP 8.3, as PHP does that itself.
    ?>
 
 See also `PHP RFC: Marking overridden methods (#[\Override]) <https://wiki.php.net/rfc/marking_overriden_methods>`_ and `PHP 8.3 RFC: Marking overridden methods (#[\Override]) <https://php.watch/rfcs/marking_overriden_methods>`_.
+
+Connex PHP features
+-------------------
+
+  + `override <https://php-dictionary.readthedocs.io/en/latest/dictionary/override.ini.html>`_
+  + `attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
 
 
 Suggestions

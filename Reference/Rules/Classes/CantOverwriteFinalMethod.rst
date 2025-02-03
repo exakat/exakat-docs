@@ -20,7 +20,7 @@ Can't Overwrite Final Method
 	:og:description: A final method is a method that cannot be overwritten in a child class
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Can't Overwrite Final Method.html
 	:og:locale: en
-A final method is a method that cannot be overwritten in a child class. This means that no class below the current class may define a method with the same name.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/CantOverwriteFinalMethod.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/CantOverwriteFinalMethod.html","name":"Can't Overwrite Final Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"A final method is a method that cannot be overwritten in a child class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Can't Overwrite Final Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>A final method is a method that cannot be overwritten in a child class. This means that no class below the current class may define a method with the same name.
 
 .. code-block:: php
    

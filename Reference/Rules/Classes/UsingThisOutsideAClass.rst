@@ -20,7 +20,7 @@ Using $this Outside A Class
 	:og:description: ``$this`` is a special variable, that should only be used in a class context
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Using $this Outside A Class.html
 	:og:locale: en
-``$this`` is a special variable, that should only be used in a class context. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UsingThisOutsideAClass.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UsingThisOutsideAClass.html","name":"Using $this Outside A Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 28 Jan 2025 15:14:39 +0000","dateModified":"Tue, 28 Jan 2025 15:14:39 +0000","description":"``$this`` is a special variable, that should only be used in a class context","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Using $this Outside A Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>``$this`` is a special variable, that should only be used in a class context. 
 
 Until PHP 7.1, ``$this`` may be used as an argument in a function or a method, a global, a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ : while this is legit, it sounds confusing enough to avoid it.
 Starting with PHP 7.1, the PHP `engine <https://www.php.net/engine>`_ check thoroughly that ``$this`` is used in an appropriate manner, and raise fatal errors in case it isn't. 

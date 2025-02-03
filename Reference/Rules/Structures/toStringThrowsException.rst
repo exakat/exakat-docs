@@ -20,7 +20,7 @@ __toString() Throws Exception
 	:og:description: Magical method __toString() can't throw exceptions
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/__toString() Throws Exception.html
 	:og:locale: en
-Magical method `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ can't throw exceptions.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/toStringThrowsException.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/toStringThrowsException.html","name":"__toString() Throws Exception","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jan 2025 17:40:16 +0000","dateModified":"Thu, 16 Jan 2025 17:40:16 +0000","description":"Magical method __toString() can't throw exceptions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/__toString() Throws Exception.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Magical method `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ can't throw exceptions.
 
 In fact, `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ may not let an `exception <https://www.php.net/exception>`_ pass. If it throw an `exception <https://www.php.net/exception>`_, but must catch it. If an underlying method throws an `exception <https://www.php.net/exception>`_, it must be caught.
 

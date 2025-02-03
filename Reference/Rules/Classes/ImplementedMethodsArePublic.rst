@@ -20,7 +20,7 @@ Implemented Methods Must Be Public
 	:og:description: Class methods that are defined in an interface must be public
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Implemented Methods Must Be Public.html
 	:og:locale: en
-Class methods that are defined in an interface must be public. They cannot be either private, nor protected.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ImplementedMethodsArePublic.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ImplementedMethodsArePublic.html","name":"Implemented Methods Must Be Public","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"Class methods that are defined in an interface must be public","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Implemented Methods Must Be Public.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Class methods that are defined in an interface must be public. They cannot be either private, nor protected.
 This `error <https://www.php.net/error>`_ is not reported by lint, and is reported at execution time.
 
 .. code-block:: php

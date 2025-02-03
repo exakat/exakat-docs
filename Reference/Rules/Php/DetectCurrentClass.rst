@@ -20,7 +20,7 @@ Detect Current Class
 	:og:description: Detecting the current class should be done with `self::class` or `static::class` operator
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Detect Current Class.html
 	:og:locale: en
-Detecting the current class should be done with `self\:\:class` or `static\:\:class` operator.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/DetectCurrentClass.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/DetectCurrentClass.html","name":"Detect Current Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Detecting the current class should be done with `self::class` or `static::class` operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Detect Current Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Detecting the current class should be done with `self\:\:class` or `static\:\:class` operator.
 
 `__CLASS__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ may be replaced by ``self\:\:class``. 
 `get_called_class() <https://www.php.net/get_called_class>`_ may be replaced by ``static\:\:class``. 

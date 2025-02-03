@@ -20,7 +20,7 @@ Nested Ternary Without Parenthesis
 	:og:description: It is not allowed to nest ternary operator within itself, without parenthesis
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Nested Ternary Without Parenthesis.html
 	:og:locale: en
-It is not allowed to nest ternary operator within itself, without parenthesis. This has been implemented in PHP 7.4.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/NestedTernaryWithoutParenthesis.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/NestedTernaryWithoutParenthesis.html","name":"Nested Ternary Without Parenthesis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"It is not allowed to nest ternary operator within itself, without parenthesis","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Nested Ternary Without Parenthesis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>It is not allowed to nest ternary operator within itself, without parenthesis. This has been implemented in PHP 7.4.
 
 The reason behind this feature is to keep the code expressive. See the Warning message for more explanations
 

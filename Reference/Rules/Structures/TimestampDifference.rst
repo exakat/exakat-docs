@@ -20,7 +20,7 @@ Timestamp Difference
 	:og:description: Avoid adding or subtracting quantities of seconds to measure time
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Timestamp Difference.html
 	:og:locale: en
-Avoid adding or subtracting quantities of seconds to measure time. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/TimestampDifference.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/TimestampDifference.html","name":"Timestamp Difference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Avoid adding or subtracting quantities of seconds to measure time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Timestamp Difference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Avoid adding or subtracting quantities of seconds to measure time. 
 
 ``time()``, ``microtime()`` or ``DateTime\:\:format('U')`` provide timestamps, which are the number of seconds since ``January, 1rst, 1970``. They shouldn't be used to calculate duration or another date by adding an amount of seconds. 
 

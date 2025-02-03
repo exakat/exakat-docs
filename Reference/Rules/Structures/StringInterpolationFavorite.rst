@@ -20,7 +20,7 @@ String Interpolation Favorite
 	:og:description: This analysis collects the various ways that string interpolation is done inside strings
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/String Interpolation Favorite.html
 	:og:locale: en
-This analysis collects the various ways that string interpolation is done inside strings. Until PHP 8.1, there were 4 ways :
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/StringInterpolationFavorite.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/StringInterpolationFavorite.html","name":"String Interpolation Favorite","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"This analysis collects the various ways that string interpolation is done inside strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/String Interpolation Favorite.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This analysis collects the various ways that string interpolation is done inside strings. Until PHP 8.1, there were 4 ways :
 
 .. code-block:: php
    

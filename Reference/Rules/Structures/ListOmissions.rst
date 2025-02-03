@@ -20,7 +20,7 @@ list() May Omit Variables
 	:og:description: Simply omit any unused variable in a list() call
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/list() May Omit Variables.html
 	:og:locale: en
-Simply omit any unused variable in a `list() <https://www.php.net/list>`_ call. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ListOmissions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ListOmissions.html","name":"list() May Omit Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Simply omit any unused variable in a list() call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/list() May Omit Variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Simply omit any unused variable in a `list() <https://www.php.net/list>`_ call. 
 
 `list() <https://www.php.net/list>`_ is the only PHP function that accepts to have omitted arguments. If the following code makes no usage of a listed variable, just omit it.
 

@@ -20,7 +20,7 @@ PHP 80 Named Parameter Variadic
 	:og:description: Named parameter with variadic have been renamed from 0 to 'parameter name' in PHP 8
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 80 Named Parameter Variadic.html
 	:og:locale: en
-Named parameter with variadic have been renamed from 0 to 'parameter name' in PHP 8.0.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php80NamedParameterVariadic.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php80NamedParameterVariadic.html","name":"PHP 80 Named Parameter Variadic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 29 Jan 2025 17:05:54 +0000","dateModified":"Wed, 29 Jan 2025 17:05:54 +0000","description":"Named parameter with variadic have been renamed from 0 to 'parameter name' in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/PHP 80 Named Parameter Variadic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Named parameter with variadic have been renamed from 0 to 'parameter name' in PHP 8.0.
 
 In PHP 7.0, with positional argument only, the content of $b is in an array, index 0. This is also true with PHP 8.0.
 

@@ -20,7 +20,7 @@ Union Type
 	:og:description: Union types allows the specification of several type for the same argument or return value
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Union Type.html
 	:og:locale: en
-Union types allows the specification of several type for the same argument or return value. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php80UnionTypehint.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php80UnionTypehint.html","name":"Union Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jan 2025 10:21:35 +0000","dateModified":"Fri, 24 Jan 2025 10:21:35 +0000","description":"Union types allows the specification of several type for the same argument or return value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Union Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Union types allows the specification of several type for the same argument or return value. 
 
 Several types are specified at the same place as a single one. The different values are separated by a pipe character ``|``, like for exceptions 
 Nullable is reported as union type. Mixed and iterable are not reported as a union type. 

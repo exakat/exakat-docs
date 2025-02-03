@@ -20,7 +20,7 @@ Create Default Values
 	:og:description: This commands adds a link between variables, property definitions and any assignation to this container
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Create Default Values.html
 	:og:locale: en
-This commands adds a link between variables, property definitions and any assignation to this container.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/CreateDefaultValues.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/CreateDefaultValues.html","name":"Create Default Values","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:52:58 +0000","dateModified":"Tue, 14 Jan 2025 12:52:58 +0000","description":"This commands adds a link between variables, property definitions and any assignation to this container","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Create Default Values.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This commands adds a link between variables, property definitions and any assignation to this container.
 
 Variables have no definition expression in PHP. Exakat holds their definition with the `Variabledefinition` node.
 

@@ -20,7 +20,7 @@ mcrypt_create_iv() With Default Values
 	:og:description: Avoid using `mcrypt_create_iv()` default values
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/mcrypt_create_iv() With Default Values.html
 	:og:locale: en
-Avoid using `mcrypt_create_iv()` default values.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/McryptcreateivWithoutOption.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/McryptcreateivWithoutOption.html","name":"mcrypt_create_iv() With Default Values","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Avoid using `mcrypt_create_iv()` default values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/mcrypt_create_iv() With Default Values.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Avoid using `mcrypt_create_iv()` default values.
 
 ``mcrypt_create_iv()`` used to have ``MCRYPT_DEV_RANDOM`` as default values, and in PHP 5.6, it now uses ``MCRYPT_DEV_URANDOM``.
 

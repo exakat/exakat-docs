@@ -20,7 +20,7 @@ Float Conversion As Index
 	:og:description: Only integers and strings are possible types when used for array index
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Float Conversion As Index.html
 	:og:locale: en
-Only integers and strings are possible types when used for array index. Until PHP 8.1, floats were converted to integer by truncation. Since PHP 8.1, a deprecated message is emitted.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/FloatConversionAsIndex.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/FloatConversionAsIndex.html","name":"Float Conversion As Index","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"Only integers and strings are possible types when used for array index","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Float Conversion As Index.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Only integers and strings are possible types when used for array index. Until PHP 8.1, floats were converted to integer by truncation. Since PHP 8.1, a deprecated message is emitted.
 
  The implicit conversion of float to int which leads to a loss in precision is now deprecated. This affects array keys, int type declarations in coercive mode, and operators working on integers.
 

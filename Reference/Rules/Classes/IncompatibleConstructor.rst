@@ -20,7 +20,7 @@ Different Constructors
 	:og:description: PHP allows different signatures for constructors
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Different Constructors.html
 	:og:locale: en
-PHP allows different signatures for constructors. This is a legacy feature. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/IncompatibleConstructor.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/IncompatibleConstructor.html","name":"Different Constructors","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"PHP allows different signatures for constructors","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Different Constructors.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>PHP allows different signatures for constructors. This is a legacy feature. 
 
 Only constructors are allowed to have different signatures : all other methods must be compatible with the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ methods.
 

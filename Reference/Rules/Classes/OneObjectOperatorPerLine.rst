@@ -20,7 +20,7 @@ One Object Operator Per Line
 	:og:description: It is recommended to avoid using more than one operator -> per line, to prevent information overload
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/One Object Operator Per Line.html
 	:og:locale: en
-It is recommended to avoid using more than one operator -> per line, to prevent information overload.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/OneObjectOperatorPerLine.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/OneObjectOperatorPerLine.html","name":"One Object Operator Per Line","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:52:58 +0000","dateModified":"Tue, 14 Jan 2025 12:52:58 +0000","description":"It is recommended to avoid using more than one operator -> per line, to prevent information overload","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/One Object Operator Per Line.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>It is recommended to avoid using more than one operator -> per line, to prevent information overload.
 
 This rule applies to chained  calls, and not on distinct expressions, that may end up on the same line. 
 

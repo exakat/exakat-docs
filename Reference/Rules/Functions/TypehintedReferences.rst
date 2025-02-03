@@ -20,7 +20,7 @@ Class-typed References
 	:og:description: Class-typee arguments have no need for references
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class-typed References.html
 	:og:locale: en
-Class-typee arguments have no need for references. Since they are representing an object, they are already a reference.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/TypehintedReferences.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/TypehintedReferences.html","name":"Class-typed References","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Class-typee arguments have no need for references","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Class-typed References.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Class-typee arguments have no need for references. Since they are representing an object, they are already a reference.
 
 In fact, adding the & on the argument definition may lead to `error <https://www.php.net/error>`_ like ``Only variables should be passed by reference``.
 

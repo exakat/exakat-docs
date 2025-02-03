@@ -20,7 +20,7 @@ Defined Exceptions
 	:og:description: This is the list of defined exceptions
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Defined Exceptions.html
 	:og:locale: en
-This is the list of defined exceptions. Those exceptions are custom to the code, and shall be thrown at one point or more in the code.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Exceptions\/DefinedExceptions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Exceptions\/DefinedExceptions.html","name":"Defined Exceptions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"This is the list of defined exceptions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Defined Exceptions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This is the list of defined exceptions. Those exceptions are custom to the code, and shall be thrown at one point or more in the code.
 
 .. code-block:: php
    

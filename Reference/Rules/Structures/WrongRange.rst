@@ -20,7 +20,7 @@ Unreadable Interval Check
 	:og:description: When checking that a value belongs to a certain interval, the interval check should use && and not ||
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unreadable Interval Check.html
 	:og:locale: en
-When checking that a value belongs to a certain interval, the interval check should use && and not ||.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/WrongRange.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/WrongRange.html","name":"Unreadable Interval Check","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 28 Jan 2025 15:14:39 +0000","dateModified":"Tue, 28 Jan 2025 15:14:39 +0000","description":"When checking that a value belongs to a certain interval, the interval check should use && and not ||","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Unreadable Interval Check.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>When checking that a value belongs to a certain interval, the interval check should use && and not ||.
 
 The expression should be read that ``$a`` is greater than a lower limit and lesser than an upper limit. 
 

@@ -20,7 +20,7 @@ Dynamic Property
 	:og:description: Dynamic access to class property
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dynamic Property.html
 	:og:locale: en
-Dynamic access to class property. This is when the the name of the property is stored in a variable (or other container), rather than statically provided.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/DynamicPropertyCall.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/DynamicPropertyCall.html","name":"Dynamic Property","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Dynamic access to class property","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Dynamic Property.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Dynamic access to class property. This is when the the name of the property is stored in a variable (or other container), rather than statically provided.
 
 .. code-block:: php
    

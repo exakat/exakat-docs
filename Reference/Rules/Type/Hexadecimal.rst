@@ -20,7 +20,7 @@ Hexadecimal Glossary
 	:og:description: This rule lists of all the integer values, written in the hexadecimal format
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Hexadecimal Glossary.html
 	:og:locale: en
-This rule lists of all the integer values, written in the hexadecimal format.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Type\/Hexadecimal.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Type\/Hexadecimal.html","name":"Hexadecimal Glossary","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:52:58 +0000","dateModified":"Tue, 14 Jan 2025 12:52:58 +0000","description":"This rule lists of all the integer values, written in the hexadecimal format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Hexadecimal Glossary.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This rule lists of all the integer values, written in the hexadecimal format.
 
 The hexadecimal syntax is a zero, followed by ``x`` and then, up to 16 hexadecimal digits: ``0x[0-9a-z]+``. The format is case insensitive.
 

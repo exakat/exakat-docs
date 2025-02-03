@@ -20,7 +20,7 @@ Directives Usage
 	:og:description: This rule lists the directives mentioned in the code
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Directives Usage.html
 	:og:locale: en
-This rule lists the directives mentioned in the code. When the directives are accessed in the code, it signals that they must be configured in PHP.ini first.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/DirectivesUsage.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/DirectivesUsage.html","name":"Directives Usage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"This rule lists the directives mentioned in the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Directives Usage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This rule lists the directives mentioned in the code. When the directives are accessed in the code, it signals that they must be configured in PHP.ini first.
 
 .. code-block:: php
    

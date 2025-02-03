@@ -20,7 +20,7 @@ Default Then Discard
 	:og:description: Discard the value before assigning it
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Default Then Discard.html
 	:og:locale: en
-Discard the value before assigning it. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DefaultThenDiscard.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DefaultThenDiscard.html","name":"Default Then Discard","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Discard the value before assigning it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Default Then Discard.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Discard the value before assigning it. 
 
 In the code below, the variable is assigned a default value. Then, this value is immediately tested and discarded. 
 

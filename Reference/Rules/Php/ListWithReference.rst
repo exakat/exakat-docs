@@ -20,7 +20,7 @@ List With Reference
 	:og:description: Support for references in list calls is not backward compatible with older versions of PHP
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/List With Reference.html
 	:og:locale: en
-Support for references in list calls is not backward compatible with older versions of PHP. The support was introduced in PHP 7.3.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ListWithReference.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ListWithReference.html","name":"List With Reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Support for references in list calls is not backward compatible with older versions of PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/List With Reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Support for references in list calls is not backward compatible with older versions of PHP. The support was introduced in PHP 7.3.
 
 .. code-block:: php
    

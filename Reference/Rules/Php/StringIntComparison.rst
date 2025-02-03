@@ -20,7 +20,7 @@ String Int Comparison
 	:og:description: While PHP allows direct comparison of integer and strings, with some type conversion, the rules of conversion changed in PHP 8
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/String Int Comparison.html
 	:og:locale: en
-While PHP allows direct comparison of integer and strings, with some type conversion, the rules of conversion changed in PHP 8.0. This lead to a change in behavior for comparison.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/StringIntComparison.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/StringIntComparison.html","name":"String Int Comparison","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:52:58 +0000","dateModified":"Tue, 14 Jan 2025 12:52:58 +0000","description":"While PHP allows direct comparison of integer and strings, with some type conversion, the rules of conversion changed in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/String Int Comparison.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>While PHP allows direct comparison of integer and strings, with some type conversion, the rules of conversion changed in PHP 8.0. This lead to a change in behavior for comparison.
 
 In particular, strings that are equal to 0, or empty strings, have changed.
 

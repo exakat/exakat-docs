@@ -20,7 +20,7 @@ Same Variable Foreach
 	:og:description: A foreach which uses its own source as a blind variable is actually broken
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Same Variable Foreach.html
 	:og:locale: en
-A foreach which uses its own source as a blind variable is actually broken.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/AutoUnsetForeach.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/AutoUnsetForeach.html","name":"Same Variable Foreach","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"A foreach which uses its own source as a blind variable is actually broken","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Same Variable Foreach.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>A foreach which uses its own source as a blind variable is actually broken.
 
 Actually, PHP makes a copy of the source before it starts the loop. As such, the same variable may be used for both source and blind value. 
 

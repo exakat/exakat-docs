@@ -20,7 +20,7 @@ Method Is Not An If
 	:og:description: When a method consists only in one if statement, it might be worth refactoring
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Is Not An If.html
 	:og:locale: en
-When a method consists only in one if statement, it might be worth refactoring. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/MethodIsNotAnIf.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/MethodIsNotAnIf.html","name":"Method Is Not An If","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"When a method consists only in one if statement, it might be worth refactoring","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Method Is Not An If.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>When a method consists only in one if statement, it might be worth refactoring. 
 
 Each of the blocks of the if/then structure may be turned into their own method, so has to keep operations distinct. 
 

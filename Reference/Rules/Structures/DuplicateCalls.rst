@@ -20,7 +20,7 @@ Duplicate Calls
 	:og:description: Duplicate calls within the same context
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Duplicate Calls.html
 	:og:locale: en
-Duplicate calls within the same context. They should be called once, and then cached in a variable for reuse. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DuplicateCalls.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DuplicateCalls.html","name":"Duplicate Calls","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"Duplicate calls within the same context","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Duplicate Calls.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Duplicate calls within the same context. They should be called once, and then cached in a variable for reuse. 
 
 This saves a lot of time of execution and reexecution of the same code. It is a micro-optimisation in case of a simple property fetch, but it may be more costly.
 

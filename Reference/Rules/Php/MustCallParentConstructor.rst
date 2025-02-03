@@ -20,7 +20,7 @@ Must Call Parent Constructor
 	:og:description: Some PHP native classes require a call to ``parent::__construct()`` to be stable
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Must Call Parent Constructor.html
 	:og:locale: en
-Some PHP native classes require a call to ``parent\:\:`__construct() <https://www.php.net/manual/en/language.oop5.decon.php>`_`` to be stable. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/MustCallParentConstructor.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/MustCallParentConstructor.html","name":"Must Call Parent Constructor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"Some PHP native classes require a call to ``parent::__construct()`` to be stable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Must Call Parent Constructor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Some PHP native classes require a call to ``parent\:\:`__construct() <https://www.php.net/manual/en/language.oop5.decon.php>`_`` to be stable. 
 
 As of PHP 7.3, two classes currently need that call : ``SplTempFileObject`` and ``SplFileObject``.
 

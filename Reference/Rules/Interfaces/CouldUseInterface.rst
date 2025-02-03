@@ -20,7 +20,7 @@ Forgotten Interface
 	:og:description: The following classes have been found implementing an interface's methods, though it doesn't explicitly implements this interface
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Forgotten Interface.html
 	:og:locale: en
-The following classes have been found implementing an interface's methods, though it doesn't explicitly implements this interface. This may have been forgotten.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/CouldUseInterface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/CouldUseInterface.html","name":"Forgotten Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"The following classes have been found implementing an interface's methods, though it doesn't explicitly implements this interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Forgotten Interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>The following classes have been found implementing an interface's methods, though it doesn't explicitly implements this interface. This may have been forgotten.
 
 .. code-block:: php
    

@@ -20,7 +20,7 @@ Add Return Type
 	:og:description: Add returntype to methods, functions, closures and arrow functions
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Add Return Type.html
 	:og:locale: en
-Add returntype to methods, functions, closures and arrow functions. The return types are read from the code and deduced, based on literal values, local types and operations.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/ReturnTypehint.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/ReturnTypehint.html","name":"Add Return Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jan 2025 10:21:35 +0000","dateModified":"Fri, 24 Jan 2025 10:21:35 +0000","description":"Add returntype to methods, functions, closures and arrow functions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Add Return Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Add returntype to methods, functions, closures and arrow functions. The return types are read from the code and deduced, based on literal values, local types and operations.
 
 .. code-block:: php
    

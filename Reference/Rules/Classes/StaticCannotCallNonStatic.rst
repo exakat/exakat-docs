@@ -20,7 +20,7 @@ Static Methods Cannot Call Non-Static Methods
 	:og:description: A static method cannot call a non-static method
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Static Methods Cannot Call Non-Static Methods.html
 	:og:locale: en
-A `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method cannot call a non-`static <https://www.php.net/manual/en/language.oop5.static.php>`_ method. The object context would be missing. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/StaticCannotCallNonStatic.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/StaticCannotCallNonStatic.html","name":"Static Methods Cannot Call Non-Static Methods","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"A static method cannot call a non-static method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Static Methods Cannot Call Non-Static Methods.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>A `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method cannot call a non-`static <https://www.php.net/manual/en/language.oop5.static.php>`_ method. The object context would be missing. 
 
 On the other hand, a method may call a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method, as the context is lost, but not useful. 
 

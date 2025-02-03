@@ -20,7 +20,7 @@ Implied If
 	:og:description: It is confusing to emulate if/then with boolean operators
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Implied If.html
 	:og:locale: en
-It is confusing to emulate if/then with boolean operators.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ImpliedIf.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ImpliedIf.html","name":"Implied If","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"It is confusing to emulate if\/then with boolean operators","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Implied If.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>It is confusing to emulate if/then with boolean operators.
 
 It is possible to emulate a if/then structure by using the operators 'and' and 'or'. Since optimizations will be applied to them : 
 + when the left operand of 'and' is false, the right one is not executed, as its `result <https://www.php.net/result>`_ is useless; 

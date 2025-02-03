@@ -20,7 +20,7 @@ Use Positive Condition
 	:og:description: Whenever possible, use a positive condition
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Positive Condition.html
 	:og:locale: en
-Whenever possible, use a positive condition. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UsePositiveCondition.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UsePositiveCondition.html","name":"Use Positive Condition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Whenever possible, use a positive condition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Use Positive Condition.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Whenever possible, use a positive condition. 
 
 Positive conditions are easier to understand, and lead to less understanding problems.
 Negative conditions are not reported when else is not present.

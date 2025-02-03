@@ -20,7 +20,7 @@ Friend Attribute
 	:og:description: A method or class can supply via a #[Friend] attribute a list of classes
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Friend Attribute.html
 	:og:locale: en
-A method or class can supply via a #[Friend] `attribute <https://www.php.net/attribute>`_ a list of classes. Only these classes can call the method. This is loosely based on the C++ friend feature.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Attributes\/Friend.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Attributes\/Friend.html","name":"Friend Attribute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"A method or class can supply via a #[Friend] attribute a list of classes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Friend Attribute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>A method or class can supply via a #[Friend] `attribute <https://www.php.net/attribute>`_ a list of classes. Only these classes can call the method. This is loosely based on the C++ friend feature.
 
 + Multiple classes can be specified. E.g. #[Friend(Foo\:\:class, Bar\:\:class)]
 + A class can have a #[Friend] `attribute <https://www.php.net/attribute>`_, classes listed here are applied to every method.

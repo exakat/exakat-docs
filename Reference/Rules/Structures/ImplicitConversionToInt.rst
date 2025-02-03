@@ -20,7 +20,7 @@ Implicit Conversion To Int
 	:og:description: PHP warns when a value is implicitely converted from float to int
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Implicit Conversion To Int.html
 	:og:locale: en
-PHP warns when a value is implicitely converted from float to int. This usually leads to a loss of precision and unexpected values.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ImplicitConversionToInt.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ImplicitConversionToInt.html","name":"Implicit Conversion To Int","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"PHP warns when a value is implicitely converted from float to int","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Implicit Conversion To Int.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>PHP warns when a value is implicitely converted from float to int. This usually leads to a loss of precision and unexpected values.
 
 The conversion happens in various situations in PHP lifecycle (extracted from the wiki article): 
 

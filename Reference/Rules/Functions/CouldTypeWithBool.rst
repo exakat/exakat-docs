@@ -20,7 +20,7 @@ Could Type With Boolean
 	:og:description: That argument, property or method may be typed with ``bool``
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Type With Boolean.html
 	:og:locale: en
-That argument, property or method may be typed with ``bool``. Based on usage, it was determined that the only type possible is a boolean.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/CouldTypeWithBool.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/CouldTypeWithBool.html","name":"Could Type With Boolean","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"That argument, property or method may be typed with ``bool``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Could Type With Boolean.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>That argument, property or method may be typed with ``bool``. Based on usage, it was determined that the only type possible is a boolean.
 
 .. code-block:: php
    

@@ -20,7 +20,7 @@ __halt_compiler
 	:og:description: This rule reports ``__halt_compiler()`` usage
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/__halt_compiler.html
 	:og:locale: en
-This rule reports ``__halt_compiler()`` usage. This function is rarely used, beside with `Phar <https://www.php.net/phar>`_ archives, or to deliver both PHP code and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ binary.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Haltcompiler.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Haltcompiler.html","name":"__halt_compiler","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:52:58 +0000","dateModified":"Tue, 14 Jan 2025 12:52:58 +0000","description":"This rule reports ``__halt_compiler()`` usage","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/__halt_compiler.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This rule reports ``__halt_compiler()`` usage. This function is rarely used, beside with `Phar <https://www.php.net/phar>`_ archives, or to deliver both PHP code and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ binary.
 
 .. code-block:: php
    

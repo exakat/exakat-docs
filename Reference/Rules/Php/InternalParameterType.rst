@@ -20,7 +20,7 @@ Wrong Parameter Type
 	:og:description: The expected parameter is not of the correct type
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Parameter Type.html
 	:og:locale: en
-The expected parameter is not of the correct type. Check PHP documentation to know which is the right format to be used.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/InternalParameterType.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/InternalParameterType.html","name":"Wrong Parameter Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"The expected parameter is not of the correct type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Wrong Parameter Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>The expected parameter is not of the correct type. Check PHP documentation to know which is the right format to be used.
 
 .. code-block:: php
    

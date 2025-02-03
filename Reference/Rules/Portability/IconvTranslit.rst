@@ -20,7 +20,7 @@ Iconv With Translit
 	:og:description: The transliteration feature of iconv() depends on the underlying operating system to support it
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Iconv With Translit.html
 	:og:locale: en
-The transliteration feature of `iconv() <https://www.php.net/iconv>`_ depends on the underlying operating system to support it. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Portability\/IconvTranslit.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Portability\/IconvTranslit.html","name":"Iconv With Translit","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:52:58 +0000","dateModified":"Tue, 14 Jan 2025 12:52:58 +0000","description":"The transliteration feature of iconv() depends on the underlying operating system to support it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Iconv With Translit.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>The transliteration feature of `iconv() <https://www.php.net/iconv>`_ depends on the underlying operating system to support it. 
 
 Sometimes, the operating system doesn't have the needed dataset to do the conversion, and produces this `error <https://www.php.net/error>`_.
 

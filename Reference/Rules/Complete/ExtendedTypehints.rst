@@ -20,7 +20,7 @@ Extended Types
 	:og:description: Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the type
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Extended Types.html
 	:og:locale: en
-Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the type.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/ExtendedTypehints.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/ExtendedTypehints.html","name":"Extended Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jan 2025 10:21:35 +0000","dateModified":"Fri, 24 Jan 2025 10:21:35 +0000","description":"Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Extended Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the type.
 
 .. code-block:: php
    

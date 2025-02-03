@@ -20,7 +20,7 @@ Ambiguous Visibilities
 	:og:description: The properties have the same name, but have different visibilities, across different classes
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Ambiguous Visibilities.html
 	:og:locale: en
-The properties have the same name, but have different visibilities, across different classes. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/AmbiguousVisibilities.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/AmbiguousVisibilities.html","name":"Ambiguous Visibilities","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"The properties have the same name, but have different visibilities, across different classes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Ambiguous Visibilities.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>The properties have the same name, but have different visibilities, across different classes. 
 
 While it is legit to have a property with the same name in different classes, it may easily lead to confusion. As soon as the context is need to understand if the property is accessible or not, the readability suffers.
 

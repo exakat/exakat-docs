@@ -20,7 +20,7 @@ Overwritten Exceptions
 	:og:description: In catch blocks, it is good practice to avoid overwriting the incoming exception, as information about the exception will be lost
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Overwritten Exceptions.html
 	:og:locale: en
-In catch blocks, it is good practice to avoid overwriting the incoming `exception <https://www.php.net/exception>`_, as information about the `exception <https://www.php.net/exception>`_ will be lost.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Exceptions\/OverwriteException.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Exceptions\/OverwriteException.html","name":"Overwritten Exceptions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"In catch blocks, it is good practice to avoid overwriting the incoming exception, as information about the exception will be lost","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Overwritten Exceptions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>In catch blocks, it is good practice to avoid overwriting the incoming `exception <https://www.php.net/exception>`_, as information about the `exception <https://www.php.net/exception>`_ will be lost.
 
 .. code-block:: php
    

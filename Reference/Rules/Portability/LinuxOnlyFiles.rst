@@ -20,7 +20,7 @@ Linux Only Files
 	:og:description: List of files that are only found on Linux style systems
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Linux Only Files.html
 	:og:locale: en
-List of files that are only found on Linux style systems. They are making the application depend on the system.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Portability\/LinuxOnlyFiles.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Portability\/LinuxOnlyFiles.html","name":"Linux Only Files","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"List of files that are only found on Linux style systems","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Linux Only Files.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>List of files that are only found on Linux style systems. They are making the application depend on the system.
 
 .. code-block:: php
    

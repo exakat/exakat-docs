@@ -20,7 +20,7 @@ Reuse Existing Variable
 	:og:description: A variable is already holding the content that is calculated again : it could be used again
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Reuse Existing Variable.html
 	:og:locale: en
-A variable is already holding the content that is calculated again : it could be used again. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ReuseVariable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ReuseVariable.html","name":"Reuse Existing Variable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"A variable is already holding the content that is calculated again : it could be used again","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Reuse Existing Variable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>A variable is already holding the content that is calculated again : it could be used again. 
 
 It is recommended to use the cached value. This saves some computation, in particular when used in a loop, and speeds up the process. This is called memoization.
 Some expressions are not idempotent, and should not be cached. For example, calls to `time() <https://www.php.net/time>`_ or `fgets() <https://www.php.net/fgets>`_ return different values with the same parameters.

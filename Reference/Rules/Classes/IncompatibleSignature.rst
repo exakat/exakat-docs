@@ -20,7 +20,7 @@ Incompatible Signature Methods
 	:og:description: Methods should have the same signature when being overwritten
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Incompatible Signature Methods.html
 	:og:locale: en
-Methods should have the same signature when being overwritten.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/IncompatibleSignature.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/IncompatibleSignature.html","name":"Incompatible Signature Methods","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"Methods should have the same signature when being overwritten","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Incompatible Signature Methods.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Methods should have the same signature when being overwritten.
 
 The same signatures means the children class must have : 
 

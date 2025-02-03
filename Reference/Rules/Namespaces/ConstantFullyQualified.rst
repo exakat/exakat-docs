@@ -20,7 +20,7 @@ Fully Qualified Constants
 	:og:description: Constants defined with their namespace
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Fully Qualified Constants.html
 	:og:locale: en
-Constants defined with their namespace.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Namespaces\/ConstantFullyQualified.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Namespaces\/ConstantFullyQualified.html","name":"Fully Qualified Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Constants defined with their namespace","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Fully Qualified Constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Constants defined with their namespace.
 
 When defining constants with `define() <https://www.php.net/define>`_ function, it is possible to include the actual namespace : 
 However, the name should be fully qualified without the initial \. Here, \a\b\c constant will never be accessible as a namespace constant, though it will be accessible via the `constant() <https://www.php.net/constant>`_ function.

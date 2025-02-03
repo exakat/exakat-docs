@@ -20,7 +20,7 @@ Can't Disable Function
 	:og:description: This is the list of potentially dangerous PHP functions being used in the code, such as exec() or fsockopen()
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Can't Disable Function.html
 	:og:locale: en
-This is the list of potentially dangerous PHP functions being used in the code, such as `exec() <https://www.php.net/exec>`_ or `fsockopen() <https://www.php.net/fsockopen>`_. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Security\/CantDisableFunction.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Security\/CantDisableFunction.html","name":"Can't Disable Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"This is the list of potentially dangerous PHP functions being used in the code, such as exec() or fsockopen()","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Can't Disable Function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This is the list of potentially dangerous PHP functions being used in the code, such as `exec() <https://www.php.net/exec>`_ or `fsockopen() <https://www.php.net/fsockopen>`_. 
 
 eval() is not reported here, as it is not a PHP function, but a language construct : it can't be disabled.
 This analysis is the base for suggesting values for the ``disable_functions`` directive.

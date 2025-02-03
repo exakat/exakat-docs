@@ -20,7 +20,7 @@ Empty Instructions
 	:og:description: Empty instructions are part of the code that have no instructions
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty Instructions.html
 	:og:locale: en
-Empty instructions are part of the code that have no instructions. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/EmptyLines.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/EmptyLines.html","name":"Empty Instructions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Empty instructions are part of the code that have no instructions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Empty Instructions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Empty instructions are part of the code that have no instructions. 
 
 This may be trailing semi-colon or empty blocks for if-then structures.
 

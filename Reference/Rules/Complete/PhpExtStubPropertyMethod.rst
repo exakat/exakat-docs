@@ -20,7 +20,7 @@ Php Ext Stub Property And Method
 	:og:description: Provides `isExt` property to method call and properties access, based on typehints and local instantiation
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Php Ext Stub Property And Method.html
 	:og:locale: en
-Provides `isExt` property to method call and properties access, based on typehints and local instantiation.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/PhpExtStubPropertyMethod.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/PhpExtStubPropertyMethod.html","name":"Php Ext Stub Property And Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Provides `isExt` property to method call and properties access, based on typehints and local instantiation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Php Ext Stub Property And Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Provides `isExt` property to method call and properties access, based on typehints and local instantiation.
 
 Specs
 _____

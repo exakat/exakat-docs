@@ -20,7 +20,7 @@ No get_class() With Null
 	:og:description: It is not possible to pass explicitly null to get_class() to get the current's class name
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No get_class() With Null.html
 	:og:locale: en
-It is not possible to pass explicitly null to `get_class() <https://www.php.net/get_class>`_ to get the current's class name. Since PHP 7.2, one must call `get_class() <https://www.php.net/get_class>`_ without arguments to achieve that `result <https://www.php.net/result>`_.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/NoGetClassNull.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/NoGetClassNull.html","name":"No get_class() With Null","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"It is not possible to pass explicitly null to get_class() to get the current's class name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No get_class() With Null.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>It is not possible to pass explicitly null to `get_class() <https://www.php.net/get_class>`_ to get the current's class name. Since PHP 7.2, one must call `get_class() <https://www.php.net/get_class>`_ without arguments to achieve that `result <https://www.php.net/result>`_.
 
 .. code-block:: php
    

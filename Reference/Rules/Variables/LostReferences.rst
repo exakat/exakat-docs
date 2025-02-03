@@ -20,7 +20,7 @@ Lost References
 	:og:description: Either avoid references, or propagate them correctly
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Lost References.html
 	:og:locale: en
-Either avoid references, or propagate them correctly.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/LostReferences.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/LostReferences.html","name":"Lost References","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Either avoid references, or propagate them correctly","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Lost References.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Either avoid references, or propagate them correctly.
 
 When assigning a referenced variable with another reference, the initial reference is lost, while the intend was to transfer the content. 
 Do not reassign a reference with another reference. Assign new content to the reference to change its value.

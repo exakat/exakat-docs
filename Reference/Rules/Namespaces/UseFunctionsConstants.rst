@@ -20,7 +20,7 @@ Use Const And Functions
 	:og:description: Since PHP 5
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Const And Functions.html
 	:og:locale: en
-Since PHP 5.6 it is possible to import specific functions or constants from other namespaces.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Namespaces\/UseFunctionsConstants.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Namespaces\/UseFunctionsConstants.html","name":"Use Const And Functions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Since PHP 5","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Use Const And Functions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Since PHP 5.6 it is possible to import specific functions or constants from other namespaces.
 
 .. code-block:: php
    

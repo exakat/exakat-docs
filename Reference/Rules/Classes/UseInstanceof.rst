@@ -20,7 +20,7 @@ Use Instanceof
 	:og:description: The ``instanceof`` operator is a more precise alternative to ``is_object()``
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Instanceof.html
 	:og:locale: en
-The ``instanceof`` operator is a more precise alternative to ``is_object()``. It is also faster.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UseInstanceof.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UseInstanceof.html","name":"Use Instanceof","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jan 2025 10:21:35 +0000","dateModified":"Fri, 24 Jan 2025 10:21:35 +0000","description":"The ``instanceof`` operator is a more precise alternative to ``is_object()``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Use Instanceof.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>The ``instanceof`` operator is a more precise alternative to ``is_object()``. It is also faster.
 
 `instanceof <https://www.php.net/manual/en/language.operators.type.php>`_ checks for an variable to be of a class or its parents or the interfaces it implements. 
 Once ``instanceof`` has been used, the actual attributes available (properties, constants, methods) are known, unlike with ``is_object()``.

@@ -20,7 +20,7 @@ Add Default Value
 	:og:description: Parameter in methods definition may receive a default value
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Add Default Value.html
 	:og:locale: en
-Parameter in methods definition may receive a default value. This allows the called method to set a value when the parameter is omitted.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/AddDefaultValue.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/AddDefaultValue.html","name":"Add Default Value","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Parameter in methods definition may receive a default value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Add Default Value.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Parameter in methods definition may receive a default value. This allows the called method to set a value when the parameter is omitted.
 
 .. code-block:: php
    

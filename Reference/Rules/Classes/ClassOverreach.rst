@@ -20,7 +20,7 @@ Class Overreach
 	:og:description: An object of class A may reach any private or protected properties, constants or methods in another object of the same class
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class Overreach.html
 	:og:locale: en
-An object of class A may reach any private or protected properties, constants or methods in another object of the same class. This is a PHP feature, though seldom known.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ClassOverreach.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ClassOverreach.html","name":"Class Overreach","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"An object of class A may reach any private or protected properties, constants or methods in another object of the same class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Class Overreach.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>An object of class A may reach any private or protected properties, constants or methods in another object of the same class. This is a PHP feature, though seldom known.
 
 This feature is also called class invasion.
 

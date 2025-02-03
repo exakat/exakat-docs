@@ -20,7 +20,7 @@ PHP 8.1 Types
 	:og:description: This rule reports usage of the new PHP 8
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 8.1 Types.html
 	:og:locale: en
-This rule reports usage of the new PHP 8.1 types. There is one, the ``never`` type.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php81NewTypes.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php81NewTypes.html","name":"PHP 8.1 Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 30 Jan 2025 13:27:25 +0000","dateModified":"Thu, 30 Jan 2025 13:27:25 +0000","description":"This rule reports usage of the new PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/PHP 8.1 Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This rule reports usage of the new PHP 8.1 types. There is one, the ``never`` type.
 
 This type is only available in return types in methods. This type is not available before version 8.1: as it was not a reserved keyword, it might be used with a class.
 

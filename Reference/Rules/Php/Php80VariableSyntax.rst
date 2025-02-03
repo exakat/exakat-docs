@@ -20,7 +20,7 @@ Php 8.0 Variable Syntax Tweaks
 	:og:description: Several variable syntaxes are added in version 8
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Php 8.0 Variable Syntax Tweaks.html
 	:og:locale: en
-Several variable syntaxes are added in version 8.0. They extends the PHP 7.0 syntax updates, and fix a number of edges cases.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php80VariableSyntax.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php80VariableSyntax.html","name":"Php 8.0 Variable Syntax Tweaks","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Several variable syntaxes are added in version 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Php 8.0 Variable Syntax Tweaks.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Several variable syntaxes are added in version 8.0. They extends the PHP 7.0 syntax updates, and fix a number of edges cases.
 
 In particular, ``new``and ``instanceof`` now support a way to inline the expression, rather than use a temporary variable.
 

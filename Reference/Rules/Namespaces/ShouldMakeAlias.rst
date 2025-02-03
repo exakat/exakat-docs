@@ -20,7 +20,7 @@ Should Make Alias
 	:og:description: Long names should be aliased
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Make Alias.html
 	:og:locale: en
-Long names should be aliased.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Namespaces\/ShouldMakeAlias.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Namespaces\/ShouldMakeAlias.html","name":"Should Make Alias","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Long names should be aliased","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Should Make Alias.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Long names should be aliased.
 
 Aliased names are easy to read at the beginning of the script; they may be changed at one point, and update the whole code at the same time. 
 Finally, short names makes the rest of the code readable.

@@ -20,7 +20,7 @@ Lone Blocks
 	:og:description: Grouped code without a commanding structure is useless and may be removed
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Lone Blocks.html
 	:og:locale: en
-Grouped code without a commanding structure is useless and may be removed. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/LoneBlock.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/LoneBlock.html","name":"Lone Blocks","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Grouped code without a commanding structure is useless and may be removed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Lone Blocks.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Grouped code without a commanding structure is useless and may be removed. 
 
 Blocks are compulsory when defining a structure, such as a class, a function or a switch. They are most often used with flow control instructions, like if then or foreach. 
 

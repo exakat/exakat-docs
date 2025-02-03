@@ -20,7 +20,7 @@ Abstract Or Implements
 	:og:description: A class must implements all abstract methods of it parents, or be abstract too
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Abstract Or Implements.html
 	:og:locale: en
-A class must implements all abstract methods of it parents, or be abstract too. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/AbstractOrImplements.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/AbstractOrImplements.html","name":"Abstract Or Implements","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"A class must implements all abstract methods of it parents, or be abstract too","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Abstract Or Implements.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>A class must implements all abstract methods of it parents, or be abstract too. 
 
 PHP detect such `error <https://www.php.net/error>`_ when all classes are loaded: in a code source where classes are split by files, such `error <https://www.php.net/error>`_ it won't be detected until execution, where PHP stops with a Fatal `Error <https://www.php.net/error>`_ : ``Class BA contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (A\:\:aFoo)``.
 

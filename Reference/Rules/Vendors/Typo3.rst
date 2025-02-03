@@ -20,7 +20,7 @@ Typo 3 usage
 	:og:description: This rule reports usage of the Typo 3 CMS API in the code
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Typo 3 usage.html
 	:og:locale: en
-This rule reports usage of the Typo 3 CMS API in the code. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Vendors\/Typo3.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Vendors\/Typo3.html","name":"Typo 3 usage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"This rule reports usage of the Typo 3 CMS API in the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Typo 3 usage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This rule reports usage of the Typo 3 CMS API in the code. 
 
 TYPO3 is a free enterprise-class CMS based on PHP. It combines open source code with reliability and true scalability. 
 

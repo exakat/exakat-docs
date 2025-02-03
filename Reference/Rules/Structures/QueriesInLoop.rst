@@ -20,7 +20,7 @@ Queries In Loops
 	:og:description: Avoid querying databases in a loop
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Queries In Loops.html
 	:og:locale: en
-Avoid querying databases in a loop. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/QueriesInLoop.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/QueriesInLoop.html","name":"Queries In Loops","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 28 Jan 2025 15:14:39 +0000","dateModified":"Tue, 28 Jan 2025 15:14:39 +0000","description":"Avoid querying databases in a loop","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Queries In Loops.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Avoid querying databases in a loop. 
 
 Querying an external database in a loop usually leads to performances problems. This is also called the 'n + 1 problem'. 
 

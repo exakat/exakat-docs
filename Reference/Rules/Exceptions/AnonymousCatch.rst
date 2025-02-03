@@ -20,7 +20,7 @@ Anonymous Catch
 	:og:description: It is possible to omit the variable when using a catch clause
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Anonymous Catch.html
 	:og:locale: en
-It is possible to omit the variable when using a catch clause. It will catch the `exception <https://www.php.net/exception>`_, but it will not provide the details of the caught `exception <https://www.php.net/exception>`_.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Exceptions\/AnonymousCatch.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Exceptions\/AnonymousCatch.html","name":"Anonymous Catch","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"It is possible to omit the variable when using a catch clause","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Anonymous Catch.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>It is possible to omit the variable when using a catch clause. It will catch the `exception <https://www.php.net/exception>`_, but it will not provide the details of the caught `exception <https://www.php.net/exception>`_.
 
 .. code-block:: php
    

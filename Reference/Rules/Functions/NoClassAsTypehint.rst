@@ -20,7 +20,7 @@ No Class As Type
 	:og:description: Avoid using concrete classes as type: always use interfaces or abstract classes
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Class As Type.html
 	:og:locale: en
-Avoid using concrete classes as type: always use interfaces or abstract classes. This way, different classes, or versions of classes may be passed as argument. The type is not linked to an implementation, but to signatures.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/NoClassAsTypehint.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/NoClassAsTypehint.html","name":"No Class As Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jan 2025 10:21:35 +0000","dateModified":"Fri, 24 Jan 2025 10:21:35 +0000","description":"Avoid using concrete classes as type: always use interfaces or abstract classes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Class As Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Avoid using concrete classes as type: always use interfaces or abstract classes. This way, different classes, or versions of classes may be passed as argument. The type is not linked to an implementation, but to signatures.
 
 A class is needed when the object is with properties : interfaces do not allow the specifications of properties.
 

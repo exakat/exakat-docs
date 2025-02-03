@@ -20,7 +20,7 @@ Incompatible Property Between Class And Trait
 	:og:description: Reports a property definition that doesn't fit the importing class
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Incompatible Property Between Class And Trait.html
 	:og:locale: en
-Reports a property definition that doesn't fit the importing class. The property definition should be identical in the trait and in the class. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/IncompatibleProperty.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/IncompatibleProperty.html","name":"Incompatible Property Between Class And Trait","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"Reports a property definition that doesn't fit the importing class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Incompatible Property Between Class And Trait.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Reports a property definition that doesn't fit the importing class. The property definition should be identical in the trait and in the class. 
 
 .. code-block:: php
    

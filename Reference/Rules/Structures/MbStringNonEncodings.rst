@@ -20,7 +20,7 @@ Mbstring Unknown Encodings
 	:og:description: mbstring functions require one of its supported encoding as parameter
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mbstring Unknown Encodings.html
 	:og:locale: en
-mbstring functions require one of its supported encoding as parameter. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MbStringNonEncodings.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MbStringNonEncodings.html","name":"Mbstring Unknown Encodings","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jan 2025 17:40:16 +0000","dateModified":"Thu, 16 Jan 2025 17:40:16 +0000","description":"mbstring functions require one of its supported encoding as parameter","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Mbstring Unknown Encodings.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>mbstring functions require one of its supported encoding as parameter. 
 
 For example, `mb_chr() <https://www.php.net/mb_chr>`_ requires encoding as second parameter. The supported encodings are available with `mb_list_encodings() <https://www.php.net/mb_list_encodings>`_ and `mb_encoding_aliases() <https://www.php.net/mb_encoding_aliases>`_.
 

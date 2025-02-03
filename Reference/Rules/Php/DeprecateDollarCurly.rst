@@ -20,7 +20,7 @@ Dollar Curly Interpolation Is Deprecated
 	:og:description: Among the different variable interpolation is strings, ```` is deprecated
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dollar Curly Interpolation Is Deprecated.html
 	:og:locale: en
-Among the different variable interpolation is strings, ```` is deprecated. It is made obsolete in PHP 8.2, and should disappear in PHP 9.0.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/DeprecateDollarCurly.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/DeprecateDollarCurly.html","name":"Dollar Curly Interpolation Is Deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Among the different variable interpolation is strings, ```` is deprecated","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Dollar Curly Interpolation Is Deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Among the different variable interpolation is strings, ```` is deprecated. It is made obsolete in PHP 8.2, and should disappear in PHP 9.0.
 
 There are still several interpolation ways : variables, array elements (one index-level) and curly brackets. It is also possible to use string concatenation.
 

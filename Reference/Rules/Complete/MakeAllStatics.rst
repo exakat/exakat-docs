@@ -20,7 +20,7 @@ Make All Statics
 	:og:description: This links each `static` keyword to all possible classes definition
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Make All Statics.html
 	:og:locale: en
-This links each `static` keyword to all possible classes definition. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/MakeAllStatics.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/MakeAllStatics.html","name":"Make All Statics","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"This links each `static` keyword to all possible classes definition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Make All Statics.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This links each `static` keyword to all possible classes definition. 
 
 It checks the `\:\:` operator, with for `static <https://www.php.net/manual/en/language.oop5.static.php>`_ constant, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods and class operator. 
 

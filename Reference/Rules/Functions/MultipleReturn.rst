@@ -20,7 +20,7 @@ Multiple Returns
 	:og:description: Functions and methods that have multiple return statement
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Returns.html
 	:og:locale: en
-Functions and methods that have multiple return statement. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/MultipleReturn.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/MultipleReturn.html","name":"Multiple Returns","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Functions and methods that have multiple return statement","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Multiple Returns.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Functions and methods that have multiple return statement. 
 
 This makes it difficult to maintain : since the function may be short-circuited early, some later instruction may be omitted.
 

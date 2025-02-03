@@ -20,7 +20,7 @@ Merge If Then
 	:og:description: Two nested if/then may be merged into one, by merging the two conditions
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Merge If Then.html
 	:og:locale: en
-Two nested if/then may be merged into one, by merging the two conditions. This is often a development artifact. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MergeIfThen.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MergeIfThen.html","name":"Merge If Then","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Two nested if\/then may be merged into one, by merging the two conditions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Merge If Then.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Two nested if/then may be merged into one, by merging the two conditions. This is often a development artifact. 
 
 .. code-block:: php
    

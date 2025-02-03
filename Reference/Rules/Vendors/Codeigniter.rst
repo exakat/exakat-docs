@@ -20,7 +20,7 @@ Codeigniter usage
 	:og:description: This analysis reports usage of the Codeigniter 4 framework
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Codeigniter usage.html
 	:og:locale: en
-This analysis reports usage of the Codeigniter 4 framework.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Vendors\/Codeigniter.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Vendors\/Codeigniter.html","name":"Codeigniter usage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"This analysis reports usage of the Codeigniter 4 framework","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Codeigniter usage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This analysis reports usage of the Codeigniter 4 framework.
 
 Note : Code igniter 3 and older are not reported.
 

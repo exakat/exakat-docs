@@ -20,7 +20,7 @@ Set Method Fnp
 	:og:description: Complete code by adding the ``fullnspath`` property to methods calls
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Method Fnp.html
 	:og:locale: en
-Complete code by adding the ``fullnspath`` property to methods calls. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/SetMethodFnp.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/SetMethodFnp.html","name":"Set Method Fnp","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Complete code by adding the ``fullnspath`` property to methods calls","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Set Method Fnp.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Complete code by adding the ``fullnspath`` property to methods calls. 
 
 It makes it faster to find definitions later.
 

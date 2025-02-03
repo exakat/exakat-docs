@@ -20,7 +20,7 @@ Could Be Else
 	:og:description: Merge opposite conditions into one if/then structure
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Else.html
 	:og:locale: en
-Merge opposite conditions into one if/then structure.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CouldBeElse.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CouldBeElse.html","name":"Could Be Else","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Merge opposite conditions into one if\/then structure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Could Be Else.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Merge opposite conditions into one if/then structure.
 
 When two if/then structures follow each other, using a condition and its opposite, they may be merged into one.
 

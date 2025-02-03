@@ -20,7 +20,7 @@ Direct Call To __clone()
 	:og:description: Direct call to magic method ``__clone()`` was forbidden
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Direct Call To __clone().html
 	:og:locale: en
-Direct call to magic method ``__clone()`` was forbidden. It is allowed since PHP 7.0. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/DirectCallToClone.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/DirectCallToClone.html","name":"Direct Call To __clone()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Direct call to magic method ``__clone()`` was forbidden","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Direct Call To __clone().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Direct call to magic method ``__clone()`` was forbidden. It is allowed since PHP 7.0. 
 
 From the RFC : ``Doing calls like $obj->`__clone( <https://www.php.net/manual/en/language.oop5.magic.php>`_ ) is now allowed. This was the only magic method that had a compile-time check preventing some calls to it, which doesn't make sense. If we allow all other magic methods to be called, there's no reason to forbid this one``.
 

@@ -20,7 +20,7 @@ Should Use Operator
 	:og:description: Some functions duplicate the feature of an operator
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Operator.html
 	:og:locale: en
-Some functions duplicate the feature of an operator. When in doubt, it is better to use the operator. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ShouldUseOperator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ShouldUseOperator.html","name":"Should Use Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 28 Jan 2025 15:14:39 +0000","dateModified":"Tue, 28 Jan 2025 15:14:39 +0000","description":"Some functions duplicate the feature of an operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Should Use Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Some functions duplicate the feature of an operator. When in doubt, it is better to use the operator. 
 
 Beware, some edge cases may apply. In particular, backward compatibility may prevent usage of newer features.
 

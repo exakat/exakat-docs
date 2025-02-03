@@ -20,7 +20,7 @@ Scalar Are Not Arrays
 	:og:description: It is wrong to use a scalar as an array, a warning is emitted
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Scalar Are Not Arrays.html
 	:og:locale: en
-It is wrong to use a scalar as an array, a warning is emitted. PHP 7.4 emits a warning in such situations.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ScalarAreNotArrays.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ScalarAreNotArrays.html","name":"Scalar Are Not Arrays","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:52:58 +0000","dateModified":"Tue, 14 Jan 2025 12:52:58 +0000","description":"It is wrong to use a scalar as an array, a warning is emitted","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Scalar Are Not Arrays.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>It is wrong to use a scalar as an array, a warning is emitted. PHP 7.4 emits a warning in such situations.
 
 Typehinted argument with a scalar are reported by this analysis. Also, nullable arguments, both with typehint and return type hint.
 

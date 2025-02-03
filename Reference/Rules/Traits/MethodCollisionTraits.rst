@@ -20,7 +20,7 @@ Method Collision Traits
 	:og:description: Two or more traits are included in the same class, and they have methods collisions
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Collision Traits.html
 	:og:locale: en
-Two or more traits are included in the same class, and they have methods collisions. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/MethodCollisionTraits.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/MethodCollisionTraits.html","name":"Method Collision Traits","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:52:58 +0000","dateModified":"Tue, 14 Jan 2025 12:52:58 +0000","description":"Two or more traits are included in the same class, and they have methods collisions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Method Collision Traits.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Two or more traits are included in the same class, and they have methods collisions. 
 
 Those collisions should be solved with a ``use`` expression. When they are not, PHP stops execution with a fatal `error <https://www.php.net/error>`_ : ``Trait method M has not been applied, because there are collisions with other trait methods on C``.
 

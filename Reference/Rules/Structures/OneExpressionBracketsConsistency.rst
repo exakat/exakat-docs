@@ -20,7 +20,7 @@ One Expression Brackets Consistency
 	:og:description: Brackets around one-line expressions are not consistent
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/One Expression Brackets Consistency.html
 	:og:locale: en
-Brackets around one-line expressions are not consistent. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/OneExpressionBracketsConsistency.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/OneExpressionBracketsConsistency.html","name":"One Expression Brackets Consistency","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Brackets around one-line expressions are not consistent","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/One Expression Brackets Consistency.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Brackets around one-line expressions are not consistent. 
 
 PHP makes bracket optional when a control structure pilot only one expression. Both are semantically identical.
 

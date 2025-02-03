@@ -20,7 +20,7 @@ Constant Case Preference
 	:og:description: Define() creates constants which are case sensitive or not
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Case Preference.html
 	:og:locale: en
-`Define() <https://www.php.net/define>`_ creates constants which are case sensitive or not. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Constants\/DefineInsensitivePreference.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Constants\/DefineInsensitivePreference.html","name":"Constant Case Preference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Feb 2025 10:12:50 +0000","dateModified":"Sun, 02 Feb 2025 10:12:50 +0000","description":"Define() creates constants which are case sensitive or not","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Constant Case Preference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>`Define() <https://www.php.net/define>`_ creates constants which are case sensitive or not. 
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make constant sensitivity definition consistent. 
 

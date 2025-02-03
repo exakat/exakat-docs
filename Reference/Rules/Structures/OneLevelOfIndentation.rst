@@ -20,7 +20,7 @@ More Than One Level Of Indentation
 	:og:description: According to PHP Object Calisthenics, one level of indentation is sufficient
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/More Than One Level Of Indentation.html
 	:og:locale: en
-According to PHP Object Calisthenics, one level of indentation is sufficient.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/OneLevelOfIndentation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/OneLevelOfIndentation.html","name":"More Than One Level Of Indentation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"According to PHP Object Calisthenics, one level of indentation is sufficient","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/More Than One Level Of Indentation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>According to PHP Object Calisthenics, one level of indentation is sufficient.
 
 It helps to abide by the Single Responsibility rule and increase reuse.
 

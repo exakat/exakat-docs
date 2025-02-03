@@ -20,7 +20,7 @@ Class Const With Array
 	:og:description: This rule lists global and class constant that are defined with an array value
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class Const With Array.html
 	:og:locale: en
-This rule lists global and class constant that are defined with an array value. This feature was added in PHP 5.6.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ClassConstWithArray.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ClassConstWithArray.html","name":"Class Const With Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"This rule lists global and class constant that are defined with an array value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Class Const With Array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This rule lists global and class constant that are defined with an array value. This feature was added in PHP 5.6.
 
 .. code-block:: php
    

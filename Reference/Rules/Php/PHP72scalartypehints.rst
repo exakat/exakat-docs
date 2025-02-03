@@ -20,7 +20,7 @@ PHP 7.2 Scalar Types
 	:og:description: A new type was introduced : ``object``
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 7.2 Scalar Types.html
 	:og:locale: en
-A new type was introduced : ``object``. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/PHP72scalartypehints.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/PHP72scalartypehints.html","name":"PHP 7.2 Scalar Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jan 2025 10:21:35 +0000","dateModified":"Fri, 24 Jan 2025 10:21:35 +0000","description":"A new type was introduced : ``object``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/PHP 7.2 Scalar Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>A new type was introduced : ``object``. 
 
 It can't be used before PHP 7.2, and will be confused with classes or interfaces.
 

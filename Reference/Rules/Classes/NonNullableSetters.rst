@@ -20,7 +20,7 @@ Non Nullable Getters
 	:og:description: A getter needs to be nullable when a property is injected
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Non Nullable Getters.html
 	:og:locale: en
-A getter needs to be nullable when a property is injected. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/NonNullableSetters.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/NonNullableSetters.html","name":"Non Nullable Getters","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"A getter needs to be nullable when a property is injected","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Non Nullable Getters.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>A getter needs to be nullable when a property is injected. 
 
 In particular, if the injection happens with a separate method, there is a time where the object is not consistent, and the property holds a default non-object value.
 

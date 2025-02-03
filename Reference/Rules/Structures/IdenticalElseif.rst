@@ -20,7 +20,7 @@ Identical Elseif
 	:og:description: In a long if/elseif/then structures, identical conditions are mutually exclusive
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Identical Elseif.html
 	:og:locale: en
-In a long if/elseif/then structures, identical conditions are mutually exclusive. The first one will happen, and the second will be ignored. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/IdenticalElseif.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/IdenticalElseif.html","name":"Identical Elseif","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"In a long if\/elseif\/then structures, identical conditions are mutually exclusive","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Identical Elseif.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>In a long if/elseif/then structures, identical conditions are mutually exclusive. The first one will happen, and the second will be ignored. 
 
 This is similar to having multiple cases in the same switch or match expression.
 

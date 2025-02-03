@@ -20,7 +20,7 @@ Could Type With Int
 	:og:description: That argument may be typed with ``int``
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Type With Int.html
 	:og:locale: en
-That argument may be typed with ``int``. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/CouldTypeWithInt.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/CouldTypeWithInt.html","name":"Could Type With Int","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:52:58 +0000","dateModified":"Tue, 14 Jan 2025 12:52:58 +0000","description":"That argument may be typed with ``int``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Could Type With Int.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>That argument may be typed with ``int``. 
 
 There are different strategies to identify this type: either all calls are ``int``, or the argument is used later as an integer.
 

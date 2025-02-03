@@ -20,7 +20,7 @@ Clone Usage
 	:og:description: This rule lists of all clone expressions
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Clone Usage.html
 	:og:locale: en
-This rule lists of all clone expressions. Cloning objects leads to creating a new object without calling the constructor, but rather the ``__clone`` method, when available.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/CloningUsage.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/CloningUsage.html","name":"Clone Usage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"This rule lists of all clone expressions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Clone Usage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This rule lists of all clone expressions. Cloning objects leads to creating a new object without calling the constructor, but rather the ``__clone`` method, when available.
 
 .. code-block:: php
    

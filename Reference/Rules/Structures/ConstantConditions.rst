@@ -20,7 +20,7 @@ Constant Conditions
 	:og:description: If/then structures that have constant condition
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Conditions.html
 	:og:locale: en
-If/then structures that have constant condition. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ConstantConditions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ConstantConditions.html","name":"Constant Conditions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"If\/then structures that have constant condition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Constant Conditions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>If/then structures that have constant condition. 
 
 The condition doesn't change during execution, and the following blocks are always executed or not. This may also lead to an infinite or a null loop. 
 

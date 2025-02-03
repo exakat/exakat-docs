@@ -20,7 +20,7 @@ $this Is Not An Array
 	:og:description: ``$this`` variable represents the current object and it is not an array
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/$this Is Not An Array.html
 	:og:locale: en
-``$this`` variable represents the current object and it is not an array. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ThisIsNotAnArray.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ThisIsNotAnArray.html","name":"$this Is Not An Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"``$this`` variable represents the current object and it is not an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/$this Is Not An Array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>``$this`` variable represents the current object and it is not an array. 
 
 This is unless the class (or its parents) has the ``ArrayAccess`` interface, or extends ``ArrayObject`` or ``SimpleXMLElement``.
 

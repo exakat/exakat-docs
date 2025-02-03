@@ -20,7 +20,7 @@ Reserved Match Keyword
 	:og:description: ``match`` is a new instruction in PHP 8
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Reserved Match Keyword.html
 	:og:locale: en
-``match`` is a new instruction in PHP 8.0. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ReservedMatchKeyword.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ReservedMatchKeyword.html","name":"Reserved Match Keyword","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"``match`` is a new instruction in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Reserved Match Keyword.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>``match`` is a new instruction in PHP 8.0. 
 
 For that, it becomes a reserved keyword, and cannot be used in various situations: type, class, function, global constant name.
 

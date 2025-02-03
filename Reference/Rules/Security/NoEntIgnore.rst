@@ -20,7 +20,7 @@ No ENT_IGNORE
 	:og:description: Certain characters have special significance in HTML, and should be represented by HTML entities if they are to preserve their meanings
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No ENT_IGNORE.html
 	:og:locale: en
-Certain characters have special significance in HTML, and should be represented by HTML entities if they are to preserve their meanings.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Security\/NoEntIgnore.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Security\/NoEntIgnore.html","name":"No ENT_IGNORE","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Certain characters have special significance in HTML, and should be represented by HTML entities if they are to preserve their meanings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No ENT_IGNORE.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Certain characters have special significance in HTML, and should be represented by HTML entities if they are to preserve their meanings.
 
 `ENT_IGNORE <https://www.php.net/ENT_IGNORE>`_ is a configuration option for `htmlspecialchars() <https://www.php.net/htmlspecialchars>`_, that ignore any needed character replacement. This mean the raw input will now be processed by PHP, or a target browser.
 

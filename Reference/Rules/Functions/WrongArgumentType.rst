@@ -20,7 +20,7 @@ Wrong Argument Type
 	:og:description: Checks that the type of the argument is consistent with the type of the called method
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Argument Type.html
 	:og:locale: en
-Checks that the type of the argument is consistent with the type of the called method.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/WrongArgumentType.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/WrongArgumentType.html","name":"Wrong Argument Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"Checks that the type of the argument is consistent with the type of the called method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Wrong Argument Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Checks that the type of the argument is consistent with the type of the called method.
 
 This analysis is valid since PHP 8.0.
 

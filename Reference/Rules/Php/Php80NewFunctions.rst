@@ -20,7 +20,7 @@ New Functions In PHP 8.0
 	:og:description: New functions are added to new PHP version
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/New Functions In PHP 8.0.html
 	:og:locale: en
-New functions are added to new PHP version.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php80NewFunctions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php80NewFunctions.html","name":"New Functions In PHP 8.0","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jan 2025 21:10:33 +0000","dateModified":"Sun, 12 Jan 2025 21:10:33 +0000","description":"New functions are added to new PHP version","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/New Functions In PHP 8.0.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>New functions are added to new PHP version.
 
 The following functions are now native functions in PHP 8.0. It is compulsory to rename any custom function that was created in older versions. One alternative is to move the function to a custom namespace, and update the ``use`` list at the beginning of the script. 
 

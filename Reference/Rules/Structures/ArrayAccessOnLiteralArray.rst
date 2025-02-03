@@ -20,7 +20,7 @@ Array Access On Literal Array
 	:og:description: Accessing an element on a literal array makes that array non-reusable
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Array Access On Literal Array.html
 	:og:locale: en
-Accessing an element on a literal array makes that array non-reusable. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ArrayAccessOnLiteralArray.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ArrayAccessOnLiteralArray.html","name":"Array Access On Literal Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Accessing an element on a literal array makes that array non-reusable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Array Access On Literal Array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Accessing an element on a literal array makes that array non-reusable. 
 
 It is recommended to make this array a constant or a property, for easier reusage. It also make that content more visiblem in the class definitions.
 

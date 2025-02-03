@@ -20,7 +20,7 @@ Method Signature Must Be Compatible
 	:og:description: Make sure methods signature are compatible
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Signature Must Be Compatible.html
 	:og:locale: en
-Make sure methods signature are compatible.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/MethodSignatureMustBeCompatible.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/MethodSignatureMustBeCompatible.html","name":"Method Signature Must Be Compatible","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"Make sure methods signature are compatible","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Method Signature Must Be Compatible.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Make sure methods signature are compatible.
 
 PHP generates the infamous Fatal `error <https://www.php.net/error>`_ at execution : ``Declaration of FooParent\:\:Bar() must be compatible with FooChildren\:\:Bar()``
 

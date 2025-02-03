@@ -20,7 +20,7 @@ Classes Names
 	:og:description: List of all classes, as defined in the application
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes Names.html
 	:og:locale: en
-List of all classes, as defined in the application.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/Classnames.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/Classnames.html","name":"Classes Names","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Feb 2025 17:19:52 +0000","dateModified":"Mon, 03 Feb 2025 17:19:52 +0000","description":"List of all classes, as defined in the application","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Classes Names.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>List of all classes, as defined in the application.
 
 .. code-block:: php
    
@@ -30,12 +30,11 @@ List of all classes, as defined in the application.
    class foo {}
    
    // Anonymous classes are not in the list
-   $o = class { function foo(){} }
+   $object = class { 
+       function foo() {} 
+   }
    
    ?>
-
-See also `class <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class>`_.
-
 Connex PHP features
 -------------------
 

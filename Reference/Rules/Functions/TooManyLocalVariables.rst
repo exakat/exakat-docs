@@ -20,7 +20,7 @@ Too Many Local Variables
 	:og:description: Too many local variables were found in the methods
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Local Variables.html
 	:og:locale: en
-Too many local variables were found in the methods. When over 15 variables are found in such a method, a violation is reported.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/TooManyLocalVariables.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/TooManyLocalVariables.html","name":"Too Many Local Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Too many local variables were found in the methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Too Many Local Variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Too many local variables were found in the methods. When over 15 variables are found in such a method, a violation is reported.
 
 Local variables exclude globals (imported with global) and arguments. Local variable include `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables.
 

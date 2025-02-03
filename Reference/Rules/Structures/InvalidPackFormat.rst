@@ -20,7 +20,7 @@ Invalid Pack Format
 	:og:description: Some characters are invalid in a pack() format string
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Invalid Pack Format.html
 	:og:locale: en
-Some characters are invalid in a `pack() <https://www.php.net/pack>`_ format string.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/InvalidPackFormat.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/InvalidPackFormat.html","name":"Invalid Pack Format","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jan 2025 17:40:16 +0000","dateModified":"Thu, 16 Jan 2025 17:40:16 +0000","description":"Some characters are invalid in a pack() format string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Invalid Pack Format.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Some characters are invalid in a `pack() <https://www.php.net/pack>`_ format string.
 
 `pack() <https://www.php.net/pack>`_ and `unpack() <https://www.php.net/unpack>`_ accept the following format specifiers : ``aAhHcCsSnviIlLNVqQJPfgGdeExXZ``. 
 

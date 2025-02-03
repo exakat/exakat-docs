@@ -20,7 +20,7 @@ Too Many Parameters
 	:og:description: Method has too many parameters
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Parameters.html
 	:og:locale: en
-Method has too many parameters. Exakat has a default parameter count which may be configured.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/TooManyParameters.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/TooManyParameters.html","name":"Too Many Parameters","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Method has too many parameters","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Too Many Parameters.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Method has too many parameters. Exakat has a default parameter count which may be configured.
 
 A method that needs more than 8 parameters is trying to do too much : it should be reviewed and split into smaller methods.
 

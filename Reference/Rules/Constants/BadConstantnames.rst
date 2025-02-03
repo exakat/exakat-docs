@@ -20,7 +20,7 @@ Bad Constants Names
 	:og:description: PHP's manual recommends that developer do not use constants with the convention ``__NAME__``
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Bad Constants Names.html
 	:og:locale: en
-PHP's manual recommends that developer do not use constants with the convention ``__NAME__``. Those are reserved for PHP future use. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Constants\/BadConstantnames.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Constants\/BadConstantnames.html","name":"Bad Constants Names","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"PHP's manual recommends that developer do not use constants with the convention ``__NAME__``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Bad Constants Names.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>PHP's manual recommends that developer do not use constants with the convention ``__NAME__``. Those are reserved for PHP future use. 
 
 For example, ``__TRAIT__`` recently appeared in PHP, as a magic constant. In the future, other may appear. 
 

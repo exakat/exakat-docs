@@ -20,7 +20,7 @@ Could Be A Static Variable
 	:og:description: This global is only used in one function or method
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be A Static Variable.html
 	:og:locale: en
-This global is only used in one function or method. It may be transformed into a '`static <https://www.php.net/manual/en/language.oop5.static.php>`_' variable, instead of global. This allows you to keep the value between call to the function, but will not be accessible outside this function.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CouldBeStatic.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CouldBeStatic.html","name":"Could Be A Static Variable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"This global is only used in one function or method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Could Be A Static Variable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This global is only used in one function or method. It may be transformed into a '`static <https://www.php.net/manual/en/language.oop5.static.php>`_' variable, instead of global. This allows you to keep the value between call to the function, but will not be accessible outside this function.
 
 .. code-block:: php
    

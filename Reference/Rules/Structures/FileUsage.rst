@@ -20,7 +20,7 @@ File Usage
 	:og:description: The application makes usage of files on the system (read, write, delete, etc
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/File Usage.html
 	:og:locale: en
-The application makes usage of files on the system (read, write, delete, etc.).
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/FileUsage.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/FileUsage.html","name":"File Usage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"The application makes usage of files on the system (read, write, delete, etc","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/File Usage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>The application makes usage of files on the system (read, write, delete, etc.).
 
 Files usage is based on the usage of file functions.
 

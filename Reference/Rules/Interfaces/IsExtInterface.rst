@@ -20,7 +20,7 @@ Is An Extension Interface
 	:og:description: This is an interface defined in a PHP C extension
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is An Extension Interface.html
 	:og:locale: en
-This is an interface defined in a PHP C extension.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/IsExtInterface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/IsExtInterface.html","name":"Is An Extension Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"This is an interface defined in a PHP C extension","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Is An Extension Interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This is an interface defined in a PHP C extension.
 
 .. code-block:: php
    

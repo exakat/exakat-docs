@@ -20,7 +20,7 @@ func_get_arg() Modified Behavior
 	:og:description: func_get_arg() and func_get_args() used to report the calling value of the argument until PHP 7
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/func_get_arg() Modified Behavior.html
 	:og:locale: en
-`func_get_arg() <https://www.php.net/func_get_arg>`_ and `func_get_args() <https://www.php.net/func_get_args>`_ used to report the calling value of the argument until PHP 7. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/funcGetArgModified.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/funcGetArgModified.html","name":"func_get_arg() Modified Behavior","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"func_get_arg() and func_get_args() used to report the calling value of the argument until PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/func_get_arg() Modified Behavior.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>`func_get_arg() <https://www.php.net/func_get_arg>`_ and `func_get_args() <https://www.php.net/func_get_args>`_ used to report the calling value of the argument until PHP 7. 
 
 Since PHP 7, it is reporting the value of the argument at calling time, which may have been modified by a previous instruction. 
 

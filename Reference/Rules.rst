@@ -7034,6 +7034,7 @@ Directory by PHP Function
       + :ref:`Isset Multiple Arguments <isset-multiple-arguments>`
       + :ref:`Isset() On The Whole Array <isset()-on-the-whole-array>`
       + :ref:`Logical To in_array <logical-to-in\_array>`
+      + :ref:`Mass Creation Of Arrays <mass-creation-of-arrays>`
       + :ref:`Multiple Similar Calls <multiple-similar-calls>`
       + :ref:`Must Return Methods <must-return-methods>`
       + :ref:`No Keyword In Namespace <no-keyword-in-namespace>`
@@ -10423,6 +10424,7 @@ Exakat links each rules to PHP features.
     + :ref:`Modify Immutable <modify-immutable>`
     + :ref:`Must Use Result, So It Returns <must-use-result,-so-it-returns>`
     + :ref:`MustUseResult <mustuseresult>`
+    + :ref:`Override Attribute <override-attribute>`
     + :ref:`PHP Native Attributes <php-native-attributes>`
     + :ref:`Use PHP Attributes <use-php-attributes>`
     + :ref:`Using Deprecated Feature <using-deprecated-feature>`
@@ -10474,6 +10476,10 @@ Exakat links each rules to PHP features.
     + :ref:`Break Outside Loop <break-outside-loop>`
     + :ref:`Break With 0 <break-with-0>`
     + :ref:`Unconditional Break In Loop <unconditional-break-in-loop>`
+
+  + Byte
+
+    + :ref:`Only First Byte Will Be Assigned <only-first-byte-will-be-assigned>`
 
   + Call
 
@@ -10537,6 +10543,10 @@ Exakat links each rules to PHP features.
 
     + :ref:`Set Chaining Exception <set-chaining-exception>`
     + :ref:`Should Chain Exception <should-chain-exception>`
+
+  + Character
+
+    + :ref:`Only First Byte Will Be Assigned <only-first-byte-will-be-assigned>`
 
   + Class
 
@@ -11314,6 +11324,7 @@ Exakat links each rules to PHP features.
     + :ref:`Altering Foreach Without Reference <altering-foreach-without-reference>`
     + :ref:`Cache Variable Outside Loop <cache-variable-outside-loop>`
     + :ref:`Collect Block Size <collect-block-size>`
+    + :ref:`Create Foreach Default <create-foreach-default>`
     + :ref:`Don't Reuse Foreach Source <don't-reuse-foreach-source>`
     + :ref:`Foreach Don't Change Pointer <foreach-don't-change-pointer>`
     + :ref:`Foreach Needs Reference Array <foreach-needs-reference-array>`
@@ -11574,6 +11585,7 @@ Exakat links each rules to PHP features.
 
   + Index For Arrays
 
+    + :ref:`Mass Creation Of Arrays <mass-creation-of-arrays>`
     + :ref:`No Null For Index <no-null-for-index>`
     + :ref:`PHP Arrays Index <php-arrays-index>`
     + :ref:`Should Yield With Key <should-yield-with-key>`
@@ -12095,6 +12107,7 @@ Exakat links each rules to PHP features.
 
     + :ref:`Method Is Overwritten <method-is-overwritten>`
     + :ref:`Missing Overriden Method <missing-overriden-method>`
+    + :ref:`Override Attribute <override-attribute>`
     + :ref:`Useless Override Attribute <useless-override-attribute>`
 
   + Overwrite
@@ -12605,6 +12618,7 @@ Exakat links each rules to PHP features.
     + :ref:`Interpolation <interpolation>`
     + :ref:`No String With Append <no-string-with-append>`
     + :ref:`One Variable String <one-variable-string>`
+    + :ref:`Only First Byte Will Be Assigned <only-first-byte-will-be-assigned>`
     + :ref:`String <string>`
     + :ref:`Use PHP7 Encapsed Strings <use-php7-encapsed-strings>`
     + :ref:`Use str_contains() <use-str\_contains()>`
@@ -13001,6 +13015,7 @@ Exakat links each rules to PHP features.
   + compact()
 
     + :ref:`Create Compact Variables <create-compact-variables>`
+    + :ref:`Mass Creation Of Arrays <mass-creation-of-arrays>`
     + :ref:`Nonexistent Variable In compact() <nonexistent-variable-in-compact()>`
 
   + constructor

@@ -20,7 +20,7 @@ Never Type Usage
 	:og:description: Never is a type, which characterize methods that never return a value
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Never Type Usage.html
 	:og:locale: en
-Never is a type, which characterize methods that never return a value. It will either terminate the execution or throw an `exception <https://www.php.net/exception>`_.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/NeverTypehintUsage.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/NeverTypehintUsage.html","name":"Never Type Usage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jan 2025 10:21:35 +0000","dateModified":"Fri, 24 Jan 2025 10:21:35 +0000","description":"Never is a type, which characterize methods that never return a value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Never Type Usage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Never is a type, which characterize methods that never return a value. It will either terminate the execution or throw an `exception <https://www.php.net/exception>`_.
 
 .. code-block:: php
    

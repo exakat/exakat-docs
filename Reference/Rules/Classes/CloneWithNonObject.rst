@@ -20,7 +20,7 @@ Clone With Non-Object
 	:og:description: The ``clone`` keyword must be used on variables, properties or results from a function or method call
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Clone With Non-Object.html
 	:og:locale: en
-The ``clone`` keyword must be used on variables, properties or results from a function or method call. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/CloneWithNonObject.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/CloneWithNonObject.html","name":"Clone With Non-Object","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"The ``clone`` keyword must be used on variables, properties or results from a function or method call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Clone With Non-Object.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>The ``clone`` keyword must be used on variables, properties or results from a function or method call. 
 
 ``clone`` cannot be used with constants or literals.
 

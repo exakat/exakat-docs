@@ -20,7 +20,7 @@ List Short Syntax
 	:og:description: Usage of short syntax version of list()
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/List Short Syntax.html
 	:og:locale: en
-Usage of short syntax version of `list() <https://www.php.net/list>`_.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ListShortSyntax.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ListShortSyntax.html","name":"List Short Syntax","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Usage of short syntax version of list()","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/List Short Syntax.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Usage of short syntax version of `list() <https://www.php.net/list>`_.
 
 .. code-block:: php
    

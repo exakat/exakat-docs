@@ -20,7 +20,7 @@ Void Is Not A Reference
 	:og:description: It is not possible to return by reference, in a method that is typed void
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Void Is Not A Reference.html
 	:og:locale: en
-It is not possible to return by reference, in a method that is typed void. The returned value is a literal ``null``.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/VoidIsNotAReference.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/VoidIsNotAReference.html","name":"Void Is Not A Reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"It is not possible to return by reference, in a method that is typed void","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Void Is Not A Reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>It is not possible to return by reference, in a method that is typed void. The returned value is a literal ``null``.
 
 .. code-block:: php
    

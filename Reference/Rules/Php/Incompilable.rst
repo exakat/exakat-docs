@@ -20,7 +20,7 @@ Incompilable Files
 	:og:description: Files that cannot be compiled, and, as such, be run by PHP
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Incompilable Files.html
 	:og:locale: en
-Files that cannot be compiled, and, as such, be run by PHP. Scripts are linted against various versions of PHP. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Incompilable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Incompilable.html","name":"Incompilable Files","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Files that cannot be compiled, and, as such, be run by PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Incompilable Files.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Files that cannot be compiled, and, as such, be run by PHP. Scripts are linted against various versions of PHP. 
 
 This is usually undesirable, as all code must compile before being executed. It may be that such files are not compilable because they are not yet ready for an upcoming PHP version.
 

@@ -20,7 +20,7 @@ ext/mailparse
 	:og:description: Extension mailparse
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/mailparse.html
 	:og:locale: en
-Extension mailparse.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extmailparse.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extmailparse.html","name":"ext\/mailparse","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"Extension mailparse","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/ext\/mailparse.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Extension mailparse.
 
 Mailparse is an extension for parsing and working with email messages. It can deal with `RFC 822 (MIME) <http://www.faqs.org/rfcs/rfc822.html>`_ and `RFC 2045 (MIME) <http://www.faqs.org/rfcs/rfc2045.html>`_ compliant messages.
 

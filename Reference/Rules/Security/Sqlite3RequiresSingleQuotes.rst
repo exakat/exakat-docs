@@ -20,7 +20,7 @@ Sqlite3 Requires Single Quotes
 	:og:description: The escapeString() method from ``SQLite3`` doesn't escape ``"``, but only ``'``
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Sqlite3 Requires Single Quotes.html
 	:og:locale: en
-The escapeString() method from ``SQLite3`` doesn't escape ``"``, but only ``'``. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Security\/Sqlite3RequiresSingleQuotes.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Security\/Sqlite3RequiresSingleQuotes.html","name":"Sqlite3 Requires Single Quotes","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"The escapeString() method from ``SQLite3`` doesn't escape ``\"``, but only ``'``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Sqlite3 Requires Single Quotes.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>The escapeString() method from ``SQLite3`` doesn't escape ``"``, but only ``'``. 
 To properly handle quotes and ``NUL`` characters, use bindParam() instead.
 
 Quote from the PHP manual comments : ``The reason this function doesn't escape double quotes is because double quotes are used with names (the equivalent of backticks in MySQL), as in table or column names, while single quotes are used for values.``

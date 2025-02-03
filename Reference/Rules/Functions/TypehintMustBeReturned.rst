@@ -20,7 +20,7 @@ Type Must Be Returned
 	:og:description: When using a type for a method, it is compulsory to use a at least one return in the method's body
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Type Must Be Returned.html
 	:og:locale: en
-When using a type for a method, it is compulsory to use a at least one return in the method's body. This is true for nullable type too : ``return`` alone won't be sufficient.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/TypehintMustBeReturned.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/TypehintMustBeReturned.html","name":"Type Must Be Returned","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"When using a type for a method, it is compulsory to use a at least one return in the method's body","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Type Must Be Returned.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>When using a type for a method, it is compulsory to use a at least one return in the method's body. This is true for nullable type too : ``return`` alone won't be sufficient.
 
 When the method contains a return expression, PHP doesn't lint unless the return expression has a value. Any value will do, and it will actually checked at execution time.
 

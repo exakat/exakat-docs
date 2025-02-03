@@ -20,7 +20,7 @@ Same Name For Property And Method
 	:og:description: A property and a method have the same name
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Same Name For Property And Method.html
 	:og:locale: en
-A property and a method have the same name. While it is a valid naming scheme with PHP, it may lead to confusion while codeing. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/PropertyMethodSameName.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/PropertyMethodSameName.html","name":"Same Name For Property And Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 28 Jan 2025 15:14:39 +0000","dateModified":"Tue, 28 Jan 2025 15:14:39 +0000","description":"A property and a method have the same name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Same Name For Property And Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>A property and a method have the same name. While it is a valid naming scheme with PHP, it may lead to confusion while codeing. 
 
 Such naming collision may appear with words that are the same as a verb (for method) and as a noun (for property). For example, in English : query, work, debug, run, process, rain, polish, paint, etc,. 
 

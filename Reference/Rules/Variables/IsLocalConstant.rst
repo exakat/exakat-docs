@@ -20,7 +20,7 @@ Variable Is A Local Constant
 	:og:description: A variable that is written once, then never modified : it behaves like a constant
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Variable Is A Local Constant.html
 	:og:locale: en
-A variable that is written once, then never modified : it behaves like a constant. Some other rule may take advantage of this.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/IsLocalConstant.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/IsLocalConstant.html","name":"Variable Is A Local Constant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"A variable that is written once, then never modified : it behaves like a constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Variable Is A Local Constant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>A variable that is written once, then never modified : it behaves like a constant. Some other rule may take advantage of this.
 
 .. code-block:: php
    

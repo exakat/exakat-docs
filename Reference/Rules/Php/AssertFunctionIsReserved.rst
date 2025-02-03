@@ -20,7 +20,7 @@ Assert Function Is Reserved
 	:og:description: Avoid defining an ``assert`` function in namespaces
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Assert Function Is Reserved.html
 	:og:locale: en
-Avoid defining an ``assert`` function in namespaces. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/AssertFunctionIsReserved.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/AssertFunctionIsReserved.html","name":"Assert Function Is Reserved","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"Avoid defining an ``assert`` function in namespaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Assert Function Is Reserved.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Avoid defining an ``assert`` function in namespaces. 
 
 While they work fine when the assertions are active (``zend.assertions=1``), calls to unqualified ``assert`` are optimized away when assertions are not active. 
 

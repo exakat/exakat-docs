@@ -20,7 +20,7 @@ No Weak SSL Crypto
 	:og:description: When enabling PHP's stream SSL, it is important to use a safe protocol
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Weak SSL Crypto.html
 	:og:locale: en
-When enabling PHP's stream SSL, it is important to use a safe protocol. 
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Security\/NoWeakSSLCrypto.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Security\/NoWeakSSLCrypto.html","name":"No Weak SSL Crypto","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"When enabling PHP's stream SSL, it is important to use a safe protocol","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Weak SSL Crypto.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>When enabling PHP's stream SSL, it is important to use a safe protocol. 
 
 All the SSL protocols (1.0, 2.0, 3.0), and TLS (1.0 are unsafe. The best is to use the most recent TLS, version 1.2. 
 

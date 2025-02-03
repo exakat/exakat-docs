@@ -20,7 +20,7 @@ Constants With Strange Names
 	:og:description: List of constants being defined with names that are incompatible with PHP standards
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants With Strange Names.html
 	:og:locale: en
-List of constants being defined with names that are incompatible with PHP standards.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Constants\/ConstantStrangeNames.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Constants\/ConstantStrangeNames.html","name":"Constants With Strange Names","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"List of constants being defined with names that are incompatible with PHP standards","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Constants With Strange Names.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>List of constants being defined with names that are incompatible with PHP standards.
 
 Constants names are valid when they satisfy the following regex : ``^[a-zA-Z_\x80-\xff][a-zA-Z0-9_\x80-\xff]*$``
 

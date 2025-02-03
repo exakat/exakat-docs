@@ -20,7 +20,7 @@ Scalar Type Usage
 	:og:description: Spot usage of scalar type hint : ``int``, ``float``, ``boolean`` and ``string``
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Scalar Type Usage.html
 	:og:locale: en
-Spot usage of scalar type hint : ``int``, ``float``, ``boolean`` and ``string``.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ScalarTypehintUsage.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ScalarTypehintUsage.html","name":"Scalar Type Usage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jan 2025 10:21:35 +0000","dateModified":"Fri, 24 Jan 2025 10:21:35 +0000","description":"Spot usage of scalar type hint : ``int``, ``float``, ``boolean`` and ``string``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Scalar Type Usage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Spot usage of scalar type hint : ``int``, ``float``, ``boolean`` and ``string``.
 
 Scalar type are PHP 7.0 and more recent. Some, like ``object``, is 7.2.
 

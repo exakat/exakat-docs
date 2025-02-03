@@ -20,7 +20,7 @@ Weird Array Index
 	:og:description: Array index that looks weird
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Weird Array Index.html
 	:og:locale: en
-Array index that looks weird. Arrays index may be string or integer, but some strings looks weird.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/WeirdIndex.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/WeirdIndex.html","name":"Weird Array Index","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Array index that looks weird","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Weird Array Index.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Array index that looks weird. Arrays index may be string or integer, but some strings looks weird.
 
 In particular, strings that include terminal white spaces, often leads to missed values.
 Although this is rare `error <https://www.php.net/error>`_, and often easy to spot, it is also very hard to find when it strikes.

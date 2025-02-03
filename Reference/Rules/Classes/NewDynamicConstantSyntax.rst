@@ -20,7 +20,7 @@ New Dynamic Class Constant Syntax
 	:og:description: PHP has a dedicated syntax to access dynamically class constant values
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/New Dynamic Class Constant Syntax.html
 	:og:locale: en
-PHP has a dedicated syntax to access dynamically class constant values. This was added in PHP 8.3. It prevents using the a call to the function ``constant()``.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/NewDynamicConstantSyntax.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/NewDynamicConstantSyntax.html","name":"New Dynamic Class Constant Syntax","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"PHP has a dedicated syntax to access dynamically class constant values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/New Dynamic Class Constant Syntax.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>PHP has a dedicated syntax to access dynamically class constant values. This was added in PHP 8.3. It prevents using the a call to the function ``constant()``.
 
 .. code-block:: php
    

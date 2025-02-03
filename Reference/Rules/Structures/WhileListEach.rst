@@ -20,7 +20,7 @@ While(List() = Each())
 	:og:description: This code structure is quite old : it should be replace by the more modern and efficient foreach
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/While(List() = Each()).html
 	:og:locale: en
-This code structure is quite old : it should be replace by the more modern and efficient foreach.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/WhileListEach.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/WhileListEach.html","name":"While(List() = Each())","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"This code structure is quite old : it should be replace by the more modern and efficient foreach","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/While(List() = Each()).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This code structure is quite old : it should be replace by the more modern and efficient foreach.
 
 This structure is deprecated since PHP 7.2. It may disappear in the future.
 

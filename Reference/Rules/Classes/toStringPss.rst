@@ -20,7 +20,7 @@ Magic Visibility
 	:og:description: Magic methods must be declared with public visibility
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Magic Visibility.html
 	:og:locale: en
-Magic methods must be declared with public visibility. They cannot be private or protected.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/toStringPss.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/toStringPss.html","name":"Magic Visibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"Magic methods must be declared with public visibility","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Magic Visibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Magic methods must be declared with public visibility. They cannot be private or protected.
 
 Magic methods cannot be declared as `static <https://www.php.net/manual/en/language.oop5.static.php>`_. They are always associated with an instance of a class and cannot be called statically.
 

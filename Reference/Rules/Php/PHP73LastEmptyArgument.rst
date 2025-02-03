@@ -20,7 +20,7 @@ PHP 7.3 Last Empty Argument
 	:og:description: PHP allows the last element of any functioncall to be empty
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 7.3 Last Empty Argument.html
 	:og:locale: en
-PHP allows the last element of any functioncall to be empty. The argument is then not send.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/PHP73LastEmptyArgument.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/PHP73LastEmptyArgument.html","name":"PHP 7.3 Last Empty Argument","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:52:58 +0000","dateModified":"Tue, 14 Jan 2025 12:52:58 +0000","description":"PHP allows the last element of any functioncall to be empty","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/PHP 7.3 Last Empty Argument.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>PHP allows the last element of any functioncall to be empty. The argument is then not send.
 
 This was introduced in PHP 7.3, and is not backward compatible.
 

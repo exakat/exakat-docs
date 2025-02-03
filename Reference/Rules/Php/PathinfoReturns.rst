@@ -20,7 +20,7 @@ Pathinfo() Returns May Vary
 	:og:description: pathinfo() function returns an array whose content may vary
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Pathinfo() Returns May Vary.html
 	:og:locale: en
-`pathinfo() <https://www.php.net/pathinfo>`_ function returns an array whose content may vary. It is recommended to collect the values after check, rather than directly.
+.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/PathinfoReturns.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/PathinfoReturns.html","name":"Pathinfo() Returns May Vary","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"pathinfo() function returns an array whose content may vary","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Pathinfo() Returns May Vary.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>`pathinfo() <https://www.php.net/pathinfo>`_ function returns an array whose content may vary. It is recommended to collect the values after check, rather than directly.
 The same applies to `parse_url() <https://www.php.net/parse_url>`_, which returns an array with various index.
 
 .. code-block:: php
