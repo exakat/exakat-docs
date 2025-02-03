@@ -21,6 +21,7 @@ New Initializers
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/New Initializers.html
 	:og:locale: en
 Parameters, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables and global constants may be initialized with an object. 
+
 This feature is available in PHP 8.1 and more recent. It is reported as an invalid constant expression in older PHP versions.
 
 .. code-block:: php

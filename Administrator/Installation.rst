@@ -24,11 +24,11 @@ Basic requirements :
 * exakat.phar, the main code.
 * `Gremlin server <http://tinkerpop.apache.org/>`_ : exakat uses this graph database and the Gremlin 3 traversal language. Currently, only Gremlin Server is supported, with the tinkergraph and neo4j storage engine. Version 3.7.x is the recommended version, while version 3.6.x is still supported. Gremlin versions 3.5.# and older are not supported anymore. 
 * Java 11.x. Java 8.x is still supported, and Java 17 will be supported when Gremlin Server does. 
-* `PHP <https://www.php.net/>`_ 8.3 to run. PHP 8.2 is recommended, and PHP 7.4 or older are possible but unsupported. This version requires the PHP extensions curl, openssl, hash, phar, sqlite3, tokenizer, mbstring and json. 
+* `PHP <https://www.php.net/>`_ 8.3 to run. PHP 8.2 is recommended, and PHP 8.1 is the older possible. This version requires the PHP extensions curl, openssl, hash, phar, sqlite3, tokenizer, mbstring and json. 
 
 Optional requirements : 
 
-* PHP 5.2 to 8.4-dev for analysis purposes. Those versions only require the ext/tokenizer extension. 
+* PHP 5.2 to 8.5-dev for analysis purposes. Those versions only require the ext/tokenizer extension. 
 * VCS (Version Control Software), such as Git, SVN, bazaar, Mercurial. They all are optional, though git is recommended, and used as the default VCS. 
 * Archives, such as zip, tgz, tbz2 may also be opened with optional helpers (See `Installation guide for optional tools`_).
 
@@ -100,21 +100,21 @@ PHP 8.0 or more recent, curl, homebrew are required.
 OSX installation with tinkergraph 3.7.0
 ########################################
 
-This is the installation script for Exakat and tinkergraph 3.4.11. 
+This is the installation script for Exakat and tinkergraph 3.7.3. 
 
 ::
 
     mkdir exakat
     cd exakat
     curl -o exakat.phar 'https://www.exakat.io/versions/index.php?file=latest'
-    curl -o apache-tinkerpop-gremlin-server-3.7.0-bin.zip 'https://www.exakat.io/versions/externals/apache-tinkerpop-gremlin-server-3.7.0-bin.zip'
-    unzip apache-tinkerpop-gremlin-server-3.7.0-bin.zip 
-    mv apache-tinkerpop-gremlin-server-3.7.0 tinkergraph
-    rm -rf apache-tinkerpop-gremlin-server-3.7.0-bin.zip 
+    curl -o apache-tinkerpop-gremlin-server-3.7.3-bin.zip 'https://www.exakat.io/versions/externals/apache-tinkerpop-gremlin-server-3.7.0-bin.zip'
+    unzip apache-tinkerpop-gremlin-server-3.7.3-bin.zip 
+    mv apache-tinkerpop-gremlin-server-3.7.3 tinkergraph
+    rm -rf apache-tinkerpop-gremlin-server-3.7.3-bin.zip 
     
     # Optional : install neo4j engine.
     cd tinkergraph
-    ./bin/gremlin-server.sh install org.apache.tinkerpop neo4j-gremlin 3.7.0
+    ./bin/gremlin-server.sh install org.apache.tinkerpop neo4j-gremlin 3.7.3
     cd ..
     
     php exakat.phar doctor
@@ -137,7 +137,7 @@ They remove some files for grapes, that it will rebuild later. Then, try again t
 Installation on Alpine
 ----------------------
 
-Alpine installation with Tinkergraph 3.7.0
+Alpine installation with Tinkergraph 3.7.3
 ##################################################
 
 Paste the following commands in a terminal prompt. It installs Exakat most recent version with Tinkergraph 3.7.0. 
@@ -204,7 +204,7 @@ To install Exakat with composer, you can use the following commands:
     mkdir exakat
     cd exakat
     echo '{}' > composer.json 
-    composer require exakat/exakat:2.6.1 --dev
+    composer require exakat/exakat:2.6.8 --dev
     php vendor/bin/exakat install -v
 
 The final command checks for the presence of Java and unZip utility. Then, it installs a local copy of a `Gremlin server <http://tinkerpop.apache.org/>`_. This is needed to run Exakat. 
@@ -221,7 +221,7 @@ image:: images/exakat-and-docker.png
 Docker image for Exakat with projects folder
 ############################################
 
-Currently, Docker installation only ships with one PHP version (8.2), and with support for git, and zip (downloads).
+Currently, Docker installation only ships with one PHP version (8.4), and with support for git, and zip (downloads).
 
 * Install `Docker <http://www.docker.com/>`_
 * Start Docker

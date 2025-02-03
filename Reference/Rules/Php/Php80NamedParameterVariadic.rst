@@ -21,6 +21,7 @@ PHP 80 Named Parameter Variadic
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 80 Named Parameter Variadic.html
 	:og:locale: en
 Named parameter with variadic have been renamed from 0 to 'parameter name' in PHP 8.0.
+
 In PHP 7.0, with positional argument only, the content of $b is in an array, index 0. This is also true with PHP 8.0.
 
 In PHP 8.0, with named arguments, the content of $b is in an array, index 'b';
@@ -71,7 +72,7 @@ _____
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                                                                         |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 8.0+                                                                                                                                                                                |
+| Changed Behavior | PHP 8.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/named_parameters_and_variadic.html>`__                                                                 |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Medium                                                                                                                                                                                  |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

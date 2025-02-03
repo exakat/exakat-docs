@@ -20,7 +20,7 @@ Appinfo
 	:og:locale: en
 A set of rules that describes with PHP features is used in the code.
 
-Total : 392 analysis
+Total : 391 analysis
 
 * :ref:`array-index`
 * :ref:`multidimensional-arrays`
@@ -385,7 +385,6 @@ Total : 392 analysis
 * :ref:`readonly-usage`
 * :ref:`use-class\_alias()`
 * :ref:`ext-protobuf`
-* :ref:`constant-scalar-expression`
 * :ref:`sylius-usage`
 * :ref:`extensions-yar`
 * :ref:`excimer`

@@ -79,7 +79,7 @@ Total : 59 analysis
 * :ref:`final-traits-are-final`
 * :ref:`typed-class-constants-usage`
 * :ref:`void-is-not-a-reference`
-* :ref:`php-8.1-new-types`
+* :ref:`php-8.1-types`
 * :ref:`php-8.2-new-types`
 
 Specs

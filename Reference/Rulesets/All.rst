@@ -20,7 +20,7 @@ All
 	:og:locale: en
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1659 analysis
+Total : 1658 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -1453,7 +1453,6 @@ Total : 1659 analysis
 * :ref:`version\_compare()-operator`
 * :ref:`php-8.1-resources-turned-into-objects`
 * :ref:`do-not-cast-to-int`
-* :ref:`constant-scalar-expression`
 * :ref:`windows-only-constants`
 * :ref:`could-be-spaceship`
 * :ref:`sylius-usage`
@@ -1657,7 +1656,7 @@ Total : 1659 analysis
 * :ref:`useless-coalesce`
 * :ref:`count()-is-not-negative`
 * :ref:`exit-without-argument`
-* :ref:`php-8.1-new-types`
+* :ref:`php-8.1-types`
 * :ref:`php-8.2-new-types`
 * :ref:`variable-parameter-ambiguity-in-arrow-function`
 * :ref:`strpos()-less-than-one`

@@ -20,7 +20,7 @@ Changed Behavior
 	:og:locale: en
 Ruleset with all rules that identify changed behavior across PHP versions. This means that some syntax behave differently, depending on PHP version.
 
-Total : 1440 analysis
+Total : 1442 analysis
 
 * :ref:`ambiguous-array-index`
 * :ref:`array-index`
@@ -1272,7 +1272,6 @@ Total : 1440 analysis
 * :ref:`version\_compare()-operator`
 * :ref:`php-8.1-resources-turned-into-objects`
 * :ref:`do-not-cast-to-int`
-* :ref:`constant-scalar-expression`
 * :ref:`windows-only-constants`
 * :ref:`could-be-spaceship`
 * :ref:`sylius-usage`
@@ -1452,7 +1451,7 @@ Total : 1440 analysis
 * :ref:`useless-coalesce`
 * :ref:`count()-is-not-negative`
 * :ref:`exit-without-argument`
-* :ref:`php-8.1-new-types`
+* :ref:`php-8.1-types`
 * :ref:`php-8.2-new-types`
 * :ref:`variable-parameter-ambiguity-in-arrow-function`
 * :ref:`strpos()-less-than-one`
@@ -1460,8 +1459,11 @@ Total : 1440 analysis
 * :ref:`deprecated-attribute`
 * :ref:`constant-used-only-once`
 * :ref:`relay-constant`
+* :ref:`useless-override-attribute`
 * :ref:`neos`
 * :ref:`cakephp`
+* :ref:`remove-parameter-with-named-parameters`
+* :ref:`could-merge-ternary-into-ifthen`
 
 Specs
 _____

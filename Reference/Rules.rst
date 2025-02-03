@@ -6,7 +6,7 @@ Rules
 Introduction
 ------------------------
 
-Exakat provides unique 1661 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1660 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 Each rule is documented with code example to allow you to remediate your code. If you want to automate remediation, ours cobblers can are there to fix the issues in your code for your.  
 
@@ -247,7 +247,6 @@ List of Rules
    Rules/Classes/ConstantDefinition.rst
    Rules/Constants/DynamicCreation.rst
    Rules/Dump/ConstantOrder.rst
-   Rules/Php/ConstantScalarExpression.rst
    Rules/Structures/ConstantScalarExpression.rst
    Rules/Variables/ConstantTypo.rst
    Rules/Classes/ConstantUsedBelow.rst
@@ -946,12 +945,12 @@ List of Rules
    Rules/Php/Php80RemovedFunctions.rst
    Rules/Php/Php80RemovesResources.rst
    Rules/Php/PHP80scalartypehints.rst
-   Rules/Php/Php81NewTypes.rst
    Rules/Php/Php81RemovedConstant.rst
    Rules/Php/Php81RemovedDirective.rst
    Rules/Php/Php81RemovedFunctions.rst
    Rules/Php/Php81RemovesResources.rst
    Rules/Php/PHP81scalartypehints.rst
+   Rules/Php/Php81NewTypes.rst
    Rules/Php/Php82NewTypes.rst
    Rules/Php/Php80NamedParameterVariadic.rst
    Rules/Php/AlternativeSyntax.rst
@@ -1718,7 +1717,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Count() Is Not Negative <count()-is-not-negative>`
   * :ref:`Empty Json Error <empty-json-error>`
   * :ref:`Exit Without Argument <exit-without-argument>`
-  * :ref:`PHP 8.1 New Types <php-8.1-new-types>`
+  * :ref:`PHP 8.1 Types <php-8.1-types>`
   * :ref:`PHP 8.2 New Types <php-8.2-new-types>`
   * :ref:`Strpos() Less Than One <strpos()-less-than-one>`
   * :ref:`Useless Coalesce <useless-coalesce>`
@@ -3343,7 +3342,6 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Constant Comparison <constant-comparison>`
   * :ref:`Constant Conditions <constant-conditions>`
   * :ref:`Constant Definition <constant-definition>`
-  * :ref:`Constant Scalar Expression <constant-scalar-expression>`
   * :ref:`Constant Scalar Expressions <constant-scalar-expressions>`
   * :ref:`Constants Created Outside Its Namespace <constants-created-outside-its-namespace>`
   * :ref:`Constants Names <constants-names>`
@@ -5239,7 +5237,7 @@ Directory by PHP Function
       + :ref:`No Hardcoded Port <no-hardcoded-port>`
       + :ref:`No Parenthesis For Language Construct <no-parenthesis-for-language-construct>`
       + :ref:`Or Die <or-die>`
-      + :ref:`PHP 8.1 New Types <php-8.1-new-types>`
+      + :ref:`PHP 8.1 Types <php-8.1-types>`
       + :ref:`Print And Die <print-and-die>`
       + :ref:`Stomp <stomp>`
       + :ref:`Type Could Be Never <type-could-be-never>`
@@ -7281,10 +7279,6 @@ Directory by PHP Function
     + `MYSQLI_STORE_RESULT_COPY_DATA`
 
       + :ref:`PHP 8.1 Removed Constants <php-8.1-removed-constants>`
-
-    + `M_PI`
-
-      + :ref:`Constant Scalar Expression <constant-scalar-expression>`
 
     + `Match()`
 
@@ -10807,7 +10801,6 @@ Exakat links each rules to PHP features.
 
   + Constant Scalar Expression
 
-    + :ref:`Constant Scalar Expression <constant-scalar-expression>`
     + :ref:`Constant Scalar Expressions <constant-scalar-expressions>`
     + :ref:`Define Constants With Array <define-constants-with-array>`
     + :ref:`Propagate Constants <propagate-constants>`
@@ -11981,6 +11974,7 @@ Exakat links each rules to PHP features.
     + :ref:`Methods Without Return <methods-without-return>`
     + :ref:`Must Use Result, So It Returns <must-use-result,-so-it-returns>`
     + :ref:`Never Keyword <never-keyword>`
+    + :ref:`PHP 8.1 Types <php-8.1-types>`
     + :ref:`Type Could Be Never <type-could-be-never>`
     + :ref:`Type Must Be Returned <type-must-be-returned>`
 

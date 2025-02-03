@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.6.9 (Du Ruhui, 2024-05-17)**
+**Version 2.7.0 (Jiao Demon King, 2025-02-17)**
 
 
 + Architecture
@@ -14,6 +14,21 @@ Here is the release note of exakat.
 
 + Cobbler
     + 
+
++ Report
+    + Emissary: fixed display of the results of compatibility linting.
+
++ Analysis
+    + New analysis: Php/ClosureInConstant
+    + New analysis: Traits/NoFinalAlias
+    + New analysis: Structures/NegativeOffsetOnString
+    + Removed analysis: Php/ConstantScalarExpression
+
++ Tokenizer
+    + 
+
+**Version 2.6.9 (Du Ruhui, 2025-01-30)**
+
 
 + Report
     + Emissary : added properties attribute in inventory

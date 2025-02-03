@@ -54,7 +54,7 @@ Total : 34 analysis
 * :ref:`typed-class-constants-usage`
 * :ref:`static-variable-initialisation`
 * :ref:`void-is-not-a-reference`
-* :ref:`php-8.1-new-types`
+* :ref:`php-8.1-types`
 * :ref:`php-8.2-new-types`
 
 Specs

@@ -691,9 +691,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Dump/ConstantOrder.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/ConstantScalarExpression.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/ConstantScalarExpression.html</loc>
  </url>
  <url>
@@ -2788,9 +2785,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/PHP80scalartypehints.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/Php81NewTypes.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/Php81RemovedConstant.html</loc>
  </url>
  <url>
@@ -2804,6 +2798,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/PHP81scalartypehints.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/Php81NewTypes.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/Php82NewTypes.html</loc>

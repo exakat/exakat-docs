@@ -20,7 +20,7 @@ CompatibilityPHP56
 	:og:locale: en
 This ruleset centralizes all analysis for the migration from PHP 5.5 to 5.6.
 
-Total : 78 analysis
+Total : 77 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`malformed-octal`
@@ -86,7 +86,6 @@ Total : 78 analysis
 * :ref:`php-8.0-types`
 * :ref:`named-parameter-usage`
 * :ref:`can't-overload-constants`
-* :ref:`constant-scalar-expression`
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`clone-constant`
 * :ref:`use-enum-case-in-constant-expression`
@@ -98,7 +97,7 @@ Total : 78 analysis
 * :ref:`final-traits-are-final`
 * :ref:`typed-class-constants-usage`
 * :ref:`void-is-not-a-reference`
-* :ref:`php-8.1-new-types`
+* :ref:`php-8.1-types`
 * :ref:`php-8.2-new-types`
 
 Specs
