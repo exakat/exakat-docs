@@ -54,7 +54,7 @@ With a ``void`` return type, the method is intented to be without return value. 
 Connex PHP features
 -------------------
 
-  + `void <https://php-dictionary.readthedocs.io/en/latest/dictionary/void.ini.html>`_
+  + `Void <https://php-dictionary.readthedocs.io/en/latest/dictionary/void.ini.html>`_
 
 
 Suggestions

@@ -66,7 +66,7 @@ See also `Backward Incompatible Changes <https://www.php.net/manual/en/migration
 Connex PHP features
 -------------------
 
-  + `native-function <https://php-dictionary.readthedocs.io/en/latest/dictionary/native-function.ini.html>`_
+  + `Native <https://php-dictionary.readthedocs.io/en/latest/dictionary/native-function.ini.html>`_
 
 
 Suggestions

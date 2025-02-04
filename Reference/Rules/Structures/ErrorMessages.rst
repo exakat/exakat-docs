@@ -45,9 +45,9 @@ It is a good exercise to read the messages out of context, and try to understand
 Connex PHP features
 -------------------
 
-  + `error <https://php-dictionary.readthedocs.io/en/latest/dictionary/error.ini.html>`_
-  + `die <https://php-dictionary.readthedocs.io/en/latest/dictionary/die.ini.html>`_
-  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+  + `Error <https://php-dictionary.readthedocs.io/en/latest/dictionary/error.ini.html>`_
+  + `Exit <https://php-dictionary.readthedocs.io/en/latest/dictionary/die.ini.html>`_
+  + `Exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
 
 
 Specs

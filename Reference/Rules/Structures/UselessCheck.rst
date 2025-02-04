@@ -56,7 +56,7 @@ See also `foreach <https://www.php.net/manual/en/control-structures.foreach.php>
 Connex PHP features
 -------------------
 
-  + `validation <https://php-dictionary.readthedocs.io/en/latest/dictionary/validation.ini.html>`_
+  + `Validation <https://php-dictionary.readthedocs.io/en/latest/dictionary/validation.ini.html>`_
 
 
 Suggestions

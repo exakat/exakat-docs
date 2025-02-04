@@ -30,7 +30,7 @@ Suspicious Comparison
 The comparison seems to be misplaced.
 
 A comparison happens in the last argument, while the actual function expect another type : this may be the case of a badly placed parenthesis.
-Original idea by `Vladimir Reznichenko <https://twitter.com/kalessil>`_.
+Original idea by `Vladimir Reznichenko <https://twitter.`com <https://www.php.net/com>`_/kalessil>`_.
 
 .. code-block:: php
    
@@ -50,7 +50,7 @@ Original idea by `Vladimir Reznichenko <https://twitter.com/kalessil>`_.
 Connex PHP features
 -------------------
 
-  + `comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
+  + `Comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
 
 
 Suggestions

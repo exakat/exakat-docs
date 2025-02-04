@@ -34,7 +34,7 @@ The following interfaces are introduced in PHP 7.0. They shouldn't be defined in
 Connex PHP features
 -------------------
 
-  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+  + `Interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
 
 
 Specs

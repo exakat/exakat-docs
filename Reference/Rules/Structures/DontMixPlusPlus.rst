@@ -52,7 +52,7 @@ See also `EXP30-C. Do not depend on the order of evaluation for side effects <ht
 Connex PHP features
 -------------------
 
-  + `readability <https://php-dictionary.readthedocs.io/en/latest/dictionary/readability.ini.html>`_
+  + `Readability <https://php-dictionary.readthedocs.io/en/latest/dictionary/readability.ini.html>`_
 
 
 Suggestions

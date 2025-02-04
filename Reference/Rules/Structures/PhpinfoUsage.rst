@@ -46,7 +46,7 @@ It is advised to never leave that kind of instruction in a production code.
 Connex PHP features
 -------------------
 
-  + `phpinfo <https://php-dictionary.readthedocs.io/en/latest/dictionary/phpinfo.ini.html>`_
+  + `phpinfo() <https://php-dictionary.readthedocs.io/en/latest/dictionary/phpinfo.ini.html>`_
 
 
 Suggestions

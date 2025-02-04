@@ -45,7 +45,7 @@ This `error <https://www.php.net/error>`_ is not detected by linting. It is only
 Connex PHP features
 -------------------
 
-  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+  + `Constants <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
 
 
 Suggestions

@@ -57,8 +57,8 @@ See also `Class Abstraction <https://www.php.net/abstract>`_.
 Connex PHP features
 -------------------
 
-  + `abstract <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
-  + `concrete <https://php-dictionary.readthedocs.io/en/latest/dictionary/concrete.ini.html>`_
+  + `Abstract Keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
+  + `Concrete Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/concrete.ini.html>`_
 
 
 Suggestions

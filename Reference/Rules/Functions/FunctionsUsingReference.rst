@@ -42,8 +42,8 @@ Functions and methods using references in their signature.
 Connex PHP features
 -------------------
 
-  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
-  + `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+  + `Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `References <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
 
 
 Specs

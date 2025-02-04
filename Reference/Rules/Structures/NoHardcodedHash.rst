@@ -50,7 +50,7 @@ See also `Salted Password Hashing - Doing it Right <https://crackstation.net/has
 Connex PHP features
 -------------------
 
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
 
 
 Suggestions

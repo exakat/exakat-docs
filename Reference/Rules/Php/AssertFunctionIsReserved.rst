@@ -67,7 +67,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `assertion <https://php-dictionary.readthedocs.io/en/latest/dictionary/assertion.ini.html>`_
+  + `Assertions <https://php-dictionary.readthedocs.io/en/latest/dictionary/assertion.ini.html>`_
 
 
 Suggestions

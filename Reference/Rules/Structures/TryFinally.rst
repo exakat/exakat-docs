@@ -49,8 +49,8 @@ See also `Exceptions <https://www.php.net/manual/en/language.exceptions.php>`_.
 Connex PHP features
 -------------------
 
-  + `try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try-catch.ini.html>`_
-  + `finally <https://php-dictionary.readthedocs.io/en/latest/dictionary/finally.ini.html>`_
+  + `Try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try-catch.ini.html>`_
+  + `Finally <https://php-dictionary.readthedocs.io/en/latest/dictionary/finally.ini.html>`_
 
 
 Specs

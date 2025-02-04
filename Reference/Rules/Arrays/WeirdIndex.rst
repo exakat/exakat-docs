@@ -54,7 +54,7 @@ Although this is rare `error <https://www.php.net/error>`_, and often easy to sp
 Connex PHP features
 -------------------
 
-  + `index <https://php-dictionary.readthedocs.io/en/latest/dictionary/index.ini.html>`_
+  + `Index <https://php-dictionary.readthedocs.io/en/latest/dictionary/index.ini.html>`_
 
 
 Suggestions

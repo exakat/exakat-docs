@@ -25,7 +25,7 @@ Use Arrow Functions
 .. raw:: html
 
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/UseArrowFunctions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/UseArrowFunctions.html","name":"Use Arrow Functions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Arrow functions are closures that require one expression of code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Use Arrow Functions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/UseArrowFunctions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/UseArrowFunctions.html","name":"Use Arrow Functions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Feb 2025 10:59:33 +0000","dateModified":"Tue, 04 Feb 2025 10:59:33 +0000","description":"Arrow functions are closures that require one expression of code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Use Arrow Functions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Arrow functions are closures that require one expression of code. They also include all the variables of the current context, unless they are made `static <https://www.php.net/manual/en/language.oop5.static.php>`_.
 
@@ -40,6 +40,7 @@ Arrow functions were introduced in PHP 7.4. They added the reserved keyword ``fn
    function array_values_from_keys($arr, $keys) {
        return array_map(fn($x) => $arr[$x], $keys);
    }
+   
    ?>
 
 See also `RFC : Arrow functions <https://wiki.php.net/rfc/arrow_functions>`_ and `Arrow functions in PHP <https://stitcher.io/blog/short-closures-in-php>`_.
@@ -47,7 +48,7 @@ See also `RFC : Arrow functions <https://wiki.php.net/rfc/arrow_functions>`_ and
 Connex PHP features
 -------------------
 
-  + `arrow-function <https://php-dictionary.readthedocs.io/en/latest/dictionary/arrow-function.ini.html>`_
+  + `Arrow Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/arrow-function.ini.html>`_
 
 
 Specs

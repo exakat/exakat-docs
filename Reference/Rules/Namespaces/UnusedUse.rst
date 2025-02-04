@@ -42,7 +42,7 @@ Unused use statements. They may be removed, as they clutter the code and slows P
 Connex PHP features
 -------------------
 
-  + `use <https://php-dictionary.readthedocs.io/en/latest/dictionary/use.ini.html>`_
+  + `Use <https://php-dictionary.readthedocs.io/en/latest/dictionary/use.ini.html>`_
 
 
 Suggestions

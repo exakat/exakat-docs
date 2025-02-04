@@ -59,7 +59,7 @@ See also `$GLOBALS <https://www.php.net/manual/en/reserved.variables.globals.php
 Connex PHP features
 -------------------
 
-  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+  + `Constants <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
 
 
 Specs

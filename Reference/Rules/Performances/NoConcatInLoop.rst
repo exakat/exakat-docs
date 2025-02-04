@@ -55,7 +55,7 @@ See also `PHP 7 performance improvements (3/5): Encapsed strings optimization <h
 Connex PHP features
 -------------------
 
-  + `loop <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
+  + `Loops <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
 
 
 Suggestions

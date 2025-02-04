@@ -53,7 +53,7 @@ See also `PSR-13 : Link definition interface <http://www.php-fig.org/psr/psr-13/
 Connex PHP features
 -------------------
 
-  + `psr <https://php-dictionary.readthedocs.io/en/latest/dictionary/psr.ini.html>`_
+  + `PHP Standards Recommendations (PSR) <https://php-dictionary.readthedocs.io/en/latest/dictionary/psr.ini.html>`_
 
 
 Specs

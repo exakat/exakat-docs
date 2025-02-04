@@ -64,7 +64,7 @@ A threshold of ``cancelThreshold`` % of the children methods have to be cancelle
 Connex PHP features
 -------------------
 
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
 
 
 Suggestions

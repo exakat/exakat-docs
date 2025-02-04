@@ -49,7 +49,7 @@ See also `spaceship operator <https://www.php.net/manual/en/migration70.new-feat
 Connex PHP features
 -------------------
 
-  + `spaceship <https://php-dictionary.readthedocs.io/en/latest/dictionary/spaceship.ini.html>`_
+  + `Spaceship Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/spaceship.ini.html>`_
 
 
 Suggestions

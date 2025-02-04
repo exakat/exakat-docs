@@ -47,7 +47,7 @@ They may be tolerated during development time, but must be removed so as not to 
 Connex PHP features
 -------------------
 
-  + `debug <https://php-dictionary.readthedocs.io/en/latest/dictionary/debug.ini.html>`_
+  + `Debugger <https://php-dictionary.readthedocs.io/en/latest/dictionary/debug.ini.html>`_
 
 
 Suggestions

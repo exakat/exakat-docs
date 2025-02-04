@@ -96,7 +96,7 @@ The effect on small arrays (less than 10 elements) is not significant. Arrays wi
 Connex PHP features
 -------------------
 
-  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
 
 
 Suggestions

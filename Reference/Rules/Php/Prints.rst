@@ -46,7 +46,7 @@ Function calls that displays something to the output. Usually, there should not 
 Connex PHP features
 -------------------
 
-  + `print <https://php-dictionary.readthedocs.io/en/latest/dictionary/print.ini.html>`_
+  + `Print <https://php-dictionary.readthedocs.io/en/latest/dictionary/print.ini.html>`_
 
 
 Specs

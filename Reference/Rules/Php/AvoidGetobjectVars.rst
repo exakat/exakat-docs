@@ -49,8 +49,8 @@ See also `get_object_vars script on 3V4L <https://3v4l.org/ELVGY>`_, `The Strang
 Connex PHP features
 -------------------
 
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
-  + `arrayobject <https://php-dictionary.readthedocs.io/en/latest/dictionary/arrayobject.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `ArrayObject <https://php-dictionary.readthedocs.io/en/latest/dictionary/arrayobject.ini.html>`_
 
 
 Suggestions

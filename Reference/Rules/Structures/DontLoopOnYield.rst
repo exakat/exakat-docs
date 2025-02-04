@@ -60,7 +60,7 @@ See also `Generator delegation via yield from <https://www.php.net/manual/en/lan
 Connex PHP features
 -------------------
 
-  + `yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
+  + `Yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
 
 
 Suggestions

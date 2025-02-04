@@ -53,7 +53,7 @@ See also `json_decode <https://www.php.net/json_decode>`_.
 Connex PHP features
 -------------------
 
-  + `json <https://php-dictionary.readthedocs.io/en/latest/dictionary/json.ini.html>`_
+  + `JavaScript Object Notation (JSON) <https://php-dictionary.readthedocs.io/en/latest/dictionary/json.ini.html>`_
 
 
 Suggestions

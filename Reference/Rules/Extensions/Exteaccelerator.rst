@@ -38,7 +38,7 @@ See also `Eaccelerator <http://eaccelerator.net/>`_ and `eaccelerator/eaccelerat
 Connex PHP features
 -------------------
 
-  + `extension <https://php-dictionary.readthedocs.io/en/latest/dictionary/extension.ini.html>`_
+  + `Extensions <https://php-dictionary.readthedocs.io/en/latest/dictionary/extension.ini.html>`_
 
 
 Specs

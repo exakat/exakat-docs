@@ -46,7 +46,7 @@ See also `ext/lua manual <https://www.php.net/manual/en/book.lua.php>`_ and `LUA
 Connex PHP features
 -------------------
 
-  + `pecl <https://php-dictionary.readthedocs.io/en/latest/dictionary/pecl.ini.html>`_
+  + `PHP Extension C Library (PECL) <https://php-dictionary.readthedocs.io/en/latest/dictionary/pecl.ini.html>`_
 
 
 Specs

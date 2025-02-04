@@ -81,7 +81,7 @@ See also `sylius <https://sylius.com/>`_.
 Connex PHP features
 -------------------
 
-  + `framework <https://php-dictionary.readthedocs.io/en/latest/dictionary/framework.ini.html>`_
+  + `Framework <https://php-dictionary.readthedocs.io/en/latest/dictionary/framework.ini.html>`_
 
 
 Specs

@@ -54,8 +54,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `unicode <https://php-dictionary.readthedocs.io/en/latest/dictionary/unicode.ini.html>`_
-  + `escape-sequence <https://php-dictionary.readthedocs.io/en/latest/dictionary/escape-sequence.ini.html>`_
+  + `Unicode <https://php-dictionary.readthedocs.io/en/latest/dictionary/unicode.ini.html>`_
+  + `Escape Sequences <https://php-dictionary.readthedocs.io/en/latest/dictionary/escape-sequence.ini.html>`_
 
 
 Specs

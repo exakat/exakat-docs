@@ -48,7 +48,7 @@ See also `PHP csv extension <https://gitlab.com/Girgias/csv-php-extension>`_.
 Connex PHP features
 -------------------
 
-  + `csv <https://php-dictionary.readthedocs.io/en/latest/dictionary/csv.ini.html>`_
+  + `Comma Secparated Values (CSV) <https://php-dictionary.readthedocs.io/en/latest/dictionary/csv.ini.html>`_
 
 
 Specs

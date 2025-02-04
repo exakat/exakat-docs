@@ -59,8 +59,8 @@ See also `extract <https://www.php.net/extract>`_.
 Connex PHP features
 -------------------
 
-  + `extract <https://php-dictionary.readthedocs.io/en/latest/dictionary/extract.ini.html>`_
-  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `extract() <https://php-dictionary.readthedocs.io/en/latest/dictionary/extract.ini.html>`_
+  + `Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
 
 
 Suggestions

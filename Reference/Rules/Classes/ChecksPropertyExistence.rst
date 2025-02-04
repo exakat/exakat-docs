@@ -56,7 +56,7 @@ Connex PHP features
 -------------------
 
   + `stdclass <https://php-dictionary.readthedocs.io/en/latest/dictionary/stdclass.ini.html>`_
-  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+  + `Properties <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
 
 
 Specs

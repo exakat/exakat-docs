@@ -53,7 +53,7 @@ See also `Empty interfaces are bad practice <https://r.je/empty-interfaces-bad-p
 Connex PHP features
 -------------------
 
-  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+  + `Interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
 
 
 Suggestions

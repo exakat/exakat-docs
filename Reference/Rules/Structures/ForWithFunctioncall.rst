@@ -29,7 +29,7 @@ For Using Functioncall
 
 It is recommended to avoid functioncall in the `for() <https://www.php.net/manual/en/control-structures.for.php>`_ statement. 
 
-This is true with any kind of functioncall that returns the same value throughout the loop. 
+This is `true <https://www.php.net/true>`_ with any kind of functioncall that returns the same value throughout the loop. 
 
 Make sure that the functioncall doesn't change with the loop.
 
@@ -66,7 +66,7 @@ See also `PHP for loops and counting arrays <https://electrictoolbox.com/php-for
 Connex PHP features
 -------------------
 
-  + `for <https://php-dictionary.readthedocs.io/en/latest/dictionary/for.ini.html>`_
+  + `For <https://php-dictionary.readthedocs.io/en/latest/dictionary/for.ini.html>`_
 
 
 Suggestions

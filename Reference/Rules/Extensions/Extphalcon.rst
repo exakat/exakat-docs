@@ -29,7 +29,7 @@ ext/phalcon
 
 Extension Phalcon : High Performance PHP Framework.
 
-Phalcon's autoload examples from the docs :  `Tutorial 1: Let’s learn by example <https://docs.phalconphp.com/en/latest/reference/tutorial.html>`_
+Phalcon's autoload examples from the docs :  `Tutorial 1: Let’s learn by example <https://docs.phalconphp.`com <https://www.php.net/com>`_/en/latest/reference/tutorial.html>`_
 
 .. code-block:: php
    

@@ -55,7 +55,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `compact <https://php-dictionary.readthedocs.io/en/latest/dictionary/compact.ini.html>`_
+  + `compact() <https://php-dictionary.readthedocs.io/en/latest/dictionary/compact.ini.html>`_
 
 
 Suggestions

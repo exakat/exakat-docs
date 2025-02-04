@@ -50,7 +50,7 @@ See also `Factory (object-oriented programming) <https://en.wikipedia.org/wiki/F
 Connex PHP features
 -------------------
 
-  + `pattern <https://php-dictionary.readthedocs.io/en/latest/dictionary/pattern.ini.html>`_
+  + `Design Pattern <https://php-dictionary.readthedocs.io/en/latest/dictionary/pattern.ini.html>`_
 
 
 Specs

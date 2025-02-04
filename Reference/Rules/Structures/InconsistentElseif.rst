@@ -68,7 +68,7 @@ This analysis reports chains of elseif that don't share a common variable (or ar
 Connex PHP features
 -------------------
 
-  + `if-then <https://php-dictionary.readthedocs.io/en/latest/dictionary/if-then.ini.html>`_
+  + `If Then Else <https://php-dictionary.readthedocs.io/en/latest/dictionary/if-then.ini.html>`_
 
 
 Specs

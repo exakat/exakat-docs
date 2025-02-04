@@ -51,7 +51,7 @@ See also `Mailparse <https://www.php.net/manual/en/book.mailparse.php>`_.
 Connex PHP features
 -------------------
 
-  + `email <https://php-dictionary.readthedocs.io/en/latest/dictionary/email.ini.html>`_
+  + `Email <https://php-dictionary.readthedocs.io/en/latest/dictionary/email.ini.html>`_
 
 
 Specs

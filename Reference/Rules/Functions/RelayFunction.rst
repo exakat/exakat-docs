@@ -44,7 +44,7 @@ Relay functions are typical of transition API, where an old API have to be prese
 Connex PHP features
 -------------------
 
-  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
 
 
 Suggestions

@@ -55,7 +55,7 @@ Since the method will also loose its body, it should not be refered in any calls
 Connex PHP features
 -------------------
 
-  + `abstract <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
+  + `Abstract Keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
 
 
 Suggestions

@@ -50,8 +50,8 @@ See also `Userland naming Guide <https://www.php.net/manual/en/userlandnaming.ph
 Connex PHP features
 -------------------
 
-  + `call <https://php-dictionary.readthedocs.io/en/latest/dictionary/call.ini.html>`_
-  + `micro-optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html>`_
+  + `Call <https://php-dictionary.readthedocs.io/en/latest/dictionary/call.ini.html>`_
+  + `Micro-optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html>`_
 
 
 Specs

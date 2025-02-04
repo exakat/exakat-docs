@@ -45,7 +45,7 @@ Connex PHP features
 -------------------
 
   + `resource <https://php-dictionary.readthedocs.io/en/latest/dictionary/resource.ini.html>`_
-  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
 
 
 Specs

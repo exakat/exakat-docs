@@ -43,7 +43,7 @@ Collect the name used in `foreach() <https://www.php.net/manual/en/control-struc
 Connex PHP features
 -------------------
 
-  + `foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
+  + `Foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
 
 
 Specs

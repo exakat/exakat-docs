@@ -60,7 +60,7 @@ See also :ref:`Unused Parameter <unused-parameter>`, :ref:`Cancelled Parameter <
 Connex PHP features
 -------------------
 
-  + `silent <https://php-dictionary.readthedocs.io/en/latest/dictionary/silent.ini.html>`_
+  + `Silent Behavior <https://php-dictionary.readthedocs.io/en/latest/dictionary/silent.ini.html>`_
 
 
 Suggestions

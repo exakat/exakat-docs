@@ -67,8 +67,8 @@ PHP introduced new functions in PHP 5.4. If there are defined functions with suc
 Connex PHP features
 -------------------
 
-  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
-  + `native-php <https://php-dictionary.readthedocs.io/en/latest/dictionary/native-php.ini.html>`_
+  + `Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `Native <https://php-dictionary.readthedocs.io/en/latest/dictionary/native-php.ini.html>`_
 
 
 Specs

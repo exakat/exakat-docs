@@ -46,7 +46,7 @@ See also `Declare <https://www.php.net/manual/en/control-structures.declare.php>
 Connex PHP features
 -------------------
 
-  + `declare <https://php-dictionary.readthedocs.io/en/latest/dictionary/declare.ini.html>`_
+  + `declare() <https://php-dictionary.readthedocs.io/en/latest/dictionary/declare.ini.html>`_
   + `strict_types <https://php-dictionary.readthedocs.io/en/latest/dictionary/strict_types.ini.html>`_
 
 

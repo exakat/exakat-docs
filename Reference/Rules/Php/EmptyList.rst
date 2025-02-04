@@ -43,7 +43,7 @@ Empty `list() <https://www.php.net/list>`_ are not allowed anymore in PHP 7. The
 Connex PHP features
 -------------------
 
-  + `list <https://php-dictionary.readthedocs.io/en/latest/dictionary/list.ini.html>`_
+  + `List <https://php-dictionary.readthedocs.io/en/latest/dictionary/list.ini.html>`_
 
 
 Suggestions

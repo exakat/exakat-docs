@@ -54,9 +54,9 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `ellipsis <https://php-dictionary.readthedocs.io/en/latest/dictionary/ellipsis.ini.html>`_
-  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
-  + `array-spread <https://php-dictionary.readthedocs.io/en/latest/dictionary/array-spread.ini.html>`_
+  + `Ellipsis <https://php-dictionary.readthedocs.io/en/latest/dictionary/ellipsis.ini.html>`_
+  + `Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `Array Spread <https://php-dictionary.readthedocs.io/en/latest/dictionary/array-spread.ini.html>`_
 
 
 Suggestions

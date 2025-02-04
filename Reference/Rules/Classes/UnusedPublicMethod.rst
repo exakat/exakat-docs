@@ -50,8 +50,8 @@ Unused public methods are declared as ``public`` in the class, but never called,
 Connex PHP features
 -------------------
 
-  + `public <https://php-dictionary.readthedocs.io/en/latest/dictionary/public.ini.html>`_
-  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+  + `Public Visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/public.ini.html>`_
+  + `Method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
 
 
 Specs

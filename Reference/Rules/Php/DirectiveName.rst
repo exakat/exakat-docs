@@ -52,7 +52,7 @@ The following list has directive mentioned in the code, that are not known from 
 Connex PHP features
 -------------------
 
-  + `directive <https://php-dictionary.readthedocs.io/en/latest/dictionary/directive.ini.html>`_
+  + `Directives <https://php-dictionary.readthedocs.io/en/latest/dictionary/directive.ini.html>`_
 
 
 Specs

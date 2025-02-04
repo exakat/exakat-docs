@@ -57,7 +57,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
+  + `Attributes <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
 
 
 Suggestions

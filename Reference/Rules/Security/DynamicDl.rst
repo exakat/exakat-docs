@@ -51,7 +51,7 @@ See also `dl <http://www.php.net/dl>`_.
 Connex PHP features
 -------------------
 
-  + `library-loading <https://php-dictionary.readthedocs.io/en/latest/dictionary/library-loading.ini.html>`_
+  + `Library Loading <https://php-dictionary.readthedocs.io/en/latest/dictionary/library-loading.ini.html>`_
 
 
 Suggestions

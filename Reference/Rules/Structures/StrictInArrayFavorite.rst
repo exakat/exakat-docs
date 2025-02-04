@@ -48,7 +48,7 @@ In doubt, it is recommended to use the strict mode.
 Connex PHP features
 -------------------
 
-  + `strict-comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/strict-comparison.ini.html>`_
+  + `Strict Comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/strict-comparison.ini.html>`_
 
 
 Specs

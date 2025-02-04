@@ -48,7 +48,7 @@ Count the number of class children for a class. The more children a class has, t
 Connex PHP features
 -------------------
 
-  + `inclusion <https://php-dictionary.readthedocs.io/en/latest/dictionary/inclusion.ini.html>`_
+  + `Inclusions <https://php-dictionary.readthedocs.io/en/latest/dictionary/inclusion.ini.html>`_
 
 
 Specs

@@ -53,8 +53,8 @@ See also :ref:`Property Used Below <property-used-below>`.
 Connex PHP features
 -------------------
 
-  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
-  + `inheritance <https://php-dictionary.readthedocs.io/en/latest/dictionary/inheritance.ini.html>`_
+  + `Properties <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+  + `Inheritance <https://php-dictionary.readthedocs.io/en/latest/dictionary/inheritance.ini.html>`_
 
 
 Suggestions

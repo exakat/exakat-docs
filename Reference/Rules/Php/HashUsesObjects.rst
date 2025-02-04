@@ -54,8 +54,8 @@ See also `Move ext/hash from resources to objects <https://www.php.net/manual/en
 Connex PHP features
 -------------------
 
-  + `hash <https://php-dictionary.readthedocs.io/en/latest/dictionary/hash.ini.html>`_
-  + `object <https://php-dictionary.readthedocs.io/en/latest/dictionary/object.ini.html>`_
+  + `Hash <https://php-dictionary.readthedocs.io/en/latest/dictionary/hash.ini.html>`_
+  + `Object <https://php-dictionary.readthedocs.io/en/latest/dictionary/object.ini.html>`_
 
 
 Specs

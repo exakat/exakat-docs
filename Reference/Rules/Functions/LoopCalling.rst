@@ -60,8 +60,8 @@ Loops of size 2, 3 and 4 function are supported by this analyzer.
 Connex PHP features
 -------------------
 
-  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
-  + `recursion <https://php-dictionary.readthedocs.io/en/latest/dictionary/recursion.ini.html>`_
+  + `Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `Recursion <https://php-dictionary.readthedocs.io/en/latest/dictionary/recursion.ini.html>`_
 
 
 Suggestions

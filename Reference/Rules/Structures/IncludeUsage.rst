@@ -45,7 +45,7 @@ See also `Include <https://www.php.net/manual/en/function.include.php>`_ and `Re
 Connex PHP features
 -------------------
 
-  + `inclusion <https://php-dictionary.readthedocs.io/en/latest/dictionary/inclusion.ini.html>`_
+  + `Inclusions <https://php-dictionary.readthedocs.io/en/latest/dictionary/inclusion.ini.html>`_
 
 
 Specs

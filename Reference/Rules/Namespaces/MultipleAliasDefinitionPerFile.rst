@@ -48,7 +48,7 @@ See also :ref:`No title for `Namespaces/MultipleAliasDefinition`_ <No anchor for
 Connex PHP features
 -------------------
 
-  + `alias <https://php-dictionary.readthedocs.io/en/latest/dictionary/alias.ini.html>`_
+  + `Alias <https://php-dictionary.readthedocs.io/en/latest/dictionary/alias.ini.html>`_
 
 
 Specs

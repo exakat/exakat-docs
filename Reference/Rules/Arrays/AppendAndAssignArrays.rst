@@ -42,7 +42,7 @@ Array append and direct index assignation have different impact one on the other
 Connex PHP features
 -------------------
 
-  + `append <https://php-dictionary.readthedocs.io/en/latest/dictionary/append.ini.html>`_
+  + `Array Append <https://php-dictionary.readthedocs.io/en/latest/dictionary/append.ini.html>`_
 
 
 Specs

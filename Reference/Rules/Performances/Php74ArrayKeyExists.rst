@@ -54,8 +54,8 @@ See also `Add array_key_exists to the list of specially compiled functions <http
 Connex PHP features
 -------------------
 
-  + `vm <https://php-dictionary.readthedocs.io/en/latest/dictionary/vm.ini.html>`_
-  + `opcode <https://php-dictionary.readthedocs.io/en/latest/dictionary/opcode.ini.html>`_
+  + `Virtual Machine <https://php-dictionary.readthedocs.io/en/latest/dictionary/vm.ini.html>`_
+  + `Opcode <https://php-dictionary.readthedocs.io/en/latest/dictionary/opcode.ini.html>`_
 
 
 Suggestions

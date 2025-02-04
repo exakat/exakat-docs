@@ -49,7 +49,7 @@ See also `Cyclomatic complexity <https://en.wikipedia.org/wiki/Cyclomatic_comple
 Connex PHP features
 -------------------
 
-  + `cyclomatic-complexity <https://php-dictionary.readthedocs.io/en/latest/dictionary/cyclomatic-complexity.ini.html>`_
+  + `Cyclomatic Complexity <https://php-dictionary.readthedocs.io/en/latest/dictionary/cyclomatic-complexity.ini.html>`_
 
 
 Specs

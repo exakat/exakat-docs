@@ -49,7 +49,7 @@ See also `Ctype functions <https://www.php.net/manual/en/ref.ctype.php>`_.
 Connex PHP features
 -------------------
 
-  + `ctype <https://php-dictionary.readthedocs.io/en/latest/dictionary/ctype.ini.html>`_
+  + `Ctype <https://php-dictionary.readthedocs.io/en/latest/dictionary/ctype.ini.html>`_
 
 
 Specs

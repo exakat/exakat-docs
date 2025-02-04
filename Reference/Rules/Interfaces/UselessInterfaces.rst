@@ -43,7 +43,7 @@ Interfaces should be used in type or with the ``instanceof`` operator.
 Connex PHP features
 -------------------
 
-  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+  + `Interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
 
 
 Suggestions

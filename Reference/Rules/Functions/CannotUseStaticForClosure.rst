@@ -74,7 +74,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
+  + `Closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
   + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
 
 

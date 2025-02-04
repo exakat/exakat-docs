@@ -48,7 +48,7 @@ Relay constants acts as alias. They also add an extra layer between a constant o
 Connex PHP features
 -------------------
 
-  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+  + `Constants <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
 
 
 Specs

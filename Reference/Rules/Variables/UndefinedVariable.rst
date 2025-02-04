@@ -59,7 +59,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
 
 
 Suggestions

@@ -45,8 +45,8 @@ List of all labels used in the code.
 Connex PHP features
 -------------------
 
-  + `goto <https://php-dictionary.readthedocs.io/en/latest/dictionary/goto.ini.html>`_
-  + `label <https://php-dictionary.readthedocs.io/en/latest/dictionary/label.ini.html>`_
+  + `Goto <https://php-dictionary.readthedocs.io/en/latest/dictionary/goto.ini.html>`_
+  + `Goto Labels <https://php-dictionary.readthedocs.io/en/latest/dictionary/label.ini.html>`_
 
 
 Specs

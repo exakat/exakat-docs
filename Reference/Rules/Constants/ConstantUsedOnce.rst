@@ -43,7 +43,7 @@ This rule works on global and class constants.
 Connex PHP features
 -------------------
 
-  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+  + `Constants <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
 
 
 Suggestions

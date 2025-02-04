@@ -57,8 +57,8 @@ See also `Operator Precedence <https://www.php.net/manual/en/language.operators.
 Connex PHP features
 -------------------
 
-  + `assignation <https://php-dictionary.readthedocs.io/en/latest/dictionary/assignation.ini.html>`_
-  + `comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
+  + `Assignations <https://php-dictionary.readthedocs.io/en/latest/dictionary/assignation.ini.html>`_
+  + `Comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
 
 
 Suggestions

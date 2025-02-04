@@ -43,8 +43,8 @@ See also `declare <https://www.php.net/manual/en/control-structures.declare.php>
 Connex PHP features
 -------------------
 
-  + `tick <https://php-dictionary.readthedocs.io/en/latest/dictionary/tick.ini.html>`_
-  + `declare <https://php-dictionary.readthedocs.io/en/latest/dictionary/declare.ini.html>`_
+  + `Tick <https://php-dictionary.readthedocs.io/en/latest/dictionary/tick.ini.html>`_
+  + `declare() <https://php-dictionary.readthedocs.io/en/latest/dictionary/declare.ini.html>`_
 
 
 Specs

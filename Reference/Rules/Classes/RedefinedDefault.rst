@@ -45,7 +45,7 @@ Classes allows properties to be set with a default value. When those properties 
 Connex PHP features
 -------------------
 
-  + `default-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
+  + `Default Value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
 
 
 Suggestions

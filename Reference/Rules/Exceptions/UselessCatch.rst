@@ -62,8 +62,8 @@ See also `Exceptions <https://www.php.net/manual/en/language.exceptions.php>`_ a
 Connex PHP features
 -------------------
 
-  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
-  + `catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
+  + `Exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+  + `Catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
 
 
 Suggestions

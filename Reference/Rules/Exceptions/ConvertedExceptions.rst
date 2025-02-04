@@ -46,8 +46,8 @@ Sometimes, extra operations take place, such as logging or `error <https://www.p
 Connex PHP features
 -------------------
 
-  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
-  + `try <https://php-dictionary.readthedocs.io/en/latest/dictionary/try.ini.html>`_
+  + `Exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+  + `Try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try.ini.html>`_
 
 
 Specs

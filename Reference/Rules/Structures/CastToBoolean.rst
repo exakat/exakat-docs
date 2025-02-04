@@ -52,7 +52,7 @@ This expression may be reduced to casting to a boolean. This makes the code more
 Connex PHP features
 -------------------
 
-  + `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+  + `Cast Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
 
 
 Suggestions

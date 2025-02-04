@@ -47,7 +47,7 @@ See also `New custom object serialization mechanism <https://wiki.php.net/rfc/cu
 Connex PHP features
 -------------------
 
-  + `serialize <https://php-dictionary.readthedocs.io/en/latest/dictionary/serialize.ini.html>`_
+  + `Serialization <https://php-dictionary.readthedocs.io/en/latest/dictionary/serialize.ini.html>`_
 
 
 Specs

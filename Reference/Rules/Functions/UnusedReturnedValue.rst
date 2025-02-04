@@ -63,7 +63,7 @@ Note that this analysis ignores functions that return void (same meaning that PH
 Connex PHP features
 -------------------
 
-  + `return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
+  + `Return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
 
 
 Specs

@@ -70,7 +70,7 @@ This analysis is impacted by dynamic method calls.
 Connex PHP features
 -------------------
 
-  + `unused <https://php-dictionary.readthedocs.io/en/latest/dictionary/unused.ini.html>`_
+  + `Unused <https://php-dictionary.readthedocs.io/en/latest/dictionary/unused.ini.html>`_
 
 
 Suggestions

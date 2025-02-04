@@ -62,7 +62,7 @@ Setting properties with default values is a good way to avoid littering the code
 Connex PHP features
 -------------------
 
-  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+  + `Method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
 
 
 Suggestions

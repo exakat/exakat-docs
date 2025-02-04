@@ -60,7 +60,7 @@ Short assignations, such as `+=`  are not considered default value. It needs to 
 Connex PHP features
 -------------------
 
-  + `default-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
+  + `Default Value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
 
 
 Specs

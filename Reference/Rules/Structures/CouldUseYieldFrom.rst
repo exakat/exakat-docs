@@ -57,7 +57,7 @@ Could Use Yield From
 Connex PHP features
 -------------------
 
-  + `yield-from <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield-from.ini.html>`_
+  + `yield from Keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield-from.ini.html>`_
 
 
 Suggestions

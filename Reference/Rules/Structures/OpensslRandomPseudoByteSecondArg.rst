@@ -53,7 +53,7 @@ See also `openssl_random_pseudo_byte <https://www.php.net/openssl_random_pseudo_
 Connex PHP features
 -------------------
 
-  + `openssl <https://php-dictionary.readthedocs.io/en/latest/dictionary/openssl.ini.html>`_
+  + `OpenSSL <https://php-dictionary.readthedocs.io/en/latest/dictionary/openssl.ini.html>`_
 
 
 Suggestions

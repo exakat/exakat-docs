@@ -31,7 +31,7 @@ This command finishes marking atoms with the isStub property. ``isStub`` are str
 Connex PHP features
 -------------------
 
-  + `stubs <https://php-dictionary.readthedocs.io/en/latest/dictionary/stubs.ini.html>`_
+  + `Stubs Files <https://php-dictionary.readthedocs.io/en/latest/dictionary/stubs.ini.html>`_
 
 
 Specs

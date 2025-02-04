@@ -61,8 +61,8 @@ Note that dynamic properties (such as $x->$y) are not taken into account.
 Connex PHP features
 -------------------
 
-  + `private <https://php-dictionary.readthedocs.io/en/latest/dictionary/private.ini.html>`_
-  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+  + `Private Visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/private.ini.html>`_
+  + `Method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
 
 
 Specs

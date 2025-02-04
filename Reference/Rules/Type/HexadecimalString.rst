@@ -56,7 +56,7 @@ See also `Integer Syntax <https://www.php.net/manual/en/language.types.integer.p
 Connex PHP features
 -------------------
 
-  + `hexadecimal <https://php-dictionary.readthedocs.io/en/latest/dictionary/hexadecimal.ini.html>`_
+  + `Hexadecimal Integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/hexadecimal.ini.html>`_
 
 
 Specs

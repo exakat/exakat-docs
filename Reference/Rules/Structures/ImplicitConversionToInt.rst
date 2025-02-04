@@ -68,7 +68,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `type-juggling <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-juggling.ini.html>`_
+  + `Type Juggling <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-juggling.ini.html>`_
 
 
 Suggestions

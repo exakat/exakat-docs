@@ -49,7 +49,7 @@ Mark a method as part of an interface that the current class implements.
 Connex PHP features
 -------------------
 
-  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+  + `Interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
 
 
 Specs

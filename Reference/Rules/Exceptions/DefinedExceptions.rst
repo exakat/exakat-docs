@@ -48,8 +48,8 @@ See also `Predefined Exceptions <https://www.php.net/manual/en/reserved.exceptio
 Connex PHP features
 -------------------
 
-  + `predefined-exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/predefined-exception.ini.html>`_
-  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+  + `PHP Predefined Exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/predefined-exception.ini.html>`_
+  + `Exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
 
 
 Specs

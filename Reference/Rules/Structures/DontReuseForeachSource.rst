@@ -52,7 +52,7 @@ On the other hand, the source of the loop is modified after the loop (and actual
 Connex PHP features
 -------------------
 
-  + `foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
+  + `Foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
 
 
 Suggestions

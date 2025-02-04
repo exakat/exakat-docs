@@ -64,7 +64,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `json <https://php-dictionary.readthedocs.io/en/latest/dictionary/json.ini.html>`_
+  + `JavaScript Object Notation (JSON) <https://php-dictionary.readthedocs.io/en/latest/dictionary/json.ini.html>`_
 
 
 Suggestions

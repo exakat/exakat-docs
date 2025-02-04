@@ -65,7 +65,7 @@ Connex PHP features
 -------------------
 
   + `$this <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24this.ini.html>`_
-  + `self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
+  + `Self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
   + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
 
 

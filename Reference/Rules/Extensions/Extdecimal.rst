@@ -65,8 +65,8 @@ See also `PHP Decimal <http://php-decimal.io>`_ and `libmpdec <http://www.bytere
 Connex PHP features
 -------------------
 
-  + `extension <https://php-dictionary.readthedocs.io/en/latest/dictionary/extension.ini.html>`_
-  + `float <https://php-dictionary.readthedocs.io/en/latest/dictionary/float.ini.html>`_
+  + `Extensions <https://php-dictionary.readthedocs.io/en/latest/dictionary/extension.ini.html>`_
+  + `Floating Point Numbers <https://php-dictionary.readthedocs.io/en/latest/dictionary/float.ini.html>`_
 
 
 Specs

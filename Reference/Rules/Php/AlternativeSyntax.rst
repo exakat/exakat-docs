@@ -53,12 +53,12 @@ See also `Alternative syntax <https://www.php.net/manual/en/control-structures.a
 Connex PHP features
 -------------------
 
-  + `alternative-syntax <https://php-dictionary.readthedocs.io/en/latest/dictionary/alternative-syntax.ini.html>`_
-  + `foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
-  + `while <https://php-dictionary.readthedocs.io/en/latest/dictionary/while.ini.html>`_
-  + `do-while <https://php-dictionary.readthedocs.io/en/latest/dictionary/do-while.ini.html>`_
-  + `for <https://php-dictionary.readthedocs.io/en/latest/dictionary/for.ini.html>`_
-  + `switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
+  + `Alternative Syntax <https://php-dictionary.readthedocs.io/en/latest/dictionary/alternative-syntax.ini.html>`_
+  + `Foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
+  + `While <https://php-dictionary.readthedocs.io/en/latest/dictionary/while.ini.html>`_
+  + `Do While <https://php-dictionary.readthedocs.io/en/latest/dictionary/do-while.ini.html>`_
+  + `For <https://php-dictionary.readthedocs.io/en/latest/dictionary/for.ini.html>`_
+  + `Switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
 
 
 Specs

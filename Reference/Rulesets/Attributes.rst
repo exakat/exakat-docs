@@ -23,19 +23,19 @@ This ruleset gathers all rules that rely on PHP 8.+ attributes.
 
 Total : 13 analysis
 
-* :ref:`exit-like-methods`
-* :ref:`using-deprecated-method`
-* :ref:`modify-immutable`
-* :ref:`missing-attribute-attribute`
-* :ref:`using-deprecated-feature`
-* :ref:`override-attribute`
-* :ref:`friend-attribute`
-* :ref:`php-native-attributes`
-* :ref:`no-named-parameters`
-* :ref:`deprecated-attribute`
-* :ref:`useless-override-attribute`
-* :ref:`mustuseresult`
-* :ref:`must-use-result,-so-it-returns`
+* :ref:`functions-killsapp`
+* :ref:`functions-usingdeprecated`
+* :ref:`attributes-modifyimmutable`
+* :ref:`attributes-missingattributeattribute`
+* :ref:`attributes-usingdeprecated`
+* :ref:`attributes-override`
+* :ref:`attributes-friend`
+* :ref:`attributes-phpnativeattributes`
+* :ref:`attributes-nonamedarguments`
+* :ref:`attributes-deprecated`
+* :ref:`attributes-uselessoverride`
+* :ref:`attributes-mustuseresult`
+* :ref:`attributes-mustusereturnreturns`
 
 Specs
 _____

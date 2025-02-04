@@ -46,7 +46,7 @@ Variable ``global`` such are valid in PHP 5.6, but no in PHP 7.0. They should be
 Connex PHP features
 -------------------
 
-  + `global <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
+  + `global Scope <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
 
 
 Specs

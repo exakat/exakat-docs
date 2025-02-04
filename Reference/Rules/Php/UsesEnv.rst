@@ -40,7 +40,7 @@ This rule spots usage of ``$_ENV``, ``getenv()`` and ``putenv()`` functions: the
 Connex PHP features
 -------------------
 
-  + `system <https://php-dictionary.readthedocs.io/en/latest/dictionary/system.ini.html>`_
+  + `System <https://php-dictionary.readthedocs.io/en/latest/dictionary/system.ini.html>`_
 
 
 Specs

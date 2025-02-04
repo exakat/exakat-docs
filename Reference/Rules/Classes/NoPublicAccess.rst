@@ -50,7 +50,7 @@ The properties below are declared with public access, but are never used publicl
 Connex PHP features
 -------------------
 
-  + `visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html>`_
+  + `Visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html>`_
 
 
 Specs

@@ -52,7 +52,7 @@ See also `PhpStorm 2020.3 EAP #4: Custom PHP 8 Attributes  <https://blog.jetbrai
 Connex PHP features
 -------------------
 
-  + `exit <https://php-dictionary.readthedocs.io/en/latest/dictionary/exit.ini.html>`_
+  + `Exit <https://php-dictionary.readthedocs.io/en/latest/dictionary/exit.ini.html>`_
 
 
 Specs

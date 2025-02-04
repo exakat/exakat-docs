@@ -73,7 +73,7 @@ This analysis relies on typed properties, as introduced in PHP 7.4. It also reli
 Connex PHP features
 -------------------
 
-  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
 
 Suggestions

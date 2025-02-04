@@ -44,7 +44,7 @@ See also `MD5 <https://www.php.net/md5>`_.
 Connex PHP features
 -------------------
 
-  + `md5 <https://php-dictionary.readthedocs.io/en/latest/dictionary/md5.ini.html>`_
+  + `Message Digest Algorithm 5 (MD5) <https://php-dictionary.readthedocs.io/en/latest/dictionary/md5.ini.html>`_
 
 
 Specs

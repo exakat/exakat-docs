@@ -75,8 +75,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
-  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+  + `Self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
+  + `Interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
 
 
 Suggestions

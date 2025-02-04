@@ -43,7 +43,7 @@ Generators could not use return and yield at the same time. In PHP 7.0, `generat
 Connex PHP features
 -------------------
 
-  + `generator <https://php-dictionary.readthedocs.io/en/latest/dictionary/generator.ini.html>`_
+  + `Generator <https://php-dictionary.readthedocs.io/en/latest/dictionary/generator.ini.html>`_
 
 
 Suggestions

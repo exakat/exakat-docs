@@ -63,8 +63,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
-  + `abstract <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
+  + `Interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+  + `Abstract Keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
   + `implements <https://php-dictionary.readthedocs.io/en/latest/dictionary/implements.ini.html>`_
 
 

@@ -47,8 +47,8 @@ List of calls to private properties/methods that will compile but yield some fat
 Connex PHP features
 -------------------
 
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
-  + `private <https://php-dictionary.readthedocs.io/en/latest/dictionary/private.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Private Visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/private.ini.html>`_
 
 
 Specs

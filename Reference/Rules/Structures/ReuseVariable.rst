@@ -51,7 +51,7 @@ This may be a micro-optimisation.
 Connex PHP features
 -------------------
 
-  + `memoization <https://php-dictionary.readthedocs.io/en/latest/dictionary/memoization.ini.html>`_
+  + `Memoization <https://php-dictionary.readthedocs.io/en/latest/dictionary/memoization.ini.html>`_
 
 
 Suggestions

@@ -66,7 +66,7 @@ See also `Method fossilization <https://www.exakat.io/en/method-fossilisation/>_
 Connex PHP features
 -------------------
 
-  + `fossilized-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/fossilized-method.ini.html>`_
+  + `Fossilized Methods <https://php-dictionary.readthedocs.io/en/latest/dictionary/fossilized-method.ini.html>`_
 
 
 Specs

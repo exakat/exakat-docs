@@ -96,7 +96,7 @@ See also `Avoid nesting too deeply and return early (part 1) <https://github.com
 Connex PHP features
 -------------------
 
-  + `return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
+  + `Return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
 
 
 Suggestions

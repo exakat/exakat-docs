@@ -55,7 +55,7 @@ There are situation which cannot be typed, and legit : the example below is an i
 Connex PHP features
 -------------------
 
-  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
 
 
 Specs

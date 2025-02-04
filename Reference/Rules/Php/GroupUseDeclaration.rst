@@ -59,7 +59,7 @@ See also `Group Use Declaration RFC <https://wiki.php.net/rfc/group_use_declarat
 Connex PHP features
 -------------------
 
-  + `use <https://php-dictionary.readthedocs.io/en/latest/dictionary/use.ini.html>`_
+  + `Use <https://php-dictionary.readthedocs.io/en/latest/dictionary/use.ini.html>`_
 
 
 Specs

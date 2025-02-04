@@ -69,7 +69,7 @@ Using `die <https://www.php.net/die>`_ or `exit <https://www.www.php.net/exit>`_
 Connex PHP features
 -------------------
 
-  + `die <https://php-dictionary.readthedocs.io/en/latest/dictionary/die.ini.html>`_
+  + `Exit <https://php-dictionary.readthedocs.io/en/latest/dictionary/die.ini.html>`_
 
 
 Suggestions

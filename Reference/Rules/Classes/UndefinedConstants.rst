@@ -63,8 +63,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `class-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html>`_
-  + `undefined <https://php-dictionary.readthedocs.io/en/latest/dictionary/undefined.ini.html>`_
+  + `Static Constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html>`_
+  + `Undefined <https://php-dictionary.readthedocs.io/en/latest/dictionary/undefined.ini.html>`_
 
 
 Suggestions

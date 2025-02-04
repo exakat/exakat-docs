@@ -50,7 +50,7 @@ This means that the fully qualified name of the ``new`` call and the instantiate
 Connex PHP features
 -------------------
 
-  + `class-alias <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-alias.ini.html>`_
+  + `Class Aliases <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-alias.ini.html>`_
 
 
 Specs

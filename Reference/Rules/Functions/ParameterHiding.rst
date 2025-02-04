@@ -49,7 +49,7 @@ Keep this code simple by removing the hiding parameter.
 Connex PHP features
 -------------------
 
-  + `parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
+  + `Parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
 
 
 Suggestions

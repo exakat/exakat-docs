@@ -37,7 +37,7 @@ This applies to all inequality operators, as well as the spaceship operator.
 
 This analysis skips comparisons between integers, floats and strings, as those are usually expected.
 
-Thanks to `Jordi Boggiano <https://twitter.com/seldaek>`_ and `Filippo Tessarotto <https://twitter.com/slamzoe>`_.
+Thanks to `Jordi Boggiano <https://twitter.`com <https://www.php.net/com>`_/seldaek>`_ and `Filippo Tessarotto <https://twitter.`com <https://www.php.net/com>`_/slamzoe>`_.
 
 .. code-block:: php
    
@@ -63,9 +63,9 @@ Thanks to `Jordi Boggiano <https://twitter.com/seldaek>`_ and `Filippo Tessarott
 Connex PHP features
 -------------------
 
-  + `inequality <https://php-dictionary.readthedocs.io/en/latest/dictionary/inequality.ini.html>`_
-  + `enum-case <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum-case.ini.html>`_
-  + `type-juggling <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-juggling.ini.html>`_
+  + `Inequality <https://php-dictionary.readthedocs.io/en/latest/dictionary/inequality.ini.html>`_
+  + `Enumeration Case <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum-case.ini.html>`_
+  + `Type Juggling <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-juggling.ini.html>`_
 
 
 Suggestions

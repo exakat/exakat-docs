@@ -57,8 +57,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `index <https://php-dictionary.readthedocs.io/en/latest/dictionary/index.ini.html>`_
-  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `Index <https://php-dictionary.readthedocs.io/en/latest/dictionary/index.ini.html>`_
+  + `Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
 
 
 Suggestions

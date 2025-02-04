@@ -51,7 +51,7 @@ Promoted properties save the assignation of constructor argument to the property
 Connex PHP features
 -------------------
 
-  + `promoted-property <https://php-dictionary.readthedocs.io/en/latest/dictionary/promoted-property.ini.html>`_
+  + `Promoted Properties <https://php-dictionary.readthedocs.io/en/latest/dictionary/promoted-property.ini.html>`_
 
 
 Suggestions

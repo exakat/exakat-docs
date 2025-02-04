@@ -51,7 +51,7 @@ See also `Trailing Commas In List Syntax <https://wiki.php.net/rfc/list-syntax-t
 Connex PHP features
 -------------------
 
-  + `use <https://php-dictionary.readthedocs.io/en/latest/dictionary/use.ini.html>`_
+  + `Use <https://php-dictionary.readthedocs.io/en/latest/dictionary/use.ini.html>`_
 
 
 Specs

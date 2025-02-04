@@ -51,8 +51,8 @@ See also `Scope Resolution Operator (::) <https://www.php.net/manual/en/language
 Connex PHP features
 -------------------
 
-  + `self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
 
 
 Suggestions

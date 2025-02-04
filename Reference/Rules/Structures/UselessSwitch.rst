@@ -47,7 +47,7 @@ This switch has only one case. It may very well be replaced by a ifthen structur
 Connex PHP features
 -------------------
 
-  + `switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
+  + `Switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
 
 
 Suggestions

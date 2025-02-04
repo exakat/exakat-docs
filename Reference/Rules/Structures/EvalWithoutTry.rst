@@ -51,7 +51,7 @@ Note that it will catch situations where ``eval()`` is provided with code that c
 Connex PHP features
 -------------------
 
-  + `eval <https://php-dictionary.readthedocs.io/en/latest/dictionary/eval.ini.html>`_
+  + `Eval() <https://php-dictionary.readthedocs.io/en/latest/dictionary/eval.ini.html>`_
 
 
 Suggestions

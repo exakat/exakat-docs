@@ -29,15 +29,15 @@ Set Cookie Safe Arguments
 
 The last five arguments of `setcookie() <https://www.php.net/setcookie>`_ and `setrawcookie() <https://www.php.net/setrawcookie>`_ are for security. Use them anytime you can.
 
-``setcookie ( string $name [, string $value = " [, int $expire = 0 [, string $path = " [, string $domain = " [, bool $`secure <https://www.php.net/secure>`_ = false [, bool $httponly = false ]]]]]] )``
+``setcookie ( string $name [, string $value = " [, int $expire = 0 [, string $path = " [, string $domain = " [, bool $`secure <https://www.php.net/secure>`_ = `false <https://www.php.net/false>`_ [, bool $httponly = `false <https://www.php.net/false>`_ ]]]]]] )``
 
 The ``$expire`` argument sets the date of expiration of the cookie. It is recommended to make it as low as possible, to reduce its chances to be captured. Sometimes, low expiration date may be several days (for preferences), and other times, low expiration date means a few minutes. 
 
 The ``$path`` argument limits the transmission of the cookie to URL whose path matches the one mentioned here. By default, it is ``'/'``, which means the whole server. If a cookie usage is limited to a part of the application, use it here.
 
-The ``$domain`` argument limits the transmission of the cookie to URL whose domain matches the one mentioned here. By default, it is ``''``, which means any server on the internet. At worse, you may use ``mydomain.com`` to cover your whole domain, or better, refine it with the actual subdomain of usage.
+The ``$domain`` argument limits the transmission of the cookie to URL whose domain matches the one mentioned here. By default, it is ``''``, which means any server on the internet. At worse, you may use ``mydomain.`com <https://www.php.net/com>`_`` to cover your whole domain, or better, refine it with the actual subdomain of usage.
 
-The ``$`secure <https://www.php.net/secure>`_`` argument limits the transmission of the cookie over HTTP (by default) or HTTPS. The second is better, as the transmission of the cookie is crypted. In case HTTPS is still at the planned stage, use '$_SERVER["HTTPS"]'. This environment variable is false on HTTP, and true on HTTPS.
+The ``$`secure <https://www.php.net/secure>`_`` argument limits the transmission of the cookie over HTTP (by default) or HTTPS. The second is better, as the transmission of the cookie is crypted. In case HTTPS is still at the planned stage, use '$_SERVER["HTTPS"]'. This environment variable is `false <https://www.php.net/false>`_ on HTTP, and `true <https://www.php.net/true>`_ on HTTPS.
 
 The ``$httponly`` argument limits the access of the cookie to JavaScript. It is only transmitted to the browser, and retransmitted. This helps reducing XSS and CSRF attacks, though it is disputed. 
 
@@ -63,7 +63,7 @@ See also `setcookie <http://www.php.net/setcookie>`_ and `'SameSite' cookie attr
 Connex PHP features
 -------------------
 
-  + `cookie <https://php-dictionary.readthedocs.io/en/latest/dictionary/cookie.ini.html>`_
+  + `Cookie <https://php-dictionary.readthedocs.io/en/latest/dictionary/cookie.ini.html>`_
 
 
 Suggestions

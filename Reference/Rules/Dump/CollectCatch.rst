@@ -48,8 +48,8 @@ See also `Catch <https://www.php.net/manual/en/language.exceptions.php#language.
 Connex PHP features
 -------------------
 
-  + `catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
-  + `try <https://php-dictionary.readthedocs.io/en/latest/dictionary/try.ini.html>`_
+  + `Catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
+  + `Try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try.ini.html>`_
 
 
 Specs

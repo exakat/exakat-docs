@@ -52,7 +52,7 @@ See also `Scalar type declarations <https://www.php.net/manual/en/migration70.ne
 Connex PHP features
 -------------------
 
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
 
 
 Specs

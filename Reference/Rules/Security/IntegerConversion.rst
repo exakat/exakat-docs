@@ -64,7 +64,7 @@ See also `Type Juggling Authentication Bypass Vulnerability in CMS Made Simple <
 Connex PHP features
 -------------------
 
-  + `validation <https://php-dictionary.readthedocs.io/en/latest/dictionary/validation.ini.html>`_
+  + `Validation <https://php-dictionary.readthedocs.io/en/latest/dictionary/validation.ini.html>`_
 
 
 Suggestions

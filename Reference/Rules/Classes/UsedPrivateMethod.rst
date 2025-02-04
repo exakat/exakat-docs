@@ -54,7 +54,7 @@ Protected methods, in a standalone class, are also included.
 Connex PHP features
 -------------------
 
-  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+  + `Method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
 
 
 Specs

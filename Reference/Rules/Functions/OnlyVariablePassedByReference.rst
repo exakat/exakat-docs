@@ -60,8 +60,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
-  + `parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
+  + `References <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+  + `Parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
 
 
 Suggestions

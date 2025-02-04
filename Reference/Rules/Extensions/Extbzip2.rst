@@ -47,7 +47,7 @@ See also `Bzip2 Functions <https://www.php.net/bzip2>`_ and `bzip2 <https://en.w
 Connex PHP features
 -------------------
 
-  + `compression <https://php-dictionary.readthedocs.io/en/latest/dictionary/compression.ini.html>`_
+  + `Compression <https://php-dictionary.readthedocs.io/en/latest/dictionary/compression.ini.html>`_
 
 
 Specs

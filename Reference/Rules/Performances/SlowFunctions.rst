@@ -49,9 +49,9 @@ Avoid using those slow native PHP functions, and replace them with alternatives.
 | `array_unique() <https://www.php.net/array_unique>`_          |  `array_keys() <https://www.php.net/array_keys>`_ and `array_count_values() <https://www.php.net/array_count_values>`_     | 
 +---------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+
 
-`array_unique() <https://www.php.net/array_unique>`_ has been accelerated in PHP 7.2 and may be used directly from this version on : `Optimize `array_unique() <https://www.php.net/array_unique>`_ <https://github.com/php/php-src/commit/6c2c7a023da4223e41fea0225c51a417fc8eb10d>`_.
+`array_unique() <https://www.php.net/array_unique>`_ has been accelerated in PHP 7.2 and may be used directly from this version on : `Optimize `array_unique() <https://www.php.net/array_unique>`_ <https://github.`com <https://www.php.net/com>`_/php/php-src/commit/6c2c7a023da4223e41fea0225c51a417fc8eb10d>`_.
 
-`array_key_exists() <https://www.php.net/array_key_exists>`_ has been accelerated in PHP 7.4 and may be used directly from this version on : `Implement ZEND_ARRAY_KEY_EXISTS opcode to speed up `array_key_exists() <https://www.php.net/array_key_exists>`_ <https://github.com/php/php-src/pull/3360>`_.
+`array_key_exists() <https://www.php.net/array_key_exists>`_ has been accelerated in PHP 7.4 and may be used directly from this version on : `Implement ZEND_ARRAY_KEY_EXISTS opcode to speed up `array_key_exists() <https://www.php.net/array_key_exists>`_ <https://github.`com <https://www.php.net/com>`_/php/php-src/pull/3360>`_.
 
 .. code-block:: php
    

@@ -47,8 +47,8 @@ List the names of the methods in a trait.
 Connex PHP features
 -------------------
 
-  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
-  + `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
+  + `Method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+  + `Trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
 
 
 Specs

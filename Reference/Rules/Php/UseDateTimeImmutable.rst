@@ -51,8 +51,8 @@ See also `What's all this 'immutable date' stuff, anyway? <https://medium.com/@c
 Connex PHP features
 -------------------
 
-  + `immutable <https://php-dictionary.readthedocs.io/en/latest/dictionary/immutable.ini.html>`_
-  + `date <https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html>`_
+  + `Immutable <https://php-dictionary.readthedocs.io/en/latest/dictionary/immutable.ini.html>`_
+  + `Dates <https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html>`_
 
 
 Suggestions

@@ -52,7 +52,7 @@ See also `Iterables <https://www.php.net/manual/en/language.types.iterable.php>`
 Connex PHP features
 -------------------
 
-  + `iterable <https://php-dictionary.readthedocs.io/en/latest/dictionary/iterable.ini.html>`_
+  + `Iterable <https://php-dictionary.readthedocs.io/en/latest/dictionary/iterable.ini.html>`_
 
 
 Suggestions

@@ -29,7 +29,7 @@ Mismatched Type
 
 Relayed arguments don't have the same type.
 
-Type acts as a filter method. When an object is checked with a first class, and then checked again with a second distinct class, the whole process is always false : $a can't be of two different classes at the same time.
+Type acts as a filter method. When an object is checked with a first class, and then checked again with a second distinct class, the whole process is always `false <https://www.php.net/false>`_ : $a can't be of two different classes at the same time.
 
 Note : This analysis currently doesn't check generalisation of classes : for example, when B is a child of BB, it is still reported as a mismatch.
 
@@ -52,7 +52,7 @@ Note : This analysis currently doesn't check generalisation of classes : for exa
 Connex PHP features
 -------------------
 
-  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
 
 
 Suggestions

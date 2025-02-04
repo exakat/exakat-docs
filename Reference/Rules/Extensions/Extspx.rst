@@ -48,7 +48,7 @@ See also `<https://github.com/NoiseByNorthwest/php-spx>`_.
 Connex PHP features
 -------------------
 
-  + `profiler <https://php-dictionary.readthedocs.io/en/latest/dictionary/profiler.ini.html>`_
+  + `PHP Profiler <https://php-dictionary.readthedocs.io/en/latest/dictionary/profiler.ini.html>`_
 
 
 Specs

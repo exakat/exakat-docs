@@ -55,8 +55,8 @@ See also `Bitwise Operators <https://www.php.net/manual/en/language.operators.bi
 Connex PHP features
 -------------------
 
-  + `logical-operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/logical-operator.ini.html>`_
-  + `bitwise-operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/bitwise-operator.ini.html>`_
+  + `Logical Operators <https://php-dictionary.readthedocs.io/en/latest/dictionary/logical-operator.ini.html>`_
+  + `Bitwise Operators <https://php-dictionary.readthedocs.io/en/latest/dictionary/bitwise-operator.ini.html>`_
 
 
 Suggestions

@@ -48,7 +48,7 @@ See also `Arithmetic Operators <https://www.php.net/manual/en/language.operators
 Connex PHP features
 -------------------
 
-  + `exponential <https://php-dictionary.readthedocs.io/en/latest/dictionary/exponential.ini.html>`_
+  + `Exponential <https://php-dictionary.readthedocs.io/en/latest/dictionary/exponential.ini.html>`_
 
 
 Suggestions

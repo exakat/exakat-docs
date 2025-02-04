@@ -37,7 +37,7 @@ It is possible to use the array syntax with a magic property : by making the ``_
 
 This is not reported by linting.
 
-In this analysis, only properties that are found to be magic are reported. For example, using the b property outside the class scope is not reported, as it would yield too many false-positives.
+In this analysis, only properties that are found to be magic are reported. For example, using the b property outside the class scope is not reported, as it would yield too many `false <https://www.php.net/false>`_-positives.
 
 .. code-block:: php
    
@@ -81,7 +81,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
+  + `Magic Methods <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
 
 
 Suggestions

@@ -69,7 +69,7 @@ See also :ref:`No title for Structures/TooManyIf <No anchor for Structures/TooMa
 Connex PHP features
 -------------------
 
-  + `if-then <https://php-dictionary.readthedocs.io/en/latest/dictionary/if-then.ini.html>`_
+  + `If Then Else <https://php-dictionary.readthedocs.io/en/latest/dictionary/if-then.ini.html>`_
 
 
 Specs

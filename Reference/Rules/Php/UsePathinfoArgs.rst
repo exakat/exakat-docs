@@ -63,7 +63,7 @@ See also `list <https://www.php.net/manual/en/function.list.php>`_.
 Connex PHP features
 -------------------
 
-  + `path <https://php-dictionary.readthedocs.io/en/latest/dictionary/path.ini.html>`_
+  + `Path <https://php-dictionary.readthedocs.io/en/latest/dictionary/path.ini.html>`_
 
 
 Suggestions

@@ -57,7 +57,7 @@ See also `XMLWriter <https://www.php.net/manual/en/book.xmlwriter.php>`_ and `Mo
 Connex PHP features
 -------------------
 
-  + `xml <https://php-dictionary.readthedocs.io/en/latest/dictionary/xml.ini.html>`_
+  + `Extensible Markup Language (XML) <https://php-dictionary.readthedocs.io/en/latest/dictionary/xml.ini.html>`_
 
 
 Specs

@@ -52,7 +52,7 @@ This is a support rule, to help omits some special cases in other rules.
 Connex PHP features
 -------------------
 
-  + `dynamic-call <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-call.ini.html>`_
+  + `Dynamic Call <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-call.ini.html>`_
 
 
 Specs

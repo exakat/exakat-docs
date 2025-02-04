@@ -29,7 +29,7 @@ Same Conditions In Condition
 
 At least two consecutive if/then structures use identical conditions. The latter will probably be ignored.
 
-This analysis returns false positive when there are attempt to fix a situation, or to call an alternative solution. 
+This analysis returns `false <https://www.php.net/false>`_ positive when there are attempt to fix a situation, or to call an alternative solution. 
 
 Conditions that are shared between if structures, but inside a logical OR expression are also detected.
 

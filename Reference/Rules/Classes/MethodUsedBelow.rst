@@ -61,7 +61,7 @@ See also inheritance.
 Connex PHP features
 -------------------
 
-  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+  + `Method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
 
 
 Specs

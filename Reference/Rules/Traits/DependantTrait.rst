@@ -65,7 +65,7 @@ See also :ref:`Dependant Abstract Classes <dependant-abstract-classes>`.
 Connex PHP features
 -------------------
 
-  + `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
+  + `Trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
 
 
 Suggestions

@@ -29,7 +29,7 @@ Mismatch Properties Types
 
 Properties must match within the same family.
 
-When a property is declared both in a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class, and a child class, they must have the same type. The same type includes a possible null value.
+When a property is declared both in a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class, and a child class, they must have the same type. The same type includes a possible `null <https://www.php.net/`null <https://www.php.net/null>`_>`_ value.
 
 This doesn't apply to private properties, which are only visible locally.
 This code will lint, but not execute.
@@ -58,7 +58,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+  + `Properties <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
 
 
 Suggestions

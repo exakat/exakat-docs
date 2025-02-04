@@ -27,9 +27,9 @@ Useless NullSafe Operator
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UselessNullSafeOperator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UselessNullSafeOperator.html","name":"Useless NullSafe Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Nullsafe operator ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Useless NullSafe Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-Nullsafe operator ``?->`` has no object when the types are never null, or when coalesce is active.
+Nullsafe operator ``?->`` has no object when the types are never `null <https://www.php.net/`null <https://www.php.net/null>`_>`_, or when coalesce is active.
 
-The nullsafe operator protects the execution from accessing a method or a property on a null value. If the object part of the syntax cannot be null, then the nullsafe operator ``?->`` will not protect it. 
+The nullsafe operator protects the execution from accessing a method or a property on a `null <https://www.php.net/`null <https://www.php.net/null>`_>`_ value. If the object part of the syntax cannot be `null <https://www.php.net/`null <https://www.php.net/null>`_>`_, then the nullsafe operator ``?->`` will not protect it. 
 
 The nullsafe operator is filling the same duty as ``??`` operator, although with a more granular precision. 
 
@@ -54,7 +54,7 @@ The nullsafe operator is filling the same duty as ``??`` operator, although with
 Connex PHP features
 -------------------
 
-  + `nullsafe-operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/nullsafe-operator.ini.html>`_
+  + `Object Nullsafe Operator ?-> <https://php-dictionary.readthedocs.io/en/latest/dictionary/nullsafe-operator.ini.html>`_
 
 
 Suggestions

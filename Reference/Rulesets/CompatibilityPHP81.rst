@@ -23,40 +23,40 @@ This ruleset centralizes all analysis for the migration from PHP 8.0 to 8.1.
 
 Total : 34 analysis
 
-* :ref:`php-7.4-removed-directives`
-* :ref:`php-8.0-removed-directives`
-* :ref:`restrict-global-usage`
-* :ref:`inherited-static-variable`
-* :ref:`php-8.1-removed-directives`
-* :ref:`openssl-encrypt-default-algorithm-change`
-* :ref:`php-8.1-removed-constants`
-* :ref:`php-native-class-type-compatibility`
-* :ref:`no-null-for-native-php-functions`
-* :ref:`calling-static-trait-method`
-* :ref:`no-referenced-void`
-* :ref:`php-native-interfaces-and-return-type`
-* :ref:`new-functions-in-php-8.1`
-* :ref:`php-8.1-removed-functions`
-* :ref:`never-keyword`
-* :ref:`the-mixed-keyword`
-* :ref:`false-to-array-conversion`
-* :ref:`float-conversion-as-index`
-* :ref:`cannot-call-static-trait-method-directly`
-* :ref:`version\_compare()-operator`
-* :ref:`named-arguments-and-variadic`
-* :ref:`constants-in-traits`
-* :ref:`use-enum-case-in-constant-expression`
-* :ref:`readonly-property-changed-by-cloning`
-* :ref:`new-dynamic-class-constant-syntax`
-* :ref:`class\_alias()-supports-internal-classes`
-* :ref:`redeclared-static-variable`
-* :ref:`static-variable-can-default-to-arbitrary-expression`
-* :ref:`final-traits-are-final`
-* :ref:`typed-class-constants-usage`
-* :ref:`static-variable-initialisation`
-* :ref:`void-is-not-a-reference`
-* :ref:`php-8.1-types`
-* :ref:`php-8.2-new-types`
+* :ref:`php-php74removeddirective`
+* :ref:`php-php80removeddirective`
+* :ref:`php-restrictglobalusage`
+* :ref:`variables-inheritedstaticvariable`
+* :ref:`php-php81removeddirective`
+* :ref:`php-opensslencryptalgochange`
+* :ref:`php-php81removedconstant`
+* :ref:`php-nativeclasstypecompatibility`
+* :ref:`php-nonullfornative`
+* :ref:`php-callingstatictraitmethod`
+* :ref:`functions-noreferencedvoid`
+* :ref:`php-jsonserializereturntype`
+* :ref:`php-php81newfunctions`
+* :ref:`php-php81removedfunctions`
+* :ref:`php-neverkeyword`
+* :ref:`php-mixedkeyword`
+* :ref:`php-falsetoarray`
+* :ref:`arrays-floatconversionasindex`
+* :ref:`traits-cannotcalltraitmethod`
+* :ref:`php-versioncompareoperator`
+* :ref:`php-namedargumentandvariadic`
+* :ref:`traits-constantsintraits`
+* :ref:`php-useenumcaseinconstantexpression`
+* :ref:`php-readonlypropertychangedbycloning`
+* :ref:`classes-newdynamicconstantsyntax`
+* :ref:`php-classaliassupportsinternalclasses`
+* :ref:`variables-redeclaredstaticvariable`
+* :ref:`php-staticvariabledefaultcanbeanyexpression`
+* :ref:`traits-finaltraitsarefinal`
+* :ref:`classes-typedclassconstants`
+* :ref:`variables-staticvariableinitialisation`
+* :ref:`functions-voidisnotareference`
+* :ref:`php-php81newtypes`
+* :ref:`php-php82newtypes`
 
 Specs
 _____

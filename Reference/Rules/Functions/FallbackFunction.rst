@@ -53,8 +53,8 @@ See also `Using namespaces: fallback to global function/constant <https://www.ph
 Connex PHP features
 -------------------
 
-  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
-  + `fallback-function <https://php-dictionary.readthedocs.io/en/latest/dictionary/fallback-function.ini.html>`_
+  + `Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `Fallback Function <https://php-dictionary.readthedocs.io/en/latest/dictionary/fallback-function.ini.html>`_
 
 
 Specs

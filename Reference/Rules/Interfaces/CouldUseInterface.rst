@@ -56,8 +56,8 @@ See also :ref:`Could Use Trait <could-use-trait>`.
 Connex PHP features
 -------------------
 
-  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
-  + `ducktyping <https://php-dictionary.readthedocs.io/en/latest/dictionary/ducktyping.ini.html>`_
+  + `Interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+  + `Duck Typing <https://php-dictionary.readthedocs.io/en/latest/dictionary/ducktyping.ini.html>`_
 
 
 Suggestions

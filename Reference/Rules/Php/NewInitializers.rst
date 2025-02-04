@@ -56,8 +56,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `new-in-initializer <https://php-dictionary.readthedocs.io/en/latest/dictionary/new-in-initializer.ini.html>`_
-  + `nested-attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/nested-attribute.ini.html>`_
+  + `New In Initializers <https://php-dictionary.readthedocs.io/en/latest/dictionary/new-in-initializer.ini.html>`_
+  + `Nested Attributes <https://php-dictionary.readthedocs.io/en/latest/dictionary/nested-attribute.ini.html>`_
 
 
 Specs

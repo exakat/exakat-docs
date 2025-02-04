@@ -29,7 +29,7 @@ Could Use Trait
 
 The following classes have been found implementing all of a trait's methods : it could use this trait, and remove duplicated code.
 
-The comparison between the class methods' and the trait's methods are based on token. They may yield some false-positives.
+The comparison between the class methods' and the trait's methods are based on token. They may yield some `false <https://www.php.net/false>`_-positives.
 
 .. code-block:: php
    
@@ -64,9 +64,9 @@ See also :ref:`Forgotten Interface <forgotten-interface>`.
 Connex PHP features
 -------------------
 
-  + `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
-  + `dry <https://php-dictionary.readthedocs.io/en/latest/dictionary/dry.ini.html>`_
-  + `centralization <https://php-dictionary.readthedocs.io/en/latest/dictionary/centralization.ini.html>`_
+  + `Trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
+  + `Don't Repeat Yourself (DRY) <https://php-dictionary.readthedocs.io/en/latest/dictionary/dry.ini.html>`_
+  + `Centralization <https://php-dictionary.readthedocs.io/en/latest/dictionary/centralization.ini.html>`_
 
 
 Suggestions

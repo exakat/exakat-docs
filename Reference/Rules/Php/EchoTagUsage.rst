@@ -33,7 +33,7 @@ Usage of the short echo tab, that echo's directly the following content.
 Connex PHP features
 -------------------
 
-  + `short-echo-tag <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-echo-tag.ini.html>`_
+  + `Echo Tag <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-echo-tag.ini.html>`_
 
 
 Specs

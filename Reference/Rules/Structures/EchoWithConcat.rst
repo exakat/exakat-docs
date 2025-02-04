@@ -41,7 +41,7 @@ It is a micro-optimisation.
 Connex PHP features
 -------------------
 
-  + `echo <https://php-dictionary.readthedocs.io/en/latest/dictionary/echo.ini.html>`_
+  + `Echo <https://php-dictionary.readthedocs.io/en/latest/dictionary/echo.ini.html>`_
 
 
 Suggestions

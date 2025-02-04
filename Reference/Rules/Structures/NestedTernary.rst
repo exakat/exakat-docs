@@ -97,7 +97,7 @@ See also `Nested Ternaries are Great <https://medium.com/javascript-scene/nested
 Connex PHP features
 -------------------
 
-  + `ternary <https://php-dictionary.readthedocs.io/en/latest/dictionary/ternary.ini.html>`_
+  + `Ternary Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/ternary.ini.html>`_
 
 
 Suggestions

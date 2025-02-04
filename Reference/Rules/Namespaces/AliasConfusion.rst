@@ -55,7 +55,7 @@ Yet, with an alias referring to a remote class, while a local one is available, 
 Connex PHP features
 -------------------
 
-  + `semantics <https://php-dictionary.readthedocs.io/en/latest/dictionary/semantics.ini.html>`_
+  + `Semantics <https://php-dictionary.readthedocs.io/en/latest/dictionary/semantics.ini.html>`_
 
 
 Suggestions

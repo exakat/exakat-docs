@@ -50,7 +50,7 @@ This rule relies on the PDFF configuration to check for external existing struct
 Connex PHP features
 -------------------
 
-  + `use-alias <https://php-dictionary.readthedocs.io/en/latest/dictionary/use-alias.ini.html>`_
+  + `Use Alias <https://php-dictionary.readthedocs.io/en/latest/dictionary/use-alias.ini.html>`_
 
 
 Suggestions

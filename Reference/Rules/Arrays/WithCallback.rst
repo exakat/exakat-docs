@@ -50,7 +50,7 @@ See also `array_map <https://www.php.net/array_map>`_.
 Connex PHP features
 -------------------
 
-  + `callback <https://php-dictionary.readthedocs.io/en/latest/dictionary/callback.ini.html>`_
+  + `Callbacks <https://php-dictionary.readthedocs.io/en/latest/dictionary/callback.ini.html>`_
 
 
 Specs

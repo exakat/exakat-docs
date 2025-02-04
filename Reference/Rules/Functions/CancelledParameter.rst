@@ -58,7 +58,7 @@ Reference argument are omitted in this rule, as their value changes, however har
 Connex PHP features
 -------------------
 
-  + `parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
+  + `Parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
 
 
 Suggestions

@@ -54,8 +54,8 @@ See also `Mastering the (array) Cast Operator in PHP <https://www.exakat.io/en/m
 Connex PHP features
 -------------------
 
-  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
-  + `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+  + `Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `Cast Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
 
 
 Suggestions

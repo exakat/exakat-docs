@@ -63,8 +63,8 @@ See also `Integer overflow <https://www.php.net/manual/en/language.types.integer
 Connex PHP features
 -------------------
 
-  + `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
-  + `silent-cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/silent-cast.ini.html>`_
+  + `Cast Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+  + `Silent Behavior <https://php-dictionary.readthedocs.io/en/latest/dictionary/silent-cast.ini.html>`_
 
 
 Suggestions

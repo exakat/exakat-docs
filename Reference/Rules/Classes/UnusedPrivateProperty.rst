@@ -55,7 +55,7 @@ Being private, those properties are only accessible to the current class or trai
 Connex PHP features
 -------------------
 
-  + `unused <https://php-dictionary.readthedocs.io/en/latest/dictionary/unused.ini.html>`_
+  + `Unused <https://php-dictionary.readthedocs.io/en/latest/dictionary/unused.ini.html>`_
 
 
 Suggestions

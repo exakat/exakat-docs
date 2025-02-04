@@ -73,8 +73,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `mbstring <https://php-dictionary.readthedocs.io/en/latest/dictionary/mbstring.ini.html>`_
-  + `encoding <https://php-dictionary.readthedocs.io/en/latest/dictionary/encoding.ini.html>`_
+  + `Multibyte String <https://php-dictionary.readthedocs.io/en/latest/dictionary/mbstring.ini.html>`_
+  + `Encoding <https://php-dictionary.readthedocs.io/en/latest/dictionary/encoding.ini.html>`_
 
 
 Suggestions

@@ -50,7 +50,7 @@ See also `Using namespaces: Aliasing/Importing <https://www.php.net/manual/en/la
 Connex PHP features
 -------------------
 
-  + `use <https://php-dictionary.readthedocs.io/en/latest/dictionary/use.ini.html>`_
+  + `Use <https://php-dictionary.readthedocs.io/en/latest/dictionary/use.ini.html>`_
 
 
 Specs

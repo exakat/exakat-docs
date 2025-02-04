@@ -50,8 +50,8 @@ See also `Please Don’t Recycle Local Variables <https://daedtech.com/please-do
 Connex PHP features
 -------------------
 
-  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
-  + `readability <https://php-dictionary.readthedocs.io/en/latest/dictionary/readability.ini.html>`_
+  + `Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `Readability <https://php-dictionary.readthedocs.io/en/latest/dictionary/readability.ini.html>`_
 
 
 Suggestions

@@ -54,7 +54,7 @@ Connex PHP features
 
   + `parent <https://php-dictionary.readthedocs.io/en/latest/dictionary/parent.ini.html>`_
   + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
-  + `self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
+  + `Self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
 
 
 Suggestions

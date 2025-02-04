@@ -54,7 +54,7 @@ It is recommended to use another name for these catch variables.
 Connex PHP features
 -------------------
 
-  + `try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try-catch.ini.html>`_
+  + `Try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try-catch.ini.html>`_
 
 
 Suggestions

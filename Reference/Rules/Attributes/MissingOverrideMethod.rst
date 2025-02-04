@@ -49,7 +49,7 @@ As such, an `error <https://www.php.net/error>`_ will be raised when the class i
 Connex PHP features
 -------------------
 
-  + `override <https://php-dictionary.readthedocs.io/en/latest/dictionary/override.ini.html>`_
+  + `Override Attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/override.ini.html>`_
 
 
 Specs

@@ -51,7 +51,7 @@ It is possible use function results as an array, and read directly its element. 
 Connex PHP features
 -------------------
 
-  + `function-subscripting <https://php-dictionary.readthedocs.io/en/latest/dictionary/function-subscripting.ini.html>`_
+  + `Function Subscripting <https://php-dictionary.readthedocs.io/en/latest/dictionary/function-subscripting.ini.html>`_
 
 
 Suggestions

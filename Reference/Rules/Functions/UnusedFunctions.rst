@@ -46,8 +46,8 @@ Recursive functions, level 1, are detected : they are only reported when a call 
 Connex PHP features
 -------------------
 
-  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
-  + `unused <https://php-dictionary.readthedocs.io/en/latest/dictionary/unused.ini.html>`_
+  + `Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `Unused <https://php-dictionary.readthedocs.io/en/latest/dictionary/unused.ini.html>`_
 
 
 Suggestions

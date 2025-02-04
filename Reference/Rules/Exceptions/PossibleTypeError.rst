@@ -56,7 +56,7 @@ See also `TypeError <https://www.php.net/manual/en/class.typeerror.php>`.
 Connex PHP features
 -------------------
 
-  + `typeerror <https://php-dictionary.readthedocs.io/en/latest/dictionary/typeerror.ini.html>`_
+  + `TypeError <https://php-dictionary.readthedocs.io/en/latest/dictionary/typeerror.ini.html>`_
 
 
 Suggestions

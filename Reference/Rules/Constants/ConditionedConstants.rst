@@ -43,7 +43,7 @@ This rule indicates when a constant is defined if a condition is met. Several de
 Connex PHP features
 -------------------
 
-  + `conditioned <https://php-dictionary.readthedocs.io/en/latest/dictionary/conditioned.ini.html>`_
+  + `Conditioned Structures <https://php-dictionary.readthedocs.io/en/latest/dictionary/conditioned.ini.html>`_
 
 
 Specs

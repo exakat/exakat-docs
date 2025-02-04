@@ -52,7 +52,7 @@ Properties may be ``static`` or not. Visibility, default values and typehints ar
 Connex PHP features
 -------------------
 
-  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+  + `Properties <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
 
 
 Specs

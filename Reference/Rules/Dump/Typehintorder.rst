@@ -43,7 +43,7 @@ Each function, method that use typehint is a link between a type of data and ano
 Connex PHP features
 -------------------
 
-  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
 
 
 Specs

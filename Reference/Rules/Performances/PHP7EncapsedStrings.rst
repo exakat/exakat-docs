@@ -55,7 +55,7 @@ See also `PHP 7 performance improvements (3/5): Encapsed strings optimization <h
 Connex PHP features
 -------------------
 
-  + `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+  + `String <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
 
 
 Specs

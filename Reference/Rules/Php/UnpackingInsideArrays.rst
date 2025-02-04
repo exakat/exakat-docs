@@ -51,7 +51,7 @@ See also `Spread Operator in Array Expression  <https://wiki.php.net/rfc/spread_
 Connex PHP features
 -------------------
 
-  + `array-spread <https://php-dictionary.readthedocs.io/en/latest/dictionary/array-spread.ini.html>`_
+  + `Array Spread <https://php-dictionary.readthedocs.io/en/latest/dictionary/array-spread.ini.html>`_
 
 
 Suggestions

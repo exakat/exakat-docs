@@ -55,7 +55,7 @@ See also `Type Casting <https://php.net/manual/en/language.types.type-juggling.p
 Connex PHP features
 -------------------
 
-  + `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+  + `String <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
 
 
 Suggestions

@@ -47,7 +47,7 @@ This analysis works when typehints have already been configured.
 Connex PHP features
 -------------------
 
-  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
 
 
 Suggestions

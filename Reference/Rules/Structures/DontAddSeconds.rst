@@ -48,7 +48,7 @@ See also `DateTime::modify <https://www.php.net/manual/fr/datetimeimmutable.modi
 Connex PHP features
 -------------------
 
-  + `date <https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html>`_
+  + `Dates <https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html>`_
 
 
 Specs

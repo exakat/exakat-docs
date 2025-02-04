@@ -48,8 +48,8 @@ This rule reports when a class is called dynamically. To call dynamically a clas
 Connex PHP features
 -------------------
 
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
-  + `dynamic-class <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-class.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Dynamic Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-class.ini.html>`_
 
 
 Specs

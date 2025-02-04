@@ -46,7 +46,7 @@ See also `__autoload <https://www.php.net/autoload>`_.
 Connex PHP features
 -------------------
 
-  + `autoload <https://php-dictionary.readthedocs.io/en/latest/dictionary/autoload.ini.html>`_
+  + `Class Autoloading <https://php-dictionary.readthedocs.io/en/latest/dictionary/autoload.ini.html>`_
 
 
 Specs

@@ -46,7 +46,7 @@ Using `file_put_contents() <https://www.php.net/file_put_contents>`_ also keeps 
 Connex PHP features
 -------------------
 
-  + `file <https://php-dictionary.readthedocs.io/en/latest/dictionary/file.ini.html>`_
+  + `File <https://php-dictionary.readthedocs.io/en/latest/dictionary/file.ini.html>`_
 
 
 Suggestions

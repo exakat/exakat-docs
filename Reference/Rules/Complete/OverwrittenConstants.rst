@@ -49,10 +49,10 @@ The `A` constant will be linked between classes x and y, with an OVERWRITE link.
 Connex PHP features
 -------------------
 
-  + `inheritance <https://php-dictionary.readthedocs.io/en/latest/dictionary/inheritance.ini.html>`_
-  + `final <https://php-dictionary.readthedocs.io/en/latest/dictionary/final.ini.html>`_
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
-  + `class-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html>`_
+  + `Inheritance <https://php-dictionary.readthedocs.io/en/latest/dictionary/inheritance.ini.html>`_
+  + `Final Keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/final.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Static Constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html>`_
 
 
 Specs

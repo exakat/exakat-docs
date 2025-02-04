@@ -43,7 +43,7 @@ Mark arguments, class constants, properties and return types that can be set to 
 Connex PHP features
 -------------------
 
-  + `float <https://php-dictionary.readthedocs.io/en/latest/dictionary/float.ini.html>`_
+  + `Floating Point Numbers <https://php-dictionary.readthedocs.io/en/latest/dictionary/float.ini.html>`_
 
 
 Suggestions

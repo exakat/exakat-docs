@@ -58,8 +58,8 @@ It is recommended to make the cast explicit with ``(int)``.
 Connex PHP features
 -------------------
 
-  + `addition <https://php-dictionary.readthedocs.io/en/latest/dictionary/addition.ini.html>`_
-  + `short-assignation <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-assignation.ini.html>`_
+  + `Addition <https://php-dictionary.readthedocs.io/en/latest/dictionary/addition.ini.html>`_
+  + `Short Assignations <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-assignation.ini.html>`_
 
 
 Suggestions

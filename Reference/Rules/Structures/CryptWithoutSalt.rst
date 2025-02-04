@@ -29,7 +29,7 @@ crypt() Without Salt
 
 PHP requires a salt when calling `crypt() <https://www.php.net/crypt>`_. 5.5 and previous versions didn't require it. Salt is a simple string, that is usually only known by the application.
 
-According to the manual : The salt parameter is optional. However, `crypt() <https://www.php.net/crypt>`_ creates a weak hash without the salt. PHP 5.6 or later raise an `E_NOTICE <https://www.php.net/E_NOTICE>`_ `error <https://www.php.net/error>`_ without it. Make sure to specify a strong enough salt for better security.
+According to the manual : The salt parameter is optional. However, `crypt() <https://www.php.net/crypt>`_ creates a weak hash without the salt. PHP 5.6 or later raise an `E_NOTICE <https://www.php.net/e_notice>`_ `error <https://www.php.net/error>`_ without it. Make sure to specify a strong enough salt for better security.
 
 .. code-block:: php
    

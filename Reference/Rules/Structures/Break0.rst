@@ -54,7 +54,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `break <https://php-dictionary.readthedocs.io/en/latest/dictionary/break.ini.html>`_
+  + `Break <https://php-dictionary.readthedocs.io/en/latest/dictionary/break.ini.html>`_
 
 
 Suggestions

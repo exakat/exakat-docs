@@ -58,7 +58,7 @@ See also `Execution Operators <https://www.php.net/manual/en/language.operators.
 Connex PHP features
 -------------------
 
-  + `shell <https://php-dictionary.readthedocs.io/en/latest/dictionary/shell.ini.html>`_
+  + `Shell <https://php-dictionary.readthedocs.io/en/latest/dictionary/shell.ini.html>`_
 
 
 Specs

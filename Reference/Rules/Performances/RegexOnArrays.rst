@@ -68,7 +68,7 @@ See also `preg_filter <https://php.net/preg_filter>`_.
 Connex PHP features
 -------------------
 
-  + `regex <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
+  + `Regular Expressions <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
 
 
 Suggestions

@@ -29,7 +29,7 @@ PHP 7.4 Constant Deprecation
 
 One constant is deprecated in PHP 7.4. 
 
-* `CURLPIPE_HTTP1 <https://www.php.net/CURLPIPE_HTTP1>`_
+* `CURLPIPE_HTTP1 <https://www.php.net/curlpipe_http1>`_
 
 See also `Deprecations for PHP 7.2 <https://wiki.php.net/rfc/deprecations_php_7_2>`_.
 

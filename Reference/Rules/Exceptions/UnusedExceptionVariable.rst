@@ -50,7 +50,7 @@ In PHP 8.0, this variable may be omitted.
 Connex PHP features
 -------------------
 
-  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+  + `Exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
 
 
 Suggestions

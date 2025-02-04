@@ -76,7 +76,7 @@ See also `New global constants in 7.4 <https://www.php.net/manual/en/migration74
 Connex PHP features
 -------------------
 
-  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+  + `Constants <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
 
 
 Suggestions

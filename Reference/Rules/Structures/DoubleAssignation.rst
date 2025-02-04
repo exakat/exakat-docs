@@ -44,7 +44,7 @@ This happens when a container (variable, property, array index) is assigned with
 Connex PHP features
 -------------------
 
-  + `assignation <https://php-dictionary.readthedocs.io/en/latest/dictionary/assignation.ini.html>`_
+  + `Assignations <https://php-dictionary.readthedocs.io/en/latest/dictionary/assignation.ini.html>`_
 
 
 Specs

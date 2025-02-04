@@ -52,7 +52,7 @@ Use SQL expression to compute aggregates in the database. By doing so, the data 
 Connex PHP features
 -------------------
 
-  + `csv <https://php-dictionary.readthedocs.io/en/latest/dictionary/csv.ini.html>`_
+  + `Comma Secparated Values (CSV) <https://php-dictionary.readthedocs.io/en/latest/dictionary/csv.ini.html>`_
 
 
 Suggestions

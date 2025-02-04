@@ -53,7 +53,7 @@ Classes elements, such as methods, can't be conditional.
 Connex PHP features
 -------------------
 
-  + `conditional-structure <https://php-dictionary.readthedocs.io/en/latest/dictionary/conditional-structure.ini.html>`_
+  + `Conditional Structures <https://php-dictionary.readthedocs.io/en/latest/dictionary/conditional-structure.ini.html>`_
 
 
 Suggestions

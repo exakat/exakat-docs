@@ -23,34 +23,34 @@ This ruleset is a selection of analysis, with the top 10 most common. Actually, 
 
 Total : 28 analysis
 
-* :ref:`for-using-functioncall`
-* :ref:`strpos()-like-comparison`
-* :ref:`used-once-variables`
-* :ref:`dangling-array-references`
-* :ref:`queries-in-loops`
-* :ref:`use-const`
-* :ref:`logical-should-use-symbolic-operators`
-* :ref:`repeated-print()`
-* :ref:`objects-don't-need-references`
-* :ref:`no-real-comparison`
-* :ref:`no-array\_merge()-in-loops`
-* :ref:`unresolved-instanceof`
-* :ref:`avoid-substr()-one`
-* :ref:`no-choice`
-* :ref:`failed-substr()-comparison`
-* :ref:`unitialized-properties`
-* :ref:`could-use-str\_repeat()`
-* :ref:`logical-operators-favorite`
-* :ref:`avoid-concat-in-loop`
-* :ref:`next-month-trap`
-* :ref:`substring-first`
-* :ref:`use-list-with-foreach`
-* :ref:`don't-unset-properties`
-* :ref:`avoid-real`
-* :ref:`should-yield-with-key`
-* :ref:`fputcsv()-in-loops`
-* :ref:`possible-missing-subpattern`
-* :ref:`concat-and-addition`
+* :ref:`structures-forwithfunctioncall`
+* :ref:`structures-strposcompare`
+* :ref:`variables-variableusedonce`
+* :ref:`structures-danglingarrayreferences`
+* :ref:`structures-queriesinloop`
+* :ref:`constants-constrecommended`
+* :ref:`php-logicalinletters`
+* :ref:`structures-repeatedprint`
+* :ref:`structures-objectreferences`
+* :ref:`type-norealcomparison`
+* :ref:`performances-arraymergeinloops`
+* :ref:`classes-unresolvedinstanceof`
+* :ref:`structures-nosubstrone`
+* :ref:`structures-nochoice`
+* :ref:`structures-failingsubstrcomparison`
+* :ref:`classes-unitializedproperties`
+* :ref:`structures-couldusestrrepeat`
+* :ref:`php-lettercharslogicalfavorite`
+* :ref:`performances-noconcatinloop`
+* :ref:`structures-nextmonthtrap`
+* :ref:`performances-substrfirst`
+* :ref:`structures-uselistwithforeach`
+* :ref:`classes-dontunsetproperties`
+* :ref:`php-avoidreal`
+* :ref:`functions-shouldyieldwithkey`
+* :ref:`performances-csvinloops`
+* :ref:`php-missingsubpattern`
+* :ref:`php-concatandaddition`
 
 Specs
 _____

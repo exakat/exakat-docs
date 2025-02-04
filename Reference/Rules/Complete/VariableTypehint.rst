@@ -47,8 +47,8 @@ This is an internal tool, to help find definitions of classes. The same strategi
 Connex PHP features
 -------------------
 
-  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
-  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
 
 Specs

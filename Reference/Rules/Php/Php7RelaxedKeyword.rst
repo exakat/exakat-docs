@@ -54,8 +54,8 @@ See also `Loosening Reserved Word Restrictions <https://www.php.net/manual/en/mi
 Connex PHP features
 -------------------
 
-  + `keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/keyword.ini.html>`_
-  + `reserved-name <https://php-dictionary.readthedocs.io/en/latest/dictionary/reserved-name.ini.html>`_
+  + `Keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/keyword.ini.html>`_
+  + `Reserved Names <https://php-dictionary.readthedocs.io/en/latest/dictionary/reserved-name.ini.html>`_
 
 
 Specs

@@ -43,7 +43,7 @@ See also `Deprecations for PHP 7.2 <https://wiki.php.net/rfc/deprecations_php_7_
 Connex PHP features
 -------------------
 
-  + `feature <https://php-dictionary.readthedocs.io/en/latest/dictionary/feature.ini.html>`_
+  + `Feature <https://php-dictionary.readthedocs.io/en/latest/dictionary/feature.ini.html>`_
 
 
 Suggestions

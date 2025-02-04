@@ -43,9 +43,9 @@ Strings, heredocs and nowdocs in one place.
 Connex PHP features
 -------------------
 
-  + `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
-  + `heredoc <https://php-dictionary.readthedocs.io/en/latest/dictionary/heredoc.ini.html>`_
-  + `nowdoc <https://php-dictionary.readthedocs.io/en/latest/dictionary/nowdoc.ini.html>`_
+  + `String <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+  + `Heredocs <https://php-dictionary.readthedocs.io/en/latest/dictionary/heredoc.ini.html>`_
+  + `Nowdocs <https://php-dictionary.readthedocs.io/en/latest/dictionary/nowdoc.ini.html>`_
 
 
 Specs

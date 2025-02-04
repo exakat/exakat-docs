@@ -23,8 +23,8 @@ PHP is full of exceptional situations where something doesn't work as expected, 
 
 Total : 2 analysis
 
-* :ref:`sequences-in-for`
-* :ref:`strpos()-less-than-one`
+* :ref:`structures-sequenceinfor`
+* :ref:`structures-strposlessthanone`
 
 Specs
 _____

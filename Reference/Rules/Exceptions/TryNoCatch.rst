@@ -47,9 +47,9 @@ This is very rare.
 Connex PHP features
 -------------------
 
-  + `try <https://php-dictionary.readthedocs.io/en/latest/dictionary/try.ini.html>`_
-  + `catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
-  + `finally <https://php-dictionary.readthedocs.io/en/latest/dictionary/finally.ini.html>`_
+  + `Try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try.ini.html>`_
+  + `Catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
+  + `Finally <https://php-dictionary.readthedocs.io/en/latest/dictionary/finally.ini.html>`_
 
 
 Specs

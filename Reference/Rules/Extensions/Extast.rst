@@ -47,7 +47,7 @@ See also `ext/ast <https://pecl.php.net/package/ast>`_, `Extension exposing PHP 
 Connex PHP features
 -------------------
 
-  + `ast <https://php-dictionary.readthedocs.io/en/latest/dictionary/ast.ini.html>`_
+  + `Abstract Syntactic Tree (AST) <https://php-dictionary.readthedocs.io/en/latest/dictionary/ast.ini.html>`_
 
 
 Specs

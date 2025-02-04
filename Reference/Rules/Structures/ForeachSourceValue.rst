@@ -64,7 +64,7 @@ The same applies to the index, or to any variable in a `list() <https://www.php.
 Connex PHP features
 -------------------
 
-  + `foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
+  + `Foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
 
 
 Suggestions

@@ -49,7 +49,7 @@ See also `PHP RFC: Deprecations for PHP 7.2 : Each() <https://wiki.php.net/rfc/d
 Connex PHP features
 -------------------
 
-  + `while <https://php-dictionary.readthedocs.io/en/latest/dictionary/while.ini.html>`_
+  + `While <https://php-dictionary.readthedocs.io/en/latest/dictionary/while.ini.html>`_
 
 
 Suggestions

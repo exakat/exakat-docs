@@ -65,7 +65,7 @@ See also `Fluent interface are evil <https://ocramius.github.io/blog/fluent-inte
 Connex PHP features
 -------------------
 
-  + `fluent-interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/fluent-interface.ini.html>`_
+  + `Fluent Interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/fluent-interface.ini.html>`_
 
 
 Specs

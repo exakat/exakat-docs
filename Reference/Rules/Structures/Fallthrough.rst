@@ -58,8 +58,8 @@ See also `CWE-484: Omitted Break Statement in Switch <https://cwe.mitre.org/data
 Connex PHP features
 -------------------
 
-  + `switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
-  + `fallthrough <https://php-dictionary.readthedocs.io/en/latest/dictionary/fallthrough.ini.html>`_
+  + `Switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
+  + `Switch Fallthrough <https://php-dictionary.readthedocs.io/en/latest/dictionary/fallthrough.ini.html>`_
 
 
 Suggestions

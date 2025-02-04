@@ -49,8 +49,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `void <https://php-dictionary.readthedocs.io/en/latest/dictionary/void.ini.html>`_
-  + `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+  + `Void <https://php-dictionary.readthedocs.io/en/latest/dictionary/void.ini.html>`_
+  + `References <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
 
 
 Suggestions

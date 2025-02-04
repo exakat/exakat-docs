@@ -53,7 +53,7 @@ This rule checks the `locale <https://www.php.net/locale>`_ used in the code, ag
 Connex PHP features
 -------------------
 
-  + `locale <https://php-dictionary.readthedocs.io/en/latest/dictionary/locale.ini.html>`_
+  + `Locale <https://php-dictionary.readthedocs.io/en/latest/dictionary/locale.ini.html>`_
 
 
 Suggestions

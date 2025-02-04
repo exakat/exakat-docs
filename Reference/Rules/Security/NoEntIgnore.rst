@@ -29,7 +29,7 @@ No ENT_IGNORE
 
 Certain characters have special significance in HTML, and should be represented by HTML entities if they are to preserve their meanings.
 
-`ENT_IGNORE <https://www.php.net/ENT_IGNORE>`_ is a configuration option for `htmlspecialchars() <https://www.php.net/htmlspecialchars>`_, that ignore any needed character replacement. This mean the raw input will now be processed by PHP, or a target browser.
+`ENT_IGNORE <https://www.php.net/ent_ignore>`_ is a configuration option for `htmlspecialchars() <https://www.php.net/htmlspecialchars>`_, that ignore any needed character replacement. This mean the raw input will now be processed by PHP, or a target browser.
 
 It is recommended to use the other configuration options : ``ENT_COMPAT``, ``ENT_QUOTES``, ``ENT_NOQUOTES``, ``ENT_SUBSTITUTE``, ``ENT_DISALLOWED``, ``ENT_HTML401``, ``ENT_XML1``, ``ENT_XHTML`` or ``ENT_HTML5``.
 
@@ -52,7 +52,7 @@ See also `htmlspecialchars <https://www.php.net/htmlspecialchars>`_ and `Deletio
 Connex PHP features
 -------------------
 
-  + `html-escape <https://php-dictionary.readthedocs.io/en/latest/dictionary/html-escape.ini.html>`_
+  + `HTML Escaping <https://php-dictionary.readthedocs.io/en/latest/dictionary/html-escape.ini.html>`_
 
 
 Suggestions

@@ -46,7 +46,7 @@ It is recommended to use the same casing in the function call and the function d
 Connex PHP features
 -------------------
 
-  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
 
 
 Suggestions

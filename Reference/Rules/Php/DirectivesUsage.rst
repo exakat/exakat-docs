@@ -46,7 +46,7 @@ See also `ini_set() <https://www.php.net/ini_set>`_.
 Connex PHP features
 -------------------
 
-  + `directive <https://php-dictionary.readthedocs.io/en/latest/dictionary/directive.ini.html>`_
+  + `Directives <https://php-dictionary.readthedocs.io/en/latest/dictionary/directive.ini.html>`_
 
 
 Specs

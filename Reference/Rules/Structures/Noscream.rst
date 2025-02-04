@@ -58,7 +58,7 @@ See also `I scream, you scream, we all scream for @ <https://www.exakat.io/en/i-
 Connex PHP features
 -------------------
 
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
 
 
 Suggestions

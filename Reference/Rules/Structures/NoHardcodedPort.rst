@@ -44,7 +44,7 @@ When connecting to a remove server, port is an important information. It is reco
 Connex PHP features
 -------------------
 
-  + `port <https://php-dictionary.readthedocs.io/en/latest/dictionary/port.ini.html>`_
+  + `Port <https://php-dictionary.readthedocs.io/en/latest/dictionary/port.ini.html>`_
 
 
 Suggestions

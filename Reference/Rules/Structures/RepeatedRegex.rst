@@ -53,7 +53,7 @@ Regex that are repeated at least once (aka, used twice or more) are reported. Re
 Connex PHP features
 -------------------
 
-  + `regex <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
+  + `Regular Expressions <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
 
 
 Suggestions

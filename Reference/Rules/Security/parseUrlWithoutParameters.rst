@@ -49,7 +49,7 @@ See also `parse_url() <https://www.php.net/manual/en/function.parse-url.php>`_ a
 Connex PHP features
 -------------------
 
-  + `query-string <https://php-dictionary.readthedocs.io/en/latest/dictionary/query-string.ini.html>`_
+  + `Query String <https://php-dictionary.readthedocs.io/en/latest/dictionary/query-string.ini.html>`_
 
 
 Suggestions

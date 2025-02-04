@@ -42,8 +42,8 @@ Connex PHP features
 -------------------
 
   + `new <https://php-dictionary.readthedocs.io/en/latest/dictionary/new.ini.html>`_
-  + `parenthesis <https://php-dictionary.readthedocs.io/en/latest/dictionary/parenthesis.ini.html>`_
-  + `dynamic-call <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-call.ini.html>`_
+  + `Parenthesis <https://php-dictionary.readthedocs.io/en/latest/dictionary/parenthesis.ini.html>`_
+  + `Dynamic Call <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-call.ini.html>`_
 
 
 Specs

@@ -27,11 +27,11 @@ Could Use Null-Safe Object Operator
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CouldUseNullableOperator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CouldUseNullableOperator.html","name":"Could Use Null-Safe Object Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"When the preceding function call has the potential to return null, employing the null-safe object operator can help mitigate fatal errors","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Could Use Null-Safe Object Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-When the preceding function call has the potential to return null, employing the null-safe object operator can help mitigate fatal errors.
+When the preceding function call has the potential to return `null <https://www.php.net/`null <https://www.php.net/null>`_>`_, employing the `null <https://www.php.net/`null <https://www.php.net/null>`_>`_-safe object operator can help mitigate fatal errors.
 
-One approach is to assess the returned value prior to utilization, ensuring it is not null, and refraining from invoking methods on a null reference. Alternatively, the null-safe operator can be employed, allowing verification of the end `result <https://www.php.net/result>`_. If the `result <https://www.php.net/result>`_ is null, it indicates an `error <https://www.php.net/error>`_.
+One approach is to assess the returned value prior to utilization, ensuring it is not `null <https://www.php.net/`null <https://www.php.net/null>`_>`_, and refraining from invoking methods on a `null <https://www.php.net/`null <https://www.php.net/null>`_>`_ reference. Alternatively, the `null <https://www.php.net/`null <https://www.php.net/null>`_>`_-safe operator can be employed, allowing verification of the end `result <https://www.php.net/result>`_. If the `result <https://www.php.net/result>`_ is `null <https://www.php.net/`null <https://www.php.net/null>`_>`_, it indicates an `error <https://www.php.net/error>`_.
 
-Another approach is to use the null-safe operator when the intermediate methods returns an object or a null. When chained, the null-safe operator will prevent Fatal `Error <https://www.php.net/error>`_. 
+Another approach is to use the `null <https://www.php.net/`null <https://www.php.net/null>`_>`_-safe operator when the intermediate methods returns an object or a `null <https://www.php.net/`null <https://www.php.net/null>`_>`_. When chained, the `null <https://www.php.net/`null <https://www.php.net/null>`_>`_-safe operator will prevent Fatal `Error <https://www.php.net/error>`_. 
 
 
 .. code-block:: php
@@ -72,8 +72,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `nullsafe-object-operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/nullsafe-object-operator.ini.html>`_
-  + `nullable <https://php-dictionary.readthedocs.io/en/latest/dictionary/nullable.ini.html>`_
+  + `Null Safe Object Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/nullsafe-object-operator.ini.html>`_
+  + `Nullable <https://php-dictionary.readthedocs.io/en/latest/dictionary/nullable.ini.html>`_
 
 
 Suggestions

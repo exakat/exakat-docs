@@ -55,7 +55,7 @@ See also `Subpatterns <https://www.php.net/manual/en/regexp.reference.subpattern
 Connex PHP features
 -------------------
 
-  + `regex <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
+  + `Regular Expressions <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
 
 
 Suggestions

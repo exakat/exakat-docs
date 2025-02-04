@@ -59,8 +59,8 @@ See also `Using static variables <https://www.php.net/manual/en/language.variabl
 Connex PHP features
 -------------------
 
-  + `static-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-variable.ini.html>`_
-  + `global-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/global-variable.ini.html>`_
+  + `Static Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-variable.ini.html>`_
+  + `Global Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/global-variable.ini.html>`_
 
 
 Suggestions

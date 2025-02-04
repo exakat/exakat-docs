@@ -54,8 +54,8 @@ See also `Variable variables <https://www.php.net/manual/en/language.variables.v
 Connex PHP features
 -------------------
 
-  + `variable-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable-variable.ini.html>`_
-  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `Variable Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable-variable.ini.html>`_
+  + `Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
 
 
 Specs

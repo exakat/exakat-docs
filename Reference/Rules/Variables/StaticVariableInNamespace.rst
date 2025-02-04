@@ -47,8 +47,8 @@ Static Variable In Namespace
 Connex PHP features
 -------------------
 
-  + `static-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-variable.ini.html>`_
-  + `namespace <https://php-dictionary.readthedocs.io/en/latest/dictionary/namespace.ini.html>`_
+  + `Static Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-variable.ini.html>`_
+  + `Namespaces <https://php-dictionary.readthedocs.io/en/latest/dictionary/namespace.ini.html>`_
 
 
 Suggestions

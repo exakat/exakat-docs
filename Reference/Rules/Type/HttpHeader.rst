@@ -50,8 +50,8 @@ See also `List of HTTP header fields <https://en.wikipedia.org/wiki/List_of_HTTP
 Connex PHP features
 -------------------
 
-  + `http <https://php-dictionary.readthedocs.io/en/latest/dictionary/http.ini.html>`_
-  + `http-header <https://php-dictionary.readthedocs.io/en/latest/dictionary/http-header.ini.html>`_
+  + `Hyper Text Transfer Protocol (HTTP) <https://php-dictionary.readthedocs.io/en/latest/dictionary/http.ini.html>`_
+  + `HTTP Headers <https://php-dictionary.readthedocs.io/en/latest/dictionary/http-header.ini.html>`_
 
 
 Specs

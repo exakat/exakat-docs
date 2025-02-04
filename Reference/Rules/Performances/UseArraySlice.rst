@@ -58,7 +58,7 @@ See also `array_slice <http://www.php.net/array_slice>`_ and `array_splice <http
 Connex PHP features
 -------------------
 
-  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
 
 
 Suggestions

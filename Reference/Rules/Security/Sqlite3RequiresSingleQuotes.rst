@@ -49,7 +49,7 @@ See also `SQLite3::escapeString <https://www.php.net/manual/en/sqlite3.escapestr
 Connex PHP features
 -------------------
 
-  + `sqlite3 <https://php-dictionary.readthedocs.io/en/latest/dictionary/sqlite3.ini.html>`_
+  + `Sqlite3 <https://php-dictionary.readthedocs.io/en/latest/dictionary/sqlite3.ini.html>`_
 
 
 Suggestions

@@ -31,7 +31,7 @@ Indicates if these traits are defined in an extension. Traits that are defined i
 Connex PHP features
 -------------------
 
-  + `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
+  + `Trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
 
 
 Specs

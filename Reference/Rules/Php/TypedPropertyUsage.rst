@@ -49,8 +49,8 @@ See also `Typed Properties 2.0 <https://wiki.php.net/rfc/typed_properties_v2>`_ 
 Connex PHP features
 -------------------
 
-  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
-  + `type-declaration-property <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-declaration-property.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `Property Type Declaration <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-declaration-property.ini.html>`_
 
 
 Specs

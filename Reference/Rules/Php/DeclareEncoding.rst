@@ -43,8 +43,8 @@ See also `declare <https://www.php.net/manual/en/control-structures.declare.php>
 Connex PHP features
 -------------------
 
-  + `encoding <https://php-dictionary.readthedocs.io/en/latest/dictionary/encoding.ini.html>`_
-  + `declare <https://php-dictionary.readthedocs.io/en/latest/dictionary/declare.ini.html>`_
+  + `Encoding <https://php-dictionary.readthedocs.io/en/latest/dictionary/encoding.ini.html>`_
+  + `declare() <https://php-dictionary.readthedocs.io/en/latest/dictionary/declare.ini.html>`_
 
 
 Specs

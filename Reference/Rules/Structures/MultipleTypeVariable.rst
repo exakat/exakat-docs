@@ -57,8 +57,8 @@ Incrementing variables, with math operations or concatenation, is OK : the conte
 Connex PHP features
 -------------------
 
-  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
-  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
 
 Suggestions

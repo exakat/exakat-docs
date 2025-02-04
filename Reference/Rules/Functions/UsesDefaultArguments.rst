@@ -30,7 +30,7 @@ Uses Default Values
 Default values are provided to methods so as to make it convenient to use. However, with new versions, those values may change. For example, in PHP 5.4, `htmlentities() <https://www.php.net/htmlentities>`_ switched from ``Latin1`` to ``UTF-8`` default encoding.
 As much as possible, it is recommended to use explicit values in those methods, so as to prevent from being surprise at a future PHP evolution. 
 
-This analyzer tend to report a lot of false positives, including usage of `count() <https://www.php.net/count>`_. `Count() <https://www.php.net/count>`_ indeed has a second argument for recursive counts, and a default value. This may be ignored safely.
+This analyzer tend to report a lot of `false <https://www.php.net/false>`_ positives, including usage of `count() <https://www.php.net/count>`_. `Count() <https://www.php.net/count>`_ indeed has a second argument for recursive counts, and a default value. This may be ignored safely.
 
 .. code-block:: php
    
@@ -50,7 +50,7 @@ This analyzer tend to report a lot of false positives, including usage of `count
 Connex PHP features
 -------------------
 
-  + `default-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
+  + `Default Value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
 
 
 Suggestions

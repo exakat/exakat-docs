@@ -63,8 +63,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
-  + `abstract <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
+  + `Trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
+  + `Abstract Keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
 
 
 Specs

@@ -58,8 +58,8 @@ See also `return <https://www.php.net/manual/en/function.return.php>`_.
 Connex PHP features
 -------------------
 
-  + `return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
-  + `never <https://php-dictionary.readthedocs.io/en/latest/dictionary/never.ini.html>`_
+  + `Return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
+  + `Never Type <https://php-dictionary.readthedocs.io/en/latest/dictionary/never.ini.html>`_
 
 
 Suggestions

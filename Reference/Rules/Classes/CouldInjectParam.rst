@@ -49,8 +49,8 @@ The parameter is immediately used to create an object. It could be interesting t
 Connex PHP features
 -------------------
 
-  + `injection <https://php-dictionary.readthedocs.io/en/latest/dictionary/injection.ini.html>`_
-  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `Injection <https://php-dictionary.readthedocs.io/en/latest/dictionary/injection.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
 
 
 Suggestions

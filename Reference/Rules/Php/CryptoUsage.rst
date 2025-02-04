@@ -49,7 +49,7 @@ See also `Cryptography Extensions <https://www.php.net/manual/en/refs.crypto.php
 Connex PHP features
 -------------------
 
-  + `crypto <https://php-dictionary.readthedocs.io/en/latest/dictionary/crypto.ini.html>`_
+  + `Cryptography <https://php-dictionary.readthedocs.io/en/latest/dictionary/crypto.ini.html>`_
 
 
 Specs

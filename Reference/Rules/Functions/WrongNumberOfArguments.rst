@@ -62,9 +62,9 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
-  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
-  + `static-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-method.ini.html>`_
+  + `Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `Method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+  + `Static Method <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-method.ini.html>`_
   + `constructor <https://php-dictionary.readthedocs.io/en/latest/dictionary/constructor.ini.html>`_
 
 

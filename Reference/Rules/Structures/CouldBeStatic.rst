@@ -41,7 +41,7 @@ Connex PHP features
 -------------------
 
   + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
-  + `static-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-variable.ini.html>`_
+  + `Static Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-variable.ini.html>`_
 
 
 Specs

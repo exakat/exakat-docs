@@ -107,7 +107,7 @@ See also `Indentation and Spacing in PHP <https://courses.cs.washington.edu/cour
 Connex PHP features
 -------------------
 
-  + `indentation <https://php-dictionary.readthedocs.io/en/latest/dictionary/indentation.ini.html>`_
+  + `Indentation <https://php-dictionary.readthedocs.io/en/latest/dictionary/indentation.ini.html>`_
 
 
 Suggestions

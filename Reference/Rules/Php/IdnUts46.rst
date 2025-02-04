@@ -42,7 +42,7 @@ See also `idn_to_ascii <https://www.php.net/manual/en/function.idn-to-ascii.php>
 Connex PHP features
 -------------------
 
-  + `internationalization <https://php-dictionary.readthedocs.io/en/latest/dictionary/internationalization.ini.html>`_
+  + `Internationalization <https://php-dictionary.readthedocs.io/en/latest/dictionary/internationalization.ini.html>`_
 
 
 Suggestions

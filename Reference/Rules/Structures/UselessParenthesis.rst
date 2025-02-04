@@ -61,8 +61,8 @@ See also `Operators Precedence <https://www.php.net/manual/en/language.operators
 Connex PHP features
 -------------------
 
-  + `operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/operator.ini.html>`_
-  + `operator-precedence <https://php-dictionary.readthedocs.io/en/latest/dictionary/operator-precedence.ini.html>`_
+  + `Operators <https://php-dictionary.readthedocs.io/en/latest/dictionary/operator.ini.html>`_
+  + `Operator Precedence <https://php-dictionary.readthedocs.io/en/latest/dictionary/operator-precedence.ini.html>`_
 
 
 Suggestions

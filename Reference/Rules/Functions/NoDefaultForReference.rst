@@ -54,7 +54,7 @@ Then, the parameter behaves like a reference when the argument is provided, and 
 Connex PHP features
 -------------------
 
-  + `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+  + `References <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
 
 
 Suggestions

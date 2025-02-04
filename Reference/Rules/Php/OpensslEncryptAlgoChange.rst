@@ -29,7 +29,7 @@ Openssl Encrypt Default Algorithm Change
 
 `openssl_pkcs7_encrypt() <https://www.php.net/openssl_pkcs7_encrypt>`_ and `openssl_cms_encrypt() <https://www.php.net/openssl_cms_encrypt>`_ will now default to using AES-128-CBC rather than RC2-40. The RC2-40 cipher is considered insecure and not enabled by default in OpenSSL 3.
 
-This means that the default argument of `OPENSSL_CIPHER_RC2_40 <https://www.php.net/OPENSSL_CIPHER_RC2_40>`_ is replaced by `OPENSSL_CIPHER_AES_128_CBC <https://www.php.net/OPENSSL_CIPHER_AES_128_CBC>`_.
+This means that the default argument of `OPENSSL_CIPHER_RC2_40 <https://www.php.net/openssl_cipher_rc2_40>`_ is replaced by `OPENSSL_CIPHER_AES_128_CBC <https://www.php.net/openssl_cipher_aes_128_cbc>`_.
 
 .. code-block:: php
    
@@ -47,8 +47,8 @@ This means that the default argument of `OPENSSL_CIPHER_RC2_40 <https://www.php.
 Connex PHP features
 -------------------
 
-  + `cryptography <https://php-dictionary.readthedocs.io/en/latest/dictionary/cryptography.ini.html>`_
-  + `openssl <https://php-dictionary.readthedocs.io/en/latest/dictionary/openssl.ini.html>`_
+  + `Cryptography <https://php-dictionary.readthedocs.io/en/latest/dictionary/cryptography.ini.html>`_
+  + `OpenSSL <https://php-dictionary.readthedocs.io/en/latest/dictionary/openssl.ini.html>`_
 
 
 Suggestions

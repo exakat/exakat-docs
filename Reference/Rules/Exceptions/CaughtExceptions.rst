@@ -50,7 +50,7 @@ Caught exceptions might be thrown from within the code, or from an outside libra
 Connex PHP features
 -------------------
 
-  + `catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
+  + `Catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
 
 
 Specs

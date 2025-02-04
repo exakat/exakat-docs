@@ -31,7 +31,7 @@ An argument is typed, but it actually calls methods, constants or properties tha
 
 Classes may be implementing more methods than the one that are listed in the interface they also implements. This means that filtering objects with a type, but calling other methods will be solved at execution time : if the method is available, it will be used; if it is not, a fatal `error <https://www.php.net/error>`_ is reported.
 
-Inspired by discussion with `Brandon Savage <https://twitter.com/BrandonSavage>`_.
+Inspired by discussion with `Brandon Savage <https://twitter.`com <https://www.php.net/com>`_/BrandonSavage>`_.
 
 .. code-block:: php
    
@@ -64,9 +64,9 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
-  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
-  + `abstract-class <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract-class.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `Interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+  + `Abstract Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract-class.ini.html>`_
 
 
 Suggestions

@@ -23,9 +23,9 @@ A set of rules that are always run at the beginning of a project, because they a
 
 Total : 3 analysis
 
-* :ref:`variable-and-property-type`
-* :ref:`variable-is-a-local-constant`
-* :ref:`add-return-type`
+* :ref:`complete-variabletypehint`
+* :ref:`variables-islocalconstant`
+* :ref:`complete-returntypehint`
 
 Specs
 _____

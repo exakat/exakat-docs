@@ -79,7 +79,7 @@ See also `yar <https://github.com/laruence/yar>`_.
 Connex PHP features
 -------------------
 
-  + `rpc <https://php-dictionary.readthedocs.io/en/latest/dictionary/rpc.ini.html>`_
+  + `Remote Procedure Call (RPC) <https://php-dictionary.readthedocs.io/en/latest/dictionary/rpc.ini.html>`_
 
 
 Specs

@@ -56,8 +56,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `variadic <https://php-dictionary.readthedocs.io/en/latest/dictionary/variadic.ini.html>`_
-  + `named-parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/named-parameter.ini.html>`_
+  + `Variadic <https://php-dictionary.readthedocs.io/en/latest/dictionary/variadic.ini.html>`_
+  + `Named Parameters <https://php-dictionary.readthedocs.io/en/latest/dictionary/named-parameter.ini.html>`_
 
 
 Suggestions

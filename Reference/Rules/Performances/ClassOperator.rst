@@ -58,7 +58,7 @@ See also `get_class <https://www.php.net/manual/fr/function.get-class.php>`_..
 Connex PHP features
 -------------------
 
-  + `scope-resolution-operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/scope-resolution-operator.ini.html>`_
+  + `Scope Resolution Operator :: <https://php-dictionary.readthedocs.io/en/latest/dictionary/scope-resolution-operator.ini.html>`_
   + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
 
 

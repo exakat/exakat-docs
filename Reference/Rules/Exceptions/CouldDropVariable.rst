@@ -46,7 +46,7 @@ Suggest removing the variable in catch clause where the variable is not used. Th
 Connex PHP features
 -------------------
 
-  + `catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
+  + `Catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
 
 
 Suggestions

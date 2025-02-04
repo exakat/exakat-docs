@@ -60,7 +60,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `clone <https://php-dictionary.readthedocs.io/en/latest/dictionary/clone.ini.html>`_
+  + `Clone <https://php-dictionary.readthedocs.io/en/latest/dictionary/clone.ini.html>`_
 
 
 Suggestions

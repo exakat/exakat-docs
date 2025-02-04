@@ -58,8 +58,8 @@ See also `class_alias <https://www.php.net/class_alias>`_.
 Connex PHP features
 -------------------
 
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
-  + `class-alias <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-alias.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Class Aliases <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-alias.ini.html>`_
 
 
 Specs

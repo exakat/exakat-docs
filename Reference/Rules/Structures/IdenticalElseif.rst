@@ -46,7 +46,7 @@ This is similar to having multiple cases in the same switch or match expression.
 Connex PHP features
 -------------------
 
-  + `if-then <https://php-dictionary.readthedocs.io/en/latest/dictionary/if-then.ini.html>`_
+  + `If Then Else <https://php-dictionary.readthedocs.io/en/latest/dictionary/if-then.ini.html>`_
 
 
 Suggestions

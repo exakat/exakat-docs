@@ -36,9 +36,9 @@ See also `PHP Tags <https://www.php.net/manual/en/language.basic-syntax.phptags.
 Connex PHP features
 -------------------
 
-  + `short-tag <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-tag.ini.html>`_
-  + `php-tag <https://php-dictionary.readthedocs.io/en/latest/dictionary/php-tag.ini.html>`_
-  + `echo-tag <https://php-dictionary.readthedocs.io/en/latest/dictionary/echo-tag.ini.html>`_
+  + `Short Tags <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-tag.ini.html>`_
+  + `PHP Tags <https://php-dictionary.readthedocs.io/en/latest/dictionary/php-tag.ini.html>`_
+  + `Echo Tag <https://php-dictionary.readthedocs.io/en/latest/dictionary/echo-tag.ini.html>`_
 
 
 Suggestions

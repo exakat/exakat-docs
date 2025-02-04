@@ -55,7 +55,7 @@ See also `Final classes by default, why? <https://matthiasnoback.nl/2018/09/fina
 Connex PHP features
 -------------------
 
-  + `final <https://php-dictionary.readthedocs.io/en/latest/dictionary/final.ini.html>`_
+  + `Final Keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/final.ini.html>`_
 
 
 Specs

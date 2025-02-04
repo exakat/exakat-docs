@@ -47,7 +47,7 @@ When using negative power, it is clearer to add parenthesis or to use the `pow()
 Connex PHP features
 -------------------
 
-  + `power <https://php-dictionary.readthedocs.io/en/latest/dictionary/power.ini.html>`_
+  + `Exponent <https://php-dictionary.readthedocs.io/en/latest/dictionary/power.ini.html>`_
 
 
 Suggestions

@@ -52,7 +52,7 @@ Then, this class is actually dead code.
 Connex PHP features
 -------------------
 
-  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+  + `Method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
 
 
 Suggestions

@@ -42,8 +42,8 @@ This only works when `compact() <https://www.php.net/compact>`_ is used with lit
 Connex PHP features
 -------------------
 
-  + `compact <https://php-dictionary.readthedocs.io/en/latest/dictionary/compact.ini.html>`_
-  + `dynamic-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-variable.ini.html>`_
+  + `compact() <https://php-dictionary.readthedocs.io/en/latest/dictionary/compact.ini.html>`_
+  + `Dynamic Variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-variable.ini.html>`_
 
 
 Specs

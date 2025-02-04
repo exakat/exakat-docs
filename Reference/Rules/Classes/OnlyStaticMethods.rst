@@ -43,7 +43,7 @@ This rule marks a class that only contains `static <https://www.php.net/manual/e
 Connex PHP features
 -------------------
 
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
   + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
 
 

@@ -54,7 +54,7 @@ See also `Covariant Returns and Contravariant Parameters <https://wiki.php.net/r
 Connex PHP features
 -------------------
 
-  + `covariance <https://php-dictionary.readthedocs.io/en/latest/dictionary/covariance.ini.html>`_
+  + `Covariance <https://php-dictionary.readthedocs.io/en/latest/dictionary/covariance.ini.html>`_
 
 
 Specs

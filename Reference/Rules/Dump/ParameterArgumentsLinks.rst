@@ -59,8 +59,8 @@ A parameter is one slot in the method definition. An argument is a slot in the m
 Connex PHP features
 -------------------
 
-  + `parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
-  + `argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
+  + `Parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
+  + `Argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
 
 
 Specs

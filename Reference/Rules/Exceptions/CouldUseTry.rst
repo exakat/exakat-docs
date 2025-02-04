@@ -57,21 +57,21 @@ See also `Predefined Exceptions <https://www.php.net/manual/en/reserved.exceptio
 Connex PHP features
 -------------------
 
-  + `try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try-catch.ini.html>`_
-  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
-  + `arithmeticerror <https://php-dictionary.readthedocs.io/en/latest/dictionary/arithmeticerror.ini.html>`_
-  + `divisionbyzeroerror <https://php-dictionary.readthedocs.io/en/latest/dictionary/divisionbyzeroerror.ini.html>`_
-  + `imagickexception <https://php-dictionary.readthedocs.io/en/latest/dictionary/imagickexception.ini.html>`_
-  + `imagickpixelexception <https://php-dictionary.readthedocs.io/en/latest/dictionary/imagickpixelexception.ini.html>`_
-  + `invalidargumentexception <https://php-dictionary.readthedocs.io/en/latest/dictionary/invalidargumentexception.ini.html>`_
-  + `jsonexception <https://php-dictionary.readthedocs.io/en/latest/dictionary/jsonexception.ini.html>`_
+  + `Try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try-catch.ini.html>`_
+  + `Exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+  + `ArithmeticError Error <https://php-dictionary.readthedocs.io/en/latest/dictionary/arithmeticerror.ini.html>`_
+  + `DivisionByZeroError <https://php-dictionary.readthedocs.io/en/latest/dictionary/divisionbyzeroerror.ini.html>`_
+  + `ImagickException <https://php-dictionary.readthedocs.io/en/latest/dictionary/imagickexception.ini.html>`_
+  + `ImagickPixelException <https://php-dictionary.readthedocs.io/en/latest/dictionary/imagickpixelexception.ini.html>`_
+  + `InvalidArgumentException <https://php-dictionary.readthedocs.io/en/latest/dictionary/invalidargumentexception.ini.html>`_
+  + `JsonException <https://php-dictionary.readthedocs.io/en/latest/dictionary/jsonexception.ini.html>`_
   + `mysqli_sql_exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/mysqli_sql_exception.ini.html>`_
-  + `pdoexception <https://php-dictionary.readthedocs.io/en/latest/dictionary/pdoexception.ini.html>`_
-  + `pharexception <https://php-dictionary.readthedocs.io/en/latest/dictionary/pharexception.ini.html>`_
-  + `reflectionexception <https://php-dictionary.readthedocs.io/en/latest/dictionary/reflectionexception.ini.html>`_
-  + `svmexception <https://php-dictionary.readthedocs.io/en/latest/dictionary/svmexception.ini.html>`_
-  + `typerror <https://php-dictionary.readthedocs.io/en/latest/dictionary/typerror.ini.html>`_
-  + `unexpectedvalueexception <https://php-dictionary.readthedocs.io/en/latest/dictionary/unexpectedvalueexception.ini.html>`_
+  + `PDOException <https://php-dictionary.readthedocs.io/en/latest/dictionary/pdoexception.ini.html>`_
+  + `PharException <https://php-dictionary.readthedocs.io/en/latest/dictionary/pharexception.ini.html>`_
+  + `ReflectionException <https://php-dictionary.readthedocs.io/en/latest/dictionary/reflectionexception.ini.html>`_
+  + `SVMException <https://php-dictionary.readthedocs.io/en/latest/dictionary/svmexception.ini.html>`_
+  + `Type Error <https://php-dictionary.readthedocs.io/en/latest/dictionary/typerror.ini.html>`_
+  + `UnexpectedValueException <https://php-dictionary.readthedocs.io/en/latest/dictionary/unexpectedvalueexception.ini.html>`_
 
 
 Suggestions

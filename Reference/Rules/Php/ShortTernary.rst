@@ -45,7 +45,7 @@ See also `Ternary Operator <https://www.php.net/manual/en/language.operators.com
 Connex PHP features
 -------------------
 
-  + `short-ternary <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-ternary.ini.html>`_
+  + `Short Ternary Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-ternary.ini.html>`_
 
 
 Specs

@@ -59,7 +59,7 @@ See also `Anonymous functions <https://www.php.net/manual/en/functions.anonymous
 Connex PHP features
 -------------------
 
-  + `closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
+  + `Closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
   + `$this <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24this.ini.html>`_
 
 

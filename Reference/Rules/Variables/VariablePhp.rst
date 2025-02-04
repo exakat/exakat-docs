@@ -45,8 +45,8 @@ See also `Predefined Variables <https://www.php.net/manual/en/reserved.variables
 Connex PHP features
 -------------------
 
-  + `superglobal <https://php-dictionary.readthedocs.io/en/latest/dictionary/superglobal.ini.html>`_
-  + `global <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
+  + `Superglobal Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/superglobal.ini.html>`_
+  + `global Scope <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
 
 
 Specs

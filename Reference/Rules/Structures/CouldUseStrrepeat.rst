@@ -52,7 +52,7 @@ Making a loop to repeat the same concatenation is actually much longer than usin
 Connex PHP features
 -------------------
 
-  + `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+  + `String <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
 
 
 Suggestions

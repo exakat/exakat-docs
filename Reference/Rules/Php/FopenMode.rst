@@ -57,7 +57,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `file-mode <https://php-dictionary.readthedocs.io/en/latest/dictionary/file-mode.ini.html>`_
+  + `File Mode <https://php-dictionary.readthedocs.io/en/latest/dictionary/file-mode.ini.html>`_
 
 
 Suggestions

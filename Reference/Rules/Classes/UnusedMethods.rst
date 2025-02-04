@@ -65,7 +65,7 @@ See also `Dead Code: Unused Method <https://vulncat.fortify.com/en/detail?id=des
 Connex PHP features
 -------------------
 
-  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+  + `Method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
 
 
 Suggestions

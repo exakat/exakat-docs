@@ -60,8 +60,8 @@ See also `PHP RFC: Marking overridden methods (#[\Override]) <https://wiki.php.n
 Connex PHP features
 -------------------
 
-  + `override <https://php-dictionary.readthedocs.io/en/latest/dictionary/override.ini.html>`_
-  + `attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
+  + `Override Attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/override.ini.html>`_
+  + `Attributes <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
 
 
 Suggestions

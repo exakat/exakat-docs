@@ -58,7 +58,7 @@ Those functions include extra checks : for example, `http_build_query() <https:/
 Connex PHP features
 -------------------
 
-  + `url <https://php-dictionary.readthedocs.io/en/latest/dictionary/url.ini.html>`_
+  + `Universal Resource Locator (URL) <https://php-dictionary.readthedocs.io/en/latest/dictionary/url.ini.html>`_
 
 
 Suggestions

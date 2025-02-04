@@ -41,7 +41,7 @@ This rule collects the names of the global variables. The global variables are c
 Connex PHP features
 -------------------
 
-  + `global <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
+  + `global Scope <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
 
 
 Specs

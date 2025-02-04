@@ -57,8 +57,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html>`_
-  + `lazy-loading <https://php-dictionary.readthedocs.io/en/latest/dictionary/lazy-loading.ini.html>`_
+  + `Visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html>`_
+  + `Lazy Loading <https://php-dictionary.readthedocs.io/en/latest/dictionary/lazy-loading.ini.html>`_
 
 
 Suggestions

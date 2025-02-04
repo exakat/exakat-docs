@@ -50,7 +50,7 @@ This analysis reports files that are using both syntax at the same time. This is
 Connex PHP features
 -------------------
 
-  + `alternative-syntax <https://php-dictionary.readthedocs.io/en/latest/dictionary/alternative-syntax.ini.html>`_
+  + `Alternative Syntax <https://php-dictionary.readthedocs.io/en/latest/dictionary/alternative-syntax.ini.html>`_
 
 
 Specs

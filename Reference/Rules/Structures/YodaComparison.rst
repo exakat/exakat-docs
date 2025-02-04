@@ -48,7 +48,7 @@ See also `Yoda Conditions <https://en.wikipedia.org/wiki/Yoda_conditions>`_ and 
 Connex PHP features
 -------------------
 
-  + `coding-convention <https://php-dictionary.readthedocs.io/en/latest/dictionary/coding-convention.ini.html>`_
+  + `Coding Conventions <https://php-dictionary.readthedocs.io/en/latest/dictionary/coding-convention.ini.html>`_
 
 
 Specs

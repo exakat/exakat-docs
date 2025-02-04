@@ -50,7 +50,7 @@ See also `Constants <https://www.php.net/manual/en/language.constants.php>`_.
 Connex PHP features
 -------------------
 
-  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+  + `Constants <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
 
 
 Suggestions

@@ -67,8 +67,8 @@ In PHP 5.6, results are :::
 Connex PHP features
 -------------------
 
-  + `list <https://php-dictionary.readthedocs.io/en/latest/dictionary/list.ini.html>`_
-  + `append <https://php-dictionary.readthedocs.io/en/latest/dictionary/append.ini.html>`_
+  + `List <https://php-dictionary.readthedocs.io/en/latest/dictionary/list.ini.html>`_
+  + `Array Append <https://php-dictionary.readthedocs.io/en/latest/dictionary/append.ini.html>`_
 
 
 Suggestions

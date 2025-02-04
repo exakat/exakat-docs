@@ -52,8 +52,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `enumeration <https://php-dictionary.readthedocs.io/en/latest/dictionary/enumeration.ini.html>`_
-  + `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
+  + `Enumeration (enum) <https://php-dictionary.readthedocs.io/en/latest/dictionary/enumeration.ini.html>`_
+  + `Magic Methods <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
 
 
 Suggestions

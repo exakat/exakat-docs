@@ -44,7 +44,7 @@ See also `mb_encoding_detect <https://php.net/mb-encoding-detect>`_, `PHP vs. Th
 Connex PHP features
 -------------------
 
-  + `mbstring <https://php-dictionary.readthedocs.io/en/latest/dictionary/mbstring.ini.html>`_
+  + `Multibyte String <https://php-dictionary.readthedocs.io/en/latest/dictionary/mbstring.ini.html>`_
 
 
 Suggestions

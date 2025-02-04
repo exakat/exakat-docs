@@ -45,8 +45,8 @@ Collect all level of indentations for methods and functions. Inside methods, ind
 Connex PHP features
 -------------------
 
-  + `indentation <https://php-dictionary.readthedocs.io/en/latest/dictionary/indentation.ini.html>`_
-  + `inclusion <https://php-dictionary.readthedocs.io/en/latest/dictionary/inclusion.ini.html>`_
+  + `Indentation <https://php-dictionary.readthedocs.io/en/latest/dictionary/indentation.ini.html>`_
+  + `Inclusions <https://php-dictionary.readthedocs.io/en/latest/dictionary/inclusion.ini.html>`_
 
 
 Specs

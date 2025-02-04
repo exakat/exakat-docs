@@ -47,7 +47,7 @@ However, having two or more properties with the same name, in the class hierarch
 Connex PHP features
 -------------------
 
-  + `private <https://php-dictionary.readthedocs.io/en/latest/dictionary/private.ini.html>`_
+  + `Private Visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/private.ini.html>`_
 
 
 Suggestions

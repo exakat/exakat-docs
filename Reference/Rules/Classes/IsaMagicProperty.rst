@@ -55,7 +55,7 @@ See also `Magic Methods <https://www.php.net/manual/en/language.oop5.magic.php>`
 Connex PHP features
 -------------------
 
-  + `magic-property <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-property.ini.html>`_
+  + `Magic Property <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-property.ini.html>`_
 
 
 Specs

@@ -44,7 +44,7 @@ When your project use a vast majority of one of the convention, then the analyze
 Connex PHP features
 -------------------
 
-  + `global <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
+  + `global Scope <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
 
 
 Specs

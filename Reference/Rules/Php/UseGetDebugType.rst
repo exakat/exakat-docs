@@ -45,9 +45,9 @@ See also `PHP RFC: get_debug_type <https://wiki.php.net/rfc/get_debug_type>`_.
 Connex PHP features
 -------------------
 
-  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
-  + `debug <https://php-dictionary.readthedocs.io/en/latest/dictionary/debug.ini.html>`_
-  + `backward-incompatible <https://php-dictionary.readthedocs.io/en/latest/dictionary/backward-incompatible.ini.html>`_
+  + `Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `Debugger <https://php-dictionary.readthedocs.io/en/latest/dictionary/debug.ini.html>`_
+  + `Backward Incompatible <https://php-dictionary.readthedocs.io/en/latest/dictionary/backward-incompatible.ini.html>`_
 
 
 Suggestions

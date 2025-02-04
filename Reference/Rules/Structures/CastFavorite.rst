@@ -54,7 +54,7 @@ It happens that casting operators or conversion functions are used depending on 
 Connex PHP features
 -------------------
 
-  + `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+  + `Cast Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
 
 
 Suggestions

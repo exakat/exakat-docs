@@ -47,7 +47,7 @@ Sensitive parameters are identified with Security/`SensitiveParameter <https://w
 Connex PHP features
 -------------------
 
-  + `injection <https://php-dictionary.readthedocs.io/en/latest/dictionary/injection.ini.html>`_
+  + `Injection <https://php-dictionary.readthedocs.io/en/latest/dictionary/injection.ini.html>`_
 
 
 Suggestions

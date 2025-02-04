@@ -58,8 +58,8 @@ See also `Operators Precedence <https://www.php.net/manual/en/language.operators
 Connex PHP features
 -------------------
 
-  + `parenthesis <https://php-dictionary.readthedocs.io/en/latest/dictionary/parenthesis.ini.html>`_
-  + `readability <https://php-dictionary.readthedocs.io/en/latest/dictionary/readability.ini.html>`_
+  + `Parenthesis <https://php-dictionary.readthedocs.io/en/latest/dictionary/parenthesis.ini.html>`_
+  + `Readability <https://php-dictionary.readthedocs.io/en/latest/dictionary/readability.ini.html>`_
 
 
 Suggestions

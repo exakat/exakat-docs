@@ -52,8 +52,8 @@ See also `Visibility from other objects <https://www.php.net/manual/en/language.
 Connex PHP features
 -------------------
 
-  + `visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html>`_
-  + `class-invasion <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-invasion.ini.html>`_
+  + `Visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html>`_
+  + `Class Invasion <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-invasion.ini.html>`_
 
 
 Suggestions

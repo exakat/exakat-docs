@@ -53,9 +53,9 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `byte <https://php-dictionary.readthedocs.io/en/latest/dictionary/byte.ini.html>`_
-  + `character <https://php-dictionary.readthedocs.io/en/latest/dictionary/character.ini.html>`_
-  + `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+  + `Byte <https://php-dictionary.readthedocs.io/en/latest/dictionary/byte.ini.html>`_
+  + `Character <https://php-dictionary.readthedocs.io/en/latest/dictionary/character.ini.html>`_
+  + `String <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
 
 
 Suggestions

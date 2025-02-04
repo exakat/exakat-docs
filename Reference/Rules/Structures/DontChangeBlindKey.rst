@@ -67,8 +67,8 @@ When the value has to be prepared before usage, then save the filtered value in 
 Connex PHP features
 -------------------
 
-  + `loop <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
-  + `blind-key <https://php-dictionary.readthedocs.io/en/latest/dictionary/blind-key.ini.html>`_
+  + `Loops <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
+  + `Blind Variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/blind-key.ini.html>`_
 
 
 Specs

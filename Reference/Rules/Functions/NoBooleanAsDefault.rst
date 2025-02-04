@@ -58,8 +58,8 @@ See also `FlagArgument <https://www.martinfowler.com/bliki/FlagArgument.html>`_ 
 Connex PHP features
 -------------------
 
-  + `boolean <https://php-dictionary.readthedocs.io/en/latest/dictionary/boolean.ini.html>`_
-  + `default-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
+  + `Boolean <https://php-dictionary.readthedocs.io/en/latest/dictionary/boolean.ini.html>`_
+  + `Default Value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
 
 
 Suggestions

@@ -41,7 +41,7 @@ When a variable is created inside a loop, it should also be used in the loop. Ot
 Connex PHP features
 -------------------
 
-  + `loop <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
+  + `Loops <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
 
 
 Suggestions

@@ -59,7 +59,7 @@ Unset applied to the variables of a ``foreach`` loop are useless. Those variable
 Connex PHP features
 -------------------
 
-  + `foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
+  + `Foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
 
 
 Suggestions

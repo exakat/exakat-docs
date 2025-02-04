@@ -47,7 +47,7 @@ This rule check for parameters and variables which uses the type as name. It als
 Connex PHP features
 -------------------
 
-  + `semantics <https://php-dictionary.readthedocs.io/en/latest/dictionary/semantics.ini.html>`_
+  + `Semantics <https://php-dictionary.readthedocs.io/en/latest/dictionary/semantics.ini.html>`_
 
 
 Suggestions

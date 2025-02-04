@@ -46,7 +46,7 @@ See also `RFC: Return Type Declarations <https://wiki.php.net/rfc/return_types>`
 Connex PHP features
 -------------------
 
-  + `returntype <https://php-dictionary.readthedocs.io/en/latest/dictionary/returntype.ini.html>`_
+  + `Return Type <https://php-dictionary.readthedocs.io/en/latest/dictionary/returntype.ini.html>`_
 
 
 Specs

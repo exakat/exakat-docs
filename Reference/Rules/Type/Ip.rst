@@ -44,7 +44,7 @@ See also `IP converter <https://h.43z.one/ipconverter/>`_.
 Connex PHP features
 -------------------
 
-  + `ip <https://php-dictionary.readthedocs.io/en/latest/dictionary/ip.ini.html>`_
+  + `IP <https://php-dictionary.readthedocs.io/en/latest/dictionary/ip.ini.html>`_
 
 
 Specs

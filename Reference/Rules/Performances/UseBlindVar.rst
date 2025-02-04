@@ -53,7 +53,7 @@ Note that it is also faster to use the value with a reference to handle the writ
 Connex PHP features
 -------------------
 
-  + `blind-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/blind-variable.ini.html>`_
+  + `Blind Variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/blind-variable.ini.html>`_
 
 
 Suggestions

@@ -46,7 +46,7 @@ See also `Superglobals <https://www.php.net/manual/en/language.variables.supergl
 Connex PHP features
 -------------------
 
-  + `superglobal <https://php-dictionary.readthedocs.io/en/latest/dictionary/superglobal.ini.html>`_
+  + `Superglobal Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/superglobal.ini.html>`_
 
 
 Specs

@@ -50,7 +50,7 @@ See also `Object Interfaces <https://www.php.net/manual/en/language.oop5.interfa
 Connex PHP features
 -------------------
 
-  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+  + `Interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
 
 
 Suggestions

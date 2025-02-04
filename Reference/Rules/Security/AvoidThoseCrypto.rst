@@ -54,7 +54,7 @@ See also `Secure Hash Algorithms <https://en.wikipedia.org/wiki/Secure_Hash_Algo
 Connex PHP features
 -------------------
 
-  + `hash <https://php-dictionary.readthedocs.io/en/latest/dictionary/hash.ini.html>`_
+  + `Hash <https://php-dictionary.readthedocs.io/en/latest/dictionary/hash.ini.html>`_
 
 
 Suggestions

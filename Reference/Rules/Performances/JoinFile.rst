@@ -67,7 +67,7 @@ See also `file_get_contents <https://www.php.net/file_get_contents>`_, `file <ht
 Connex PHP features
 -------------------
 
-  + `csv <https://php-dictionary.readthedocs.io/en/latest/dictionary/csv.ini.html>`_
+  + `Comma Secparated Values (CSV) <https://php-dictionary.readthedocs.io/en/latest/dictionary/csv.ini.html>`_
 
 
 Suggestions

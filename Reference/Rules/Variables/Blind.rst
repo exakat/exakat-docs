@@ -43,8 +43,8 @@ They represent the individual items or index during the loop, and have rarely an
 Connex PHP features
 -------------------
 
-  + `blind-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/blind-variable.ini.html>`_
-  + `local-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/local-variable.ini.html>`_
+  + `Blind Variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/blind-variable.ini.html>`_
+  + `Local Variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/local-variable.ini.html>`_
 
 
 Specs

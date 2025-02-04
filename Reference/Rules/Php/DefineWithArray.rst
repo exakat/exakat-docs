@@ -45,9 +45,9 @@ This was introduced in PHP 7.0. It also applies to the ``const`` keyword and to 
 Connex PHP features
 -------------------
 
-  + `define <https://php-dictionary.readthedocs.io/en/latest/dictionary/define.ini.html>`_
-  + `const <https://php-dictionary.readthedocs.io/en/latest/dictionary/const.ini.html>`_
-  + `static-constant-expression <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-constant-expression.ini.html>`_
+  + `define() <https://php-dictionary.readthedocs.io/en/latest/dictionary/define.ini.html>`_
+  + `Const <https://php-dictionary.readthedocs.io/en/latest/dictionary/const.ini.html>`_
+  + `Constant Scalar Expression <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-constant-expression.ini.html>`_
 
 
 Specs

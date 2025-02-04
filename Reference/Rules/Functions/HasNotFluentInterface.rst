@@ -29,7 +29,7 @@ Method Is Not For Fluent Interface
 
 Mark a method when it contains at least one return that doesn't return `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_. Such method cannot be used for fluent interface, which always require the current object to be returned. 
 
-Null is not accepted here: it would `break <https://www.php.net/manual/en/control-structures.break.php>`_ the execution of the method call chains if it was returned. 
+`Null <https://www.php.net/`null <https://www.php.net/null>`_>`_ is not accepted here: it would `break <https://www.php.net/manual/en/control-structures.break.php>`_ the execution of the method call chains if it was returned. 
 
 
 .. code-block:: php
@@ -56,8 +56,8 @@ Null is not accepted here: it would `break <https://www.php.net/manual/en/contro
 Connex PHP features
 -------------------
 
-  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
-  + `fluent-interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/fluent-interface.ini.html>`_
+  + `Method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+  + `Fluent Interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/fluent-interface.ini.html>`_
 
 
 Specs

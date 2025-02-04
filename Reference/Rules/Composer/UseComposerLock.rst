@@ -34,7 +34,7 @@ See also `Composer <https://getcomposer.org/>`_.
 Connex PHP features
 -------------------
 
-  + `composer <https://php-dictionary.readthedocs.io/en/latest/dictionary/composer.ini.html>`_
+  + `Composer <https://php-dictionary.readthedocs.io/en/latest/dictionary/composer.ini.html>`_
 
 
 Specs

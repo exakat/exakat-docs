@@ -59,9 +59,9 @@ See also `Constant definition <https://www.php.net/const>`_ and `Define <https:/
 Connex PHP features
 -------------------
 
-  + `define <https://php-dictionary.readthedocs.io/en/latest/dictionary/define.ini.html>`_
-  + `const <https://php-dictionary.readthedocs.io/en/latest/dictionary/const.ini.html>`_
-  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+  + `define() <https://php-dictionary.readthedocs.io/en/latest/dictionary/define.ini.html>`_
+  + `Const <https://php-dictionary.readthedocs.io/en/latest/dictionary/const.ini.html>`_
+  + `Constants <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
 
 
 Specs

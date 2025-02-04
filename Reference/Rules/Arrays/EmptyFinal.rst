@@ -60,7 +60,7 @@ See also `Array <https://www.php.net/manual/en/language.types.array.php>`_, `Zen
 Connex PHP features
 -------------------
 
-  + `trailing-comma <https://php-dictionary.readthedocs.io/en/latest/dictionary/trailing-comma.ini.html>`_
+  + `Trailing Comma <https://php-dictionary.readthedocs.io/en/latest/dictionary/trailing-comma.ini.html>`_
 
 
 Specs

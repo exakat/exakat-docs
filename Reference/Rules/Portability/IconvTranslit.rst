@@ -53,8 +53,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `iconv <https://php-dictionary.readthedocs.io/en/latest/dictionary/iconv.ini.html>`_
-  + `encoding <https://php-dictionary.readthedocs.io/en/latest/dictionary/encoding.ini.html>`_
+  + `Iconv <https://php-dictionary.readthedocs.io/en/latest/dictionary/iconv.ini.html>`_
+  + `Encoding <https://php-dictionary.readthedocs.io/en/latest/dictionary/encoding.ini.html>`_
 
 
 Suggestions

@@ -49,8 +49,8 @@ See also `PHP 8.2: DNF Types <https://php.watch/versions/8.2/dnf-types>`_.
 Connex PHP features
 -------------------
 
-  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
-  + `dnf-type <https://php-dictionary.readthedocs.io/en/latest/dictionary/dnf-type.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `Disjunctive Normal Form (DNF) <https://php-dictionary.readthedocs.io/en/latest/dictionary/dnf-type.ini.html>`_
 
 
 Specs

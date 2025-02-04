@@ -53,8 +53,8 @@ See also `PHP 7.4 Removed Functions <https://www.php.net/manual/en/migration74.i
 Connex PHP features
 -------------------
 
-  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
-  + `native <https://php-dictionary.readthedocs.io/en/latest/dictionary/native.ini.html>`_
+  + `Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `Native <https://php-dictionary.readthedocs.io/en/latest/dictionary/native.ini.html>`_
 
 
 Specs

@@ -60,7 +60,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `real <https://php-dictionary.readthedocs.io/en/latest/dictionary/real.ini.html>`_
+  + `Real Numbers <https://php-dictionary.readthedocs.io/en/latest/dictionary/real.ini.html>`_
 
 
 Suggestions

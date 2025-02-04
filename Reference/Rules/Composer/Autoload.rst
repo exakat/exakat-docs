@@ -31,8 +31,8 @@ Report if this code is using the autoload from Composer.
 Connex PHP features
 -------------------
 
-  + `autoload <https://php-dictionary.readthedocs.io/en/latest/dictionary/autoload.ini.html>`_
-  + `composer <https://php-dictionary.readthedocs.io/en/latest/dictionary/composer.ini.html>`_
+  + `Class Autoloading <https://php-dictionary.readthedocs.io/en/latest/dictionary/autoload.ini.html>`_
+  + `Composer <https://php-dictionary.readthedocs.io/en/latest/dictionary/composer.ini.html>`_
 
 
 Specs

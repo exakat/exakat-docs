@@ -56,7 +56,7 @@ File B :
 Connex PHP features
 -------------------
 
-  + `definition <https://php-dictionary.readthedocs.io/en/latest/dictionary/definition.ini.html>`_
+  + `Definition <https://php-dictionary.readthedocs.io/en/latest/dictionary/definition.ini.html>`_
 
 
 Specs

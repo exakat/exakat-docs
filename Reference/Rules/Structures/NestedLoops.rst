@@ -48,7 +48,7 @@ Nested loops are worth a check for performances reasons, as they will process a 
 Connex PHP features
 -------------------
 
-  + `nesting <https://php-dictionary.readthedocs.io/en/latest/dictionary/nesting.ini.html>`_
+  + `Nesting <https://php-dictionary.readthedocs.io/en/latest/dictionary/nesting.ini.html>`_
 
 
 Specs

@@ -62,7 +62,7 @@ See also `List of Keywords <https://www.php.net/manual/en/reserved.keywords.php>
 Connex PHP features
 -------------------
 
-  + `reserved-name <https://php-dictionary.readthedocs.io/en/latest/dictionary/reserved-name.ini.html>`_
+  + `Reserved Names <https://php-dictionary.readthedocs.io/en/latest/dictionary/reserved-name.ini.html>`_
 
 
 Suggestions

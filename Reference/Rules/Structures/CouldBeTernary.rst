@@ -30,7 +30,7 @@ Could Be Ternary
 This control structure may be replaced by a ternary operator. 
 
 Th ternary operator may be shorter and easier to read than the full blown if-then-else structure. 
-Depending on the situation, the null-ternary and the coalesce operator may also be a good alternative.
+Depending on the situation, the `null <https://www.php.net/`null <https://www.php.net/null>`_>`_-ternary and the coalesce operator may also be a good alternative.
 
 .. code-block:: php
    
@@ -53,10 +53,10 @@ See also PHP Shorthand If/Else Using Ternary Operators (?:) `<https://davidwalsh
 Connex PHP features
 -------------------
 
-  + `ternary <https://php-dictionary.readthedocs.io/en/latest/dictionary/ternary.ini.html>`_
-  + `coalesce <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
-  + `null-ternary <https://php-dictionary.readthedocs.io/en/latest/dictionary/null-ternary.ini.html>`_
-  + `short-assignation <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-assignation.ini.html>`_
+  + `Ternary Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/ternary.ini.html>`_
+  + `Coalesce Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
+  + `Coalesce Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/null-ternary.ini.html>`_
+  + `Short Assignations <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-assignation.ini.html>`_
 
 
 Suggestions

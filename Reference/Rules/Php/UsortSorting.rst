@@ -74,7 +74,7 @@ See also `Sort order of equal elements <https://www.php.net/manual/en/migration7
 Connex PHP features
 -------------------
 
-  + `sort <https://php-dictionary.readthedocs.io/en/latest/dictionary/sort.ini.html>`_
+  + `Sort <https://php-dictionary.readthedocs.io/en/latest/dictionary/sort.ini.html>`_
 
 
 Suggestions

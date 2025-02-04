@@ -48,8 +48,8 @@ If you have too many of them, don't loose your time switching them all. If you h
 Connex PHP features
 -------------------
 
-  + `double-quote <https://php-dictionary.readthedocs.io/en/latest/dictionary/double-quote.ini.html>`_
-  + `single-quote <https://php-dictionary.readthedocs.io/en/latest/dictionary/single-quote.ini.html>`_
+  + `Double Quotes Strings <https://php-dictionary.readthedocs.io/en/latest/dictionary/double-quote.ini.html>`_
+  + `Single Quotes Strings <https://php-dictionary.readthedocs.io/en/latest/dictionary/single-quote.ini.html>`_
 
 
 Specs

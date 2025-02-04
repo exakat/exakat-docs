@@ -56,8 +56,8 @@ Virtual proeprties are akin to view, in SQL, where columns are calculated on the
 Connex PHP features
 -------------------
 
-  + `hook <https://php-dictionary.readthedocs.io/en/latest/dictionary/hook.ini.html>`_
-  + `virtual-property <https://php-dictionary.readthedocs.io/en/latest/dictionary/virtual-property.ini.html>`_
+  + `Property Hook <https://php-dictionary.readthedocs.io/en/latest/dictionary/hook.ini.html>`_
+  + `Virtual Property <https://php-dictionary.readthedocs.io/en/latest/dictionary/virtual-property.ini.html>`_
 
 
 Specs

@@ -47,8 +47,8 @@ See also `goto <https://www.php.net/goto>`_.
 Connex PHP features
 -------------------
 
-  + `goto <https://php-dictionary.readthedocs.io/en/latest/dictionary/goto.ini.html>`_
-  + `label <https://php-dictionary.readthedocs.io/en/latest/dictionary/label.ini.html>`_
+  + `Goto <https://php-dictionary.readthedocs.io/en/latest/dictionary/goto.ini.html>`_
+  + `Goto Labels <https://php-dictionary.readthedocs.io/en/latest/dictionary/label.ini.html>`_
 
 
 Specs

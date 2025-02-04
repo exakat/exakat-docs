@@ -46,7 +46,7 @@ This rule collects all variables from the code. Their type is mentionned, as var
 Connex PHP features
 -------------------
 
-  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
 
 
 Specs

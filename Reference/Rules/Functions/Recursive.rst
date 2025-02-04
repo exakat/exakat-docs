@@ -51,7 +51,7 @@ Functions are easy to identify as recursive. Methods have some blind spots : whe
 Connex PHP features
 -------------------
 
-  + `recursion <https://php-dictionary.readthedocs.io/en/latest/dictionary/recursion.ini.html>`_
+  + `Recursion <https://php-dictionary.readthedocs.io/en/latest/dictionary/recursion.ini.html>`_
 
 
 Specs

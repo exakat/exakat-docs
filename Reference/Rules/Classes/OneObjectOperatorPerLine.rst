@@ -51,7 +51,7 @@ This rule applies to chained  calls, and not on distinct expressions, that may e
 Connex PHP features
 -------------------
 
-  + `readability <https://php-dictionary.readthedocs.io/en/latest/dictionary/readability.ini.html>`_
+  + `Readability <https://php-dictionary.readthedocs.io/en/latest/dictionary/readability.ini.html>`_
 
 
 Specs

@@ -31,7 +31,7 @@ The included files doesn't exists in the repository. The inclusions target a fil
 
 The analysis works with every type of inclusion : include(), require(), include_once() and require_once(). It also works with parenthesis when used as parameter delimiter.
 
-The analysis doesn't take into account ``include_path``. This may yield false positives.
+The analysis doesn't take into account ``include_path``. This may yield `false <https://www.php.net/false>`_ positives.
 Missing included files may lead to a fatal `error <https://www.php.net/error>`_, a warning or other `error <https://www.php.net/error>`_ later in the execution.
 
 .. code-block:: php

@@ -56,7 +56,7 @@ Then length of a block is managed with the ``longBlock`` parameter. By default, 
 Connex PHP features
 -------------------
 
-  + `block <https://php-dictionary.readthedocs.io/en/latest/dictionary/block.ini.html>`_
+  + `Block <https://php-dictionary.readthedocs.io/en/latest/dictionary/block.ini.html>`_
 
 
 Suggestions

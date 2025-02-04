@@ -39,7 +39,7 @@ See also `PHP Closing Tag <https://codeigniter.com/userguide3/general/styleguide
 Connex PHP features
 -------------------
 
-  + `close-tag <https://php-dictionary.readthedocs.io/en/latest/dictionary/close-tag.ini.html>`_
+  + `Close Tag <https://php-dictionary.readthedocs.io/en/latest/dictionary/close-tag.ini.html>`_
 
 
 Suggestions

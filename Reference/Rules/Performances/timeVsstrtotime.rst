@@ -44,7 +44,7 @@ This is a micro-optimisation. Relative gain is real, but small unless the functi
 Connex PHP features
 -------------------
 
-  + `declare <https://php-dictionary.readthedocs.io/en/latest/dictionary/declare.ini.html>`_
+  + `declare() <https://php-dictionary.readthedocs.io/en/latest/dictionary/declare.ini.html>`_
 
 
 Suggestions

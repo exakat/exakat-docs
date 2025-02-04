@@ -48,7 +48,7 @@ See also  `PHP Classes containing only constants <https://stackoverflow.com/ques
 Connex PHP features
 -------------------
 
-  + `class-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html>`_
+  + `Static Constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html>`_
 
 
 Suggestions

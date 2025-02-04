@@ -27,7 +27,7 @@ Implicit Nullable Type
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/HiddenNullable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/HiddenNullable.html","name":"Implicit Nullable Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 11:40:49 +0000","dateModified":"Tue, 14 Jan 2025 11:40:49 +0000","description":"Argument with default value of null are nullable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Implicit Nullable Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-Argument with default value of null are nullable. It works both with the ``null`` typehint (PHP 8.0), or the ``?`` operator are not used, setting the default value to null is allowed, and makes the argument nullable.
+Argument with default value of `null <https://www.php.net/`null <https://www.php.net/null>`_>`_ are nullable. It works both with the ``null`` typehint (PHP 8.0), or the ``?`` operator are not used, setting the default value to `null <https://www.php.net/`null <https://www.php.net/null>`_>`_ is allowed, and makes the argument nullable.
 
 This works with single types, both classes and scalars; it works with union types but not with intersection types. 
 
@@ -68,8 +68,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
-  + `nullable <https://php-dictionary.readthedocs.io/en/latest/dictionary/nullable.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `Nullable <https://php-dictionary.readthedocs.io/en/latest/dictionary/nullable.ini.html>`_
 
 
 Suggestions

@@ -12003,6 +12003,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ClosureInConstant";
    analyzer[] = "Php/ConcatAndAddition";
    analyzer[] = "Php/EnumUsage";
+   analyzer[] = "Php/FilesFullPath";
    analyzer[] = "Php/FinalConstant";
    analyzer[] = "Php/MixedKeyword";
    analyzer[] = "Php/NamedArgumentAndVariadic";
@@ -12064,6 +12065,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ClosureInConstant'
      - 'Php/ConcatAndAddition'
      - 'Php/EnumUsage'
+     - 'Php/FilesFullPath'
      - 'Php/FinalConstant'
      - 'Php/MixedKeyword'
      - 'Php/NamedArgumentAndVariadic'

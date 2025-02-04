@@ -57,7 +57,7 @@ Some classes define the magic methods for magic property, but do not use them.
 Connex PHP features
 -------------------
 
-  + `magic-property <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-property.ini.html>`_
+  + `Magic Property <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-property.ini.html>`_
 
 
 Specs

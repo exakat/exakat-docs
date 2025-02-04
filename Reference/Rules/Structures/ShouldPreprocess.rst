@@ -50,8 +50,8 @@ By doing so, this will reduce the amount of work of PHP. This is a micro-optimis
 Connex PHP features
 -------------------
 
-  + `preprocess <https://php-dictionary.readthedocs.io/en/latest/dictionary/preprocess.ini.html>`_
-  + `readability <https://php-dictionary.readthedocs.io/en/latest/dictionary/readability.ini.html>`_
+  + `Preprocessing <https://php-dictionary.readthedocs.io/en/latest/dictionary/preprocess.ini.html>`_
+  + `Readability <https://php-dictionary.readthedocs.io/en/latest/dictionary/readability.ini.html>`_
 
 
 Suggestions

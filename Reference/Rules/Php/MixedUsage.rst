@@ -56,7 +56,7 @@ See also `Type declarations <https://www.php.net/manual/en/language.types.declar
 Connex PHP features
 -------------------
 
-  + `mixed <https://php-dictionary.readthedocs.io/en/latest/dictionary/mixed.ini.html>`_
+  + `Mixed <https://php-dictionary.readthedocs.io/en/latest/dictionary/mixed.ini.html>`_
 
 
 Specs

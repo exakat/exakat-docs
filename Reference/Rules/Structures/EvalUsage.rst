@@ -58,7 +58,7 @@ See also `eval <http://www.php.net/eval>`_ and `The Land Where PHP  Uses eval() 
 Connex PHP features
 -------------------
 
-  + `eval <https://php-dictionary.readthedocs.io/en/latest/dictionary/eval.ini.html>`_
+  + `Eval() <https://php-dictionary.readthedocs.io/en/latest/dictionary/eval.ini.html>`_
 
 
 Suggestions

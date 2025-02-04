@@ -57,7 +57,7 @@ See also  `Dynamically Access PHP Object Properties with $this <https://drupaliz
 Connex PHP features
 -------------------
 
-  + `dynamic-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-variable.ini.html>`_
+  + `Dynamic Variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-variable.ini.html>`_
 
 
 Suggestions

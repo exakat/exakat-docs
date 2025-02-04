@@ -49,7 +49,7 @@ The count applies to functions, methods, closures and arrow functions.
 Connex PHP features
 -------------------
 
-  + `inclusion <https://php-dictionary.readthedocs.io/en/latest/dictionary/inclusion.ini.html>`_
+  + `Inclusions <https://php-dictionary.readthedocs.io/en/latest/dictionary/inclusion.ini.html>`_
 
 
 Specs

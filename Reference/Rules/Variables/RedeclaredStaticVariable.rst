@@ -42,7 +42,7 @@ Redeclared Static Variable
 Connex PHP features
 -------------------
 
-  + `static-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-variable.ini.html>`_
+  + `Static Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-variable.ini.html>`_
 
 
 Suggestions

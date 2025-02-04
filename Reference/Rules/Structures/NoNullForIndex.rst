@@ -43,8 +43,8 @@ Avoid using ``null`` value as an index in an array. PHP actually casts it to the
 Connex PHP features
 -------------------
 
-  + `null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
-  + `index-array <https://php-dictionary.readthedocs.io/en/latest/dictionary/index-array.ini.html>`_
+  + `Null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
+  + `Index For Arrays <https://php-dictionary.readthedocs.io/en/latest/dictionary/index-array.ini.html>`_
 
 
 Suggestions

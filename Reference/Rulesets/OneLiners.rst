@@ -23,11 +23,11 @@ This ruleset focuses on reporting one liners, which makes using an IDE had.
 
 Total : 5 analysis
 
-* :ref:`coalesce`
-* :ref:`use-arrow-functions`
-* :ref:`throw-was-an-expression`
-* :ref:`use-nullsafe-operator`
-* :ref:`short-ternary`
+* :ref:`php-coalesce`
+* :ref:`functions-usearrowfunctions`
+* :ref:`php-throwwasanexpression`
+* :ref:`php-usenullsafeoperator`
+* :ref:`php-shortternary`
 
 Specs
 _____

@@ -60,7 +60,7 @@ This may skip the `parent <https://www.php.net/manual/en/language.oop5.paamayim-
 Connex PHP features
 -------------------
 
-  + `self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
+  + `Self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
   + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
   + `parent <https://php-dictionary.readthedocs.io/en/latest/dictionary/parent.ini.html>`_
 

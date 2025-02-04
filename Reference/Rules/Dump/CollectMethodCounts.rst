@@ -57,7 +57,7 @@ The count applies to classes, anonymous classes, traits and interfaces. They are
 Connex PHP features
 -------------------
 
-  + `inclusion <https://php-dictionary.readthedocs.io/en/latest/dictionary/inclusion.ini.html>`_
+  + `Inclusions <https://php-dictionary.readthedocs.io/en/latest/dictionary/inclusion.ini.html>`_
 
 
 Specs

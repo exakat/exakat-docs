@@ -60,7 +60,7 @@ The analyzed code has less than 10% of one of them : for consistency reasons, it
 Connex PHP features
 -------------------
 
-  + `date <https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html>`_
+  + `Dates <https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html>`_
 
 
 Specs

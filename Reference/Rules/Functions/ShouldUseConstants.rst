@@ -46,8 +46,8 @@ See also `Bitmask Constant Arguments in PHP <https://medium.com/@liamhammett/bit
 Connex PHP features
 -------------------
 
-  + `predefined-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/predefined-constant.ini.html>`_
-  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+  + `Predefined Constants <https://php-dictionary.readthedocs.io/en/latest/dictionary/predefined-constant.ini.html>`_
+  + `Constants <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
 
 
 Suggestions

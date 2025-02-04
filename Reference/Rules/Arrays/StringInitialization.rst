@@ -61,7 +61,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `initialisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/initialisation.ini.html>`_
+  + `Initialisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/initialisation.ini.html>`_
 
 
 Suggestions

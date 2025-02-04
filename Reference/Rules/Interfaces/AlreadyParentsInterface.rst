@@ -72,7 +72,7 @@ Connex PHP features
 -------------------
 
   + `implements <https://php-dictionary.readthedocs.io/en/latest/dictionary/implements.ini.html>`_
-  + `inheritance <https://php-dictionary.readthedocs.io/en/latest/dictionary/inheritance.ini.html>`_
+  + `Inheritance <https://php-dictionary.readthedocs.io/en/latest/dictionary/inheritance.ini.html>`_
 
 
 Suggestions

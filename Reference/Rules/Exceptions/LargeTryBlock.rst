@@ -71,7 +71,7 @@ See also `Exceptions <https://www.php.net/manual/en/language.exceptions.php>`_.
 Connex PHP features
 -------------------
 
-  + `try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try-catch.ini.html>`_
+  + `Try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try-catch.ini.html>`_
 
 
 Suggestions

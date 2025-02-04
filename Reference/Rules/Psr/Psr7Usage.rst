@@ -62,7 +62,7 @@ See also `PSR-7 : HTTP message interfaces <http://www.php-fig.org/psr/psr-7/>`_.
 Connex PHP features
 -------------------
 
-  + `psr <https://php-dictionary.readthedocs.io/en/latest/dictionary/psr.ini.html>`_
+  + `PHP Standards Recommendations (PSR) <https://php-dictionary.readthedocs.io/en/latest/dictionary/psr.ini.html>`_
 
 
 Specs

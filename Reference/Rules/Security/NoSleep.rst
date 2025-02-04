@@ -53,7 +53,7 @@ Connex PHP features
 -------------------
 
   + `sleep <https://php-dictionary.readthedocs.io/en/latest/dictionary/sleep.ini.html>`_
-  + `cli <https://php-dictionary.readthedocs.io/en/latest/dictionary/cli.ini.html>`_
+  + `Command Line Interface (CLI) <https://php-dictionary.readthedocs.io/en/latest/dictionary/cli.ini.html>`_
 
 
 Suggestions

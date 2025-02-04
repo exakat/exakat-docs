@@ -47,7 +47,7 @@ This rule adds DEFINITION link between class constant definitions and their usag
 Connex PHP features
 -------------------
 
-  + `class-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html>`_
+  + `Static Constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html>`_
 
 
 Specs

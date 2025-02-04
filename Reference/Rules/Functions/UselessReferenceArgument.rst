@@ -54,8 +54,8 @@ See also `Objects and references <https://www.php.net/manual/en/language.oop5.re
 Connex PHP features
 -------------------
 
-  + `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
-  + `argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
+  + `References <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+  + `Argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
 
 
 Suggestions

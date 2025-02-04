@@ -52,8 +52,8 @@ The following functions are now native functions in PHP 8.3. It is compulsory to
 Connex PHP features
 -------------------
 
-  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
-  + `native <https://php-dictionary.readthedocs.io/en/latest/dictionary/native.ini.html>`_
+  + `Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `Native <https://php-dictionary.readthedocs.io/en/latest/dictionary/native.ini.html>`_
 
 
 Suggestions

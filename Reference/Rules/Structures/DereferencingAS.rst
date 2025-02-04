@@ -44,7 +44,7 @@ This was added in PHP 5.5. There is no need anymore for an intermediate variable
 Connex PHP features
 -------------------
 
-  + `dereferencing <https://php-dictionary.readthedocs.io/en/latest/dictionary/dereferencing.ini.html>`_
+  + `Dereferencing <https://php-dictionary.readthedocs.io/en/latest/dictionary/dereferencing.ini.html>`_
 
 
 Specs

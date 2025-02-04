@@ -82,7 +82,7 @@ See also `Assignation Operators <https://www.php.net/manual/en/language.operator
 Connex PHP features
 -------------------
 
-  + `short-assignation <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-assignation.ini.html>`_
+  + `Short Assignations <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-assignation.ini.html>`_
 
 
 Suggestions

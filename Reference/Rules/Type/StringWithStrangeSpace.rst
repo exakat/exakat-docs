@@ -53,7 +53,7 @@ See also `Unicode spaces <https://www.cs.tut.fi/~jkorpela/chars/spaces.html>`_ a
 Connex PHP features
 -------------------
 
-  + `non-breakable-space <https://php-dictionary.readthedocs.io/en/latest/dictionary/non-breakable-space.ini.html>`_
+  + `Non Breakable Spaces <https://php-dictionary.readthedocs.io/en/latest/dictionary/non-breakable-space.ini.html>`_
 
 
 Suggestions

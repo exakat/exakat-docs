@@ -48,7 +48,7 @@ See also `Spread Operator in Array Expression <https://wiki.php.net/rfc/spread_o
 Connex PHP features
 -------------------
 
-  + `variadic <https://php-dictionary.readthedocs.io/en/latest/dictionary/variadic.ini.html>`_
+  + `Variadic <https://php-dictionary.readthedocs.io/en/latest/dictionary/variadic.ini.html>`_
 
 
 Specs

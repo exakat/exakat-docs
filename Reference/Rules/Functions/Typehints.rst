@@ -43,7 +43,7 @@ See also `Type declarations <https://www.php.net/manual/en/functions.arguments.p
 Connex PHP features
 -------------------
 
-  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
 
 Specs

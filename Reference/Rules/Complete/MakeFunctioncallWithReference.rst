@@ -46,7 +46,7 @@ This doesn't work on dynamic calls nor methods yet.
 Connex PHP features
 -------------------
 
-  + `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+  + `References <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
 
 
 Specs

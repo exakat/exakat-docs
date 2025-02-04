@@ -53,7 +53,7 @@ See also `Use of Hardcoded IPv4 Addresses <https://docs.microsoft.com/en-us/wind
 Connex PHP features
 -------------------
 
-  + `ip <https://php-dictionary.readthedocs.io/en/latest/dictionary/ip.ini.html>`_
+  + `IP <https://php-dictionary.readthedocs.io/en/latest/dictionary/ip.ini.html>`_
 
 
 Suggestions

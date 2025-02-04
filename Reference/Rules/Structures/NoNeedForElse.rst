@@ -72,7 +72,7 @@ See also `Object Calisthenics, rule # 2 <http://williamdurand.fr/2013/06/03/obje
 Connex PHP features
 -------------------
 
-  + `if-then <https://php-dictionary.readthedocs.io/en/latest/dictionary/if-then.ini.html>`_
+  + `If Then Else <https://php-dictionary.readthedocs.io/en/latest/dictionary/if-then.ini.html>`_
 
 
 Suggestions

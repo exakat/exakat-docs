@@ -91,7 +91,7 @@ See also :ref:`Max Level Of Nesting <max-level-of-nesting>`.
 Connex PHP features
 -------------------
 
-  + `indentation <https://php-dictionary.readthedocs.io/en/latest/dictionary/indentation.ini.html>`_
+  + `Indentation <https://php-dictionary.readthedocs.io/en/latest/dictionary/indentation.ini.html>`_
 
 
 Suggestions

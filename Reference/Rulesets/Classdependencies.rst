@@ -23,7 +23,7 @@ This ruleset list all dependencies between classes : heritage and type.
 
 Total : 1 analysis
 
-* :ref:`collect-classes-dependencies`
+* :ref:`dump-collectclassesdependencies`
 
 Specs
 _____

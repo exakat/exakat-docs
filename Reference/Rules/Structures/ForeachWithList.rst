@@ -52,7 +52,7 @@ See also `The list function & practical uses of array destructuring in PHP <http
 Connex PHP features
 -------------------
 
-  + `foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
+  + `Foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
 
 
 Specs

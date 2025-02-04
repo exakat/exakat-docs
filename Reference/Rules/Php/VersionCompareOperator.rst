@@ -55,7 +55,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `validation <https://php-dictionary.readthedocs.io/en/latest/dictionary/validation.ini.html>`_
+  + `Validation <https://php-dictionary.readthedocs.io/en/latest/dictionary/validation.ini.html>`_
 
 
 Suggestions

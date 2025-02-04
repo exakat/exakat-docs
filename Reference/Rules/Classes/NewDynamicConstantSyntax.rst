@@ -44,7 +44,7 @@ PHP has a dedicated syntax to access dynamically class constant values. This was
 Connex PHP features
 -------------------
 
-  + `class-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html>`_
+  + `Static Constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html>`_
 
 
 Specs

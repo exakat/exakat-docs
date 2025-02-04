@@ -58,7 +58,7 @@ See also openssl_encrypt() and `OpenSSL [PHP manual] <https://www.php.net/manual
 Connex PHP features
 -------------------
 
-  + `openssl <https://php-dictionary.readthedocs.io/en/latest/dictionary/openssl.ini.html>`_
+  + `OpenSSL <https://php-dictionary.readthedocs.io/en/latest/dictionary/openssl.ini.html>`_
 
 
 Specs

@@ -56,7 +56,7 @@ The same applies to `parse_url() <https://www.php.net/parse_url>`_, which return
 Connex PHP features
 -------------------
 
-  + `path <https://php-dictionary.readthedocs.io/en/latest/dictionary/path.ini.html>`_
+  + `Path <https://php-dictionary.readthedocs.io/en/latest/dictionary/path.ini.html>`_
 
 
 Suggestions

@@ -52,7 +52,7 @@ Multiple default happens often with large `switch() <https://www.php.net/manual/
 Connex PHP features
 -------------------
 
-  + `switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
+  + `Switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
 
 
 Suggestions

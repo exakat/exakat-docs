@@ -48,7 +48,7 @@ This is a micro-optimisation. However, its usage is so widespread, including wit
 Connex PHP features
 -------------------
 
-  + `increment <https://php-dictionary.readthedocs.io/en/latest/dictionary/increment.ini.html>`_
+  + `Increment <https://php-dictionary.readthedocs.io/en/latest/dictionary/increment.ini.html>`_
 
 
 Suggestions

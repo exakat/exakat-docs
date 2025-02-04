@@ -47,7 +47,7 @@ Note that these functions may be still usable : they generate warning that help 
 Connex PHP features
 -------------------
 
-  + `crypto <https://php-dictionary.readthedocs.io/en/latest/dictionary/crypto.ini.html>`_
+  + `Cryptography <https://php-dictionary.readthedocs.io/en/latest/dictionary/crypto.ini.html>`_
 
 
 Suggestions

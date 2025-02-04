@@ -35,7 +35,7 @@ When delegating, ``yield from`` uses the keys that are generated with ``yield``,
 
 The trap is that each ``yield from`` reset the index generation and start again with 0. Coupled with `iterator_to_array() <https://www.php.net/iterator_to_array>`_, this means that the final generated array may lack some values, while a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loop would yield all of them.
 
-Thanks to `Holger Woltersdorf <https://twitter.com/hollodotme>`_ for `pointing this <https://twitter.com/hollodotme/status/1057909890566537217>`_.
+Thanks to `Holger Woltersdorf <https://twitter.`com <https://www.php.net/com>`_/hollodotme>`_ for `pointing this <https://twitter.`com <https://www.php.net/com>`_/hollodotme/status/1057909890566537217>`_.
 
 .. code-block:: php
    
@@ -93,8 +93,8 @@ See also `Generator syntax <https://www.php.net/manual/en/language.generators.sy
 Connex PHP features
 -------------------
 
-  + `yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
-  + `key <https://php-dictionary.readthedocs.io/en/latest/dictionary/key.ini.html>`_
+  + `Yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
+  + `Index For Arrays <https://php-dictionary.readthedocs.io/en/latest/dictionary/key.ini.html>`_
 
 
 Suggestions

@@ -43,7 +43,7 @@ A high number of imports may signal a class that is doing to much.
 Connex PHP features
 -------------------
 
-  + `use <https://php-dictionary.readthedocs.io/en/latest/dictionary/use.ini.html>`_
+  + `Use <https://php-dictionary.readthedocs.io/en/latest/dictionary/use.ini.html>`_
 
 
 Specs

@@ -65,7 +65,7 @@ See also `Magic methods <https://www.php.net/manual/en/language.oop5.magic.php>`
 Connex PHP features
 -------------------
 
-  + `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
+  + `Magic Methods <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
 
 
 Specs

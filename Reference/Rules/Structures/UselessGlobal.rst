@@ -49,15 +49,15 @@ They are : $GLOBALS, $_SERVER, `$_GET <https://www.php.net/manual/en/reserved.va
 Connex PHP features
 -------------------
 
-  + `super-global <https://php-dictionary.readthedocs.io/en/latest/dictionary/super-global.ini.html>`_
-  + `$_get <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24_get.ini.html>`_
-  + `$_post <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24_post.ini.html>`_
-  + `$_server <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24_server.ini.html>`_
-  + `$globals <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24globals.ini.html>`_
-  + `$_files <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24_files.ini.html>`_
-  + `$_cookie <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24_cookie.ini.html>`_
-  + `$_request <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24_request.ini.html>`_
-  + `$_env <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24_env.ini.html>`_
+  + `Superglobal Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/super-global.ini.html>`_
+  + `$_GET <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24_get.ini.html>`_
+  + `$_POST <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24_post.ini.html>`_
+  + `$_SERVER <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24_server.ini.html>`_
+  + `$GLOBALS <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24globals.ini.html>`_
+  + `$_FILES <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24_files.ini.html>`_
+  + `$_COOKIE <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24_cookie.ini.html>`_
+  + `$_REQUEST <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24_request.ini.html>`_
+  + `$_ENV <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24_env.ini.html>`_
 
 
 Suggestions

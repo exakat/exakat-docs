@@ -64,7 +64,7 @@ This analysis reports any situation where more than 3 PHP native calls are neste
 Connex PHP features
 -------------------
 
-  + `native <https://php-dictionary.readthedocs.io/en/latest/dictionary/native.ini.html>`_
+  + `Native <https://php-dictionary.readthedocs.io/en/latest/dictionary/native.ini.html>`_
 
 
 Suggestions

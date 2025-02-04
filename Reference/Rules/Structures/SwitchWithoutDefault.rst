@@ -79,10 +79,10 @@ See also `UnhandledMatchError <https://www.php.net/manual/en/class.unhandledmatc
 Connex PHP features
 -------------------
 
-  + `match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
-  + `switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
-  + `case <https://php-dictionary.readthedocs.io/en/latest/dictionary/case.ini.html>`_
-  + `default <https://php-dictionary.readthedocs.io/en/latest/dictionary/default.ini.html>`_
+  + `Match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
+  + `Switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
+  + `Case <https://php-dictionary.readthedocs.io/en/latest/dictionary/case.ini.html>`_
+  + `Default <https://php-dictionary.readthedocs.io/en/latest/dictionary/default.ini.html>`_
 
 
 Suggestions

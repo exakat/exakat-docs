@@ -40,7 +40,7 @@ All format used in the code with `printf() <https://www.php.net/printf>`_, `vpri
 Connex PHP features
 -------------------
 
-  + `printf <https://php-dictionary.readthedocs.io/en/latest/dictionary/printf.ini.html>`_
+  + `sprintf <https://php-dictionary.readthedocs.io/en/latest/dictionary/printf.ini.html>`_
 
 
 Specs

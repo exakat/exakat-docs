@@ -59,7 +59,7 @@ See also `Using namespaces: fallback to global function/constant <https://www.ph
 Connex PHP features
 -------------------
 
-  + `global-space <https://php-dictionary.readthedocs.io/en/latest/dictionary/global-space.ini.html>`_
+  + `Global Space <https://php-dictionary.readthedocs.io/en/latest/dictionary/global-space.ini.html>`_
 
 
 Suggestions

@@ -49,7 +49,7 @@ See also `unset <https://www.php.net/unset>`_.
 Connex PHP features
 -------------------
 
-  + `unset <https://php-dictionary.readthedocs.io/en/latest/dictionary/unset.ini.html>`_
+  + `unset() <https://php-dictionary.readthedocs.io/en/latest/dictionary/unset.ini.html>`_
 
 
 Suggestions

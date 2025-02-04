@@ -37,7 +37,7 @@ Candidates needs two characteristics :
 Such literal is used as a token, to handle a state. It is set, then read later. Then, a constant, may it be global or class, is important, so that the relationship between the setting and the reading is maintained throughout the life of the application.
 
 Once the literal is converted into a constant, the value of the literal is not important. It could even be turned into an object. 
-Not all literals that are set then read may be turned into a constant : there might be overlap in features by frequently used values (such as true, false, 0, 1, ) or simple confusion with a local literal. Also, literals that are used for their value (like 1 in a `$a + 1` expression) are not good candidates.
+Not all literals that are set then read may be turned into a constant : there might be overlap in features by frequently used values (such as `true <https://www.php.net/true>`_, `false <https://www.php.net/false>`_, 0, 1, ) or simple confusion with a local literal. Also, literals that are used for their value (like 1 in a `$a + 1` expression) are not good candidates.
 
 .. code-block:: php
    
@@ -74,7 +74,7 @@ Not all literals that are set then read may be turned into a constant : there mi
 Connex PHP features
 -------------------
 
-  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+  + `Constants <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
 
 
 Suggestions

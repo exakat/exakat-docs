@@ -29,7 +29,7 @@ Avoid array_push()
 
 `array_push() <https://www.php.net/array_push>`_ is slower than the append ``[]`` operator.
 
-This is also true when the append operator is called several times, while `array_push() <https://www.php.net/array_push>`_ is be called only once, with an arbitrary number of argument. 
+This is also `true <https://www.php.net/true>`_ when the append operator is called several times, while `array_push() <https://www.php.net/array_push>`_ is be called only once, with an arbitrary number of argument. 
 
 Using count after the push is also faster than collecting `array_push() <https://www.php.net/array_push>`_ return value. 
 It is a micro-optimisation.

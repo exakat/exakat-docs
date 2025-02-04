@@ -49,7 +49,7 @@ This rule reports files that only contain global code.
 Connex PHP features
 -------------------
 
-  + `global-code <https://php-dictionary.readthedocs.io/en/latest/dictionary/global-code.ini.html>`_
+  + `Global Code <https://php-dictionary.readthedocs.io/en/latest/dictionary/global-code.ini.html>`_
 
 
 Specs

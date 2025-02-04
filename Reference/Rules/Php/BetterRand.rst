@@ -66,7 +66,7 @@ See also `CSPRNG <https://www.php.net/manual/en/book.csprng.php>`_ and `OpenSSL 
 Connex PHP features
 -------------------
 
-  + `random <https://php-dictionary.readthedocs.io/en/latest/dictionary/random.ini.html>`_
+  + `Random <https://php-dictionary.readthedocs.io/en/latest/dictionary/random.ini.html>`_
 
 
 Suggestions

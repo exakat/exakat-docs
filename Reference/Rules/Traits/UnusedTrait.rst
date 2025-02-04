@@ -51,7 +51,7 @@ Those traits are not used in any class or trait. They are probably dead code, as
 Connex PHP features
 -------------------
 
-  + `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
+  + `Trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
 
 
 Suggestions

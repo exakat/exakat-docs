@@ -55,7 +55,7 @@ See also `PSR-16 : Common Interface for Caching Libraries <http://www.php-fig.or
 Connex PHP features
 -------------------
 
-  + `psr <https://php-dictionary.readthedocs.io/en/latest/dictionary/psr.ini.html>`_
+  + `PHP Standards Recommendations (PSR) <https://php-dictionary.readthedocs.io/en/latest/dictionary/psr.ini.html>`_
 
 
 Specs

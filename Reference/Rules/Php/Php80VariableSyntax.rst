@@ -62,7 +62,7 @@ See also `PHP RFC: Variable Syntax Tweaks <https://wiki.php.net/rfc/variable_syn
 Connex PHP features
 -------------------
 
-  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
 
 
 Specs

@@ -54,7 +54,7 @@ See also `XML-RPC <http://www.php.net/manual/en/book.xmlrpc.php>`_.
 Connex PHP features
 -------------------
 
-  + `rpc <https://php-dictionary.readthedocs.io/en/latest/dictionary/rpc.ini.html>`_
+  + `Remote Procedure Call (RPC) <https://php-dictionary.readthedocs.io/en/latest/dictionary/rpc.ini.html>`_
 
 
 Specs

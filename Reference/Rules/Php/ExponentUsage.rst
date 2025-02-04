@@ -45,7 +45,7 @@ See also `Arithmetic Operators <https://www.php.net/manual/en/language.operators
 Connex PHP features
 -------------------
 
-  + `exponent <https://php-dictionary.readthedocs.io/en/latest/dictionary/exponent.ini.html>`_
+  + `Exponent <https://php-dictionary.readthedocs.io/en/latest/dictionary/exponent.ini.html>`_
 
 
 Suggestions

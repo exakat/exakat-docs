@@ -52,7 +52,7 @@ This is a coding convention.
 Connex PHP features
 -------------------
 
-  + `trailing-comma <https://php-dictionary.readthedocs.io/en/latest/dictionary/trailing-comma.ini.html>`_
+  + `Trailing Comma <https://php-dictionary.readthedocs.io/en/latest/dictionary/trailing-comma.ini.html>`_
 
 
 Suggestions

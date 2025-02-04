@@ -59,7 +59,7 @@ See also `Deprecated features in PHP 5.4.x <https://www.php.net/manual/en/migrat
 Connex PHP features
 -------------------
 
-  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
 
 
 Specs

@@ -44,8 +44,8 @@ Almost every PHP extension defines extra functions. Nowadays, they are prefixed,
 Connex PHP features
 -------------------
 
-  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
-  + `extension <https://php-dictionary.readthedocs.io/en/latest/dictionary/extension.ini.html>`_
+  + `Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `Extensions <https://php-dictionary.readthedocs.io/en/latest/dictionary/extension.ini.html>`_
 
 
 Specs

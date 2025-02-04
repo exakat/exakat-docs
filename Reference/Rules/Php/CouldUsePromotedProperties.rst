@@ -53,7 +53,7 @@ See also `PHP 8: Constructor property promotion <https://stitcher.io/blog/constr
 Connex PHP features
 -------------------
 
-  + `promoted-property <https://php-dictionary.readthedocs.io/en/latest/dictionary/promoted-property.ini.html>`_
+  + `Promoted Properties <https://php-dictionary.readthedocs.io/en/latest/dictionary/promoted-property.ini.html>`_
 
 
 Suggestions

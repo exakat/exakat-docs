@@ -45,8 +45,8 @@ See also `pg_last_error <https://www.php.net/manual/en/function.pg-last-error.ph
 Connex PHP features
 -------------------
 
-  + `die <https://php-dictionary.readthedocs.io/en/latest/dictionary/die.ini.html>`_
-  + `exit <https://php-dictionary.readthedocs.io/en/latest/dictionary/exit.ini.html>`_
+  + `Exit <https://php-dictionary.readthedocs.io/en/latest/dictionary/die.ini.html>`_
+  + `Exit <https://php-dictionary.readthedocs.io/en/latest/dictionary/exit.ini.html>`_
 
 
 Suggestions

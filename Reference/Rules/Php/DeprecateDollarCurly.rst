@@ -50,8 +50,8 @@ See also https://wiki.php.net/rfc/deprecate_dollar_brace_string_interpolation.
 Connex PHP features
 -------------------
 
-  + `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
-  + `string-interpolation <https://php-dictionary.readthedocs.io/en/latest/dictionary/string-interpolation.ini.html>`_
+  + `String <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+  + `String Interpolation <https://php-dictionary.readthedocs.io/en/latest/dictionary/string-interpolation.ini.html>`_
 
 
 Suggestions

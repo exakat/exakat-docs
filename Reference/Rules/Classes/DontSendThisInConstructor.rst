@@ -29,7 +29,7 @@ Don't Send $this In Constructor
 
 Don't use ``$this`` as an argument while in the `__construct() <https://www.php.net/manual/en/language.oop5.decon.php>`_. Until the constructor is finished, the object is not finished, and may be in an unstable state. Providing it to another code may lead to `error <https://www.php.net/error>`_. 
 
-This is true when the receiving structure puts the incoming object immediately to work, and don't store it for later use.
+This is `true <https://www.php.net/true>`_ when the receiving structure puts the incoming object immediately to work, and don't store it for later use.
 
 .. code-block:: php
    

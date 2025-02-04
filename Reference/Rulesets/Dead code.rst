@@ -23,39 +23,39 @@ This ruleset focuses on dead code : expressions or even structures that are writ
 
 Total : 33 analysis
 
-* :ref:`empty-traits`
-* :ref:`unused-use`
-* :ref:`unused-private-properties`
-* :ref:`unused-private-methods`
-* :ref:`unused-functions`
-* :ref:`unused-constants`
-* :ref:`unreachable-code`
-* :ref:`empty-instructions`
-* :ref:`unused-methods`
-* :ref:`unused-classes`
-* :ref:`locally-unused-property`
-* :ref:`unresolved-instanceof`
-* :ref:`unthrown-exception`
-* :ref:`unused-label`
-* :ref:`unused-interfaces`
-* :ref:`unresolved-catch`
-* :ref:`unset-in-foreach`
-* :ref:`empty-namespace`
-* :ref:`can't-extend-final-class`
-* :ref:`exception-order`
-* :ref:`undefined-caught-exceptions`
-* :ref:`unused-protected-methods`
-* :ref:`unused-returned-value`
-* :ref:`rethrown-exceptions`
-* :ref:`unused-inherited-variable-in-closure`
-* :ref:`self-using-trait`
-* :ref:`useless-type-check`
-* :ref:`unreachable-method`
-* :ref:`identical-elseif`
-* :ref:`use-variable-created-inside-loop`
-* :ref:`unused-enumeration-case`
-* :ref:`static-variable-in-namespace`
-* :ref:`could-drop-variable`
+* :ref:`traits-emptytrait`
+* :ref:`namespaces-unuseduse`
+* :ref:`classes-unusedprivateproperty`
+* :ref:`classes-unusedprivatemethod`
+* :ref:`functions-unusedfunctions`
+* :ref:`constants-unusedconstants`
+* :ref:`structures-unreachablecode`
+* :ref:`structures-emptylines`
+* :ref:`classes-unusedmethods`
+* :ref:`classes-unusedclass`
+* :ref:`classes-locallyunusedproperty`
+* :ref:`classes-unresolvedinstanceof`
+* :ref:`exceptions-unthrown`
+* :ref:`structures-unusedlabel`
+* :ref:`interfaces-unusedinterfaces`
+* :ref:`classes-unresolvedcatch`
+* :ref:`structures-unsetinforeach`
+* :ref:`namespaces-emptynamespace`
+* :ref:`classes-cantextendfinal`
+* :ref:`exceptions-alreadycaught`
+* :ref:`exceptions-caughtbutnotthrown`
+* :ref:`classes-unusedprotectedmethods`
+* :ref:`functions-unusedreturnedvalue`
+* :ref:`exceptions-rethrown`
+* :ref:`functions-unusedinheritedvariable`
+* :ref:`traits-selfusingtrait`
+* :ref:`functions-uselesstypecheck`
+* :ref:`classes-unreachablemethod`
+* :ref:`structures-identicalelseif`
+* :ref:`structures-usevariableinsideloop`
+* :ref:`enums-unusedenumcase`
+* :ref:`variables-staticvariableinnamespace`
+* :ref:`exceptions-coulddropvariable`
 
 Specs
 _____

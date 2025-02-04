@@ -44,7 +44,7 @@ Usage of short syntax version of `list() <https://www.php.net/list>`_.
 Connex PHP features
 -------------------
 
-  + `short-syntax <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-syntax.ini.html>`_
+  + `Short Syntax <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-syntax.ini.html>`_
 
 
 Specs

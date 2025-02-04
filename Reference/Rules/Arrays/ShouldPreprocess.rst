@@ -57,7 +57,7 @@ If the array has to be completed rather than created, it is also faster to use +
 Connex PHP features
 -------------------
 
-  + `preprocess <https://php-dictionary.readthedocs.io/en/latest/dictionary/preprocess.ini.html>`_
+  + `Preprocessing <https://php-dictionary.readthedocs.io/en/latest/dictionary/preprocess.ini.html>`_
 
 
 Suggestions

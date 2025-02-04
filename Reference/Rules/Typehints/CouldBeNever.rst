@@ -42,7 +42,7 @@ Mark return types that can be set to ``never``.
 Connex PHP features
 -------------------
 
-  + `never <https://php-dictionary.readthedocs.io/en/latest/dictionary/never.ini.html>`_
+  + `Never Type <https://php-dictionary.readthedocs.io/en/latest/dictionary/never.ini.html>`_
 
 
 Suggestions

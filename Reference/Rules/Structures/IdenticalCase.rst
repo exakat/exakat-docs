@@ -54,7 +54,7 @@ This can happen by mistake or design. They may be merged together.
 Connex PHP features
 -------------------
 
-  + `dry <https://php-dictionary.readthedocs.io/en/latest/dictionary/dry.ini.html>`_
+  + `Don't Repeat Yourself (DRY) <https://php-dictionary.readthedocs.io/en/latest/dictionary/dry.ini.html>`_
 
 
 Suggestions

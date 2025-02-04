@@ -54,7 +54,7 @@ List of all `static <https://www.php.net/manual/en/language.oop5.static.php>`_ p
 Connex PHP features
 -------------------
 
-  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+  + `Properties <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
 
 
 Specs

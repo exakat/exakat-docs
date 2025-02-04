@@ -56,7 +56,7 @@ See also `Handling file uploads <https://www.php.net/manual/en/features.file-upl
 Connex PHP features
 -------------------
 
-  + `file-upload <https://php-dictionary.readthedocs.io/en/latest/dictionary/file-upload.ini.html>`_
+  + `File Upload <https://php-dictionary.readthedocs.io/en/latest/dictionary/file-upload.ini.html>`_
 
 
 Specs

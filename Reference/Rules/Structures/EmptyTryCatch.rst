@@ -52,7 +52,7 @@ See also `Empty Catch Clause <http://wiki.c2.com/?EmptyCatchClause>`_.
 Connex PHP features
 -------------------
 
-  + `try <https://php-dictionary.readthedocs.io/en/latest/dictionary/try.ini.html>`_
+  + `Try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try.ini.html>`_
 
 
 Suggestions

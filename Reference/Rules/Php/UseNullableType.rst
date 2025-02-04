@@ -29,9 +29,9 @@ Use Nullable Type
 
 The code uses nullable type, available since PHP 7.1.
 
-Nullable Types are an option to type hint : they allow the passing value to be null, or another type. 
+Nullable Types are an option to type hint : they allow the passing value to be `null <https://www.php.net/`null <https://www.php.net/null>`_>`_, or another type. 
 
-According to the authors of the feature : 'It is common in many programming languages including PHP to allow a variable to be of some type or null. This null often indicates an `error <https://www.php.net/error>`_ or lack of something to return.'
+According to the authors of the feature : 'It is common in many programming languages including PHP to allow a variable to be of some type or `null <https://www.php.net/`null <https://www.php.net/null>`_>`_. This `null <https://www.php.net/`null <https://www.php.net/null>`_>`_ often indicates an `error <https://www.php.net/error>`_ or lack of something to return.'
 
 .. code-block:: php
    
@@ -48,7 +48,7 @@ See also `Type declarations <https://www.php.net/manual/en/functions.arguments.p
 Connex PHP features
 -------------------
 
-  + `nullable <https://php-dictionary.readthedocs.io/en/latest/dictionary/nullable.ini.html>`_
+  + `Nullable <https://php-dictionary.readthedocs.io/en/latest/dictionary/nullable.ini.html>`_
 
 
 Specs

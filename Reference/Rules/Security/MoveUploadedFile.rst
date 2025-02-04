@@ -48,7 +48,7 @@ See also `move_uploaded_file <https://www.php.net/move_uploaded_file>`_ and `Upl
 Connex PHP features
 -------------------
 
-  + `file-upload <https://php-dictionary.readthedocs.io/en/latest/dictionary/file-upload.ini.html>`_
+  + `File Upload <https://php-dictionary.readthedocs.io/en/latest/dictionary/file-upload.ini.html>`_
 
 
 Suggestions

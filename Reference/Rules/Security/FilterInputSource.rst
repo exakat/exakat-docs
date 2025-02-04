@@ -32,7 +32,7 @@ The `filter_input() <https://www.php.net/filter_input>`_ and `filter_input_array
 The main feature of `filter_input() <https://www.php.net/filter_input>`_ is that it is already filtered. The main drawback is that ``FILTER_FLAG_NONE`` is the ``none`` filter, and that default configuration is `FILTER_UNSAFE_RAW`.
 
 The filter extension keeps access to the incoming data, even after the super globals, such as ``$_GET``, are unset.
-Thanks to `Frederic Bouchery <https://twitter.com/FredBouchery/>`_ for reporting this `special case <https://twitter.com/FredBouchery/status/1049297213598457857>`_.
+Thanks to `Frederic Bouchery <https://twitter.`com <https://www.php.net/com>`_/FredBouchery/>`_ for reporting this `special case <https://twitter.`com <https://www.php.net/com>`_/FredBouchery/status/1049297213598457857>`_.
 
 .. code-block:: php
    
@@ -54,7 +54,7 @@ See also `Data filtering <https://www.php.net/manual/en/book.filter.php>`_.
 Connex PHP features
 -------------------
 
-  + `validation <https://php-dictionary.readthedocs.io/en/latest/dictionary/validation.ini.html>`_
+  + `Validation <https://php-dictionary.readthedocs.io/en/latest/dictionary/validation.ini.html>`_
 
 
 Suggestions

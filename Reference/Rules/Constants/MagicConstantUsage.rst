@@ -53,7 +53,7 @@ See also `Magic Constants <https://www.php.net/manual/en/language.constants.pred
 Connex PHP features
 -------------------
 
-  + `magic-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-constant.ini.html>`_
+  + `Magic Constants <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-constant.ini.html>`_
 
 
 Specs

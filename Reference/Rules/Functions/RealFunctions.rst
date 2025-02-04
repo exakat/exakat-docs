@@ -56,7 +56,7 @@ Function keywords, that are not in a class, trait, interface, nor a `closure <ht
 Connex PHP features
 -------------------
 
-  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
 
 
 Specs

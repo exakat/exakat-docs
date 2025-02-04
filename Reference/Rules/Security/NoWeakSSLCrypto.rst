@@ -49,7 +49,7 @@ See also `Insecure Transportation Security Protocol Supported (TLS 1.0) <https:/
 Connex PHP features
 -------------------
 
-  + `ssl <https://php-dictionary.readthedocs.io/en/latest/dictionary/ssl.ini.html>`_
+  + `SSL <https://php-dictionary.readthedocs.io/en/latest/dictionary/ssl.ini.html>`_
 
 
 Suggestions

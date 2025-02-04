@@ -29,7 +29,7 @@ Dereferencing Levels
 
 This is the counts of level of dereferencing. 
 
-Every time a `->` object operator or `?->` null-safe object operator are used, this count as one level of dereferencing. 
+Every time a `->` object operator or `?->` `null <https://www.php.net/`null <https://www.php.net/null>`_>`_-safe object operator are used, this count as one level of dereferencing. 
 
 Fluent interfaces tends to have very high levels of deferencing.
 
@@ -51,7 +51,7 @@ Fluent interfaces tends to have very high levels of deferencing.
 Connex PHP features
 -------------------
 
-  + `dereferencing <https://php-dictionary.readthedocs.io/en/latest/dictionary/dereferencing.ini.html>`_
+  + `Dereferencing <https://php-dictionary.readthedocs.io/en/latest/dictionary/dereferencing.ini.html>`_
 
 
 Specs

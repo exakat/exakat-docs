@@ -59,9 +59,9 @@ See also `Putting glob to the test <https://www.phparch.com/2010/04/putting-glob
 Connex PHP features
 -------------------
 
-  + `glob <https://php-dictionary.readthedocs.io/en/latest/dictionary/glob.ini.html>`_
-  + `directoryiterator <https://php-dictionary.readthedocs.io/en/latest/dictionary/directoryiterator.ini.html>`_
-  + `filesystemiterator <https://php-dictionary.readthedocs.io/en/latest/dictionary/filesystemiterator.ini.html>`_
+  + `glob() <https://php-dictionary.readthedocs.io/en/latest/dictionary/glob.ini.html>`_
+  + `DirectoryIterator <https://php-dictionary.readthedocs.io/en/latest/dictionary/directoryiterator.ini.html>`_
+  + `FileSystemIterator <https://php-dictionary.readthedocs.io/en/latest/dictionary/filesystemiterator.ini.html>`_
 
 
 Suggestions

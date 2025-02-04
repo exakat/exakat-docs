@@ -40,7 +40,7 @@ Currently, the following frameworks are detected, based on the classes that are 
 Connex PHP features
 -------------------
 
-  + `test <https://php-dictionary.readthedocs.io/en/latest/dictionary/test.ini.html>`_
+  + `Test <https://php-dictionary.readthedocs.io/en/latest/dictionary/test.ini.html>`_
 
 
 Specs

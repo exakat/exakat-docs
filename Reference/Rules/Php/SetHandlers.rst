@@ -80,7 +80,7 @@ See also `set_error_handler <http://www.php.net/set_error_handler>`_.
 Connex PHP features
 -------------------
 
-  + `handler <https://php-dictionary.readthedocs.io/en/latest/dictionary/handler.ini.html>`_
+  + `PHP Handlers <https://php-dictionary.readthedocs.io/en/latest/dictionary/handler.ini.html>`_
 
 
 Specs

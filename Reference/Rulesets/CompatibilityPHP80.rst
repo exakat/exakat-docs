@@ -21,53 +21,54 @@ CompatibilityPHP80
 
 This ruleset centralizes all analysis for the migration from PHP 7.4 to 8.0.
 
-Total : 45 analysis
+Total : 46 analysis
 
-* :ref:`old-style-constructor`
-* :ref:`wrong-optional-parameter`
-* :ref:`php-8.0-removed-functions`
-* :ref:`php-8.0-removed-constants`
-* :ref:`concat-and-addition`
-* :ref:`php-7.4-removed-directives`
-* :ref:`cast-unset-usage`
-* :ref:`$php\_errormsg-usage`
-* :ref:`mismatch-parameter-name`
-* :ref:`php-8.0-removed-directives`
-* :ref:`unsupported-types-with-operators`
-* :ref:`negative-start-index-in-array`
-* :ref:`php-8.0-resources-turned-into-objects`
-* :ref:`php-80-named-parameter-variadic`
-* :ref:`final-private-methods`
-* :ref:`array\_map()-passes-by-value`
-* :ref:`reserved-match-keyword`
-* :ref:`avoid-get\_object\_vars()`
-* :ref:`enum-usage`
-* :ref:`final-constant`
-* :ref:`never-type-usage`
-* :ref:`php-8.1-types`
-* :ref:`the-mixed-keyword`
-* :ref:`nested-attributes`
-* :ref:`new-initializers`
-* :ref:`can't-overload-constants`
-* :ref:`string-int-comparison`
-* :ref:`php-8.1-resources-turned-into-objects`
-* :ref:`clone-constant`
-* :ref:`named-arguments-and-variadic`
-* :ref:`multiple-type-cases-in-switch`
-* :ref:`no-max-on-empty-array`
-* :ref:`constants-in-traits`
-* :ref:`use-enum-case-in-constant-expression`
-* :ref:`readonly-property-changed-by-cloning`
-* :ref:`new-dynamic-class-constant-syntax`
-* :ref:`class\_alias()-supports-internal-classes`
-* :ref:`redeclared-static-variable`
-* :ref:`static-variable-can-default-to-arbitrary-expression`
-* :ref:`final-traits-are-final`
-* :ref:`typed-class-constants-usage`
-* :ref:`void-is-not-a-reference`
-* :ref:`php-8.1-types`
-* :ref:`php-8.2-new-types`
-* :ref:`anonymous-catch`
+* :ref:`classes-oldstyleconstructor`
+* :ref:`functions-wrongoptionalparameter`
+* :ref:`php-php80removedfunctions`
+* :ref:`php-php80removedconstant`
+* :ref:`php-concatandaddition`
+* :ref:`php-php74removeddirective`
+* :ref:`php-castunsetusage`
+* :ref:`php-phperrormsgusage`
+* :ref:`functions-mismatchparametername`
+* :ref:`php-php80removeddirective`
+* :ref:`structures-unsupportedtypeswithoperators`
+* :ref:`arrays-negativestart`
+* :ref:`php-php80removesresources`
+* :ref:`php-php80namedparametervariadic`
+* :ref:`classes-finalprivate`
+* :ref:`structures-arraymappassesbyvalue`
+* :ref:`php-reservedmatchkeyword`
+* :ref:`php-avoidgetobjectvars`
+* :ref:`php-enumusage`
+* :ref:`php-filesfullpath`
+* :ref:`php-finalconstant`
+* :ref:`php-nevertypehintusage`
+* :ref:`php-php81scalartypehints`
+* :ref:`php-mixedkeyword`
+* :ref:`attributes-nestedattributes`
+* :ref:`php-newinitializers`
+* :ref:`interfaces-cantoverloadconstants`
+* :ref:`php-stringintcomparison`
+* :ref:`php-php81removesresources`
+* :ref:`php-cloneconstant`
+* :ref:`php-namedargumentandvariadic`
+* :ref:`structures-multipletypecasesinswitch`
+* :ref:`structures-nomaxonemptyarray`
+* :ref:`traits-constantsintraits`
+* :ref:`php-useenumcaseinconstantexpression`
+* :ref:`php-readonlypropertychangedbycloning`
+* :ref:`classes-newdynamicconstantsyntax`
+* :ref:`php-classaliassupportsinternalclasses`
+* :ref:`variables-redeclaredstaticvariable`
+* :ref:`php-staticvariabledefaultcanbeanyexpression`
+* :ref:`traits-finaltraitsarefinal`
+* :ref:`classes-typedclassconstants`
+* :ref:`functions-voidisnotareference`
+* :ref:`php-php81newtypes`
+* :ref:`php-php82newtypes`
+* :ref:`exceptions-anonymouscatch`
 
 Specs
 _____

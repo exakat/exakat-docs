@@ -58,8 +58,8 @@ See also https://www.php.net/manual/en/language.variables.scope.php.
 Connex PHP features
 -------------------
 
-  + `global <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
-  + `scope <https://php-dictionary.readthedocs.io/en/latest/dictionary/scope.ini.html>`_
+  + `global Scope <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
+  + `Scope <https://php-dictionary.readthedocs.io/en/latest/dictionary/scope.ini.html>`_
 
 
 Specs

@@ -45,7 +45,7 @@ List of PHP magic methods being used. The magic methods are
 Connex PHP features
 -------------------
 
-  + `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
+  + `Magic Methods <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
 
 
 Specs

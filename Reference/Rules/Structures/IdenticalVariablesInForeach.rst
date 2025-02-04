@@ -56,7 +56,7 @@ Do not use the same variable names as a `foreach() <https://www.php.net/manual/e
 Connex PHP features
 -------------------
 
-  + `foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
+  + `Foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
 
 
 Suggestions

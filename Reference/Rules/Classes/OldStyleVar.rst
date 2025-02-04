@@ -48,7 +48,7 @@ See also `Visibility <https://www.php.net/manual/en/language.oop5.visibility.php
 Connex PHP features
 -------------------
 
-  + `visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html>`_
+  + `Visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html>`_
 
 
 Suggestions

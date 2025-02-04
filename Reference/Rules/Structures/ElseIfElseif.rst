@@ -57,7 +57,7 @@ See also `elseif/else if <https://www.php.net/manual/en/control-structures.elsei
 Connex PHP features
 -------------------
 
-  + `if-then <https://php-dictionary.readthedocs.io/en/latest/dictionary/if-then.ini.html>`_
+  + `If Then Else <https://php-dictionary.readthedocs.io/en/latest/dictionary/if-then.ini.html>`_
 
 
 Suggestions

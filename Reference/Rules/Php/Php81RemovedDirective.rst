@@ -37,14 +37,14 @@ In PHP 8.1, the following directives were removed :
 * `auto_detect_line_endings`
 * `oci8.old_oci_close_semantics`
 
-You can detect valid directives with `ini_get() <https://www.php.net/ini_get>`_. This native function will return false, when the directive doesn't exist, while actual directive values will be returned as a string.
+You can detect valid directives with `ini_get() <https://www.php.net/ini_get>`_. This native function will return `false <https://www.php.net/false>`_, when the directive doesn't exist, while actual directive values will be returned as a string.
 
 See also `PHP RFC: Deprecations for PHP 8.1 <https://wiki.php.net/rfc/deprecations_php_8_1>`_.
 
 Connex PHP features
 -------------------
 
-  + `directive <https://php-dictionary.readthedocs.io/en/latest/dictionary/directive.ini.html>`_
+  + `Directives <https://php-dictionary.readthedocs.io/en/latest/dictionary/directive.ini.html>`_
 
 
 Suggestions

@@ -51,7 +51,7 @@ The cast may introduce a distortion to the value, and still lead to the unwanted
 Connex PHP features
 -------------------
 
-  + `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+  + `Cast Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
 
 
 Suggestions

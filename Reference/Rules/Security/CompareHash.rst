@@ -64,8 +64,8 @@ See also `Magic Hashes <https://blog.whitehatsec.com/magic-hashes/>`_ , `What is
 Connex PHP features
 -------------------
 
-  + `cryptography <https://php-dictionary.readthedocs.io/en/latest/dictionary/cryptography.ini.html>`_
-  + `hash <https://php-dictionary.readthedocs.io/en/latest/dictionary/hash.ini.html>`_
+  + `Cryptography <https://php-dictionary.readthedocs.io/en/latest/dictionary/cryptography.ini.html>`_
+  + `Hash <https://php-dictionary.readthedocs.io/en/latest/dictionary/hash.ini.html>`_
 
 
 Suggestions

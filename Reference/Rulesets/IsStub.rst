@@ -23,7 +23,7 @@ This is automatically filled, based on the documentation's isStub attribute.
 
 Total : 1 analysis
 
-* :ref:`php-overridden-function`
+* :ref:`php-overiddenfunction`
 
 Specs
 _____

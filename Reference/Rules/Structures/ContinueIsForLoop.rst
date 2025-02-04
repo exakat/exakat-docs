@@ -57,8 +57,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `continue <https://php-dictionary.readthedocs.io/en/latest/dictionary/continue.ini.html>`_
-  + `loop <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
+  + `Continue <https://php-dictionary.readthedocs.io/en/latest/dictionary/continue.ini.html>`_
+  + `Loops <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
 
 
 Suggestions

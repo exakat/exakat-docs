@@ -50,9 +50,9 @@ One of the option is to use an iffectation: an affectation in the condition. Thi
 Connex PHP features
 -------------------
 
-  + `micro-optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html>`_
-  + `idempotent <https://php-dictionary.readthedocs.io/en/latest/dictionary/idempotent.ini.html>`_
-  + `iffectation <https://php-dictionary.readthedocs.io/en/latest/dictionary/iffectation.ini.html>`_
+  + `Micro-optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html>`_
+  + `Idempotent <https://php-dictionary.readthedocs.io/en/latest/dictionary/idempotent.ini.html>`_
+  + `Iffectation <https://php-dictionary.readthedocs.io/en/latest/dictionary/iffectation.ini.html>`_
 
 
 Suggestions

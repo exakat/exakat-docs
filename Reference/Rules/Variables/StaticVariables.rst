@@ -53,7 +53,7 @@ See also `Using static variables <https://www.php.net/manual/en/language.variabl
 Connex PHP features
 -------------------
 
-  + `static-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-variable.ini.html>`_
+  + `Static Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-variable.ini.html>`_
 
 
 Specs

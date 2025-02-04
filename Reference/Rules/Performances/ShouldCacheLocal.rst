@@ -54,7 +54,7 @@ It speeds up processing, even in case of a simple property fetch. A local cache 
 Connex PHP features
 -------------------
 
-  + `micro-optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html>`_
+  + `Micro-optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html>`_
 
 
 Suggestions

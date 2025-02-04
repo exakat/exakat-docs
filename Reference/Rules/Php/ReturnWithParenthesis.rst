@@ -55,7 +55,7 @@ See also `PHP return(value); vs return value; <https://stackoverflow.com/questio
 Connex PHP features
 -------------------
 
-  + `return-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/return-value.ini.html>`_
+  + `Return Value <https://php-dictionary.readthedocs.io/en/latest/dictionary/return-value.ini.html>`_
 
 
 Suggestions

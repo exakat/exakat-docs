@@ -57,7 +57,7 @@ The analyzed code has less than 10% of one of the three : for consistency reason
 Connex PHP features
 -------------------
 
-  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+  + `Exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
 
 
 Suggestions

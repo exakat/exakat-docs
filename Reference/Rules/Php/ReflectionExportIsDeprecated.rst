@@ -50,7 +50,7 @@ See also `Reflection export() methods <https://wiki.php.net/rfc/deprecations_php
 Connex PHP features
 -------------------
 
-  + `reflection <https://php-dictionary.readthedocs.io/en/latest/dictionary/reflection.ini.html>`_
+  + `Reflection <https://php-dictionary.readthedocs.io/en/latest/dictionary/reflection.ini.html>`_
 
 
 Suggestions

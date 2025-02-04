@@ -41,7 +41,7 @@ This rule marks a ``use`` statement that imports a global class in the current f
 Connex PHP features
 -------------------
 
-  + `namespace <https://php-dictionary.readthedocs.io/en/latest/dictionary/namespace.ini.html>`_
+  + `Namespaces <https://php-dictionary.readthedocs.io/en/latest/dictionary/namespace.ini.html>`_
 
 
 Specs

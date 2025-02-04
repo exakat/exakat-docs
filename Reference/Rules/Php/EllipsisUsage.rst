@@ -51,7 +51,7 @@ See also `PHP RFC: Syntax for variadic functions <https://wiki.php.net/rfc/varia
 Connex PHP features
 -------------------
 
-  + `ellipsis <https://php-dictionary.readthedocs.io/en/latest/dictionary/ellipsis.ini.html>`_
+  + `Ellipsis <https://php-dictionary.readthedocs.io/en/latest/dictionary/ellipsis.ini.html>`_
 
 
 Specs

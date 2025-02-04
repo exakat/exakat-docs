@@ -47,7 +47,7 @@ See also `Session <https://www.php.net/manual/en/book.session.php>`_.
 Connex PHP features
 -------------------
 
-  + `session <https://php-dictionary.readthedocs.io/en/latest/dictionary/session.ini.html>`_
+  + `Session <https://php-dictionary.readthedocs.io/en/latest/dictionary/session.ini.html>`_
 
 
 Specs

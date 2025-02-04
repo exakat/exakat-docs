@@ -44,7 +44,7 @@ See also `php_sapi_name() <https://www.php.net/manual/en/function.php-sapi-name.
 Connex PHP features
 -------------------
 
-  + `sapi <https://php-dictionary.readthedocs.io/en/latest/dictionary/sapi.ini.html>`_
+  + `Server Application Programming Interface (SAPI) <https://php-dictionary.readthedocs.io/en/latest/dictionary/sapi.ini.html>`_
 
 
 Specs

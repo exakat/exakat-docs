@@ -53,7 +53,7 @@ While this is syntactically correct, it is unusual that defined resources are us
 Connex PHP features
 -------------------
 
-  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+  + `Properties <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
 
 
 Suggestions

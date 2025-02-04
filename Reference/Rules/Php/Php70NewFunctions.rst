@@ -40,7 +40,7 @@ The following functions are now native functions in PHP 7.0. It is advised to ch
 Connex PHP features
 -------------------
 
-  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
 
 
 Specs

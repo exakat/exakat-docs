@@ -57,8 +57,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `callback <https://php-dictionary.readthedocs.io/en/latest/dictionary/callback.ini.html>`_
-  + `callable <https://php-dictionary.readthedocs.io/en/latest/dictionary/callable.ini.html>`_
+  + `Callbacks <https://php-dictionary.readthedocs.io/en/latest/dictionary/callback.ini.html>`_
+  + `Callables <https://php-dictionary.readthedocs.io/en/latest/dictionary/callable.ini.html>`_
 
 
 Suggestions

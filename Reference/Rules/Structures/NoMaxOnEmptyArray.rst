@@ -31,7 +31,7 @@ Using `max() <https://www.php.net/max>`_ or `min() <https://www.php.net/min>`_ o
 
 Until PHP 8, `max() <https://www.php.net/max>`_ and `min() <https://www.php.net/min>`_ returned ``null`` in case of empty array. This might be confusing with actual values, as an array can contain ``null``. ``null`` has a specific behavior when comparing with other values, and should be avoided with `max() <https://www.php.net/max>`_ and sorts. 
 
-Until PHP 8.0, a call on an empty array returns null, and a warning.
+Until PHP 8.0, a call on an empty array returns `null <https://www.php.net/`null <https://www.php.net/null>`_>`_, and a warning.
 
 .. code-block:: php
    
@@ -62,7 +62,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `validation <https://php-dictionary.readthedocs.io/en/latest/dictionary/validation.ini.html>`_
+  + `Validation <https://php-dictionary.readthedocs.io/en/latest/dictionary/validation.ini.html>`_
 
 
 Suggestions

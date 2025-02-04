@@ -60,8 +60,8 @@ See also `Isset <http://www.php.net/isset>`_.
 Connex PHP features
 -------------------
 
-  + `coalesce <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
-  + `isset <https://php-dictionary.readthedocs.io/en/latest/dictionary/isset.ini.html>`_
+  + `Coalesce Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
+  + `Isset <https://php-dictionary.readthedocs.io/en/latest/dictionary/isset.ini.html>`_
 
 
 Suggestions

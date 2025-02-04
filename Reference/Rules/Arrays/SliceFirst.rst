@@ -44,7 +44,7 @@ The gain produced here is greater with longer arrays, or greater reductions. The
 Connex PHP features
 -------------------
 
-  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
 
 
 Suggestions

@@ -60,7 +60,7 @@ This analysis supports functions and `static <https://www.php.net/manual/en/lang
 Connex PHP features
 -------------------
 
-  + `return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
+  + `Return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
 
 
 Suggestions

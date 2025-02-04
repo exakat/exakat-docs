@@ -48,7 +48,7 @@ See also `Execution operator <https://www.php.net/manual/en/language.operators.e
 Connex PHP features
 -------------------
 
-  + `system-call <https://php-dictionary.readthedocs.io/en/latest/dictionary/system-call.ini.html>`_
+  + `System Call <https://php-dictionary.readthedocs.io/en/latest/dictionary/system-call.ini.html>`_
 
 
 Specs

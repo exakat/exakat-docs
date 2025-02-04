@@ -65,7 +65,7 @@ See also `PHP RFC: Arrays starting with a negative index <https://wiki.php.net/r
 Connex PHP features
 -------------------
 
-  + `index <https://php-dictionary.readthedocs.io/en/latest/dictionary/index.ini.html>`_
+  + `Index <https://php-dictionary.readthedocs.io/en/latest/dictionary/index.ini.html>`_
 
 
 Suggestions

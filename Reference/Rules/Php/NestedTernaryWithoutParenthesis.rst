@@ -58,8 +58,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `ternary <https://php-dictionary.readthedocs.io/en/latest/dictionary/ternary.ini.html>`_
-  + `parenthesis <https://php-dictionary.readthedocs.io/en/latest/dictionary/parenthesis.ini.html>`_
+  + `Ternary Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/ternary.ini.html>`_
+  + `Parenthesis <https://php-dictionary.readthedocs.io/en/latest/dictionary/parenthesis.ini.html>`_
 
 
 Suggestions

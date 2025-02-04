@@ -44,7 +44,7 @@ This rule count the number of level of extends in classes. Each level is a depth
 Connex PHP features
 -------------------
 
-  + `inclusion <https://php-dictionary.readthedocs.io/en/latest/dictionary/inclusion.ini.html>`_
+  + `Inclusions <https://php-dictionary.readthedocs.io/en/latest/dictionary/inclusion.ini.html>`_
 
 
 Specs

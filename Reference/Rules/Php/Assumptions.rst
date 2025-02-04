@@ -29,7 +29,7 @@ Assumptions
 
 Assumptions in the code, that leads to possible bugs. 
 
-Some conditions may be very weak, and lead to errors. For example, the code below checks that the variable `$a` is not null, then uses it as an array. There is no relationship between 'not null' and 'being an array', so this is an assumption.
+Some conditions may be very weak, and lead to errors. For example, the code below checks that the variable `$a` is not `null <https://www.php.net/`null <https://www.php.net/null>`_>`_, then uses it as an array. There is no relationship between 'not `null <https://www.php.net/`null <https://www.php.net/null>`_>`_' and 'being an array', so this is an assumption.
 
 .. code-block:: php
    
@@ -57,7 +57,7 @@ See also `From assumptions to assertions <https://rskuipers.com/entry/from-assum
 Connex PHP features
 -------------------
 
-  + `assumption <https://php-dictionary.readthedocs.io/en/latest/dictionary/assumption.ini.html>`_
+  + `Assumption <https://php-dictionary.readthedocs.io/en/latest/dictionary/assumption.ini.html>`_
 
 
 Suggestions

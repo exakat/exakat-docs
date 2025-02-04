@@ -51,7 +51,7 @@ Mimicking ``register_globals`` is achieved with variables variables, `extract() 
 Connex PHP features
 -------------------
 
-  + `register-globals <https://php-dictionary.readthedocs.io/en/latest/dictionary/register-globals.ini.html>`_
+  + `Register Globals <https://php-dictionary.readthedocs.io/en/latest/dictionary/register-globals.ini.html>`_
 
 
 Suggestions

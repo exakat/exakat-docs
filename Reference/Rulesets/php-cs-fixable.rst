@@ -23,18 +23,18 @@ php-cs-fixable
 
 Total : 12 analysis
 
-* :ref:`unused-use`
-* :ref:`use-===-null`
-* :ref:`**-for-exponent`
-* :ref:`logical-should-use-symbolic-operators`
-* :ref:`use-constant-instead-of-function`
-* :ref:`else-if-versus-elseif`
-* :ref:`php7-dirname`
-* :ref:`could-use-\_\_dir\_\_`
-* :ref:`isset-multiple-arguments`
-* :ref:`don't-unset-properties`
-* :ref:`multiple-unset()`
-* :ref:`implode-one-arg`
+* :ref:`namespaces-unuseduse`
+* :ref:`php-isnullvsequalnull`
+* :ref:`php-newexponent`
+* :ref:`php-logicalinletters`
+* :ref:`structures-useconstant`
+* :ref:`structures-elseifelseif`
+* :ref:`structures-php7dirname`
+* :ref:`structures-couldusedir`
+* :ref:`php-issetmultipleargs`
+* :ref:`classes-dontunsetproperties`
+* :ref:`structures-multipleunset`
+* :ref:`php-implodeonearg`
 
 Specs
 _____

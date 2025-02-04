@@ -48,7 +48,7 @@ See also `Incrementing/Decrementing Operators <https://www.php.net/manual/en/lan
 Connex PHP features
 -------------------
 
-  + `string-increment <https://php-dictionary.readthedocs.io/en/latest/dictionary/string-increment.ini.html>`_
+  + `String Increment <https://php-dictionary.readthedocs.io/en/latest/dictionary/string-increment.ini.html>`_
 
 
 Specs

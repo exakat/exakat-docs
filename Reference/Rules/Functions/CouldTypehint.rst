@@ -52,7 +52,7 @@ Arguments that are tested with `instanceof <https://www.php.net/manual/en/langua
 Connex PHP features
 -------------------
 
-  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
 
 
 Suggestions

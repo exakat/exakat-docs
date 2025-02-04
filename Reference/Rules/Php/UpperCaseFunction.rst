@@ -40,8 +40,8 @@ Usually, PHP functions are written all in lower case. There might a reason for t
 Connex PHP features
 -------------------
 
-  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
-  + `coding-convention <https://php-dictionary.readthedocs.io/en/latest/dictionary/coding-convention.ini.html>`_
+  + `Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `Coding Conventions <https://php-dictionary.readthedocs.io/en/latest/dictionary/coding-convention.ini.html>`_
 
 
 Suggestions

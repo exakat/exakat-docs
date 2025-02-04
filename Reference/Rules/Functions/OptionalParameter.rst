@@ -29,7 +29,7 @@ Optional Parameter
 
 An optional parameter is a method argument that has both a typehint and a default value. 
 
-Such argument is optional, as it may be omitted. When this is the case, the code has to differentiate between the default behavior or the actual usage. It is recommended to avoid providing a default value, and use a null object.
+Such argument is optional, as it may be omitted. When this is the case, the code has to differentiate between the default behavior or the actual usage. It is recommended to avoid providing a default value, and use a `null <https://www.php.net/`null <https://www.php.net/null>`_>`_ object.
 
 .. code-block:: php
    
@@ -53,8 +53,8 @@ Such argument is optional, as it may be omitted. When this is the case, the code
 Connex PHP features
 -------------------
 
-  + `parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
-  + `optional-parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/optional-parameter.ini.html>`_
+  + `Parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
+  + `Optional Parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/optional-parameter.ini.html>`_
 
 
 Specs

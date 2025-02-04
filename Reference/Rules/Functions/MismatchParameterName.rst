@@ -31,7 +31,7 @@ Parameter name change in overwritten method. This may lead to errors when using 
 
 PHP use the name of the parameter in the method whose code is executed. When the name change between the method and the overwritten method, the consistency is broken.
 
-Here is another example, in early PHP 8.0 (courtesy of `Carnage <https://twitter.com/giveupalready>`_).
+Here is another example, in early PHP 8.0 (courtesy of `Carnage <https://twitter.`com <https://www.php.net/com>`_/giveupalready>`_).
 
 .. code-block:: php
    
@@ -55,7 +55,7 @@ Here is another example, in early PHP 8.0 (courtesy of `Carnage <https://twitter
 Connex PHP features
 -------------------
 
-  + `named-parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/named-parameter.ini.html>`_
+  + `Named Parameters <https://php-dictionary.readthedocs.io/en/latest/dictionary/named-parameter.ini.html>`_
 
 
 Suggestions

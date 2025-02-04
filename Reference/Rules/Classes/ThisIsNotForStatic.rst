@@ -31,7 +31,7 @@ $this Is Not For Static Methods
 
 `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ variable represents an object, the current object. It is not compatible with a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method, which may operate without any object. 
 
-While executing a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method, `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ is actually set to `NULL <https://www.php.net/manual/en/language.types.null.php>`_.
+While executing a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method, `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ is actually set to `NULL <https://www.php.net/manual/en/language.types.`null <https://www.php.net/null>`_.php>`_.
 
 .. code-block:: php
    
@@ -66,7 +66,7 @@ Connex PHP features
 -------------------
 
   + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
-  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+  + `Method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
 
 
 Suggestions

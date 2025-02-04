@@ -70,7 +70,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `declaration <https://php-dictionary.readthedocs.io/en/latest/dictionary/declaration.ini.html>`_
+  + `Declaration <https://php-dictionary.readthedocs.io/en/latest/dictionary/declaration.ini.html>`_
 
 
 Suggestions

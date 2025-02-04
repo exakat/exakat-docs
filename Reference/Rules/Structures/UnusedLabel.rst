@@ -55,8 +55,8 @@ See also `Goto <https://www.php.net/manual/en/control-structures.goto.php>`_.
 Connex PHP features
 -------------------
 
-  + `label <https://php-dictionary.readthedocs.io/en/latest/dictionary/label.ini.html>`_
-  + `goto <https://php-dictionary.readthedocs.io/en/latest/dictionary/goto.ini.html>`_
+  + `Goto Labels <https://php-dictionary.readthedocs.io/en/latest/dictionary/label.ini.html>`_
+  + `Goto <https://php-dictionary.readthedocs.io/en/latest/dictionary/goto.ini.html>`_
 
 
 Suggestions

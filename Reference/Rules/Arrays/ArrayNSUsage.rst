@@ -48,7 +48,7 @@ See also `Array <https://www.php.net/manual/en/language.types.array.php>`_.
 Connex PHP features
 -------------------
 
-  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
 
 
 Specs

@@ -51,7 +51,7 @@ See also `Type Juggling <https://www.php.net/manual/en/language.types.type-juggl
 Connex PHP features
 -------------------
 
-  + `neutral-element <https://php-dictionary.readthedocs.io/en/latest/dictionary/neutral-element.ini.html>`_
+  + `Neutral Element <https://php-dictionary.readthedocs.io/en/latest/dictionary/neutral-element.ini.html>`_
 
 
 Suggestions

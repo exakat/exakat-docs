@@ -47,7 +47,7 @@ See also  `PHP RFC: noreturn type <https://wiki.php.net/rfc/noreturn_type>`_.
 Connex PHP features
 -------------------
 
-  + `scalar-type <https://php-dictionary.readthedocs.io/en/latest/dictionary/scalar-type.ini.html>`_
+  + `Scalar Types <https://php-dictionary.readthedocs.io/en/latest/dictionary/scalar-type.ini.html>`_
 
 
 Specs

@@ -41,7 +41,7 @@ Emails are detected with regex : ``[_A-Za-z0-9-]+(\.[_A-Za-z0-9-]+)*`@ <https://
 Connex PHP features
 -------------------
 
-  + `email <https://php-dictionary.readthedocs.io/en/latest/dictionary/email.ini.html>`_
+  + `Email <https://php-dictionary.readthedocs.io/en/latest/dictionary/email.ini.html>`_
 
 
 Specs

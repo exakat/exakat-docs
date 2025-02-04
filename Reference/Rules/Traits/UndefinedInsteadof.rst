@@ -67,9 +67,9 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `insteadof <https://php-dictionary.readthedocs.io/en/latest/dictionary/insteadof.ini.html>`_
-  + `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
-  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+  + `Insteadof <https://php-dictionary.readthedocs.io/en/latest/dictionary/insteadof.ini.html>`_
+  + `Trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
+  + `Method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
 
 
 Suggestions

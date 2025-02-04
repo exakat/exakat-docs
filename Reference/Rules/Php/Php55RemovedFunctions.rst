@@ -52,7 +52,7 @@ See also `Deprecated features in PHP 5.5.x <https://www.php.net/manual/en/migrat
 Connex PHP features
 -------------------
 
-  + `deprecated <https://php-dictionary.readthedocs.io/en/latest/dictionary/deprecated.ini.html>`_
+  + `Deprecated <https://php-dictionary.readthedocs.io/en/latest/dictionary/deprecated.ini.html>`_
 
 
 Suggestions

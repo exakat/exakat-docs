@@ -31,7 +31,7 @@ Unanchored regex finds the requested pattern, and leaves room for malicious cont
 
 Without ``^`` and ``$``, the regex searches for any pattern that satisfies the criteria, leaving any unused part of the string available for arbitrary content. It is recommended to use both anchor
 Note that $ may be a line ending, still leaving room after it for injection.
-This analysis reports false positive when the regex is used to search a pattern in a much larger string. Check if this rule doesn't apply, though.
+This analysis reports `false <https://www.php.net/false>`_ positive when the regex is used to search a pattern in a much larger string. Check if this rule doesn't apply, though.
 
 .. code-block:: php
    
@@ -58,7 +58,7 @@ See also `CWE-625: Permissive Regular Expression <https://cwe.mitre.org/data/def
 Connex PHP features
 -------------------
 
-  + `regex <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
+  + `Regular Expressions <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
 
 
 Suggestions

@@ -49,7 +49,7 @@ See also `Supported Protocols and Wrappers <https://www.php.net/manual/en/wrappe
 Connex PHP features
 -------------------
 
-  + `protocol <https://php-dictionary.readthedocs.io/en/latest/dictionary/protocol.ini.html>`_
+  + `Protocol <https://php-dictionary.readthedocs.io/en/latest/dictionary/protocol.ini.html>`_
 
 
 Specs

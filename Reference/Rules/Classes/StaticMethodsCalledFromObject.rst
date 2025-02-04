@@ -48,7 +48,7 @@ To maintain code readability, it is recommended to call `static <https://www.php
 Connex PHP features
 -------------------
 
-  + `object <https://php-dictionary.readthedocs.io/en/latest/dictionary/object.ini.html>`_
+  + `Object <https://php-dictionary.readthedocs.io/en/latest/dictionary/object.ini.html>`_
   + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
 
 

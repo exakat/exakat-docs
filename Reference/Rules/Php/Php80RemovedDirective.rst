@@ -31,7 +31,7 @@ List of directives that are removed in PHP 8.0.
 
 In PHP 8.0, `track_errors` was removed. 
 
-You can detect valid directives with `ini_get() <https://www.php.net/ini_get>`_. This native function will return false, when the directive doesn't exist, while actual directive values will be returned as a string. 
+You can detect valid directives with `ini_get() <https://www.php.net/ini_get>`_. This native function will return `false <https://www.php.net/false>`_, when the directive doesn't exist, while actual directive values will be returned as a string. 
 
 See `Deprecation `track_errors <https://www.php.net/manual/en/errorfunc.configuration.php#ini.track-errors>`_ <https://www.php.net/manual/en/migration80.incompatible.php`_.
 
@@ -45,7 +45,7 @@ See `Deprecation `track_errors <https://www.php.net/manual/en/errorfunc.configur
 Connex PHP features
 -------------------
 
-  + `directive <https://php-dictionary.readthedocs.io/en/latest/dictionary/directive.ini.html>`_
+  + `Directives <https://php-dictionary.readthedocs.io/en/latest/dictionary/directive.ini.html>`_
 
 
 Suggestions

@@ -50,8 +50,8 @@ This is a micro-optimisation, in particular when the expression is used once.
 Connex PHP features
 -------------------
 
-  + `preprocess <https://php-dictionary.readthedocs.io/en/latest/dictionary/preprocess.ini.html>`_
-  + `micro-optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html>`_
+  + `Preprocessing <https://php-dictionary.readthedocs.io/en/latest/dictionary/preprocess.ini.html>`_
+  + `Micro-optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html>`_
 
 
 Suggestions

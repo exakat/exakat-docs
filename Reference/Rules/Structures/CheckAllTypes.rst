@@ -29,7 +29,7 @@ Check All Types
 
 When checking for type, avoid using else. Mention explicitly all tested types, and raise an `exception <https://www.php.net/exception>`_ when all available options have been exhausted : after all, this is when the code doesn't know how to handle the datatype.
 
-PHP has a short list of scalar types : null, boolean, integer, real, strings, object, resource and array. When a variable is not holding one the the type, then it may be of any other type. 
+PHP has a short list of scalar types : `null <https://www.php.net/`null <https://www.php.net/null>`_>`_, boolean, integer, real, strings, object, resource and array. When a variable is not holding one the the type, then it may be of any other type. 
 
 Most of the time, when using a simple `is_string() <https://www.php.net/is_string>`_ / else test, this is relying on the conception of the code. By construction, the arguments may be one of two types : array or string. 
 

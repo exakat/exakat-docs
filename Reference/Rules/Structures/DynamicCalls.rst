@@ -58,7 +58,7 @@ Only the dynamic call is listed : the sources are left in their context.
 Connex PHP features
 -------------------
 
-  + `dynamic-call <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-call.ini.html>`_
+  + `Dynamic Call <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-call.ini.html>`_
 
 
 Specs

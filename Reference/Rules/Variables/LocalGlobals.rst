@@ -59,7 +59,7 @@ It is recommended to keep the global variables's name distinct from the local va
 Connex PHP features
 -------------------
 
-  + `global <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
+  + `global Scope <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
 
 
 Suggestions

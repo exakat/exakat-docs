@@ -43,8 +43,8 @@ See also `dl <http://www.php.net/dl>`_.
 Connex PHP features
 -------------------
 
-  + `extension <https://php-dictionary.readthedocs.io/en/latest/dictionary/extension.ini.html>`_
-  + `dynamic-loading <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-loading.ini.html>`_
+  + `Extensions <https://php-dictionary.readthedocs.io/en/latest/dictionary/extension.ini.html>`_
+  + `Dynamic Loading <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-loading.ini.html>`_
 
 
 Specs

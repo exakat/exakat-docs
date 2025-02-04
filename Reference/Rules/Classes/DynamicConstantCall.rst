@@ -52,7 +52,7 @@ Constant may be dynamically called with the `constant() <https://www.php.net/con
 Connex PHP features
 -------------------
 
-  + `dynamic-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-constant.ini.html>`_
+  + `Dynamic Constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-constant.ini.html>`_
 
 
 Specs

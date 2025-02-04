@@ -59,8 +59,8 @@ See also `PHP RFC: is_countable <https://wiki.php.net/rfc/is-countable>`_.
 Connex PHP features
 -------------------
 
-  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
-  + `countable <https://php-dictionary.readthedocs.io/en/latest/dictionary/countable.ini.html>`_
+  + `Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `Countable Interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/countable.ini.html>`_
 
 
 Suggestions

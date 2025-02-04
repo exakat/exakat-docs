@@ -46,7 +46,7 @@ See also `hash_algos <https://www.php.net/hash_algos>`_.
 Connex PHP features
 -------------------
 
-  + `hash <https://php-dictionary.readthedocs.io/en/latest/dictionary/hash.ini.html>`_
+  + `Hash <https://php-dictionary.readthedocs.io/en/latest/dictionary/hash.ini.html>`_
 
 
 Suggestions

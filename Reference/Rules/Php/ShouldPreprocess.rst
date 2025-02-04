@@ -53,7 +53,7 @@ See also `Escape sequences <https://www.php.net/manual/en/regexp.reference.escap
 Connex PHP features
 -------------------
 
-  + `preprocess <https://php-dictionary.readthedocs.io/en/latest/dictionary/preprocess.ini.html>`_
+  + `Preprocessing <https://php-dictionary.readthedocs.io/en/latest/dictionary/preprocess.ini.html>`_
 
 
 Suggestions

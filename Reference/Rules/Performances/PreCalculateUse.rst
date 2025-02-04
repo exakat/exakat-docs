@@ -51,8 +51,8 @@ This is a micro-optimisation. It has more potential with the `closure <https://w
 Connex PHP features
 -------------------
 
-  + `closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
-  + `micro-optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html>`_
+  + `Closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
+  + `Micro-optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html>`_
 
 
 Suggestions

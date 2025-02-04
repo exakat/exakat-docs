@@ -53,8 +53,8 @@ This also supports first class callable, when the callable is defined in the cod
 Connex PHP features
 -------------------
 
-  + `closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
-  + `arrow-function <https://php-dictionary.readthedocs.io/en/latest/dictionary/arrow-function.ini.html>`_
+  + `Closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
+  + `Arrow Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/arrow-function.ini.html>`_
 
 
 Specs

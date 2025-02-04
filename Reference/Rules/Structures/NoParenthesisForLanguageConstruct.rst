@@ -46,9 +46,9 @@ See also `ON PHP LANGUAGE CONSTRUCTS AND PARENTHESES <https://tfrommen.de/on-php
 Connex PHP features
 -------------------
 
-  + `parenthesis <https://php-dictionary.readthedocs.io/en/latest/dictionary/parenthesis.ini.html>`_
-  + `language-construct <https://php-dictionary.readthedocs.io/en/latest/dictionary/language-construct.ini.html>`_
-  + `return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
+  + `Parenthesis <https://php-dictionary.readthedocs.io/en/latest/dictionary/parenthesis.ini.html>`_
+  + `Language Construct <https://php-dictionary.readthedocs.io/en/latest/dictionary/language-construct.ini.html>`_
+  + `Return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
   + `include <https://php-dictionary.readthedocs.io/en/latest/dictionary/include.ini.html>`_
 
 

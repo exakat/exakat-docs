@@ -29,7 +29,7 @@ Use Closure Trailing Comma
 
 Use a trailing comma in the `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_'s ``use`` list. 
 
-A trailing comma doesn't add any argument, not even a void or null one. It is a convenient for VCS to make diff with the previous code, and have them more readable.
+A trailing comma doesn't add any argument, not even a void or `null <https://www.php.net/`null <https://www.php.net/null>`_>`_ one. It is a convenient for VCS to make diff with the previous code, and have them more readable.
 
 This feature was added in PHP 8.0.
 
@@ -50,7 +50,7 @@ See also `Trailing Comma In Closure Use List <https://wiki.php.net/rfc/trailing_
 Connex PHP features
 -------------------
 
-  + `trailing-comma <https://php-dictionary.readthedocs.io/en/latest/dictionary/trailing-comma.ini.html>`_
+  + `Trailing Comma <https://php-dictionary.readthedocs.io/en/latest/dictionary/trailing-comma.ini.html>`_
 
 
 Suggestions

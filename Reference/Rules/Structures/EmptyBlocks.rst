@@ -57,7 +57,7 @@ It is recommended to remove those blocks, so as to reduce confusion in the code.
 Connex PHP features
 -------------------
 
-  + `block <https://php-dictionary.readthedocs.io/en/latest/dictionary/block.ini.html>`_
+  + `Block <https://php-dictionary.readthedocs.io/en/latest/dictionary/block.ini.html>`_
 
 
 Suggestions

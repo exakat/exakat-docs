@@ -53,7 +53,7 @@ Some keywords are missing from this analysis : ``extends``, ``implements``, ``as
 Connex PHP features
 -------------------
 
-  + `case <https://php-dictionary.readthedocs.io/en/latest/dictionary/case.ini.html>`_
+  + `Case <https://php-dictionary.readthedocs.io/en/latest/dictionary/case.ini.html>`_
 
 
 Suggestions

@@ -58,7 +58,7 @@ There are some situations where using concatenation are compulsory : when callin
 Connex PHP features
 -------------------
 
-  + `concat <https://php-dictionary.readthedocs.io/en/latest/dictionary/concat.ini.html>`_
+  + `Concatenation <https://php-dictionary.readthedocs.io/en/latest/dictionary/concat.ini.html>`_
 
 
 Suggestions

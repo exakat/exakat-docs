@@ -53,8 +53,8 @@ Trait should promote code reuse and be used multiple time. A trait that is used 
 Connex PHP features
 -------------------
 
-  + `code-reuse <https://php-dictionary.readthedocs.io/en/latest/dictionary/code-reuse.ini.html>`_
-  + `overenginereed <https://php-dictionary.readthedocs.io/en/latest/dictionary/overenginereed.ini.html>`_
+  + `Code Reuse <https://php-dictionary.readthedocs.io/en/latest/dictionary/code-reuse.ini.html>`_
+  + `Overenginer <https://php-dictionary.readthedocs.io/en/latest/dictionary/overenginereed.ini.html>`_
 
 
 Suggestions

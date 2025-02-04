@@ -45,7 +45,7 @@ See also `Floats <https://www.php.net/manual/en/language.types.float.php>`_.
 Connex PHP features
 -------------------
 
-  + `float <https://php-dictionary.readthedocs.io/en/latest/dictionary/float.ini.html>`_
+  + `Floating Point Numbers <https://php-dictionary.readthedocs.io/en/latest/dictionary/float.ini.html>`_
 
 
 Suggestions

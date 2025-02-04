@@ -29,7 +29,7 @@ No Object As Index
 
 PHP accepts objects as index, though it reports various `error <https://www.php.net/error>`_ messages when this happens.
 
-Thanks to `Gina Peter Banyard <https://twitter.com/Girgias>`_ for the inspiration.
+Thanks to `Gina Peter Banyard <https://twitter.`com <https://www.php.net/com>`_/Girgias>`_ for the inspiration.
 
 .. code-block:: php
    
@@ -62,7 +62,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `index <https://php-dictionary.readthedocs.io/en/latest/dictionary/index.ini.html>`_
+  + `Index <https://php-dictionary.readthedocs.io/en/latest/dictionary/index.ini.html>`_
 
 
 Suggestions

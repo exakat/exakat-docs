@@ -56,7 +56,7 @@ Parameters that are inherited from `parent <https://www.php.net/manual/en/langua
 Connex PHP features
 -------------------
 
-  + `static-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-variable.ini.html>`_
+  + `Static Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-variable.ini.html>`_
 
 
 Suggestions

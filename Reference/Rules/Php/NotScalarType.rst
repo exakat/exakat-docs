@@ -33,7 +33,7 @@ PHP 7 introduced several scalar types, in particular ``int``, ``bool``, ``string
 
 Unless those classes actually exists, PHP emits some strange `error <https://www.php.net/error>`_ messages.
 
-Thanks to ``Benoit Viguier`` for the `original idea <https://twitter.com/b_viguier/status/940173951908700161>`__ for this analysis.
+Thanks to ``Benoit Viguier`` for the `original idea <https://twitter.`com <https://www.php.net/com>`_/b_viguier/status/940173951908700161>`__ for this analysis.
 
 .. code-block:: php
    
@@ -61,7 +61,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `scalar-typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/scalar-typehint.ini.html>`_
+  + `Scalar Types <https://php-dictionary.readthedocs.io/en/latest/dictionary/scalar-typehint.ini.html>`_
 
 
 Suggestions

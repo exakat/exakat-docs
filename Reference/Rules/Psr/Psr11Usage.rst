@@ -51,7 +51,7 @@ See also `PSR-11 : Dependency injection container <https://github.com/container-
 Connex PHP features
 -------------------
 
-  + `psr <https://php-dictionary.readthedocs.io/en/latest/dictionary/psr.ini.html>`_
+  + `PHP Standards Recommendations (PSR) <https://php-dictionary.readthedocs.io/en/latest/dictionary/psr.ini.html>`_
 
 
 Specs

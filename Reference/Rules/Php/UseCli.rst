@@ -40,7 +40,7 @@ Signal the usage of code in CLI mode, through the usage of ``$argv`` and ``$argc
 Connex PHP features
 -------------------
 
-  + `cli <https://php-dictionary.readthedocs.io/en/latest/dictionary/cli.ini.html>`_
+  + `Command Line Interface (CLI) <https://php-dictionary.readthedocs.io/en/latest/dictionary/cli.ini.html>`_
   + `$argv <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24argv.ini.html>`_
   + `$argc <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24argc.ini.html>`_
 

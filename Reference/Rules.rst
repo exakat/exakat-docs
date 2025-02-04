@@ -17,9 +17,9 @@ List of Rules
 .. toctree::
    :maxdepth: 1
 
-   Rules/Php/FilesFullPath.rst
    Rules/Php/GlobalsVsGlobal.rst
    Rules/Php/RawPostDataUsage.rst
+   Rules/Php/FilesFullPath.rst
    Rules/Php/PhpErrorMsgUsage.rst
    Rules/Classes/ThisIsForClasses.rst
    Rules/Classes/ThisIsNotAnArray.rst
@@ -2083,7 +2083,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 
 * 2.2.4
 
-  * :ref:`$FILES full_path <$files-full\_path>`
+  * :ref:`$_FILES New Entry 'full_path' <$\_files-new-entry-'full\_path'>`
   * :ref:`Missing Attribute Attribute <missing-attribute-attribute>`
   * :ref:`No Referenced Void <no-referenced-void>`
   * :ref:`PHP Native Class Type Compatibility <php-native-class-type-compatibility>`
@@ -5261,7 +5261,7 @@ Directory by PHP Function
 
     + `directory`
 
-      + :ref:`$FILES full_path <$files-full\_path>`
+      + :ref:`$_FILES New Entry 'full_path' <$\_files-new-entry-'full\_path'>`
       + :ref:`Could Inject Parameter <could-inject-parameter>`
       + :ref:`Could Use __DIR__ <could-use-\_\_dir\_\_>`
       + :ref:`Keep Files Access Restricted <keep-files-access-restricted>`
@@ -10216,7 +10216,7 @@ Exakat links each rules to PHP features.
 
   + $_FILES
 
-    + :ref:`$FILES full_path <$files-full\_path>`
+    + :ref:`$_FILES New Entry 'full_path' <$\_files-new-entry-'full\_path'>`
     + :ref:`Useless Global <useless-global>`
 
   + $_GET
@@ -12332,6 +12332,7 @@ Exakat links each rules to PHP features.
     + :ref:`Long Arguments <long-arguments>`
     + :ref:`Missing Parenthesis <missing-parenthesis>`
     + :ref:`No Initial S In Variable Names <no-initial-s-in-variable-names>`
+    + :ref:`No Variable Needed <no-variable-needed>`
     + :ref:`One Object Operator Per Line <one-object-operator-per-line>`
     + :ref:`Preprocessable <preprocessable>`
     + :ref:`Recycled Variables <recycled-variables>`
@@ -12905,6 +12906,7 @@ Exakat links each rules to PHP features.
     + :ref:`Could Use Compact <could-use-compact>`
     + :ref:`Multiple Type Variable <multiple-type-variable>`
     + :ref:`No Initial S In Variable Names <no-initial-s-in-variable-names>`
+    + :ref:`No Variable Needed <no-variable-needed>`
     + :ref:`One Variable String <one-variable-string>`
     + :ref:`Only Variable For Reference <only-variable-for-reference>`
     + :ref:`Overwriting Variable <overwriting-variable>`
@@ -13023,6 +13025,7 @@ Exakat links each rules to PHP features.
     + :ref:`Avoid option arrays in constructors <avoid-option-arrays-in-constructors>`
     + :ref:`Can't Instantiate Class <can't-instantiate-class>`
     + :ref:`Constructors <constructors>`
+    + :ref:`Different Constructors <different-constructors>`
     + :ref:`Don't Send $this In Constructor <don't-send-$this-in-constructor>`
     + :ref:`Old Style Constructor <old-style-constructor>`
     + :ref:`Unfinished Object <unfinished-object>`
@@ -13436,7 +13439,7 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`must-be-one-of-pgsql_assoc,-pgsql_num,-or-pgsql_both <use-constant-as-arguments>`
 * :ref:`must-be-one-of-pgsql_notice_last,-pgsql_notice_all,-or-pgsql_notice_clear <use-constant-as-arguments>`
 * :ref:`must-contain-at-least-one-element <no-max-on-empty-array>`
-* :ref:`named-parameter-$x-overwrites-previous-argument <duplicate-named-parameter>`
+* :ref:`named-parameter-$%s-overwrites-previous-argument <duplicate-named-parameter>`
 * :ref:`needle-is-not-a-string-or-an-integer <strpos()-with-integers>`
 * :ref:`no-ending-delimiter-'%c'-found <regex-inventory>`
 * :ref:`non-static-method-%s\:\:%s()-cannot-be-called-statically <non-static-methods-called-in-a-static>`

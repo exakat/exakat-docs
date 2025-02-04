@@ -59,7 +59,7 @@ This analysis doesn't detect usage of variables with ``compact``.
 Connex PHP features
 -------------------
 
-  + `loop <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
+  + `Loops <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
 
 
 Suggestions

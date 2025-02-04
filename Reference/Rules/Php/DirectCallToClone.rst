@@ -48,8 +48,8 @@ See also `Directly calling __clone is allowed <https://wiki.php.net/rfc/abstract
 Connex PHP features
 -------------------
 
-  + `clone <https://php-dictionary.readthedocs.io/en/latest/dictionary/clone.ini.html>`_
-  + `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
+  + `Clone <https://php-dictionary.readthedocs.io/en/latest/dictionary/clone.ini.html>`_
+  + `Magic Methods <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
 
 
 Suggestions

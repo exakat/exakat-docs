@@ -56,7 +56,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `mixed <https://php-dictionary.readthedocs.io/en/latest/dictionary/mixed.ini.html>`_
+  + `Mixed <https://php-dictionary.readthedocs.io/en/latest/dictionary/mixed.ini.html>`_
 
 
 Suggestions

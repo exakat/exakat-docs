@@ -50,7 +50,7 @@ See also `#[Deprecated] <https://blog.jetbrains.com/phpstorm/2020/10/phpstorm-20
 Connex PHP features
 -------------------
 
-  + `deprecation <https://php-dictionary.readthedocs.io/en/latest/dictionary/deprecation.ini.html>`_
+  + `Deprecation <https://php-dictionary.readthedocs.io/en/latest/dictionary/deprecation.ini.html>`_
 
 
 Suggestions

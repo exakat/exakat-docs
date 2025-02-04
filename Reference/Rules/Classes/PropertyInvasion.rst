@@ -53,7 +53,7 @@ With a method that returns a reference, a link is created between an external va
 Connex PHP features
 -------------------
 
-  + `object-invasion <https://php-dictionary.readthedocs.io/en/latest/dictionary/object-invasion.ini.html>`_
+  + `Object Invasion <https://php-dictionary.readthedocs.io/en/latest/dictionary/object-invasion.ini.html>`_
 
 
 Suggestions

@@ -79,8 +79,8 @@ See also `How to pick bad function and variable names <http://mojones.net/how-to
 Connex PHP features
 -------------------
 
-  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
-  + `semantics <https://php-dictionary.readthedocs.io/en/latest/dictionary/semantics.ini.html>`_
+  + `Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `Semantics <https://php-dictionary.readthedocs.io/en/latest/dictionary/semantics.ini.html>`_
 
 
 Suggestions

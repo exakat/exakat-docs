@@ -50,8 +50,8 @@ See also `Syntax <https://www.php.net/manual/en/language.constants.syntax.php>`_
 Connex PHP features
 -------------------
 
-  + `const <https://php-dictionary.readthedocs.io/en/latest/dictionary/const.ini.html>`_
-  + `define <https://php-dictionary.readthedocs.io/en/latest/dictionary/define.ini.html>`_
+  + `Const <https://php-dictionary.readthedocs.io/en/latest/dictionary/const.ini.html>`_
+  + `define() <https://php-dictionary.readthedocs.io/en/latest/dictionary/define.ini.html>`_
 
 
 Suggestions

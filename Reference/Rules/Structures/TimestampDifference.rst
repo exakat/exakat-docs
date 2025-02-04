@@ -55,7 +55,7 @@ See also `PHP DateTime difference – it’s a trap! <http://blog.codebusters.pl
 Connex PHP features
 -------------------
 
-  + `date <https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html>`_
+  + `Dates <https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html>`_
 
 
 Suggestions

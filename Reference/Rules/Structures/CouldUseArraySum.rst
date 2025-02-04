@@ -45,7 +45,7 @@ This is a micro-optimisation : it will speed up the code, but won't bring large 
 Connex PHP features
 -------------------
 
-  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
 
 
 Suggestions

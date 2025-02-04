@@ -41,8 +41,8 @@ Those functions could also be marked as deprecated, with an `attribute <https://
 Connex PHP features
 -------------------
 
-  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
-  + `deprecated <https://php-dictionary.readthedocs.io/en/latest/dictionary/deprecated.ini.html>`_
+  + `Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `Deprecated <https://php-dictionary.readthedocs.io/en/latest/dictionary/deprecated.ini.html>`_
 
 
 Specs

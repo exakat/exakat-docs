@@ -65,7 +65,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `callable <https://php-dictionary.readthedocs.io/en/latest/dictionary/callable.ini.html>`_
+  + `Callables <https://php-dictionary.readthedocs.io/en/latest/dictionary/callable.ini.html>`_
 
 
 Suggestions

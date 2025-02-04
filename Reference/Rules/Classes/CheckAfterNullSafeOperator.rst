@@ -27,11 +27,11 @@ Check After Null Safe Operator
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/CheckAfterNullSafeOperator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/CheckAfterNullSafeOperator.html","name":"Check After Null Safe Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Null-safe operator is ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Check After Null Safe Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-Null-safe operator is ``?->``, which prevents fatal errors in case the object of the call is `NULL <https://www.php.net/manual/en/language.types.null.php>`_. The execution continues, though the `result <https://www.php.net/result>`_ of the expression is now `NULL <https://www.php.net/manual/en/language.types.null.php>`_ too. 
+`Null <https://www.php.net/`null <https://www.php.net/null>`_>`_-safe operator is ``?->``, which prevents fatal errors in case the object of the call is `NULL <https://www.php.net/manual/en/language.types.`null <https://www.php.net/null>`_.php>`_. The execution continues, though the `result <https://www.php.net/result>`_ of the expression is now `NULL <https://www.php.net/manual/en/language.types.`null <https://www.php.net/null>`_.php>`_ too. 
 
-While it saves some checks in certain cases, the null-safe operator should be followed by a check on the returned value to process any misfire of the method. 
+While it saves some checks in certain cases, the `null <https://www.php.net/`null <https://www.php.net/null>`_>`_-safe operator should be followed by a check on the returned value to process any misfire of the method. 
 
-This analysis checks that the `result <https://www.php.net/result>`_ of the expression is collected, and compared to null.
+This analysis checks that the `result <https://www.php.net/result>`_ of the expression is collected, and compared to `null <https://www.php.net/`null <https://www.php.net/null>`_>`_.
 
 .. code-block:: php
    
@@ -47,7 +47,7 @@ This analysis checks that the `result <https://www.php.net/result>`_ of the expr
 Connex PHP features
 -------------------
 
-  + `nullsafe-object-operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/nullsafe-object-operator.ini.html>`_
+  + `Null Safe Object Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/nullsafe-object-operator.ini.html>`_
 
 
 Suggestions

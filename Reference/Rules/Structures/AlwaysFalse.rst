@@ -53,7 +53,7 @@ Based on the incoming type of arguments, the comparison always yields the same v
 Connex PHP features
 -------------------
 
-  + `comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
+  + `Comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
 
 
 Suggestions

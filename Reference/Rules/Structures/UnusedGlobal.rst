@@ -41,8 +41,8 @@ A global keyword is used in a method, yet the variable is not actually used. Thi
 Connex PHP features
 -------------------
 
-  + `global <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
-  + `unused <https://php-dictionary.readthedocs.io/en/latest/dictionary/unused.ini.html>`_
+  + `global Scope <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
+  + `Unused <https://php-dictionary.readthedocs.io/en/latest/dictionary/unused.ini.html>`_
 
 
 Suggestions

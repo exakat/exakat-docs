@@ -53,7 +53,7 @@ See also `String to Number Comparison <https://www.php.net/manual/en/migration80
 Connex PHP features
 -------------------
 
-  + `comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
+  + `Comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
 
 
 Suggestions

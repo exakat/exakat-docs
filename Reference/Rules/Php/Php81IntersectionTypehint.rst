@@ -47,8 +47,8 @@ See also `PHP RFC: Pure intersection types <https://wiki.php.net/rfc/pure-inters
 Connex PHP features
 -------------------
 
-  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
-  + `union-type <https://php-dictionary.readthedocs.io/en/latest/dictionary/union-type.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `Union Type <https://php-dictionary.readthedocs.io/en/latest/dictionary/union-type.ini.html>`_
 
 
 Specs

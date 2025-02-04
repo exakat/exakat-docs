@@ -50,7 +50,7 @@ See also `mcrypt_create_iv() <https://www.php.net/manual/en/function.mcrypt-crea
 Connex PHP features
 -------------------
 
-  + `mcrypt <https://php-dictionary.readthedocs.io/en/latest/dictionary/mcrypt.ini.html>`_
+  + `mcrypt Extension <https://php-dictionary.readthedocs.io/en/latest/dictionary/mcrypt.ini.html>`_
 
 
 Suggestions

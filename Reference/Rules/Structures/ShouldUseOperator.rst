@@ -36,13 +36,13 @@ Beware, some edge cases may apply. In particular, backward compatibility may pre
 * function_get_arg() and function_get_args() is equivalent to ellipsis : `... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_
 * `chr() <https://www.php.net/chr>`_ is equivalent to string escape sequences, such as ``\n``, ``\x69``, ``u{04699}``
 * `call_user_func() <https://www.php.net/call_user_func>`_ is equivalent to ``$functionName(arguments)``, ``$object->$method(`... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_$arguments)``
-* `is_null() <https://www.php.net/is_null>`_ is equivalent to ``=== null``
-* php_version() is equivalent to ``PHP_VERSION`` (the constant)
+* `is_null() <https://www.php.net/is_null>`_ is equivalent to ``=== `null <https://www.php.net/`null <https://www.php.net/null>`_>`_``
+* `php_version() <https://www.php.net/php_version>`_ is equivalent to ``PHP_VERSION`` (the constant)
 * `is_array() <https://www.php.net/is_array>`_, `is_int() <https://www.php.net/is_int>`_, `is_object() <https://www.php.net/is_object>`_, etc. is equivalent to a scalar type
 Connex PHP features
 -------------------
 
-  + `operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/operator.ini.html>`_
+  + `Operators <https://php-dictionary.readthedocs.io/en/latest/dictionary/operator.ini.html>`_
 
 
 Suggestions

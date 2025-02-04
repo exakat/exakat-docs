@@ -65,8 +65,8 @@ See also `DivisionByZeroError <https://www.php.net/manual/fr/class.divisionbyzer
 Connex PHP features
 -------------------
 
-  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
-  + `arithmeticerror <https://php-dictionary.readthedocs.io/en/latest/dictionary/arithmeticerror.ini.html>`_
+  + `Exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+  + `ArithmeticError Error <https://php-dictionary.readthedocs.io/en/latest/dictionary/arithmeticerror.ini.html>`_
 
 
 Specs

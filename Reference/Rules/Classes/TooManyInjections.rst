@@ -65,7 +65,7 @@ See also `Dependency Injection Smells <http://seregazhuk.github.io/2017/05/04/di
 Connex PHP features
 -------------------
 
-  + `injection <https://php-dictionary.readthedocs.io/en/latest/dictionary/injection.ini.html>`_
+  + `Injection <https://php-dictionary.readthedocs.io/en/latest/dictionary/injection.ini.html>`_
 
 
 Suggestions

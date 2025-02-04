@@ -78,7 +78,7 @@ See also `__get performance questions with PHP <https://stackoverflow.com/questi
 Connex PHP features
 -------------------
 
-  + `memoization <https://php-dictionary.readthedocs.io/en/latest/dictionary/memoization.ini.html>`_
+  + `Memoization <https://php-dictionary.readthedocs.io/en/latest/dictionary/memoization.ini.html>`_
 
 
 Suggestions

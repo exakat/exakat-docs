@@ -32,7 +32,7 @@ Don't unset properties. They would go undefined, and raise warnings of undefined
 When getting rid of a property, assign it to `null`. This keeps the property defined in the object, yet allows existence check without errors.
 This analysis works on properties and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties. It also reports magic properties being unset.
 
-Thanks for `Benoit Burnichon <https://twitter.com/BenoitBurnichon>`_ for the original idea.
+Thanks for `Benoit Burnichon <https://twitter.`com <https://www.php.net/com>`_/BenoitBurnichon>`_ for the original idea.
 
 .. code-block:: php
    
@@ -70,7 +70,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+  + `Properties <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
 
 
 Suggestions

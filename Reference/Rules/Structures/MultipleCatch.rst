@@ -46,8 +46,8 @@ This rule reports when a try structure have several catch statements. Usually, t
 Connex PHP features
 -------------------
 
-  + `try <https://php-dictionary.readthedocs.io/en/latest/dictionary/try.ini.html>`_
-  + `catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
+  + `Try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try.ini.html>`_
+  + `Catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
 
 
 Specs

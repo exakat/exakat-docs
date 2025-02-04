@@ -27,7 +27,7 @@ Undefined Interfaces
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/UndefinedInterfaces.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/UndefinedInterfaces.html","name":"Undefined Interfaces","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"Some types or ``instanceof`` that are relying on undefined interfaces or classes: the validation of the type will always fail and return false","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Undefined Interfaces.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-Some types or ``instanceof`` that are relying on undefined interfaces or classes: the validation of the type will always fail and return false. Any condition based upon them are dead code.
+Some types or ``instanceof`` that are relying on undefined interfaces or classes: the validation of the type will always fail and return `false <https://www.php.net/false>`_. Any condition based upon them are dead code.
 
 .. code-block:: php
    
@@ -60,7 +60,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+  + `Interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
 
 
 Suggestions

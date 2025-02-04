@@ -51,7 +51,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `arcane <https://php-dictionary.readthedocs.io/en/latest/dictionary/arcane.ini.html>`_
+  + `Arcane <https://php-dictionary.readthedocs.io/en/latest/dictionary/arcane.ini.html>`_
 
 
 Suggestions

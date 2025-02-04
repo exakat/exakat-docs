@@ -52,8 +52,8 @@ This rule may lead to the usage of the ``Override`` `attribute <https://www.php.
 Connex PHP features
 -------------------
 
-  + `inheritance <https://php-dictionary.readthedocs.io/en/latest/dictionary/inheritance.ini.html>`_
-  + `override <https://php-dictionary.readthedocs.io/en/latest/dictionary/override.ini.html>`_
+  + `Inheritance <https://php-dictionary.readthedocs.io/en/latest/dictionary/inheritance.ini.html>`_
+  + `Override Attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/override.ini.html>`_
 
 
 Specs

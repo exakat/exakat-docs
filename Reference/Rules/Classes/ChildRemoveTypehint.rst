@@ -45,7 +45,7 @@ PHP 7.2 introduced the ability to remove a type when overloading a method. This 
 Connex PHP features
 -------------------
 
-  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
 
 Specs

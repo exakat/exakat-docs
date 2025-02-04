@@ -54,7 +54,7 @@ The default threshold for this rule is 3 (see examples above).
 Connex PHP features
 -------------------
 
-  + `multidimensional-array <https://php-dictionary.readthedocs.io/en/latest/dictionary/multidimensional-array.ini.html>`_
+  + `Multidimensional Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/multidimensional-array.ini.html>`_
 
 
 Suggestions

@@ -45,9 +45,9 @@ This is mostly semantics, so it will affect the coder and the auditor of the cod
 Connex PHP features
 -------------------
 
-  + `parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
-  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
-  + `semantics <https://php-dictionary.readthedocs.io/en/latest/dictionary/semantics.ini.html>`_
+  + `Parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `Semantics <https://php-dictionary.readthedocs.io/en/latest/dictionary/semantics.ini.html>`_
 
 
 Suggestions

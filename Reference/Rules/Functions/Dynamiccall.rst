@@ -48,7 +48,7 @@ Mark a functioncall made with a variable name. This means the function is only k
 Connex PHP features
 -------------------
 
-  + `dynamic-call <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-call.ini.html>`_
+  + `Dynamic Call <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-call.ini.html>`_
 
 
 Specs

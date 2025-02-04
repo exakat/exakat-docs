@@ -57,7 +57,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `array-curly-braces <https://php-dictionary.readthedocs.io/en/latest/dictionary/array-curly-braces.ini.html>`_
+  + `Array With Curly Braces <https://php-dictionary.readthedocs.io/en/latest/dictionary/array-curly-braces.ini.html>`_
 
 
 Suggestions

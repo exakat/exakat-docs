@@ -58,7 +58,7 @@ See also `XHprof Documentation <http://web.archive.org/web/20110514095512/http:/
 Connex PHP features
 -------------------
 
-  + `profiler <https://php-dictionary.readthedocs.io/en/latest/dictionary/profiler.ini.html>`_
+  + `PHP Profiler <https://php-dictionary.readthedocs.io/en/latest/dictionary/profiler.ini.html>`_
 
 
 Specs

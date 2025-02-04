@@ -47,7 +47,7 @@ It may also be an non-idempotent method: that is, a method which has a different
 Connex PHP features
 -------------------
 
-  + `idempotent <https://php-dictionary.readthedocs.io/en/latest/dictionary/idempotent.ini.html>`_
+  + `Idempotent <https://php-dictionary.readthedocs.io/en/latest/dictionary/idempotent.ini.html>`_
 
 
 Suggestions

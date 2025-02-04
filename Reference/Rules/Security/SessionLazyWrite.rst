@@ -31,7 +31,7 @@ Classes that implements `SessionHandlerInterface <https://www.php.net/sessionhan
 
 The two extra methods are used to help lazy loading : the first actually checks if a sessionId is available, and the seconds updates the time of last usage of the session data in the session storage. 
 
-This was spotted by ``Nicolas Grekas``, and fixed in Symfony `[HttpFoundation] Make sessions `secure <https://www.php.net/secure>`_ and lazy #24523 <https://github.com/symfony/symfony/pull/24523>`_.
+This was spotted by ``Nicolas Grekas``, and fixed in Symfony `[HttpFoundation] Make sessions `secure <https://www.php.net/secure>`_ and lazy #24523 <https://github.`com <https://www.php.net/com>`_/symfony/symfony/pull/24523>`_.
 
 .. code-block:: php
    
@@ -53,7 +53,7 @@ See also `Sessions: Improve original RFC about lazy_write <https://wiki.php.net/
 Connex PHP features
 -------------------
 
-  + `session <https://php-dictionary.readthedocs.io/en/latest/dictionary/session.ini.html>`_
+  + `Session <https://php-dictionary.readthedocs.io/en/latest/dictionary/session.ini.html>`_
 
 
 Suggestions

@@ -56,8 +56,8 @@ See also `list() Reference Assignment <https://wiki.php.net/rfc/list_reference_a
 Connex PHP features
 -------------------
 
-  + `list <https://php-dictionary.readthedocs.io/en/latest/dictionary/list.ini.html>`_
-  + `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+  + `List <https://php-dictionary.readthedocs.io/en/latest/dictionary/list.ini.html>`_
+  + `References <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
 
 
 Suggestions

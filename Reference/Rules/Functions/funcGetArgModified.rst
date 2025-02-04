@@ -48,7 +48,7 @@ This code will display 1 in PHP 7, and 0 in PHP 5.
 Connex PHP features
 -------------------
 
-  + `arbitrary-argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/arbitrary-argument.ini.html>`_
+  + `Arbitrary Number Of Argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/arbitrary-argument.ini.html>`_
 
 
 Suggestions

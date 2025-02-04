@@ -50,8 +50,8 @@ See also `Magic methods <https://www.php.net/manual/en/language.oop5.magic.php>`
 Connex PHP features
 -------------------
 
-  + `naming <https://php-dictionary.readthedocs.io/en/latest/dictionary/naming.ini.html>`_
-  + `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
+  + `Naming <https://php-dictionary.readthedocs.io/en/latest/dictionary/naming.ini.html>`_
+  + `Magic Methods <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
 
 
 Suggestions

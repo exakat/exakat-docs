@@ -42,8 +42,8 @@ The web environement is identified through the usage of the superglobals: ``$_GE
 Connex PHP features
 -------------------
 
-  + `web <https://php-dictionary.readthedocs.io/en/latest/dictionary/web.ini.html>`_
-  + `superglobal <https://php-dictionary.readthedocs.io/en/latest/dictionary/superglobal.ini.html>`_
+  + `World Wide Weab (WWW) <https://php-dictionary.readthedocs.io/en/latest/dictionary/web.ini.html>`_
+  + `Superglobal Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/superglobal.ini.html>`_
 
 
 Specs

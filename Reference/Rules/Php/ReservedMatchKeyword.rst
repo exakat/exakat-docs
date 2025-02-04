@@ -71,7 +71,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
+  + `Match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
 
 
 Suggestions

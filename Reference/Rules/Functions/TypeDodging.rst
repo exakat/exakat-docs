@@ -51,7 +51,7 @@ This is part of the Liskov Substitution Principle, so the syntax is legit. When 
 Connex PHP features
 -------------------
 
-  + `liskov <https://php-dictionary.readthedocs.io/en/latest/dictionary/liskov.ini.html>`_
+  + `Liskov Substitution Principle (LSP) <https://php-dictionary.readthedocs.io/en/latest/dictionary/liskov.ini.html>`_
 
 
 Suggestions

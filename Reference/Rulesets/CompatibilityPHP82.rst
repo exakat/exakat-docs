@@ -23,28 +23,28 @@ This ruleset centralizes all analysis for the migration from PHP 8.1 to 8.2.
 
 Total : 22 analysis
 
-* :ref:`undefined-properties`
-* :ref:`false-to-array-conversion`
-* :ref:`float-conversion-as-index`
-* :ref:`cannot-call-static-trait-method-directly`
-* :ref:`deprecated-callable`
-* :ref:`checks-property-existence`
-* :ref:`extends-stdclass`
-* :ref:`version\_compare()-operator`
-* :ref:`dollar-curly-interpolation-is-deprecated`
-* :ref:`utf8-encode-and-decode-are-deprecated`
-* :ref:`new-functions-in-php-8.2`
-* :ref:`deprecated-mb\_string-encodings`
-* :ref:`constants-in-traits`
-* :ref:`readonly-property-changed-by-cloning`
-* :ref:`new-dynamic-class-constant-syntax`
-* :ref:`class\_alias()-supports-internal-classes`
-* :ref:`redeclared-static-variable`
-* :ref:`static-variable-can-default-to-arbitrary-expression`
-* :ref:`inherited-class-constant-visibility`
-* :ref:`final-traits-are-final`
-* :ref:`typed-class-constants-usage`
-* :ref:`static-variable-initialisation`
+* :ref:`classes-undefinedproperty`
+* :ref:`php-falsetoarray`
+* :ref:`arrays-floatconversionasindex`
+* :ref:`traits-cannotcalltraitmethod`
+* :ref:`functions-deprecatedcallable`
+* :ref:`classes-checkspropertyexistence`
+* :ref:`classes-extendsstdclass`
+* :ref:`php-versioncompareoperator`
+* :ref:`php-deprecatedollarcurly`
+* :ref:`php-utf8encodedeprecated`
+* :ref:`php-php82newfunctions`
+* :ref:`structures-deprecatedmbencoding`
+* :ref:`traits-constantsintraits`
+* :ref:`php-readonlypropertychangedbycloning`
+* :ref:`classes-newdynamicconstantsyntax`
+* :ref:`php-classaliassupportsinternalclasses`
+* :ref:`variables-redeclaredstaticvariable`
+* :ref:`php-staticvariabledefaultcanbeanyexpression`
+* :ref:`interfaces-inheritedclassconstantvisibility`
+* :ref:`traits-finaltraitsarefinal`
+* :ref:`classes-typedclassconstants`
+* :ref:`variables-staticvariableinitialisation`
 
 Specs
 _____

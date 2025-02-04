@@ -48,7 +48,7 @@ See also `Cant Use Return Value In Write Context <https://stackoverflow.com/ques
 Connex PHP features
 -------------------
 
-  + `return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
+  + `Return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
 
 
 Specs

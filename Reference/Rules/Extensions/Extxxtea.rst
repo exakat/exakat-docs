@@ -55,7 +55,7 @@ See also `PECL ext/xxtea <https://pecl.php.net/package/xxtea>`_ and `ext/xxtea o
 Connex PHP features
 -------------------
 
-  + `xxtea <https://php-dictionary.readthedocs.io/en/latest/dictionary/xxtea.ini.html>`_
+  + `XXTEA <https://php-dictionary.readthedocs.io/en/latest/dictionary/xxtea.ini.html>`_
 
 
 Specs

@@ -53,7 +53,7 @@ This applies to properties, constants and methods, `static <https://www.php.net/
 Connex PHP features
 -------------------
 
-  + `class-invasion <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-invasion.ini.html>`_
+  + `Class Invasion <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-invasion.ini.html>`_
 
 
 Specs

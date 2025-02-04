@@ -47,7 +47,7 @@ See also :ref:`Unknown Parameter Name <unknown-parameter-name>`.
 Connex PHP features
 -------------------
 
-  + `named-parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/named-parameter.ini.html>`_
+  + `Named Parameters <https://php-dictionary.readthedocs.io/en/latest/dictionary/named-parameter.ini.html>`_
 
 
 Suggestions

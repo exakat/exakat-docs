@@ -50,7 +50,7 @@ Try exiting the function/class with return, or throw `exception <https://www.php
 Connex PHP features
 -------------------
 
-  + `exit <https://php-dictionary.readthedocs.io/en/latest/dictionary/exit.ini.html>`_
+  + `Exit <https://php-dictionary.readthedocs.io/en/latest/dictionary/exit.ini.html>`_
 
 
 Suggestions

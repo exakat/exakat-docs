@@ -56,7 +56,7 @@ See also `Compulsory parameters should be required in your constructor <http://b
 Connex PHP features
 -------------------
 
-  + `object <https://php-dictionary.readthedocs.io/en/latest/dictionary/object.ini.html>`_
+  + `Object <https://php-dictionary.readthedocs.io/en/latest/dictionary/object.ini.html>`_
   + `constructor <https://php-dictionary.readthedocs.io/en/latest/dictionary/constructor.ini.html>`_
 
 

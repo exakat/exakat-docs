@@ -54,9 +54,9 @@ This rules applies to recursive functions without any condition. This also appli
 Connex PHP features
 -------------------
 
-  + `loop <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
-  + `recursion <https://php-dictionary.readthedocs.io/en/latest/dictionary/recursion.ini.html>`_
-  + `infinite <https://php-dictionary.readthedocs.io/en/latest/dictionary/infinite.ini.html>`_
+  + `Loops <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
+  + `Recursion <https://php-dictionary.readthedocs.io/en/latest/dictionary/recursion.ini.html>`_
+  + `Infinite <https://php-dictionary.readthedocs.io/en/latest/dictionary/infinite.ini.html>`_
 
 
 Suggestions

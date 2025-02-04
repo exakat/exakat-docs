@@ -49,7 +49,7 @@ At that point, the example illustrates how a XXE works : by using the XML `engin
 
    
    
-   &lt;!DOCTYPE replace [&lt;!ENTITY writer SYSTEM "https://www.example.com/entities.dtd"&gt; ]&gt;
+   &lt;!DOCTYPE replace [&lt;!ENTITY writer SYSTEM "https://www.example.`com <https://www.php.net/com>`_/entities.dtd"&gt; ]&gt;
    <replace>&xxe;</replace>
    
    
@@ -72,7 +72,7 @@ See also `XML External Entity <https://github.com/swisskyrepo/PayloadsAllTheThin
 Connex PHP features
 -------------------
 
-  + `xml <https://php-dictionary.readthedocs.io/en/latest/dictionary/xml.ini.html>`_
+  + `Extensible Markup Language (XML) <https://php-dictionary.readthedocs.io/en/latest/dictionary/xml.ini.html>`_
 
 
 Suggestions

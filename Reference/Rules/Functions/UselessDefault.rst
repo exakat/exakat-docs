@@ -55,8 +55,8 @@ One of the argument has a default value, and this default value is never used. E
 Connex PHP features
 -------------------
 
-  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
-  + `default <https://php-dictionary.readthedocs.io/en/latest/dictionary/default.ini.html>`_
+  + `Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `Default <https://php-dictionary.readthedocs.io/en/latest/dictionary/default.ini.html>`_
 
 
 Suggestions

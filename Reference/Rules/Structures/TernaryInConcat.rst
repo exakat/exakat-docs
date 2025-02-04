@@ -49,8 +49,8 @@ See also `Operator Precedence <https://www.php.net/manual/en/language.operators.
 Connex PHP features
 -------------------
 
-  + `ternary <https://php-dictionary.readthedocs.io/en/latest/dictionary/ternary.ini.html>`_
-  + `concatenation <https://php-dictionary.readthedocs.io/en/latest/dictionary/concatenation.ini.html>`_
+  + `Ternary Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/ternary.ini.html>`_
+  + `Concatenation <https://php-dictionary.readthedocs.io/en/latest/dictionary/concatenation.ini.html>`_
 
 
 Suggestions

@@ -58,7 +58,7 @@ Methods that may not return, but are often expected to : `__call() <https://www.
 Connex PHP features
 -------------------
 
-  + `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
+  + `Magic Methods <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
 
 
 Suggestions

@@ -49,7 +49,7 @@ See also `New object type <https://www.php.net/manual/en/migration72.new-feature
 Connex PHP features
 -------------------
 
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
 
 
 Specs

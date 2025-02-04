@@ -48,7 +48,7 @@ See also `Readonly properties <https://www.php.net/manual/en/language.oop5.prope
 Connex PHP features
 -------------------
 
-  + `readonly <https://php-dictionary.readthedocs.io/en/latest/dictionary/readonly.ini.html>`_
+  + `Readonly <https://php-dictionary.readthedocs.io/en/latest/dictionary/readonly.ini.html>`_
 
 
 Specs

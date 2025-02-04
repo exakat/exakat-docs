@@ -50,11 +50,11 @@ This is a starting point for reviewing large blocks of code and extract methods.
 Connex PHP features
 -------------------
 
-  + `inclusion <https://php-dictionary.readthedocs.io/en/latest/dictionary/inclusion.ini.html>`_
-  + `ifthen <https://php-dictionary.readthedocs.io/en/latest/dictionary/ifthen.ini.html>`_
-  + `foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
-  + `while <https://php-dictionary.readthedocs.io/en/latest/dictionary/while.ini.html>`_
-  + `dowhile <https://php-dictionary.readthedocs.io/en/latest/dictionary/dowhile.ini.html>`_
+  + `Inclusions <https://php-dictionary.readthedocs.io/en/latest/dictionary/inclusion.ini.html>`_
+  + `If Then Else <https://php-dictionary.readthedocs.io/en/latest/dictionary/ifthen.ini.html>`_
+  + `Foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
+  + `While <https://php-dictionary.readthedocs.io/en/latest/dictionary/while.ini.html>`_
+  + `Do...while <https://php-dictionary.readthedocs.io/en/latest/dictionary/dowhile.ini.html>`_
 
 
 Specs

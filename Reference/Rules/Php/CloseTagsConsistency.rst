@@ -45,7 +45,7 @@ The PHP manual recommends : "If a file is pure PHP code, it is preferable to omi
 Connex PHP features
 -------------------
 
-  + `close-tag <https://php-dictionary.readthedocs.io/en/latest/dictionary/close-tag.ini.html>`_
+  + `Close Tag <https://php-dictionary.readthedocs.io/en/latest/dictionary/close-tag.ini.html>`_
 
 
 Specs

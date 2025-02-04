@@ -63,8 +63,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `addition <https://php-dictionary.readthedocs.io/en/latest/dictionary/addition.ini.html>`_
-  + `concatenation <https://php-dictionary.readthedocs.io/en/latest/dictionary/concatenation.ini.html>`_
+  + `Addition <https://php-dictionary.readthedocs.io/en/latest/dictionary/addition.ini.html>`_
+  + `Concatenation <https://php-dictionary.readthedocs.io/en/latest/dictionary/concatenation.ini.html>`_
 
 
 Suggestions

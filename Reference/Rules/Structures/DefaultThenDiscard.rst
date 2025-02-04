@@ -56,7 +56,7 @@ It is more readable to test the value, and discard it, or assign it later, rathe
 Connex PHP features
 -------------------
 
-  + `default <https://php-dictionary.readthedocs.io/en/latest/dictionary/default.ini.html>`_
+  + `Default <https://php-dictionary.readthedocs.io/en/latest/dictionary/default.ini.html>`_
 
 
 Suggestions

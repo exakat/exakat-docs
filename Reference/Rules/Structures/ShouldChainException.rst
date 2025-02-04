@@ -50,7 +50,7 @@ See also `Exception::__construct <https://www.php.net/manual/en/exception.constr
 Connex PHP features
 -------------------
 
-  + `exception-chain <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception-chain.ini.html>`_
+  + `Chaining Exceptions <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception-chain.ini.html>`_
 
 
 Suggestions

@@ -57,7 +57,7 @@ See also `PHP RFC: Allow trailing comma in parameter list <https://wiki.php.net/
 Connex PHP features
 -------------------
 
-  + `trailing-comma <https://php-dictionary.readthedocs.io/en/latest/dictionary/trailing-comma.ini.html>`_
+  + `Trailing Comma <https://php-dictionary.readthedocs.io/en/latest/dictionary/trailing-comma.ini.html>`_
 
 
 Specs

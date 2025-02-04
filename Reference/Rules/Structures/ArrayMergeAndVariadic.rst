@@ -48,7 +48,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `variadic <https://php-dictionary.readthedocs.io/en/latest/dictionary/variadic.ini.html>`_
+  + `Variadic <https://php-dictionary.readthedocs.io/en/latest/dictionary/variadic.ini.html>`_
 
 
 Suggestions

@@ -47,8 +47,8 @@ Either the condition is useless, and may be removed, or the alternatives need to
 Connex PHP features
 -------------------
 
-  + `branch <https://php-dictionary.readthedocs.io/en/latest/dictionary/branch.ini.html>`_
-  + `condition <https://php-dictionary.readthedocs.io/en/latest/dictionary/condition.ini.html>`_
+  + `Branch <https://php-dictionary.readthedocs.io/en/latest/dictionary/branch.ini.html>`_
+  + `Condition <https://php-dictionary.readthedocs.io/en/latest/dictionary/condition.ini.html>`_
 
 
 Suggestions

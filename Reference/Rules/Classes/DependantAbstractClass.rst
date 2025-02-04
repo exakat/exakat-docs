@@ -64,7 +64,7 @@ See also :ref:`Dependant Trait <dependant-trait>`.
 Connex PHP features
 -------------------
 
-  + `abstract <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
+  + `Abstract Keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
 
 
 Suggestions

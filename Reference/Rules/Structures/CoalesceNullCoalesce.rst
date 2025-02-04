@@ -27,11 +27,11 @@ Coalesce And Ternary Operators Order
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CoalesceNullCoalesce.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CoalesceNullCoalesce.html","name":"Coalesce And Ternary Operators Order","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"The ternary operator and the null-coalesce operator cannot be used in any order","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Coalesce And Ternary Operators Order.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-The ternary operator and the null-coalesce operator cannot be used in any order. The ternary operator is wider, so ot should be used last.
+The ternary operator and the `null <https://www.php.net/`null <https://www.php.net/null>`_>`_-coalesce operator cannot be used in any order. The ternary operator is wider, so ot should be used last.
 
-In particular, the ternary operator works on truthy values, and `NULL <https://www.php.net/manual/en/language.types.null.php>`_ is a falsy one. So, `NULL <https://www.php.net/manual/en/language.types.null.php>`_ might be captured by the ternary operator, and the following coalesce operator has no chance to process it. 
+In particular, the ternary operator works on truthy values, and `NULL <https://www.php.net/manual/en/language.types.`null <https://www.php.net/null>`_.php>`_ is a falsy one. So, `NULL <https://www.php.net/manual/en/language.types.`null <https://www.php.net/null>`_.php>`_ might be captured by the ternary operator, and the following coalesce operator has no chance to process it. 
 
-On the other hand, the coalesce operator only process `NULL <https://www.php.net/manual/en/language.types.null.php>`_, and will leave the false (or any other falsy value) to process to the ternary operator.
+On the other hand, the coalesce operator only process `NULL <https://www.php.net/manual/en/language.types.`null <https://www.php.net/null>`_.php>`_, and will leave the `false <https://www.php.net/false>`_ (or any other falsy value) to process to the ternary operator.
 
 .. code-block:: php
    
@@ -47,9 +47,9 @@ On the other hand, the coalesce operator only process `NULL <https://www.php.net
 Connex PHP features
 -------------------
 
-  + `ternary <https://php-dictionary.readthedocs.io/en/latest/dictionary/ternary.ini.html>`_
-  + `null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
-  + `coalesce <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
+  + `Ternary Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/ternary.ini.html>`_
+  + `Null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
+  + `Coalesce Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
 
 
 Suggestions

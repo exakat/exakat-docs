@@ -29,9 +29,9 @@ Indices Are Int Or String
 
 Indices in an array notation such as ``$array['indice']`` may only be integers or string.
 
-Boolean, Null or float are converted to their integer or string equivalent.
+Boolean, `Null <https://www.php.net/`null <https://www.php.net/null>`_>`_ or float are converted to their integer or string equivalent.
 
-Decimal numbers are rounded to the closest integer; ``null`` is transtyped to ``''`` (empty string); true is 1 and false is 0; Integers in strings are transtyped, while partial numbers or decimals are not analyzed in strings. 
+Decimal numbers are rounded to the closest integer; ``null`` is transtyped to ``''`` (empty string); `true <https://www.php.net/true>`_ is 1 and `false <https://www.php.net/false>`_ is 0; Integers in strings are transtyped, while partial numbers or decimals are not analyzed in strings. 
 
 As a general rule of thumb, only use integers or strings that don\'t look like integers. 
 
@@ -90,7 +90,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
 
 
 Suggestions

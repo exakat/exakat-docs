@@ -57,7 +57,7 @@ Those are the following functions :
 Connex PHP features
 -------------------
 
-  + `mbstring <https://php-dictionary.readthedocs.io/en/latest/dictionary/mbstring.ini.html>`_
+  + `Multibyte String <https://php-dictionary.readthedocs.io/en/latest/dictionary/mbstring.ini.html>`_
 
 
 Suggestions

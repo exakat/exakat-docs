@@ -61,8 +61,8 @@ Here, `break <https://www.php.net/manual/en/control-structures.break.php>`_ may 
 Connex PHP features
 -------------------
 
-  + `loop <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
-  + `break <https://php-dictionary.readthedocs.io/en/latest/dictionary/break.ini.html>`_
+  + `Loops <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
+  + `Break <https://php-dictionary.readthedocs.io/en/latest/dictionary/break.ini.html>`_
 
 
 Suggestions

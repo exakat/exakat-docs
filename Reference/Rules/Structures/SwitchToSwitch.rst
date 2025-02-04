@@ -80,8 +80,8 @@ See also `PHP 7.2's switch optimisations <https://derickrethans.nl/php7.2-switch
 Connex PHP features
 -------------------
 
-  + `switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
-  + `match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
+  + `Switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
+  + `Match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
 
 
 Suggestions

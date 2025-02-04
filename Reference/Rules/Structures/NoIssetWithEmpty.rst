@@ -29,7 +29,7 @@ No isset() With empty()
 
 empty() actually does the job of `isset() <https://www.www.php.net/isset>`_ too. 
 
-From the manual : ``No warning is generated if the variable does not exist. That means empty() is essentially the concise equivalent to !`isset( <https://www.www.php.net/isset>`_$var) || $var == false.`` The main difference is that `isset() <https://www.www.php.net/isset>`_ only works with variables, while empty() works with other structures, such as constants.
+From the manual : ``No warning is generated if the variable does not exist. That means empty() is essentially the concise equivalent to !`isset( <https://www.www.php.net/isset>`_$var) || $var == `false <https://www.php.net/false>`_.`` The main difference is that `isset() <https://www.www.php.net/isset>`_ only works with variables, while empty() works with other structures, such as constants.
 
 .. code-block:: php
    
@@ -53,7 +53,7 @@ See also `Isset <http://www.php.net/isset>`_ and `empty <http://www.php.net/empt
 Connex PHP features
 -------------------
 
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
 
 
 Suggestions

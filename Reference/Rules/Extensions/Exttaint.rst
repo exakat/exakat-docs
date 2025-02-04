@@ -43,7 +43,7 @@ See also `taint <https://www.php.net/manual/en/book.taint.php>`_ and `taint on g
 Connex PHP features
 -------------------
 
-  + `taint <https://php-dictionary.readthedocs.io/en/latest/dictionary/taint.ini.html>`_
+  + `Taint Analysis <https://php-dictionary.readthedocs.io/en/latest/dictionary/taint.ini.html>`_
 
 
 Specs

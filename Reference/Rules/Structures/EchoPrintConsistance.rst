@@ -58,8 +58,8 @@ It happens that print, echo or <?= are used depending on coding style and files.
 Connex PHP features
 -------------------
 
-  + `echo <https://php-dictionary.readthedocs.io/en/latest/dictionary/echo.ini.html>`_
-  + `print <https://php-dictionary.readthedocs.io/en/latest/dictionary/print.ini.html>`_
+  + `Echo <https://php-dictionary.readthedocs.io/en/latest/dictionary/echo.ini.html>`_
+  + `Print <https://php-dictionary.readthedocs.io/en/latest/dictionary/print.ini.html>`_
 
 
 Specs

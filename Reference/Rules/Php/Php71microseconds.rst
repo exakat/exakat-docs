@@ -30,10 +30,10 @@ PHP 7.1 Microseconds
 PHP supports microseconds in ``DateTime`` class and `date_create() <https://www.php.net/date_create>`_ function. This was introduced in PHP 7.1.
 
 In previous PHP versions, those dates only used seconds, leading to lazy comparisons : 
-This code displays true in PHP 7.0 and older, (unless the code was run too close from the next second). In PHP 7.1, this is always false.
+This code displays `true <https://www.php.net/true>`_ in PHP 7.0 and older, (unless the code was run too close from the next second). In PHP 7.1, this is always `false <https://www.php.net/false>`_.
 
-This is also true with ``DateTime`` : 
-This evolution impacts mostly exact comparisons (== and ===). Non-equality (!= and !==) will probably be always true, and should be reviewed.
+This is also `true <https://www.php.net/true>`_ with ``DateTime`` : 
+This evolution impacts mostly exact comparisons (== and ===). Non-equality (!= and !==) will probably be always `true <https://www.php.net/true>`_, and should be reviewed.
 
 .. code-block:: php
    
@@ -50,7 +50,7 @@ See also `Backward incompatible changes <https://www.php.net/manual/en/migration
 Connex PHP features
 -------------------
 
-  + `microtime <https://php-dictionary.readthedocs.io/en/latest/dictionary/microtime.ini.html>`_
+  + `Microtime() <https://php-dictionary.readthedocs.io/en/latest/dictionary/microtime.ini.html>`_
 
 
 Suggestions

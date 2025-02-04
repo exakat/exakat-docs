@@ -57,7 +57,7 @@ Keeping one definition makes it clear which class is responsible for that proper
 Connex PHP features
 -------------------
 
-  + `dry <https://php-dictionary.readthedocs.io/en/latest/dictionary/dry.ini.html>`_
+  + `Don't Repeat Yourself (DRY) <https://php-dictionary.readthedocs.io/en/latest/dictionary/dry.ini.html>`_
 
 
 Suggestions

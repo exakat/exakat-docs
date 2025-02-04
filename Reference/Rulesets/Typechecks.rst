@@ -23,34 +23,34 @@ This ruleset focuses on typehinting. Missing typehints, or inconsistent typehint
 
 Total : 28 analysis
 
-* :ref:`argument-should-be-typed`
-* :ref:`useless-interfaces`
-* :ref:`no-class-as-type`
-* :ref:`mismatched-default-arguments`
-* :ref:`mismatched-type`
-* :ref:`child-class-removes-type`
-* :ref:`not-a-scalar-type`
-* :ref:`mismatch-type-and-default`
-* :ref:`insufficient-type`
-* :ref:`bad-type-relay`
-* :ref:`wrong-type-with-call`
-* :ref:`missing-type`
-* :ref:`fossilized-method`
-* :ref:`could-be-string`
-* :ref:`could-be-void`
-* :ref:`could-be-callable`
-* :ref:`wrong-argument-type`
-* :ref:`type-could-be-integer`
-* :ref:`could-be-null`
-* :ref:`typehint-could-be-iterable`
-* :ref:`could-be-float`
-* :ref:`could-be-self`
-* :ref:`could-be-parent`
-* :ref:`could-be-generator`
-* :ref:`this-could-be-iterable`
-* :ref:`type-could-be-never`
+* :ref:`functions-shouldbetypehinted`
+* :ref:`interfaces-uselessinterfaces`
+* :ref:`functions-noclassastypehint`
+* :ref:`functions-mismatcheddefaultarguments`
+* :ref:`functions-mismatchedtypehint`
+* :ref:`classes-childremovetypehint`
+* :ref:`php-notscalartype`
+* :ref:`functions-mismatchtypeanddefault`
+* :ref:`functions-insufficienttypehint`
+* :ref:`functions-badtypehintrelay`
+* :ref:`functions-wrongtypewithcall`
+* :ref:`functions-missingtypehint`
+* :ref:`classes-fossilizedmethod`
+* :ref:`typehints-couldbestring`
+* :ref:`typehints-couldbevoid`
+* :ref:`typehints-couldbecallable`
+* :ref:`functions-wrongargumenttype`
+* :ref:`typehints-couldbeint`
+* :ref:`typehints-couldbenull`
+* :ref:`typehints-couldbeiterable`
+* :ref:`typehints-couldbefloat`
+* :ref:`typehints-couldbeself`
+* :ref:`typehints-couldbeparent`
+* :ref:`typehints-couldbegenerator`
+* :ref:`classes-couldbeiterable`
+* :ref:`typehints-couldbenever`
 * :ref:`typehints-couldberesource`
-* :ref:`possible-typeerror`
+* :ref:`exceptions-possibletypeerror`
 
 Specs
 _____

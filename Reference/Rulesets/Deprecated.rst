@@ -33,14 +33,14 @@ For example :
 
 Total : 8 analysis
 
-* :ref:`is-an-extension-function`
-* :ref:`case-insensitive-constants`
-* :ref:`assert-function-is-reserved`
-* :ref:`nested-ternary-without-parenthesis`
-* :ref:`no-null-for-native-php-functions`
-* :ref:`calling-static-trait-method`
-* :ref:`no-referenced-void`
-* :ref:`php-native-interfaces-and-return-type`
+* :ref:`functions-isextfunction`
+* :ref:`constants-caseinsensitiveconstants`
+* :ref:`php-assertfunctionisreserved`
+* :ref:`php-nestedternarywithoutparenthesis`
+* :ref:`php-nonullfornative`
+* :ref:`php-callingstatictraitmethod`
+* :ref:`functions-noreferencedvoid`
+* :ref:`php-jsonserializereturntype`
 
 Specs
 _____

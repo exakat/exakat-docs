@@ -50,8 +50,8 @@ Thanks to the `PMB <https://www.sigb.net/>`_ team for the inspiration.
 Connex PHP features
 -------------------
 
-  + `comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
-  + `iffectation <https://php-dictionary.readthedocs.io/en/latest/dictionary/iffectation.ini.html>`_
+  + `Comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
+  + `Iffectation <https://php-dictionary.readthedocs.io/en/latest/dictionary/iffectation.ini.html>`_
 
 
 Suggestions

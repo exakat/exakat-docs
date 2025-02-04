@@ -45,7 +45,7 @@ Connex PHP features
 -------------------
 
   + `throw <https://php-dictionary.readthedocs.io/en/latest/dictionary/throw.ini.html>`_
-  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+  + `Exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
 
 
 Suggestions

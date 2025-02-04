@@ -47,7 +47,7 @@ See also `Exceptions <https://www.php.net/manual/en/language.exceptions.php>`_.
 Connex PHP features
 -------------------
 
-  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+  + `Exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
 
 
 Specs

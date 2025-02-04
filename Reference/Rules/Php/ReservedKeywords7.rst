@@ -29,7 +29,7 @@ Reserved Keywords In PHP 7
 
 PHP reserved names for class/trait/interface. They won't be available anymore in user space starting with PHP 7.
 
-For example, string, float, false, true, null, resource,`... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ are not acceptable as class name.
+For example, string, float, `false <https://www.php.net/false>`_, `true <https://www.php.net/true>`_, `null <https://www.php.net/`null <https://www.php.net/null>`_>`_, resource,`... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ are not acceptable as class name.
 
 .. code-block:: php
    
@@ -45,7 +45,7 @@ See also `List of other reserved words <https://www.php.net/manual/en/reserved.o
 Connex PHP features
 -------------------
 
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
 
 
 Suggestions

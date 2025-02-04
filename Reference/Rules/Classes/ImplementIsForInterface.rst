@@ -61,7 +61,7 @@ Connex PHP features
 -------------------
 
   + `implements <https://php-dictionary.readthedocs.io/en/latest/dictionary/implements.ini.html>`_
-  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+  + `Interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
 
 
 Suggestions

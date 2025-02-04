@@ -64,8 +64,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
-  + `intersection-type <https://php-dictionary.readthedocs.io/en/latest/dictionary/intersection-type.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `Intersection Type <https://php-dictionary.readthedocs.io/en/latest/dictionary/intersection-type.ini.html>`_
 
 
 Specs

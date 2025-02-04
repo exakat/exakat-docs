@@ -50,7 +50,7 @@ Ternary operator applies a condition, and yield two different results. Those res
 Connex PHP features
 -------------------
 
-  + `ternary <https://php-dictionary.readthedocs.io/en/latest/dictionary/ternary.ini.html>`_
+  + `Ternary Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/ternary.ini.html>`_
 
 
 Suggestions

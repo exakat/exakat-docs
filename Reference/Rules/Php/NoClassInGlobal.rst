@@ -47,9 +47,9 @@ Avoid defining structures in Global namespace. Always prefer using a namespace. 
 Connex PHP features
 -------------------
 
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
-  + `global-space <https://php-dictionary.readthedocs.io/en/latest/dictionary/global-space.ini.html>`_
-  + `global-code <https://php-dictionary.readthedocs.io/en/latest/dictionary/global-code.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Global Space <https://php-dictionary.readthedocs.io/en/latest/dictionary/global-space.ini.html>`_
+  + `Global Code <https://php-dictionary.readthedocs.io/en/latest/dictionary/global-code.ini.html>`_
 
 
 Suggestions

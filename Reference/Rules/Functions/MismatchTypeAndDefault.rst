@@ -76,8 +76,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
-  + `default <https://php-dictionary.readthedocs.io/en/latest/dictionary/default.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `Default <https://php-dictionary.readthedocs.io/en/latest/dictionary/default.ini.html>`_
 
 
 Suggestions

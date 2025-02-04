@@ -57,8 +57,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `final <https://php-dictionary.readthedocs.io/en/latest/dictionary/final.ini.html>`_
-  + `private <https://php-dictionary.readthedocs.io/en/latest/dictionary/private.ini.html>`_
+  + `Final Keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/final.ini.html>`_
+  + `Private Visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/private.ini.html>`_
 
 
 Suggestions

@@ -55,7 +55,7 @@ See also `count <https://www.php.net/count>`_, `strlen <https://www.php.net/strl
 Connex PHP features
 -------------------
 
-  + `count <https://php-dictionary.readthedocs.io/en/latest/dictionary/count.ini.html>`_
+  + `count() <https://php-dictionary.readthedocs.io/en/latest/dictionary/count.ini.html>`_
 
 
 Suggestions

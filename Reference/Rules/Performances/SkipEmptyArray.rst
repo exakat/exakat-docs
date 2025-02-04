@@ -51,9 +51,9 @@ This is a micro-optimisation. It is more efficient with larger arrays.
 Connex PHP features
 -------------------
 
-  + `merge <https://php-dictionary.readthedocs.io/en/latest/dictionary/merge.ini.html>`_
-  + `performance <https://php-dictionary.readthedocs.io/en/latest/dictionary/performance.ini.html>`_
-  + `micro-optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html>`_
+  + `Merge <https://php-dictionary.readthedocs.io/en/latest/dictionary/merge.ini.html>`_
+  + `Performance <https://php-dictionary.readthedocs.io/en/latest/dictionary/performance.ini.html>`_
+  + `Micro-optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html>`_
 
 
 Specs

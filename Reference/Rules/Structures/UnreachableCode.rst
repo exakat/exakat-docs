@@ -78,7 +78,7 @@ See also `Unreachable code <https://en.wikipedia.org/wiki/Unreachable_code>`_.
 Connex PHP features
 -------------------
 
-  + `unreachable-code <https://php-dictionary.readthedocs.io/en/latest/dictionary/unreachable-code.ini.html>`_
+  + `Unreachable Code <https://php-dictionary.readthedocs.io/en/latest/dictionary/unreachable-code.ini.html>`_
 
 
 Suggestions

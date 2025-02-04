@@ -62,7 +62,7 @@ There is a dedicated compile-time `error <https://www.php.net/error>`_.
 Connex PHP features
 -------------------
 
-  + `override <https://php-dictionary.readthedocs.io/en/latest/dictionary/override.ini.html>`_
+  + `Override Attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/override.ini.html>`_
 
 
 Specs

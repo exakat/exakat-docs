@@ -73,7 +73,7 @@ See also `Don't repeat yourself (DRY) <https://en.wikipedia.org/wiki/Don%27t_rep
 Connex PHP features
 -------------------
 
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
 
 
 Suggestions

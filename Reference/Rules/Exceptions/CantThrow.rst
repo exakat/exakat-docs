@@ -55,9 +55,9 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `throwable <https://php-dictionary.readthedocs.io/en/latest/dictionary/throwable.ini.html>`_
-  + `error <https://php-dictionary.readthedocs.io/en/latest/dictionary/error.ini.html>`_
-  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+  + `Throwable <https://php-dictionary.readthedocs.io/en/latest/dictionary/throwable.ini.html>`_
+  + `Error <https://php-dictionary.readthedocs.io/en/latest/dictionary/error.ini.html>`_
+  + `Exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
 
 
 Suggestions

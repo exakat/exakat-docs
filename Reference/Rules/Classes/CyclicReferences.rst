@@ -61,7 +61,7 @@ See also `About circular references in PHP <https://johann.pardanaud.com/blog/ab
 Connex PHP features
 -------------------
 
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
   + `extends <https://php-dictionary.readthedocs.io/en/latest/dictionary/extends.ini.html>`_
 
 

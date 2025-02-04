@@ -49,7 +49,7 @@ See also `Argon2 Password Hash <https://wiki.php.net/rfc/argon2_password_hash>`_
 Connex PHP features
 -------------------
 
-  + `argon2 <https://php-dictionary.readthedocs.io/en/latest/dictionary/argon2.ini.html>`_
+  + `Argon2 <https://php-dictionary.readthedocs.io/en/latest/dictionary/argon2.ini.html>`_
 
 
 Specs

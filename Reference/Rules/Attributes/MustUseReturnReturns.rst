@@ -36,11 +36,11 @@ See also https://github.com/DaveLiddament/php-language-extensions?tab=readme-ov-
 Connex PHP features
 -------------------
 
-  + `attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
-  + `never <https://php-dictionary.readthedocs.io/en/latest/dictionary/never.ini.html>`_
-  + `void <https://php-dictionary.readthedocs.io/en/latest/dictionary/void.ini.html>`_
-  + `return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
-  + `returntype <https://php-dictionary.readthedocs.io/en/latest/dictionary/returntype.ini.html>`_
+  + `Attributes <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
+  + `Never Type <https://php-dictionary.readthedocs.io/en/latest/dictionary/never.ini.html>`_
+  + `Void <https://php-dictionary.readthedocs.io/en/latest/dictionary/void.ini.html>`_
+  + `Return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
+  + `Return Type <https://php-dictionary.readthedocs.io/en/latest/dictionary/returntype.ini.html>`_
 
 
 Suggestions

@@ -62,8 +62,8 @@ See also `Understanding Dependency Injection <http://php-di.org/doc/understandin
 Connex PHP features
 -------------------
 
-  + `dependency-injection <https://php-dictionary.readthedocs.io/en/latest/dictionary/dependency-injection.ini.html>`_
-  + `pattern <https://php-dictionary.readthedocs.io/en/latest/dictionary/pattern.ini.html>`_
+  + `Dependency Injection <https://php-dictionary.readthedocs.io/en/latest/dictionary/dependency-injection.ini.html>`_
+  + `Design Pattern <https://php-dictionary.readthedocs.io/en/latest/dictionary/pattern.ini.html>`_
 
 
 Specs

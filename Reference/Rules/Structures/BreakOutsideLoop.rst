@@ -53,8 +53,8 @@ It is not possible anymore to include a piece of code inside a loop that will th
 Connex PHP features
 -------------------
 
-  + `break <https://php-dictionary.readthedocs.io/en/latest/dictionary/break.ini.html>`_
-  + `loop <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
+  + `Break <https://php-dictionary.readthedocs.io/en/latest/dictionary/break.ini.html>`_
+  + `Loops <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
 
 
 Specs

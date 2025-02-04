@@ -62,7 +62,7 @@ See also `Ternary Operator <https://www.php.net/manual/en/language.operators.com
 Connex PHP features
 -------------------
 
-  + `ternary <https://php-dictionary.readthedocs.io/en/latest/dictionary/ternary.ini.html>`_
+  + `Ternary Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/ternary.ini.html>`_
 
 
 Suggestions

@@ -61,7 +61,7 @@ See also `php-psr <https://github.com/jbboehr/php-psr>`_ and `PHP-FIG <https://w
 Connex PHP features
 -------------------
 
-  + `psr <https://php-dictionary.readthedocs.io/en/latest/dictionary/psr.ini.html>`_
+  + `PHP Standards Recommendations (PSR) <https://php-dictionary.readthedocs.io/en/latest/dictionary/psr.ini.html>`_
 
 
 Specs

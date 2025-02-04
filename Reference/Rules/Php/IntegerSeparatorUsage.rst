@@ -46,7 +46,7 @@ See also `PHP RFC: Numeric Literal Separator <https://wiki.php.net/rfc/numeric_l
 Connex PHP features
 -------------------
 
-  + `integer-separator <https://php-dictionary.readthedocs.io/en/latest/dictionary/integer-separator.ini.html>`_
+  + `Numeric Separator <https://php-dictionary.readthedocs.io/en/latest/dictionary/integer-separator.ini.html>`_
 
 
 Specs

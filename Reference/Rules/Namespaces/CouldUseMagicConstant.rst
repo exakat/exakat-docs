@@ -53,7 +53,7 @@ Use the `__NAMESPACE__ <https://www.php.net/manual/en/language.constants.predefi
 Connex PHP features
 -------------------
 
-  + `magic-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-constant.ini.html>`_
+  + `Magic Constants <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-constant.ini.html>`_
 
 
 Suggestions

@@ -56,8 +56,8 @@ See also `10 GitHub Security Best Practices <https://snyk.io/blog/ten-git-hub-se
 Connex PHP features
 -------------------
 
-  + `password <https://php-dictionary.readthedocs.io/en/latest/dictionary/password.ini.html>`_
-  + `hard-coded <https://php-dictionary.readthedocs.io/en/latest/dictionary/hard-coded.ini.html>`_
+  + `Password <https://php-dictionary.readthedocs.io/en/latest/dictionary/password.ini.html>`_
+  + `Hard Coded <https://php-dictionary.readthedocs.io/en/latest/dictionary/hard-coded.ini.html>`_
 
 
 Suggestions

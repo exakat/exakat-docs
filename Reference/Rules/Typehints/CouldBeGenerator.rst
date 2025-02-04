@@ -47,9 +47,9 @@ See also `class <https://www.php.net/manual/en/language.oop5.basic.php#language.
 Connex PHP features
 -------------------
 
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
-  + `yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
-  + `yield-from <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield-from.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
+  + `yield from Keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield-from.ini.html>`_
 
 
 Suggestions

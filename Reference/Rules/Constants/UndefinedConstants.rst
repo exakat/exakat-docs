@@ -56,7 +56,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `typo <https://php-dictionary.readthedocs.io/en/latest/dictionary/typo.ini.html>`_
+  + `Typo <https://php-dictionary.readthedocs.io/en/latest/dictionary/typo.ini.html>`_
 
 
 Suggestions

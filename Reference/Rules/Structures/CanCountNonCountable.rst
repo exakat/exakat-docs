@@ -51,7 +51,7 @@ See also `Warn when counting non-countable types <https://www.php.net/manual/en/
 Connex PHP features
 -------------------
 
-  + `countable <https://php-dictionary.readthedocs.io/en/latest/dictionary/countable.ini.html>`_
+  + `Countable Interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/countable.ini.html>`_
 
 
 Suggestions

@@ -41,7 +41,7 @@ This rule reports usage of `die <https://www.php.net/die>`_ and `exit <https://w
 Connex PHP features
 -------------------
 
-  + `exit <https://php-dictionary.readthedocs.io/en/latest/dictionary/exit.ini.html>`_
+  + `Exit <https://php-dictionary.readthedocs.io/en/latest/dictionary/exit.ini.html>`_
 
 
 Specs

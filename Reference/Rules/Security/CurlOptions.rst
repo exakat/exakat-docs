@@ -50,9 +50,9 @@ See also `Don’t turn off CURLOPT_SSL_VERIFYPEER, fix your PHP configuration <h
 Connex PHP features
 -------------------
 
-  + `curl <https://php-dictionary.readthedocs.io/en/latest/dictionary/curl.ini.html>`_
-  + `ssl <https://php-dictionary.readthedocs.io/en/latest/dictionary/ssl.ini.html>`_
-  + `https <https://php-dictionary.readthedocs.io/en/latest/dictionary/https.ini.html>`_
+  + `Client URL (CURL) <https://php-dictionary.readthedocs.io/en/latest/dictionary/curl.ini.html>`_
+  + `SSL <https://php-dictionary.readthedocs.io/en/latest/dictionary/ssl.ini.html>`_
+  + `Hyper Text Transfer Protocol Secure (HTTPS) <https://php-dictionary.readthedocs.io/en/latest/dictionary/https.ini.html>`_
 
 
 Suggestions

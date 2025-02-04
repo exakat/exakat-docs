@@ -44,7 +44,7 @@ See also `List of HTTP status codes <https://en.wikipedia.org/wiki/List_of_HTTP_
 Connex PHP features
 -------------------
 
-  + `http <https://php-dictionary.readthedocs.io/en/latest/dictionary/http.ini.html>`_
+  + `Hyper Text Transfer Protocol (HTTP) <https://php-dictionary.readthedocs.io/en/latest/dictionary/http.ini.html>`_
 
 
 Specs

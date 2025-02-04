@@ -52,8 +52,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `generator <https://php-dictionary.readthedocs.io/en/latest/dictionary/generator.ini.html>`_
-  + `yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
+  + `Generator <https://php-dictionary.readthedocs.io/en/latest/dictionary/generator.ini.html>`_
+  + `Yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
 
 
 Suggestions

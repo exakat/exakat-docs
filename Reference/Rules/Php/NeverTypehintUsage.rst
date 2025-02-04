@@ -45,7 +45,7 @@ See also `The “never” Return Type for PHP <https://betterprogramming.pub/the
 Connex PHP features
 -------------------
 
-  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
 
 Specs

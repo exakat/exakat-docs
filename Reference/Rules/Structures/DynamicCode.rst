@@ -49,7 +49,7 @@ See also `Variable functions <https://www.php.net/manual/en/functions.variable-f
 Connex PHP features
 -------------------
 
-  + `dynamic-call <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-call.ini.html>`_
+  + `Dynamic Call <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-call.ini.html>`_
 
 
 Specs

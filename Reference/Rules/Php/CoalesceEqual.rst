@@ -46,8 +46,8 @@ See also `Ternary Operator <https://www.php.net/manual/en/language.operators.com
 Connex PHP features
 -------------------
 
-  + `coalesce <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
-  + `short-syntax <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-syntax.ini.html>`_
+  + `Coalesce Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
+  + `Short Syntax <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-syntax.ini.html>`_
 
 
 Suggestions

@@ -47,9 +47,9 @@ The analyzed code has less than 10% of one of them : for consistency reasons, it
 Connex PHP features
 -------------------
 
-  + `fully-qualified-name <https://php-dictionary.readthedocs.io/en/latest/dictionary/fully-qualified-name.ini.html>`_
-  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
-  + `use <https://php-dictionary.readthedocs.io/en/latest/dictionary/use.ini.html>`_
+  + `Fully Qualified Name <https://php-dictionary.readthedocs.io/en/latest/dictionary/fully-qualified-name.ini.html>`_
+  + `Constants <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+  + `Use <https://php-dictionary.readthedocs.io/en/latest/dictionary/use.ini.html>`_
 
 
 Specs

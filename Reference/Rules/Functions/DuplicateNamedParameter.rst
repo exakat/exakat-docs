@@ -25,7 +25,7 @@ Duplicate Named Parameter
 .. raw:: html
 
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/DuplicateNamedParameter.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/DuplicateNamedParameter.html","name":"Duplicate Named Parameter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"Two parameters have the same name in a method call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Duplicate Named Parameter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/DuplicateNamedParameter.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/DuplicateNamedParameter.html","name":"Duplicate Named Parameter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Feb 2025 11:02:08 +0000","dateModified":"Tue, 04 Feb 2025 11:02:08 +0000","description":"Two parameters have the same name in a method call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Duplicate Named Parameter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Two parameters have the same name in a method call. This yields a Fatal `error <https://www.php.net/error>`_ at execution time.
 
@@ -43,19 +43,19 @@ Two parameters have the same name in a method call. This yields a Fatal `error <
    
    ?>
 
-See also `Function arguments <https://www.php.net/manual/en/functions.arguments.php>`_.
+See also https://www.php.net/manual/en/functions.arguments.php.
 
 Related PHP errors 
 -------------------
 
-  + `Named parameter $a overwrites previous argument <https://php-errors.readthedocs.io/en/latest/messages/named-parameter-%24x-overwrites-previous-argument.html>`_
+  + `Named parameter $a overwrites previous argument <https://php-errors.readthedocs.io/en/latest/messages/named-parameter-%24%25s-overwrites-previous-argument.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `named-parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/named-parameter.ini.html>`_
+  + `Named Parameters <https://php-dictionary.readthedocs.io/en/latest/dictionary/named-parameter.ini.html>`_
 
 
 Suggestions

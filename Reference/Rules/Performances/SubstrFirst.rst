@@ -45,7 +45,7 @@ This works with any reduction function instead of `substr() <https://www.php.net
 Connex PHP features
 -------------------
 
-  + `declare <https://php-dictionary.readthedocs.io/en/latest/dictionary/declare.ini.html>`_
+  + `declare() <https://php-dictionary.readthedocs.io/en/latest/dictionary/declare.ini.html>`_
 
 
 Suggestions

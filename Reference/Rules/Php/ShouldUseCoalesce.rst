@@ -49,7 +49,7 @@ See also `New in PHP 7: null coalesce operator <https://lornajane.net/posts/2015
 Connex PHP features
 -------------------
 
-  + `coalesce <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
+  + `Coalesce Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
 
 
 Suggestions

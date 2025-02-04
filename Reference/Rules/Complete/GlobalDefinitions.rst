@@ -52,8 +52,8 @@ It currently doesn't work with variables in the global space, as it is not known
 Connex PHP features
 -------------------
 
-  + `global <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
-  + `globals <https://php-dictionary.readthedocs.io/en/latest/dictionary/globals.ini.html>`_
+  + `global Scope <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
+  + `$GLOBALS <https://php-dictionary.readthedocs.io/en/latest/dictionary/globals.ini.html>`_
 
 
 Specs

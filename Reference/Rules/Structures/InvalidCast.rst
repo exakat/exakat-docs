@@ -58,7 +58,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+  + `Cast Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
 
 
 Specs

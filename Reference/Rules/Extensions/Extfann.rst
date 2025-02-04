@@ -61,7 +61,7 @@ See also `extension FANN <https://www.php.net/manual/en/book.fann.php>`_, `PHP-M
 Connex PHP features
 -------------------
 
-  + `machine-learning <https://php-dictionary.readthedocs.io/en/latest/dictionary/machine-learning.ini.html>`_
+  + `Machine Learning <https://php-dictionary.readthedocs.io/en/latest/dictionary/machine-learning.ini.html>`_
 
 
 Specs

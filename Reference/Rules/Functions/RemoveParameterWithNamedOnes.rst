@@ -49,7 +49,7 @@ On the other hand, removing an explicit argument makes the code depend on the si
 Connex PHP features
 -------------------
 
-  + `named-parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/named-parameter.ini.html>`_
+  + `Named Parameters <https://php-dictionary.readthedocs.io/en/latest/dictionary/named-parameter.ini.html>`_
 
 
 Specs

@@ -31,7 +31,7 @@ Report literals that are repeated across the code. The minimum replication is 5,
 
 Repeated literals should be considered a prime candidate for constants.
 
-Integer, reals and strings are considered here. Boolean, Null and Arrays are omitted. 0, 1, 2, 10 and the empty string are all omitted, as too common. This list of omitted constants may be configured with the ``ignoreList`` parameter : a comma separated list of values.
+Integer, reals and strings are considered here. Boolean, `Null <https://www.php.net/`null <https://www.php.net/null>`_>`_ and Arrays are omitted. 0, 1, 2, 10 and the empty string are all omitted, as too common. This list of omitted constants may be configured with the ``ignoreList`` parameter : a comma separated list of values.
 
 .. code-block:: php
    
@@ -60,7 +60,7 @@ Integer, reals and strings are considered here. Boolean, Null and Arrays are omi
 Connex PHP features
 -------------------
 
-  + `literal <https://php-dictionary.readthedocs.io/en/latest/dictionary/literal.ini.html>`_
+  + `Literal <https://php-dictionary.readthedocs.io/en/latest/dictionary/literal.ini.html>`_
 
 
 Suggestions

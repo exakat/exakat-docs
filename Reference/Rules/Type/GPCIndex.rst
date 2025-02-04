@@ -49,7 +49,7 @@ Collecting together the names of incoming variable is good for documentation.
 Connex PHP features
 -------------------
 
-  + `super-global <https://php-dictionary.readthedocs.io/en/latest/dictionary/super-global.ini.html>`_
+  + `Superglobal Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/super-global.ini.html>`_
 
 
 Specs

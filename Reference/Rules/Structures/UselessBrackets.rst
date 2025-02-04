@@ -50,8 +50,8 @@ Standalone brackets may be a left over of an old instruction, or a misunderstand
 Connex PHP features
 -------------------
 
-  + `block <https://php-dictionary.readthedocs.io/en/latest/dictionary/block.ini.html>`_
-  + `curly-bracket <https://php-dictionary.readthedocs.io/en/latest/dictionary/curly-bracket.ini.html>`_
+  + `Block <https://php-dictionary.readthedocs.io/en/latest/dictionary/block.ini.html>`_
+  + `Curly Brackets <https://php-dictionary.readthedocs.io/en/latest/dictionary/curly-bracket.ini.html>`_
 
 
 Suggestions

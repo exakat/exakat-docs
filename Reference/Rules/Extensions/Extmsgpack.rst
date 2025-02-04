@@ -45,7 +45,7 @@ See also `msgpack for PHP <https://github.com/msgpack/msgpack-php>`_ and `Messag
 Connex PHP features
 -------------------
 
-  + `format <https://php-dictionary.readthedocs.io/en/latest/dictionary/format.ini.html>`_
+  + `Format <https://php-dictionary.readthedocs.io/en/latest/dictionary/format.ini.html>`_
 
 
 Specs

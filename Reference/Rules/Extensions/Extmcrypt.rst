@@ -96,9 +96,9 @@ See also `extension mcrypt <http://www.php.net/manual/en/book.mcrypt.php>`_ and 
 Connex PHP features
 -------------------
 
-  + `crypto <https://php-dictionary.readthedocs.io/en/latest/dictionary/crypto.ini.html>`_
+  + `Cryptography <https://php-dictionary.readthedocs.io/en/latest/dictionary/crypto.ini.html>`_
   + `libsodium <https://php-dictionary.readthedocs.io/en/latest/dictionary/libsodium.ini.html>`_
-  + `openssl <https://php-dictionary.readthedocs.io/en/latest/dictionary/openssl.ini.html>`_
+  + `OpenSSL <https://php-dictionary.readthedocs.io/en/latest/dictionary/openssl.ini.html>`_
 
 
 Specs

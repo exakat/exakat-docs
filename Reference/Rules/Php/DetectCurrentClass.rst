@@ -60,7 +60,7 @@ See also `PHP RFC: Deprecations for PHP 7.4 <https://wiki.php.net/rfc/deprecatio
 Connex PHP features
 -------------------
 
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
 
 
 Suggestions

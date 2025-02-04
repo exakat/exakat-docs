@@ -48,7 +48,7 @@ See also `Using non-breakable spaces in test method names <http://mnapoli.fr/usi
 Connex PHP features
 -------------------
 
-  + `non-breakable-space <https://php-dictionary.readthedocs.io/en/latest/dictionary/non-breakable-space.ini.html>`_
+  + `Non Breakable Spaces <https://php-dictionary.readthedocs.io/en/latest/dictionary/non-breakable-space.ini.html>`_
 
 
 Specs

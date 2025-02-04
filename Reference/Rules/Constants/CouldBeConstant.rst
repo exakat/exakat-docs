@@ -29,13 +29,13 @@ Could Be Constant
 
 Literals may be replaced by an existing constant. 
 
-Constants makes the code easier to read, as they may bear a meaningful name. They also hide implementation values, with a readable name, such as ``const READABLE= true;``. Later, upgrading constant values is easier than scouring the code with a new literal. 
+Constants makes the code easier to read, as they may bear a meaningful name. They also hide implementation values, with a readable name, such as ``const READABLE= `true <https://www.php.net/true>`_;``. Later, upgrading constant values is easier than scouring the code with a new literal. 
 
 Not all literal can be replaced by a constant values : sometimes, literal may have the same literal value, but different meanings. Check with your application semantics before changing any literal with a constant.
 
 This analysis currently doesn't support arrays. 
 
-This analysis also skips very common values, such as boolean, ``0`` and ``1``. This prevents too many false positives.
+This analysis also skips very common values, such as boolean, ``0`` and ``1``. This prevents too many `false <https://www.php.net/false>`_ positives.
 
 .. code-block:: php
    
@@ -61,7 +61,7 @@ This analysis also skips very common values, such as boolean, ``0`` and ``1``. T
 Connex PHP features
 -------------------
 
-  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+  + `Constants <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
 
 
 Suggestions

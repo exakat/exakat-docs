@@ -45,7 +45,7 @@ See also `file_put_contents() <https://www.php.net/file_put_contents>`_.
 Connex PHP features
 -------------------
 
-  + `silent <https://php-dictionary.readthedocs.io/en/latest/dictionary/silent.ini.html>`_
+  + `Silent Behavior <https://php-dictionary.readthedocs.io/en/latest/dictionary/silent.ini.html>`_
 
 
 Specs

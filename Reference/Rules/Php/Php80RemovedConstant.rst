@@ -36,7 +36,7 @@ The following PHP native constants were removed in PHP 8.0.
 Connex PHP features
 -------------------
 
-  + `directive <https://php-dictionary.readthedocs.io/en/latest/dictionary/directive.ini.html>`_
+  + `Directives <https://php-dictionary.readthedocs.io/en/latest/dictionary/directive.ini.html>`_
 
 
 Suggestions

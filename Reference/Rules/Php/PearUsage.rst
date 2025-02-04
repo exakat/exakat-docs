@@ -43,7 +43,7 @@ See also `PEAR <http://pear.php.net/>`_.
 Connex PHP features
 -------------------
 
-  + `pear <https://php-dictionary.readthedocs.io/en/latest/dictionary/pear.ini.html>`_
+  + `PEAR <https://php-dictionary.readthedocs.io/en/latest/dictionary/pear.ini.html>`_
 
 
 Specs

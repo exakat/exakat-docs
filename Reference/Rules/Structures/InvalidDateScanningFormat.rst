@@ -47,7 +47,7 @@ This won't raise an `error <https://www.php.net/error>`_, though the resulting v
 Connex PHP features
 -------------------
 
-  + `date <https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html>`_
+  + `Dates <https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html>`_
   + `external-format <https://php-dictionary.readthedocs.io/en/latest/dictionary/external-format.ini.html>`_
 
 

@@ -29,7 +29,7 @@ Used Static Properties
 
 List of all `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties that are used.
 
-A private property is used when it is defined and read. A private property that is only written is not used. A property that is only read is used, as it may have a default value, or act as `NULL <https://www.php.net/manual/en/language.types.null.php>`_.
+A private property is used when it is defined and read. A private property that is only written is not used. A property that is only read is used, as it may have a default value, or act as `NULL <https://www.php.net/manual/en/language.types.`null <https://www.php.net/null>`_.php>`_.
 
 .. code-block:: php
    
@@ -50,7 +50,7 @@ A private property is used when it is defined and read. A private property that 
 Connex PHP features
 -------------------
 
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
   + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
 
 

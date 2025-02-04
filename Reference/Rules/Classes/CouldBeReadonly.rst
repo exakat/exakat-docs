@@ -46,7 +46,7 @@ See also `PHP 8.2: readonly Classes <https://php.watch/versions/8.2/readonly-cla
 Connex PHP features
 -------------------
 
-  + `readonly <https://php-dictionary.readthedocs.io/en/latest/dictionary/readonly.ini.html>`_
+  + `Readonly <https://php-dictionary.readthedocs.io/en/latest/dictionary/readonly.ini.html>`_
 
 
 Suggestions

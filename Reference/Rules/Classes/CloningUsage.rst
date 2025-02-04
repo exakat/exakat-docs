@@ -41,7 +41,7 @@ See also `Object cloning <https://www.php.net/manual/en/language.oop5.cloning.ph
 Connex PHP features
 -------------------
 
-  + `clone <https://php-dictionary.readthedocs.io/en/latest/dictionary/clone.ini.html>`_
+  + `Clone <https://php-dictionary.readthedocs.io/en/latest/dictionary/clone.ini.html>`_
 
 
 Specs

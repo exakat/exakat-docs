@@ -39,7 +39,7 @@ Usage of `error_log() <https://www.php.net/error_log>`_ function. This leads to 
 Connex PHP features
 -------------------
 
-  + `log <https://php-dictionary.readthedocs.io/en/latest/dictionary/log.ini.html>`_
+  + `Log <https://php-dictionary.readthedocs.io/en/latest/dictionary/log.ini.html>`_
 
 
 Specs

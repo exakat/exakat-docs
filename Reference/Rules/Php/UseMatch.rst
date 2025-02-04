@@ -49,7 +49,7 @@ See also `match <https://www.php.net/manual/en/control-structures.match.php>`_ a
 Connex PHP features
 -------------------
 
-  + `match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
+  + `Match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
 
 
 Specs

@@ -29,7 +29,7 @@ Assertions
 
 Usage of assertions, to add checks within PHP code.
 
-Assertions should be used as a debugging feature only. You may use them for sanity-checks that test for conditions that should always be `TRUE <https://www.php.net/TRUE>`_ and that indicate some programming errors if not or to check for the presence of certain features like extension functions or certain system limits and features.
+Assertions should be used as a debugging feature only. You may use them for sanity-checks that test for conditions that should always be `TRUE <https://www.php.net/true>`_ and that indicate some programming errors if not or to check for the presence of certain features like extension functions or certain system limits and features.
 
 .. code-block:: php
    
@@ -48,7 +48,7 @@ See also `assert <https://www.php.net/assert>`_.
 Connex PHP features
 -------------------
 
-  + `assertion <https://php-dictionary.readthedocs.io/en/latest/dictionary/assertion.ini.html>`_
+  + `Assertions <https://php-dictionary.readthedocs.io/en/latest/dictionary/assertion.ini.html>`_
 
 
 Specs

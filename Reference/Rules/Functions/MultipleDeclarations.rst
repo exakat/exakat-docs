@@ -54,7 +54,7 @@ It is recommended to avoid having several functions with the same name in one re
 Connex PHP features
 -------------------
 
-  + `declaration <https://php-dictionary.readthedocs.io/en/latest/dictionary/declaration.ini.html>`_
+  + `Declaration <https://php-dictionary.readthedocs.io/en/latest/dictionary/declaration.ini.html>`_
 
 
 Specs

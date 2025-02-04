@@ -63,7 +63,7 @@ See also `@deprecated <https://docs.phpdoc.org/latest/references/phpdoc/tags/dep
 Connex PHP features
 -------------------
 
-  + `deprecated <https://php-dictionary.readthedocs.io/en/latest/dictionary/deprecated.ini.html>`_
+  + `Deprecated <https://php-dictionary.readthedocs.io/en/latest/dictionary/deprecated.ini.html>`_
 
 
 Suggestions

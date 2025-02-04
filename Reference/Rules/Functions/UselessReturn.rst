@@ -52,7 +52,7 @@ When return is void, and the last element in a function, it is also useless.
 Connex PHP features
 -------------------
 
-  + `return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
+  + `Return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
 
 
 Suggestions

@@ -67,7 +67,7 @@ See also `[CVE-2017-6090] <https://cxsecurity.com/issue/WLB-2017100031>`_, `CWE-
 Connex PHP features
 -------------------
 
-  + `upload <https://php-dictionary.readthedocs.io/en/latest/dictionary/upload.ini.html>`_
+  + `File Upload <https://php-dictionary.readthedocs.io/en/latest/dictionary/upload.ini.html>`_
 
 
 Suggestions

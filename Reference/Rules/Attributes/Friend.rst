@@ -72,7 +72,7 @@ See also `Friend <https://github.com/DaveLiddament/php-language-extensions#frien
 Connex PHP features
 -------------------
 
-  + `attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
+  + `Attributes <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
 
 
 Suggestions

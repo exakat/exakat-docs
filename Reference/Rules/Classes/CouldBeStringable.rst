@@ -51,9 +51,9 @@ See also `PHP RFC: Add Stringable interface <https://wiki.php.net/rfc/stringable
 Connex PHP features
 -------------------
 
-  + `stringable <https://php-dictionary.readthedocs.io/en/latest/dictionary/stringable.ini.html>`_
-  + `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
-  + `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
+  + `Stringable <https://php-dictionary.readthedocs.io/en/latest/dictionary/stringable.ini.html>`_
+  + `String <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+  + `Magic Methods <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
 
 
 Suggestions

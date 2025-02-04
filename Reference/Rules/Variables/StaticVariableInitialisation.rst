@@ -44,7 +44,7 @@ Indeed, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ varia
 Connex PHP features
 -------------------
 
-  + `static-constant-expression <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-constant-expression.ini.html>`_
+  + `Constant Scalar Expression <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-constant-expression.ini.html>`_
 
 
 Specs

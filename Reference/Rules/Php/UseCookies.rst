@@ -47,7 +47,7 @@ See also `Cookies <https://www.php.net/manual/en/features.cookies.php>`_.
 Connex PHP features
 -------------------
 
-  + `cookie <https://php-dictionary.readthedocs.io/en/latest/dictionary/cookie.ini.html>`_
+  + `Cookie <https://php-dictionary.readthedocs.io/en/latest/dictionary/cookie.ini.html>`_
 
 
 Specs

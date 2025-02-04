@@ -48,8 +48,8 @@ See also `PHP RFC: Scalar Type Hints <https://wiki.php.net/rfc/scalar_type_hints
 Connex PHP features
 -------------------
 
-  + `scalar-type <https://php-dictionary.readthedocs.io/en/latest/dictionary/scalar-type.ini.html>`_
-  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `Scalar Types <https://php-dictionary.readthedocs.io/en/latest/dictionary/scalar-type.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
 
 Specs

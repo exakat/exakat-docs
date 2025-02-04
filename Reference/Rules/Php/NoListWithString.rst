@@ -49,7 +49,7 @@ See also `PHP 7.0 Backward incompatible changes <https://www.php.net/manual/en/m
 Connex PHP features
 -------------------
 
-  + `list <https://php-dictionary.readthedocs.io/en/latest/dictionary/list.ini.html>`_
+  + `List <https://php-dictionary.readthedocs.io/en/latest/dictionary/list.ini.html>`_
 
 
 Suggestions

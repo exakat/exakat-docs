@@ -63,8 +63,8 @@ See also `The Definitive 2019 Guide to Cryptographic Key Sizes and Algorithm Rec
 Connex PHP features
 -------------------
 
-  + `cryptography <https://php-dictionary.readthedocs.io/en/latest/dictionary/cryptography.ini.html>`_
-  + `openssl <https://php-dictionary.readthedocs.io/en/latest/dictionary/openssl.ini.html>`_
+  + `Cryptography <https://php-dictionary.readthedocs.io/en/latest/dictionary/cryptography.ini.html>`_
+  + `OpenSSL <https://php-dictionary.readthedocs.io/en/latest/dictionary/openssl.ini.html>`_
 
 
 Suggestions

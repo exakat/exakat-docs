@@ -59,8 +59,8 @@ The following PHP native functions were deprecated in PHP 8.1, and will be remov
 Connex PHP features
 -------------------
 
-  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
-  + `native-function <https://php-dictionary.readthedocs.io/en/latest/dictionary/native-function.ini.html>`_
+  + `Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `Native <https://php-dictionary.readthedocs.io/en/latest/dictionary/native-function.ini.html>`_
 
 
 Suggestions

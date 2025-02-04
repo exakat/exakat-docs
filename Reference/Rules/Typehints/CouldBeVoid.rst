@@ -43,7 +43,7 @@ All abstract methods (in classes or in interfaces) are omitted here.
 Connex PHP features
 -------------------
 
-  + `void <https://php-dictionary.readthedocs.io/en/latest/dictionary/void.ini.html>`_
+  + `Void <https://php-dictionary.readthedocs.io/en/latest/dictionary/void.ini.html>`_
 
 
 Suggestions

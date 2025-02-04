@@ -56,7 +56,7 @@ See also `Callback / callable <https://www.php.net/manual/en/language.types.call
 Connex PHP features
 -------------------
 
-  + `callable <https://php-dictionary.readthedocs.io/en/latest/dictionary/callable.ini.html>`_
+  + `Callables <https://php-dictionary.readthedocs.io/en/latest/dictionary/callable.ini.html>`_
 
 
 Suggestions

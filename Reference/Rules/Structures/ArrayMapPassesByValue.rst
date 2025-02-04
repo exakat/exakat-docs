@@ -65,10 +65,10 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
-  + `map <https://php-dictionary.readthedocs.io/en/latest/dictionary/map.ini.html>`_
-  + `by-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/by-value.ini.html>`_
-  + `by-reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/by-reference.ini.html>`_
+  + `Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `Map <https://php-dictionary.readthedocs.io/en/latest/dictionary/map.ini.html>`_
+  + `Passing By Value <https://php-dictionary.readthedocs.io/en/latest/dictionary/by-value.ini.html>`_
+  + `Passing By Reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/by-reference.ini.html>`_
 
 
 Suggestions

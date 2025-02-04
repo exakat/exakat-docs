@@ -49,10 +49,10 @@ It is recommended to add parenthesis to make this expression explicit.
 Connex PHP features
 -------------------
 
-  + `coalesce <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
-  + `concat <https://php-dictionary.readthedocs.io/en/latest/dictionary/concat.ini.html>`_
-  + `precedence <https://php-dictionary.readthedocs.io/en/latest/dictionary/precedence.ini.html>`_
-  + `parenthesis <https://php-dictionary.readthedocs.io/en/latest/dictionary/parenthesis.ini.html>`_
+  + `Coalesce Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
+  + `Concatenation <https://php-dictionary.readthedocs.io/en/latest/dictionary/concat.ini.html>`_
+  + `Precedence <https://php-dictionary.readthedocs.io/en/latest/dictionary/precedence.ini.html>`_
+  + `Parenthesis <https://php-dictionary.readthedocs.io/en/latest/dictionary/parenthesis.ini.html>`_
 
 
 Suggestions

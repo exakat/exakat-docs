@@ -48,7 +48,7 @@ See also `Hardening Your HTTP Security Headers <https://www.keycdn.com/blog/http
 Connex PHP features
 -------------------
 
-  + `http-header <https://php-dictionary.readthedocs.io/en/latest/dictionary/http-header.ini.html>`_
+  + `HTTP Headers <https://php-dictionary.readthedocs.io/en/latest/dictionary/http-header.ini.html>`_
 
 
 Suggestions

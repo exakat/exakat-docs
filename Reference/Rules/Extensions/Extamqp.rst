@@ -29,7 +29,7 @@ ext/amqp
 
 Extension ``amqp``.
 
-`PHP AMQP Binding Library`. This is an interface with the `RabbitMQ AMQP client library <https://github.com/alanxz/rabbitmq-c>`_. It is a  C language AMQP client library for use with version 2.0 and more recent of the ``RabbitMQ`` broker.
+`PHP AMQP Binding Library`. This is an interface with the `RabbitMQ AMQP client library <https://github.`com <https://www.php.net/com>`_/alanxz/rabbitmq-c>`_. It is a  C language AMQP client library for use with version 2.0 and more recent of the ``RabbitMQ`` broker.
 
 .. code-block:: php
    

@@ -63,7 +63,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `return-typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/return-typehint.ini.html>`_
+  + `Return Type <https://php-dictionary.readthedocs.io/en/latest/dictionary/return-typehint.ini.html>`_
 
 
 Suggestions

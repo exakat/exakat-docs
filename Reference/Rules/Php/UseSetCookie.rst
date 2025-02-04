@@ -50,8 +50,8 @@ See also `Set-Cookie <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/
 Connex PHP features
 -------------------
 
-  + `cookie <https://php-dictionary.readthedocs.io/en/latest/dictionary/cookie.ini.html>`_
-  + `http-header <https://php-dictionary.readthedocs.io/en/latest/dictionary/http-header.ini.html>`_
+  + `Cookie <https://php-dictionary.readthedocs.io/en/latest/dictionary/cookie.ini.html>`_
+  + `HTTP Headers <https://php-dictionary.readthedocs.io/en/latest/dictionary/http-header.ini.html>`_
 
 
 Suggestions

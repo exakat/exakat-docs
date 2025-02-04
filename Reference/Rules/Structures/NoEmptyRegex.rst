@@ -51,7 +51,7 @@ See also `PCRE <https://www.php.net/pcre>`_ and `Delimiters <https://www.php.net
 Connex PHP features
 -------------------
 
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
 
 
 Suggestions

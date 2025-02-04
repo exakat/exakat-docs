@@ -29,7 +29,7 @@ ext/fam
 
 File Alteration Monitor extension.
 
-`FAM <http://oss.sgi.com/projects/fam/>`_ monitors files and directories, notifying interested applications of changes.
+`FAM <http://oss.sgi.`com <https://www.php.net/com>`_/projects/fam/>`_ monitors files and directories, notifying interested applications of changes.
 
 ext/FAM is not available for Windows
 

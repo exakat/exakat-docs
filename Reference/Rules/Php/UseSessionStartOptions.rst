@@ -52,7 +52,7 @@ This is available since PHP 7.0. It is recommended to set those values in the ``
 Connex PHP features
 -------------------
 
-  + `session <https://php-dictionary.readthedocs.io/en/latest/dictionary/session.ini.html>`_
+  + `Session <https://php-dictionary.readthedocs.io/en/latest/dictionary/session.ini.html>`_
 
 
 Suggestions

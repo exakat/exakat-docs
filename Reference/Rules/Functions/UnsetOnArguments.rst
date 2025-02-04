@@ -43,7 +43,7 @@ There is no need to unset arguments. Those values will be freed at the end of th
 Connex PHP features
 -------------------
 
-  + `argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
+  + `Argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
 
 
 Specs

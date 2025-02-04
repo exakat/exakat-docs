@@ -50,7 +50,7 @@ This is the list of fossilized methods. Those methods appears when they get tigh
 Connex PHP features
 -------------------
 
-  + `fossilized-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/fossilized-method.ini.html>`_
+  + `Fossilized Methods <https://php-dictionary.readthedocs.io/en/latest/dictionary/fossilized-method.ini.html>`_
 
 
 Specs

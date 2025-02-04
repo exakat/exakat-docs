@@ -43,7 +43,7 @@ See also `The Closure Class <https://www.php.net/manual/en/class.closure.php>`_.
 Connex PHP features
 -------------------
 
-  + `closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
+  + `Closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
 
 
 Specs

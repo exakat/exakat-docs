@@ -51,9 +51,9 @@ See also `Generators overview <https://www.php.net/manual/en/language.generators
 Connex PHP features
 -------------------
 
-  + `generator <https://php-dictionary.readthedocs.io/en/latest/dictionary/generator.ini.html>`_
-  + `yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
-  + `yield-from <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield-from.ini.html>`_
+  + `Generator <https://php-dictionary.readthedocs.io/en/latest/dictionary/generator.ini.html>`_
+  + `Yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
+  + `yield from Keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield-from.ini.html>`_
 
 
 Specs

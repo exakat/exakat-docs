@@ -52,7 +52,7 @@ Connex PHP features
 -------------------
 
   + `new <https://php-dictionary.readthedocs.io/en/latest/dictionary/new.ini.html>`_
-  + `methodcall <https://php-dictionary.readthedocs.io/en/latest/dictionary/methodcall.ini.html>`_
+  + `Methodcall <https://php-dictionary.readthedocs.io/en/latest/dictionary/methodcall.ini.html>`_
 
 
 Specs

@@ -62,8 +62,8 @@ See also `foreach <https://www.php.net/manual/en/control-structures.foreach.php>
 Connex PHP features
 -------------------
 
-  + `foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
-  + `for <https://php-dictionary.readthedocs.io/en/latest/dictionary/for.ini.html>`_
+  + `Foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
+  + `For <https://php-dictionary.readthedocs.io/en/latest/dictionary/for.ini.html>`_
 
 
 Suggestions

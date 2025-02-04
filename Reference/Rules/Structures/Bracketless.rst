@@ -48,8 +48,8 @@ It is generally considered a bad practice, as readability is lower and there are
 Connex PHP features
 -------------------
 
-  + `block <https://php-dictionary.readthedocs.io/en/latest/dictionary/block.ini.html>`_
-  + `curly-bracket <https://php-dictionary.readthedocs.io/en/latest/dictionary/curly-bracket.ini.html>`_
+  + `Block <https://php-dictionary.readthedocs.io/en/latest/dictionary/block.ini.html>`_
+  + `Curly Brackets <https://php-dictionary.readthedocs.io/en/latest/dictionary/curly-bracket.ini.html>`_
 
 
 Suggestions

@@ -45,7 +45,7 @@ This analysis collects the various ways that string interpolation is done inside
 Connex PHP features
 -------------------
 
-  + `interpolation <https://php-dictionary.readthedocs.io/en/latest/dictionary/interpolation.ini.html>`_
+  + `Interpolation <https://php-dictionary.readthedocs.io/en/latest/dictionary/interpolation.ini.html>`_
 
 
 Specs

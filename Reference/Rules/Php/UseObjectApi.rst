@@ -63,7 +63,7 @@ OOP / procedural alternatives are available for `mysqli <https://www.php.net/man
 Connex PHP features
 -------------------
 
-  + `object-api <https://php-dictionary.readthedocs.io/en/latest/dictionary/object-api.ini.html>`_
+  + `Object API <https://php-dictionary.readthedocs.io/en/latest/dictionary/object-api.ini.html>`_
 
 
 Suggestions

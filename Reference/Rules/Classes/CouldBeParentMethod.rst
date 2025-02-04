@@ -63,7 +63,7 @@ Only the name of the method is used is for gathering purposes. If the code has g
 Connex PHP features
 -------------------
 
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
   + `parent <https://php-dictionary.readthedocs.io/en/latest/dictionary/parent.ini.html>`_
 
 

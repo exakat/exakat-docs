@@ -63,7 +63,7 @@ See also `::class <https://www.php.net/manual/en/language.oop5.basic.php#languag
 Connex PHP features
 -------------------
 
-  + `class-operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-operator.ini.html>`_
+  + `Class Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-operator.ini.html>`_
 
 
 Suggestions

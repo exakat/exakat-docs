@@ -42,7 +42,7 @@ It also reports when a call to ``count()`` is compared to a value that might be 
 Connex PHP features
 -------------------
 
-  + `count <https://php-dictionary.readthedocs.io/en/latest/dictionary/count.ini.html>`_
+  + `count() <https://php-dictionary.readthedocs.io/en/latest/dictionary/count.ini.html>`_
   + `negative <https://php-dictionary.readthedocs.io/en/latest/dictionary/negative.ini.html>`_
 
 

@@ -29,7 +29,7 @@ Check JSON
 
 Check errors whenever JSON is encoded or decoded. 
 
-In particular, ``NULL`` is a valid decoded JSON response. If you want to avoid mistaking `NULL <https://www.php.net/manual/en/language.types.null.php>`_ for an `error <https://www.php.net/error>`_, it is recommended to call ``json_last_error``.
+In particular, ``NULL`` is a valid decoded JSON response. If you want to avoid mistaking `NULL <https://www.php.net/manual/en/language.types.`null <https://www.php.net/null>`_.php>`_ for an `error <https://www.php.net/error>`_, it is recommended to call ``json_last_error``.
 
 .. code-block:: php
    
@@ -54,7 +54,7 @@ See also `Option to make json_encode and json_decode throw exceptions on errors 
 Connex PHP features
 -------------------
 
-  + `json <https://php-dictionary.readthedocs.io/en/latest/dictionary/json.ini.html>`_
+  + `JavaScript Object Notation (JSON) <https://php-dictionary.readthedocs.io/en/latest/dictionary/json.ini.html>`_
 
 
 Suggestions

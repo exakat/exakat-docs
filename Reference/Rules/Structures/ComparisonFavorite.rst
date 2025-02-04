@@ -52,7 +52,7 @@ See also `Comparison Operators <https://www.php.net/manual/en/language.operators
 Connex PHP features
 -------------------
 
-  + `comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
+  + `Comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
 
 
 Specs

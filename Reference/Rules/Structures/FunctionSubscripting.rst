@@ -59,7 +59,7 @@ See also `Accessing array elements with square bracket syntax <https://www.php.n
 Connex PHP features
 -------------------
 
-  + `subscripting <https://php-dictionary.readthedocs.io/en/latest/dictionary/subscripting.ini.html>`_
+  + `Function Subscripting <https://php-dictionary.readthedocs.io/en/latest/dictionary/subscripting.ini.html>`_
 
 
 Specs

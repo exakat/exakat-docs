@@ -54,7 +54,7 @@ See also `Arrow functions <https://www.php.net/manual/en/functions.arrow.php>`_.
 Connex PHP features
 -------------------
 
-  + `arrow-function <https://php-dictionary.readthedocs.io/en/latest/dictionary/arrow-function.ini.html>`_
+  + `Arrow Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/arrow-function.ini.html>`_
 
 
 Suggestions

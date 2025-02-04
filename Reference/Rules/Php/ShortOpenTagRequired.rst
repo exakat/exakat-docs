@@ -31,7 +31,7 @@ Usage of short open tags is discouraged. The following files were found to be im
 Connex PHP features
 -------------------
 
-  + `short-tag <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-tag.ini.html>`_
+  + `Short Tags <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-tag.ini.html>`_
 
 
 Specs

@@ -46,8 +46,8 @@ No link is added when no value is defined.
 Connex PHP features
 -------------------
 
-  + `enum <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum.ini.html>`_
-  + `enum-backed <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum-backed.ini.html>`_
+  + `Enumeration (enum) <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum.ini.html>`_
+  + `Backed Enumeration <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum-backed.ini.html>`_
 
 
 Specs

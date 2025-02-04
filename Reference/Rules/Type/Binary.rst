@@ -44,7 +44,7 @@ Connex PHP features
 -------------------
 
   + `integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/integer.ini.html>`_
-  + `binary-integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/binary-integer.ini.html>`_
+  + `Binary Integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/binary-integer.ini.html>`_
 
 
 Specs

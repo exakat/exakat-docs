@@ -57,9 +57,9 @@ This applies to all constant and simple variable assignation. Anything more comp
 Connex PHP features
 -------------------
 
-  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
-  + `compact <https://php-dictionary.readthedocs.io/en/latest/dictionary/compact.ini.html>`_
-  + `index-array <https://php-dictionary.readthedocs.io/en/latest/dictionary/index-array.ini.html>`_
+  + `Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `compact() <https://php-dictionary.readthedocs.io/en/latest/dictionary/compact.ini.html>`_
+  + `Index For Arrays <https://php-dictionary.readthedocs.io/en/latest/dictionary/index-array.ini.html>`_
 
 
 Suggestions

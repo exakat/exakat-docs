@@ -48,7 +48,7 @@ See also `Predefined Variables <https://www.php.net/manual/en/reserved.variables
 Connex PHP features
 -------------------
 
-  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
 
 
 Specs

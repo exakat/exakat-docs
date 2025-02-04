@@ -55,7 +55,7 @@ For that, the constructor of the chaining `exception <https://www.php.net/except
 Connex PHP features
 -------------------
 
-  + `chaining-exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/chaining-exception.ini.html>`_
+  + `Chaining Exceptions <https://php-dictionary.readthedocs.io/en/latest/dictionary/chaining-exception.ini.html>`_
 
 
 Suggestions

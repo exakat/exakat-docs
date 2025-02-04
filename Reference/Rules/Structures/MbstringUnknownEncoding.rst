@@ -50,8 +50,8 @@ See also `ext/mbstring <http://www.php.net/manual/en/book.mbstring.php>`_.
 Connex PHP features
 -------------------
 
-  + `encoding <https://php-dictionary.readthedocs.io/en/latest/dictionary/encoding.ini.html>`_
-  + `mbstring <https://php-dictionary.readthedocs.io/en/latest/dictionary/mbstring.ini.html>`_
+  + `Encoding <https://php-dictionary.readthedocs.io/en/latest/dictionary/encoding.ini.html>`_
+  + `Multibyte String <https://php-dictionary.readthedocs.io/en/latest/dictionary/mbstring.ini.html>`_
 
 
 Suggestions

@@ -34,18 +34,18 @@ Collects various statistics about typehinting usage.
 + withTypehint : Total number of typed arguments
 + withReturnTypehint : Total number of return types
 + scalartype : Total number of scalar type used
-+ returnNullable : Total number of null types returned
-+ argNullable : Total number of null types arguments
++ returnNullable : Total number of `null <https://www.php.net/`null <https://www.php.net/null>`_>`_ types returned
++ argNullable : Total number of `null <https://www.php.net/`null <https://www.php.net/null>`_>`_ types arguments
 + classTypehint : Total number of non-scalar types
 + interfaceTypehint : Total number of interface or abstract class types
 + typedProperties : Total number of typed properties
 + totalProperties : Total number of properties
-+ unionTypehints : Total number of union types, including null types
++ unionTypehints : Total number of union types, including `null <https://www.php.net/`null <https://www.php.net/null>`_>`_ types
 + intersectionTypehints : Total number of intersection types
 Connex PHP features
 -------------------
 
-  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
 
 
 Specs

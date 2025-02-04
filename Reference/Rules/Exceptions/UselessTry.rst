@@ -46,7 +46,7 @@ This happens when the underlying layers removed the emission of exceptions.
 Connex PHP features
 -------------------
 
-  + `try <https://php-dictionary.readthedocs.io/en/latest/dictionary/try.ini.html>`_
+  + `Try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try.ini.html>`_
 
 
 Suggestions

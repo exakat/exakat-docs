@@ -54,8 +54,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
-  + `arrayobject <https://php-dictionary.readthedocs.io/en/latest/dictionary/arrayobject.ini.html>`_
+  + `Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `ArrayObject <https://php-dictionary.readthedocs.io/en/latest/dictionary/arrayobject.ini.html>`_
 
 
 Suggestions

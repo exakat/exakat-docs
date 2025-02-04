@@ -47,7 +47,7 @@ It is recommended to use echo with multiple arguments, or a concatenation with p
 Connex PHP features
 -------------------
 
-  + `print <https://php-dictionary.readthedocs.io/en/latest/dictionary/print.ini.html>`_
+  + `Print <https://php-dictionary.readthedocs.io/en/latest/dictionary/print.ini.html>`_
 
 
 Suggestions

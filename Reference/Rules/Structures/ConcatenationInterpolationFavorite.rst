@@ -57,7 +57,7 @@ The analyzed code has less than 10% of one of them : for consistency reasons, it
 Connex PHP features
 -------------------
 
-  + `concatenation <https://php-dictionary.readthedocs.io/en/latest/dictionary/concatenation.ini.html>`_
+  + `Concatenation <https://php-dictionary.readthedocs.io/en/latest/dictionary/concatenation.ini.html>`_
 
 
 Specs

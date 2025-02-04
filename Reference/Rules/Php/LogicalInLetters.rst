@@ -52,7 +52,7 @@ See also `Logical Operators <https://www.php.net/manual/en/language.operators.lo
 Connex PHP features
 -------------------
 
-  + `logical <https://php-dictionary.readthedocs.io/en/latest/dictionary/logical.ini.html>`_
+  + `Logical Operators <https://php-dictionary.readthedocs.io/en/latest/dictionary/logical.ini.html>`_
 
 
 Suggestions

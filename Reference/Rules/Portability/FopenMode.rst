@@ -49,7 +49,7 @@ See also `fopen <https://www.php.net/fopen>`_.
 Connex PHP features
 -------------------
 
-  + `file <https://php-dictionary.readthedocs.io/en/latest/dictionary/file.ini.html>`_
+  + `File <https://php-dictionary.readthedocs.io/en/latest/dictionary/file.ini.html>`_
 
 
 Suggestions

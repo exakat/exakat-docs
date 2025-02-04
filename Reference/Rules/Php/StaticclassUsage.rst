@@ -59,7 +59,7 @@ See also `Class Constant <https://www.php.net/manual/en/language.oop5.constants.
 Connex PHP features
 -------------------
 
-  + `coalesce <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
+  + `Coalesce Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
 
 
 Suggestions

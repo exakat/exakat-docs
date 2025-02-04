@@ -52,8 +52,8 @@ See also `__halt_compiler <https://www.php.net/manual/en/function.halt-compiler.
 Connex PHP features
 -------------------
 
-  + `halt-compiler <https://php-dictionary.readthedocs.io/en/latest/dictionary/halt-compiler.ini.html>`_
-  + `phar <https://php-dictionary.readthedocs.io/en/latest/dictionary/phar.ini.html>`_
+  + `__halt_compiler() <https://php-dictionary.readthedocs.io/en/latest/dictionary/halt-compiler.ini.html>`_
+  + `Phar <https://php-dictionary.readthedocs.io/en/latest/dictionary/phar.ini.html>`_
 
 
 Specs

@@ -48,9 +48,9 @@ Class constants are typed starting with PHP 8.3
 Connex PHP features
 -------------------
 
-  + `parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
-  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
-  + `return-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/return-value.ini.html>`_
+  + `Parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
+  + `Properties <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+  + `Return Value <https://php-dictionary.readthedocs.io/en/latest/dictionary/return-value.ini.html>`_
 
 
 Suggestions

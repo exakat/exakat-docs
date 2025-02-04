@@ -43,7 +43,7 @@ The array append operator is able to generate a sane index, without relying on t
 Connex PHP features
 -------------------
 
-  + `append <https://php-dictionary.readthedocs.io/en/latest/dictionary/append.ini.html>`_
+  + `Array Append <https://php-dictionary.readthedocs.io/en/latest/dictionary/append.ini.html>`_
 
 
 Suggestions

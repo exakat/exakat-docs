@@ -51,8 +51,8 @@ When stopping a script with `die() <https://www.php.net/die>`_, it is possible t
 Connex PHP features
 -------------------
 
-  + `print <https://php-dictionary.readthedocs.io/en/latest/dictionary/print.ini.html>`_
-  + `die <https://php-dictionary.readthedocs.io/en/latest/dictionary/die.ini.html>`_
+  + `Print <https://php-dictionary.readthedocs.io/en/latest/dictionary/print.ini.html>`_
+  + `Exit <https://php-dictionary.readthedocs.io/en/latest/dictionary/die.ini.html>`_
 
 
 Specs

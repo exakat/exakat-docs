@@ -46,8 +46,8 @@ All literal index used in the code.
 Connex PHP features
 -------------------
 
-  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
-  + `index <https://php-dictionary.readthedocs.io/en/latest/dictionary/index.ini.html>`_
+  + `Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `Index <https://php-dictionary.readthedocs.io/en/latest/dictionary/index.ini.html>`_
 
 
 Specs

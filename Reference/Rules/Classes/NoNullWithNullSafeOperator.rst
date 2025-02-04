@@ -27,9 +27,9 @@ No Null With Null Safe Operator
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/NoNullWithNullSafeOperator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/NoNullWithNullSafeOperator.html","name":"No Null With Null Safe Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"When building an expression with a null-safe operator, it may fail and produce a NULL as a result","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Null With Null Safe Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-When building an expression with a null-safe operator, it may fail and produce a `NULL <https://www.php.net/manual/en/language.types.null.php>`_ as a `result <https://www.php.net/result>`_. When the last method of the expression also returns null (or void, which is transformed in null), then it is not possible to differentiate between a failure and a valid execution of the method. 
+When building an expression with a `null <https://www.php.net/`null <https://www.php.net/null>`_>`_-safe operator, it may fail and produce a `NULL <https://www.php.net/manual/en/language.types.`null <https://www.php.net/null>`_.php>`_ as a `result <https://www.php.net/result>`_. When the last method of the expression also returns `null <https://www.php.net/`null <https://www.php.net/null>`_>`_ (or void, which is transformed in `null) <https://www.php.net/`null <https://www.php.net/null>`_>`_, then it is not possible to differentiate between a failure and a valid execution of the method. 
 
-As such, it is recommended to avoid finishing with a method that returns null, in an expression that uses a null-safe operator.
+As such, it is recommended to avoid finishing with a method that returns `null <https://www.php.net/`null <https://www.php.net/null>`_>`_, in an expression that uses a `null <https://www.php.net/`null <https://www.php.net/null>`_>`_-safe operator.
 
 .. code-block:: php
    
@@ -55,7 +55,7 @@ As such, it is recommended to avoid finishing with a method that returns null, i
 Connex PHP features
 -------------------
 
-  + `nullsafe-object-operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/nullsafe-object-operator.ini.html>`_
+  + `Null Safe Object Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/nullsafe-object-operator.ini.html>`_
 
 
 Suggestions

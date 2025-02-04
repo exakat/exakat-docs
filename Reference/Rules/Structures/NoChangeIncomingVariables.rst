@@ -52,8 +52,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `incoming-data <https://php-dictionary.readthedocs.io/en/latest/dictionary/incoming-data.ini.html>`_
-  + `outgoing-data <https://php-dictionary.readthedocs.io/en/latest/dictionary/outgoing-data.ini.html>`_
+  + `Incoming Data <https://php-dictionary.readthedocs.io/en/latest/dictionary/incoming-data.ini.html>`_
+  + `Outgoing Data <https://php-dictionary.readthedocs.io/en/latest/dictionary/outgoing-data.ini.html>`_
 
 
 Suggestions

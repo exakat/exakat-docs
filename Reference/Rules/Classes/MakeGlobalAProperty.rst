@@ -64,8 +64,8 @@ Setting the property in the constructor (or in a factory), makes the class easie
 Connex PHP features
 -------------------
 
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
-  + `global-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/global-variable.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Global Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/global-variable.ini.html>`_
 
 
 Suggestions

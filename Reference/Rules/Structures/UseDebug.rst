@@ -31,17 +31,17 @@ The code source includes calls to debug functions.
 
 The following debug functions and libraries are reported : 
 
-* `Aronduby Dump <https://github.com/aronduby/dump>`_
-* `Cakephp Debug Toolbar <https://github.com/cakephp/debug_kit>`_
-* `Kint <https://github.com/kint-php/kint>`_
-* `Krumo <https://github.com/mmucklo/krumo>`_
+* `Aronduby Dump <https://github.`com <https://www.php.net/com>`_/aronduby/dump>`_
+* `Cakephp Debug Toolbar <https://github.`com <https://www.php.net/com>`_/cakephp/debug_kit>`_
+* `Kint <https://github.`com <https://www.php.net/com>`_/kint-php/kint>`_
+* `Krumo <https://github.`com <https://www.php.net/com>`_/mmucklo/krumo>`_
 * `Nette tracy <https://tracy.nette.org/>`_
-* `php-debugbar <https://github.com/maximebf/php-debugbar>`_
+* `php-debugbar <https://github.`com <https://www.php.net/com>`_/maximebf/php-debugbar>`_
 * PHP native functions : `print_r() <https://www.php.net/print_r>`_, `var_dump() <https://www.php.net/var_dump>`_, `debug_backtrace() <https://www.php.net/debug_backtrace>`_, `debug_print_backtrace() <https://www.php.net/debug_print_backtrace>`_, `debug_zval_dump() <https://www.php.net/debug_zval_dump>`_
-* `Symfony debug <https://symfony.com/doc/current/components/debug.html>`_
+* `Symfony debug <https://symfony.`com <https://www.php.net/com>`_/doc/current/components/debug.html>`_
 * `Wordpress debug <https://codex.wordpress.org/Debugging_in_WordPress>`_
 * `Xdebug <https://xdebug.org/>`_
-* `Zend debug <https://github.com/zendframework/zend-debug>`_
+* `Zend debug <https://github.`com <https://www.php.net/com>`_/zendframework/zend-debug>`_
 
 .. code-block:: php
    
@@ -54,7 +54,7 @@ The following debug functions and libraries are reported :
 Connex PHP features
 -------------------
 
-  + `debug <https://php-dictionary.readthedocs.io/en/latest/dictionary/debug.ini.html>`_
+  + `Debugger <https://php-dictionary.readthedocs.io/en/latest/dictionary/debug.ini.html>`_
 
 
 Specs

@@ -44,7 +44,7 @@ See also `trigger_error <https://www.php.net/trigger_error>`_.
 Connex PHP features
 -------------------
 
-  + `error <https://php-dictionary.readthedocs.io/en/latest/dictionary/error.ini.html>`_
+  + `Error <https://php-dictionary.readthedocs.io/en/latest/dictionary/error.ini.html>`_
 
 
 Specs

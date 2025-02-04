@@ -50,7 +50,7 @@ Connex PHP features
 -------------------
 
   + `basename <https://php-dictionary.readthedocs.io/en/latest/dictionary/basename.ini.html>`_
-  + `file-extension <https://php-dictionary.readthedocs.io/en/latest/dictionary/file-extension.ini.html>`_
+  + `File Extension <https://php-dictionary.readthedocs.io/en/latest/dictionary/file-extension.ini.html>`_
   + `dirname <https://php-dictionary.readthedocs.io/en/latest/dictionary/dirname.ini.html>`_
 
 

@@ -56,7 +56,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `final-class-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/final-class-constant.ini.html>`_
+  + `Final Class Constants <https://php-dictionary.readthedocs.io/en/latest/dictionary/final-class-constant.ini.html>`_
 
 
 Specs

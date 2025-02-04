@@ -27,7 +27,7 @@ Could Use __DIR__
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CouldUseDir.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CouldUseDir.html","name":"Could Use __DIR__","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Use __DIR__ constant to access the current file's parent directory","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Could Use __DIR__.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-Use `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ constant to access the current file's `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_. 
+Use `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ constant to access the current file's `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ `directory <https://www.php.net/directory>`_. 
 
 Avoid using `dirname() <https://www.php.net/dirname>`_ on `__FILE__ <https://www.php.net/manual/en/language.constants.predefined.php>`_.
 `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ has been introduced in PHP 5.3.0.
@@ -52,7 +52,7 @@ See also `Magic Constants <https://www.php.net/manual/en/language.constants.pred
 Connex PHP features
 -------------------
 
-  + `magic-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-constant.ini.html>`_
+  + `Magic Constants <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-constant.ini.html>`_
 
 
 Suggestions

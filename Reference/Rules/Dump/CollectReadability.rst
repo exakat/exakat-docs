@@ -31,7 +31,7 @@ Measure readability for methods, functions and closures, then collect them.
 Connex PHP features
 -------------------
 
-  + `readability <https://php-dictionary.readthedocs.io/en/latest/dictionary/readability.ini.html>`_
+  + `Readability <https://php-dictionary.readthedocs.io/en/latest/dictionary/readability.ini.html>`_
 
 
 Specs

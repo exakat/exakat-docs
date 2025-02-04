@@ -50,7 +50,7 @@ See also `class_alias <https://www.php.net/class_alias>`_.
 Connex PHP features
 -------------------
 
-  + `class-alias <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-alias.ini.html>`_
+  + `Class Aliases <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-alias.ini.html>`_
 
 
 Specs

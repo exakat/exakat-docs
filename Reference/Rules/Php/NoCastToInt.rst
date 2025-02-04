@@ -45,9 +45,9 @@ See also `Integers <https://www.php.net/manual/en/language.types.integer.php>`_.
 Connex PHP features
 -------------------
 
-  + `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+  + `Cast Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
   + `integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/integer.ini.html>`_
-  + `float <https://php-dictionary.readthedocs.io/en/latest/dictionary/float.ini.html>`_
+  + `Floating Point Numbers <https://php-dictionary.readthedocs.io/en/latest/dictionary/float.ini.html>`_
 
 
 Suggestions

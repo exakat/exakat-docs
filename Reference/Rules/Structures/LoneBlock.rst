@@ -54,7 +54,7 @@ Most often, it is a ruin from a previous flow control instruction, whose conditi
 Connex PHP features
 -------------------
 
-  + `block <https://php-dictionary.readthedocs.io/en/latest/dictionary/block.ini.html>`_
+  + `Block <https://php-dictionary.readthedocs.io/en/latest/dictionary/block.ini.html>`_
 
 
 Suggestions

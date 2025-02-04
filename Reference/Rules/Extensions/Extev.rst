@@ -82,7 +82,7 @@ See also `Ev <https://www.php.net/manual/en/book.ev.php>`_ and `libev <http://so
 Connex PHP features
 -------------------
 
-  + `event-loop <https://php-dictionary.readthedocs.io/en/latest/dictionary/event-loop.ini.html>`_
+  + `Event Loop <https://php-dictionary.readthedocs.io/en/latest/dictionary/event-loop.ini.html>`_
 
 
 Specs

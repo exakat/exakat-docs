@@ -48,7 +48,7 @@ See also `xmlreader <http://www.php.net/manual/en/book.xmlreader.php>`_.
 Connex PHP features
 -------------------
 
-  + `xml <https://php-dictionary.readthedocs.io/en/latest/dictionary/xml.ini.html>`_
+  + `Extensible Markup Language (XML) <https://php-dictionary.readthedocs.io/en/latest/dictionary/xml.ini.html>`_
 
 
 Specs

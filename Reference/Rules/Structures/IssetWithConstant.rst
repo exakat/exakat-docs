@@ -29,7 +29,7 @@ isset() With Constants
 
 Until PHP 7, it was possible to use arrays as constants, but it was not possible to test them with `isset <https://www.www.php.net/isset>`_.
 
-This would yield an `error <https://www.php.net/error>`_ : ``Cannot use `isset() <https://www.www.php.net/isset>`_ on the `result <https://www.php.net/result>`_ of an expression (you can use "null !== expression" instead)``. This is a backward incompatibility.
+This would yield an `error <https://www.php.net/error>`_ : ``Cannot use `isset() <https://www.www.php.net/isset>`_ on the `result <https://www.php.net/result>`_ of an expression (you can use "`null <https://www.php.net/`null <https://www.php.net/null>`_>`_ !== expression" instead)``. This is a backward incompatibility.
 
 .. code-block:: php
    
@@ -48,7 +48,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `isset <https://php-dictionary.readthedocs.io/en/latest/dictionary/isset.ini.html>`_
+  + `Isset <https://php-dictionary.readthedocs.io/en/latest/dictionary/isset.ini.html>`_
 
 
 Suggestions

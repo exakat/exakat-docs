@@ -37,7 +37,7 @@ See also `RFC Preload <https://wiki.php.net/rfc/preload>`_.
 Connex PHP features
 -------------------
 
-  + `directive <https://php-dictionary.readthedocs.io/en/latest/dictionary/directive.ini.html>`_
+  + `Directives <https://php-dictionary.readthedocs.io/en/latest/dictionary/directive.ini.html>`_
 
 
 Suggestions

@@ -29,7 +29,7 @@ Overwritten Literals
 
 The same variable is assigned a literal twice. It is possible that one of the assignation is too many.
 
-This analysis doesn't take into account the distance between two assignations : it may report false positives when the variable is actually used for several purposes, and, as such, assigned twice with different values.
+This analysis doesn't take into account the distance between two assignations : it may report `false <https://www.php.net/false>`_ positives when the variable is actually used for several purposes, and, as such, assigned twice with different values.
 
 .. code-block:: php
    
@@ -53,7 +53,7 @@ This analysis doesn't take into account the distance between two assignations : 
 Connex PHP features
 -------------------
 
-  + `literal <https://php-dictionary.readthedocs.io/en/latest/dictionary/literal.ini.html>`_
+  + `Literal <https://php-dictionary.readthedocs.io/en/latest/dictionary/literal.ini.html>`_
 
 
 Suggestions

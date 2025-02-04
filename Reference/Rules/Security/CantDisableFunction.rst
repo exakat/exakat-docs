@@ -45,7 +45,7 @@ This analysis is the base for suggesting values for the ``disable_functions`` di
 Connex PHP features
 -------------------
 
-  + `disable-functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/disable-functions.ini.html>`_
+  + `Disable Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/disable-functions.ini.html>`_
 
 
 Specs

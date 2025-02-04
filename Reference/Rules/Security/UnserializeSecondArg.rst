@@ -59,7 +59,7 @@ See also `unserialize() <https://www.php.net/unserialize>`_, `Securely Implement
 Connex PHP features
 -------------------
 
-  + `serialization <https://php-dictionary.readthedocs.io/en/latest/dictionary/serialization.ini.html>`_
+  + `Serialization <https://php-dictionary.readthedocs.io/en/latest/dictionary/serialization.ini.html>`_
 
 
 Suggestions

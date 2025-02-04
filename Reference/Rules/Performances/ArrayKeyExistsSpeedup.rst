@@ -29,7 +29,7 @@ array_key_exists() Speedup
 
 `array_key_exists() <https://www.php.net/array_key_exists>`_ has its own opcode, leading to better features and speed.
 
-`isset() <https://www.www.php.net/isset>`_ is faster for all non-empty values, but is limited when the value is `NULL <https://www.php.net/manual/en/language.types.null.php>`_ or empty : then, `array_key_exists() <https://www.php.net/array_key_exists>`_ has the good features.
+`isset() <https://www.www.php.net/isset>`_ is faster for all non-empty values, but is limited when the value is `NULL <https://www.php.net/manual/en/language.types.`null <https://www.php.net/null>`_.php>`_ or empty : then, `array_key_exists() <https://www.php.net/array_key_exists>`_ has the good features.
 
 ``This change makes `array_key_exists() <https://www.php.net/array_key_exists>`_ actually faster than `isset() <https://www.www.php.net/isset>`_ by ~25% (tested with GCC 8, -O3, march=native, mtune=native).``.
 
@@ -56,7 +56,7 @@ See also `Implement ZEND_ARRAY_KEY_EXISTS opcode to speed up array_key_exists() 
 Connex PHP features
 -------------------
 
-  + `opcode <https://php-dictionary.readthedocs.io/en/latest/dictionary/opcode.ini.html>`_
+  + `Opcode <https://php-dictionary.readthedocs.io/en/latest/dictionary/opcode.ini.html>`_
 
 
 Suggestions

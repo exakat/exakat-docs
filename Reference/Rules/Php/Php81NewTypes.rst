@@ -43,7 +43,7 @@ This type is only available in return types in methods. This type is not availab
 Connex PHP features
 -------------------
 
-  + `never <https://php-dictionary.readthedocs.io/en/latest/dictionary/never.ini.html>`_
+  + `Never Type <https://php-dictionary.readthedocs.io/en/latest/dictionary/never.ini.html>`_
 
 
 Specs

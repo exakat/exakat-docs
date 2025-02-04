@@ -65,9 +65,9 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `returntypewillchange <https://php-dictionary.readthedocs.io/en/latest/dictionary/returntypewillchange.ini.html>`_
-  + `type-covariance <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-covariance.ini.html>`_
-  + `type-contravariance <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-contravariance.ini.html>`_
+  + `Return Type Will Change <https://php-dictionary.readthedocs.io/en/latest/dictionary/returntypewillchange.ini.html>`_
+  + `Covariance <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-covariance.ini.html>`_
+  + `Contravariance <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-contravariance.ini.html>`_
 
 
 Suggestions

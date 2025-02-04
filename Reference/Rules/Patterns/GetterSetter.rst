@@ -56,8 +56,8 @@ See also `PHP: Getters and Setters <https://thisinterestsme.com/php-getters-and-
 Connex PHP features
 -------------------
 
-  + `getter <https://php-dictionary.readthedocs.io/en/latest/dictionary/getter.ini.html>`_
-  + `setter <https://php-dictionary.readthedocs.io/en/latest/dictionary/setter.ini.html>`_
+  + `Class Getter Method <https://php-dictionary.readthedocs.io/en/latest/dictionary/getter.ini.html>`_
+  + `Class Setter Method <https://php-dictionary.readthedocs.io/en/latest/dictionary/setter.ini.html>`_
 
 
 Specs

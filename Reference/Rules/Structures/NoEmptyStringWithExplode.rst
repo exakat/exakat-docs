@@ -27,7 +27,7 @@ No Empty String With explode()
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/NoEmptyStringWithExplode.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/NoEmptyStringWithExplode.html","name":"No Empty String With explode()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jan 2025 17:40:16 +0000","dateModified":"Thu, 16 Jan 2025 17:40:16 +0000","description":"explode() doesn't allow empty strings as separator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Empty String With explode().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-`explode() <https://www.php.net/explode>`_ doesn't allow empty strings as separator. Until PHP 8.0, it would make a warning, and return false. After that version, it raises a `ValueError <https://www.php.net/valueerror>`_.
+`explode() <https://www.php.net/explode>`_ doesn't allow empty strings as separator. Until PHP 8.0, it would make a warning, and return `false <https://www.php.net/false>`_. After that version, it raises a `ValueError <https://www.php.net/valueerror>`_.
 
 To `break <https://www.php.net/manual/en/control-structures.break.php>`_ a string into individual characters, it is possible to use the array notation on strings, or to use the `str_split() <https://www.php.net/str_split>`_ function.
 

@@ -57,9 +57,9 @@ See also `Operator Precedence <https://www.php.net/manual/en/language.operators.
 Connex PHP features
 -------------------
 
-  + `precedence <https://php-dictionary.readthedocs.io/en/latest/dictionary/precedence.ini.html>`_
-  + `operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/operator.ini.html>`_
-  + `logical-operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/logical-operator.ini.html>`_
+  + `Precedence <https://php-dictionary.readthedocs.io/en/latest/dictionary/precedence.ini.html>`_
+  + `Operators <https://php-dictionary.readthedocs.io/en/latest/dictionary/operator.ini.html>`_
+  + `Logical Operators <https://php-dictionary.readthedocs.io/en/latest/dictionary/logical-operator.ini.html>`_
 
 
 Suggestions

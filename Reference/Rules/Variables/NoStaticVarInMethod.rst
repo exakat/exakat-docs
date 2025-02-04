@@ -60,7 +60,7 @@ The `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variable 
 Connex PHP features
 -------------------
 
-  + `static-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-variable.ini.html>`_
+  + `Static Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-variable.ini.html>`_
 
 
 Suggestions

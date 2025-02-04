@@ -31,7 +31,7 @@ There is no need to add references to parameters for objects, as those are alway
 
 Reference operator is needed when the object are replaced inside the method with a new value (or a clone), as whole. Calls to methods or property modifications do not require extra reference.
 
-Reference operator is also needed when one of the types is scalar : this include null, and the hidden null type : that is when the default value is null.
+Reference operator is also needed when one of the types is scalar : this include `null <https://www.php.net/`null <https://www.php.net/null>`_>`_, and the hidden `null <https://www.php.net/`null <https://www.php.net/null>`_>`_ type : that is when the default value is `null <https://www.php.net/`null <https://www.php.net/null>`_>`_.
 
 This rule applies to arguments in methods, and to `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ blind variables.
 
@@ -66,7 +66,7 @@ See also `Passing by reference <https://www.php.net/manual/en/language.reference
 Connex PHP features
 -------------------
 
-  + `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+  + `References <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
 
 
 Suggestions

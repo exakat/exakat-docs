@@ -31,7 +31,7 @@ Avoid else clause when the then clause returns, but not the else. And vice-versa
 
 This way, the else block disappears, and is now the main sequence of the function. 
 
-This is also true if else has a return, and then not. When doing so, don't forget to reverse the condition.
+This is also `true <https://www.php.net/true>`_ if else has a return, and then not. When doing so, don't forget to reverse the condition.
 
 .. code-block:: php
    
@@ -63,7 +63,7 @@ This is also true if else has a return, and then not. When doing so, don't forge
 Connex PHP features
 -------------------
 
-  + `return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
+  + `Return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
 
 
 Suggestions

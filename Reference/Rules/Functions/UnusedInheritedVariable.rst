@@ -50,8 +50,8 @@ See also `Anonymous functions <https://www.php.net/manual/en/functions.anonymous
 Connex PHP features
 -------------------
 
-  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
-  + `inherited-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/inherited-variable.ini.html>`_
+  + `Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `Inherited Variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/inherited-variable.ini.html>`_
 
 
 Suggestions

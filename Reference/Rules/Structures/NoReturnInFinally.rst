@@ -76,8 +76,8 @@ See also `Return Inside Finally Block <https://www.owasp.org/index.php/Return_In
 Connex PHP features
 -------------------
 
-  + `finally <https://php-dictionary.readthedocs.io/en/latest/dictionary/finally.ini.html>`_
-  + `return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
+  + `Finally <https://php-dictionary.readthedocs.io/en/latest/dictionary/finally.ini.html>`_
+  + `Return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
 
 
 Suggestions

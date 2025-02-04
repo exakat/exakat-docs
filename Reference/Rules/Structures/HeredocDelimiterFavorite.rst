@@ -89,7 +89,7 @@ Generally, one or two delimiters are used, with generic value. It is recommended
 Connex PHP features
 -------------------
 
-  + `heredoc <https://php-dictionary.readthedocs.io/en/latest/dictionary/heredoc.ini.html>`_
+  + `Heredocs <https://php-dictionary.readthedocs.io/en/latest/dictionary/heredoc.ini.html>`_
 
 
 Specs

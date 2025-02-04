@@ -60,7 +60,7 @@ See also `PSR-3 : Logger Interface <http://www.php-fig.org/psr/psr-3/>`_.
 Connex PHP features
 -------------------
 
-  + `psr <https://php-dictionary.readthedocs.io/en/latest/dictionary/psr.ini.html>`_
+  + `PHP Standards Recommendations (PSR) <https://php-dictionary.readthedocs.io/en/latest/dictionary/psr.ini.html>`_
 
 
 Specs

@@ -63,7 +63,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `autoload <https://php-dictionary.readthedocs.io/en/latest/dictionary/autoload.ini.html>`_
+  + `Class Autoloading <https://php-dictionary.readthedocs.io/en/latest/dictionary/autoload.ini.html>`_
 
 
 Suggestions

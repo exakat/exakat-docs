@@ -29,11 +29,11 @@ PHP 8.1 Removed Constants
 
 The following PHP native constants were disabled in PHP 8.1. They are not removed, but they have no more effect. 
 
-+ `MYSQLI_STMT_ATTR_UPDATE_MAX_LENGTH <https://www.php.net/MYSQLI_STMT_ATTR_UPDATE_MAX_LENGTH>`_
-+ `MYSQLI_STORE_RESULT_COPY_DATA <https://www.php.net/MYSQLI_STORE_RESULT_COPY_DATA>`_
-+ `FILE_BINARY <https://www.php.net/FILE_BINARY>`_
-+ `FILE_TEXT <https://www.php.net/FILE_TEXT>`_
-+ `FILTER_SANITIZE_STRING <https://www.php.net/FILTER_SANITIZE_STRING>`_
++ `MYSQLI_STMT_ATTR_UPDATE_MAX_LENGTH <https://www.php.net/mysqli_stmt_attr_update_max_length>`_
++ `MYSQLI_STORE_RESULT_COPY_DATA <https://www.php.net/mysqli_store_result_copy_data>`_
++ `FILE_BINARY <https://www.php.net/file_binary>`_
++ `FILE_TEXT <https://www.php.net/file_text>`_
++ `FILTER_SANITIZE_STRING <https://www.php.net/filter_sanitize_string>`_
 
 See also `PHP RFC: Deprecations for PHP 8.1 <https://wiki.php.net/rfc/deprecations_php_8_1>`_.
 
@@ -47,7 +47,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+  + `Constants <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
 
 
 Suggestions

@@ -49,8 +49,8 @@ When the path contains UTF-8 characters, `pathinfo() <https://www.php.net/pathin
 Connex PHP features
 -------------------
 
-  + `path <https://php-dictionary.readthedocs.io/en/latest/dictionary/path.ini.html>`_
-  + `file <https://php-dictionary.readthedocs.io/en/latest/dictionary/file.ini.html>`_
+  + `Path <https://php-dictionary.readthedocs.io/en/latest/dictionary/path.ini.html>`_
+  + `File <https://php-dictionary.readthedocs.io/en/latest/dictionary/file.ini.html>`_
 
 
 Suggestions

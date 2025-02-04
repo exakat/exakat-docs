@@ -41,7 +41,7 @@ Native functions, such as `sort() <https://www.php.net/sort>`_ (first argument),
 Connex PHP features
 -------------------
 
-  + `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+  + `References <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
 
 
 Specs

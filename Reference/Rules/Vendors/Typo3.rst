@@ -29,7 +29,7 @@ Typo 3 usage
 
 This rule reports usage of the Typo 3 CMS API in the code. 
 
-TYPO3 is a free enterprise-class CMS based on PHP. It combines open source code with reliability and true scalability. 
+TYPO3 is a free enterprise-class CMS based on PHP. It combines open source code with reliability and `true <https://www.php.net/true>`_ scalability. 
 
 .. code-block:: php
    
@@ -51,7 +51,7 @@ See also `Typo3 <https://typo3.org/>`_.
 Connex PHP features
 -------------------
 
-  + `framework <https://php-dictionary.readthedocs.io/en/latest/dictionary/framework.ini.html>`_
+  + `Framework <https://php-dictionary.readthedocs.io/en/latest/dictionary/framework.ini.html>`_
 
 
 Specs

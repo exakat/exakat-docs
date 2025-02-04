@@ -47,7 +47,7 @@ See also `How to fix Headers already sent error in PHP <http://stackoverflow.com
 Connex PHP features
 -------------------
 
-  + `whitespace <https://php-dictionary.readthedocs.io/en/latest/dictionary/whitespace.ini.html>`_
+  + `Whitespace <https://php-dictionary.readthedocs.io/en/latest/dictionary/whitespace.ini.html>`_
 
 
 Suggestions

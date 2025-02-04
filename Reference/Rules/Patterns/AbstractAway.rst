@@ -30,7 +30,7 @@ Abstract Away
 Avoid using PHP native functions that produce data directly in the code. For example, `date() <https://www.php.net/date>`_ or `random_int() <https://www.php.net/random_int>`_. They should be abstracted away in a method, that will be replaced later for testing purposes, or even debugging.
 
 To abstract such calls, place them in a method, and add an interface to this method. Then, create and use those objects.
-This analysis targets two API for abstraction : time and random values. Time and date related functions may be replaced by `Carbon <https://carbon.nesbot.com/docs/>`_, `Clock <https://github.com/lcobucci/clock>`_, `Chronos <https://github.com/cakephp/chronos>`_. Random values may be replaced with `RandomLib <https://github.com/ircmaxell/RandomLib/>`_ or a custom interface.
+This analysis targets two API for abstraction : time and random values. Time and date related functions may be replaced by `Carbon <https://carbon.nesbot.`com <https://www.php.net/com>`_/docs/>`_, `Clock <https://github.`com <https://www.php.net/com>`_/lcobucci/clock>`_, `Chronos <https://github.`com <https://www.php.net/com>`_/cakephp/chronos>`_. Random values may be replaced with `RandomLib <https://github.`com <https://www.php.net/com>`_/ircmaxell/RandomLib/>`_ or a custom interface.
 
 .. code-block:: php
    

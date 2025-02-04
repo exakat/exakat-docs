@@ -53,7 +53,7 @@ This analysis also detects Unicode codepoint with superfluous leading zeros.
 Connex PHP features
 -------------------
 
-  + `string-sequence <https://php-dictionary.readthedocs.io/en/latest/dictionary/string-sequence.ini.html>`_
+  + `Escape Sequences <https://php-dictionary.readthedocs.io/en/latest/dictionary/string-sequence.ini.html>`_
 
 
 Suggestions

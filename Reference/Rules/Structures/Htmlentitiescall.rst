@@ -52,7 +52,7 @@ See also `htmlentities <https://www.php.net/htmlentities>`_ and `htmlspecialchar
 Connex PHP features
 -------------------
 
-  + `html-entity <https://php-dictionary.readthedocs.io/en/latest/dictionary/html-entity.ini.html>`_
+  + `HTML Entity <https://php-dictionary.readthedocs.io/en/latest/dictionary/html-entity.ini.html>`_
 
 
 Suggestions

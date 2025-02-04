@@ -46,7 +46,7 @@ Connex PHP features
 -------------------
 
   + `include <https://php-dictionary.readthedocs.io/en/latest/dictionary/include.ini.html>`_
-  + `include_once <https://php-dictionary.readthedocs.io/en/latest/dictionary/include_once.ini.html>`_
+  + `include <https://php-dictionary.readthedocs.io/en/latest/dictionary/include_once.ini.html>`_
 
 
 Suggestions

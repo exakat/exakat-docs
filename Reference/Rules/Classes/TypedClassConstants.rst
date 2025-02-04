@@ -50,7 +50,7 @@ See also `PHP RFC: Typed class constants <https://wiki.php.net/rfc/typed_class_c
 Connex PHP features
 -------------------
 
-  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
 
 Specs

@@ -53,7 +53,7 @@ See also `$_ENV <https://www.php.net/reserved.variables.environment.php>`_.
 Connex PHP features
 -------------------
 
-  + `environment-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/environment-variable.ini.html>`_
+  + `Environment Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/environment-variable.ini.html>`_
 
 
 Specs

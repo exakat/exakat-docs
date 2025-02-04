@@ -51,8 +51,8 @@ This applies to `array_pad() <https://www.php.net/array_pad>`_ too. It doesn't a
 Connex PHP features
 -------------------
 
-  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
-  + `object <https://php-dictionary.readthedocs.io/en/latest/dictionary/object.ini.html>`_
+  + `Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `Object <https://php-dictionary.readthedocs.io/en/latest/dictionary/object.ini.html>`_
 
 
 Suggestions

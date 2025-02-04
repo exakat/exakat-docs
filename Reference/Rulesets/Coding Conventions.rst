@@ -23,35 +23,35 @@ This ruleset centralizes all analysis related to coding conventions. Sometimes, 
 
 Total : 29 analysis
 
-* :ref:`no-plus-one`
-* :ref:`all-uppercase-variables`
-* :ref:`use-with-fully-qualified-name`
-* :ref:`non-lowercase-keywords`
-* :ref:`echo-or-print`
-* :ref:`constant-comparison`
-* :ref:`closing-tags`
-* :ref:`one-letter-functions`
-* :ref:`wrong-class-name-case`
-* :ref:`bracketless-blocks`
-* :ref:`use-const`
-* :ref:`unusual-case-for-php-functions`
-* :ref:`interpolation`
-* :ref:`empty-slots-in-arrays`
-* :ref:`multiple-classes-in-one-file`
-* :ref:`return-with-parenthesis`
-* :ref:`should-be-single-quote`
-* :ref:`yoda-comparison`
-* :ref:`mixed-concat-and-interpolation`
-* :ref:`order-of-declaration`
-* :ref:`heredoc-delimiter`
-* :ref:`mistaken-concatenation`
-* :ref:`don't-be-too-manual`
-* :ref:`similar-integers`
-* :ref:`wrong-function-name-case`
-* :ref:`wrong-case-namespaces`
-* :ref:`wrong-typed-name`
-* :ref:`multiple-property-declaration-on-one-line`
-* :ref:`useless-trailing-comma`
+* :ref:`structures-plusegalone`
+* :ref:`variables-variableuppercase`
+* :ref:`namespaces-usewithfullyqualifiedns`
+* :ref:`php-uppercasekeyword`
+* :ref:`structures-echoprintconsistance`
+* :ref:`structures-constantcomparisonconsistance`
+* :ref:`php-closetags`
+* :ref:`functions-oneletterfunctions`
+* :ref:`classes-wrongcase`
+* :ref:`structures-bracketless`
+* :ref:`constants-constrecommended`
+* :ref:`php-uppercasefunction`
+* :ref:`type-stringinterpolation`
+* :ref:`arrays-emptyslots`
+* :ref:`classes-multipleclassesinfile`
+* :ref:`php-returnwithparenthesis`
+* :ref:`type-shouldbesinglequote`
+* :ref:`structures-yodacomparison`
+* :ref:`structures-mixedconcatinterpolation`
+* :ref:`classes-orderofdeclaration`
+* :ref:`structures-heredocdelimiterfavorite`
+* :ref:`arrays-mistakenconcatenation`
+* :ref:`structures-dontbetoomanual`
+* :ref:`type-similarintegers`
+* :ref:`functions-wrongcase`
+* :ref:`namespaces-wrongcase`
+* :ref:`functions-wrongtypehintedname`
+* :ref:`classes-multiplepropertydeclarationononeline`
+* :ref:`structures-uselesstrailingcomma`
 
 Specs
 _____

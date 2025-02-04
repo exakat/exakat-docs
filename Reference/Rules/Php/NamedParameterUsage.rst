@@ -48,7 +48,7 @@ Named parameters works for both custom methods and PHP native functions.
 Connex PHP features
 -------------------
 
-  + `named-parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/named-parameter.ini.html>`_
+  + `Named Parameters <https://php-dictionary.readthedocs.io/en/latest/dictionary/named-parameter.ini.html>`_
 
 
 Specs

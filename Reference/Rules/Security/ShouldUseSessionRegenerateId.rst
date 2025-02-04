@@ -56,7 +56,7 @@ See also `session_regenerateid() <https://www.php.net/session_regenerate_id>`_ a
 Connex PHP features
 -------------------
 
-  + `session <https://php-dictionary.readthedocs.io/en/latest/dictionary/session.ini.html>`_
+  + `Session <https://php-dictionary.readthedocs.io/en/latest/dictionary/session.ini.html>`_
 
 
 Suggestions

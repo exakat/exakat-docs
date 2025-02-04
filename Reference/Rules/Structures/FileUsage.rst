@@ -43,7 +43,7 @@ See also `filesystem <http://www.php.net/manual/en/book.filesystem.php>`_.
 Connex PHP features
 -------------------
 
-  + `file <https://php-dictionary.readthedocs.io/en/latest/dictionary/file.ini.html>`_
+  + `File <https://php-dictionary.readthedocs.io/en/latest/dictionary/file.ini.html>`_
 
 
 Specs

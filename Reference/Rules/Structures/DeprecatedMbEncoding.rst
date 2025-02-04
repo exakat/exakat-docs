@@ -65,7 +65,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `encoding <https://php-dictionary.readthedocs.io/en/latest/dictionary/encoding.ini.html>`_
+  + `Encoding <https://php-dictionary.readthedocs.io/en/latest/dictionary/encoding.ini.html>`_
 
 
 Suggestions

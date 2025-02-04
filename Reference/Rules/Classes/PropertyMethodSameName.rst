@@ -56,7 +56,7 @@ See also `Words That Are Both Nouns And Verbs <https://www.enchantedlearning.com
 Connex PHP features
 -------------------
 
-  + `name <https://php-dictionary.readthedocs.io/en/latest/dictionary/name.ini.html>`_
+  + `Name <https://php-dictionary.readthedocs.io/en/latest/dictionary/name.ini.html>`_
 
 
 Suggestions

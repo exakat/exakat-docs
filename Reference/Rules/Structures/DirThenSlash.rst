@@ -29,7 +29,7 @@ __DIR__ Then Slash
 
 `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ must be concatenated with a string starting with /.
 
-The magic constant `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ holds the name of the current `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_, without final /. When it is used to build path, then the following path fragment must start with /. Otherwise, two directories names will be merged together.
+The magic constant `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ holds the name of the current `directory <https://www.php.net/directory>`_, without final /. When it is used to build path, then the following path fragment must start with /. Otherwise, two directories names will be merged together.
 
 .. code-block:: php
    

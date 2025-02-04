@@ -38,7 +38,7 @@ Mark a file as a CLI script. This means that this code is used in command line. 
 Connex PHP features
 -------------------
 
-  + `cli <https://php-dictionary.readthedocs.io/en/latest/dictionary/cli.ini.html>`_
+  + `Command Line Interface (CLI) <https://php-dictionary.readthedocs.io/en/latest/dictionary/cli.ini.html>`_
 
 
 Specs

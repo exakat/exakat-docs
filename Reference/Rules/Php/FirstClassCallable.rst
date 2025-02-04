@@ -49,7 +49,7 @@ See also `PHP RFC: First-class callable syntax <https://wiki.php.net/rfc/first_c
 Connex PHP features
 -------------------
 
-  + `first-class-callable <https://php-dictionary.readthedocs.io/en/latest/dictionary/first-class-callable.ini.html>`_
+  + `First Class Callable <https://php-dictionary.readthedocs.io/en/latest/dictionary/first-class-callable.ini.html>`_
 
 
 Specs

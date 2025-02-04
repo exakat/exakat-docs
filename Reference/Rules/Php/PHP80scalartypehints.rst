@@ -27,7 +27,7 @@ PHP 8.0 Types
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/PHP80scalartypehints.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/PHP80scalartypehints.html","name":"PHP 8.0 Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jan 2025 10:21:35 +0000","dateModified":"Fri, 24 Jan 2025 10:21:35 +0000","description":"New scalar types were introduced : mixed and false","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/PHP 8.0 Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-New scalar types were introduced : mixed and false. 
+New scalar types were introduced : mixed and `false <https://www.php.net/false>`_. 
 
 They can't be used before PHP 8.0, and will be confused with classes or interfaces, or generate a parse `error <https://www.php.net/error>`_.
 
@@ -47,9 +47,9 @@ See also `PHP RFC: noreturn type <https://wiki.php.net/rfc/noreturn_type>`_.
 Connex PHP features
 -------------------
 
-  + `mixed <https://php-dictionary.readthedocs.io/en/latest/dictionary/mixed.ini.html>`_
-  + `false <https://php-dictionary.readthedocs.io/en/latest/dictionary/false.ini.html>`_
-  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `Mixed <https://php-dictionary.readthedocs.io/en/latest/dictionary/mixed.ini.html>`_
+  + `False <https://php-dictionary.readthedocs.io/en/latest/dictionary/false.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
 
 Specs

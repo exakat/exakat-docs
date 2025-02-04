@@ -56,8 +56,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `enum <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum.ini.html>`_
-  + `enum-case <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum-case.ini.html>`_
+  + `Enumeration (enum) <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum.ini.html>`_
+  + `Enumeration Case <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum-case.ini.html>`_
 
 
 Specs

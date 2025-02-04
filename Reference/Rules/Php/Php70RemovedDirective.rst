@@ -34,7 +34,7 @@ See also `Removed INI directives <https://www.php.net/manual/en/migration70.inco
 Connex PHP features
 -------------------
 
-  + `directive <https://php-dictionary.readthedocs.io/en/latest/dictionary/directive.ini.html>`_
+  + `Directives <https://php-dictionary.readthedocs.io/en/latest/dictionary/directive.ini.html>`_
 
 
 Suggestions

@@ -67,8 +67,8 @@ See also `Using namespaces: Aliasing/Importing ¶ <https://www.php.net/manual/en
 Connex PHP features
 -------------------
 
-  + `namespace <https://php-dictionary.readthedocs.io/en/latest/dictionary/namespace.ini.html>`_
-  + `use-alias <https://php-dictionary.readthedocs.io/en/latest/dictionary/use-alias.ini.html>`_
+  + `Namespaces <https://php-dictionary.readthedocs.io/en/latest/dictionary/namespace.ini.html>`_
+  + `Use Alias <https://php-dictionary.readthedocs.io/en/latest/dictionary/use-alias.ini.html>`_
 
 
 Suggestions

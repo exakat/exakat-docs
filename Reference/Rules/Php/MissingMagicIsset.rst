@@ -50,8 +50,8 @@ See also `When empty is not empty <https://freek.dev/1057-when-empty-is-not-empt
 Connex PHP features
 -------------------
 
-  + `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
-  + `isset <https://php-dictionary.readthedocs.io/en/latest/dictionary/isset.ini.html>`_
+  + `Magic Methods <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
+  + `Isset <https://php-dictionary.readthedocs.io/en/latest/dictionary/isset.ini.html>`_
 
 
 Suggestions

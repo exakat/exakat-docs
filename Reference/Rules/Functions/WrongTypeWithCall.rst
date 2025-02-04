@@ -57,8 +57,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `union-type <https://php-dictionary.readthedocs.io/en/latest/dictionary/union-type.ini.html>`_
-  + `intersection-type <https://php-dictionary.readthedocs.io/en/latest/dictionary/intersection-type.ini.html>`_
+  + `Union Type <https://php-dictionary.readthedocs.io/en/latest/dictionary/union-type.ini.html>`_
+  + `Intersection Type <https://php-dictionary.readthedocs.io/en/latest/dictionary/intersection-type.ini.html>`_
 
 
 Suggestions

@@ -49,7 +49,7 @@ See also https://www.php.net/manual/en/language.types.integer.php#language.types
 Connex PHP features
 -------------------
 
-  + `hexadecimal-integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/hexadecimal-integer.ini.html>`_
+  + `Hexadecimal Integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/hexadecimal-integer.ini.html>`_
 
 
 Specs

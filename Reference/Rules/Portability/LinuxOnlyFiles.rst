@@ -41,7 +41,7 @@ List of files that are only found on Linux style systems. They are making the ap
 Connex PHP features
 -------------------
 
-  + `file <https://php-dictionary.readthedocs.io/en/latest/dictionary/file.ini.html>`_
+  + `File <https://php-dictionary.readthedocs.io/en/latest/dictionary/file.ini.html>`_
 
 
 Specs

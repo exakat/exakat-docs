@@ -63,7 +63,7 @@ See also `Ideal regex delimiters in PHP <http://codelegance.com/ideal-regex-deli
 Connex PHP features
 -------------------
 
-  + `regex <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
+  + `Regular Expressions <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
 
 
 Specs

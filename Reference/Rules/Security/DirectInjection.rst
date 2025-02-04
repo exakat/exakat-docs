@@ -49,7 +49,7 @@ See also `Cross-Site Scripting (XSS) <https://phpsecurity.readthedocs.io/en/late
 Connex PHP features
 -------------------
 
-  + `injection <https://php-dictionary.readthedocs.io/en/latest/dictionary/injection.ini.html>`_
+  + `Injection <https://php-dictionary.readthedocs.io/en/latest/dictionary/injection.ini.html>`_
 
 
 Suggestions

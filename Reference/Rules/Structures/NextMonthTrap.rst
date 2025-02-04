@@ -55,7 +55,7 @@ See also `It is the 31st again <https://twitter.com/rasmus/status/92543173412819
 Connex PHP features
 -------------------
 
-  + `date <https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html>`_
+  + `Dates <https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html>`_
 
 
 Suggestions

@@ -55,7 +55,7 @@ See also `Scope Resolution Operator (::) <https://www.php.net/manual/en/language
 Connex PHP features
 -------------------
 
-  + `class-operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-operator.ini.html>`_
+  + `Class Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-operator.ini.html>`_
 
 
 Suggestions

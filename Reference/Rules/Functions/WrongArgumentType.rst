@@ -54,8 +54,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
-  + `argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `Argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
 
 
 Suggestions

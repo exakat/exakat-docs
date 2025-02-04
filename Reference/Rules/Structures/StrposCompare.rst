@@ -29,10 +29,10 @@ Strpos()-like Comparison
 
 The `result <https://www.php.net/result>`_ of that function may be mistaken with an `error <https://www.php.net/error>`_.
 
-`strpos() <https://www.php.net/strpos>`_, along with several PHP native functions, returns a string position, starting at 0, or false, in case of failure. 
-It is recommended to check the `result <https://www.php.net/result>`_ of `strpos() <https://www.php.net/strpos>`_ with === or !==, so as to avoid confusing 0 and false. 
+`strpos() <https://www.php.net/strpos>`_, along with several PHP native functions, returns a string position, starting at 0, or `false <https://www.php.net/false>`_, in case of failure. 
+It is recommended to check the `result <https://www.php.net/result>`_ of `strpos() <https://www.php.net/strpos>`_ with === or !==, so as to avoid confusing 0 and `false <https://www.php.net/false>`_. 
 
-This analyzer list all the `strpos() <https://www.php.net/strpos>`_-like functions that are directly compared with == or !=. `preg_match() <https://www.php.net/preg_match>`_, when its first argument is a literal, is omitted : this function only returns `NULL <https://www.php.net/manual/en/language.types.null.php>`_ in case of regex `error <https://www.php.net/error>`_. 
+This analyzer list all the `strpos() <https://www.php.net/strpos>`_-like functions that are directly compared with == or !=. `preg_match() <https://www.php.net/preg_match>`_, when its first argument is a literal, is omitted : this function only returns `NULL <https://www.php.net/manual/en/language.types.`null <https://www.php.net/null>`_.php>`_ in case of regex `error <https://www.php.net/error>`_. 
 
 The full list is the following : 
 * `array_search() <https://www.php.net/array_search>`_
@@ -91,7 +91,7 @@ See also `strpos not working correctly <https://bugs.php.net/bug.php?id=52198>`_
 Connex PHP features
 -------------------
 
-  + `strict-comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/strict-comparison.ini.html>`_
+  + `Strict Comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/strict-comparison.ini.html>`_
 
 
 Suggestions

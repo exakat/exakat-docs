@@ -58,7 +58,7 @@ This command may not detect all possible link for the ``__get`` and ``__set`` ca
 Connex PHP features
 -------------------
 
-  + `magic-property <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-property.ini.html>`_
+  + `Magic Property <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-property.ini.html>`_
 
 
 Specs

@@ -71,7 +71,7 @@ In particular, if the injection happens with a separate method, there is a time 
 Connex PHP features
 -------------------
 
-  + `injection <https://php-dictionary.readthedocs.io/en/latest/dictionary/injection.ini.html>`_
+  + `Injection <https://php-dictionary.readthedocs.io/en/latest/dictionary/injection.ini.html>`_
 
 
 Suggestions

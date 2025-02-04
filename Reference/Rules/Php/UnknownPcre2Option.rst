@@ -48,7 +48,7 @@ See also `Pattern Modifiers <https://www.php.net/manual/en/reference.pcre.patter
 Connex PHP features
 -------------------
 
-  + `regex <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
+  + `Regular Expressions <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
 
 
 Specs

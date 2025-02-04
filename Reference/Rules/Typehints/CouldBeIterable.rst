@@ -47,7 +47,7 @@ Mark arguments, class constants, properties and return types that can be set to 
 Connex PHP features
 -------------------
 
-  + `iterable <https://php-dictionary.readthedocs.io/en/latest/dictionary/iterable.ini.html>`_
+  + `Iterable <https://php-dictionary.readthedocs.io/en/latest/dictionary/iterable.ini.html>`_
 
 
 Suggestions

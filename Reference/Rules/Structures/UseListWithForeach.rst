@@ -60,7 +60,7 @@ See also `list <https://www.php.net/manual/en/function.list.php>`_ and `foreach 
 Connex PHP features
 -------------------
 
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
 
 
 Suggestions

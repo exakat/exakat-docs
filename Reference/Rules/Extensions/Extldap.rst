@@ -29,7 +29,7 @@ ext/ldap
 
 Extension ext/ldap.
 
-LDAP is the Lightweight `Directory <https://www.php.net/`Directory <https://www.php.net/Directory>`_>`_ Access Protocol, and is a protocol used to access '`Directory <https://www.php.net/`Directory <https://www.php.net/Directory>`_>`_ Servers'. The `Directory <https://www.php.net/`Directory <https://www.php.net/Directory>`_>`_ is a special kind of database that holds information in a tree structure.
+LDAP is the Lightweight `Directory <https://www.php.net/directory>`_ Access Protocol, and is a protocol used to access '`Directory <https://www.php.net/directory>`_ Servers'. The `Directory <https://www.php.net/directory>`_ is a special kind of database that holds information in a tree structure.
 
 .. code-block:: php
    

@@ -47,7 +47,7 @@ Dynamic classes
 Connex PHP features
 -------------------
 
-  + `dynamic-class <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-class.ini.html>`_
+  + `Dynamic Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-class.ini.html>`_
 
 
 Specs

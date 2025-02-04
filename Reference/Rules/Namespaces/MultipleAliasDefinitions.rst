@@ -49,9 +49,9 @@ Across an application, it is recommended to use the same namespace for one alias
 Connex PHP features
 -------------------
 
-  + `namespace <https://php-dictionary.readthedocs.io/en/latest/dictionary/namespace.ini.html>`_
-  + `naming <https://php-dictionary.readthedocs.io/en/latest/dictionary/naming.ini.html>`_
-  + `use-alias <https://php-dictionary.readthedocs.io/en/latest/dictionary/use-alias.ini.html>`_
+  + `Namespaces <https://php-dictionary.readthedocs.io/en/latest/dictionary/namespace.ini.html>`_
+  + `Naming <https://php-dictionary.readthedocs.io/en/latest/dictionary/naming.ini.html>`_
+  + `Use Alias <https://php-dictionary.readthedocs.io/en/latest/dictionary/use-alias.ini.html>`_
 
 
 Suggestions

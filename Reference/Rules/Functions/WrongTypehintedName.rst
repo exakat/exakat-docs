@@ -52,7 +52,7 @@ This analysis relies on a few variations of names : ``bool`` and ``boolean``, ``
 Connex PHP features
 -------------------
 
-  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
 
 Suggestions

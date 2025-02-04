@@ -27,9 +27,9 @@ ext/snmp
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extsnmp.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extsnmp.html","name":"ext\/snmp","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Extension SNMP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/ext\/snmp.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-Extension `SNMP <https://www.php.net/SNMP>`_.
+Extension `SNMP <https://www.php.net/snmp>`_.
 
-The `SNMP <https://www.php.net/SNMP>`_ extension provides a very simple and easily usable toolset for managing remote devices via the Simple Network Management Protocol.
+The `SNMP <https://www.php.net/snmp>`_ extension provides a very simple and easily usable toolset for managing remote devices via the Simple Network Management Protocol.
 
 .. code-block:: php
    

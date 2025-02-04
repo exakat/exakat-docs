@@ -51,7 +51,7 @@ See also `List of function aliases <https://www.php.net/manual/en/aliases.php>`_
 Connex PHP features
 -------------------
 
-  + `native <https://php-dictionary.readthedocs.io/en/latest/dictionary/native.ini.html>`_
+  + `Native <https://php-dictionary.readthedocs.io/en/latest/dictionary/native.ini.html>`_
 
 
 Suggestions

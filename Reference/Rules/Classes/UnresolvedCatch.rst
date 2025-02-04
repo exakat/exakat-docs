@@ -29,7 +29,7 @@ Unresolved Catch
 
 Catch clauses do not check for `Exception <https://www.php.net/exception>`_ existence. 
 
-Catch clauses check that the emitted expression is of the requested Class, but if that class doesn't exist in the code, the catch clause is always false. This is dead code.
+Catch clauses check that the emitted expression is of the requested Class, but if that class doesn't exist in the code, the catch clause is always `false <https://www.php.net/false>`_. This is dead code.
 
 .. code-block:: php
    
@@ -51,7 +51,7 @@ See also `PHP Try Catch: Basics & Advanced PHP Exception Handling Tutorial <http
 Connex PHP features
 -------------------
 
-  + `try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try-catch.ini.html>`_
+  + `Try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try-catch.ini.html>`_
 
 
 Suggestions

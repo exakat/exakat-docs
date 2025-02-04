@@ -58,7 +58,7 @@ See also `Single Function Exit Point <http://wiki.c2.com/?SingleFunctionExitPoin
 Connex PHP features
 -------------------
 
-  + `return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
+  + `Return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
 
 
 Specs

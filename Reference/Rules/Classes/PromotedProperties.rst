@@ -49,7 +49,7 @@ See also `Constructor Promotion <https://www.php.net/manual/en/language.oop5.dec
 Connex PHP features
 -------------------
 
-  + `promoted-property <https://php-dictionary.readthedocs.io/en/latest/dictionary/promoted-property.ini.html>`_
+  + `Promoted Properties <https://php-dictionary.readthedocs.io/en/latest/dictionary/promoted-property.ini.html>`_
 
 
 Specs

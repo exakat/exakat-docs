@@ -46,7 +46,7 @@ See also `shell_exec <http://www.php.net/shell_exec>`_ and `Execution Operators 
 Connex PHP features
 -------------------
 
-  + `shell <https://php-dictionary.readthedocs.io/en/latest/dictionary/shell.ini.html>`_
+  + `Shell <https://php-dictionary.readthedocs.io/en/latest/dictionary/shell.ini.html>`_
 
 
 Specs

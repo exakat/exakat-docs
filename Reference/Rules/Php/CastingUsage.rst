@@ -49,7 +49,7 @@ See also `Type Juggling <https://www.php.net/manual/en/language.types.type-juggl
 Connex PHP features
 -------------------
 
-  + `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+  + `Cast Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
 
 
 Specs

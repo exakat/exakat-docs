@@ -31,7 +31,7 @@ It is not recommended to use hardcoded literals when designating files. Full pat
 
 Either use `__FILE__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ and `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ to make the path relative to the current file; use a ``DOC_ROOT`` as a configuration constant that will allow the moving of the script to another folder; finally functions like `sys_get_temp_dir() <https://www.php.net/sys_get_temp_dir>`_ produce a viable temporary folder.
 
-Relative paths are relative to the current execution `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_, and not the current file. This means they may differ depending on the location of the start of the application, and are sensitive to `chdir() <https://www.php.net/chdir>`_ and `chroot() <https://www.php.net/chroot>`_ usage.
+Relative paths are relative to the current execution `directory <https://www.php.net/directory>`_, and not the current file. This means they may differ depending on the location of the start of the application, and are sensitive to `chdir() <https://www.php.net/chdir>`_ and `chroot() <https://www.php.net/chroot>`_ usage.
 
 .. code-block:: php
    
@@ -56,8 +56,8 @@ Relative paths are relative to the current execution `directory <https://www.php
 Connex PHP features
 -------------------
 
-  + `path <https://php-dictionary.readthedocs.io/en/latest/dictionary/path.ini.html>`_
-  + `hardcoded <https://php-dictionary.readthedocs.io/en/latest/dictionary/hardcoded.ini.html>`_
+  + `Path <https://php-dictionary.readthedocs.io/en/latest/dictionary/path.ini.html>`_
+  + `Hard Coded <https://php-dictionary.readthedocs.io/en/latest/dictionary/hardcoded.ini.html>`_
 
 
 Suggestions

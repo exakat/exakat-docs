@@ -47,7 +47,7 @@ Connex PHP features
 -------------------
 
   + `throw <https://php-dictionary.readthedocs.io/en/latest/dictionary/throw.ini.html>`_
-  + `assignation <https://php-dictionary.readthedocs.io/en/latest/dictionary/assignation.ini.html>`_
+  + `Assignations <https://php-dictionary.readthedocs.io/en/latest/dictionary/assignation.ini.html>`_
 
 
 Suggestions

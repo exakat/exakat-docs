@@ -46,7 +46,7 @@ See also `Date and Time <https://www.php.net/manual/en/book.datetime.php>`_.
 Connex PHP features
 -------------------
 
-  + `date <https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html>`_
+  + `Dates <https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html>`_
 
 
 Specs

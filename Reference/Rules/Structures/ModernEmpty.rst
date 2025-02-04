@@ -61,7 +61,7 @@ See also `empty() <https://www.php.net/empty>`_ and `empty() supports arbitrary 
 Connex PHP features
 -------------------
 
-  + `empty <https://php-dictionary.readthedocs.io/en/latest/dictionary/empty.ini.html>`_
+  + `Empty <https://php-dictionary.readthedocs.io/en/latest/dictionary/empty.ini.html>`_
 
 
 Suggestions

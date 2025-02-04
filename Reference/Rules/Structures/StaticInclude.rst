@@ -29,7 +29,7 @@ Static Inclusions
 
 This rule reports all `static <https://www.php.net/manual/en/language.oop5.static.php>`_ inclusion. A inclusion is `static <https://www.php.net/manual/en/language.oop5.static.php>`_ when it relies only on constants, such as literals, global and class constants, and the magic constants.
 
-This rule is a collaboration with `Bohuslav Šimek <https://twitter.com/BohuslavSimek>`_.
+This rule is a collaboration with `Bohuslav Šimek <https://twitter.`com <https://www.php.net/com>`_/BohuslavSimek>`_.
 
 .. code-block:: php
    
@@ -46,7 +46,7 @@ Connex PHP features
 -------------------
 
   + `include <https://php-dictionary.readthedocs.io/en/latest/dictionary/include.ini.html>`_
-  + `static-expression <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-expression.ini.html>`_
+  + `Static Expression <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-expression.ini.html>`_
 
 
 Specs

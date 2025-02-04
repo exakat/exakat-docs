@@ -58,8 +58,8 @@ There are some situations where using concatenation are compulsory : when using 
 Connex PHP features
 -------------------
 
-  + `interpolation <https://php-dictionary.readthedocs.io/en/latest/dictionary/interpolation.ini.html>`_
-  + `concat <https://php-dictionary.readthedocs.io/en/latest/dictionary/concat.ini.html>`_
+  + `Interpolation <https://php-dictionary.readthedocs.io/en/latest/dictionary/interpolation.ini.html>`_
+  + `Concatenation <https://php-dictionary.readthedocs.io/en/latest/dictionary/concat.ini.html>`_
 
 
 Suggestions

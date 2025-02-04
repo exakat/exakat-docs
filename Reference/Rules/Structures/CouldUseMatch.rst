@@ -61,8 +61,8 @@ See also `Match() <https://www.php.net/manual/en/control-structures.match.php>`_
 Connex PHP features
 -------------------
 
-  + `match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
-  + `switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
+  + `Match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
+  + `Switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
 
 
 Suggestions

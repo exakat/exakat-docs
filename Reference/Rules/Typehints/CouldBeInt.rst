@@ -44,7 +44,7 @@ Connex PHP features
 -------------------
 
   + `integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/integer.ini.html>`_
-  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
 
 Suggestions

@@ -51,7 +51,7 @@ This rule looks at if/then structures.
 Connex PHP features
 -------------------
 
-  + `assignation <https://php-dictionary.readthedocs.io/en/latest/dictionary/assignation.ini.html>`_
+  + `Assignations <https://php-dictionary.readthedocs.io/en/latest/dictionary/assignation.ini.html>`_
 
 
 Suggestions

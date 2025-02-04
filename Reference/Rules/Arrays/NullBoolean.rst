@@ -27,11 +27,11 @@ Null Or Boolean Arrays
 
 	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/NullBoolean.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/NullBoolean.html","name":"Null Or Boolean Arrays","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Null, int, floats, booleans are valid with PHP array syntx","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Null Or Boolean Arrays.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-Null, int, floats, booleans are valid with PHP array syntx. Yet, they only produces ``null`` values. They also did not emits any warning until PHP 7.4.
+`Null <https://www.php.net/`null <https://www.php.net/null>`_>`_, int, floats, booleans are valid with PHP array syntx. Yet, they only produces ``null`` values. They also did not emits any warning until PHP 7.4.
 
-Older code used to initialize variables as null, sometimes explictly, and then, use them as arrays. The current support for this syntax is for backward compatibility. 
+Older code used to initialize variables as `null <https://www.php.net/`null <https://www.php.net/null>`_>`_, sometimes explictly, and then, use them as arrays. The current support for this syntax is for backward compatibility. 
 
-Illegal keys, such as another array, will also generate a `NULL <https://www.php.net/manual/en/language.types.null.php>`_ value, instead of a Fatal `error <https://www.php.net/error>`_. 
+Illegal keys, such as another array, will also generate a `NULL <https://www.php.net/manual/en/language.types.`null <https://www.php.net/null>`_.php>`_ value, instead of a Fatal `error <https://www.php.net/error>`_. 
 
 
 .. code-block:: php
@@ -63,11 +63,11 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
-  + `boolean <https://php-dictionary.readthedocs.io/en/latest/dictionary/boolean.ini.html>`_
-  + `float <https://php-dictionary.readthedocs.io/en/latest/dictionary/float.ini.html>`_
-  + `int <https://php-dictionary.readthedocs.io/en/latest/dictionary/int.ini.html>`_
-  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `Null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
+  + `Boolean <https://php-dictionary.readthedocs.io/en/latest/dictionary/boolean.ini.html>`_
+  + `Floating Point Numbers <https://php-dictionary.readthedocs.io/en/latest/dictionary/float.ini.html>`_
+  + `integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/int.ini.html>`_
+  + `Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
 
 
 Suggestions

@@ -46,7 +46,7 @@ See also `Uniform Resource Identifier <https://en.wikipedia.org/wiki/Uniform_Res
 Connex PHP features
 -------------------
 
-  + `url <https://php-dictionary.readthedocs.io/en/latest/dictionary/url.ini.html>`_
+  + `Universal Resource Locator (URL) <https://php-dictionary.readthedocs.io/en/latest/dictionary/url.ini.html>`_
 
 
 Specs

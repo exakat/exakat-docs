@@ -50,7 +50,7 @@ Since PHP 7.4, `openssl_random_pseudo_bytes() <https://www.php.net/openssl_rando
 Connex PHP features
 -------------------
 
-  + `random <https://php-dictionary.readthedocs.io/en/latest/dictionary/random.ini.html>`_
+  + `Random <https://php-dictionary.readthedocs.io/en/latest/dictionary/random.ini.html>`_
 
 
 Suggestions

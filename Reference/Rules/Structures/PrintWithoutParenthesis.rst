@@ -48,7 +48,7 @@ Even if most of the time, usage of parenthesis is legit, it is recommended to av
 Connex PHP features
 -------------------
 
-  + `language-construct <https://php-dictionary.readthedocs.io/en/latest/dictionary/language-construct.ini.html>`_
+  + `Language Construct <https://php-dictionary.readthedocs.io/en/latest/dictionary/language-construct.ini.html>`_
 
 
 Suggestions

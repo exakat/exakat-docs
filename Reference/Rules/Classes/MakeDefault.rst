@@ -62,7 +62,7 @@ See also `PHP Default parameters <https://www.phptutorial.net/php-tutorial/php-d
 Connex PHP features
 -------------------
 
-  + `default-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
+  + `Default Value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
 
 
 Suggestions

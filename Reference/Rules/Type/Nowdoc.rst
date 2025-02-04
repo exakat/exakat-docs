@@ -43,8 +43,8 @@ See also `Nowdoc <https://www.php.net/manual/en/language.types.string.php#langua
 Connex PHP features
 -------------------
 
-  + `nowdoc <https://php-dictionary.readthedocs.io/en/latest/dictionary/nowdoc.ini.html>`_
-  + `heredoc <https://php-dictionary.readthedocs.io/en/latest/dictionary/heredoc.ini.html>`_
+  + `Nowdocs <https://php-dictionary.readthedocs.io/en/latest/dictionary/nowdoc.ini.html>`_
+  + `Heredocs <https://php-dictionary.readthedocs.io/en/latest/dictionary/heredoc.ini.html>`_
 
 
 Specs

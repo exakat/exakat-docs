@@ -42,7 +42,7 @@ Namespaces are case-insensitive.
 Connex PHP features
 -------------------
 
-  + `namespace <https://php-dictionary.readthedocs.io/en/latest/dictionary/namespace.ini.html>`_
+  + `Namespaces <https://php-dictionary.readthedocs.io/en/latest/dictionary/namespace.ini.html>`_
 
 
 Suggestions

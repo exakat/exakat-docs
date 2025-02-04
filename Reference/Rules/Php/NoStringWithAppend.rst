@@ -44,8 +44,8 @@ This was possible in PHP 5, and it is forbidden since in PHP 7.
 Connex PHP features
 -------------------
 
-  + `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
-  + `append <https://php-dictionary.readthedocs.io/en/latest/dictionary/append.ini.html>`_
+  + `String <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+  + `Array Append <https://php-dictionary.readthedocs.io/en/latest/dictionary/append.ini.html>`_
 
 
 Suggestions

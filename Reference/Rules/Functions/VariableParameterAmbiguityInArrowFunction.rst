@@ -47,7 +47,7 @@ Arrow functions import automatically the variables from the local context in the
 Connex PHP features
 -------------------
 
-  + `arrow-function <https://php-dictionary.readthedocs.io/en/latest/dictionary/arrow-function.ini.html>`_
+  + `Arrow Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/arrow-function.ini.html>`_
 
 
 Suggestions

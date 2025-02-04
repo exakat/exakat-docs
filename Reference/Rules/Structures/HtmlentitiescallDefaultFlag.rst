@@ -31,7 +31,7 @@ Htmlentities Using Default Flag
 
 The second argument of the functions is the type of protection. The protection may apply to quotes or not, to HTML 4 or 5, etc. It is highly recommended to set it explicitly.
 
-In PHP 8.1, the default value of this parameter has changed. It used to be ``ENT_COMPAT`` and is now ``ENT_QUOTES | `ENT_SUBSTITUTE <https://www.php.net/ENT_SUBSTITUTE>`_``. The main difference between the different configuration is that the single quote, which was left intact so far, is now protected HTML style.
+In PHP 8.1, the default value of this parameter has changed. It used to be ``ENT_COMPAT`` and is now ``ENT_QUOTES | `ENT_SUBSTITUTE <https://www.php.net/ent_substitute>`_``. The main difference between the different configuration is that the single quote, which was left intact so far, is now protected HTML style.
 
 .. code-block:: php
    
@@ -51,9 +51,9 @@ See also `htmlentities <https://www.php.net/htmlentities>`_ and `htmlspecialchar
 Connex PHP features
 -------------------
 
-  + `escape-sequence <https://php-dictionary.readthedocs.io/en/latest/dictionary/escape-sequence.ini.html>`_
-  + `html-entity <https://php-dictionary.readthedocs.io/en/latest/dictionary/html-entity.ini.html>`_
-  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `Escape Sequences <https://php-dictionary.readthedocs.io/en/latest/dictionary/escape-sequence.ini.html>`_
+  + `HTML Entity <https://php-dictionary.readthedocs.io/en/latest/dictionary/html-entity.ini.html>`_
+  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
 
 
 Suggestions

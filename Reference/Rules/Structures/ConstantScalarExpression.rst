@@ -53,7 +53,7 @@ See also `Constant Scalar Expressions <https://wiki.php.net/rfc/const_scalar_exp
 Connex PHP features
 -------------------
 
-  + `constant-scalar-expression <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant-scalar-expression.ini.html>`_
+  + `Constant Scalar Expression <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant-scalar-expression.ini.html>`_
 
 
 Specs

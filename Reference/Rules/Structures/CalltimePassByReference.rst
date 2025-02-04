@@ -57,8 +57,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `by-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/by-value.ini.html>`_
-  + `by-reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/by-reference.ini.html>`_
+  + `Passing By Value <https://php-dictionary.readthedocs.io/en/latest/dictionary/by-value.ini.html>`_
+  + `Passing By Reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/by-reference.ini.html>`_
 
 
 Suggestions

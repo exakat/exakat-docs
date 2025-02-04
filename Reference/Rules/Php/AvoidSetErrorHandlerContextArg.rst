@@ -46,7 +46,7 @@ See also set_error_handler().
 Connex PHP features
 -------------------
 
-  + `error-handler <https://php-dictionary.readthedocs.io/en/latest/dictionary/error-handler.ini.html>`_
+  + `Error Handler <https://php-dictionary.readthedocs.io/en/latest/dictionary/error-handler.ini.html>`_
 
 
 Suggestions

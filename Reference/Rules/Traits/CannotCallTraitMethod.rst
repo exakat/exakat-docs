@@ -56,8 +56,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
-  + `static-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-method.ini.html>`_
+  + `Trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
+  + `Static Method <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-method.ini.html>`_
 
 
 Suggestions

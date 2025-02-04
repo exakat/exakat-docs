@@ -56,7 +56,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `final <https://php-dictionary.readthedocs.io/en/latest/dictionary/final.ini.html>`_
+  + `Final Keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/final.ini.html>`_
 
 
 Suggestions

@@ -31,7 +31,7 @@ Basic tainting system. This tracks superglobal values across the variables.
 Connex PHP features
 -------------------
 
-  + `superglobal <https://php-dictionary.readthedocs.io/en/latest/dictionary/superglobal.ini.html>`_
+  + `Superglobal Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/superglobal.ini.html>`_
 
 
 Specs

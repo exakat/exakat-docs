@@ -58,7 +58,7 @@ It helps to abide by the Single Responsibility rule and increase reuse.
 Connex PHP features
 -------------------
 
-  + `indentation <https://php-dictionary.readthedocs.io/en/latest/dictionary/indentation.ini.html>`_
+  + `Indentation <https://php-dictionary.readthedocs.io/en/latest/dictionary/indentation.ini.html>`_
 
 
 Specs

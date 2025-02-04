@@ -46,7 +46,7 @@ See also `Function arguments <https://www.php.net/manual/en/functions.arguments.
 Connex PHP features
 -------------------
 
-  + `default-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
+  + `Default Value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
 
 
 Suggestions

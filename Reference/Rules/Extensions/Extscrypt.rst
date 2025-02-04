@@ -41,7 +41,7 @@ See also `scrypt <http://www.tarsnap.com/scrypt.html>` and `PHP scrypt module <h
 Connex PHP features
 -------------------
 
-  + `crypto <https://php-dictionary.readthedocs.io/en/latest/dictionary/crypto.ini.html>`_
+  + `Cryptography <https://php-dictionary.readthedocs.io/en/latest/dictionary/crypto.ini.html>`_
 
 
 Specs

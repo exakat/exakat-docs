@@ -50,7 +50,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `octal <https://php-dictionary.readthedocs.io/en/latest/dictionary/octal.ini.html>`_
+  + `Octal Integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/octal.ini.html>`_
 
 
 Suggestions

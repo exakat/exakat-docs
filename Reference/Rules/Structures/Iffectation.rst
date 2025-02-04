@@ -50,7 +50,7 @@ They may also be typos, such as if ($x = 3) { `... <https://www.php.net/manual/e
 Connex PHP features
 -------------------
 
-  + `assignation <https://php-dictionary.readthedocs.io/en/latest/dictionary/assignation.ini.html>`_
+  + `Assignations <https://php-dictionary.readthedocs.io/en/latest/dictionary/assignation.ini.html>`_
 
 
 Suggestions

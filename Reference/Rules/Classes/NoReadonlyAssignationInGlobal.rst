@@ -61,8 +61,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `readonly <https://php-dictionary.readthedocs.io/en/latest/dictionary/readonly.ini.html>`_
-  + `class-invasion <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-invasion.ini.html>`_
+  + `Readonly <https://php-dictionary.readthedocs.io/en/latest/dictionary/readonly.ini.html>`_
+  + `Class Invasion <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-invasion.ini.html>`_
 
 
 Specs

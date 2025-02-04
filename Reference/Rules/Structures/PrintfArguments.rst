@@ -58,7 +58,7 @@ See also `printf <https://www.php.net/printf>`_, `sprintf <https://www.php.net/s
 Connex PHP features
 -------------------
 
-  + `print <https://php-dictionary.readthedocs.io/en/latest/dictionary/print.ini.html>`_
+  + `Print <https://php-dictionary.readthedocs.io/en/latest/dictionary/print.ini.html>`_
 
 
 Suggestions

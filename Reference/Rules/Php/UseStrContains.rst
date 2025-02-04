@@ -54,7 +54,7 @@ See also `PHP RFC: str_contains <https://wiki.php.net/rfc/str_contains>`_.
 Connex PHP features
 -------------------
 
-  + `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+  + `String <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
 
 
 Suggestions

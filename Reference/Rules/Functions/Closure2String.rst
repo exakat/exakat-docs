@@ -64,8 +64,8 @@ See also `Closure class <https://www.php.net/closure>`_ and `Callbacks / Callabl
 Connex PHP features
 -------------------
 
-  + `closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
-  + `callback <https://php-dictionary.readthedocs.io/en/latest/dictionary/callback.ini.html>`_
+  + `Closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
+  + `Callbacks <https://php-dictionary.readthedocs.io/en/latest/dictionary/callback.ini.html>`_
 
 
 Suggestions

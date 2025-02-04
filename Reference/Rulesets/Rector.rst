@@ -23,21 +23,21 @@ Rector
 
 Total : 15 analysis
 
-* :ref:`adding-zero`
-* :ref:`multiple-index-definition`
-* :ref:`for-using-functioncall`
-* :ref:`multiply-by-one`
-* :ref:`multiples-identical-case`
-* :ref:`preprocessable`
-* :ref:`implied-if`
-* :ref:`else-if-versus-elseif`
-* :ref:`could-use-short-assignation`
-* :ref:`should-typecast`
-* :ref:`no-choice`
-* :ref:`never-called-parameter`
-* :ref:`closure-could-be-a-callback`
-* :ref:`is\_a()-with-string`
-* :ref:`could-use-strcontains()`
+* :ref:`structures-addzero`
+* :ref:`arrays-multipleidenticalkeys`
+* :ref:`structures-forwithfunctioncall`
+* :ref:`structures-multiplybyone`
+* :ref:`structures-multipledefinedcase`
+* :ref:`structures-shouldpreprocess`
+* :ref:`structures-impliedif`
+* :ref:`structures-elseifelseif`
+* :ref:`structures-coulduseshortassignation`
+* :ref:`type-shouldtypecast`
+* :ref:`structures-nochoice`
+* :ref:`functions-neverusedparameter`
+* :ref:`functions-closure2string`
+* :ref:`php-isawithstring`
+* :ref:`structures-couldusestrcontains`
 
 Specs
 _____

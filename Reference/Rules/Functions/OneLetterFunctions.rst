@@ -47,8 +47,8 @@ One letter functions seems to be really short for a meaningful name. This may ha
 Connex PHP features
 -------------------
 
-  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
-  + `semantics <https://php-dictionary.readthedocs.io/en/latest/dictionary/semantics.ini.html>`_
+  + `Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `Semantics <https://php-dictionary.readthedocs.io/en/latest/dictionary/semantics.ini.html>`_
 
 
 Suggestions

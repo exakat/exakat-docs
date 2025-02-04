@@ -48,7 +48,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `disable-classes <https://php-dictionary.readthedocs.io/en/latest/dictionary/disable-classes.ini.html>`_
+  + `Disable Classes <https://php-dictionary.readthedocs.io/en/latest/dictionary/disable-classes.ini.html>`_
 
 
 Specs

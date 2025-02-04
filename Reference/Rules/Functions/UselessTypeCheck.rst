@@ -29,7 +29,7 @@ Useless Type Check
 
 With the type system, checking the type of arguments is handled by PHP.
 
-In particular, a typed argument can't be null, unless it is explicitly nullable, or has a ``null`` value as default.
+In particular, a typed argument can't be `null <https://www.php.net/`null <https://www.php.net/null>`_>`_, unless it is explicitly nullable, or has a ``null`` value as default.
 
 .. code-block:: php
    
@@ -61,7 +61,7 @@ See also `Type Declarations <https://www.php.net/manual/en/functions.arguments.p
 Connex PHP features
 -------------------
 
-  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
 
 
 Suggestions

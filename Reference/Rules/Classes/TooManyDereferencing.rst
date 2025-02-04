@@ -53,7 +53,7 @@ Too many chained methods is harder to read.
 Connex PHP features
 -------------------
 
-  + `dereferencing <https://php-dictionary.readthedocs.io/en/latest/dictionary/dereferencing.ini.html>`_
+  + `Dereferencing <https://php-dictionary.readthedocs.io/en/latest/dictionary/dereferencing.ini.html>`_
 
 
 Specs

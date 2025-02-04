@@ -46,7 +46,7 @@ See also `Stop using Arrays <https://jeanhertel.com.br/en/stop-using-arrays>`_ a
 Connex PHP features
 -------------------
 
-  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
 
 
 Suggestions

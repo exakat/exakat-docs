@@ -52,7 +52,7 @@ They may be a copy/paste with unmodified content. When the content has to be dup
 Connex PHP features
 -------------------
 
-  + `expression <https://php-dictionary.readthedocs.io/en/latest/dictionary/expression.ini.html>`_
+  + `Expression <https://php-dictionary.readthedocs.io/en/latest/dictionary/expression.ini.html>`_
 
 
 Suggestions

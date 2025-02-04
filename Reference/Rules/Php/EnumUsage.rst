@@ -47,7 +47,7 @@ See also `Enumerations in PHP <https://www.delftstack.com/howto/php/php-enum/>`_
 Connex PHP features
 -------------------
 
-  + `enum <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum.ini.html>`_
+  + `Enumeration (enum) <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum.ini.html>`_
 
 
 Specs

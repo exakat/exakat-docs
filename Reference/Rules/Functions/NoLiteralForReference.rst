@@ -69,8 +69,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
-  + `literal <https://php-dictionary.readthedocs.io/en/latest/dictionary/literal.ini.html>`_
+  + `References <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+  + `Literal <https://php-dictionary.readthedocs.io/en/latest/dictionary/literal.ini.html>`_
 
 
 Suggestions

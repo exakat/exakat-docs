@@ -58,7 +58,7 @@ In PHP 8.0, the cast ``(unset)`` is not available anymore. It is recomended to a
 Connex PHP features
 -------------------
 
-  + `unset <https://php-dictionary.readthedocs.io/en/latest/dictionary/unset.ini.html>`_
+  + `unset() <https://php-dictionary.readthedocs.io/en/latest/dictionary/unset.ini.html>`_
 
 
 Suggestions

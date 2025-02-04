@@ -29,7 +29,7 @@ Php 8.0 Only TypeHints
 
 Three scalar typehints are introduced in version 8.0. They are ``mixed``, ``false`` and ``null``. 
 
-``false`` represents a false boolean, and nothing else. It is more restrictive than a boolean, which accepts true too. 
+``false`` represents a `false <https://www.php.net/false>`_ boolean, and nothing else. It is more restrictive than a boolean, which accepts `true <https://www.php.net/true>`_ too. 
 ``null`` is an alternative syntax to ``?`` : it allows the type to be ``null``. 
 ``mixed`` is an special typehint which explicitly means any type.
 
@@ -58,9 +58,9 @@ See also `PHP RFC: Union Types 2.0 <https://wiki.php.net/rfc/union_types_v2>`_.
 Connex PHP features
 -------------------
 
-  + `mixed <https://php-dictionary.readthedocs.io/en/latest/dictionary/mixed.ini.html>`_
-  + `false <https://php-dictionary.readthedocs.io/en/latest/dictionary/false.ini.html>`_
-  + `null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
+  + `Mixed <https://php-dictionary.readthedocs.io/en/latest/dictionary/mixed.ini.html>`_
+  + `False <https://php-dictionary.readthedocs.io/en/latest/dictionary/false.ini.html>`_
+  + `Null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
 
 
 Specs

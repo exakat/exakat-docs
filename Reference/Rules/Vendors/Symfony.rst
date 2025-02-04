@@ -61,7 +61,7 @@ See also `Symfony <http://www.symfony.com/>`_.
 Connex PHP features
 -------------------
 
-  + `framework <https://php-dictionary.readthedocs.io/en/latest/dictionary/framework.ini.html>`_
+  + `Framework <https://php-dictionary.readthedocs.io/en/latest/dictionary/framework.ini.html>`_
 
 
 Specs

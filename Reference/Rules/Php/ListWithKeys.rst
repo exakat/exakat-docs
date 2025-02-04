@@ -40,7 +40,7 @@ Setting keys when using `list() <https://www.php.net/list>`_ is a PHP 7.1 featur
 Connex PHP features
 -------------------
 
-  + `list <https://php-dictionary.readthedocs.io/en/latest/dictionary/list.ini.html>`_
+  + `List <https://php-dictionary.readthedocs.io/en/latest/dictionary/list.ini.html>`_
   + `offset-array <https://php-dictionary.readthedocs.io/en/latest/dictionary/offset-array.ini.html>`_
 
 
