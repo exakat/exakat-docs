@@ -25,9 +25,22 @@ PHP 7.1 Removed Directives
 .. raw:: html
 
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php71RemovedDirective.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php71RemovedDirective.html","name":"PHP 7.1 Removed Directives","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"List of directives that are removed in PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/PHP 7.1 Removed Directives.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php71RemovedDirective.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php71RemovedDirective.html","name":"PHP 7.1 Removed Directives","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 11 Feb 2025 09:13:38 +0000","dateModified":"Tue, 11 Feb 2025 09:13:38 +0000","description":"List of directives that are removed in PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/PHP 7.1 Removed Directives.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 List of directives that are removed in PHP 7.1.
+
++ session.hash_function
++ session.hash_bits_per_charactor
++ session.entropy_file
++ session.entropy_length
+
+.. code-block:: php
+   
+   <?php
+   
+   ini_get('session.hash_function');
+   
+   ?>
 
 See also `Removed INI directives <https://www.php.net/manual/en/migration71.incompatible.php#migration71.incompatible.removed-ini-directives>`_.
 
@@ -35,6 +48,7 @@ Connex PHP features
 -------------------
 
   + `Directives <https://php-dictionary.readthedocs.io/en/latest/dictionary/directive.ini.html>`_
+  + `removed-feature <https://php-dictionary.readthedocs.io/en/latest/dictionary/removed-feature.ini.html>`_
 
 
 Suggestions

@@ -133,8 +133,8 @@ List of Rules
    Rules/Classes/CantInstantiateNonClass.rst
    Rules/Php/CantUseReturnValueInWriteContext.rst
    Rules/Constants/CaseInsensitiveConstants.rst
-   Rules/Structures/CastToBoolean.rst
    Rules/Php/CastUnsetUsage.rst
+   Rules/Structures/CastToBoolean.rst
    Rules/Php/CastingUsage.rst
    Rules/Structures/CastingTernary.rst
    Rules/Structures/CatchShadowsVariable.rst
@@ -2157,7 +2157,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 
   * :ref:`$php_errormsg Usage <$php\_errormsg-usage>`
   * :ref:`Cancel Common Method <cancel-common-method>`
-  * :ref:`Cast Unset Usage <cast-unset-usage>`
+  * :ref:`Cast (unset) Usage <cast-(unset)-usage>`
   * :ref:`Collect Atom Counts <collect-atom-counts>`
   * :ref:`Collect Classes Dependencies <collect-classes-dependencies>`
   * :ref:`Collect Files Dependencies <collect-files-dependencies>`
@@ -2994,7 +2994,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 
 * 0.12.5
 
-  * :ref:`Logical To in_array <logical-to-in\_array>`
+  * :ref:`Logical To in_array() <logical-to-in\_array()>`
   * :ref:`No Substr Minus One <no-substr-minus-one>`
 
 * 0.12.4
@@ -3245,7 +3245,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`One Dot Or Object Operator Per Line <one-dot-or-object-operator-per-line>`
   * :ref:`PHP 7.1 Microseconds <php-7.1-microseconds>`
   * :ref:`Unitialized Properties <unitialized-properties>`
-  * :ref:`Useless Check <useless-check>`
+  * :ref:`Useless Check Before Foreach <useless-check-before-foreach>`
 
 * 0.8.7
 
@@ -4373,7 +4373,7 @@ Directory by PHP Function
     + `array_key_exists()`
 
       + :ref:`Always Use Function With array_key_exists() <always-use-function-with-array\_key\_exists()>`
-      + :ref:`Logical To in_array <logical-to-in\_array>`
+      + :ref:`Logical To in_array() <logical-to-in\_array()>`
       + :ref:`Slow Functions <slow-functions>`
       + :ref:`array_key_exists() Speedup <array\_key\_exists()-speedup>`
       + :ref:`array_key_exists() Works On Arrays <array\_key\_exists()-works-on-arrays>`
@@ -4568,7 +4568,7 @@ Directory by PHP Function
       + :ref:`Could Use Match <could-use-match>`
       + :ref:`Exit() Usage <exit()-usage>`
       + :ref:`Identical Case In Switch <identical-case-in-switch>`
-      + :ref:`Logical To in_array <logical-to-in\_array>`
+      + :ref:`Logical To in_array() <logical-to-in\_array()>`
       + :ref:`Long Arguments <long-arguments>`
       + :ref:`Long Preparation For Throw <long-preparation-for-throw>`
       + :ref:`Method Is Not For Fluent Interface <method-is-not-for-fluent-interface>`
@@ -4779,7 +4779,7 @@ Directory by PHP Function
       + :ref:`If Then Return Favorite <if-then-return-favorite>`
       + :ref:`Immutable Signature <immutable-signature>`
       + :ref:`Insufficient Type <insufficient-type>`
-      + :ref:`Logical To in_array <logical-to-in\_array>`
+      + :ref:`Logical To in_array() <logical-to-in\_array()>`
       + :ref:`Mail Usage <mail-usage>`
       + :ref:`Mismatch Parameter Name <mismatch-parameter-name>`
       + :ref:`No Append On Source <no-append-on-source>`
@@ -4953,7 +4953,7 @@ Directory by PHP Function
       + :ref:`Use Constant As Arguments <use-constant-as-arguments>`
       + :ref:`Use Recursive count() <use-recursive-count()>`
       + :ref:`Use is_countable <use-is\_countable>`
-      + :ref:`Useless Check <useless-check>`
+      + :ref:`Useless Check Before Foreach <useless-check-before-foreach>`
       + :ref:`Uses Default Values <uses-default-values>`
 
     + `countable`
@@ -5604,6 +5604,7 @@ Directory by PHP Function
       + :ref:`Null Or Boolean Arrays <null-or-boolean-arrays>`
       + :ref:`Nullable Without Check <nullable-without-check>`
       + :ref:`One Expression Brackets Consistency <one-expression-brackets-consistency>`
+      + :ref:`Only First Byte Will Be Assigned <only-first-byte-will-be-assigned>`
       + :ref:`Only Variable For Reference <only-variable-for-reference>`
       + :ref:`Only Variable Passed By Reference <only-variable-passed-by-reference>`
       + :ref:`Or Die <or-die>`
@@ -5891,7 +5892,7 @@ Directory by PHP Function
       + :ref:`Identical Variables In Foreach <identical-variables-in-foreach>`
       + :ref:`Should Use Foreach <should-use-foreach>`
       + :ref:`Use List With Foreach <use-list-with-foreach>`
-      + :ref:`Useless Check <useless-check>`
+      + :ref:`Useless Check Before Foreach <useless-check-before-foreach>`
 
     + `false`
 
@@ -5920,7 +5921,7 @@ Directory by PHP Function
       + :ref:`Indices Are Int Or String <indices-are-int-or-string>`
       + :ref:`Invalid Date Scanning Format <invalid-date-scanning-format>`
       + :ref:`Logical Mistakes <logical-mistakes>`
-      + :ref:`Logical To in_array <logical-to-in\_array>`
+      + :ref:`Logical To in_array() <logical-to-in\_array()>`
       + :ref:`Mismatched Type <mismatched-type>`
       + :ref:`Missing Include <missing-include>`
       + :ref:`Mixed Type Usage <mixed-type-usage>`
@@ -6606,7 +6607,7 @@ Directory by PHP Function
     + `in_array()`
 
       + :ref:`Collect Compared Literals <collect-compared-literals>`
-      + :ref:`Logical To in_array <logical-to-in\_array>`
+      + :ref:`Logical To in_array() <logical-to-in\_array()>`
       + :ref:`Processing Collector <processing-collector>`
       + :ref:`Slow Functions <slow-functions>`
       + :ref:`Strict Comparison With Booleans <strict-comparison-with-booleans>`
@@ -7033,7 +7034,7 @@ Directory by PHP Function
       + :ref:`Default Then Discard <default-then-discard>`
       + :ref:`Isset Multiple Arguments <isset-multiple-arguments>`
       + :ref:`Isset() On The Whole Array <isset()-on-the-whole-array>`
-      + :ref:`Logical To in_array <logical-to-in\_array>`
+      + :ref:`Logical To in_array() <logical-to-in\_array()>`
       + :ref:`Mass Creation Of Arrays <mass-creation-of-arrays>`
       + :ref:`Multiple Similar Calls <multiple-similar-calls>`
       + :ref:`Must Return Methods <must-return-methods>`
@@ -7047,7 +7048,7 @@ Directory by PHP Function
       + :ref:`Too Complex Expression <too-complex-expression>`
       + :ref:`Try Without Catch <try-without-catch>`
       + :ref:`Use Instanceof <use-instanceof>`
-      + :ref:`Useless Check <useless-check>`
+      + :ref:`Useless Check Before Foreach <useless-check-before-foreach>`
       + :ref:`Variable Is Not A Condition <variable-is-not-a-condition>`
       + :ref:`array_key_exists() Speedup <array\_key\_exists()-speedup>`
       + :ref:`ext/session <ext-session>`
@@ -7336,7 +7337,7 @@ Directory by PHP Function
       + :ref:`Could Use Match <could-use-match>`
       + :ref:`Identical Case In Switch <identical-case-in-switch>`
       + :ref:`Indentation Levels <indentation-levels>`
-      + :ref:`Logical To in_array <logical-to-in\_array>`
+      + :ref:`Logical To in_array() <logical-to-in\_array()>`
       + :ref:`Multiline Expressions <multiline-expressions>`
       + :ref:`Multiple Type Cases In Switch <multiple-type-cases-in-switch>`
       + :ref:`Reserved Match Keyword <reserved-match-keyword>`
@@ -8558,7 +8559,7 @@ Directory by PHP Function
       + :ref:`Joining file() <joining-file()>`
       + :ref:`Large Try Block <large-try-block>`
       + :ref:`Law of Demeter <law-of-demeter>`
-      + :ref:`Logical To in_array <logical-to-in\_array>`
+      + :ref:`Logical To in_array() <logical-to-in\_array()>`
       + :ref:`Method Is Overwritten <method-is-overwritten>`
       + :ref:`Methodcall On New <methodcall-on-new>`
       + :ref:`Mismatched Ternary Alternatives <mismatched-ternary-alternatives>`
@@ -8982,7 +8983,7 @@ Directory by PHP Function
 
     + `sizeof()`
 
-      + :ref:`Useless Check <useless-check>`
+      + :ref:`Useless Check Before Foreach <useless-check-before-foreach>`
 
     + `sleep()`
 
@@ -9326,7 +9327,7 @@ Directory by PHP Function
 
     + `str_contains()`
 
-      + :ref:`Logical To in_array <logical-to-in\_array>`
+      + :ref:`Logical To in_array() <logical-to-in\_array()>`
       + :ref:`New Functions In PHP 8.0 <new-functions-in-php-8.0>`
       + :ref:`Strpos()-like Comparison <strpos()-like-comparison>`
       + :ref:`Use str_contains() <use-str\_contains()>`
@@ -9421,7 +9422,7 @@ Directory by PHP Function
     + `strpos()`
 
       + :ref:`Could Use strcontains() <could-use-strcontains()>`
-      + :ref:`Logical To in_array <logical-to-in\_array>`
+      + :ref:`Logical To in_array() <logical-to-in\_array()>`
       + :ref:`Mono Or Multibytes Favorite <mono-or-multibytes-favorite>`
       + :ref:`Simplify Regex <simplify-regex>`
       + :ref:`Slow Functions <slow-functions>`
@@ -9517,7 +9518,7 @@ Directory by PHP Function
       + :ref:`Collect Compared Literals <collect-compared-literals>`
       + :ref:`Could Use Match <could-use-match>`
       + :ref:`Identical Case In Switch <identical-case-in-switch>`
-      + :ref:`Logical To in_array <logical-to-in\_array>`
+      + :ref:`Logical To in_array() <logical-to-in\_array()>`
       + :ref:`Missing Cases In Switch <missing-cases-in-switch>`
       + :ref:`Multiline Expressions <multiline-expressions>`
       + :ref:`Multiple Type Cases In Switch <multiple-type-cases-in-switch>`
@@ -9707,7 +9708,7 @@ Directory by PHP Function
       + :ref:`Indices Are Int Or String <indices-are-int-or-string>`
       + :ref:`Is_A() With String <is\_a()-with-string>`
       + :ref:`Logical Mistakes <logical-mistakes>`
-      + :ref:`Logical To in_array <logical-to-in\_array>`
+      + :ref:`Logical To in_array() <logical-to-in\_array()>`
       + :ref:`Method Is Not For Fluent Interface <method-is-not-for-fluent-interface>`
       + :ref:`Methodcall On New <methodcall-on-new>`
       + :ref:`Minus One On Error <minus-one-on-error>`
@@ -10265,6 +10266,7 @@ Exakat links each rules to PHP features.
 
   + Abstract Keyword
 
+    + :ref:`Abstract Away <abstract-away>`
     + :ref:`Abstract Class Constants <abstract-class-constants>`
     + :ref:`Abstract Class Usage <abstract-class-usage>`
     + :ref:`Abstract Methods Usage <abstract-methods-usage>`
@@ -10346,6 +10348,7 @@ Exakat links each rules to PHP features.
     + :ref:`Could Be Array Type <could-be-array-type>`
     + :ref:`Could Cast To Array <could-cast-to-array>`
     + :ref:`Could Use array_sum() <could-use-array\_sum()>`
+    + :ref:`Double array_flip() <double-array\_flip()>`
     + :ref:`Empty Slots In Arrays <empty-slots-in-arrays>`
     + :ref:`False To Array Conversion <false-to-array-conversion>`
     + :ref:`Float Conversion As Index <float-conversion-as-index>`
@@ -10364,6 +10367,7 @@ Exakat links each rules to PHP features.
     + :ref:`Randomly Sorted Arrays <randomly-sorted-arrays>`
     + :ref:`Scalar Are Not Arrays <scalar-are-not-arrays>`
     + :ref:`Short Syntax For Arrays <short-syntax-for-arrays>`
+    + :ref:`Should Use array_column() <should-use-array\_column()>`
     + :ref:`Slice Arrays First <slice-arrays-first>`
     + :ref:`Type Array Index <type-array-index>`
     + :ref:`Use array_slice() <use-array\_slice()>`
@@ -10374,6 +10378,10 @@ Exakat links each rules to PHP features.
   + Array Append
 
     + :ref:`Append And Assign Arrays <append-and-assign-arrays>`
+    + :ref:`Autoappend <autoappend>`
+    + :ref:`Avoid array_push() <avoid-array\_push()>`
+    + :ref:`Avoid array_push() <avoid-array\_push()>`
+    + :ref:`Avoid array_push() <avoid-array\_push()>`
     + :ref:`Count() To Array Append <count()-to-array-append>`
     + :ref:`List With Array Appends <list-with-array-appends>`
     + :ref:`No String With Append <no-string-with-append>`
@@ -10382,6 +10390,10 @@ Exakat links each rules to PHP features.
 
     + :ref:`No Spread For Hash <no-spread-for-hash>`
     + :ref:`Unpacking Inside Arrays <unpacking-inside-arrays>`
+
+  + Array Syntax
+
+    + :ref:`Only First Byte Will Be Assigned <only-first-byte-will-be-assigned>`
 
   + Array With Curly Braces
 
@@ -10417,7 +10429,7 @@ Exakat links each rules to PHP features.
 
     + :ref:`Assumptions <assumptions>`
 
-  + Attributes
+  + Attribute
 
     + :ref:`Friend Attribute <friend-attribute>`
     + :ref:`Missing Attribute Attribute <missing-attribute-attribute>`
@@ -10448,6 +10460,7 @@ Exakat links each rules to PHP features.
 
   + Blind Variable
 
+    + :ref:`Blind Variable Used Beyond Loop <blind-variable-used-beyond-loop>`
     + :ref:`Blind Variables <blind-variables>`
     + :ref:`Don't Change The Blind Var <don't-change-the-blind-var>`
     + :ref:`Use The Blind Var <use-the-blind-var>`
@@ -10510,8 +10523,8 @@ Exakat links each rules to PHP features.
 
   + Cast Operator
 
+    + :ref:`Cast (unset) Usage <cast-(unset)-usage>`
     + :ref:`Cast To Boolean <cast-to-boolean>`
-    + :ref:`Cast Unset Usage <cast-unset-usage>`
     + :ref:`Cast Usage <cast-usage>`
     + :ref:`Casting Ternary <casting-ternary>`
     + :ref:`Could Cast To Array <could-cast-to-array>`
@@ -10564,6 +10577,7 @@ Exakat links each rules to PHP features.
     + :ref:`Class Usage <class-usage>`
     + :ref:`Class, Interface, Enum Or Trait With Identical Names <class,-interface,-enum-or-trait-with-identical-names>`
     + :ref:`Classes Names <classes-names>`
+    + :ref:`Collect Php Structures <collect-php-structures>`
     + :ref:`Constant Definition <constant-definition>`
     + :ref:`Constructors <constructors>`
     + :ref:`Could Be Boolean <could-be-boolean>`
@@ -10823,6 +10837,7 @@ Exakat links each rules to PHP features.
     + :ref:`Case Insensitive Constants <case-insensitive-constants>`
     + :ref:`Class Const With Array <class-const-with-array>`
     + :ref:`Clone Constant <clone-constant>`
+    + :ref:`Collect Php Structures <collect-php-structures>`
     + :ref:`Const Or Define <const-or-define>`
     + :ref:`Const Or Define Preference <const-or-define-preference>`
     + :ref:`Constant : With Or Without Use <constant--with-or-without-use>`
@@ -11223,6 +11238,7 @@ Exakat links each rules to PHP features.
     + :ref:`Dl() Usage <dl()-usage>`
     + :ref:`Is An Extension Class <is-an-extension-class>`
     + :ref:`Is An Extension Function <is-an-extension-function>`
+    + :ref:`Is Extension Structure <is-extension-structure>`
     + :ref:`String <string>`
     + :ref:`ext/decimal <ext-decimal>`
     + :ref:`ext/eaccelerator <ext-eaccelerator>`
@@ -11379,6 +11395,7 @@ Exakat links each rules to PHP features.
   + Functions
 
     + :ref:`Class Function Confusion <class-function-confusion>`
+    + :ref:`Collect Php Structures <collect-php-structures>`
     + :ref:`Conditioned Function <conditioned-function>`
     + :ref:`Empty Function <empty-function>`
     + :ref:`Fallback Function <fallback-function>`
@@ -11585,6 +11602,7 @@ Exakat links each rules to PHP features.
 
   + Index For Arrays
 
+    + :ref:`Double array_flip() <double-array\_flip()>`
     + :ref:`Mass Creation Of Arrays <mass-creation-of-arrays>`
     + :ref:`No Null For Index <no-null-for-index>`
     + :ref:`PHP Arrays Index <php-arrays-index>`
@@ -11638,6 +11656,7 @@ Exakat links each rules to PHP features.
     + :ref:`Can't Implement Traversable <can't-implement-traversable>`
     + :ref:`Can't Overload Constants <can't-overload-constants>`
     + :ref:`Collect Dependency Extension <collect-dependency-extension>`
+    + :ref:`Collect Php Structures <collect-php-structures>`
     + :ref:`Empty Interfaces <empty-interfaces>`
     + :ref:`Forgotten Interface <forgotten-interface>`
     + :ref:`Implements Is For Interface <implements-is-for-interface>`
@@ -11771,6 +11790,7 @@ Exakat links each rules to PHP features.
 
     + :ref:`Altering Foreach Without Reference <altering-foreach-without-reference>`
     + :ref:`Avoid Concat In Loop <avoid-concat-in-loop>`
+    + :ref:`Blind Variable Used Beyond Loop <blind-variable-used-beyond-loop>`
     + :ref:`Break Outside Loop <break-outside-loop>`
     + :ref:`Continue Is For Loop <continue-is-for-loop>`
     + :ref:`Dangling Array References <dangling-array-references>`
@@ -11778,8 +11798,10 @@ Exakat links each rules to PHP features.
     + :ref:`Empty Loop <empty-loop>`
     + :ref:`Foreach On Object <foreach-on-object>`
     + :ref:`Infinite Recursion <infinite-recursion>`
+    + :ref:`No array_merge() In Loops <no-array\_merge()-in-loops>`
     + :ref:`Possible Infinite Loop <possible-infinite-loop>`
     + :ref:`Queries In Loops <queries-in-loops>`
+    + :ref:`Should Use array_column() <should-use-array\_column()>`
     + :ref:`Static Loop <static-loop>`
     + :ref:`Substr() In Loops <substr()-in-loops>`
     + :ref:`Unconditional Break In Loop <unconditional-break-in-loop>`
@@ -11952,6 +11974,7 @@ Exakat links each rules to PHP features.
 
   + Native
 
+    + :ref:`Collect Php Structures <collect-php-structures>`
     + :ref:`Native Alias Functions Usage <native-alias-functions-usage>`
     + :ref:`New Functions In PHP 5.4 <new-functions-in-php-5.4>`
     + :ref:`New Functions In PHP 7.1 <new-functions-in-php-7.1>`
@@ -12205,13 +12228,19 @@ Exakat links each rules to PHP features.
   + Path
 
     + :ref:`No Hardcoded Path <no-hardcoded-path>`
+    + :ref:`Path lists <path-lists>`
     + :ref:`Pathinfo() Returns May Vary <pathinfo()-returns-may-vary>`
     + :ref:`Use Pathinfo <use-pathinfo>`
     + :ref:`Use pathinfo() Arguments <use-pathinfo()-arguments>`
 
   + Performance
 
+    + :ref:`Autoappend <autoappend>`
+    + :ref:`Avoid array_push() <avoid-array\_push()>`
+    + :ref:`Logical To in_array() <logical-to-in\_array()>`
+    + :ref:`No array_merge() In Loops <no-array\_merge()-in-loops>`
     + :ref:`Skip Empty Array When Merging <skip-empty-array-when-merging>`
+    + :ref:`strpos() Too Much <strpos()-too-much>`
 
   + Phar
 
@@ -12220,6 +12249,10 @@ Exakat links each rules to PHP features.
   + PharException
 
     + :ref:`Could Use Try <could-use-try>`
+
+  + Plus +
+
+    + :ref:`Unsupported Operand Types <unsupported-operand-types>`
 
   + Port
 
@@ -12336,6 +12369,7 @@ Exakat links each rules to PHP features.
     + :ref:`One Object Operator Per Line <one-object-operator-per-line>`
     + :ref:`Preprocessable <preprocessable>`
     + :ref:`Recycled Variables <recycled-variables>`
+    + :ref:`Substr To Trim <substr-to-trim>`
 
   + Readonly
 
@@ -12396,6 +12430,7 @@ Exakat links each rules to PHP features.
     + :ref:`Named Regex <named-regex>`
     + :ref:`Perl Regex <perl-regex>`
     + :ref:`Possible Missing Subpattern <possible-missing-subpattern>`
+    + :ref:`Processing Collector <processing-collector>`
     + :ref:`Regex Delimiter <regex-delimiter>`
     + :ref:`Regex Inventory <regex-inventory>`
     + :ref:`Regex On Arrays <regex-on-arrays>`
@@ -12576,6 +12611,7 @@ Exakat links each rules to PHP features.
     + :ref:`Redefined Class Constants <redefined-class-constants>`
     + :ref:`Undefined Class Constants <undefined-class-constants>`
     + :ref:`Unused Class Constant <unused-class-constant>`
+    + :ref:`Useless Constant Overwrite <useless-constant-overwrite>`
 
   + Static Expression
 
@@ -12620,6 +12656,7 @@ Exakat links each rules to PHP features.
     + :ref:`No String With Append <no-string-with-append>`
     + :ref:`One Variable String <one-variable-string>`
     + :ref:`Only First Byte Will Be Assigned <only-first-byte-will-be-assigned>`
+    + :ref:`Path lists <path-lists>`
     + :ref:`String <string>`
     + :ref:`Use PHP7 Encapsed Strings <use-php7-encapsed-strings>`
     + :ref:`Use str_contains() <use-str\_contains()>`
@@ -12882,12 +12919,16 @@ Exakat links each rules to PHP features.
     + :ref:`Overload Existing Names <overload-existing-names>`
     + :ref:`Should Use Use Function <should-use-use-function>`
 
+  + Useless
+
+    + :ref:`No Variable Needed <no-variable-needed>`
+
   + Validation
 
     + :ref:`Filter Not Raw <filter-not-raw>`
     + :ref:`Insecure Integer Validation <insecure-integer-validation>`
     + :ref:`No Max On Empty Array <no-max-on-empty-array>`
-    + :ref:`Useless Check <useless-check>`
+    + :ref:`Useless Check Before Foreach <useless-check-before-foreach>`
     + :ref:`filter_input() As A Source <filter\_input()-as-a-source>`
     + :ref:`version_compare() Operator <version\_compare()-operator>`
 
@@ -13175,10 +13216,6 @@ Exakat links each rules to PHP features.
 
     + :ref:`Phpinfo <phpinfo>`
 
-  + plus +
-
-    + :ref:`Unsupported Operand Types <unsupported-operand-types>`
-
   + resource
 
     + :ref:`PHP 8.0 Resources Turned Into Objects <php-8.0-resources-turned-into-objects>`
@@ -13245,7 +13282,7 @@ Exakat links each rules to PHP features.
 
   + unset()
 
-    + :ref:`Cast Unset Usage <cast-unset-usage>`
+    + :ref:`Cast (unset) Usage <cast-(unset)-usage>`
     + :ref:`Multiple Unset() <multiple-unset()>`
     + :ref:`Unset() Or (unset) <unset()-or-(unset)>`
     + :ref:`Useless Unset <useless-unset>`
@@ -13476,8 +13513,8 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`syntax-error,-unexpected-token-"match" <reserved-match-keyword>`
 * :ref:`the-(real)-cast-has-been-removed,-use-(float)-instead <avoid-real>`
 * :ref:`the-(real)-cast-is-deprecated,-use-(float)-instead <avoid-real>`
-* :ref:`the-(unset)-cast-is-deprecated <cast-unset-usage>`
-* :ref:`the-(unset)-cast-is-no-longer-supported <cast-unset-usage>`
+* :ref:`the-(unset)-cast-is-deprecated <cast-(unset)-usage>`
+* :ref:`the-(unset)-cast-is-no-longer-supported <cast-(unset)-usage>`
 * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'+'-'-'-will-change-in-php-8:-'+'-'-'-will-take-a-higher-precedence <concat-and-addition>`
 * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'>>'-'<<'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence <concat-and-addition>`
 * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls <php-7.2-removed-functions>`

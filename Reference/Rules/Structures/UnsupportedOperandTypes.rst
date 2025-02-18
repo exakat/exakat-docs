@@ -58,7 +58,7 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `plus + <https://php-dictionary.readthedocs.io/en/latest/dictionary/plus.ini.html>`_
+  + `Plus + <https://php-dictionary.readthedocs.io/en/latest/dictionary/plus.ini.html>`_
 
 
 Suggestions

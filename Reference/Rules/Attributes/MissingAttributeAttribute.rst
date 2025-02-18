@@ -56,7 +56,7 @@ See also `Declaring Attribute Classes <https://www.php.net/manual/en/language.at
 Connex PHP features
 -------------------
 
-  + `Attributes <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
+  + `Attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
 
 
 Suggestions

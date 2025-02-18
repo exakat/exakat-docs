@@ -315,6 +315,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/PPPDeclarationStyle";
    analyzer[] = "Classes/ParentFirst";
    analyzer[] = "Classes/ParentIsNotStatic";
+   analyzer[] = "Classes/PrivateWritingPropertyIsFinal";
    analyzer[] = "Classes/PromotedProperties";
    analyzer[] = "Classes/PropertyCouldBeLocal";
    analyzer[] = "Classes/PropertyDefinition";
@@ -327,6 +328,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/PropertyUsedInternally";
    analyzer[] = "Classes/PssWithoutClass";
    analyzer[] = "Classes/RaisedAccessLevel";
+   analyzer[] = "Classes/ReadonlyCompatibility";
    analyzer[] = "Classes/ReadonlyUsage";
    analyzer[] = "Classes/RedefinedConstants";
    analyzer[] = "Classes/RedefinedDefault";
@@ -341,6 +343,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/ShouldUseSelf";
    analyzer[] = "Classes/ShouldUseThis";
    analyzer[] = "Classes/StaticCannotCallNonStatic";
+   analyzer[] = "Classes/StaticCompatibility";
    analyzer[] = "Classes/StaticContainsThis";
    analyzer[] = "Classes/StaticMethods";
    analyzer[] = "Classes/StaticMethodsCalledFromObject";
@@ -1300,8 +1303,10 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/ArrayMapPassesByValue";
    analyzer[] = "Structures/ArrayMergeAndVariadic";
    analyzer[] = "Structures/ArrayMergeArrayArray";
+   analyzer[] = "Structures/ArrayMergeOneArg";
    analyzer[] = "Structures/ArrayMergeWithEllipsis";
    analyzer[] = "Structures/ArraySearchMultipleKeys";
+   analyzer[] = "Structures/ArrayWithStringEllipsis";
    analyzer[] = "Structures/AssigneAndCompare";
    analyzer[] = "Structures/AssignedInOneBranch";
    analyzer[] = "Structures/AutoUnsetForeach";
@@ -1608,6 +1613,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/UseConstant";
    analyzer[] = "Structures/UseCountRecursive";
    analyzer[] = "Structures/UseDebug";
+   analyzer[] = "Structures/UseDirname";
    analyzer[] = "Structures/UseFileAppend";
    analyzer[] = "Structures/UseInstanceof";
    analyzer[] = "Structures/UseListWithForeach";
@@ -1633,6 +1639,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/VardumpUsage";
    analyzer[] = "Structures/VariableGlobal";
    analyzer[] = "Structures/VariableMayBeNonGlobal";
+   analyzer[] = "Structures/VariadicAndFuncGetArg";
    analyzer[] = "Structures/WhileListEach";
    analyzer[] = "Structures/WrongLocale";
    analyzer[] = "Structures/WrongPrecedenceInExpression";
@@ -1993,6 +2000,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/PPPDeclarationStyle'
      - 'Classes/ParentFirst'
      - 'Classes/ParentIsNotStatic'
+     - 'Classes/PrivateWritingPropertyIsFinal'
      - 'Classes/PromotedProperties'
      - 'Classes/PropertyCouldBeLocal'
      - 'Classes/PropertyDefinition'
@@ -2005,6 +2013,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/PropertyUsedInternally'
      - 'Classes/PssWithoutClass'
      - 'Classes/RaisedAccessLevel'
+     - 'Classes/ReadonlyCompatibility'
      - 'Classes/ReadonlyUsage'
      - 'Classes/RedefinedConstants'
      - 'Classes/RedefinedDefault'
@@ -2019,6 +2028,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/ShouldUseSelf'
      - 'Classes/ShouldUseThis'
      - 'Classes/StaticCannotCallNonStatic'
+     - 'Classes/StaticCompatibility'
      - 'Classes/StaticContainsThis'
      - 'Classes/StaticMethods'
      - 'Classes/StaticMethodsCalledFromObject'
@@ -2978,8 +2988,10 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/ArrayMapPassesByValue'
      - 'Structures/ArrayMergeAndVariadic'
      - 'Structures/ArrayMergeArrayArray'
+     - 'Structures/ArrayMergeOneArg'
      - 'Structures/ArrayMergeWithEllipsis'
      - 'Structures/ArraySearchMultipleKeys'
+     - 'Structures/ArrayWithStringEllipsis'
      - 'Structures/AssigneAndCompare'
      - 'Structures/AssignedInOneBranch'
      - 'Structures/AutoUnsetForeach'
@@ -3286,6 +3298,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/UseConstant'
      - 'Structures/UseCountRecursive'
      - 'Structures/UseDebug'
+     - 'Structures/UseDirname'
      - 'Structures/UseFileAppend'
      - 'Structures/UseInstanceof'
      - 'Structures/UseListWithForeach'
@@ -3311,6 +3324,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/VardumpUsage'
      - 'Structures/VariableGlobal'
      - 'Structures/VariableMayBeNonGlobal'
+     - 'Structures/VariadicAndFuncGetArg'
      - 'Structures/WhileListEach'
      - 'Structures/WrongLocale'
      - 'Structures/WrongPrecedenceInExpression'
@@ -3558,15 +3572,18 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/OldStyleVar";
    analyzer[] = "Classes/ParentFirst";
    analyzer[] = "Classes/ParentIsNotStatic";
+   analyzer[] = "Classes/PrivateWritingPropertyIsFinal";
    analyzer[] = "Classes/PropertyCouldBeLocal";
    analyzer[] = "Classes/PropertyMethodSameName";
    analyzer[] = "Classes/PropertyNeverUsed";
    analyzer[] = "Classes/PropertyUsedInOneMethodOnly";
    analyzer[] = "Classes/PssWithoutClass";
+   analyzer[] = "Classes/ReadonlyCompatibility";
    analyzer[] = "Classes/ScalarOrObjectProperty";
    analyzer[] = "Classes/ShouldUseSelf";
    analyzer[] = "Classes/ShouldUseThis";
    analyzer[] = "Classes/StaticCannotCallNonStatic";
+   analyzer[] = "Classes/StaticCompatibility";
    analyzer[] = "Classes/StaticContainsThis";
    analyzer[] = "Classes/StaticMethodsCalledFromObject";
    analyzer[] = "Classes/SwappedArguments";
@@ -3771,6 +3788,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/ArrayMapPassesByValue";
    analyzer[] = "Structures/ArrayMergeAndVariadic";
    analyzer[] = "Structures/ArrayMergeArrayArray";
+   analyzer[] = "Structures/ArrayMergeOneArg";
    analyzer[] = "Structures/AssigneAndCompare";
    analyzer[] = "Structures/AutoUnsetForeach";
    analyzer[] = "Structures/BailOutEarly";
@@ -4076,15 +4094,18 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/OldStyleVar'
      - 'Classes/ParentFirst'
      - 'Classes/ParentIsNotStatic'
+     - 'Classes/PrivateWritingPropertyIsFinal'
      - 'Classes/PropertyCouldBeLocal'
      - 'Classes/PropertyMethodSameName'
      - 'Classes/PropertyNeverUsed'
      - 'Classes/PropertyUsedInOneMethodOnly'
      - 'Classes/PssWithoutClass'
+     - 'Classes/ReadonlyCompatibility'
      - 'Classes/ScalarOrObjectProperty'
      - 'Classes/ShouldUseSelf'
      - 'Classes/ShouldUseThis'
      - 'Classes/StaticCannotCallNonStatic'
+     - 'Classes/StaticCompatibility'
      - 'Classes/StaticContainsThis'
      - 'Classes/StaticMethodsCalledFromObject'
      - 'Classes/SwappedArguments'
@@ -4289,6 +4310,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/ArrayMapPassesByValue'
      - 'Structures/ArrayMergeAndVariadic'
      - 'Structures/ArrayMergeArrayArray'
+     - 'Structures/ArrayMergeOneArg'
      - 'Structures/AssigneAndCompare'
      - 'Structures/AutoUnsetForeach'
      - 'Structures/BailOutEarly'
@@ -10051,15 +10073,18 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/NoSelfReferencingConstant";
    analyzer[] = "Classes/NonNullableSetters";
    analyzer[] = "Classes/ParentIsNotStatic";
+   analyzer[] = "Classes/PrivateWritingPropertyIsFinal";
    analyzer[] = "Classes/PropertyCouldBeLocal";
    analyzer[] = "Classes/PropertyInvasion";
    analyzer[] = "Classes/PropertyMethodSameName";
    analyzer[] = "Classes/RaisedAccessLevel";
+   analyzer[] = "Classes/ReadonlyCompatibility";
    analyzer[] = "Classes/RedefinedMethods";
    analyzer[] = "Classes/RedefinedProperty";
    analyzer[] = "Classes/RewroteFinalClassConstant";
    analyzer[] = "Classes/ShouldUseSelf";
    analyzer[] = "Classes/StaticCannotCallNonStatic";
+   analyzer[] = "Classes/StaticCompatibility";
    analyzer[] = "Classes/UndeclaredStaticProperty";
    analyzer[] = "Classes/UndefinedMethod";
    analyzer[] = "Classes/UnfinishedObject";
@@ -10164,15 +10189,18 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/NoSelfReferencingConstant'
      - 'Classes/NonNullableSetters'
      - 'Classes/ParentIsNotStatic'
+     - 'Classes/PrivateWritingPropertyIsFinal'
      - 'Classes/PropertyCouldBeLocal'
      - 'Classes/PropertyInvasion'
      - 'Classes/PropertyMethodSameName'
      - 'Classes/RaisedAccessLevel'
+     - 'Classes/ReadonlyCompatibility'
      - 'Classes/RedefinedMethods'
      - 'Classes/RedefinedProperty'
      - 'Classes/RewroteFinalClassConstant'
      - 'Classes/ShouldUseSelf'
      - 'Classes/StaticCannotCallNonStatic'
+     - 'Classes/StaticCompatibility'
      - 'Classes/UndeclaredStaticProperty'
      - 'Classes/UndefinedMethod'
      - 'Classes/UnfinishedObject'
@@ -11886,6 +11914,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ThrowWasAnExpression";
    analyzer[] = "Php/UseEnumCaseInConstantExpression";
    analyzer[] = "Php/UseMatch";
+   analyzer[] = "Structures/ArrayWithStringEllipsis";
    analyzer[] = "Structures/CurlVersionNow";
    analyzer[] = "Structures/DontReadAndWriteInOneExpression";
    analyzer[] = "Structures/OpensslRandomPseudoByteSecondArg";
@@ -11957,6 +11986,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ThrowWasAnExpression'
      - 'Php/UseEnumCaseInConstantExpression'
      - 'Php/UseMatch'
+     - 'Structures/ArrayWithStringEllipsis'
      - 'Structures/CurlVersionNow'
      - 'Structures/DontReadAndWriteInOneExpression'
      - 'Structures/OpensslRandomPseudoByteSecondArg'
@@ -12027,6 +12057,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/StringIntComparison";
    analyzer[] = "Php/UseEnumCaseInConstantExpression";
    analyzer[] = "Structures/ArrayMapPassesByValue";
+   analyzer[] = "Structures/ArrayWithStringEllipsis";
    analyzer[] = "Structures/MultipleTypeCasesInSwitch";
    analyzer[] = "Structures/NoMaxOnEmptyArray";
    analyzer[] = "Structures/UnsupportedTypesWithOperators";
@@ -12089,6 +12120,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/StringIntComparison'
      - 'Php/UseEnumCaseInConstantExpression'
      - 'Structures/ArrayMapPassesByValue'
+     - 'Structures/ArrayWithStringEllipsis'
      - 'Structures/MultipleTypeCasesInSwitch'
      - 'Structures/NoMaxOnEmptyArray'
      - 'Structures/UnsupportedTypesWithOperators'
@@ -12146,6 +12178,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
    analyzer[] = "Php/UseEnumCaseInConstantExpression";
    analyzer[] = "Php/VersionCompareOperator";
+   analyzer[] = "Structures/ArrayWithStringEllipsis";
    analyzer[] = "Traits/CannotCallTraitMethod";
    analyzer[] = "Traits/ConstantsInTraits";
    analyzer[] = "Traits/FinalTraitsAreFinal";
@@ -12196,6 +12229,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/StaticVariableDefaultCanBeAnyExpression'
      - 'Php/UseEnumCaseInConstantExpression'
      - 'Php/VersionCompareOperator'
+     - 'Structures/ArrayWithStringEllipsis'
      - 'Traits/CannotCallTraitMethod'
      - 'Traits/ConstantsInTraits'
      - 'Traits/FinalTraitsAreFinal'
@@ -12241,6 +12275,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
    analyzer[] = "Php/Utf8EncodeDeprecated";
    analyzer[] = "Php/VersionCompareOperator";
+   analyzer[] = "Structures/ArrayWithStringEllipsis";
    analyzer[] = "Structures/DeprecatedMbEncoding";
    analyzer[] = "Traits/CannotCallTraitMethod";
    analyzer[] = "Traits/ConstantsInTraits";
@@ -12279,6 +12314,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/StaticVariableDefaultCanBeAnyExpression'
      - 'Php/Utf8EncodeDeprecated'
      - 'Php/VersionCompareOperator'
+     - 'Structures/ArrayWithStringEllipsis'
      - 'Structures/DeprecatedMbEncoding'
      - 'Traits/CannotCallTraitMethod'
      - 'Traits/ConstantsInTraits'
@@ -12311,6 +12347,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/NewWithoutParenthesis";
    analyzer[] = "Php/Php83NewClasses";
    analyzer[] = "Php/Php83NewFunctions";
+   analyzer[] = "Structures/ArrayWithStringEllipsis";
    analyzer[] = "Structures/GetClassWithoutArg";
    analyzer[] = "Traits/ConstantsInTraits";
 
@@ -12331,6 +12368,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/NewWithoutParenthesis'
      - 'Php/Php83NewClasses'
      - 'Php/Php83NewFunctions'
+     - 'Structures/ArrayWithStringEllipsis'
      - 'Structures/GetClassWithoutArg'
      - 'Traits/ConstantsInTraits'
 
@@ -13972,11 +14010,13 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/UseArrayFunctions";
    analyzer[] = "Structures/UseCaseValue";
    analyzer[] = "Structures/UseCountRecursive";
+   analyzer[] = "Structures/UseDirname";
    analyzer[] = "Structures/UseFileAppend";
    analyzer[] = "Structures/UseListWithForeach";
    analyzer[] = "Structures/UseStrEndsWith";
    analyzer[] = "Structures/UseStrStartsWith";
    analyzer[] = "Structures/UseUrlQueryFunctions";
+   analyzer[] = "Structures/VariadicAndFuncGetArg";
    analyzer[] = "Structures/WhileListEach";
    analyzer[] = "Traits/MultipleUsage";
    analyzer[] = "Variables/ComplexDynamicNames";
@@ -14115,11 +14155,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/UseArrayFunctions'
      - 'Structures/UseCaseValue'
      - 'Structures/UseCountRecursive'
+     - 'Structures/UseDirname'
      - 'Structures/UseFileAppend'
      - 'Structures/UseListWithForeach'
      - 'Structures/UseStrEndsWith'
      - 'Structures/UseStrStartsWith'
      - 'Structures/UseUrlQueryFunctions'
+     - 'Structures/VariadicAndFuncGetArg'
      - 'Structures/WhileListEach'
      - 'Traits/MultipleUsage'
      - 'Variables/ComplexDynamicNames'

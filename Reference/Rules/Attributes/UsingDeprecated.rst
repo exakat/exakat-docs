@@ -45,7 +45,7 @@ Note that the class ` :ref:`rulesets-deprecated` ` does not need to be defined a
 Connex PHP features
 -------------------
 
-  + `Attributes <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
+  + `Attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
 
 
 Suggestions

@@ -54,7 +54,7 @@ See also `phpstorm-stubs/meta/attributes/Immutable.php <https://github.com/JetBr
 Connex PHP features
 -------------------
 
-  + `Attributes <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
+  + `Attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
 
 
 Suggestions

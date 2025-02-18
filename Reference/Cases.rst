@@ -4225,10 +4225,10 @@ In this context, the priority of execution is used on purpose; $coreFile only co
     $coreFile = tempnam('/tmp/', 'ocexport') or die('could not generate Excel file (6)')
 
 
-.. _case-logical-to-in\_array:
+.. _case-logical-to-in\_array():
 
-Logical To in_array
-###################
+Logical To in_array()
+#####################
 
 .. _case-zencart-performances-logicaltoinarray:
 
@@ -4236,7 +4236,7 @@ Zencart
 +++++++
 
 
-:ref:`logical-to-in\_array`, in admin/users.php:32. 
+:ref:`logical-to-in\_array()`, in admin/users.php:32. 
 
 Long list of == are harder to read. Using an in_array() call gathers all the strings together, in an array. In turn, this helps readability and possibility, reusability by making that list an constant. 
 
@@ -10663,10 +10663,10 @@ Here, the catch clause will intercept a IO problem while writing element on the 
             }
 
 
-.. _case-useless-check:
+.. _case-useless-check-before-foreach:
 
-Useless Check
-#############
+Useless Check Before Foreach
+############################
 
 .. _case-magento-structures-uselesscheck:
 
@@ -10674,7 +10674,7 @@ Magento
 +++++++
 
 
-:ref:`useless-check`, in wp-admin/includes/misc.php:74. 
+:ref:`useless-check-before-foreach`, in wp-admin/includes/misc.php:74. 
 
 This code assumes that $delete is an array, then checks if it empty. Foreach will take care of the empty check.
 
@@ -10698,7 +10698,7 @@ Phinx
 +++++
 
 
-:ref:`useless-check`, in src/Phinx/Migration/Manager.php:828. 
+:ref:`useless-check-before-foreach`, in src/Phinx/Migration/Manager.php:828. 
 
 If $dependencies is not empty, foreach() skips the loops.
 

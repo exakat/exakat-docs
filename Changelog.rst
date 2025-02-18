@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.7.0 (Jiao Demon King, 2025-02-17)**
+**Version 2.7.1 (Peng Demon King, 2025-02-17)**
 
 
 + Architecture
@@ -16,6 +16,25 @@ Here is the release note of exakat.
     + 
 
 + Report
+    + 
+
++ Analysis
+    + New analysis: Structures/ArrayMergeWithOneArgument
+    + New analysis: Structures/ArrayWithStringEllipsis
+    + New analysis: Structures/InterpolatedStringDereferencing
+    + New analysis: Structures/VariadicWithFuncGetArgs
+    + New analysis: Classes/PrivateWritingPropertyIsFinal
+    + New analysis: Structures/UseDirname
+    + New analysis: Classes/StaticCompatibility
+    + New analysis: Classes/ReadonlyCompatibility
+
++ Tokenizer
+    + Added missing USED link to Newcall
+
+**Version 2.7.0 (Jiao Demon King, 2025-02-03)**
+
+
++ Report
     + Emissary: fixed display of the results of compatibility linting.
 
 + Analysis
@@ -23,9 +42,6 @@ Here is the release note of exakat.
     + New analysis: Traits/NoFinalAlias
     + New analysis: Structures/NegativeOffsetOnString
     + Removed analysis: Php/ConstantScalarExpression
-
-+ Tokenizer
-    + 
 
 **Version 2.6.9 (Du Ruhui, 2025-01-30)**
 

@@ -25,12 +25,16 @@ Abstract Away
 .. raw:: html
 
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Patterns\/AbstractAway.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Patterns\/AbstractAway.html","name":"Abstract Away","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Avoid using PHP native functions that produce data directly in the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Abstract Away.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Patterns\/AbstractAway.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Patterns\/AbstractAway.html","name":"Abstract Away","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 11 Feb 2025 09:13:38 +0000","dateModified":"Tue, 11 Feb 2025 09:13:38 +0000","description":"Avoid using PHP native functions that produce data directly in the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Abstract Away.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Avoid using PHP native functions that produce data directly in the code. For example, `date() <https://www.php.net/date>`_ or `random_int() <https://www.php.net/random_int>`_. They should be abstracted away in a method, that will be replaced later for testing purposes, or even debugging.
 
 To abstract such calls, place them in a method, and add an interface to this method. Then, create and use those objects.
+
 This analysis targets two API for abstraction : time and random values. Time and date related functions may be replaced by `Carbon <https://carbon.nesbot.`com <https://www.php.net/com>`_/docs/>`_, `Clock <https://github.`com <https://www.php.net/com>`_/lcobucci/clock>`_, `Chronos <https://github.`com <https://www.php.net/com>`_/cakephp/chronos>`_. Random values may be replaced with `RandomLib <https://github.`com <https://www.php.net/com>`_/ircmaxell/RandomLib/>`_ or a custom interface.
+
+This has only a conceptual relationship with the ``abstract`` keyword.
+
 
 .. code-block:: php
    
@@ -70,6 +74,12 @@ This analysis targets two API for abstraction : time and random values. Time and
 
 
 See also `Being in control of time in PHP <https://blog.frankdejonge.nl/being-in-control-of-time-in-php/>`_ and `How to test non-deterministic code <https://www.orbitale.io/2019/12/24/how-to-test-non-deterministic-code.html>`_.
+
+Connex PHP features
+-------------------
+
+  + `abstraction <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstraction.ini.html>`_
+  + `Abstract Keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
 
 
 Suggestions

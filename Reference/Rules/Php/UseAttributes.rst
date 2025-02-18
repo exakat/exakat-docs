@@ -48,7 +48,7 @@ See also `PHP RFC: Shorter Attribute Syntax <https://wiki.php.net/rfc/shorter_at
 Connex PHP features
 -------------------
 
-  + `Attributes <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
+  + `Attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
 
 
 Specs

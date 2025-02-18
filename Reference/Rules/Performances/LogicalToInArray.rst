@@ -1,33 +1,33 @@
 .. _performances-logicaltoinarray:
 
 
-.. _logical-to-in\_array:
+.. _logical-to-in\_array():
 
-Logical To in_array
-+++++++++++++++++++
+Logical To in_array()
++++++++++++++++++++++
 
 .. meta::
 	:description:
-		Logical To in_array: Multiple exclusive comparisons with ``or``` may be replaced by faster alternative.
+		Logical To in_array(): Multiple exclusive comparisons with ``or`` may be replaced by faster alternative.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Logical To in_array
-	:twitter:description: Logical To in_array: Multiple exclusive comparisons with ``or``` may be replaced by faster alternative
+	:twitter:title: Logical To in_array()
+	:twitter:description: Logical To in_array(): Multiple exclusive comparisons with ``or`` may be replaced by faster alternative
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Logical To in_array
+	:og:title: Logical To in_array()
 	:og:type: article
-	:og:description: Multiple exclusive comparisons with ``or``` may be replaced by faster alternative
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Logical To in_array.html
+	:og:description: Multiple exclusive comparisons with ``or`` may be replaced by faster alternative
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Logical To in_array().html
 	:og:locale: en
 
 .. raw:: html
 
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/LogicalToInArray.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/LogicalToInArray.html","name":"Logical To in_array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Multiple exclusive comparisons with ``or``` may be replaced by faster alternative","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Logical To in_array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/LogicalToInArray.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/LogicalToInArray.html","name":"Logical To in_array()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 11 Feb 2025 09:13:38 +0000","dateModified":"Tue, 11 Feb 2025 09:13:38 +0000","description":"Multiple exclusive comparisons with ``or`` may be replaced by faster alternative","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Logical To in_array().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-Multiple exclusive comparisons with ``or``` may be replaced by faster alternative. 
+Multiple exclusive comparisons with ``or`` may be replaced by faster alternative. 
 
 + `isset() <https://www.www.php.net/isset>`_ and an array which keys are the target comparisons
 + `array_key_exists() <https://www.php.net/array_key_exists>`_ and an array which keys are the target comparisons
@@ -42,6 +42,7 @@ While each alternative has its performance gain, they make the code more readabl
 As little as three ``or`` comparisons are slower than using an alternative. The more calls, the slower is as string of ``or``. Also, the further the target value is in the ``or`` list, the slower it is to find it. Although, it is not easy to control that value. 
 
 This analysis also reports `in_array() <https://www.php.net/in_array>`_ calls with arrays of a single element : those should be turned into a ``or`` call, or have more values in the array, or have the array published as a constant. 
+
 This is a micro-optimisation : speed gain is low, and marginal. Code centralisation is a more significant advantage.
 
 Thanks to `Frederic Bouchery <https://twitter.`com <https://www.php.net/com>`_/FredBouchery/>`_ for extending the alternatives of that analysis.
@@ -94,6 +95,11 @@ Thanks to `Frederic Bouchery <https://twitter.`com <https://www.php.net/com>`_/F
    ?>
 
 See also `in_array() <https://www.php.net/in_array>`_, `isset() <https://www.php.net/isset>`_, `match() <https://www.php.net/match>`_, `switch() <https://www.php.net/switch>`_ and `strpos() <https://www.php.net/strpos>`_.
+
+Connex PHP features
+-------------------
+
+  + `Performance <https://php-dictionary.readthedocs.io/en/latest/dictionary/performance.ini.html>`_
 
 
 Suggestions

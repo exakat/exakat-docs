@@ -55,7 +55,7 @@ _____
 Suggested Analysis
 __________________
 
-* :ref:`logical-to-in\_array`
+* :ref:`logical-to-in\_array()`
 
 
 
