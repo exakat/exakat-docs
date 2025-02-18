@@ -6,7 +6,7 @@ Rules
 Introduction
 ------------------------
 
-Exakat provides unique 1660 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1674 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 Each rule is documented with code example to allow you to remediate your code. If you want to automate remediation, ours cobblers can are there to fix the issues in your code for your.  
 
@@ -62,6 +62,7 @@ List of Rules
    Rules/Structures/ArrayAccessOnLiteralArray.rst
    Rules/Structures/ArrayAddition.rst
    Rules/Arrays/Arrayindex.rst
+   Rules/Structures/ArrayWithStringEllipsis.rst
    Rules/Arrays/StringInitialization.rst
    Rules/Arrays/ArrayBracketConsistence.rst
    Rules/Structures/ArrayFillWithObjects.rst
@@ -171,6 +172,7 @@ List of Rules
    Rules/Php/CloseTagsConsistency.rst
    Rules/Php/CloseTags.rst
    Rules/Functions/Closure2String.rst
+   Rules/Php/ClosureInConstant.rst
    Rules/Php/ClosureThisSupport.rst
    Rules/Functions/Closures.rst
    Rules/Php/Coalesce.rst
@@ -532,6 +534,7 @@ List of Rules
    Rules/Type/HttpStatus.rst
    Rules/Arrays/WithCallback.rst
    Rules/Functions/HardcodedPasswords.rst
+   Rules/Php/HasAsymmetricVisibility.rst
    Rules/Classes/HasMagicProperty.rst
    Rules/Php/HasPropertyHook.rst
    Rules/Functions/VariableArguments.rst
@@ -611,6 +614,7 @@ List of Rules
    Rules/Classes/PropertyUsedInternally.rst
    Rules/Type/UdpDomains.rst
    Rules/Type/Ports.rst
+   Rules/Php/InterpolatedStringDereferencing.rst
    Rules/Type/StringInterpolation.rst
    Rules/Php/Php81IntersectionTypehint.rst
    Rules/Structures/InvalidCast.rst
@@ -774,6 +778,7 @@ List of Rules
    Rules/Namespaces/NamespaceUsage.rst
    Rules/Namespaces/Namespacesnames.rst
    Rules/Functions/AliasesUsage.rst
+   Rules/Structures/NegativeOffsetOnString.rst
    Rules/Structures/NegativePow.rst
    Rules/Arrays/NegativeStart.rst
    Rules/Vendors/Neos.rst
@@ -808,6 +813,7 @@ List of Rules
    Rules/Classes/NewThenCall.rst
    Rules/Classes/NewOnFunctioncallOrIdentifier.rst
    Rules/Dump/NewOrder.rst
+   Rules/Php/NewWithoutParenthesis.rst
    Rules/Structures/NextMonthTrap.rst
    Rules/Structures/NoValidCast.rst
    Rules/Structures/NoAppendOnSource.rst
@@ -824,6 +830,7 @@ List of Rules
    Rules/Security/NoEntIgnore.rst
    Rules/Structures/NoEmptyRegex.rst
    Rules/Structures/NoEmptyStringWithExplode.rst
+   Rules/Traits/NoFinalAlias.rst
    Rules/Structures/NoHardcodedHash.rst
    Rules/Structures/NoHardcodedIp.rst
    Rules/Structures/NoHardcodedPath.rst
@@ -1013,6 +1020,7 @@ List of Rules
    Rules/Structures/PrintAndDie.rst
    Rules/Type/Printf.rst
    Rules/Structures/PrintfArguments.rst
+   Rules/Classes/PrivateWritingPropertyIsFinal.rst
    Rules/Performances/RegexOnCollector.rst
    Rules/Classes/PromotedProperties.rst
    Rules/Complete/PropagateConstants.rst
@@ -1035,6 +1043,7 @@ List of Rules
    Rules/Extensions/Extrandom.rst
    Rules/Arrays/RandomlySortedLiterals.rst
    Rules/Php/ReadonlyPropertyChangedByCloning.rst
+   Rules/Classes/ReadonlyCompatibility.rst
    Rules/Classes/ReadonlyUsage.rst
    Rules/Functions/RealFunctions.rst
    Rules/Variables/RealVariables.rst
@@ -1167,6 +1176,7 @@ List of Rules
    Rules/Structures/SGVariablesConfusion.rst
    Rules/Structures/StaticInclude.rst
    Rules/Structures/StaticLoop.rst
+   Rules/Classes/StaticCompatibility.rst
    Rules/Classes/StaticMethods.rst
    Rules/Classes/StaticMethodsCalledFromObject.rst
    Rules/Classes/StaticContainsThis.rst
@@ -1376,6 +1386,7 @@ List of Rules
    Rules/Performances/UseArraySlice.rst
    Rules/Php/UseClassAlias.rst
    Rules/Constants/ConstRecommended.rst
+   Rules/Structures/UseDirname.rst
    Rules/Php/UseGetDebugType.rst
    Rules/Php/CouldUseIsCountable.rst
    Rules/Structures/JsonWithOption.rst
@@ -1449,6 +1460,7 @@ List of Rules
    Rules/Variables/VariableVariables.rst
    Rules/Variables/VariableLong.rst
    Rules/Variables/VariableOneLetter.rst
+   Rules/Structures/VariadicAndFuncGetArg.rst
    Rules/Functions/VoidIsNotAReference.rst
    Rules/Arrays/WeakType.rst
    Rules/Classes/WeakType.rst
@@ -1489,6 +1501,7 @@ List of Rules
    Rules/Php/ArrayKeyExistsWithObjects.rst
    Rules/Structures/ArrayMergeWithEllipsis.rst
    Rules/Structures/ArrayMergeAndVariadic.rst
+   Rules/Structures/ArrayMergeOneArg.rst
    Rules/Php/ClassAliasSupportsInternalClasses.rst
    Rules/Structures/CryptWithoutSalt.rst
    Rules/Structures/CurlVersionNow.rst
@@ -1675,6 +1688,7 @@ List of Rules
    Rules/Performances/StrposTooMuch.rst
    Rules/Php/StrposWithIntegers.rst
    Rules/Performances/timeVsstrtotime.rst
+   Rules/Php/TriggerErrorUserError.rst
    Rules/Structures/VardumpUsage.rst
    Rules/Php/VersionCompareOperator.rst
 
@@ -1685,6 +1699,23 @@ Directory by Exakat version
 List of analyzers, by version of introduction, newest to oldest. In parenthesis, the first element is the analyzer name, used with 'analyze -P' command, and the seconds, if any, are the ruleset, used with the -T option. Rulesets are separated by commas, as the same analysis may be used in several rulesets.
 
 
+* 2.7.1
+
+  * :ref:`array_merge() With One Arg <array\_merge()-with-one-arg>`
+
+* 2.7.0
+
+  * :ref:`Array With String Ellipsis <array-with-string-ellipsis>`
+  * :ref:`Closure In Constant <closure-in-constant>`
+  * :ref:`Interpolated String Dereferencing <interpolated-string-dereferencing>`
+  * :ref:`Negative Offset On String <negative-offset-on-string>`
+  * :ref:`No Final As Method Alias <no-final-as-method-alias>`
+  * :ref:`Private Set Visibility Makes Property Final <private-set-visibility-makes-property-final>`
+  * :ref:`Readonly Property Compatibility <readonly-property-compatibility>`
+  * :ref:`Static Method Compatibility <static-method-compatibility>`
+  * :ref:`Use dirname() <use-dirname()>`
+  * :ref:`Variadic And func_get_arg() <variadic-and-func\_get\_arg()>`
+
 * 2.6.8
 
   * :ref:`Anonymous Catch <anonymous-catch>`
@@ -1692,6 +1723,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Could Merge Ternary Into Ifthen <could-merge-ternary-into-ifthen>`
   * :ref:`Deprecated Attribute <deprecated-attribute>`
   * :ref:`Duplicate Enum Case Value <duplicate-enum-case-value>`
+  * :ref:`Has Asymmetric Visibility <has-asymmetric-visibility>`
   * :ref:`Has Property Hook <has-property-hook>`
   * :ref:`Has Virtual Property <has-virtual-property>`
   * :ref:`Method Usage <method-usage>`
@@ -1700,9 +1732,11 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`MustUseResult <mustuseresult>`
   * :ref:`Neos <neos>`
   * :ref:`New Functions In PHP 8.4 <new-functions-in-php-8.4>`
+  * :ref:`New Without Parenthesis <new-without-parenthesis>`
   * :ref:`Remove Parameter With Named Parameters <remove-parameter-with-named-parameters>`
   * :ref:`Useless Override Attribute <useless-override-attribute>`
   * :ref:`foreach() On Object <foreach()-on-object>`
+  * :ref:`trigger_error() With USER_ERROR <trigger\_error()-with-user\_error>`
 
 * 2.6.7
 
@@ -4160,6 +4194,7 @@ Directory by PHP Function
     + `...`
 
       + :ref:`Ambiguous Static <ambiguous-static>`
+      + :ref:`Array With String Ellipsis <array-with-string-ellipsis>`
       + :ref:`Array_merge Needs Array Of Arrays <array\_merge-needs-array-of-arrays>`
       + :ref:`Check On __Call Usage <check-on-\_\_call-usage>`
       + :ref:`Collect Vendor Structures <collect-vendor-structures>`
@@ -4196,9 +4231,11 @@ Directory by PHP Function
       + :ref:`Use PHP Attributes <use-php-attributes>`
       + :ref:`Used Once Property <used-once-property>`
       + :ref:`Useless Instructions <useless-instructions>`
+      + :ref:`Variadic And func_get_arg() <variadic-and-func\_get\_arg()>`
       + :ref:`Yii usage <yii-usage>`
       + :ref:`array_merge With Ellipsis <array\_merge-with-ellipsis>`
       + :ref:`array_merge() And Variadic <array\_merge()-and-variadic>`
+      + :ref:`array_merge() With One Arg <array\_merge()-with-one-arg>`
       + :ref:`ext/ffi <ext-ffi>`
       + :ref:`ext/ldap <ext-ldap>`
       + :ref:`ext/phalcon <ext-phalcon>`
@@ -4414,6 +4451,7 @@ Directory by PHP Function
       + :ref:`Use Array Functions <use-array-functions>`
       + :ref:`array_merge With Ellipsis <array\_merge-with-ellipsis>`
       + :ref:`array_merge() And Variadic <array\_merge()-and-variadic>`
+      + :ref:`array_merge() With One Arg <array\_merge()-with-one-arg>`
 
     + `array_merge_recursive()`
 
@@ -4732,6 +4770,7 @@ Directory by PHP Function
       + :ref:`Cannot Use Static For Closure <cannot-use-static-for-closure>`
       + :ref:`Class Without Parent <class-without-parent>`
       + :ref:`Closure Could Be A Callback <closure-could-be-a-callback>`
+      + :ref:`Closure In Constant <closure-in-constant>`
       + :ref:`Closure May Use $this <closure-may-use-$this>`
       + :ref:`Closures Glossary <closures-glossary>`
       + :ref:`Collect Parameter Counts <collect-parameter-counts>`
@@ -6163,6 +6202,7 @@ Directory by PHP Function
       + :ref:`Has Variable Arguments <has-variable-arguments>`
       + :ref:`PHP 7.3 Last Empty Argument <php-7.3-last-empty-argument>`
       + :ref:`Typehinting Stats <typehinting-stats>`
+      + :ref:`Variadic And func_get_arg() <variadic-and-func\_get\_arg()>`
       + :ref:`Wrong Number Of Arguments <wrong-number-of-arguments>`
       + :ref:`Wrong Number Of Arguments In Methods <wrong-number-of-arguments-in-methods>`
       + :ref:`func_get_arg() Modified Behavior <func\_get\_arg()-modified-behavior>`
@@ -8577,6 +8617,7 @@ Directory by PHP Function
       + :ref:`Use PHP Object API <use-php-object-api>`
       + :ref:`Useless Instructions <useless-instructions>`
       + :ref:`Usort Sorting In PHP 7.0 <usort-sorting-in-php-7.0>`
+      + :ref:`Variadic And func_get_arg() <variadic-and-func\_get\_arg()>`
       + :ref:`Wordpress usage <wordpress-usage>`
       + :ref:`Written Only Variables <written-only-variables>`
       + :ref:`ext/gearman <ext-gearman>`
@@ -9178,6 +9219,7 @@ Directory by PHP Function
       + :ref:`Class Invasion <class-invasion>`
       + :ref:`Class Usage <class-usage>`
       + :ref:`Closure Could Be A Callback <closure-could-be-a-callback>`
+      + :ref:`Closure In Constant <closure-in-constant>`
       + :ref:`Collect Classes Dependencies <collect-classes-dependencies>`
       + :ref:`Collect Definitions Statistics <collect-definitions-statistics>`
       + :ref:`Constant Conditions <constant-conditions>`
@@ -9252,6 +9294,7 @@ Directory by PHP Function
       + :ref:`Static Global Variables Confusion <static-global-variables-confusion>`
       + :ref:`Static Inclusions <static-inclusions>`
       + :ref:`Static Loop <static-loop>`
+      + :ref:`Static Method Compatibility <static-method-compatibility>`
       + :ref:`Static Methods <static-methods>`
       + :ref:`Static Methods Called From Object <static-methods-called-from-object>`
       + :ref:`Static Methods Can't Contain $this <static-methods-can't-contain-$this>`
@@ -9668,6 +9711,7 @@ Directory by PHP Function
       + :ref:`Error Messages <error-messages>`
       + :ref:`Trigger Errors <trigger-errors>`
       + :ref:`Use Constant As Arguments <use-constant-as-arguments>`
+      + :ref:`trigger_error() With USER_ERROR <trigger\_error()-with-user\_error>`
 
     + `trim()`
 
@@ -9945,6 +9989,7 @@ Directory by PHP Function
       + :ref:`PHP7 Dirname <php7-dirname>`
       + :ref:`Static Inclusions <static-inclusions>`
       + :ref:`Use PHP7 Encapsed Strings <use-php7-encapsed-strings>`
+      + :ref:`Use dirname() <use-dirname()>`
       + :ref:`__DIR__ Then Slash <\_\_dir\_\_-then-slash>`
       + :ref:`ext/wasm <ext-wasm>`
 
@@ -9974,6 +10019,7 @@ Directory by PHP Function
       + :ref:`Already Parents Interface <already-parents-interface>`
       + :ref:`Anonymous Classes <anonymous-classes>`
       + :ref:`Class Usage <class-usage>`
+      + :ref:`Closure In Constant <closure-in-constant>`
       + :ref:`Non Static Methods Called In A Static <non-static-methods-called-in-a-static>`
       + :ref:`Parent Is Not Static <parent-is-not-static>`
       + :ref:`Should Have Destructor <should-have-destructor>`
@@ -10428,6 +10474,11 @@ Exakat links each rules to PHP features.
   + Assumption
 
     + :ref:`Assumptions <assumptions>`
+
+  + Asymetric Visibility
+
+    + :ref:`Has Asymmetric Visibility <has-asymmetric-visibility>`
+    + :ref:`Private Set Visibility Makes Property Final <private-set-visibility-makes-property-final>`
 
   + Attribute
 
@@ -11296,7 +11347,9 @@ Exakat links each rules to PHP features.
     + :ref:`Class Should Be Final By Ocramius <class-should-be-final-by-ocramius>`
     + :ref:`Final Class Usage <final-class-usage>`
     + :ref:`Final Private Methods <final-private-methods>`
+    + :ref:`No Final As Method Alias <no-final-as-method-alias>`
     + :ref:`Overwritten Constant <overwritten-constant>`
+    + :ref:`Private Set Visibility Makes Property Final <private-set-visibility-makes-property-final>`
     + :ref:`Rewrote Final Class Constant <rewrote-final-class-constant>`
     + :ref:`Useless Final <useless-final>`
 
@@ -11686,6 +11739,7 @@ Exakat links each rules to PHP features.
 
   + Interpolation
 
+    + :ref:`Interpolated String Dereferencing <interpolated-string-dereferencing>`
     + :ref:`Interpolation <interpolation>`
     + :ref:`Mixed Concat And Interpolation <mixed-concat-and-interpolation>`
     + :ref:`One Variable String <one-variable-string>`
@@ -12653,6 +12707,7 @@ Exakat links each rules to PHP features.
     + :ref:`Dollar Curly Interpolation Is Deprecated <dollar-curly-interpolation-is-deprecated>`
     + :ref:`Failed Substr() Comparison <failed-substr()-comparison>`
     + :ref:`Interpolation <interpolation>`
+    + :ref:`Negative Offset On String <negative-offset-on-string>`
     + :ref:`No String With Append <no-string-with-append>`
     + :ref:`One Variable String <one-variable-string>`
     + :ref:`Only First Byte Will Be Assigned <only-first-byte-will-be-assigned>`
@@ -12767,6 +12822,7 @@ Exakat links each rules to PHP features.
     + :ref:`Method Collision Traits <method-collision-traits>`
     + :ref:`Multiple Identical Trait Or Interface <multiple-identical-trait-or-interface>`
     + :ref:`Multiple Usage Of Same Trait <multiple-usage-of-same-trait>`
+    + :ref:`No Final As Method Alias <no-final-as-method-alias>`
     + :ref:`No Private Abstract Method In Trait <no-private-abstract-method-in-trait>`
     + :ref:`Redefined PHP Traits <redefined-php-traits>`
     + :ref:`Self Using Trait <self-using-trait>`
@@ -12970,6 +13026,7 @@ Exakat links each rules to PHP features.
     + :ref:`Named Arguments And Variadic <named-arguments-and-variadic>`
     + :ref:`PHP 80 Named Parameter Variadic <php-80-named-parameter-variadic>`
     + :ref:`Spread Operator For Array <spread-operator-for-array>`
+    + :ref:`Variadic And func_get_arg() <variadic-and-func\_get\_arg()>`
     + :ref:`array_merge() And Variadic <array\_merge()-and-variadic>`
 
   + Virtual Machine
@@ -13100,6 +13157,7 @@ Exakat links each rules to PHP features.
   + dirname
 
     + :ref:`Use Basename Suffix <use-basename-suffix>`
+    + :ref:`Use dirname() <use-dirname()>`
 
   + extends
 
@@ -13180,6 +13238,7 @@ Exakat links each rules to PHP features.
 
   + negative-index
 
+    + :ref:`Negative Offset On String <negative-offset-on-string>`
     + :ref:`No Substr Minus One <no-substr-minus-one>`
 
   + new
@@ -13305,7 +13364,7 @@ Directory by PHP Error message
 
 Exakat helps reduce the amount of error and warning that code is producing by reporting pattern that are likely to emit errors.
 
-263 PHP error message detailled : 
+269 PHP error message detailled : 
 
 * :ref:`"static\:\:"-is-not-allowed-in-compile-time-constants <avoid-self-in-interface>`
 * :ref:`$globals-can-only-be-modified-using-the-$globals[$name]-=-$value-syntax <restrict-global-usage>`
@@ -13398,9 +13457,11 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`cannot-instantiate-enum-%s <cant-instantiate-non-class>`
 * :ref:`cannot-instantiate-interface-%s <cant-instantiate-non-class>`
 * :ref:`cannot-instantiate-trait-%s <cant-instantiate-non-class>`
+* :ref:`cannot-make-non-static-method-%s//%s()-static-in-class-%s <static-method-compatibility>`
 * :ref:`cannot-override-final-%s\:\:%s()-with-%s\:\:%s() <can't-overwrite-final-method>`
 * :ref:`cannot-override-final-%s\:\:%s()-with-%s\:\:%s() <final-class-usage>`
 * :ref:`cannot-override-final-%s\:\:%s()-with-%s\:\:%s() <final-methods-usage>`
+* :ref:`cannot-override-final-property-%s\:\:$%s <private-set-visibility-makes-property-final>`
 * :ref:`cannot-pass-parameter-%d-by-reference <only-variable-for-reference>`
 * :ref:`cannot-perform-bitwise-not-on-%s <unsupported-types-with-operators>`
 * :ref:`cannot-perform-bitwise-not-on-%s <unsupported-types-with-operators>`
@@ -13408,10 +13469,13 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`cannot-perform-bitwise-not-on-%s <unsupported-types-with-operators>`
 * :ref:`cannot-re-assign-$this <don't-change-incomings>`
 * :ref:`cannot-re-assign-auto-global-variable-%s <don't-change-incomings>`
+* :ref:`cannot-redeclare-%s-property-%s\:\:$%s-as-%s-%s\:\:$%s <readonly-property-compatibility>`
+* :ref:`cannot-unpack-array-with-string-keys <array-with-string-ellipsis>`
 * :ref:`cannot-unpack-array-with-string-keys <no-spread-for-hash>`
 * :ref:`cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s <wrong-typed-property-default>`
 * :ref:`cannot-use-%s-as-default-value-for-property-%s\:\:$%s-of-type-%s <wrong-typed-property-default>`
 * :ref:`cannot-use-'final'-as-constant-modifier <final-constant>`
+* :ref:`cannot-use-'final'-as-method-modifier <no-final-as-method-alias>`
 * :ref:`cannot-use-'mixed'-as-class-name-as-it-is-reserved <the-mixed-keyword>`
 * :ref:`cannot-use-'never'-as-class-name-as-it-is-reserved <never-keyword>`
 * :ref:`cannot-use-[]-for-reading <cannot-use-append-for-reading>`
@@ -13556,6 +13620,7 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`undefined-variable <missing-assignation-in-branches>`
 * :ref:`undefined-variable <nonexistent-variable-in-compact()>`
 * :ref:`undefined-variable <undefined-variable>`
+* :ref:`uninitialized-string-offset <negative-offset-on-string>`
 * :ref:`unknown-format-specifier-"%c <sprintf-format-compilation>`
 * :ref:`unknown-named-parameter-$%s <unknown-parameter-name>`
 * :ref:`unparenthesized-a-?-b-:-c-?-d-:-e-is-not-supported. <nested-ternary-without-parenthesis>`

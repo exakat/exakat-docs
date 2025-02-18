@@ -70,6 +70,12 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rulesets/CompatibilityPHP83.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rulesets/CompatibilityPHP84.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rulesets/CompatibilityPHP85.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rulesets/Dead+code.html</loc>
  </url>
  <url>
@@ -107,6 +113,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rulesets/Php+recommendations.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rulesets/PHP9Deprecations.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rulesets/Performances.html</loc>

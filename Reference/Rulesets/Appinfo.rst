@@ -21,7 +21,7 @@ Appinfo
 
 A set of rules that describes with PHP features is used in the code.
 
-Total : 391 analysis
+Total : 394 analysis
 
 * :ref:`arrays-arrayindex`
 * :ref:`arrays-multidimensional`
@@ -414,6 +414,9 @@ Total : 391 analysis
 * :ref:`vendors-cakephp`
 * :ref:`php-haspropertyhook`
 * :ref:`php-hasvirtualproperty`
+* :ref:`php-newwithoutparenthesis`
+* :ref:`php-hasasymmetricvisibility`
+* :ref:`php-closureinconstant`
 
 Specs
 _____

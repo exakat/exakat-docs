@@ -108,7 +108,7 @@ With that configuration, the Drillinstructor and the Owasp report are created au
 Predefined config files
 ------------------------
 
-46 rulesets detailled here : 
+49 rulesets detailled here : 
 
 .. _annex-all:
 
@@ -12375,6 +12375,92 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+.. _annex-compatibilityphp84:
+
+CompatibilityPHP84
+##################
+
+
+.. _annex-ini-compatibilityphp84:
+
+CompatibilityPHP84 for INI
+++++++++++++++++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [CompatibilityPHP84]
+   analyzer[] = "Php/ClosureInConstant";
+   analyzer[] = "Php/HasAsymmetricVisibility";
+   analyzer[] = "Php/HasPropertyHook";
+   analyzer[] = "Php/HasVirtualProperty";
+   analyzer[] = "Php/Php84NewFunctions";
+   analyzer[] = "Php/TriggerErrorUserError";
+   analyzer[] = "Structures/ArrayWithStringEllipsis";
+
+
+.. _annex-yaml-compatibilityphp84:
+
+CompatibilityPHP84 for .exakat.yaml
++++++++++++++++++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'CompatibilityPHP84':
+     - 'Php/ClosureInConstant'
+     - 'Php/HasAsymmetricVisibility'
+     - 'Php/HasPropertyHook'
+     - 'Php/HasVirtualProperty'
+     - 'Php/Php84NewFunctions'
+     - 'Php/TriggerErrorUserError'
+     - 'Structures/ArrayWithStringEllipsis'
+
+
+
+
+.. _annex-compatibilityphp85:
+
+CompatibilityPHP85
+##################
+
+
+.. _annex-ini-compatibilityphp85:
+
+CompatibilityPHP85 for INI
+++++++++++++++++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [CompatibilityPHP85]
+   analyzer[] = "Php/HasAsymmetricVisibility";
+   analyzer[] = "Php/TriggerErrorUserError";
+   analyzer[] = "Structures/ArrayWithStringEllipsis";
+
+
+.. _annex-yaml-compatibilityphp85:
+
+CompatibilityPHP85 for .exakat.yaml
++++++++++++++++++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'CompatibilityPHP85':
+     - 'Php/HasAsymmetricVisibility'
+     - 'Php/TriggerErrorUserError'
+     - 'Structures/ArrayWithStringEllipsis'
+
+
+
+
 .. _annex-dead-code:
 
 Dead code
@@ -13309,6 +13395,41 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
   rulesets:
     'PHP recommendations':
+     - ''
+
+
+
+
+.. _annex-php9deprecations:
+
+PHP9Deprecations
+################
+
+
+.. _annex-ini-php9deprecations:
+
+PHP9Deprecations for INI
+++++++++++++++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [PHP9Deprecations]
+   analyzer[] = "";
+
+
+.. _annex-yaml-php9deprecations:
+
+PHP9Deprecations for .exakat.yaml
++++++++++++++++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'PHP9Deprecations':
      - ''
 
 

@@ -21,7 +21,7 @@ Class Review
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
-Total : 100 analysis
+Total : 103 analysis
 
 * :ref:`classes-finalclass`
 * :ref:`classes-finalmethod`
@@ -123,6 +123,9 @@ Total : 100 analysis
 * :ref:`classes-newthencall`
 * :ref:`classes-exportproperty`
 * :ref:`classes-uselessnullsafeoperator`
+* :ref:`classes-privatewritingpropertyisfinal`
+* :ref:`classes-staticcompatibility`
+* :ref:`classes-readonlycompatibility`
 
 Specs
 _____

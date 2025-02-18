@@ -21,7 +21,7 @@ CompatibilityPHP70
 
 This ruleset centralizes all analysis for the migration from PHP 5.6 to 7.0.
 
-Total : 69 analysis
+Total : 73 analysis
 
 * :ref:`structures-mcryptcreateivwithoutoption`
 * :ref:`classes-tostringpss`
@@ -92,6 +92,10 @@ Total : 69 analysis
 * :ref:`functions-voidisnotareference`
 * :ref:`php-php81newtypes`
 * :ref:`php-php82newtypes`
+* :ref:`php-newwithoutparenthesis`
+* :ref:`structures-negativeoffsetonstring`
+* :ref:`php-closureinconstant`
+* :ref:`traits-nofinalalias`
 
 Specs
 _____

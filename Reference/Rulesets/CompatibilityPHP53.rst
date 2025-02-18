@@ -21,7 +21,7 @@ CompatibilityPHP53
 
 This ruleset centralizes all analysis for the migration from PHP 5.2 to 5.3.
 
-Total : 97 analysis
+Total : 101 analysis
 
 * :ref:`classes-nonstaticmethodscalledstatic`
 * :ref:`extensions-extdba`
@@ -120,6 +120,10 @@ Total : 97 analysis
 * :ref:`functions-voidisnotareference`
 * :ref:`php-php81newtypes`
 * :ref:`php-php82newtypes`
+* :ref:`php-newwithoutparenthesis`
+* :ref:`structures-negativeoffsetonstring`
+* :ref:`php-closureinconstant`
+* :ref:`traits-nofinalalias`
 
 Specs
 _____

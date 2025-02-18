@@ -21,7 +21,7 @@ CompatibilityPHP56
 
 This ruleset centralizes all analysis for the migration from PHP 5.5 to 5.6.
 
-Total : 77 analysis
+Total : 81 analysis
 
 * :ref:`classes-nonstaticmethodscalledstatic`
 * :ref:`type-malformedoctal`
@@ -100,6 +100,10 @@ Total : 77 analysis
 * :ref:`functions-voidisnotareference`
 * :ref:`php-php81newtypes`
 * :ref:`php-php82newtypes`
+* :ref:`php-newwithoutparenthesis`
+* :ref:`structures-negativeoffsetonstring`
+* :ref:`php-closureinconstant`
+* :ref:`traits-nofinalalias`
 
 Specs
 _____

@@ -21,7 +21,7 @@ CompatibilityPHP54
 
 This ruleset centralizes all analysis for the migration from PHP 5.3 to 5.4.
 
-Total : 94 analysis
+Total : 98 analysis
 
 * :ref:`classes-nonstaticmethodscalledstatic`
 * :ref:`php-caseforpss`
@@ -117,6 +117,10 @@ Total : 94 analysis
 * :ref:`functions-voidisnotareference`
 * :ref:`php-php81newtypes`
 * :ref:`php-php82newtypes`
+* :ref:`php-newwithoutparenthesis`
+* :ref:`structures-negativeoffsetonstring`
+* :ref:`php-closureinconstant`
+* :ref:`traits-nofinalalias`
 
 Specs
 _____

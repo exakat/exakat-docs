@@ -21,7 +21,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 505 analysis
+Total : 509 analysis
 
 * :ref:`structures-addzero`
 * :ref:`arrays-ambiguouskeys`
@@ -528,6 +528,10 @@ Total : 505 analysis
 * :ref:`php-haspropertyhook`
 * :ref:`enums-duplicatecasevalue`
 * :ref:`structures-foreachonobject`
+* :ref:`structures-arraymergeonearg`
+* :ref:`classes-privatewritingpropertyisfinal`
+* :ref:`classes-staticcompatibility`
+* :ref:`classes-readonlycompatibility`
 
 Specs
 _____

@@ -21,7 +21,7 @@ CompatibilityPHP80
 
 This ruleset centralizes all analysis for the migration from PHP 7.4 to 8.0.
 
-Total : 46 analysis
+Total : 50 analysis
 
 * :ref:`classes-oldstyleconstructor`
 * :ref:`functions-wrongoptionalparameter`
@@ -69,6 +69,10 @@ Total : 46 analysis
 * :ref:`php-php81newtypes`
 * :ref:`php-php82newtypes`
 * :ref:`exceptions-anonymouscatch`
+* :ref:`php-newwithoutparenthesis`
+* :ref:`php-closureinconstant`
+* :ref:`traits-nofinalalias`
+* :ref:`structures-arraywithstringellipsis`
 
 Specs
 _____

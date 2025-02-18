@@ -21,7 +21,7 @@ Suggestions
 
 This ruleset focuses on possibly better syntax than the one currently used. Those may be code modernization, alternatives, more efficient solutions, or simply left over from older versions. 
 
-Total : 130 analysis
+Total : 132 analysis
 
 * :ref:`structures-whilelisteach`
 * :ref:`structures-functionpresubscripting`
@@ -153,6 +153,8 @@ Total : 130 analysis
 * :ref:`classes-couldbereadonlyproperty`
 * :ref:`attributes-missingoverridemethod`
 * :ref:`functions-removeparameterwithnamedones`
+* :ref:`structures-variadicandfuncgetarg`
+* :ref:`structures-usedirname`
 
 Specs
 _____

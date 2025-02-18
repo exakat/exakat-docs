@@ -21,7 +21,7 @@ CompatibilityPHP73
 
 This ruleset centralizes all analysis for the migration from PHP 7.2 to 7.3.
 
-Total : 43 analysis
+Total : 46 analysis
 
 * :ref:`php-php73newfunctions`
 * :ref:`php-unknownpcre2option`
@@ -66,6 +66,9 @@ Total : 43 analysis
 * :ref:`functions-voidisnotareference`
 * :ref:`php-php81newtypes`
 * :ref:`php-php82newtypes`
+* :ref:`php-newwithoutparenthesis`
+* :ref:`php-closureinconstant`
+* :ref:`traits-nofinalalias`
 
 Specs
 _____

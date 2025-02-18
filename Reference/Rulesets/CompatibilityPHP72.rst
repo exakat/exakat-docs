@@ -21,7 +21,7 @@ CompatibilityPHP72
 
 This ruleset centralizes all analysis for the migration from PHP 7.1 to 7.2.
 
-Total : 52 analysis
+Total : 55 analysis
 
 * :ref:`constants-undefinedconstants`
 * :ref:`php-hashalgos53`
@@ -75,6 +75,9 @@ Total : 52 analysis
 * :ref:`functions-voidisnotareference`
 * :ref:`php-php81newtypes`
 * :ref:`php-php82newtypes`
+* :ref:`php-newwithoutparenthesis`
+* :ref:`php-closureinconstant`
+* :ref:`traits-nofinalalias`
 
 Specs
 _____

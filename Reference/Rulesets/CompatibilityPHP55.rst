@@ -21,7 +21,7 @@ CompatibilityPHP55
 
 This ruleset centralizes all analysis for the migration from PHP 5.4 to 5.5.
 
-Total : 87 analysis
+Total : 91 analysis
 
 * :ref:`classes-nonstaticmethodscalledstatic`
 * :ref:`extensions-extapc`
@@ -110,6 +110,10 @@ Total : 87 analysis
 * :ref:`functions-voidisnotareference`
 * :ref:`php-php81newtypes`
 * :ref:`php-php82newtypes`
+* :ref:`php-newwithoutparenthesis`
+* :ref:`structures-negativeoffsetonstring`
+* :ref:`php-closureinconstant`
+* :ref:`traits-nofinalalias`
 
 Specs
 _____

@@ -21,7 +21,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1658 analysis
+Total : 1670 analysis
 
 * :ref:`structures-addzero`
 * :ref:`arrays-ambiguouskeys`
@@ -1681,6 +1681,18 @@ Total : 1658 analysis
 * :ref:`structures-foreachonobject`
 * :ref:`attributes-mustuseresult`
 * :ref:`attributes-mustusereturnreturns`
+* :ref:`php-newwithoutparenthesis`
+* :ref:`php-hasasymmetricvisibility`
+* :ref:`php-triggererrorusererror`
+* :ref:`structures-negativeoffsetonstring`
+* :ref:`php-closureinconstant`
+* :ref:`structures-arraymergeonearg`
+* :ref:`structures-arraywithstringellipsis`
+* :ref:`structures-variadicandfuncgetarg`
+* :ref:`classes-privatewritingpropertyisfinal`
+* :ref:`structures-usedirname`
+* :ref:`classes-staticcompatibility`
+* :ref:`classes-readonlycompatibility`
 
 Specs
 _____

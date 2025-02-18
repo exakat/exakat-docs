@@ -21,7 +21,7 @@ CompatibilityPHP82
 
 This ruleset centralizes all analysis for the migration from PHP 8.1 to 8.2.
 
-Total : 22 analysis
+Total : 26 analysis
 
 * :ref:`classes-undefinedproperty`
 * :ref:`php-falsetoarray`
@@ -45,6 +45,10 @@ Total : 22 analysis
 * :ref:`traits-finaltraitsarefinal`
 * :ref:`classes-typedclassconstants`
 * :ref:`variables-staticvariableinitialisation`
+* :ref:`php-newwithoutparenthesis`
+* :ref:`php-closureinconstant`
+* :ref:`traits-nofinalalias`
+* :ref:`structures-arraywithstringellipsis`
 
 Specs
 _____

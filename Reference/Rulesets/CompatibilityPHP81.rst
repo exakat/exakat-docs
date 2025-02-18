@@ -21,7 +21,7 @@ CompatibilityPHP81
 
 This ruleset centralizes all analysis for the migration from PHP 8.0 to 8.1.
 
-Total : 34 analysis
+Total : 38 analysis
 
 * :ref:`php-php74removeddirective`
 * :ref:`php-php80removeddirective`
@@ -57,6 +57,10 @@ Total : 34 analysis
 * :ref:`functions-voidisnotareference`
 * :ref:`php-php81newtypes`
 * :ref:`php-php82newtypes`
+* :ref:`php-newwithoutparenthesis`
+* :ref:`php-closureinconstant`
+* :ref:`traits-nofinalalias`
+* :ref:`structures-arraywithstringellipsis`
 
 Specs
 _____

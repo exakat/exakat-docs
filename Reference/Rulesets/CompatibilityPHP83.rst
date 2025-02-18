@@ -21,13 +21,16 @@ CompatibilityPHP83
 
 This ruleset centralizes all analysis for the migration from PHP 8.2 to 8.3.
 
-Total : 5 analysis
+Total : 8 analysis
 
 * :ref:`php-php83newfunctions`
 * :ref:`php-php83newclasses`
 * :ref:`traits-constantsintraits`
 * :ref:`interfaces-inheritedclassconstantvisibility`
 * :ref:`structures-getclasswithoutarg`
+* :ref:`php-newwithoutparenthesis`
+* :ref:`php-closureinconstant`
+* :ref:`structures-arraywithstringellipsis`
 
 Specs
 _____

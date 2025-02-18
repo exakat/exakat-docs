@@ -21,7 +21,7 @@ CompatibilityPHP71
 
 This ruleset centralizes all analysis for the migration from PHP 7.0 to 7.1.
 
-Total : 59 analysis
+Total : 62 analysis
 
 * :ref:`extensions-extmcrypt`
 * :ref:`php-hashalgos53`
@@ -82,6 +82,9 @@ Total : 59 analysis
 * :ref:`functions-voidisnotareference`
 * :ref:`php-php81newtypes`
 * :ref:`php-php82newtypes`
+* :ref:`php-newwithoutparenthesis`
+* :ref:`php-closureinconstant`
+* :ref:`traits-nofinalalias`
 
 Specs
 _____
