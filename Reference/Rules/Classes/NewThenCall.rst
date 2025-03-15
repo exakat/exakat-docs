@@ -25,21 +25,29 @@ New Object Then Immediate Call
 .. raw:: html
 
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/NewThenCall.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/NewThenCall.html","name":"New Object Then Immediate Call","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"This rule reports immediate calls on a new object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/New Object Then Immediate Call.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/NewThenCall.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/NewThenCall.html","name":"New Object Then Immediate Call","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:12:06 +0000","dateModified":"Wed, 05 Mar 2025 15:12:06 +0000","description":"This rule reports immediate calls on a new object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/New Object Then Immediate Call.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-This rule reports immediate calls on a new object. This can be simplified with a parenthesis structure, including with the assignation inside the parenthesis.
+This rule reports immediate calls on a new object. This can be simplified with a parenthesis structure. Possibly, inluding an assignation to a local variable, inside the parenthesis.
 
-It is also being discussed to drop the parenthesis altogether. 
+In PHP 8.4, it is possible to drop the parenthesis altogether.
 
 
 .. code-block:: php
    
    <?php
    
+   // multiline call
    $a = new Foo();
    $a->bar();
    
+   // single line call with local variable
    ($a = new Foo())->bar();
+   
+   // single line call
+   (new Foo())->bar();
+   
+   // PHP 8.4 call 
+   new Foo()->bar();
    
    ?>
 

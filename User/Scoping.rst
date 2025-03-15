@@ -195,6 +195,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/CitSameName";
    analyzer[] = "Classes/ClassAliasUsage";
    analyzer[] = "Classes/ClassInvasion";
+   analyzer[] = "Classes/ClassOperatorOnObject";
    analyzer[] = "Classes/ClassOverreach";
    analyzer[] = "Classes/ClassUsage";
    analyzer[] = "Classes/Classnames";
@@ -1880,6 +1881,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/CitSameName'
      - 'Classes/ClassAliasUsage'
      - 'Classes/ClassInvasion'
+     - 'Classes/ClassOperatorOnObject'
      - 'Classes/ClassOverreach'
      - 'Classes/ClassUsage'
      - 'Classes/Classnames'
@@ -7146,6 +7148,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/CitSameName";
    analyzer[] = "Classes/ClassAliasUsage";
    analyzer[] = "Classes/ClassInvasion";
+   analyzer[] = "Classes/ClassOperatorOnObject";
    analyzer[] = "Classes/ClassOverreach";
    analyzer[] = "Classes/ClassUsage";
    analyzer[] = "Classes/Classnames";
@@ -8603,6 +8606,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/CitSameName'
      - 'Classes/ClassAliasUsage'
      - 'Classes/ClassInvasion'
+     - 'Classes/ClassOperatorOnObject'
      - 'Classes/ClassOverreach'
      - 'Classes/ClassUsage'
      - 'Classes/Classnames'

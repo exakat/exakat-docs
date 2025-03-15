@@ -43,7 +43,7 @@ Report usage of filter functions with the ``FILTER_RAW_UNSAFE`` option. This opt
 Connex PHP features
 -------------------
 
-  + `Validation <https://php-dictionary.readthedocs.io/en/latest/dictionary/filter.ini.html>`_
+  + `filter <https://php-dictionary.readthedocs.io/en/latest/dictionary/filter.ini.html>`_
 
 
 Suggestions

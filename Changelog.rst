@@ -9,15 +9,6 @@ Here is the release note of exakat.
 **Version 2.7.1 (Peng Demon King, 2025-02-17)**
 
 
-+ Architecture
-	+ 
-
-+ Cobbler
-    + 
-
-+ Report
-    + 
-
 + Analysis
     + New analysis: Structures/ArrayMergeWithOneArgument
     + New analysis: Structures/ArrayWithStringEllipsis
@@ -27,9 +18,12 @@ Here is the release note of exakat.
     + New analysis: Structures/UseDirname
     + New analysis: Classes/StaticCompatibility
     + New analysis: Classes/ReadonlyCompatibility
+    + New analysis: Classes/ClassOperatorOnObject
 
 + Tokenizer
     + Added missing USED link to Newcall
+    + Minor tweaks on WhiteSpaces for Cobbler exports
+    + Fixed handling of property hooks (several variations)
 
 **Version 2.7.0 (Jiao Demon King, 2025-02-03)**
 

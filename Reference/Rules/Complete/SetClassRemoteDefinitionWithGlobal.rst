@@ -8,43 +8,43 @@ Set Class Remote Definition With Global
 
 .. meta::
 	:description:
-		Set Class Remote Definition With Global: Links method call to its definition, thanks to the global definition.
+		Set Class Remote Definition With Global: Links method calls to tehir definition, thanks to the global definition.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Set Class Remote Definition With Global
-	:twitter:description: Set Class Remote Definition With Global: Links method call to its definition, thanks to the global definition
+	:twitter:description: Set Class Remote Definition With Global: Links method calls to tehir definition, thanks to the global definition
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:title: Set Class Remote Definition With Global
 	:og:type: article
-	:og:description: Links method call to its definition, thanks to the global definition
+	:og:description: Links method calls to tehir definition, thanks to the global definition
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Class Remote Definition With Global.html
 	:og:locale: en
 
 .. raw:: html
 
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/SetClassRemoteDefinitionWithGlobal.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/SetClassRemoteDefinitionWithGlobal.html","name":"Set Class Remote Definition With Global","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Links method call to its definition, thanks to the global definition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Set Class Remote Definition With Global.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/SetClassRemoteDefinitionWithGlobal.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/SetClassRemoteDefinitionWithGlobal.html","name":"Set Class Remote Definition With Global","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:12:06 +0000","dateModified":"Wed, 05 Mar 2025 15:12:06 +0000","description":"Links method calls to tehir definition, thanks to the global definition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Set Class Remote Definition With Global.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-Links method call to its definition, thanks to the global definition. The link is ``DEFINITION``.
+Links method calls to tehir definition, thanks to the global definition. The link is ``DEFINITION``.
 
 .. code-block:: php
    
    <?php
    
-   class x {
+   class X {
        public function bar() {    }
    }
    
-   global $a;
-   $a = new X;
+   global $x;
+   $x = new X;
    
    function foo() {
-       global $a;
+       global $x;
        
        // This links to class x, method bar(), thanks to global.
-       return $a->bar();
+       return $x->bar();
    }
    
    ?>

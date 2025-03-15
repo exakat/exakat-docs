@@ -25,7 +25,7 @@ array_merge() With One Arg
 .. raw:: html
 
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ArrayMergeOneArg.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ArrayMergeOneArg.html","name":"array_merge() With One Arg","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Feb 2025 14:25:53 +0000","dateModified":"Tue, 04 Feb 2025 14:25:53 +0000","description":"array_merge() combine several arrays together","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/array_merge() With One Arg.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ArrayMergeOneArg.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ArrayMergeOneArg.html","name":"array_merge() With One Arg","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"array_merge() combine several arrays together","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/array_merge() With One Arg.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 `array_merge() <https://www.php.net/array_merge>`_ combine several arrays together. It also works with one argument: then, it is only useful when the argument is spread, and contains several arrays. Otherwise, `array_merge() <https://www.php.net/array_merge>`_ returns the array.
 
@@ -45,7 +45,7 @@ array_merge() With One Arg
 Connex PHP features
 -------------------
 
-  + `array_merge <https://php-dictionary.readthedocs.io/en/latest/dictionary/array_merge.ini.html>`_
+  + `array_merge() <https://php-dictionary.readthedocs.io/en/latest/dictionary/array_merge.ini.html>`_
 
 
 Suggestions

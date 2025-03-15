@@ -6,7 +6,7 @@ Rules
 Introduction
 ------------------------
 
-Exakat provides unique 1674 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1675 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 Each rule is documented with code example to allow you to remediate your code. If you want to automate remediation, ours cobblers can are there to fix the issues in your code for your.  
 
@@ -26,6 +26,7 @@ List of Rules
    Rules/Classes/ThisIsNotForStatic.rst
    Rules/Php/NewExponent.rst
    Rules/Php/StaticclassUsage.rst
+   Rules/Classes/ClassOperatorOnObject.rst
    Rules/Structures/Noscream.rst
    Rules/Patterns/AbstractAway.rst
    Rules/Classes/AbstractConstants.rst
@@ -1715,6 +1716,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Static Method Compatibility <static-method-compatibility>`
   * :ref:`Use dirname() <use-dirname()>`
   * :ref:`Variadic And func_get_arg() <variadic-and-func\_get\_arg()>`
+  * :ref:`\:\:class Operator On Object <class-operator-on-object>`
 
 * 2.6.8
 
@@ -10614,6 +10616,7 @@ Exakat links each rules to PHP features.
 
   + Class
 
+    + :ref:`\:\:class Operator On Object <class-operator-on-object>`
     + :ref:`@ Operator <@-operator>`
     + :ref:`Abstract Class Usage <abstract-class-usage>`
     + :ref:`Abstract Methods Usage <abstract-methods-usage>`
@@ -11811,6 +11814,7 @@ Exakat links each rules to PHP features.
 
   + Literal
 
+    + :ref:`Collect Literals <collect-literals>`
     + :ref:`Duplicate Literal <duplicate-literal>`
     + :ref:`No Literal For Reference <no-literal-for-reference>`
     + :ref:`Overwritten Literals <overwritten-literals>`
@@ -12559,6 +12563,7 @@ Exakat links each rules to PHP features.
 
   + Scope Resolution Operator ::
 
+    + :ref:`\:\:class Operator On Object <class-operator-on-object>`
     + :ref:`Scope Resolution Operator <scope-resolution-operator>`
 
   + Self
@@ -12981,7 +12986,6 @@ Exakat links each rules to PHP features.
 
   + Validation
 
-    + :ref:`Filter Not Raw <filter-not-raw>`
     + :ref:`Insecure Integer Validation <insecure-integer-validation>`
     + :ref:`No Max On Empty Array <no-max-on-empty-array>`
     + :ref:`Useless Check Before Foreach <useless-check-before-foreach>`
@@ -13104,6 +13108,10 @@ Exakat links each rules to PHP features.
 
     + :ref:`__halt_compiler <\_\_halt\_compiler>`
 
+  + array_merge()
+
+    + :ref:`array_merge() With One Arg <array\_merge()-with-one-arg>`
+
   + basename
 
     + :ref:`Use Basename Suffix <use-basename-suffix>`
@@ -13167,6 +13175,10 @@ Exakat links each rules to PHP features.
   + extract()
 
     + :ref:`Configure Extract <configure-extract>`
+
+  + filter
+
+    + :ref:`Filter Not Raw <filter-not-raw>`
 
   + glob()
 

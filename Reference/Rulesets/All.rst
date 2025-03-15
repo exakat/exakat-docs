@@ -21,7 +21,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1670 analysis
+Total : 1671 analysis
 
 * :ref:`structures-addzero`
 * :ref:`arrays-ambiguouskeys`
@@ -1693,6 +1693,7 @@ Total : 1670 analysis
 * :ref:`structures-usedirname`
 * :ref:`classes-staticcompatibility`
 * :ref:`classes-readonlycompatibility`
+* :ref:`classes-classoperatoronobject`
 
 Specs
 _____
