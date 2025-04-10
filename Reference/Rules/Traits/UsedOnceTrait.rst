@@ -54,7 +54,7 @@ Connex PHP features
 -------------------
 
   + `Code Reuse <https://php-dictionary.readthedocs.io/en/latest/dictionary/code-reuse.ini.html>`_
-  + `Overenginer <https://php-dictionary.readthedocs.io/en/latest/dictionary/overenginereed.ini.html>`_
+  + `overenginereed <https://php-dictionary.readthedocs.io/en/latest/dictionary/overenginereed.ini.html>`_
 
 
 Suggestions

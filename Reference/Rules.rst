@@ -12180,10 +12180,6 @@ Exakat links each rules to PHP features.
 
     + :ref:`Don't Change Incomings <don't-change-incomings>`
 
-  + Overenginer
-
-    + :ref:`Used Once Trait <used-once-trait>`
-
   + Override Attribute
 
     + :ref:`Method Is Overwritten <method-is-overwritten>`
