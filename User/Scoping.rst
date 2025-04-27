@@ -1504,6 +1504,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/NoChoice";
    analyzer[] = "Structures/NoDirectAccess";
    analyzer[] = "Structures/NoDirectUsage";
+   analyzer[] = "Structures/NoEmptyPathToFile";
    analyzer[] = "Structures/NoEmptyRegex";
    analyzer[] = "Structures/NoEmptyStringWithExplode";
    analyzer[] = "Structures/NoGetClassNull";
@@ -3190,6 +3191,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/NoChoice'
      - 'Structures/NoDirectAccess'
      - 'Structures/NoDirectUsage'
+     - 'Structures/NoEmptyPathToFile'
      - 'Structures/NoEmptyRegex'
      - 'Structures/NoEmptyStringWithExplode'
      - 'Structures/NoGetClassNull'
@@ -3898,6 +3900,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/NoChangeIncomingVariables";
    analyzer[] = "Structures/NoChoice";
    analyzer[] = "Structures/NoDirectUsage";
+   analyzer[] = "Structures/NoEmptyPathToFile";
    analyzer[] = "Structures/NoEmptyRegex";
    analyzer[] = "Structures/NoEmptyStringWithExplode";
    analyzer[] = "Structures/NoGetClassNull";
@@ -4420,6 +4423,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/NoChangeIncomingVariables'
      - 'Structures/NoChoice'
      - 'Structures/NoDirectUsage'
+     - 'Structures/NoEmptyPathToFile'
      - 'Structures/NoEmptyRegex'
      - 'Structures/NoEmptyStringWithExplode'
      - 'Structures/NoGetClassNull'
@@ -7148,7 +7152,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/CitSameName";
    analyzer[] = "Classes/ClassAliasUsage";
    analyzer[] = "Classes/ClassInvasion";
-   analyzer[] = "Classes/ClassOperatorOnObject";
    analyzer[] = "Classes/ClassOverreach";
    analyzer[] = "Classes/ClassUsage";
    analyzer[] = "Classes/Classnames";
@@ -7840,6 +7843,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/CallingStaticTraitMethod";
    analyzer[] = "Php/CantUseReturnValueInWriteContext";
    analyzer[] = "Php/CaseForPSS";
+   analyzer[] = "Php/CastUnsetUsage";
    analyzer[] = "Php/CastingUsage";
    analyzer[] = "Php/ClassAliasSupportsInternalClasses";
    analyzer[] = "Php/ClassConstWithArray";
@@ -8112,6 +8116,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/ArrayMergeArrayArray";
    analyzer[] = "Structures/ArrayMergeWithEllipsis";
    analyzer[] = "Structures/ArraySearchMultipleKeys";
+   analyzer[] = "Structures/ArrayWithStringEllipsis";
    analyzer[] = "Structures/AssignedInOneBranch";
    analyzer[] = "Structures/BailOutEarly";
    analyzer[] = "Structures/BasenameSuffix";
@@ -8606,7 +8611,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/CitSameName'
      - 'Classes/ClassAliasUsage'
      - 'Classes/ClassInvasion'
-     - 'Classes/ClassOperatorOnObject'
      - 'Classes/ClassOverreach'
      - 'Classes/ClassUsage'
      - 'Classes/Classnames'
@@ -9298,6 +9302,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/CallingStaticTraitMethod'
      - 'Php/CantUseReturnValueInWriteContext'
      - 'Php/CaseForPSS'
+     - 'Php/CastUnsetUsage'
      - 'Php/CastingUsage'
      - 'Php/ClassAliasSupportsInternalClasses'
      - 'Php/ClassConstWithArray'
@@ -9570,6 +9575,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/ArrayMergeArrayArray'
      - 'Structures/ArrayMergeWithEllipsis'
      - 'Structures/ArraySearchMultipleKeys'
+     - 'Structures/ArrayWithStringEllipsis'
      - 'Structures/AssignedInOneBranch'
      - 'Structures/BailOutEarly'
      - 'Structures/BasenameSuffix'
@@ -12063,6 +12069,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/ArrayMapPassesByValue";
    analyzer[] = "Structures/ArrayWithStringEllipsis";
    analyzer[] = "Structures/MultipleTypeCasesInSwitch";
+   analyzer[] = "Structures/NoEmptyPathToFile";
    analyzer[] = "Structures/NoMaxOnEmptyArray";
    analyzer[] = "Structures/UnsupportedTypesWithOperators";
    analyzer[] = "Traits/ConstantsInTraits";
@@ -12126,6 +12133,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/ArrayMapPassesByValue'
      - 'Structures/ArrayWithStringEllipsis'
      - 'Structures/MultipleTypeCasesInSwitch'
+     - 'Structures/NoEmptyPathToFile'
      - 'Structures/NoMaxOnEmptyArray'
      - 'Structures/UnsupportedTypesWithOperators'
      - 'Traits/ConstantsInTraits'

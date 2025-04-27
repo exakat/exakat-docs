@@ -6,7 +6,7 @@ Rules
 Introduction
 ------------------------
 
-Exakat provides unique 1675 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1676 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 Each rule is documented with code example to allow you to remediate your code. If you want to automate remediation, ours cobblers can are there to fix the issues in your code for your.  
 
@@ -829,6 +829,7 @@ List of Rules
    Rules/Classes/DirectCallToMagicMethod.rst
    Rules/Structures/NoDirectUsage.rst
    Rules/Security/NoEntIgnore.rst
+   Rules/Structures/NoEmptyPathToFile.rst
    Rules/Structures/NoEmptyRegex.rst
    Rules/Structures/NoEmptyStringWithExplode.rst
    Rules/Traits/NoFinalAlias.rst
@@ -1702,6 +1703,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 
 * 2.7.1
 
+  * :ref:`No Empty Path To File <no-empty-path-to-file>`
   * :ref:`array_merge() With One Arg <array\_merge()-with-one-arg>`
 
 * 2.7.0
@@ -13346,6 +13348,10 @@ Exakat links each rules to PHP features.
     + :ref:`Throw Was An Expression <throw-was-an-expression>`
     + :ref:`Thrown Exceptions <thrown-exceptions>`
     + :ref:`Throws An Assignement <throws-an-assignement>`
+
+  + trigger_error()
+
+    + :ref:`trigger_error() With USER_ERROR <trigger\_error()-with-user\_error>`
 
   + unset()
 

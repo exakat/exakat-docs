@@ -6,10 +6,47 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.7.1 (Peng Demon King, 2025-02-17)**
+**Version 2.7.2 (??, 2025-02-17)**
 
+
++ Architecture
+	+ 
+
++ Cobbler
+    + 
+
++ Report
+    + 
 
 + Analysis
+    + 
+
++ Tokenizer
+    +
+
+**Version 2.7.1 (Peng Demon King, 2025-04-27)**
+
+
++ Report
+    + Added support for parameters on Reports.
+
++ Analysis
+    + New analysis: Report when file_get_contents() uses empty string.
+
++ Tokenizer
+    + Fixed loading problems with Readonly
+
+**Version 2.7.0 (Jiao Demon King, 2025-02-03)**
+
+
++ Report
+    + Emissary: fixed display of the results of compatibility linting.
+
++ Analysis
+    + New analysis: Php/ClosureInConstant
+    + New analysis: Traits/NoFinalAlias
+    + New analysis: Structures/NegativeOffsetOnString
+    + Removed analysis: Php/ConstantScalarExpression
     + New analysis: Structures/ArrayMergeWithOneArgument
     + New analysis: Structures/ArrayWithStringEllipsis
     + New analysis: Structures/InterpolatedStringDereferencing
@@ -24,18 +61,6 @@ Here is the release note of exakat.
     + Added missing USED link to Newcall
     + Minor tweaks on WhiteSpaces for Cobbler exports
     + Fixed handling of property hooks (several variations)
-
-**Version 2.7.0 (Jiao Demon King, 2025-02-03)**
-
-
-+ Report
-    + Emissary: fixed display of the results of compatibility linting.
-
-+ Analysis
-    + New analysis: Php/ClosureInConstant
-    + New analysis: Traits/NoFinalAlias
-    + New analysis: Structures/NegativeOffsetOnString
-    + Removed analysis: Php/ConstantScalarExpression
 
 **Version 2.6.9 (Du Ruhui, 2025-01-30)**
 

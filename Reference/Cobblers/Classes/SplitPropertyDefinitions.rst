@@ -22,7 +22,7 @@ Split Property Definitions
 ++++++++++++++++++++++++++
 Split multiple properties definition into independent definitions. 
 
-This applies to classes and traits. 
+This applies to classes and traits.
 
 .. _split-property-definitions-before:
 

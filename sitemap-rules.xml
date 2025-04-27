@@ -2437,6 +2437,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Security/NoEntIgnore.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NoEmptyPathToFile.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NoEmptyRegex.html</loc>
  </url>
  <url>

@@ -39,7 +39,7 @@ This rule report usage of `trigger_error() <https://www.php.net/trigger_error>`_
 Connex PHP features
 -------------------
 
-  + `trigger_error <https://php-dictionary.readthedocs.io/en/latest/dictionary/trigger_error.ini.html>`_
+  + `trigger_error() <https://php-dictionary.readthedocs.io/en/latest/dictionary/trigger_error.ini.html>`_
 
 
 Specs

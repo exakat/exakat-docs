@@ -21,7 +21,7 @@ Changed Behavior
 
 Ruleset with all rules that identify changed behavior across PHP versions. This means that some syntax behave differently, depending on PHP version.
 
-Total : 1444 analysis
+Total : 1445 analysis
 
 * :ref:`arrays-ambiguouskeys`
 * :ref:`arrays-arrayindex`
@@ -1150,6 +1150,7 @@ Total : 1444 analysis
 * :ref:`dump-collectnativecallsperexpressions`
 * :ref:`classes-cancelcommonmethod`
 * :ref:`functions-dynamiccode`
+* :ref:`php-castunsetusage`
 * :ref:`php-phperrormsgusage`
 * :ref:`functions-mismatchparametername`
 * :ref:`php-multipledeclarestrict`
@@ -1466,7 +1467,7 @@ Total : 1444 analysis
 * :ref:`functions-removeparameterwithnamedones`
 * :ref:`structures-mergeternaryintoifthen`
 * :ref:`traits-nofinalalias`
-* :ref:`classes-classoperatoronobject`
+* :ref:`structures-arraywithstringellipsis`
 
 Specs
 _____
