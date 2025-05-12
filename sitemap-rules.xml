@@ -337,6 +337,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Traits/CannotCallTraitMethod.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Traits/CannotCallTraitStaticProperty.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/CannotUseAppendForReading.html</loc>
  </url>
  <url>
@@ -587,6 +590,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Dump/CollectStubStructures.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Dump/CollectSwitchCases.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Dump/CollectThrow.html</loc>

@@ -32,6 +32,8 @@ Here is the release note of exakat.
 
 + Analysis
     + New analysis: Report when file_get_contents() uses empty string.
+    + New analysis: Collect number of case in switches and matches
+    + New analysis: Report usage of property traits
 
 + Tokenizer
     + Fixed loading problems with Readonly

@@ -6,7 +6,7 @@ Rules
 Introduction
 ------------------------
 
-Exakat provides unique 1676 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1678 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 Each rule is documented with code example to allow you to remediate your code. If you want to automate remediation, ours cobblers can are there to fix the issues in your code for your.  
 
@@ -129,6 +129,7 @@ List of Rules
    Rules/Classes/CancelCommonMethod.rst
    Rules/Functions/CancelledParameter.rst
    Rules/Traits/CannotCallTraitMethod.rst
+   Rules/Traits/CannotCallTraitStaticProperty.rst
    Rules/Structures/CannotUseAppendForReading.rst
    Rules/Functions/CannotUseStaticForClosure.rst
    Rules/Classes/CantInheritAbstractMethod.rst
@@ -213,6 +214,7 @@ List of Rules
    Rules/Dump/CollectClassChanges.rst
    Rules/Dump/CollectStructures.rst
    Rules/Dump/CollectStubStructures.rst
+   Rules/Dump/CollectSwitchCases.rst
    Rules/Dump/CollectThrow.rst
    Rules/Dump/CollectUseCounts.rst
    Rules/Dump/CollectVendorStructures.rst
@@ -1700,6 +1702,11 @@ Directory by Exakat version
 
 List of analyzers, by version of introduction, newest to oldest. In parenthesis, the first element is the analyzer name, used with 'analyze -P' command, and the seconds, if any, are the ruleset, used with the -T option. Rulesets are separated by commas, as the same analysis may be used in several rulesets.
 
+
+* 2.7.2
+
+  * :ref:`Cannot Call Trait Static Property <cannot-call-trait-static-property>`
+  * :ref:`Collect Switch Cases Count <collect-switch-cases-count>`
 
 * 2.7.1
 
@@ -9218,6 +9225,7 @@ Directory by PHP Function
       + :ref:`Calling Static Trait Method <calling-static-trait-method>`
       + :ref:`Can't Instantiate Class <can't-instantiate-class>`
       + :ref:`Cannot Call Static Trait Method Directly <cannot-call-static-trait-method-directly>`
+      + :ref:`Cannot Call Trait Static Property <cannot-call-trait-static-property>`
       + :ref:`Cannot Use Static For Closure <cannot-use-static-for-closure>`
       + :ref:`Cant Use Return Value In Write Context <cant-use-return-value-in-write-context>`
       + :ref:`Class Invasion <class-invasion>`
@@ -10568,6 +10576,7 @@ Exakat links each rules to PHP features.
 
   + Case
 
+    + :ref:`Collect Switch Cases Count <collect-switch-cases-count>`
     + :ref:`Non-lowercase Keywords <non-lowercase-keywords>`
     + :ref:`Switch Without Default <switch-without-default>`
 
@@ -11009,6 +11018,7 @@ Exakat links each rules to PHP features.
 
   + Default
 
+    + :ref:`Collect Switch Cases Count <collect-switch-cases-count>`
     + :ref:`Default Then Discard <default-then-discard>`
     + :ref:`Mismatch Type And Default <mismatch-type-and-default>`
     + :ref:`Switch Without Default <switch-without-default>`
@@ -11909,6 +11919,7 @@ Exakat links each rules to PHP features.
 
   + Match
 
+    + :ref:`Collect Switch Cases Count <collect-switch-cases-count>`
     + :ref:`Could Use Match <could-use-match>`
     + :ref:`Reserved Match Keyword <reserved-match-keyword>`
     + :ref:`Simple Switch And Match <simple-switch-and-match>`
@@ -12354,6 +12365,7 @@ Exakat links each rules to PHP features.
   + Properties
 
     + :ref:`Avoid Optional Properties <avoid-optional-properties>`
+    + :ref:`Cannot Call Trait Static Property <cannot-call-trait-static-property>`
     + :ref:`Checks Property Existence <checks-property-existence>`
     + :ref:`Collect Property Counts <collect-property-counts>`
     + :ref:`Defined Properties <defined-properties>`
@@ -12748,6 +12760,7 @@ Exakat links each rules to PHP features.
 
   + Switch
 
+    + :ref:`Collect Switch Cases Count <collect-switch-cases-count>`
     + :ref:`Could Use Match <could-use-match>`
     + :ref:`Multiple Type Cases In Switch <multiple-type-cases-in-switch>`
     + :ref:`Multiples Identical Case <multiples-identical-case>`
@@ -12814,6 +12827,7 @@ Exakat links each rules to PHP features.
     + :ref:`Already Parents Trait <already-parents-trait>`
     + :ref:`Calling Static Trait Method <calling-static-trait-method>`
     + :ref:`Cannot Call Static Trait Method Directly <cannot-call-static-trait-method-directly>`
+    + :ref:`Cannot Call Trait Static Property <cannot-call-trait-static-property>`
     + :ref:`Collect Class Traits Counts <collect-class-traits-counts>`
     + :ref:`Constants In Traits <constants-in-traits>`
     + :ref:`Could Use Trait <could-use-trait>`

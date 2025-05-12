@@ -21,7 +21,7 @@ Dump
 
 This ruleset collects various names given to different structures in the code : for example, variables, classes, methods, constants, etc. It also collects networks of data, like file inclusion or external dependencies.
 
-Total : 57 analysis
+Total : 58 analysis
 
 * :ref:`exceptions-caughtexceptions`
 * :ref:`dump-environnementvariables`
@@ -80,6 +80,7 @@ Total : 57 analysis
 * :ref:`exceptions-trynocatch`
 * :ref:`dump-combinedcalls`
 * :ref:`php-includevariables`
+* :ref:`dump-collectswitchcases`
 
 Specs
 _____

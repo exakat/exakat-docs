@@ -31,7 +31,7 @@ For example :
 
 
 
-Total : 8 analysis
+Total : 9 analysis
 
 * :ref:`functions-isextfunction`
 * :ref:`constants-caseinsensitiveconstants`
@@ -41,6 +41,7 @@ Total : 8 analysis
 * :ref:`php-callingstatictraitmethod`
 * :ref:`functions-noreferencedvoid`
 * :ref:`php-jsonserializereturntype`
+* :ref:`traits-cannotcalltraitstaticproperty`
 
 Specs
 _____

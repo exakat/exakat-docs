@@ -518,6 +518,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Dump/CollectSetLocale";
    analyzer[] = "Dump/CollectStructures";
    analyzer[] = "Dump/CollectStubStructures";
+   analyzer[] = "Dump/CollectSwitchCases";
    analyzer[] = "Dump/CollectThrow";
    analyzer[] = "Dump/CollectUseCounts";
    analyzer[] = "Dump/CollectVariables";
@@ -1652,6 +1653,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/toStringThrowsException";
    analyzer[] = "Traits/AlreadyParentsTrait";
    analyzer[] = "Traits/CannotCallTraitMethod";
+   analyzer[] = "Traits/CannotCallTraitStaticProperty";
    analyzer[] = "Traits/ConstantsInTraits";
    analyzer[] = "Traits/CouldUseTrait";
    analyzer[] = "Traits/DependantTrait";
@@ -2205,6 +2207,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Dump/CollectSetLocale'
      - 'Dump/CollectStructures'
      - 'Dump/CollectStubStructures'
+     - 'Dump/CollectSwitchCases'
      - 'Dump/CollectThrow'
      - 'Dump/CollectUseCounts'
      - 'Dump/CollectVariables'
@@ -3339,6 +3342,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/toStringThrowsException'
      - 'Traits/AlreadyParentsTrait'
      - 'Traits/CannotCallTraitMethod'
+     - 'Traits/CannotCallTraitStaticProperty'
      - 'Traits/ConstantsInTraits'
      - 'Traits/CouldUseTrait'
      - 'Traits/DependantTrait'
@@ -12596,6 +12600,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/JsonSerializeReturnType";
    analyzer[] = "Php/NestedTernaryWithoutParenthesis";
    analyzer[] = "Php/NoNullForNative";
+   analyzer[] = "Traits/CannotCallTraitStaticProperty";
 
 
 .. _annex-yaml-deprecated:
@@ -12617,6 +12622,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/JsonSerializeReturnType'
      - 'Php/NestedTernaryWithoutParenthesis'
      - 'Php/NoNullForNative'
+     - 'Traits/CannotCallTraitStaticProperty'
 
 
 
@@ -12672,6 +12678,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Dump/CollectSetLocale";
    analyzer[] = "Dump/CollectStructures";
    analyzer[] = "Dump/CollectStubStructures";
+   analyzer[] = "Dump/CollectSwitchCases";
    analyzer[] = "Dump/CollectThrow";
    analyzer[] = "Dump/CollectUseCounts";
    analyzer[] = "Dump/CollectVariables";
@@ -12742,6 +12749,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Dump/CollectSetLocale'
      - 'Dump/CollectStructures'
      - 'Dump/CollectStubStructures'
+     - 'Dump/CollectSwitchCases'
      - 'Dump/CollectThrow'
      - 'Dump/CollectUseCounts'
      - 'Dump/CollectVariables'
