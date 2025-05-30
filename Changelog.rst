@@ -6,6 +6,23 @@ Release Note
 
 Here is the release note of exakat. 
 
+Version 2.7.3
+
++ Architecture
+	+ Supporting phpdoc and options with WS
+
++ Cobbler
+    + 
+
++ Report
+    + 
+
++ Analysis
+    + 
+
++ Tokenizer
+    +
+
 **Version 2.7.2 (??, 2025-02-17)**
 
 
