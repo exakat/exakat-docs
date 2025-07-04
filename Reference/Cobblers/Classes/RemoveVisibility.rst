@@ -22,7 +22,7 @@ Remove Visibility
 +++++++++++++++++
 Removes the visibility on constants, properties and methods. 
 
-For properties, the visibility is reset to public. 
+For properties, the visibility is set to public. 
 
 .. _remove-visibility-before:
 
