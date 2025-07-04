@@ -26,9 +26,6 @@ The Callgraph lists all the identified calls between methods in the application.
 
 he Callgraph lists all the identified calls between methods in the application.
 
-.. image:: ../images/report.callgraph.png
-    :alt: Example of a Callgraph report (0)
-
 Specs
 _____
 

@@ -26,9 +26,6 @@ The All report produces all the available reports.
 
 The All report produces all the available reports. It uses configurations from the .ini files.
 
-.. image:: ../images/report.all.png
-    :alt: Example of a All report (0)
-
 Specs
 _____
 
