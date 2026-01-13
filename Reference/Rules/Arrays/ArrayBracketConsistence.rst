@@ -1,33 +1,11 @@
 .. _arrays-arraybracketconsistence:
 
-
 .. _array()---[--]-consistence:
 
 Array() / [  ] Consistence
 ++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Array() / [  ] Consistence: array() or [ ] is the favorite.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Array() / [  ] Consistence
-	:twitter:description: Array() / [  ] Consistence: array() or [ ] is the favorite
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Array() / [  ] Consistence
-	:og:type: article
-	:og:description: array() or [ ] is the favorite
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Array() / [  ] Consistence.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/ArrayBracketConsistence.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/ArrayBracketConsistence.html","name":"Array() \/ [  ] Consistence","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"array() or [ ] is the favorite","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Array() \/ [  ] Consistence.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-`array() <https://www.php.net/array>`_ or [ ] is the favorite.
+  `array() <https://www.php.net/array>`_ or [ ] is the favorite.
 
 `array() <https://www.php.net/array>`_ and [ ] have the same functional use. 
 
@@ -59,7 +37,7 @@ The only drawback to use [] over `array() <https://www.php.net/array>`_ is backw
 Connex PHP features
 -------------------
 
-  + `Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
 
 
 Suggestions

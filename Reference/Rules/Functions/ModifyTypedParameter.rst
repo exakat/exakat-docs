@@ -1,33 +1,11 @@
 .. _functions-modifytypedparameter:
 
-
 .. _modified-typed-parameter:
 
 Modified Typed Parameter
 ++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Modified Typed Parameter: Reports modified parameters, which have a non-scalar typehint.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Modified Typed Parameter
-	:twitter:description: Modified Typed Parameter: Reports modified parameters, which have a non-scalar typehint
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Modified Typed Parameter
-	:og:type: article
-	:og:description: Reports modified parameters, which have a non-scalar typehint
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Modified Typed Parameter.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/ModifyTypedParameter.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/ModifyTypedParameter.html","name":"Modified Typed Parameter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Reports modified parameters, which have a non-scalar typehint","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Modified Typed Parameter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Reports modified parameters, which have a non-scalar typehint. Such variables should not be changed within the body of the method. Unlike typed properties, which always hold the expected type, typed parameters are only guaranteed type at the beginning of the method block. 
+  Reports modified parameters, which have a non-scalar typehint. Such variables should not be changed within the body of the method. Unlike typed properties, which always hold the expected type, typed parameters are only guaranteed type at the beginning of the method block. 
 This problem doesn't apply to scalar types : by default, PHP pass scalar parameters by value, not by reference. Class types are always passed by reference.
 
 This problem is similar to :ref:`don't-unset-properties`  : the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ specification of the property may be unset, leading to confusing 'undefined property', while the class hold the property definition.
@@ -60,8 +38,8 @@ This problem is similar to :ref:`don't-unset-properties`  : the `static <https:/
 Connex PHP features
 -------------------
 
-  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
-  + `Parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
+  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
 
 
 Suggestions

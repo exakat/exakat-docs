@@ -1,33 +1,11 @@
 .. _extensions-extsimplexml:
 
-
 .. _ext-simplexml:
 
 ext/simplexml
 +++++++++++++
 
-.. meta::
-	:description:
-		ext/simplexml: Extension ``SimpleXML``.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: ext/simplexml
-	:twitter:description: ext/simplexml: Extension ``SimpleXML``
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: ext/simplexml
-	:og:type: article
-	:og:description: Extension ``SimpleXML``
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/simplexml.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extsimplexml.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extsimplexml.html","name":"ext\/simplexml","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Extension ``SimpleXML``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/ext\/simplexml.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Extension ``SimpleXML``.
+  Extension ``SimpleXML``.
 
 The ``SimpleXML`` extension provides a very simple and easily usable toolset to convert XML to an object that can be processed with normal property selectors and array iterators.
 

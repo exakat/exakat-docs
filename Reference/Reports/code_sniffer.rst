@@ -6,22 +6,6 @@ Code Sniffer
 Code Sniffer
 ____________
 
-.. meta::
-	:description:
-		Code Sniffer: The CodeSniffer report exports in the CodeSniffer format..
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Code Sniffer
-	:twitter:description: Code Sniffer: The CodeSniffer report exports in the CodeSniffer format.
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Code Sniffer
-	:og:type: article
-	:og:description: The CodeSniffer report exports in the CodeSniffer format.
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
-	:og:locale: en
-
 The CodeSniffer report exports in the CodeSniffer format.
 
 This format reports analysis using the Codesniffer's result format. 

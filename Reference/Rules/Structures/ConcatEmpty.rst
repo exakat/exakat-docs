@@ -1,33 +1,11 @@
 .. _structures-concatempty:
 
-
 .. _concat-empty-string:
 
 Concat Empty String
 +++++++++++++++++++
 
-.. meta::
-	:description:
-		Concat Empty String: Using a concatenation to make a value a string should be replaced with a type cast.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Concat Empty String
-	:twitter:description: Concat Empty String: Using a concatenation to make a value a string should be replaced with a type cast
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Concat Empty String
-	:og:type: article
-	:og:description: Using a concatenation to make a value a string should be replaced with a type cast
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Concat Empty String.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ConcatEmpty.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ConcatEmpty.html","name":"Concat Empty String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Using a concatenation to make a value a string should be replaced with a type cast","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Concat Empty String.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Using a concatenation to make a value a string should be replaced with a type cast.
+  Using a concatenation to make a value a string should be replaced with a type cast.
 
 Type cast to a string is done with ``(string)`` operator. There is also the function `strval() <https://www.php.net/strval>`_, although it is less recommended.
 
@@ -55,7 +33,7 @@ See also `Type Casting <https://php.net/manual/en/language.types.type-juggling.p
 Connex PHP features
 -------------------
 
-  + `String <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+  + `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
 
 
 Suggestions

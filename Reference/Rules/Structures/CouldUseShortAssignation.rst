@@ -1,33 +1,11 @@
 .. _structures-coulduseshortassignation:
 
-
 .. _could-use-short-assignation:
 
 Could Use Short Assignation
 +++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Could Use Short Assignation: Use short assignment operator, to speed up code, and keep syntax clear.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Could Use Short Assignation
-	:twitter:description: Could Use Short Assignation: Use short assignment operator, to speed up code, and keep syntax clear
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Could Use Short Assignation
-	:og:type: article
-	:og:description: Use short assignment operator, to speed up code, and keep syntax clear
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use Short Assignation.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CouldUseShortAssignation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CouldUseShortAssignation.html","name":"Could Use Short Assignation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Use short assignment operator, to speed up code, and keep syntax clear","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Could Use Short Assignation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Use short assignment operator, to speed up code, and keep syntax clear.
+  Use short assignment operator, to speed up code, and keep syntax clear.
 
 Some operators, like * or +, have a compact and fast 'do-and-assign' version. They looks like a compacted version for = and the operator. This syntax is good for readability, and saves some memory in the process. 
 
@@ -82,7 +60,7 @@ See also `Assignation Operators <https://www.php.net/manual/en/language.operator
 Connex PHP features
 -------------------
 
-  + `Short Assignations <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-assignation.ini.html>`_
+  + `short-assignation <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-assignation.ini.html>`_
 
 
 Suggestions

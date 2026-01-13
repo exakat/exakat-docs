@@ -6,22 +6,6 @@ Perfule
 Perfule
 _______
 
-.. meta::
-	:description:
-		Perfule: The Perrule report lays out the results, rule by rue..
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Perfule
-	:twitter:description: Perfule: The Perrule report lays out the results, rule by rue.
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Perfule
-	:og:type: article
-	:og:description: The Perrule report lays out the results, rule by rue.
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
-	:og:locale: en
-
 The Perrule report lays out the results, rule by rue.
 
 The Perrule report displays one result per line, grouped by rule, and ordered by file and line number. Here is an example : 

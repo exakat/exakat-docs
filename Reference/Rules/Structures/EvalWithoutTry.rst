@@ -1,33 +1,11 @@
 .. _structures-evalwithouttry:
 
-
 .. _eval()-without-try:
 
 eval() Without Try
 ++++++++++++++++++
 
-.. meta::
-	:description:
-		eval() Without Try: ``eval()`` emits a ``ParseError`` exception with PHP 7 and later.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: eval() Without Try
-	:twitter:description: eval() Without Try: ``eval()`` emits a ``ParseError`` exception with PHP 7 and later
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: eval() Without Try
-	:og:type: article
-	:og:description: ``eval()`` emits a ``ParseError`` exception with PHP 7 and later
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/eval() Without Try.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/EvalWithoutTry.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/EvalWithoutTry.html","name":"eval() Without Try","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"``eval()`` emits a ``ParseError`` exception with PHP 7 and later","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/eval() Without Try.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-``eval()`` emits a ``ParseError`` `exception <https://www.php.net/exception>`_ with PHP 7 and later. Catching this `exception <https://www.php.net/exception>`_ is the recommended way to handle errors when using the ``eval()`` function.
+  ``eval()`` emits a ``ParseError`` `exception <https://www.php.net/exception>`_ with PHP 7 and later. Catching this `exception <https://www.php.net/exception>`_ is the recommended way to handle errors when using the ``eval()`` function.
 Note that it will catch situations where ``eval()`` is provided with code that can't be used, but it will not catch security problems. Avoid using ``eval()`` with incoming data.
 
 .. code-block:: php
@@ -51,7 +29,7 @@ Note that it will catch situations where ``eval()`` is provided with code that c
 Connex PHP features
 -------------------
 
-  + `Eval() <https://php-dictionary.readthedocs.io/en/latest/dictionary/eval.ini.html>`_
+  + `eval <https://php-dictionary.readthedocs.io/en/latest/dictionary/eval.ini.html>`_
 
 
 Suggestions
@@ -78,7 +56,7 @@ _____
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                                                                                                  |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/EvalWithouTry.html>`__                                                                                                          |
+| Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                                                       |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                                                        |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

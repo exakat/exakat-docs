@@ -3,22 +3,6 @@
 Deprecated
 ++++++++++
 
-.. meta::
-	:description:
-		Deprecated: List of deprecated features, across all PHP versions. .
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Deprecated
-	:twitter:description: Deprecated: List of deprecated features, across all PHP versions. 
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Deprecated
-	:og:type: article
-	:og:description: List of deprecated features, across all PHP versions. 
-	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Deprecated.html
-	:og:locale: en
-
 This ruleset centralizes all analysis that are marked as 'deprecated feature' for some versions.
 
 For example : 
@@ -31,17 +15,16 @@ For example :
 
 
 
-Total : 9 analysis
+Total : 8 analysis
 
-* :ref:`functions-isextfunction`
-* :ref:`constants-caseinsensitiveconstants`
-* :ref:`php-assertfunctionisreserved`
-* :ref:`php-nestedternarywithoutparenthesis`
-* :ref:`php-nonullfornative`
-* :ref:`php-callingstatictraitmethod`
-* :ref:`functions-noreferencedvoid`
-* :ref:`php-jsonserializereturntype`
-* :ref:`traits-cannotcalltraitstaticproperty`
+* :ref:`is-an-extension-function`
+* :ref:`case-insensitive-constants`
+* :ref:`assert-function-is-reserved`
+* :ref:`nested-ternary-without-parenthesis`
+* :ref:`no-null-for-native-php-functions`
+* :ref:`calling-static-trait-method`
+* :ref:`no-referenced-void`
+* :ref:`php-native-interfaces-and-return-type`
 
 Specs
 _____

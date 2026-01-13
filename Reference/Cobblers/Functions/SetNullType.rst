@@ -1,21 +1,5 @@
 .. _functions-setnulltype:
 
-.. meta::
-	:description:
-		Set Null Type: Adds a Null type to typehints when necessary.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Set Null Type
-	:twitter:description: Set Null Type: Adds a Null type to typehints when necessary
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Set Null Type
-	:og:type: article
-	:og:description: Adds a Null type to typehints when necessary
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Functions/SetNullType.html
-	:og:locale: en
-
 .. _set-null-type:
 
 Set Null Type

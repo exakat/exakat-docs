@@ -1,33 +1,11 @@
 .. _structures-mbstringthirdarg:
 
-
 .. _mbstring-third-arg:
 
 Mbstring Third Arg
 ++++++++++++++++++
 
-.. meta::
-	:description:
-		Mbstring Third Arg: Some mbstring functions use the third argument for offset, not for encoding.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Mbstring Third Arg
-	:twitter:description: Mbstring Third Arg: Some mbstring functions use the third argument for offset, not for encoding
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Mbstring Third Arg
-	:og:type: article
-	:og:description: Some mbstring functions use the third argument for offset, not for encoding
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mbstring Third Arg.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MbstringThirdArg.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MbstringThirdArg.html","name":"Mbstring Third Arg","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Some mbstring functions use the third argument for offset, not for encoding","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Mbstring Third Arg.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Some mbstring functions use the third argument for offset, not for encoding.
+  Some mbstring functions use the third argument for offset, not for encoding.
 
 Those are the following functions : 
 
@@ -57,7 +35,7 @@ Those are the following functions :
 Connex PHP features
 -------------------
 
-  + `Multibyte String <https://php-dictionary.readthedocs.io/en/latest/dictionary/mbstring.ini.html>`_
+  + `mbstring <https://php-dictionary.readthedocs.io/en/latest/dictionary/mbstring.ini.html>`_
 
 
 Suggestions

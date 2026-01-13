@@ -1,33 +1,11 @@
 .. _classes-fossilizedmethod:
 
-
 .. _fossilized-method:
 
 Fossilized Method
 +++++++++++++++++
 
-.. meta::
-	:description:
-		Fossilized Method: A method is fossilized when it is overwritten so often that changing a default value, a return type or an argument type is getting difficult.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Fossilized Method
-	:twitter:description: Fossilized Method: A method is fossilized when it is overwritten so often that changing a default value, a return type or an argument type is getting difficult
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Fossilized Method
-	:og:type: article
-	:og:description: A method is fossilized when it is overwritten so often that changing a default value, a return type or an argument type is getting difficult
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Fossilized Method.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/FossilizedMethod.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/FossilizedMethod.html","name":"Fossilized Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"A method is fossilized when it is overwritten so often that changing a default value, a return type or an argument type is getting difficult","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Fossilized Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-A method is fossilized when it is overwritten so often that changing a default value, a return type or an argument type is getting difficult.
+  A method is fossilized when it is overwritten so often that changing a default value, a return type or an argument type is getting difficult.
 
 This happens when a class is extended. When a method is overwritten once, it may be easy to update the signature in two places. The more methods are overwriting a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ method, the more difficult it is to update it.
 
@@ -66,7 +44,7 @@ See also `Method fossilization <https://www.exakat.io/en/method-fossilisation/>_
 Connex PHP features
 -------------------
 
-  + `Fossilized Methods <https://php-dictionary.readthedocs.io/en/latest/dictionary/fossilized-method.ini.html>`_
+  + `fossilized-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/fossilized-method.ini.html>`_
 
 
 Specs

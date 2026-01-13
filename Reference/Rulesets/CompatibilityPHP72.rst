@@ -3,81 +3,62 @@
 CompatibilityPHP72
 ++++++++++++++++++
 
-.. meta::
-	:description:
-		CompatibilityPHP72: List features that are incompatible with PHP 7.2..
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: CompatibilityPHP72
-	:twitter:description: CompatibilityPHP72: List features that are incompatible with PHP 7.2.
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: CompatibilityPHP72
-	:og:type: article
-	:og:description: List features that are incompatible with PHP 7.2.
-	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/CompatibilityPHP72.html
-	:og:locale: en
-
 This ruleset centralizes all analysis for the migration from PHP 7.1 to 7.2.
 
-Total : 55 analysis
+Total : 52 analysis
 
-* :ref:`constants-undefinedconstants`
-* :ref:`php-hashalgos53`
-* :ref:`php-hashalgos54`
-* :ref:`structures-pregoptione`
-* :ref:`php-php72deprecation`
-* :ref:`php-php72removedfunctions`
-* :ref:`php-php72newfunctions`
-* :ref:`php-php72newconstants`
-* :ref:`php-php73newfunctions`
-* :ref:`php-php72objectkeyword`
-* :ref:`structures-nogetclassnull`
-* :ref:`php-php72newclasses`
-* :ref:`php-avoidseterrorhandlercontextarg`
-* :ref:`php-hashusesobjects`
-* :ref:`structures-cancountnoncountable`
-* :ref:`php-listwithreference`
-* :ref:`php-php73lastemptyargument`
-* :ref:`php-flexibleheredoc`
-* :ref:`structures-continueisforloop`
-* :ref:`php-trailingcomma`
-* :ref:`php-noreferenceforstaticproperty`
-* :ref:`php-typedpropertyusage`
-* :ref:`php-concatandaddition`
-* :ref:`php-unpackinginsidearrays`
-* :ref:`php-coalesceequal`
-* :ref:`php-php80onlytypehints`
-* :ref:`php-php80uniontypehint`
-* :ref:`php-signaturetrailingcomma`
-* :ref:`php-throwwasanexpression`
-* :ref:`php-enumusage`
-* :ref:`php-filesfullpath`
-* :ref:`php-finalconstant`
-* :ref:`php-nevertypehintusage`
-* :ref:`php-php81scalartypehints`
-* :ref:`php-php80scalartypehints`
-* :ref:`php-namedparameterusage`
-* :ref:`interfaces-cantoverloadconstants`
-* :ref:`structures-arraymergewithellipsis`
-* :ref:`traits-noprivateabstract`
-* :ref:`php-cloneconstant`
-* :ref:`namespaces-nokeywordinnamespace`
-* :ref:`php-useenumcaseinconstantexpression`
-* :ref:`php-readonlypropertychangedbycloning`
-* :ref:`classes-newdynamicconstantsyntax`
-* :ref:`php-classaliassupportsinternalclasses`
-* :ref:`variables-redeclaredstaticvariable`
-* :ref:`php-staticvariabledefaultcanbeanyexpression`
-* :ref:`traits-finaltraitsarefinal`
-* :ref:`classes-typedclassconstants`
-* :ref:`functions-voidisnotareference`
-* :ref:`php-php81newtypes`
-* :ref:`php-php82newtypes`
-* :ref:`php-newwithoutparenthesis`
-* :ref:`php-closureinconstant`
-* :ref:`traits-nofinalalias`
+* :ref:`undefined-constants`
+* :ref:`hash-algorithms-incompatible-with-php-5.3`
+* :ref:`hash-algorithms-incompatible-with-php-5.4-5.5`
+* :ref:`preg\_replace-with-option-e`
+* :ref:`php-7.2-deprecations`
+* :ref:`php-7.2-removed-functions`
+* :ref:`new-functions-in-php-7.2`
+* :ref:`new-constants-in-php-7.2`
+* :ref:`new-functions-in-php-7.3`
+* :ref:`php-7.2-object-keyword`
+* :ref:`no-get\_class()-with-null`
+* :ref:`php-7.2-new-class`
+* :ref:`avoid-set\_error\_handler-$context-argument`
+* :ref:`hash-will-use-objects`
+* :ref:`can't-count-non-countable`
+* :ref:`list-with-reference`
+* :ref:`php-7.3-last-empty-argument`
+* :ref:`flexible-heredoc`
+* :ref:`continue-is-for-loop`
+* :ref:`trailing-comma-in-calls`
+* :ref:`no-reference-for-static-property`
+* :ref:`typed-property-usage`
+* :ref:`concat-and-addition`
+* :ref:`unpacking-inside-arrays`
+* :ref:`coalesce-equal`
+* :ref:`php-8.0-only-typehints`
+* :ref:`union-typehint`
+* :ref:`signature-trailing-comma`
+* :ref:`throw-was-an-expression`
+* :ref:`enum-usage`
+* :ref:`$files-full\_path`
+* :ref:`final-constant`
+* :ref:`never-typehint-usage`
+* :ref:`php-8.1-typehints`
+* :ref:`php-8.0-typehints`
+* :ref:`named-parameter-usage`
+* :ref:`cant-overload-constants`
+* :ref:`array\_merge-with-ellipsis`
+* :ref:`no-private-abstract-method-in-trait`
+* :ref:`clone-constant`
+* :ref:`no-keyword-in-namespace`
+* :ref:`use-enum-case-in-constant-expression`
+* :ref:`readonly-property-changed-by-cloning`
+* :ref:`new-dynamic-class-constant-syntax`
+* :ref:`class\_alias()-supports-internal-classes`
+* :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
+* :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
+* :ref:`void-is-not-a-reference`
+* :ref:`php-8.1-new-types`
+* :ref:`php-8.2-new-types`
 
 Specs
 _____

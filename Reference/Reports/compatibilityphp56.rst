@@ -6,22 +6,6 @@ CompatibilityPHP56
 CompatibilityPHP56
 __________________
 
-.. meta::
-	:description:
-		CompatibilityPHP56: The CompatibilityPHP56 report list all detected issues with PHP 5.6 compatibility..
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: CompatibilityPHP56
-	:twitter:description: CompatibilityPHP56: The CompatibilityPHP56 report list all detected issues with PHP 5.6 compatibility.
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: CompatibilityPHP56
-	:og:type: article
-	:og:description: The CompatibilityPHP56 report list all detected issues with PHP 5.6 compatibility.
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
-	:og:locale: en
-
 The CompatibilityPHP56 report list all detected issues with PHP 5.6 compatibility.
 
 The CompatibilityPHP56 report displays one result per line, grouped by rule, and ordered by file and line number. Here is an example : 
@@ -183,16 +167,16 @@ This format is fast, and fitted for human review. It is the same format as PerRu
 Specs
 _____
 
-+--------------+-------------------------------------+
-| Short name   | CompatibilityPHP56                  |
-+--------------+-------------------------------------+
-| Rulesets     | CompatibilityPHP56.                 |
-+--------------+-------------------------------------+
-| Type         | Text                                |
-+--------------+-------------------------------------+
-| Target       | This report is written in 'stdout'. |
-+--------------+-------------------------------------+
-| Available in |                                     |
-+--------------+-------------------------------------+
++--------------+------------------------------------------------------------------+
+| Short name   | CompatibilityPHP56                                               |
++--------------+------------------------------------------------------------------+
+| Rulesets     | CompatibilityPHP56.                                              |
++--------------+------------------------------------------------------------------+
+| Type         | Text                                                             |
++--------------+------------------------------------------------------------------+
+| Target       | This report is written in 'stdout'.                              |
++--------------+------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
++--------------+------------------------------------------------------------------+
 
 

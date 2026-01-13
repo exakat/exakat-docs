@@ -1,33 +1,11 @@
 .. _extensions-extstats:
 
-
 .. _ext-stats:
 
 ext/stats
 +++++++++
 
-.. meta::
-	:description:
-		ext/stats: Statistics extension.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: ext/stats
-	:twitter:description: ext/stats: Statistics extension
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: ext/stats
-	:og:type: article
-	:og:description: Statistics extension
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/stats.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extstats.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extstats.html","name":"ext\/stats","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Statistics extension","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/ext\/stats.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Statistics extension.
+  Statistics extension.
 
 This extension contains few dozens of functions useful for statistical computations. It is a wrapper around 2 scientific libraries, namely `DCDFLIB <https://people.sc.fsu.edu/~jburkardt/c_src/cdflib/cdflib.html>`_ (Library of C routines for Cumulative Distributions Functions, Inverses, and Other parameters) by B. Brown & J. Lavato and `RANDLIB <http://people.sc.fsu.edu/~jburkardt/f77_src/ranlib/ranlib.html>`_ by Barry Brown, James Lavato & Kathy Russell.
 

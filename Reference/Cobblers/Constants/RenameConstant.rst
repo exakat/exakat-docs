@@ -1,21 +1,5 @@
 .. _constants-renameconstant:
 
-.. meta::
-	:description:
-		Rename Constant: This cobbler renames a constant and replace it with another constant.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Rename Constant
-	:twitter:description: Rename Constant: This cobbler renames a constant and replace it with another constant
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Rename Constant
-	:og:type: article
-	:og:description: This cobbler renames a constant and replace it with another constant
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Constants/RenameConstant.html
-	:og:locale: en
-
 .. _rename-constant:
 
 Rename Constant

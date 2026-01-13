@@ -1,21 +1,5 @@
 .. _structures-logicaltoinarray:
 
-.. meta::
-	:description:
-		Logical To in_array(): This cobbler turns lists of ``or`` calls into a in_array() call.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Logical To in_array()
-	:twitter:description: Logical To in_array(): This cobbler turns lists of ``or`` calls into a in_array() call
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Logical To in_array()
-	:og:type: article
-	:og:description: This cobbler turns lists of ``or`` calls into a in_array() call
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Structures/LogicalToInarray.html
-	:og:locale: en
-
 .. _logical-to-in\_array():
 
 Logical To in_array()
@@ -55,7 +39,7 @@ _____
 Suggested Analysis
 __________________
 
-* :ref:`logical-to-in\_array()`
+* :ref:`logical-to-in\_array`
 
 
 

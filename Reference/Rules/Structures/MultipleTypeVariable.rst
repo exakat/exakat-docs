@@ -1,33 +1,11 @@
 .. _structures-multipletypevariable:
 
-
 .. _multiple-type-variable:
 
 Multiple Type Variable
 ++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Multiple Type Variable: Avoid using the same variable with different types of data.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Multiple Type Variable
-	:twitter:description: Multiple Type Variable: Avoid using the same variable with different types of data
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Multiple Type Variable
-	:og:type: article
-	:og:description: Avoid using the same variable with different types of data
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Type Variable.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MultipleTypeVariable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MultipleTypeVariable.html","name":"Multiple Type Variable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Avoid using the same variable with different types of data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Multiple Type Variable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Avoid using the same variable with different types of data. 
+  Avoid using the same variable with different types of data. 
 
 It is recommended to use different names for differently typed data, while processing them. This prevents errors where one believe the variable holds the former type, while it has already been cast to the later.
 
@@ -43,6 +21,7 @@ Incrementing variables, with math operations or concatenation, is OK : the conte
    $x = join('', $x);
    $c = count($x); // $x is not an array anymore
    
+   
    // $letters is an array
    $letters = range('a', 'z');
    // $alphabet is a string
@@ -57,8 +36,8 @@ Incrementing variables, with math operations or concatenation, is OK : the conte
 Connex PHP features
 -------------------
 
-  + `Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
-  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
 
 Suggestions

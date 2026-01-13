@@ -1,21 +1,5 @@
 .. _namespaces-removeuse:
 
-.. meta::
-	:description:
-		Remove Unused Use: Removes the unused use expression from the top of the file.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Remove Unused Use
-	:twitter:description: Remove Unused Use: Removes the unused use expression from the top of the file
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Remove Unused Use
-	:og:type: article
-	:og:description: Removes the unused use expression from the top of the file
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Namespaces/RemoveUse.html
-	:og:locale: en
-
 .. _remove-unused-use:
 
 Remove Unused Use

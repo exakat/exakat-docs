@@ -1,28 +1,12 @@
 .. _functions-settypehints:
 
-.. meta::
-	:description:
-		Set Types: Automagically add scalar types to methods and properties.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Set Types
-	:twitter:description: Set Types: Automagically add scalar types to methods and properties
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Set Types
-	:og:type: article
-	:og:description: Automagically add scalar types to methods and properties
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Functions/SetTypehints.html
-	:og:locale: en
+.. _set-typehints:
 
-.. _set-types:
+Set Typehints
++++++++++++++
+Automagically add scalar typehints to methods and properties. Arguments and return values are both supported. 
 
-Set Types
-+++++++++
-Automagically add scalar types to methods and properties. Arguments and return values are both supported. 
-
-When multiple possible types are identified, no type is added. If a type is already set, no type is added.
+When multiple possible types are identified, no typehint is added. If a typehint is already set, no typehint is added.
 
 Magic methods, such as __get(), __set(), __construct(), __desctruct(), etc are not modified by this cobbler. 
 
@@ -34,7 +18,7 @@ By default, and in case of conflict, array is chosen over iterable and int is ch
 
 
 
-.. _set-types-before:
+.. _set-typehints-before:
 
 Before
 ______
@@ -51,7 +35,7 @@ ______
    }
    ?>
 
-.. _set-types-after:
+.. _set-typehints-after:
 
 After
 _____
@@ -70,7 +54,7 @@ _____
    
 
 
-.. _set-types-int\_or\_float:
+.. _set-typehints-int\_or\_float:
 
 Parameters
 __________
@@ -83,14 +67,14 @@ __________
 | int_or_float      | float   | string | When int and float are the only suggestions, choose 'int', 'float', or 'omit'. By default, it is float.           |
 +-------------------+---------+--------+-------------------------------------------------------------------------------------------------------------------+
 
-.. _set-types-suggested-analysis:
+.. _set-typehints-suggested-analysis:
 
 Suggested Analysis
 __________________
 
 * :ref:`could-be-void`
 
-.. _set-types-related-cobbler:
+.. _set-typehints-related-cobbler:
 
 Related Cobblers
 ________________
@@ -100,7 +84,7 @@ ________________
 * :ref:`set-null-type`
 * :ref:`set-type-void`
 
-.. _set-types-reverse-cobbler:
+.. _set-typehints-reverse-cobbler:
 
 Reverse Cobbler
 _______________
@@ -109,7 +93,7 @@ _______________
 
 
 
-.. _set-types-specs:
+.. _set-typehints-specs:
 
 Specs
 _____

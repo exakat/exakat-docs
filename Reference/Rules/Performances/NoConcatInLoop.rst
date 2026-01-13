@@ -1,33 +1,11 @@
 .. _performances-noconcatinloop:
 
-
 .. _avoid-concat-in-loop:
 
 Avoid Concat In Loop
 ++++++++++++++++++++
 
-.. meta::
-	:description:
-		Avoid Concat In Loop: Concatenations inside a loop generate a lot of temporary variables.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Avoid Concat In Loop
-	:twitter:description: Avoid Concat In Loop: Concatenations inside a loop generate a lot of temporary variables
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Avoid Concat In Loop
-	:og:type: article
-	:og:description: Concatenations inside a loop generate a lot of temporary variables
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid Concat In Loop.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/NoConcatInLoop.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/NoConcatInLoop.html","name":"Avoid Concat In Loop","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Concatenations inside a loop generate a lot of temporary variables","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Avoid Concat In Loop.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Concatenations inside a loop generate a lot of temporary variables. They are accumulated and tend to raise the memory usage, leading to slower performances.
+  Concatenations inside a loop generate a lot of temporary variables. They are accumulated and tend to raise the memory usage, leading to slower performances.
 
 It is recommended to store the values in an array, and then use `implode() <https://www.php.net/implode>`_ on that array to make the concatenation at once. The effect is positive when the source array has at least 50 elements. 
 The same doesn't apply to addition and multiplication, with `array_sum() <https://www.php.net/array_sum>`_ and array_multiply(), as those operations work on the current memory allocation, and don't need to allocate new memory at each step.
@@ -55,7 +33,7 @@ See also `PHP 7 performance improvements (3/5): Encapsed strings optimization <h
 Connex PHP features
 -------------------
 
-  + `Loops <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
+  + `loop <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
 
 
 Suggestions

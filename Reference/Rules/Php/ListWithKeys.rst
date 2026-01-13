@@ -1,33 +1,11 @@
 .. _php-listwithkeys:
 
-
 .. _list-with-keys:
 
 List With Keys
 ++++++++++++++
 
-.. meta::
-	:description:
-		List With Keys: Setting keys when using list() is a PHP 7.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: List With Keys
-	:twitter:description: List With Keys: Setting keys when using list() is a PHP 7
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: List With Keys
-	:og:type: article
-	:og:description: Setting keys when using list() is a PHP 7
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/List With Keys.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ListWithKeys.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ListWithKeys.html","name":"List With Keys","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Setting keys when using list() is a PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/List With Keys.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Setting keys when using `list() <https://www.php.net/list>`_ is a PHP 7.1 feature.
+  Setting keys when using `list() <https://www.php.net/list>`_ is a PHP 7.1 feature.
 
 .. code-block:: php
    
@@ -40,8 +18,8 @@ Setting keys when using `list() <https://www.php.net/list>`_ is a PHP 7.1 featur
 Connex PHP features
 -------------------
 
-  + `List <https://php-dictionary.readthedocs.io/en/latest/dictionary/list.ini.html>`_
-  + `offset-array <https://php-dictionary.readthedocs.io/en/latest/dictionary/offset-array.ini.html>`_
+  + `list <https://php-dictionary.readthedocs.io/en/latest/dictionary/list.ini.html>`_
+  + `keys <https://php-dictionary.readthedocs.io/en/latest/dictionary/keys.ini.html>`_
 
 
 Specs
@@ -60,7 +38,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                                                                                                                                                                                                                                                                                                                |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 7.1                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Changed Behavior | PHP 7.1 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                                                                                                                                                                                                                                                                     |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                                                                                                                                                                                                                                                                      |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

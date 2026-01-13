@@ -1,61 +1,45 @@
 .. _classes-renamemethod:
 
-.. meta::
-	:description:
-		Rename Method: Rename a method into another one.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Rename Method
-	:twitter:description: Rename Method: Rename a method into another one
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Rename Method
-	:og:type: article
-	:og:description: Rename a method into another one
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Classes/RenameMethod.html
-	:og:locale: en
+.. _rename-class:
 
-.. _rename-method:
+Rename Class
+++++++++++++
+Rename a class into another one. 
 
-Rename Method
-+++++++++++++
-Rename a method into another one. 
+The rename applies the new name to the class, and its usage : static calls, types, extends and instanceof. 
 
-The rename applies the new name to the method, and its usage : static calls, types, extends and instanceof. 
-
-.. _rename-method-before:
+.. _rename-class-before:
 
 Before
 ______
 .. code-block:: php
 
    <?php
-   class X {
+   class x {
    	function m() {}
    }
    
-   (new X)->m();
+   (new x)->m();
    
    ?>
 
-.. _rename-method-after:
+.. _rename-class-after:
 
 After
 _____
 .. code-block:: php
 
    <?php
-   class X {
+   class x {
    	function newM() {}
    }
    
-   (new X)->newM();
+   (new x)->newM();
    
    ?>
 
 
-.. _rename-method-destination:
+.. _rename-class-destination:
 
 Parameters
 __________
@@ -68,16 +52,16 @@ __________
 | destination |         | string | The destination's method name. Only the name.                            |
 +-------------+---------+--------+--------------------------------------------------------------------------+
 
-.. _rename-method-reverse-cobbler:
+.. _rename-class-reverse-cobbler:
 
 Reverse Cobbler
 _______________
 
-* :ref:`rename-method`
+* :ref:`rename-class`
 
 
 
-.. _rename-method-specs:
+.. _rename-class-specs:
 
 Specs
 _____

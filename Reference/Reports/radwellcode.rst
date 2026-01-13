@@ -6,22 +6,6 @@ RadwellCode
 RadwellCode
 ___________
 
-.. meta::
-	:description:
-		RadwellCode: The RadwellCode is a report based on Oliver Radwell's [PHP Do And Don't](https://blog.radwell.codes/2016/11/php-dos-donts-aka-programmers-dont-like/)..
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: RadwellCode
-	:twitter:description: RadwellCode: The RadwellCode is a report based on Oliver Radwell's [PHP Do And Don't](https://blog.radwell.codes/2016/11/php-dos-donts-aka-programmers-dont-like/).
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: RadwellCode
-	:og:type: article
-	:og:description: The RadwellCode is a report based on Oliver Radwell's [PHP Do And Don't](https://blog.radwell.codes/2016/11/php-dos-donts-aka-programmers-dont-like/).
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
-	:og:locale: en
-
 The RadwellCode is a report based on Oliver Radwell's [PHP Do And Don't](https://blog.radwell.codes/2016/11/php-dos-donts-aka-programmers-dont-like/).
 
 Note that all rules are not implemented, especially the 'coding conventions' ones, as this is beyond the scope of this tool.

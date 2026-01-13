@@ -6,24 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-Version 2.7.3
-
-+ Architecture
-	+ Supporting phpdoc and options with WS
-
-+ Cobbler
-    + 
-
-+ Report
-    + Ambassador: added missing enumcase in attribute inventory
-
-+ Analysis
-    + 
-
-+ Tokenizer
-    +
-
-**Version 2.7.2 (??, 2025-02-17)**
+**Version 2.6.9 (Du Ruhui, 2024-05-17)**
 
 
 + Architecture
@@ -31,58 +14,6 @@ Version 2.7.3
 
 + Cobbler
     + 
-
-+ Report
-    + 
-
-+ Analysis
-    + 
-
-+ Tokenizer
-    +
-
-**Version 2.7.1 (Peng Demon King, 2025-04-27)**
-
-
-+ Report
-    + Added support for parameters on Reports.
-
-+ Analysis
-    + New analysis: Report when file_get_contents() uses empty string.
-    + New analysis: Collect number of case in switches and matches
-    + New analysis: Report usage of property traits
-
-+ Tokenizer
-    + Fixed loading problems with Readonly
-
-**Version 2.7.0 (Jiao Demon King, 2025-02-03)**
-
-
-+ Report
-    + Emissary: fixed display of the results of compatibility linting.
-
-+ Analysis
-    + New analysis: Php/ClosureInConstant
-    + New analysis: Traits/NoFinalAlias
-    + New analysis: Structures/NegativeOffsetOnString
-    + Removed analysis: Php/ConstantScalarExpression
-    + New analysis: Structures/ArrayMergeWithOneArgument
-    + New analysis: Structures/ArrayWithStringEllipsis
-    + New analysis: Structures/InterpolatedStringDereferencing
-    + New analysis: Structures/VariadicWithFuncGetArgs
-    + New analysis: Classes/PrivateWritingPropertyIsFinal
-    + New analysis: Structures/UseDirname
-    + New analysis: Classes/StaticCompatibility
-    + New analysis: Classes/ReadonlyCompatibility
-    + New analysis: Classes/ClassOperatorOnObject
-
-+ Tokenizer
-    + Added missing USED link to Newcall
-    + Minor tweaks on WhiteSpaces for Cobbler exports
-    + Fixed handling of property hooks (several variations)
-
-**Version 2.6.9 (Du Ruhui, 2025-01-30)**
-
 
 + Report
     + Emissary : added properties attribute in inventory
@@ -101,10 +32,6 @@ Version 2.7.3
 	+ New analysis : report usage of virtual properties
 	+ New analysis : report duplicate values in a backed enum
 	+ New analysis : signal new PHP native functions in PHP 8.4
-	+ New analysis : #[MustUseResult] attribute
-	+ New analysis : using #[MustUseResult] attribute means the method returns something
-	+ New analysis : report usage of new X()->p and new X()->method()
-	+ New analysis : has Asymmetric Visibility
 
 + Tokenizer
     + Fixed bug with void getting an extra ellipsis mark

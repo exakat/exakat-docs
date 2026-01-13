@@ -1,33 +1,11 @@
 .. _functions-closure2string:
 
-
 .. _closure-could-be-a-callback:
 
 Closure Could Be A Callback
 +++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Closure Could Be A Callback: Closure and arrow function may be simplified to a callback.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Closure Could Be A Callback
-	:twitter:description: Closure Could Be A Callback: Closure and arrow function may be simplified to a callback
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Closure Could Be A Callback
-	:og:type: article
-	:og:description: Closure and arrow function may be simplified to a callback
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Closure Could Be A Callback.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/Closure2String.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/Closure2String.html","name":"Closure Could Be A Callback","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Closure and arrow function may be simplified to a callback","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Closure Could Be A Callback.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-`Closure <https://www.php.net/manual/en/class.`closure <https://www.php.net/closure>`_.php>`_ and arrow function may be simplified to a callback. Callbacks are strings or arrays.
+  `Closure <https://www.php.net/manual/en/class.`closure <https://www.php.net/closure>`_.php>`_ and arrow function may be simplified to a callback. Callbacks are strings or arrays.
 
 A simple `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_ that only returns arguments relayed to another function or method, could be reduced to a simpler expression.  
 
@@ -64,8 +42,8 @@ See also `Closure class <https://www.php.net/closure>`_ and `Callbacks / Callabl
 Connex PHP features
 -------------------
 
-  + `Closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
-  + `Callbacks <https://php-dictionary.readthedocs.io/en/latest/dictionary/callback.ini.html>`_
+  + `closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
+  + `callback <https://php-dictionary.readthedocs.io/en/latest/dictionary/callback.ini.html>`_
 
 
 Suggestions

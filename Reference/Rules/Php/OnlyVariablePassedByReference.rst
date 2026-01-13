@@ -1,33 +1,11 @@
 .. _php-onlyvariablepassedbyreference:
 
-
 .. _only-variable-passed-by-reference:
 
 Only Variable Passed By Reference
 +++++++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Only Variable Passed By Reference: Some methods require a variable as argument.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Only Variable Passed By Reference
-	:twitter:description: Only Variable Passed By Reference: Some methods require a variable as argument
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Only Variable Passed By Reference
-	:og:type: article
-	:og:description: Some methods require a variable as argument
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Only Variable Passed By Reference.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/OnlyVariablePassedByReference.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/OnlyVariablePassedByReference.html","name":"Only Variable Passed By Reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Some methods require a variable as argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Only Variable Passed By Reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Some methods require a variable as argument. Those arguments are passed by reference, and they must operate on a variable, or any data container (property, array element). 
+  Some methods require a variable as argument. Those arguments are passed by reference, and they must operate on a variable, or any data container (property, array element). 
 
 This means that literal values, constants cannot be used as argument. This is also the case of literal values, returned by other methods.
 
@@ -49,9 +27,9 @@ This is also the case of ``isset()``, althought with a different `error <https:/
 Related PHP errors 
 -------------------
 
-  + `Argument #1 ($array) could not be passed by reference <https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29%3A-argument-%23%25d%25s%25s%25s-could-not-be-passed-by-reference.html>`_
-  + `Argument #1 ($array) cannot be passed by reference <https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29-argument-%23%25d%25s%25s%25s-cannot-be-passed-by-reference.html>`_
-  + `Cannot use isset() on the result of an expression (you can use "null !== expression" instead) <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-isset%28%29-on-the-result-of-an-expression-%28you-can-use-%22null-%21%3D%3D-expression%22-instead%29.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Argument+%231+%28%24array%29+could+not+be+passed+by+reference.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Argument+%231+%28%24array%29+cannot+be+passed+by+reference.html>`_
+  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+isset%28%29+on+the+result+of+an+expression+%28you+can+use+%22null+%21%3D%3D+expression%22+instead%29.html>`_
 
 
 

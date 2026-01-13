@@ -1,33 +1,11 @@
 .. _functions-couldbecallable:
 
+.. _could-be-typehinted-callable:
 
-.. _could-be-typed-callable:
+Could Be Typehinted Callable
+++++++++++++++++++++++++++++
 
-Could Be Typed Callable
-+++++++++++++++++++++++
-
-.. meta::
-	:description:
-		Could Be Typed Callable: Those arguments may use the callable type.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Could Be Typed Callable
-	:twitter:description: Could Be Typed Callable: Those arguments may use the callable type
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Could Be Typed Callable
-	:og:type: article
-	:og:description: Those arguments may use the callable type
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Typed Callable.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/CouldBeCallable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/CouldBeCallable.html","name":"Could Be Typed Callable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Those arguments may use the callable type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Could Be Typed Callable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Those arguments may use the callable type. 
+  Those arguments may use the callable Typehint. 
 
 'callable' is a PHP keyword that represents callback functions. Those may be used in dynamic function call, like $function(); or as callback functions, like with `array_map() <https://www.php.net/array_map>`_;
 
@@ -56,13 +34,13 @@ See also `Callback / callable <https://www.php.net/manual/en/language.types.call
 Connex PHP features
 -------------------
 
-  + `Callables <https://php-dictionary.readthedocs.io/en/latest/dictionary/callable.ini.html>`_
+  + `callable <https://php-dictionary.readthedocs.io/en/latest/dictionary/callable.ini.html>`_
 
 
 Suggestions
 ___________
 
-* Add the type callable
+* Add the typehint callable
 * Use the function is_callable() inside the method if 'callable' is too strong.
 
 

@@ -1,33 +1,11 @@
 .. _security-shouldusepreparedstatement:
 
-
 .. _should-use-prepared-statement:
 
 Should Use Prepared Statement
 +++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Should Use Prepared Statement: Modern databases provides support for prepared statement : it separates the query from the processed data and raise significantly the security.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Should Use Prepared Statement
-	:twitter:description: Should Use Prepared Statement: Modern databases provides support for prepared statement : it separates the query from the processed data and raise significantly the security
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Should Use Prepared Statement
-	:og:type: article
-	:og:description: Modern databases provides support for prepared statement : it separates the query from the processed data and raise significantly the security
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Prepared Statement.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Security\/ShouldUsePreparedStatement.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Security\/ShouldUsePreparedStatement.html","name":"Should Use Prepared Statement","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Modern databases provides support for prepared statement : it separates the query from the processed data and raise significantly the security","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Should Use Prepared Statement.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Modern databases provides support for prepared statement : it separates the query from the processed data and raise significantly the security. 
+  Modern databases provides support for prepared statement : it separates the query from the processed data and raise significantly the security. 
 
 Building queries with concatenations is not recommended, though not always avoidable. When possible, use prepared statements.
 Same code, without preparation :

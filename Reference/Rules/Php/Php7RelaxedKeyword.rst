@@ -1,33 +1,11 @@
 .. _php-php7relaxedkeyword:
 
-
 .. _php7-relaxed-keyword:
 
 Php7 Relaxed Keyword
 ++++++++++++++++++++
 
-.. meta::
-	:description:
-		Php7 Relaxed Keyword: Most of the traditional PHP keywords may be used inside classes, enums, traits and interfaces: they can be used as constant or method name.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Php7 Relaxed Keyword
-	:twitter:description: Php7 Relaxed Keyword: Most of the traditional PHP keywords may be used inside classes, enums, traits and interfaces: they can be used as constant or method name
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Php7 Relaxed Keyword
-	:og:type: article
-	:og:description: Most of the traditional PHP keywords may be used inside classes, enums, traits and interfaces: they can be used as constant or method name
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Php7 Relaxed Keyword.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php7RelaxedKeyword.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php7RelaxedKeyword.html","name":"Php7 Relaxed Keyword","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Most of the traditional PHP keywords may be used inside classes, enums, traits and interfaces: they can be used as constant or method name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Php7 Relaxed Keyword.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Most of the traditional PHP keywords may be used inside classes, enums, traits and interfaces: they can be used as constant or method name. 
+  Most of the traditional PHP keywords may be used inside classes, enums, traits and interfaces: they can be used as constant or method name. 
 
 It is recommended to use this syntax cautiously, as it leads to a lot of surprises and confusion from unususpecting developpers.
 
@@ -54,8 +32,8 @@ See also `Loosening Reserved Word Restrictions <https://www.php.net/manual/en/mi
 Connex PHP features
 -------------------
 
-  + `Keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/keyword.ini.html>`_
-  + `Reserved Names <https://php-dictionary.readthedocs.io/en/latest/dictionary/reserved-name.ini.html>`_
+  + `keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/keyword.ini.html>`_
+  + `reserved-name <https://php-dictionary.readthedocs.io/en/latest/dictionary/reserved-name.ini.html>`_
 
 
 Specs

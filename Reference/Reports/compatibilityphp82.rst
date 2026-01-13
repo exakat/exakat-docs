@@ -6,22 +6,6 @@ CompatibilityPHP82
 CompatibilityPHP82
 __________________
 
-.. meta::
-	:description:
-		CompatibilityPHP82: The CompatibilityPHP82 report list all detected issues with PHP 8.2 compatibility..
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: CompatibilityPHP82
-	:twitter:description: CompatibilityPHP82: The CompatibilityPHP82 report list all detected issues with PHP 8.2 compatibility.
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: CompatibilityPHP82
-	:og:type: article
-	:og:description: The CompatibilityPHP82 report list all detected issues with PHP 8.2 compatibility.
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
-	:og:locale: en
-
 The CompatibilityPHP82 report list all detected issues with PHP 8.2 compatibility.
 
 The CompatibilityPHP82 report displays one result per line, grouped by rule, and ordered by file and line number. Here is an example : 

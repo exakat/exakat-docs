@@ -3,61 +3,45 @@
 Semantics
 +++++++++
 
-.. meta::
-	:description:
-		Semantics: Checks the meanings found the names of the code..
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Semantics
-	:twitter:description: Semantics: Checks the meanings found the names of the code.
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Semantics
-	:og:type: article
-	:og:description: Checks the meanings found the names of the code.
-	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Semantics.html
-	:og:locale: en
-
 This ruleset focuses on human interpretation of the code. It reviews special values of literals, and named structures.
 
 Total : 35 analysis
 
-* :ref:`arrays-ambiguouskeys`
-* :ref:`constants-constantstrangenames`
-* :ref:`functions-functioncalledwithothercase`
-* :ref:`variables-variableoneletter`
-* :ref:`functions-oneletterfunctions`
-* :ref:`structures-propertyvariableconfusion`
-* :ref:`php-reservednames`
-* :ref:`classes-strangename`
-* :ref:`php-classfunctionconfusion`
-* :ref:`variables-strangename`
-* :ref:`constants-strangename`
-* :ref:`classes-ambiguousstatic`
-* :ref:`classes-ambiguousvisibilities`
-* :ref:`constants-couldbeconstant`
-* :ref:`type-similarintegers`
-* :ref:`type-duplicateliteral`
-* :ref:`functions-parameterhiding`
-* :ref:`arrays-weirdindex`
-* :ref:`functions-wrongtypehintedname`
-* :ref:`functions-semantictyping`
-* :ref:`functions-fnargumentvariableconfusion`
-* :ref:`functions-prefixtotype`
-* :ref:`structures-sgvariablesconfusion`
-* :ref:`namespaces-aliasconfusion`
-* :ref:`functions-mismatchparameterandtype`
-* :ref:`structures-wronglocale`
-* :ref:`namespaces-overloadexistingnames`
-* :ref:`classes-propertymethodsamename`
-* :ref:`variables-ambiguoustypes`
-* :ref:`classes-methodpropertyconfusion`
-* :ref:`structures-toomanychainedcalls`
-* :ref:`variables-novariableneeded`
-* :ref:`variables-noinitials`
-* :ref:`structures-arrayaccessonliteralarray`
-* :ref:`structures-dontusethetypeasvariable`
+* :ref:`ambiguous-array-index`
+* :ref:`constants-with-strange-names`
+* :ref:`function-called-with-other-case-than-defined`
+* :ref:`variables-with-one-letter-names`
+* :ref:`one-letter-functions`
+* :ref:`property-variable-confusion`
+* :ref:`php-keywords-as-names`
+* :ref:`strange-names-in-classes`
+* :ref:`class-function-confusion`
+* :ref:`strange-name-for-variables`
+* :ref:`strange-name-for-constants`
+* :ref:`ambiguous-static`
+* :ref:`ambiguous-visibilities`
+* :ref:`could-be-constant`
+* :ref:`similar-integers`
+* :ref:`duplicate-literal`
+* :ref:`parameter-hiding`
+* :ref:`weird-array-index`
+* :ref:`wrong-typehinted-name`
+* :ref:`semantic-typing`
+* :ref:`fn-argument-variable-confusion`
+* :ref:`prefix-and-suffixes-with-typehint`
+* :ref:`static-global-variables-confusion`
+* :ref:`possible-alias-confusion`
+* :ref:`mismatch-parameter-and-type`
+* :ref:`wrong-locale`
+* :ref:`overload-existing-names`
+* :ref:`same-name-for-property-and-method`
+* :ref:`ambiguous-types-with-variables`
+* :ref:`method-property-confusion`
+* :ref:`too-many-chained-calls`
+* :ref:`no-variable-needed`
+* :ref:`no-initial-s-in-variable-names`
+* :ref:`array-access-on-literal-array`
+* :ref:`don't-use-the-type-as-variable-name`
 
 Specs
 _____

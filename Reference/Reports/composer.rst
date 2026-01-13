@@ -6,22 +6,6 @@ Composer
 Composer
 ________
 
-.. meta::
-	:description:
-		Composer: The Composer report provide elements for the require attribute in the composer.json..
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Composer
-	:twitter:description: Composer: The Composer report provide elements for the require attribute in the composer.json.
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Composer
-	:og:type: article
-	:og:description: The Composer report provide elements for the require attribute in the composer.json.
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
-	:og:locale: en
-
 The Composer report provide elements for the require attribute in the composer.json.
 
 It helps documenting the composer.json, by providing more information, extracted from the code.

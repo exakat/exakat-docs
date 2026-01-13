@@ -1,33 +1,11 @@
 .. _classes-classinvasion:
 
-
 .. _class-invasion:
 
 Class Invasion
 ++++++++++++++
 
-.. meta::
-	:description:
-		Class Invasion: Class invasion happens when an object access another object's private methods or properties.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Class Invasion
-	:twitter:description: Class Invasion: Class invasion happens when an object access another object's private methods or properties
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Class Invasion
-	:og:type: article
-	:og:description: Class invasion happens when an object access another object's private methods or properties
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class Invasion.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ClassInvasion.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ClassInvasion.html","name":"Class Invasion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Class invasion happens when an object access another object's private methods or properties","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Class Invasion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Class invasion happens when an object access another object's private methods or properties. 
+  Class invasion happens when an object access another object's private methods or properties. 
 
 This is possible from the scope of the class itself. For example, an cloned object, or a parameter with the same type as the current class. 
 
@@ -53,7 +31,7 @@ This applies to properties, constants and methods, `static <https://www.php.net/
 Connex PHP features
 -------------------
 
-  + `Class Invasion <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-invasion.ini.html>`_
+  + `class-invasion <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-invasion.ini.html>`_
 
 
 Specs

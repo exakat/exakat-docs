@@ -1,33 +1,11 @@
 .. _namespaces-nokeywordinnamespace:
 
-
 .. _no-keyword-in-namespace:
 
 No Keyword In Namespace
 +++++++++++++++++++++++
 
-.. meta::
-	:description:
-		No Keyword In Namespace: PHP keywords were not allowed in namespaces' names.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: No Keyword In Namespace
-	:twitter:description: No Keyword In Namespace: PHP keywords were not allowed in namespaces' names
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: No Keyword In Namespace
-	:og:type: article
-	:og:description: PHP keywords were not allowed in namespaces' names
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Keyword In Namespace.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Namespaces\/NoKeywordInNamespace.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Namespaces\/NoKeywordInNamespace.html","name":"No Keyword In Namespace","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"PHP keywords were not allowed in namespaces' names","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Keyword In Namespace.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-PHP keywords were not allowed in namespaces' names. As a whole, or as a part of the namespace. The syntax was relaxed in PHP 8.0. 
+  PHP keywords were not allowed in namespaces' names. As a whole, or as a part of the namespace. The syntax was relaxed in PHP 8.0. 
 
 This rule is only useful to keep compatibility with previous versions. It leads to a compilation `error <https://www.php.net/error>`_. 
 

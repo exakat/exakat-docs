@@ -1,33 +1,11 @@
 .. _classes-shoulddeepclone:
 
-
 .. _should-deep-clone:
 
 Should Deep Clone
 +++++++++++++++++
 
-.. meta::
-	:description:
-		Should Deep Clone: By default, PHP makes a shallow clone.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Should Deep Clone
-	:twitter:description: Should Deep Clone: By default, PHP makes a shallow clone
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Should Deep Clone
-	:og:type: article
-	:og:description: By default, PHP makes a shallow clone
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Deep Clone.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ShouldDeepClone.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ShouldDeepClone.html","name":"Should Deep Clone","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"By default, PHP makes a shallow clone","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Should Deep Clone.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-By default, PHP makes a shallow clone. It only clone the scalars, and keep the reference to any object already referenced. This means that the cloned object and its original share any object they hold as property.
+  By default, PHP makes a shallow clone. It only clone the scalars, and keep the reference to any object already referenced. This means that the cloned object and its original share any object they hold as property.
 
 This is where the magic method `__clone() <https://www.php.net/manual/en/language.oop5.magic.php>`_ comes into play. It is called, when defined, at clone time, so that the cloned object may clone all the needed sub-objects.
 
@@ -73,7 +51,7 @@ See also `PHP Clone and Shallow vs Deep Copying <http://jacob-walker.com/blog/ph
 Connex PHP features
 -------------------
 
-  + `Clone <https://php-dictionary.readthedocs.io/en/latest/dictionary/clone.ini.html>`_
+  + `clone <https://php-dictionary.readthedocs.io/en/latest/dictionary/clone.ini.html>`_
 
 
 Specs

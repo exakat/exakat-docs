@@ -1,33 +1,11 @@
 .. _variables-localglobals:
 
-
 .. _local-globals:
 
 Local Globals
 +++++++++++++
 
-.. meta::
-	:description:
-		Local Globals: A global variable is used locally in a method.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Local Globals
-	:twitter:description: Local Globals: A global variable is used locally in a method
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Local Globals
-	:og:type: article
-	:og:description: A global variable is used locally in a method
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Local Globals.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/LocalGlobals.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/LocalGlobals.html","name":"Local Globals","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"A global variable is used locally in a method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Local Globals.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-A global variable is used locally in a method. 
+  A global variable is used locally in a method. 
 
 Either the global keyword has been forgotten, or the local variable should be renamed in a less ambiguous manner.
 
@@ -59,7 +37,7 @@ It is recommended to keep the global variables's name distinct from the local va
 Connex PHP features
 -------------------
 
-  + `global Scope <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
+  + `global <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
 
 
 Suggestions

@@ -1,33 +1,11 @@
 .. _interfaces-nogaranteeforpropertyconstant:
 
-
 .. _interfaces-don't-ensure-properties:
 
 Interfaces Don't Ensure Properties
 ++++++++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Interfaces Don't Ensure Properties: When using an interface as a type, properties are not enforced.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Interfaces Don't Ensure Properties
-	:twitter:description: Interfaces Don't Ensure Properties: When using an interface as a type, properties are not enforced
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Interfaces Don't Ensure Properties
-	:og:type: article
-	:og:description: When using an interface as a type, properties are not enforced
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Interfaces Don't Ensure Properties.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/NoGaranteeForPropertyConstant.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/NoGaranteeForPropertyConstant.html","name":"Interfaces Don't Ensure Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"When using an interface as a type, properties are not enforced","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Interfaces Don't Ensure Properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-When using an interface as a type, properties are not enforced. They might be not available, and lead to a Fatal `Error <https://www.php.net/error>`_.
+  When using an interface as a type, properties are not enforced. They might be not available, and lead to a Fatal `Error <https://www.php.net/error>`_.
 
 An interface is a template for a class, which specify the minimum amount of methods and constants. Properties are never defined in an interface, and should not be relied upon.
 
@@ -65,7 +43,7 @@ See also `Interface And Abstract Class <https://medium.com/@atakde/interface-and
 Connex PHP features
 -------------------
 
-  + `Interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
 
 
 Suggestions

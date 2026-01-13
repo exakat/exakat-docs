@@ -1,35 +1,13 @@
 .. _security-keepfilesrestricted:
 
-
 .. _keep-files-access-restricted:
 
 Keep Files Access Restricted
 ++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Keep Files Access Restricted: Avoid using 0777 as file or directory mode.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Keep Files Access Restricted
-	:twitter:description: Keep Files Access Restricted: Avoid using 0777 as file or directory mode
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Keep Files Access Restricted
-	:og:type: article
-	:og:description: Avoid using 0777 as file or directory mode
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Keep Files Access Restricted.html
-	:og:locale: en
+  Avoid using 0777 as file or `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_ mode. In particular, setting a file or a `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_ to 0777 (or universal read-write-execute) may lead to security vulnerabilities, as anything on the server may read, write and even execute
 
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Security\/KeepFilesRestricted.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Security\/KeepFilesRestricted.html","name":"Keep Files Access Restricted","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"Avoid using 0777 as file or directory mode","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Keep Files Access Restricted.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Avoid using 0777 as file or `directory <https://www.php.net/directory>`_ mode. In particular, setting a file or a `directory <https://www.php.net/directory>`_ to 0777 (or universal read-write-execute) may lead to security vulnerabilities, as anything on the server may read, write and even execute
-
-File mode may be changed using the `chmod() <https://www.php.net/chmod>`_ function, or at `directory <https://www.php.net/directory>`_ creation, with `mkdir() <https://www.php.net/mkdir>`_.
+File mode may be changed using the `chmod() <https://www.php.net/chmod>`_ function, or at `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_ creation, with `mkdir() <https://www.php.net/mkdir>`_.
 By default, this analysis report universal access (0777). It is possible to make this analysis more restrictive, by providing more forbidden modes in the ``filePrivileges`` parameter. For example : ``511,510,489``. Only use a decimal representation.
 
 .. code-block:: php

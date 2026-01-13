@@ -6,22 +6,6 @@ Stats
 Stats
 _____
 
-.. meta::
-	:description:
-		Stats: The Stats report collects various stats about the code..
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Stats
-	:twitter:description: Stats: The Stats report collects various stats about the code.
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Stats
-	:og:type: article
-	:og:description: The Stats report collects various stats about the code.
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
-	:og:locale: en
-
 The Stats report collects various stats about the code.
 
 Stats reports PHP structures definition, like class, interfaces, variables, and also features, like operator, control flow instructions, etc.

@@ -1,33 +1,11 @@
 .. _extensions-extgearman:
 
-
 .. _ext-gearman:
 
 ext/gearman
 +++++++++++
 
-.. meta::
-	:description:
-		ext/gearman: Extension Gearman.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: ext/gearman
-	:twitter:description: ext/gearman: Extension Gearman
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: ext/gearman
-	:og:type: article
-	:og:description: Extension Gearman
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/gearman.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extgearman.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extgearman.html","name":"ext\/gearman","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Extension Gearman","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/ext\/gearman.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Extension Gearman.
+  Extension Gearman.
 
 Gearman is a generic application framework for farming out work to multiple machines or processes.
 

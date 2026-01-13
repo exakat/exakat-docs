@@ -1,33 +1,11 @@
 .. _complete-variabletypehint:
 
+.. _variable-anf-property-typehint:
 
-.. _variable-and-property-type:
+Variable Anf Property Typehint
+++++++++++++++++++++++++++++++
 
-Variable And Property Type
-++++++++++++++++++++++++++
-
-.. meta::
-	:description:
-		Variable And Property Type: Adds types to (local) variables and properties, by inference from the code.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Variable And Property Type
-	:twitter:description: Variable And Property Type: Adds types to (local) variables and properties, by inference from the code
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Variable And Property Type
-	:og:type: article
-	:og:description: Adds types to (local) variables and properties, by inference from the code
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Variable And Property Type.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/VariableTypehint.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/VariableTypehint.html","name":"Variable And Property Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Adds types to (local) variables and properties, by inference from the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Variable And Property Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Adds types to (local) variables and properties, by inference from the code. 
+  Adds typehints to (local) variables and properties, by inference from the code. 
 
 Currently, the variable must be assigned only one type within its context to be typed. Non-typed variables limit the scope of other rules.
 
@@ -47,8 +25,8 @@ This is an internal tool, to help find definitions of classes. The same strategi
 Connex PHP features
 -------------------
 
-  + `Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
-  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
 
 
 Specs

@@ -1,33 +1,11 @@
 .. _classes-incompatiblesignature:
 
-
 .. _incompatible-signature-methods:
 
 Incompatible Signature Methods
 ++++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Incompatible Signature Methods: Methods should have the same signature when being overwritten.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Incompatible Signature Methods
-	:twitter:description: Incompatible Signature Methods: Methods should have the same signature when being overwritten
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Incompatible Signature Methods
-	:og:type: article
-	:og:description: Methods should have the same signature when being overwritten
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Incompatible Signature Methods.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/IncompatibleSignature.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/IncompatibleSignature.html","name":"Incompatible Signature Methods","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Methods should have the same signature when being overwritten","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Incompatible Signature Methods.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Methods should have the same signature when being overwritten.
+  Methods should have the same signature when being overwritten.
 
 The same signatures means the children class must have : 
 
@@ -59,7 +37,8 @@ See also `Object Inheritance <https://www.php.net/manual/en/language.oop5.inheri
 Related PHP errors 
 -------------------
 
-  + `Declaration of %s::%s($%s) should be compatible with %s::%s($%s = 1)  <https://php-errors.readthedocs.io/en/latest/messages/declaration-of-%25s-must-be-compatible-with-%25s.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Declaration+of+ab%3A%3Afoo%28%24a%29+should+be+compatible+with+a%3A%3Afoo%28%24a+%3D+1%29+.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Declaration+of+ab%3A%3Afoo%28%24a%29+must+be+compatible+with+a%3A%3Afoo%28%24a+%3D+1%29+.html>`_
 
 
 

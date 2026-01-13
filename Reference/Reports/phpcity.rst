@@ -6,22 +6,6 @@ Phpcity
 Phpcity
 _______
 
-.. meta::
-	:description:
-		Phpcity: The Phpcity report represents your code as a city. .
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Phpcity
-	:twitter:description: Phpcity: The Phpcity report represents your code as a city. 
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Phpcity
-	:og:type: article
-	:og:description: The Phpcity report represents your code as a city. 
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
-	:og:locale: en
-
 The Phpcity report represents your code as a city. 
 
 Phpcity is a code visualisation tool : it displays the source code as a city, with districts and buildings. There are be high sky crappers, signaling large classes, entire districts of small blocks, large venues and isolated parks. Some imagination is welcome too. 

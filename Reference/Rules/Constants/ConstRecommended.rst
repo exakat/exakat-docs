@@ -1,37 +1,16 @@
 .. _constants-constrecommended:
 
-
 .. _use-const:
 
 Use const
 +++++++++
 
-.. meta::
-	:description:
-		Use const: The const keyword may be used to define constant, just like the define() function.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Use const
-	:twitter:description: Use const: The const keyword may be used to define constant, just like the define() function
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Use const
-	:og:type: article
-	:og:description: The const keyword may be used to define constant, just like the define() function
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use const.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Constants\/ConstRecommended.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Constants\/ConstRecommended.html","name":"Use const","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"The const keyword may be used to define constant, just like the define() function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Use const.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-The const keyword may be used to define constant, just like the `define() <https://www.php.net/define>`_ function. 
+  The const keyword may be used to define constant, just like the `define() <https://www.php.net/define>`_ function. 
 
 When defining a constant, it is recommended to use 'const' when the features of the constant are not dynamical (name or value are known at compile time). 
-
 This way, constant will be defined at compile time, and not at execution time. 
+
+
 
 `define() <https://www.php.net/define>`_ function is useful when the constant is not known at compile time, or when case sensitivity is necessary.
 
@@ -50,8 +29,8 @@ See also `Syntax <https://www.php.net/manual/en/language.constants.syntax.php>`_
 Connex PHP features
 -------------------
 
-  + `Const <https://php-dictionary.readthedocs.io/en/latest/dictionary/const.ini.html>`_
-  + `define() <https://php-dictionary.readthedocs.io/en/latest/dictionary/define.ini.html>`_
+  + `const <https://php-dictionary.readthedocs.io/en/latest/dictionary/const.ini.html>`_
+  + `define <https://php-dictionary.readthedocs.io/en/latest/dictionary/define.ini.html>`_
 
 
 Suggestions

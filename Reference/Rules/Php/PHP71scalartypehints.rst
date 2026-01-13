@@ -1,33 +1,11 @@
 .. _php-php71scalartypehints:
 
+.. _php-7.1-scalar-typehints:
 
-.. _php-7.1-scalar-types:
+PHP 7.1 Scalar Typehints
+++++++++++++++++++++++++
 
-PHP 7.1 Scalar Types
-++++++++++++++++++++
-
-.. meta::
-	:description:
-		PHP 7.1 Scalar Types: A new scalar typehint was introduced : ``iterable``.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: PHP 7.1 Scalar Types
-	:twitter:description: PHP 7.1 Scalar Types: A new scalar typehint was introduced : ``iterable``
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: PHP 7.1 Scalar Types
-	:og:type: article
-	:og:description: A new scalar typehint was introduced : ``iterable``
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 7.1 Scalar Types.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/PHP71scalartypehints.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/PHP71scalartypehints.html","name":"PHP 7.1 Scalar Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"A new scalar typehint was introduced : ``iterable``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/PHP 7.1 Scalar Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-A new scalar typehint was introduced : ``iterable``. 
+  A new scalar typehint was introduced : iterable. 
 
 It can't be used before PHP 7.1, and will be confused with classes or interfaces.
 
@@ -57,7 +35,7 @@ See also `iterable pseudo-type <https://www.php.net/manual/en/migration71.new-fe
 Connex PHP features
 -------------------
 
-  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
 
 
 Specs

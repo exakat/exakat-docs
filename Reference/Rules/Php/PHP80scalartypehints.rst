@@ -1,33 +1,11 @@
 .. _php-php80scalartypehints:
 
+.. _php-8.0-typehints:
 
-.. _php-8.0-types:
+PHP 8.0 Typehints
++++++++++++++++++
 
-PHP 8.0 Types
-+++++++++++++
-
-.. meta::
-	:description:
-		PHP 8.0 Types: New scalar types were introduced : mixed and false.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: PHP 8.0 Types
-	:twitter:description: PHP 8.0 Types: New scalar types were introduced : mixed and false
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: PHP 8.0 Types
-	:og:type: article
-	:og:description: New scalar types were introduced : mixed and false
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 8.0 Types.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/PHP80scalartypehints.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/PHP80scalartypehints.html","name":"PHP 8.0 Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"New scalar types were introduced : mixed and false","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/PHP 8.0 Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-New scalar types were introduced : mixed and `false <https://www.php.net/false>`_. 
+  New scalar typehints were introduced : mixed and false. 
 
 They can't be used before PHP 8.0, and will be confused with classes or interfaces, or generate a parse `error <https://www.php.net/error>`_.
 
@@ -47,9 +25,9 @@ See also `PHP RFC: noreturn type <https://wiki.php.net/rfc/noreturn_type>`_.
 Connex PHP features
 -------------------
 
-  + `Mixed <https://php-dictionary.readthedocs.io/en/latest/dictionary/mixed.ini.html>`_
-  + `False <https://php-dictionary.readthedocs.io/en/latest/dictionary/false.ini.html>`_
-  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `mixed <https://php-dictionary.readthedocs.io/en/latest/dictionary/mixed.ini.html>`_
+  + `false <https://php-dictionary.readthedocs.io/en/latest/dictionary/false.ini.html>`_
+  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
 
 
 Specs

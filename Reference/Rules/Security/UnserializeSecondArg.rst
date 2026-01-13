@@ -1,33 +1,11 @@
 .. _security-unserializesecondarg:
 
-
 .. _unserialize-second-arg:
 
 Unserialize Second Arg
 ++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Unserialize Second Arg: Since PHP 7, unserialize() function has a second argument that limits the classes that may be unserialized.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Unserialize Second Arg
-	:twitter:description: Unserialize Second Arg: Since PHP 7, unserialize() function has a second argument that limits the classes that may be unserialized
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Unserialize Second Arg
-	:og:type: article
-	:og:description: Since PHP 7, unserialize() function has a second argument that limits the classes that may be unserialized
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unserialize Second Arg.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Security\/UnserializeSecondArg.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Security\/UnserializeSecondArg.html","name":"Unserialize Second Arg","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Since PHP 7, unserialize() function has a second argument that limits the classes that may be unserialized","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Unserialize Second Arg.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Since PHP 7, `unserialize() <https://www.php.net/unserialize>`_ function has a second argument that limits the classes that may be unserialized. In case of a breach, this is limiting the classes accessible from `unserialize() <https://www.php.net/unserialize>`_. 
+  Since PHP 7, `unserialize() <https://www.php.net/unserialize>`_ function has a second argument that limits the classes that may be unserialized. In case of a breach, this is limiting the classes accessible from `unserialize() <https://www.php.net/unserialize>`_. 
 
 One way to exploit unserialize, is to make PHP unserialized the data to an available class, may be one that may be auto-loaded.
 
@@ -59,7 +37,7 @@ See also `unserialize() <https://www.php.net/unserialize>`_, `Securely Implement
 Connex PHP features
 -------------------
 
-  + `Serialization <https://php-dictionary.readthedocs.io/en/latest/dictionary/serialization.ini.html>`_
+  + `serialization <https://php-dictionary.readthedocs.io/en/latest/dictionary/serialization.ini.html>`_
 
 
 Suggestions

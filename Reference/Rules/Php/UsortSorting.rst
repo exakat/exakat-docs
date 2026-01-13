@@ -1,33 +1,11 @@
 .. _php-usortsorting:
 
-
 .. _usort-sorting-in-php-7.0:
 
 Usort Sorting In PHP 7.0
 ++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Usort Sorting In PHP 7.0: Usort(), uksort() and uasort() behavior has changed in PHP 7.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Usort Sorting In PHP 7.0
-	:twitter:description: Usort Sorting In PHP 7.0: Usort(), uksort() and uasort() behavior has changed in PHP 7
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Usort Sorting In PHP 7.0
-	:og:type: article
-	:og:description: Usort(), uksort() and uasort() behavior has changed in PHP 7
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Usort Sorting In PHP 7.0.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/UsortSorting.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/UsortSorting.html","name":"Usort Sorting In PHP 7.0","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Usort(), uksort() and uasort() behavior has changed in PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Usort Sorting In PHP 7.0.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-`Usort() <https://www.php.net/usort>`_, `uksort() <https://www.php.net/uksort>`_ and `uasort() <https://www.php.net/uasort>`_ behavior has changed in PHP 7. Values that are equals (based on the user-provided method) may be sorted differently than in PHP 5. 
+  `Usort() <https://www.php.net/usort>`_, `uksort() <https://www.php.net/uksort>`_ and `uasort() <https://www.php.net/uasort>`_ behavior has changed in PHP 7. Values that are equals (based on the user-provided method) may be sorted differently than in PHP 5. 
 
 If this sorting is important, it is advised to add extra comparison in the user-function and avoid returning 0 (thus, depending on default implementation). 
 In PHP 5, the results is :::
@@ -74,7 +52,7 @@ See also `Sort order of equal elements <https://www.php.net/manual/en/migration7
 Connex PHP features
 -------------------
 
-  + `Sort <https://php-dictionary.readthedocs.io/en/latest/dictionary/sort.ini.html>`_
+  + `sort <https://php-dictionary.readthedocs.io/en/latest/dictionary/sort.ini.html>`_
 
 
 Suggestions
@@ -103,7 +81,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Slow (1 hour)                                                                                                                        |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/sort.html>`__                                       |
+| Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                           |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Medium                                                                                                                               |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

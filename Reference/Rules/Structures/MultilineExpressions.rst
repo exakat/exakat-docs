@@ -1,33 +1,11 @@
 .. _structures-multilineexpressions:
 
-
 .. _multiline-expressions:
 
 Multiline Expressions
 +++++++++++++++++++++
 
-.. meta::
-	:description:
-		Multiline Expressions: List of expressions that are spread across several lines.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Multiline Expressions
-	:twitter:description: Multiline Expressions: List of expressions that are spread across several lines
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Multiline Expressions
-	:og:type: article
-	:og:description: List of expressions that are spread across several lines
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiline Expressions.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MultilineExpressions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MultilineExpressions.html","name":"Multiline Expressions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"List of expressions that are spread across several lines","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Multiline Expressions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-List of expressions that are spread across several lines. The default is 2.
+  List of expressions that are spread across several lines. The default is 2.
 
 Structures that commonly accept several lines, like `match() <https://www.php.net/manual/en/control-structures.match.php>`_, `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_, classes, functions, closures, constant definitions, etc. are omitted. 
 
@@ -44,6 +22,7 @@ Multiline expressions, like complex expressions, tend to be less readable. Altho
    		 $b .
    		 $c;
    } 
+   
    
    ?>
 

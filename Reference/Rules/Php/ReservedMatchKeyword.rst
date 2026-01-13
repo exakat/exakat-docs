@@ -1,33 +1,11 @@
 .. _php-reservedmatchkeyword:
 
-
 .. _reserved-match-keyword:
 
 Reserved Match Keyword
 ++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Reserved Match Keyword: ``match`` is a new instruction in PHP 8.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Reserved Match Keyword
-	:twitter:description: Reserved Match Keyword: ``match`` is a new instruction in PHP 8
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Reserved Match Keyword
-	:og:type: article
-	:og:description: ``match`` is a new instruction in PHP 8
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Reserved Match Keyword.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ReservedMatchKeyword.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ReservedMatchKeyword.html","name":"Reserved Match Keyword","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"``match`` is a new instruction in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Reserved Match Keyword.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-``match`` is a new instruction in PHP 8.0. 
+  ``match`` is a new instruction in PHP 8.0. 
 
 For that, it becomes a reserved keyword, and cannot be used in various situations: type, class, function, global constant name.
 
@@ -63,15 +41,15 @@ See also `Match expression V2 <https://wiki.php.net/rfc/match_expression_v2>`_.
 Related PHP errors 
 -------------------
 
-  + `syntax error, unexpected 'match' <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22match%22.html>`_
-  + `syntax error, unexpected ',' <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27%2C%27.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/syntax+error%2C+unexpected+%27match%27.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/syntax+error%2C+unexpected+%27%2C%27.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
+  + `match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
 
 
 Suggestions

@@ -1,33 +1,11 @@
 .. _functions-fnargumentvariableconfusion:
 
-
 .. _fn-argument-variable-confusion:
 
 Fn Argument Variable Confusion
 ++++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Fn Argument Variable Confusion: Avoid using local variables as arrow function arguments.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Fn Argument Variable Confusion
-	:twitter:description: Fn Argument Variable Confusion: Avoid using local variables as arrow function arguments
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Fn Argument Variable Confusion
-	:og:type: article
-	:og:description: Avoid using local variables as arrow function arguments
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Fn Argument Variable Confusion.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/FnArgumentVariableConfusion.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/FnArgumentVariableConfusion.html","name":"Fn Argument Variable Confusion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Avoid using local variables as arrow function arguments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Fn Argument Variable Confusion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Avoid using local variables as arrow function arguments.
+  Avoid using local variables as arrow function arguments.
 
 When a local variable name is used as an argument's name in an arrow function, the local variable from the original scope is not imported. They are now two distinct variables.
 
@@ -54,7 +32,7 @@ See also `Arrow functions <https://www.php.net/manual/en/functions.arrow.php>`_.
 Connex PHP features
 -------------------
 
-  + `Arrow Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/arrow-function.ini.html>`_
+  + `arrow-function <https://php-dictionary.readthedocs.io/en/latest/dictionary/arrow-function.ini.html>`_
 
 
 Suggestions

@@ -1,35 +1,13 @@
 .. _functions-uselesstypecheck:
 
-
 .. _useless-type-check:
 
 Useless Type Check
 ++++++++++++++++++
 
-.. meta::
-	:description:
-		Useless Type Check: With the type system, checking the type of arguments is handled by PHP.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Useless Type Check
-	:twitter:description: Useless Type Check: With the type system, checking the type of arguments is handled by PHP
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Useless Type Check
-	:og:type: article
-	:og:description: With the type system, checking the type of arguments is handled by PHP
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Type Check.html
-	:og:locale: en
+  With the type system, checking the type of arguments is handled by PHP.
 
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/UselessTypeCheck.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/UselessTypeCheck.html","name":"Useless Type Check","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"With the type system, checking the type of arguments is handled by PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Useless Type Check.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-With the type system, checking the type of arguments is handled by PHP.
-
-In particular, a typed argument can't be `null <https://www.php.net/`null <https://www.php.net/null>`_>`_, unless it is explicitly nullable, or has a ``null`` value as default.
+In particular, a typed argument can't be null, unless it is explicitly nullable, or has a ``null`` value as default.
 
 .. code-block:: php
    
@@ -53,6 +31,7 @@ In particular, a typed argument can't be `null <https://www.php.net/`null <https
        }
    }
    
+   
    ?>
 
 See also `Type Declarations <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_.
@@ -60,7 +39,7 @@ See also `Type Declarations <https://www.php.net/manual/en/functions.arguments.p
 Connex PHP features
 -------------------
 
-  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
 
 
 Suggestions

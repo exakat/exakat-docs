@@ -1,33 +1,11 @@
 .. _functions-wrongnumberofarguments:
 
-
 .. _wrong-number-of-arguments:
 
 Wrong Number Of Arguments
 +++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Wrong Number Of Arguments: Those functioncalls are made with too many or too few arguments.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Wrong Number Of Arguments
-	:twitter:description: Wrong Number Of Arguments: Those functioncalls are made with too many or too few arguments
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Wrong Number Of Arguments
-	:og:type: article
-	:og:description: Those functioncalls are made with too many or too few arguments
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Number Of Arguments.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/WrongNumberOfArguments.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/WrongNumberOfArguments.html","name":"Wrong Number Of Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Those functioncalls are made with too many or too few arguments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Wrong Number Of Arguments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Those functioncalls are made with too many or too few arguments. 
+  Those functioncalls are made with too many or too few arguments. 
 
 When the number arguments is wrong for native functions, PHP emits a warning. 
 When the number arguments is too small for custom functions, PHP raises an `exception <https://www.php.net/exception>`_. 
@@ -54,7 +32,8 @@ It is recommended to check the signature of the methods, and fix the arguments.
 Related PHP errors 
 -------------------
 
-  + `Too few arguments to function %s(), %d passed and exactly %d expected <https://php-errors.readthedocs.io/en/latest/messages/too-few-arguments-to-function-%25s%25s%25s%28%29%2C-%25d-passed-and-%25s-%25d-expected.html>`_
+  + `Too few arguments to function %s(), %s passed <https://php-errors.readthedocs.io/en/latest/messages/too-few-arguments-to-function-%25s%25s%25s%28%29%2C-%25d-passed.html>`_
+  + `Too few arguments to function foo(), 1 passed and exactly 2 expected <https://php-errors.readthedocs.io/en/latest/messages/too-few-arguments-to-function-%25s%25s%25s%28%29%2C-%25d-passed-and-%25s-%25d-expected.html>`_
   + `%s() expects exactly 0 argument, %s given <https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29-expects-exactly-0-arguments%2C-%25d-given.html>`_
 
 
@@ -62,9 +41,9 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
-  + `Method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
-  + `Static Method <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-method.ini.html>`_
+  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+  + `static-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-method.ini.html>`_
   + `constructor <https://php-dictionary.readthedocs.io/en/latest/dictionary/constructor.ini.html>`_
 
 

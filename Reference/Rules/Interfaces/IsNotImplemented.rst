@@ -1,33 +1,11 @@
 .. _interfaces-isnotimplemented:
 
-
 .. _interfaces-is-not-implemented:
 
 Interfaces Is Not Implemented
 +++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Interfaces Is Not Implemented: Classes that implements interfaces, must implements each of the interface's methods.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Interfaces Is Not Implemented
-	:twitter:description: Interfaces Is Not Implemented: Classes that implements interfaces, must implements each of the interface's methods
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Interfaces Is Not Implemented
-	:og:type: article
-	:og:description: Classes that implements interfaces, must implements each of the interface's methods
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Interfaces Is Not Implemented.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/IsNotImplemented.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/IsNotImplemented.html","name":"Interfaces Is Not Implemented","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"Classes that implements interfaces, must implements each of the interface's methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Interfaces Is Not Implemented.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Classes that implements interfaces, must implements each of the interface's methods. Otherwise, the class shall be marked as ``abstract``.
+  Classes that implements interfaces, must implements each of the interface's methods. Otherwise, the class shall be marked as ``abstract``.
 This problem tends to occur in code that splits interfaces and classes by file. This means that PHP's linting will skip the definitions and not find the problem. At execution time, the definitions will be checked, and a Fatal `error <https://www.php.net/error>`_ will occur.
 
 This situation usually detects code that was forgotten during a refactorisation of the interface or the class and its siblings.
@@ -63,8 +41,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `Interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
-  + `Abstract Keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
+  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+  + `abstract <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
   + `implements <https://php-dictionary.readthedocs.io/en/latest/dictionary/implements.ini.html>`_
 
 

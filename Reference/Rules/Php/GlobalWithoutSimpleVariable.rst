@@ -1,33 +1,11 @@
 .. _php-globalwithoutsimplevariable:
 
-
 .. _simple-global-variable:
 
 Simple Global Variable
 ++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Simple Global Variable: The global keyword should only be used with simple variables.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Simple Global Variable
-	:twitter:description: Simple Global Variable: The global keyword should only be used with simple variables
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Simple Global Variable
-	:og:type: article
-	:og:description: The global keyword should only be used with simple variables
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Simple Global Variable.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/GlobalWithoutSimpleVariable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/GlobalWithoutSimpleVariable.html","name":"Simple Global Variable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"The global keyword should only be used with simple variables","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Simple Global Variable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-The global keyword should only be used with simple variables. Since PHP 7, it cannot be used with complex or dynamic structures.
+  The global keyword should only be used with simple variables. Since PHP 7, it cannot be used with complex or dynamic structures.
 
 .. code-block:: php
    
@@ -49,7 +27,7 @@ See also `Changes to the handling of indirect variables, properties, and methods
 Connex PHP features
 -------------------
 
-  + `global Scope <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
+  + `global <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
 
 
 Suggestions
@@ -77,7 +55,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Slow (1 hour)                                                                                                                        |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 5.6 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/globalDynamicVariable.html>`__                      |
+| Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                           |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                            |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

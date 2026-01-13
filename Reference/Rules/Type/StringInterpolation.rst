@@ -1,33 +1,11 @@
 .. _type-stringinterpolation:
 
-
 .. _interpolation:
 
 Interpolation
 +++++++++++++
 
-.. meta::
-	:description:
-		Interpolation: The following strings contain variables that are will be replaced.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Interpolation
-	:twitter:description: Interpolation: The following strings contain variables that are will be replaced
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Interpolation
-	:og:type: article
-	:og:description: The following strings contain variables that are will be replaced
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Interpolation.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Type\/StringInterpolation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Type\/StringInterpolation.html","name":"Interpolation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"The following strings contain variables that are will be replaced","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Interpolation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-The following strings contain variables that are will be replaced. However, the following characters are ambiguous, and may lead to confusion. 
+  The following strings contain variables that are will be replaced. However, the following characters are ambiguous, and may lead to confusion. 
 
 
 
@@ -57,8 +35,8 @@ See also `Double quoted <https://www.php.net/manual/en/language.types.string.php
 Connex PHP features
 -------------------
 
-  + `String <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
-  + `Interpolation <https://php-dictionary.readthedocs.io/en/latest/dictionary/interpolation.ini.html>`_
+  + `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+  + `interpolation <https://php-dictionary.readthedocs.io/en/latest/dictionary/interpolation.ini.html>`_
 
 
 Specs

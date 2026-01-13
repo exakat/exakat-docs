@@ -1,33 +1,11 @@
 .. _structures-dieexitconsistance:
 
-
 .. _die-exit-consistence:
 
 Die Exit Consistence
 ++++++++++++++++++++
 
-.. meta::
-	:description:
-		Die Exit Consistence: Die and Exit have the same functional use.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Die Exit Consistence
-	:twitter:description: Die Exit Consistence: Die and Exit have the same functional use
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Die Exit Consistence
-	:og:type: article
-	:og:description: Die and Exit have the same functional use
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Die Exit Consistence.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DieExitConsistance.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DieExitConsistance.html","name":"Die Exit Consistence","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Die and Exit have the same functional use","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Die Exit Consistence.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-`Die <https://www.php.net/die>`_ and `Exit <https://www.www.php.net/exit>`_ have the same functional use. 
+  `Die <https://www.php.net/die>`_ and `Exit <https://www.www.php.net/exit>`_ have the same functional use. 
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 
 
@@ -69,7 +47,7 @@ Using `die <https://www.php.net/die>`_ or `exit <https://www.www.php.net/exit>`_
 Connex PHP features
 -------------------
 
-  + `Exit <https://php-dictionary.readthedocs.io/en/latest/dictionary/die.ini.html>`_
+  + `die <https://php-dictionary.readthedocs.io/en/latest/dictionary/die.ini.html>`_
 
 
 Suggestions

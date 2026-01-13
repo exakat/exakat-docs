@@ -1,33 +1,11 @@
 .. _functions-nobooleanasdefault:
 
-
 .. _no-boolean-as-default:
 
 No Boolean As Default
 +++++++++++++++++++++
 
-.. meta::
-	:description:
-		No Boolean As Default: Default values should always be set up with a constant name.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: No Boolean As Default
-	:twitter:description: No Boolean As Default: Default values should always be set up with a constant name
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: No Boolean As Default
-	:og:type: article
-	:og:description: Default values should always be set up with a constant name
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Boolean As Default.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/NoBooleanAsDefault.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/NoBooleanAsDefault.html","name":"No Boolean As Default","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Default values should always be set up with a constant name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Boolean As Default.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Default values should always be set up with a constant name.
+  Default values should always be set up with a constant name.
 
 Class constants and constants improve readability when calling the methods or comparing values and statuses.
 
@@ -46,6 +24,7 @@ Class constants and constants improve readability when calling the methods or co
    foo(CASE_INSENSITIVE);
    foo(CASE_SENSITIVE);
    
+   
    // unreadable code  : is true case insensitive or case sensitive ? 
    foo(true);
    foo(false);
@@ -57,8 +36,8 @@ See also `FlagArgument <https://www.martinfowler.com/bliki/FlagArgument.html>`_ 
 Connex PHP features
 -------------------
 
-  + `Boolean <https://php-dictionary.readthedocs.io/en/latest/dictionary/boolean.ini.html>`_
-  + `Default Value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
+  + `boolean <https://php-dictionary.readthedocs.io/en/latest/dictionary/boolean.ini.html>`_
+  + `default-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
 
 
 Suggestions

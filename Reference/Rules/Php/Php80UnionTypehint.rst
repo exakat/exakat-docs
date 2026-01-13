@@ -1,35 +1,13 @@
 .. _php-php80uniontypehint:
 
+.. _union-typehint:
 
-.. _union-type:
+Union Typehint
+++++++++++++++
 
-Union Type
-++++++++++
+  Union typehints allows the specification of several typehint for the same argument or return value. 
 
-.. meta::
-	:description:
-		Union Type: Union types allows the specification of several type for the same argument or return value.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Union Type
-	:twitter:description: Union Type: Union types allows the specification of several type for the same argument or return value
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Union Type
-	:og:type: article
-	:og:description: Union types allows the specification of several type for the same argument or return value
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Union Type.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php80UnionTypehint.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php80UnionTypehint.html","name":"Union Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Union types allows the specification of several type for the same argument or return value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Union Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Union types allows the specification of several type for the same argument or return value. 
-
-Several types are specified at the same place as a single one. The different values are separated by a pipe character ``|``, like for exceptions 
+Several typehints are specified at the same place as a single one. The different values are separated by a pipe character ``|``, like for exceptions 
 Nullable is reported as union type. Mixed and iterable are not reported as a union type. 
 
 Union types are a PHP 8.0 new feature. They are not compatible with PHP 7.4 and older.
@@ -57,15 +35,15 @@ See also `PHP RFC: Union Types 2.0 <https://wiki.php.net/rfc/union_types_v2>`_, 
 Related PHP errors 
 -------------------
 
-  + `syntax error, unexpected '|', expecting variable (T_VARIABLE) <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27%7C%27%2C-expecting-variable-%28t_variable%29.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/syntax+error%2C+unexpected+%27%7C%27%2C+expecting+variable+%28T_VARIABLE%29.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
-  + `Intersection Type <https://php-dictionary.readthedocs.io/en/latest/dictionary/intersection-type.ini.html>`_
+  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `intersection-type <https://php-dictionary.readthedocs.io/en/latest/dictionary/intersection-type.ini.html>`_
 
 
 Specs

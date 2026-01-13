@@ -1,33 +1,11 @@
 .. _extensions-extsvm:
 
-
 .. _ext-svm:
 
 ext/svm
 +++++++
 
-.. meta::
-	:description:
-		ext/svm: Extension ``SVM``.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: ext/svm
-	:twitter:description: ext/svm: Extension ``SVM``
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: ext/svm
-	:og:type: article
-	:og:description: Extension ``SVM``
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/svm.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extsvm.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extsvm.html","name":"ext\/svm","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Extension ``SVM``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/ext\/svm.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Extension ``SVM``.
+  Extension ``SVM``.
 
 ``SVM`` is in interface with the ``libsvm``, from . ``libsvm``is a library for Support Vector Machines, a classification tool for machine learning.
 

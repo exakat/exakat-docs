@@ -1,35 +1,15 @@
 .. _traits-emptytrait:
 
-
 .. _empty-traits:
 
 Empty Traits
 ++++++++++++
 
-.. meta::
-	:description:
-		Empty Traits: List of all empty traits, defined in the code.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Empty Traits
-	:twitter:description: Empty Traits: List of all empty traits, defined in the code
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Empty Traits
-	:og:type: article
-	:og:description: List of all empty traits, defined in the code
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty Traits.html
-	:og:locale: en
-
-.. raw:: html
+  List of all empty trait defined in the code. 
 
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/EmptyTrait.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/EmptyTrait.html","name":"Empty Traits","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"List of all empty traits, defined in the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Empty Traits.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-List of all empty traits, defined in the code. 
-
-Empty traits, unlike empty classes or interface, do not provide any useful feature, so they might as well be removed.
+Such traits may be reserved for future use. They may also be forgotten, and dead code.
 
 .. code-block:: php
    
@@ -47,7 +27,7 @@ Empty traits, unlike empty classes or interface, do not provide any useful featu
 Connex PHP features
 -------------------
 
-  + `Trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
+  + `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
 
 
 Suggestions

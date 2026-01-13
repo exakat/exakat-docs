@@ -1,33 +1,11 @@
 .. _php-php81removesresources:
 
-
 .. _php-8.1-resources-turned-into-objects:
 
 PHP 8.1 Resources Turned Into Objects
 +++++++++++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		PHP 8.1 Resources Turned Into Objects: Multiple PHP native functions now return objects, not resources.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: PHP 8.1 Resources Turned Into Objects
-	:twitter:description: PHP 8.1 Resources Turned Into Objects: Multiple PHP native functions now return objects, not resources
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: PHP 8.1 Resources Turned Into Objects
-	:og:type: article
-	:og:description: Multiple PHP native functions now return objects, not resources
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 8.1 Resources Turned Into Objects.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php81RemovesResources.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php81RemovesResources.html","name":"PHP 8.1 Resources Turned Into Objects","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"Multiple PHP native functions now return objects, not resources","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/PHP 8.1 Resources Turned Into Objects.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Multiple PHP native functions now return objects, not resources. Any check on those values with `is_resource() <https://www.php.net/is_resource>`_ is now going to fail.
+  Multiple PHP native functions now return objects, not resources. Any check on those values with `is_resource() <https://www.php.net/is_resource>`_ is now going to fail.
 
 The affected functions are the following : 
 
@@ -93,7 +71,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                      |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 8.1                                                                                                                              |
+| Changed Behavior | PHP 8.1 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                           |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                            |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

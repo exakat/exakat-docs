@@ -1,33 +1,11 @@
 .. _traits-methodcollisiontraits:
 
-
 .. _method-collision-traits:
 
 Method Collision Traits
 +++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Method Collision Traits: Two or more traits are included in the same class, and they have methods collisions.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Method Collision Traits
-	:twitter:description: Method Collision Traits: Two or more traits are included in the same class, and they have methods collisions
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Method Collision Traits
-	:og:type: article
-	:og:description: Two or more traits are included in the same class, and they have methods collisions
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Collision Traits.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/MethodCollisionTraits.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/MethodCollisionTraits.html","name":"Method Collision Traits","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:52:58 +0000","dateModified":"Tue, 14 Jan 2025 12:52:58 +0000","description":"Two or more traits are included in the same class, and they have methods collisions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Method Collision Traits.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Two or more traits are included in the same class, and they have methods collisions. 
+  Two or more traits are included in the same class, and they have methods collisions. 
 
 Those collisions should be solved with a ``use`` expression. When they are not, PHP stops execution with a fatal `error <https://www.php.net/error>`_ : ``Trait method M has not been applied, because there are collisions with other trait methods on C``.
 
@@ -59,20 +37,20 @@ The code shown lints, but doesn't execute.
    
    ?>
 
-See also https://www.php.net/manual/en/language.oop5.traits.php.
+See also `Traits <https://www.php.net/manual/en/language.oop5.traits.php>`_.
 
 Related PHP errors 
 -------------------
 
-  + `Trait method M has not been applied, because there are collisions with other trait methods on C <https://php-errors.readthedocs.io/en/latest/messages/trait-method-%25s%3A%3A%25s-has-not-been-applied-as-%25s%3A%3A%25s.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Trait+method+M+has+not+been+applied%2C+because+there+are+collisions+with+other+trait+methods+on+C.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
-  + `Trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
+  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+  + `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
   + `method-collision <https://php-dictionary.readthedocs.io/en/latest/dictionary/method-collision.ini.html>`_
 
 

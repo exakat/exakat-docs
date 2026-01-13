@@ -1,33 +1,11 @@
 .. _classes-constantclass:
 
-
 .. _constant-class:
 
 Constant Class
 ++++++++++++++
 
-.. meta::
-	:description:
-		Constant Class: A class or an interface only made up of constants.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Constant Class
-	:twitter:description: Constant Class: A class or an interface only made up of constants
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Constant Class
-	:og:type: article
-	:og:description: A class or an interface only made up of constants
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Class.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ConstantClass.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ConstantClass.html","name":"Constant Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"A class or an interface only made up of constants","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Constant Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-A class or an interface only made up of constants. Constants usually have to be used in conjunction of some behavior (methods, class...) and never alone. 
+  A class or an interface only made up of constants. Constants usually have to be used in conjunction of some behavior (methods, class...) and never alone. 
 As such, they should be PHP constants (build with define or const), or included in a class with other methods and properties.
 
 .. code-block:: php
@@ -48,7 +26,7 @@ See also  `PHP Classes containing only constants <https://stackoverflow.com/ques
 Connex PHP features
 -------------------
 
-  + `Static Constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html>`_
+  + `class-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html>`_
 
 
 Suggestions

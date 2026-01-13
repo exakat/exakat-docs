@@ -1,35 +1,13 @@
 .. _structures-forwithfunctioncall:
 
-
 .. _for-using-functioncall:
 
 For Using Functioncall
 ++++++++++++++++++++++
 
-.. meta::
-	:description:
-		For Using Functioncall: It is recommended to avoid functioncall in the for() statement.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: For Using Functioncall
-	:twitter:description: For Using Functioncall: It is recommended to avoid functioncall in the for() statement
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: For Using Functioncall
-	:og:type: article
-	:og:description: It is recommended to avoid functioncall in the for() statement
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/For Using Functioncall.html
-	:og:locale: en
+  It is recommended to avoid functioncall in the `for() <https://www.php.net/manual/en/control-structures.for.php>`_ statement. 
 
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ForWithFunctioncall.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ForWithFunctioncall.html","name":"For Using Functioncall","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"It is recommended to avoid functioncall in the for() statement","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/For Using Functioncall.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-It is recommended to avoid functioncall in the `for() <https://www.php.net/manual/en/control-structures.for.php>`_ statement. 
-
-This is `true <https://www.php.net/true>`_ with any kind of functioncall that returns the same value throughout the loop. 
+This is true with any kind of functioncall that returns the same value throughout the loop. 
 
 Make sure that the functioncall doesn't change with the loop.
 
@@ -66,7 +44,7 @@ See also `PHP for loops and counting arrays <https://electrictoolbox.com/php-for
 Connex PHP features
 -------------------
 
-  + `For <https://php-dictionary.readthedocs.io/en/latest/dictionary/for.ini.html>`_
+  + `for <https://php-dictionary.readthedocs.io/en/latest/dictionary/for.ini.html>`_
 
 
 Suggestions

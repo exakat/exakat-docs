@@ -1,33 +1,11 @@
 .. _classes-unusedprotectedmethods:
 
-
 .. _unused-protected-methods:
 
 Unused Protected Methods
 ++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Unused Protected Methods: The following protected methods are unused in children class.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Unused Protected Methods
-	:twitter:description: Unused Protected Methods: The following protected methods are unused in children class
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Unused Protected Methods
-	:og:type: article
-	:og:description: The following protected methods are unused in children class
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Protected Methods.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UnusedProtectedMethods.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UnusedProtectedMethods.html","name":"Unused Protected Methods","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"The following protected methods are unused in children class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Unused Protected Methods.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-The following protected methods are unused in children class. As such, they may be considered for being private.
+  The following protected methods are unused in children class. As such, they may be considered for being private.
 
 Methods reported by this analysis are not used by children, yet they are protected.
 No usage of those methods were found. 
@@ -70,7 +48,7 @@ This analysis is impacted by dynamic method calls.
 Connex PHP features
 -------------------
 
-  + `Unused <https://php-dictionary.readthedocs.io/en/latest/dictionary/unused.ini.html>`_
+  + `unused <https://php-dictionary.readthedocs.io/en/latest/dictionary/unused.ini.html>`_
 
 
 Suggestions

@@ -1,35 +1,13 @@
 .. _classes-nullonnew:
 
-
 .. _null-on-new:
 
 Null On New
 +++++++++++
 
-.. meta::
-	:description:
-		Null On New: Until PHP 7, some classes instantiation could yield null, instead of throwing an exception.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Null On New
-	:twitter:description: Null On New: Until PHP 7, some classes instantiation could yield null, instead of throwing an exception
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Null On New
-	:og:type: article
-	:og:description: Until PHP 7, some classes instantiation could yield null, instead of throwing an exception
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Null On New.html
-	:og:locale: en
+  Until PHP 7, some classes instantiation could yield null, instead of throwing an `exception <https://www.php.net/exception>`_. 
 
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/NullOnNew.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/NullOnNew.html","name":"Null On New","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Until PHP 7, some classes instantiation could yield null, instead of throwing an exception","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Null On New.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Until PHP 7, some classes instantiation could yield `null <https://www.php.net/`null <https://www.php.net/null>`_>`_, instead of throwing an `exception <https://www.php.net/exception>`_. 
-
-After issuing a 'new' with those classes, it was important to check if the returned object were `null <https://www.php.net/`null <https://www.php.net/null>`_>`_ or not. No `exception <https://www.php.net/exception>`_ were thrown.
+After issuing a 'new' with those classes, it was important to check if the returned object were null or not. No `exception <https://www.php.net/exception>`_ were thrown.
 This inconsistency has been cleaned in PHP 7 : see See `Internal Constructor Behavior <https://wiki.php.net/rfc/internal_constructor_behaviour>`_
 
 .. code-block:: php
@@ -49,9 +27,9 @@ See also `PHP RFC: Constructor behaviour of internal classes <https://wiki.php.n
 Connex PHP features
 -------------------
 
-  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
   + `new <https://php-dictionary.readthedocs.io/en/latest/dictionary/new.ini.html>`_
-  + `Null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
+  + `null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
 
 
 Suggestions

@@ -1,38 +1,11 @@
 .. _complete-isextstructure:
 
-
 .. _is-extension-structure:
 
 Is Extension Structure
 ++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Is Extension Structure: Finish marking atoms with ``isExt``, as part of the PHP extension elements.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Is Extension Structure
-	:twitter:description: Is Extension Structure: Finish marking atoms with ``isExt``, as part of the PHP extension elements
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Is Extension Structure
-	:og:type: article
-	:og:description: Finish marking atoms with ``isExt``, as part of the PHP extension elements
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is Extension Structure.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/IsExtStructure.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/IsExtStructure.html","name":"Is Extension Structure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Finish marking atoms with ``isExt``, as part of the PHP extension elements","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Is Extension Structure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Finish marking atoms with ``isExt``, as part of the PHP extension elements. For example, ``openssl``, ``mysqli``, etc.
-Connex PHP features
--------------------
-
-  + `Extensions <https://php-dictionary.readthedocs.io/en/latest/dictionary/extension.ini.html>`_
-
+  Finish marking atoms with ``isExt``, as part of the PHP extension elements. For example, ``openssl``, ``mysqli``, etc.
 
 Specs
 _____

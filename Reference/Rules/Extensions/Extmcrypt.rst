@@ -1,33 +1,11 @@
 .. _extensions-extmcrypt:
 
-
 .. _ext-mcrypt:
 
 ext/mcrypt
 ++++++++++
 
-.. meta::
-	:description:
-		ext/mcrypt: Extension for mcrypt.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: ext/mcrypt
-	:twitter:description: ext/mcrypt: Extension for mcrypt
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: ext/mcrypt
-	:og:type: article
-	:og:description: Extension for mcrypt
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/mcrypt.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extmcrypt.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extmcrypt.html","name":"ext\/mcrypt","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Extension for mcrypt","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/ext\/mcrypt.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Extension for mcrypt.
+  Extension for mcrypt.
 
 This extension has been deprecated as of PHP 7.1.0 and moved to PECL as of PHP 7.2.0.
 
@@ -96,9 +74,9 @@ See also `extension mcrypt <http://www.php.net/manual/en/book.mcrypt.php>`_ and 
 Connex PHP features
 -------------------
 
-  + `Cryptography <https://php-dictionary.readthedocs.io/en/latest/dictionary/crypto.ini.html>`_
+  + `crypto <https://php-dictionary.readthedocs.io/en/latest/dictionary/crypto.ini.html>`_
   + `libsodium <https://php-dictionary.readthedocs.io/en/latest/dictionary/libsodium.ini.html>`_
-  + `OpenSSL <https://php-dictionary.readthedocs.io/en/latest/dictionary/openssl.ini.html>`_
+  + `openssl <https://php-dictionary.readthedocs.io/en/latest/dictionary/openssl.ini.html>`_
 
 
 Specs

@@ -1,33 +1,11 @@
 .. _traits-undefinedtrait:
 
-
 .. _undefined-trait:
 
 Undefined Trait
 +++++++++++++++
 
-.. meta::
-	:description:
-		Undefined Trait: Those are undefined, traits .
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Undefined Trait
-	:twitter:description: Undefined Trait: Those are undefined, traits 
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Undefined Trait
-	:og:type: article
-	:og:description: Those are undefined, traits 
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Trait.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/UndefinedTrait.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/UndefinedTrait.html","name":"Undefined Trait","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Those are undefined, traits ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Undefined Trait.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Those are undefined, traits . 
+  Those are undefined, traits . 
 
 When the using class or trait is instantiated, PHP emits a a fatal `error <https://www.php.net/error>`_.
 
@@ -56,7 +34,7 @@ Trait which are referenced in a `use` expression are omitted: they are considere
 Related PHP errors 
 -------------------
 
-  + `Trait '%s' not found <https://php-errors.readthedocs.io/en/latest/messages/trait-%22%25s%22-not-found.html>`_
+  + `Trait '%s' not found <https://php-errors.readthedocs.io/en/latest/messages/Trait+%27T%27+not+found.html>`_
 
 
 

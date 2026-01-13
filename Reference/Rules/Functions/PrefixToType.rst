@@ -1,33 +1,11 @@
 .. _functions-prefixtotype:
 
+.. _prefix-and-suffixes-with-typehint:
 
-.. _prefix-and-suffixes-with-type:
+Prefix And Suffixes With Typehint
++++++++++++++++++++++++++++++++++
 
-Prefix And Suffixes With Type
-+++++++++++++++++++++++++++++
-
-.. meta::
-	:description:
-		Prefix And Suffixes With Type: This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return type.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Prefix And Suffixes With Type
-	:twitter:description: Prefix And Suffixes With Type: This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return type
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Prefix And Suffixes With Type
-	:og:type: article
-	:og:description: This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return type
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Prefix And Suffixes With Type.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/PrefixToType.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/PrefixToType.html","name":"Prefix And Suffixes With Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Prefix And Suffixes With Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return type.
+  This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return typehint.
 
 For example, a method with the signature ``function isACustomer() {}`` should return a boolean. That boolean can then be read when calling the method : ``if ($user->isACustomer()) {}``.
 
@@ -38,11 +16,11 @@ There are 2 parameters for this analysis. It is recommended to customize them to
 
 The prefix is configured as the index of the map, while the related type is configured as the value of the map.
 
-``prefixToType['is'] = 'bool';`` will be use as ``is*`` shall use the ``bool`` type.
+``prefixToType['is'] = 'bool';`` will be use as ``is*`` shall use the ``bool`` typehint.
 
-Multiple types may be used at the same time. PHP supports multiple types since PHP 8.0, and Exakat will support them with any PHP version. Specify multiple types by separating them with comma. Any type not found in this list will be reported, including ``null``.
+Multiple typehints may be used at the same time. PHP supports multiple types since PHP 8.0, and Exakat will support them with any PHP version. Specify multiple types by separating them with comma. Any typehint not found in this list will be reported, including ``null``.
 
-PHP scalar types are available : ``string``, ``int``, ``void``, etc. Explicit types, based on classes or interfaces, must use the fully qualified name, not the short name. ``suffixToType['uuid'] = '\Uuid';`` will be use as ``*uuid`` shall use the ``\Uuid`` type.
+PHP scalar types are available : ``string``, ``int``, ``void``, etc. Explicit types, based on classes or interfaces, must use the fully qualified name, not the short name. ``suffixToType['uuid'] = '\Uuid';`` will be use as ``*uuid`` shall use the ``\Uuid`` typehint.
 
 When multiple rules applies, only one is reported.
 

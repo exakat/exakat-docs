@@ -1,33 +1,11 @@
 .. _performances-noglob:
 
-
 .. _avoid-glob()-usage:
 
 Avoid glob() Usage
 ++++++++++++++++++
 
-.. meta::
-	:description:
-		Avoid glob() Usage: glob() and scandir() sorts results by default.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Avoid glob() Usage
-	:twitter:description: Avoid glob() Usage: glob() and scandir() sorts results by default
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Avoid glob() Usage
-	:og:type: article
-	:og:description: glob() and scandir() sorts results by default
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid glob() Usage.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/NoGlob.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/NoGlob.html","name":"Avoid glob() Usage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"glob() and scandir() sorts results by default","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Avoid glob() Usage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-`glob() <https://www.php.net/glob>`_ and `scandir() <https://www.php.net/scandir>`_ sorts results by default. When that kind of sorting is not needed, save some time by requesting ``NOSORT`` with those functions.
+  `glob() <https://www.php.net/glob>`_ and `scandir() <https://www.php.net/scandir>`_ sorts results by default. When that kind of sorting is not needed, save some time by requesting ``NOSORT`` with those functions.
 
 Besides, whenever possible, use `scandir() <https://www.php.net/scandir>`_ instead of `glob() <https://www.php.net/glob>`_. 
 Using `opendir() <https://www.php.net/opendir>`_ and a while loop may be even faster. 
@@ -59,9 +37,9 @@ See also `Putting glob to the test <https://www.phparch.com/2010/04/putting-glob
 Connex PHP features
 -------------------
 
-  + `glob() <https://php-dictionary.readthedocs.io/en/latest/dictionary/glob.ini.html>`_
-  + `DirectoryIterator <https://php-dictionary.readthedocs.io/en/latest/dictionary/directoryiterator.ini.html>`_
-  + `FileSystemIterator <https://php-dictionary.readthedocs.io/en/latest/dictionary/filesystemiterator.ini.html>`_
+  + `glob <https://php-dictionary.readthedocs.io/en/latest/dictionary/glob.ini.html>`_
+  + `directoryiterator <https://php-dictionary.readthedocs.io/en/latest/dictionary/directoryiterator.ini.html>`_
+  + `filesystemiterator <https://php-dictionary.readthedocs.io/en/latest/dictionary/filesystemiterator.ini.html>`_
 
 
 Suggestions

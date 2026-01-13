@@ -1,28 +1,12 @@
 .. _classes-splitpropertydefinitions:
 
-.. meta::
-	:description:
-		Split Property Definitions: Split multiple properties definition into independent definitions.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Split Property Definitions
-	:twitter:description: Split Property Definitions: Split multiple properties definition into independent definitions
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Split Property Definitions
-	:og:type: article
-	:og:description: Split multiple properties definition into independent definitions
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Classes/SplitPropertyDefinitions.html
-	:og:locale: en
-
 .. _split-property-definitions:
 
 Split Property Definitions
 ++++++++++++++++++++++++++
 Split multiple properties definition into independent definitions. 
 
-This applies to classes and traits.
+This applies to classes and traits. 
 
 .. _split-property-definitions-before:
 

@@ -3,72 +3,53 @@
 CompatibilityPHP73
 ++++++++++++++++++
 
-.. meta::
-	:description:
-		CompatibilityPHP73: List features that are incompatible with PHP 7.3..
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: CompatibilityPHP73
-	:twitter:description: CompatibilityPHP73: List features that are incompatible with PHP 7.3.
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: CompatibilityPHP73
-	:og:type: article
-	:og:description: List features that are incompatible with PHP 7.3.
-	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/CompatibilityPHP73.html
-	:og:locale: en
-
 This ruleset centralizes all analysis for the migration from PHP 7.2 to 7.3.
 
-Total : 46 analysis
+Total : 43 analysis
 
-* :ref:`php-php73newfunctions`
-* :ref:`php-unknownpcre2option`
-* :ref:`php-compactinexistant`
-* :ref:`constants-caseinsensitiveconstants`
-* :ref:`php-assertfunctionisreserved`
-* :ref:`structures-continueisforloop`
-* :ref:`php-php73removedfunctions`
-* :ref:`structures-dontreadandwriteinoneexpression`
-* :ref:`php-typedpropertyusage`
-* :ref:`php-concatandaddition`
-* :ref:`php-unpackinginsidearrays`
-* :ref:`php-integerseparatorusage`
-* :ref:`php-php74newdirective`
-* :ref:`php-coalesceequal`
-* :ref:`php-php80onlytypehints`
-* :ref:`php-php80uniontypehint`
-* :ref:`php-signaturetrailingcomma`
-* :ref:`php-throwwasanexpression`
-* :ref:`php-enumusage`
-* :ref:`php-filesfullpath`
-* :ref:`php-finalconstant`
-* :ref:`php-nevertypehintusage`
-* :ref:`php-php81scalartypehints`
-* :ref:`php-php80scalartypehints`
-* :ref:`php-namedparameterusage`
-* :ref:`attributes-nestedattributes`
-* :ref:`php-newinitializers`
-* :ref:`interfaces-cantoverloadconstants`
-* :ref:`structures-arraymergewithellipsis`
-* :ref:`traits-noprivateabstract`
-* :ref:`php-cloneconstant`
-* :ref:`namespaces-nokeywordinnamespace`
-* :ref:`php-useenumcaseinconstantexpression`
-* :ref:`php-readonlypropertychangedbycloning`
-* :ref:`classes-newdynamicconstantsyntax`
-* :ref:`php-classaliassupportsinternalclasses`
-* :ref:`variables-redeclaredstaticvariable`
-* :ref:`php-staticvariabledefaultcanbeanyexpression`
-* :ref:`traits-finaltraitsarefinal`
-* :ref:`classes-typedclassconstants`
-* :ref:`functions-voidisnotareference`
-* :ref:`php-php81newtypes`
-* :ref:`php-php82newtypes`
-* :ref:`php-newwithoutparenthesis`
-* :ref:`php-closureinconstant`
-* :ref:`traits-nofinalalias`
+* :ref:`new-functions-in-php-7.3`
+* :ref:`unknown-pcre2-option`
+* :ref:`nonexistent-variable-in-compact()`
+* :ref:`case-insensitive-constants`
+* :ref:`assert-function-is-reserved`
+* :ref:`continue-is-for-loop`
+* :ref:`php-7.3-removed-functions`
+* :ref:`don't-read-and-write-in-one-expression`
+* :ref:`typed-property-usage`
+* :ref:`concat-and-addition`
+* :ref:`unpacking-inside-arrays`
+* :ref:`numeric-literal-separator`
+* :ref:`php-74-new-directives`
+* :ref:`coalesce-equal`
+* :ref:`php-8.0-only-typehints`
+* :ref:`union-typehint`
+* :ref:`signature-trailing-comma`
+* :ref:`throw-was-an-expression`
+* :ref:`enum-usage`
+* :ref:`$files-full\_path`
+* :ref:`final-constant`
+* :ref:`never-typehint-usage`
+* :ref:`php-8.1-typehints`
+* :ref:`php-8.0-typehints`
+* :ref:`named-parameter-usage`
+* :ref:`nested-attributes`
+* :ref:`new-initializers`
+* :ref:`cant-overload-constants`
+* :ref:`array\_merge-with-ellipsis`
+* :ref:`no-private-abstract-method-in-trait`
+* :ref:`clone-constant`
+* :ref:`no-keyword-in-namespace`
+* :ref:`use-enum-case-in-constant-expression`
+* :ref:`readonly-property-changed-by-cloning`
+* :ref:`new-dynamic-class-constant-syntax`
+* :ref:`class\_alias()-supports-internal-classes`
+* :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
+* :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
+* :ref:`void-is-not-a-reference`
+* :ref:`php-8.1-new-types`
+* :ref:`php-8.2-new-types`
 
 Specs
 _____

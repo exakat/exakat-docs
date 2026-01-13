@@ -1,33 +1,11 @@
 .. _variables-closenaming:
 
-
 .. _confusing-names:
 
 Confusing Names
 +++++++++++++++
 
-.. meta::
-	:description:
-		Confusing Names: The following variables's name are very close and may lead to confusion.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Confusing Names
-	:twitter:description: Confusing Names: The following variables's name are very close and may lead to confusion
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Confusing Names
-	:og:type: article
-	:og:description: The following variables's name are very close and may lead to confusion
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Confusing Names.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/CloseNaming.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/CloseNaming.html","name":"Confusing Names","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"The following variables's name are very close and may lead to confusion","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Confusing Names.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-The following variables's name are very close and may lead to confusion.
+  The following variables's name are very close and may lead to confusion.
 
 Variables are 3 letters long (at least). Variables names build with an extra ``s`` are omitted.
 Variables may be scattered across the code, or close to each other. 
@@ -79,8 +57,8 @@ See also `How to pick bad function and variable names <http://mojones.net/how-to
 Connex PHP features
 -------------------
 
-  + `Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
-  + `Semantics <https://php-dictionary.readthedocs.io/en/latest/dictionary/semantics.ini.html>`_
+  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `semantics <https://php-dictionary.readthedocs.io/en/latest/dictionary/semantics.ini.html>`_
 
 
 Suggestions

@@ -1,33 +1,11 @@
 .. _classes-pppdeclarationstyle:
 
-
 .. _properties-declaration-consistence:
 
 Properties Declaration Consistence
 ++++++++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Properties Declaration Consistence: Properties may be declared all at once, or one by one.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Properties Declaration Consistence
-	:twitter:description: Properties Declaration Consistence: Properties may be declared all at once, or one by one
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Properties Declaration Consistence
-	:og:type: article
-	:og:description: Properties may be declared all at once, or one by one
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Properties Declaration Consistence.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/PPPDeclarationStyle.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/PPPDeclarationStyle.html","name":"Properties Declaration Consistence","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Properties may be declared all at once, or one by one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Properties Declaration Consistence.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Properties may be declared all at once, or one by one. 
+  Properties may be declared all at once, or one by one. 
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 
 
@@ -73,7 +51,7 @@ See also `PSR-12: Properties and constants <https://www.php-fig.org/psr/psr-12/#
 Connex PHP features
 -------------------
 
-  + `Properties <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
 
 
 Suggestions

@@ -1,33 +1,11 @@
 .. _php-php84newfunctions:
 
-
 .. _new-functions-in-php-8.4:
 
 New Functions In PHP 8.4
 ++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		New Functions In PHP 8.4: New functions are added to new PHP version.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: New Functions In PHP 8.4
-	:twitter:description: New Functions In PHP 8.4: New functions are added to new PHP version
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: New Functions In PHP 8.4
-	:og:type: article
-	:og:description: New functions are added to new PHP version
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/New Functions In PHP 8.4.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php84NewFunctions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php84NewFunctions.html","name":"New Functions In PHP 8.4","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"New functions are added to new PHP version","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/New Functions In PHP 8.4.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-New functions are added to new PHP version.
+  New functions are added to new PHP version.
 
 The following functions are now native functions in PHP 8.4. It is compulsory to rename any custom function that was created in older versions. One alternative is to move the function to a custom namespace, and update the use list at the beginning of the script. 
 
@@ -84,11 +62,6 @@ The following functions are now native functions in PHP 8.4. It is compulsory to
    );
    
    ?>
-Connex PHP features
--------------------
-
-  + `Functions <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
-
 
 Specs
 _____
@@ -96,7 +69,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/Php84NewFunctions                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CompatibilityPHP84 <ruleset-CompatibilityPHP84>`                                        |
+| Rulesets     | :ref:`All <ruleset-All>`                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.6.8                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

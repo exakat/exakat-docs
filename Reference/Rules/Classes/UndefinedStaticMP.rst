@@ -1,33 +1,11 @@
 .. _classes-undefinedstaticmp:
 
-
 .. _undefined-static-or-self:
 
 Undefined static\:\: Or self\:\:
 ++++++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Undefined static:: Or self::: The identified property or method are undefined.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Undefined static:: Or self::
-	:twitter:description: Undefined static:: Or self::: The identified property or method are undefined
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Undefined static:: Or self::
-	:og:type: article
-	:og:description: The identified property or method are undefined
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined static:: Or self::.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UndefinedStaticMP.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UndefinedStaticMP.html","name":"Undefined static:: Or self::","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"The identified property or method are undefined","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Undefined static:: Or self::.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-The identified property or method are undefined. `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ refer to the current class, or one of its `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ or trait.
+  The identified property or method are undefined. `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ refer to the current class, or one of its `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ or trait.
 
 .. code-block:: php
    
@@ -53,8 +31,8 @@ See also `Late Static Bindings <https://www.php.net/manual/en/language.oop5.late
 Related PHP errors 
 -------------------
 
-  + `Access to undeclared static property: %s::$%s <https://php-errors.readthedocs.io/en/latest/messages/access-to-undeclared-static-property-%25s%3A%3A%24%25s.html>`_
-  + `Call to undefined method %s::%s() <https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-method-%25s%3A%3A%25s%28%29.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Access+to+undeclared+static+property%3A+x%3A%3A%24y.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Call+to+undefined+method+x%3A%3Ay%28%29.html>`_
 
 
 

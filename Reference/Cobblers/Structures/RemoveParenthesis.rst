@@ -1,21 +1,5 @@
 .. _structures-removeparenthesis:
 
-.. meta::
-	:description:
-		Remove Parenthesis: Remove useless parenthesis from return expression.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Remove Parenthesis
-	:twitter:description: Remove Parenthesis: Remove useless parenthesis from return expression
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Remove Parenthesis
-	:og:type: article
-	:og:description: Remove useless parenthesis from return expression
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Structures/RemoveParenthesis.html
-	:og:locale: en
-
 .. _remove-parenthesis:
 
 Remove Parenthesis

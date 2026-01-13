@@ -1,33 +1,11 @@
 .. _php-usesessionstartoptions:
 
-
 .. _use-session\_start()-options:
 
 Use session_start() Options
 +++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Use session_start() Options: It is possible to set the session's option at session_start() call, skipping the usage of session_option().
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Use session_start() Options
-	:twitter:description: Use session_start() Options: It is possible to set the session's option at session_start() call, skipping the usage of session_option()
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Use session_start() Options
-	:og:type: article
-	:og:description: It is possible to set the session's option at session_start() call, skipping the usage of session_option()
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use session_start() Options.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/UseSessionStartOptions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/UseSessionStartOptions.html","name":"Use session_start() Options","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"It is possible to set the session's option at session_start() call, skipping the usage of session_option()","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Use session_start() Options.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-It is possible to set the session's option at `session_start() <https://www.php.net/session_start>`_ call, skipping the usage of session_option().
+  It is possible to set the session's option at `session_start() <https://www.php.net/session_start>`_ call, skipping the usage of session_option().
 
 This way, session's options are set in one call, saving several hits.
 
@@ -52,7 +30,7 @@ This is available since PHP 7.0. It is recommended to set those values in the ``
 Connex PHP features
 -------------------
 
-  + `Session <https://php-dictionary.readthedocs.io/en/latest/dictionary/session.ini.html>`_
+  + `session <https://php-dictionary.readthedocs.io/en/latest/dictionary/session.ini.html>`_
 
 
 Suggestions

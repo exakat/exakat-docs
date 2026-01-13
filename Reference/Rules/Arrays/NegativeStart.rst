@@ -1,33 +1,11 @@
 .. _arrays-negativestart:
 
-
 .. _negative-start-index-in-array:
 
 Negative Start Index In Array
 +++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Negative Start Index In Array: Negative starting index in arrays changed in PHP 8.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Negative Start Index In Array
-	:twitter:description: Negative Start Index In Array: Negative starting index in arrays changed in PHP 8
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Negative Start Index In Array
-	:og:type: article
-	:og:description: Negative starting index in arrays changed in PHP 8
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Negative Start Index In Array.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/NegativeStart.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/NegativeStart.html","name":"Negative Start Index In Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"Negative starting index in arrays changed in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Negative Start Index In Array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Negative starting index in arrays changed in PHP 8.0. Until then, they were ignored, and automatic index started always at 0. Since PHP 8.0, the next index is calculated.
+  Negative starting index in arrays changed in PHP 8.0. Until then, they were ignored, and automatic index started always at 0. Since PHP 8.0, the next index is calculated.
 
 The behavior will `break <https://www.php.net/manual/en/control-structures.break.php>`_ code that relies on automatic index in arrays, when a negative index is used for a starter.
 
@@ -65,7 +43,7 @@ See also `PHP RFC: Arrays starting with a negative index <https://wiki.php.net/r
 Connex PHP features
 -------------------
 
-  + `Index <https://php-dictionary.readthedocs.io/en/latest/dictionary/index.ini.html>`_
+  + `index <https://php-dictionary.readthedocs.io/en/latest/dictionary/index.ini.html>`_
 
 
 Suggestions
@@ -94,7 +72,7 @@ _____
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                                                                         |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 8.0                                                                                                                                                                                 |
+| Changed Behavior | PHP 8.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                              |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                               |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -1,33 +1,11 @@
 .. _structures-constantcomparisonconsistance:
 
-
 .. _constant-comparison:
 
 Constant Comparison
 +++++++++++++++++++
 
-.. meta::
-	:description:
-		Constant Comparison: Constant to the left or right is a favorite.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Constant Comparison
-	:twitter:description: Constant Comparison: Constant to the left or right is a favorite
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Constant Comparison
-	:og:type: article
-	:og:description: Constant to the left or right is a favorite
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Comparison.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ConstantComparisonConsistance.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ConstantComparisonConsistance.html","name":"Constant Comparison","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Constant to the left or right is a favorite","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Constant Comparison.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Constant to the left or right is a favorite. 
+  Constant to the left or right is a favorite. 
 
 Comparisons are commutative : they may be $a == B or B == $a. The analyzed code show less than 10% of one of the two : for consistency reasons, it is recommended to make them all the same. 
 
@@ -58,7 +36,7 @@ Every comparison operator is used when finding the favorite.
 Connex PHP features
 -------------------
 
-  + `Comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
+  + `comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
 
 
 Specs

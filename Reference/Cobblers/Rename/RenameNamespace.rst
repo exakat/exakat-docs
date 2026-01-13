@@ -1,21 +1,5 @@
 .. _rename-renamenamespace:
 
-.. meta::
-	:description:
-		Rename A Namespace: Changes the name of a namespaces from A to B.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Rename A Namespace
-	:twitter:description: Rename A Namespace: Changes the name of a namespaces from A to B
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Rename A Namespace
-	:og:type: article
-	:og:description: Changes the name of a namespaces from A to B
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Rename/RenameNamespace.html
-	:og:locale: en
-
 .. _rename-a-namespace:
 
 Rename A Namespace

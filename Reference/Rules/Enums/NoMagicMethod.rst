@@ -1,33 +1,11 @@
 .. _enums-nomagicmethod:
 
-
 .. _no-magic-method-for-enum:
 
 No Magic Method For Enum
 ++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		No Magic Method For Enum: Enumeration cannot have magic methods, nor a constructor.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: No Magic Method For Enum
-	:twitter:description: No Magic Method For Enum: Enumeration cannot have magic methods, nor a constructor
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: No Magic Method For Enum
-	:og:type: article
-	:og:description: Enumeration cannot have magic methods, nor a constructor
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Magic Method For Enum.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Enums\/NoMagicMethod.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Enums\/NoMagicMethod.html","name":"No Magic Method For Enum","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"Enumeration cannot have magic methods, nor a constructor","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Magic Method For Enum.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Enumeration cannot have magic methods, nor a constructor. Enumeration cases are created as needed, and magic methods are interfering with the default behavior of enumerations.
+  Enumeration cannot have magic methods, nor a constructor. Enumeration cases are created as needed, and magic methods are interfering with the default behavior of enumerations.
 
 .. code-block:: php
    
@@ -52,8 +30,8 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `Enumeration (enum) <https://php-dictionary.readthedocs.io/en/latest/dictionary/enumeration.ini.html>`_
-  + `Magic Methods <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
+  + `enumeration <https://php-dictionary.readthedocs.io/en/latest/dictionary/enumeration.ini.html>`_
+  + `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
 
 
 Suggestions

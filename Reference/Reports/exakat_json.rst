@@ -6,22 +6,6 @@ Exakat Json
 Exakat Json
 ___________
 
-.. meta::
-	:description:
-		Exakat Json: The Exakat JSON report exports in a flat JSON format..
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Exakat Json
-	:twitter:description: Exakat Json: The Exakat JSON report exports in a flat JSON format.
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Exakat Json
-	:og:type: article
-	:og:description: The Exakat JSON report exports in a flat JSON format.
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
-	:og:locale: en
-
 The Exakat JSON report exports in a flat JSON format.
 
 Simple Json format. It is a flat array of objects, all with the same structure.
@@ -81,15 +65,5 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-
-
-Parameters
-__________
-
-+-------+---------+---------+--------------------------------------------------------------------------------------------------------------+
-| Name  | Default | Type    | Description                                                                                                  |
-+-------+---------+---------+--------------------------------------------------------------------------------------------------------------+
-| limit | -1      | integer | The maximum number of results to display. Use -1 to make the report provide all results. 0 displays nothing. |
-+-------+---------+---------+--------------------------------------------------------------------------------------------------------------+
 
 

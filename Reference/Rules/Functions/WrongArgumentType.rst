@@ -1,35 +1,12 @@
 .. _functions-wrongargumenttype:
 
-
 .. _wrong-argument-type:
 
 Wrong Argument Type
 +++++++++++++++++++
 
-.. meta::
-	:description:
-		Wrong Argument Type: Checks that the type of the argument is consistent with the type of the called method.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Wrong Argument Type
-	:twitter:description: Wrong Argument Type: Checks that the type of the argument is consistent with the type of the called method
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Wrong Argument Type
-	:og:type: article
-	:og:description: Checks that the type of the argument is consistent with the type of the called method
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Argument Type.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/WrongArgumentType.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/WrongArgumentType.html","name":"Wrong Argument Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Checks that the type of the argument is consistent with the type of the called method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Wrong Argument Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Checks that the type of the argument is consistent with the type of the called method.
-
-This analysis is valid since PHP 8.0.
+  Checks that the type of the argument is consistent with the type of the called method.
+This analysis is valid with PHP 8.0.
 
 .. code-block:: php
    
@@ -47,15 +24,15 @@ This analysis is valid since PHP 8.0.
 Related PHP errors 
 -------------------
 
-  + `Argument #%d ($%s) must be of type %s, %s given <https://php-errors.readthedocs.io/en/latest/messages/argument-%23%25d-%28%24%25s%29-must-be-of-type-%25s%2C-%25s-given.html>`_
+  + `Argument #1 ($s) must be of type array, int given <https://php-errors.readthedocs.io/en/latest/messages/Argument+%23%25d+%28%24%25s%29+must+be+of+type+%25s%2C+%25s+given.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
-  + `Argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
+  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
 
 
 Suggestions

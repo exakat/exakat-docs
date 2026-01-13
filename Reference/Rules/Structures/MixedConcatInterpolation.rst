@@ -1,33 +1,11 @@
 .. _structures-mixedconcatinterpolation:
 
-
 .. _mixed-concat-and-interpolation:
 
 Mixed Concat And Interpolation
 ++++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Mixed Concat And Interpolation: Mixed usage of concatenation and string interpolation is error prone.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Mixed Concat And Interpolation
-	:twitter:description: Mixed Concat And Interpolation: Mixed usage of concatenation and string interpolation is error prone
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Mixed Concat And Interpolation
-	:og:type: article
-	:og:description: Mixed usage of concatenation and string interpolation is error prone
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mixed Concat And Interpolation.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MixedConcatInterpolation.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MixedConcatInterpolation.html","name":"Mixed Concat And Interpolation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Mixed usage of concatenation and string interpolation is error prone","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Mixed Concat And Interpolation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Mixed usage of concatenation and string interpolation is `error <https://www.php.net/error>`_ prone. It is harder to read, and leads to overlooking the concatenation or the interpolation.
+  Mixed usage of concatenation and string interpolation is `error <https://www.php.net/error>`_ prone. It is harder to read, and leads to overlooking the concatenation or the interpolation.
 
 Fixing this issue has no impact on the output. It makes code less `error <https://www.php.net/error>`_ prone.
 
@@ -58,8 +36,8 @@ There are some situations where using concatenation are compulsory : when using 
 Connex PHP features
 -------------------
 
-  + `Interpolation <https://php-dictionary.readthedocs.io/en/latest/dictionary/interpolation.ini.html>`_
-  + `Concatenation <https://php-dictionary.readthedocs.io/en/latest/dictionary/concat.ini.html>`_
+  + `interpolation <https://php-dictionary.readthedocs.io/en/latest/dictionary/interpolation.ini.html>`_
+  + `concat <https://php-dictionary.readthedocs.io/en/latest/dictionary/concat.ini.html>`_
 
 
 Suggestions

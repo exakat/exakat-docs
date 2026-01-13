@@ -1,33 +1,11 @@
 .. _structures-duplicatecalls:
 
-
 .. _duplicate-calls:
 
 Duplicate Calls
 +++++++++++++++
 
-.. meta::
-	:description:
-		Duplicate Calls: Duplicate calls within the same context.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Duplicate Calls
-	:twitter:description: Duplicate Calls: Duplicate calls within the same context
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Duplicate Calls
-	:og:type: article
-	:og:description: Duplicate calls within the same context
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Duplicate Calls.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DuplicateCalls.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DuplicateCalls.html","name":"Duplicate Calls","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Duplicate calls within the same context","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Duplicate Calls.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Duplicate calls within the same context. They should be called once, and then cached in a variable for reuse. 
+  Duplicate calls within the same context. They should be called once, and then cached in a variable for reuse. 
 
 This saves a lot of time of execution and reexecution of the same code. It is a micro-optimisation in case of a simple property fetch, but it may be more costly.
 
@@ -50,8 +28,8 @@ See also `Userland naming Guide <https://www.php.net/manual/en/userlandnaming.ph
 Connex PHP features
 -------------------
 
-  + `Call <https://php-dictionary.readthedocs.io/en/latest/dictionary/call.ini.html>`_
-  + `Micro-optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html>`_
+  + `calls <https://php-dictionary.readthedocs.io/en/latest/dictionary/calls.ini.html>`_
+  + `micro-optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html>`_
 
 
 Specs

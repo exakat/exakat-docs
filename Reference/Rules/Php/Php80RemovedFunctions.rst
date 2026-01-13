@@ -1,33 +1,11 @@
 .. _php-php80removedfunctions:
 
-
 .. _php-8.0-removed-functions:
 
 PHP 8.0 Removed Functions
 +++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		PHP 8.0 Removed Functions: The following PHP native functions were deprecated in PHP 8.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: PHP 8.0 Removed Functions
-	:twitter:description: PHP 8.0 Removed Functions: The following PHP native functions were deprecated in PHP 8
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: PHP 8.0 Removed Functions
-	:og:type: article
-	:og:description: The following PHP native functions were deprecated in PHP 8
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 8.0 Removed Functions.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php80RemovedFunctions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php80RemovedFunctions.html","name":"PHP 8.0 Removed Functions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"The following PHP native functions were deprecated in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/PHP 8.0 Removed Functions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-The following PHP native functions were deprecated in PHP 8.0, and will be removed in PHP 9.0.
+  The following PHP native functions were deprecated in PHP 8.0, and will be removed in PHP 9.0.
 
 * image2wbmp()
 * png2wbmp()
@@ -61,21 +39,12 @@ The following PHP native functions were deprecated in PHP 8.0, and will be remov
 * mbereg_search_getpos()
 * mbereg_search_setpos()
 
-.. code-block:: php
-   
-   <?php
-   
-   $fp = fopen('/path/to/file.txt', 'r');
-   print fgetss($fp);
-   
-   ?>
-
 See also `Backward Incompatible Changes <https://www.php.net/manual/en/migration80.incompatible.php#migration80.incompatible>`_.
 
 Connex PHP features
 -------------------
 
-  + `Native <https://php-dictionary.readthedocs.io/en/latest/dictionary/native-function.ini.html>`_
+  + `native-function <https://php-dictionary.readthedocs.io/en/latest/dictionary/native-function.ini.html>`_
 
 
 Suggestions

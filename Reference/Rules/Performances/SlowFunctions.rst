@@ -1,33 +1,11 @@
 .. _performances-slowfunctions:
 
-
 .. _slow-functions:
 
 Slow Functions
 ++++++++++++++
 
-.. meta::
-	:description:
-		Slow Functions: Avoid using those slow native PHP functions, and replace them with alternatives.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Slow Functions
-	:twitter:description: Slow Functions: Avoid using those slow native PHP functions, and replace them with alternatives
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Slow Functions
-	:og:type: article
-	:og:description: Avoid using those slow native PHP functions, and replace them with alternatives
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Slow Functions.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/SlowFunctions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/SlowFunctions.html","name":"Slow Functions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Avoid using those slow native PHP functions, and replace them with alternatives","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Slow Functions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Avoid using those slow native PHP functions, and replace them with alternatives.
+  Avoid using those slow native PHP functions, and replace them with alternatives.
 +---------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+
 | Slow Function                                                 |  Faster                                                                                                                    | 
 +---------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+
@@ -49,9 +27,9 @@ Avoid using those slow native PHP functions, and replace them with alternatives.
 | `array_unique() <https://www.php.net/array_unique>`_          |  `array_keys() <https://www.php.net/array_keys>`_ and `array_count_values() <https://www.php.net/array_count_values>`_     | 
 +---------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+
 
-`array_unique() <https://www.php.net/array_unique>`_ has been accelerated in PHP 7.2 and may be used directly from this version on : `Optimize `array_unique() <https://www.php.net/array_unique>`_ <https://github.`com <https://www.php.net/com>`_/php/php-src/commit/6c2c7a023da4223e41fea0225c51a417fc8eb10d>`_.
+`array_unique() <https://www.php.net/array_unique>`_ has been accelerated in PHP 7.2 and may be used directly from this version on : `Optimize `array_unique() <https://www.php.net/array_unique>`_ <https://github.com/php/php-src/commit/6c2c7a023da4223e41fea0225c51a417fc8eb10d>`_.
 
-`array_key_exists() <https://www.php.net/array_key_exists>`_ has been accelerated in PHP 7.4 and may be used directly from this version on : `Implement ZEND_ARRAY_KEY_EXISTS opcode to speed up `array_key_exists() <https://www.php.net/array_key_exists>`_ <https://github.`com <https://www.php.net/com>`_/php/php-src/pull/3360>`_.
+`array_key_exists() <https://www.php.net/array_key_exists>`_ has been accelerated in PHP 7.4 and may be used directly from this version on : `Implement ZEND_ARRAY_KEY_EXISTS opcode to speed up `array_key_exists() <https://www.php.net/array_key_exists>`_ <https://github.com/php/php-src/pull/3360>`_.
 
 .. code-block:: php
    

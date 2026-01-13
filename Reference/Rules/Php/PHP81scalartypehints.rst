@@ -1,33 +1,11 @@
 .. _php-php81scalartypehints:
 
+.. _php-8.1-typehints:
 
-.. _php-8.1-types:
+PHP 8.1 Typehints
++++++++++++++++++
 
-PHP 8.1 Types
-+++++++++++++
-
-.. meta::
-	:description:
-		PHP 8.1 Types: A new type was introduced : ``never``.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: PHP 8.1 Types
-	:twitter:description: PHP 8.1 Types: A new type was introduced : ``never``
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: PHP 8.1 Types
-	:og:type: article
-	:og:description: A new type was introduced : ``never``
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 8.1 Types.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/PHP81scalartypehints.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/PHP81scalartypehints.html","name":"PHP 8.1 Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"A new type was introduced : ``never``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/PHP 8.1 Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-A new type was introduced : ``never``. 
+  A new scalar typehint was introduced : never. 
 
 It can't be used before PHP 8.1, and will be confused with classes or interfaces.
 
@@ -47,7 +25,7 @@ See also  `PHP RFC: noreturn type <https://wiki.php.net/rfc/noreturn_type>`_.
 Connex PHP features
 -------------------
 
-  + `Scalar Types <https://php-dictionary.readthedocs.io/en/latest/dictionary/scalar-type.ini.html>`_
+  + `scalar-typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/scalar-typehint.ini.html>`_
 
 
 Specs

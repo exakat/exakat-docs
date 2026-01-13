@@ -1,35 +1,15 @@
 .. _structures-tostringthrowsexception:
 
-
 .. _\_\_tostring()-throws-exception:
 
 __toString() Throws Exception
 +++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		__toString() Throws Exception: Magical method __toString() can't throw exceptions.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: __toString() Throws Exception
-	:twitter:description: __toString() Throws Exception: Magical method __toString() can't throw exceptions
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: __toString() Throws Exception
-	:og:type: article
-	:og:description: Magical method __toString() can't throw exceptions
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/__toString() Throws Exception.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/toStringThrowsException.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/toStringThrowsException.html","name":"__toString() Throws Exception","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Magical method __toString() can't throw exceptions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/__toString() Throws Exception.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Magical method `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ can't throw exceptions.
+  Magical method `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ can't throw exceptions.
 
 In fact, `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ may not let an `exception <https://www.php.net/exception>`_ pass. If it throw an `exception <https://www.php.net/exception>`_, but must catch it. If an underlying method throws an `exception <https://www.php.net/exception>`_, it must be caught.
+
+
 
 A fatal `error <https://www.php.net/error>`_ is displayed, when an `exception <https://www.php.net/exception>`_ is not intercepted in the `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ function.
 
@@ -58,11 +38,18 @@ A fatal `error <https://www.php.net/error>`_ is displayed, when an `exception <h
 
 See also __toString().
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Method+myString%3A%3A__toString%28%29+must+not+throw+an+exception.html>`_
+
+
+
 Connex PHP features
 -------------------
 
-  + `Exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
-  + `Magic Methods <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
+  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+  + `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
 
 
 Suggestions

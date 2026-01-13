@@ -1,33 +1,11 @@
 .. _php-stringintcomparison:
 
-
 .. _string-int-comparison:
 
 String Int Comparison
 +++++++++++++++++++++
 
-.. meta::
-	:description:
-		String Int Comparison: While PHP allows direct comparison of integer and strings, with some type conversion, the rules of conversion changed in PHP 8.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: String Int Comparison
-	:twitter:description: String Int Comparison: While PHP allows direct comparison of integer and strings, with some type conversion, the rules of conversion changed in PHP 8
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: String Int Comparison
-	:og:type: article
-	:og:description: While PHP allows direct comparison of integer and strings, with some type conversion, the rules of conversion changed in PHP 8
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/String Int Comparison.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/StringIntComparison.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/StringIntComparison.html","name":"String Int Comparison","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:52:58 +0000","dateModified":"Tue, 14 Jan 2025 12:52:58 +0000","description":"While PHP allows direct comparison of integer and strings, with some type conversion, the rules of conversion changed in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/String Int Comparison.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-While PHP allows direct comparison of integer and strings, with some type conversion, the rules of conversion changed in PHP 8.0. This lead to a change in behavior for comparison.
+  While PHP allows direct comparison of integer and strings, with some type conversion, the rules of conversion changed in PHP 8.0. This lead to a change in behavior for comparison.
 
 In particular, strings that are equal to 0, or empty strings, have changed.
 
@@ -53,7 +31,7 @@ See also `String to Number Comparison <https://www.php.net/manual/en/migration80
 Connex PHP features
 -------------------
 
-  + `Comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
+  + `comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
 
 
 Suggestions
@@ -80,7 +58,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                      |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 8.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/stringIntegerComparison.html>`__                    |
+| Changed Behavior | PHP 8.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                           |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Medium                                                                                                                               |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

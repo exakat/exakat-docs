@@ -1,33 +1,11 @@
 .. _classes-implementisforinterface:
 
-
 .. _implements-is-for-interface:
 
 Implements Is For Interface
 +++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Implements Is For Interface: With class heritage, implements should be used for interfaces, and extends with classes.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Implements Is For Interface
-	:twitter:description: Implements Is For Interface: With class heritage, implements should be used for interfaces, and extends with classes
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Implements Is For Interface
-	:og:type: article
-	:og:description: With class heritage, implements should be used for interfaces, and extends with classes
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Implements Is For Interface.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ImplementIsForInterface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ImplementIsForInterface.html","name":"Implements Is For Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"With class heritage, implements should be used for interfaces, and extends with classes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Implements Is For Interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-With class heritage, implements should be used for interfaces, and extends with classes.
+  With class heritage, implements should be used for interfaces, and extends with classes.
 
 PHP defers the implements check until execution : the code in example does lint, but won,t run.
 
@@ -53,7 +31,7 @@ PHP defers the implements check until execution : the code in example does lint,
 Related PHP errors 
 -------------------
 
-  + `%s cannot implement %s - it is not an interface <https://php-errors.readthedocs.io/en/latest/messages/%25s-cannot-implement-%25s---it-is-not-an-interface.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/b+cannot+implement+a+-+it+is+not+an+interface.html>`_
 
 
 
@@ -61,7 +39,7 @@ Connex PHP features
 -------------------
 
   + `implements <https://php-dictionary.readthedocs.io/en/latest/dictionary/implements.ini.html>`_
-  + `Interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
 
 
 Suggestions

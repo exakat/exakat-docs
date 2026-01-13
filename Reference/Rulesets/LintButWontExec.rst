@@ -3,74 +3,58 @@
 LintButWontExec
 +++++++++++++++
 
-.. meta::
-	:description:
-		LintButWontExec: Check the code for common errors that will lead to a Fatal error on production, but lint fine..
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: LintButWontExec
-	:twitter:description: LintButWontExec: Check the code for common errors that will lead to a Fatal error on production, but lint fine.
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: LintButWontExec
-	:og:type: article
-	:og:description: Check the code for common errors that will lead to a Fatal error on production, but lint fine.
-	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/LintButWontExec.html
-	:og:locale: en
-
 This ruleset focuses on PHP code that lint (php -l), but that will not run. As such, this ruleset tries to go further than PHP, by connecting files, just like during execution.
 
 Total : 48 analysis
 
-* :ref:`classes-finalclass`
-* :ref:`classes-finalmethod`
-* :ref:`classes-thisisforclasses`
-* :ref:`classes-mutualextension`
-* :ref:`classes-undefinedconstants`
-* :ref:`functions-mustreturn`
-* :ref:`interfaces-undefinedinterfaces`
-* :ref:`classes-noselfreferencingconstant`
-* :ref:`classes-usingthisoutsideaclass`
-* :ref:`traits-undefinedtrait`
-* :ref:`classes-raisedaccesslevel`
-* :ref:`classes-nopssoutsideclass`
-* :ref:`classes-implementedmethodsarepublic`
-* :ref:`classes-nomagicwitharray`
-* :ref:`classes-methodsignaturemustbecompatible`
-* :ref:`functions-mismatchtypeanddefault`
-* :ref:`exceptions-cantthrow`
-* :ref:`classes-abstractorimplements`
-* :ref:`classes-incompatiblesignature`
-* :ref:`traits-undefinedinsteadof`
-* :ref:`traits-methodcollisiontraits`
-* :ref:`functions-onlyvariableforreference`
-* :ref:`interfaces-repeatedinterface`
-* :ref:`interfaces-avoidselfininterface`
-* :ref:`traits-uselessalias`
-* :ref:`functions-typehintmustbereturned`
-* :ref:`classes-clonewithnonobject`
-* :ref:`traits-traitnotfound`
-* :ref:`functions-wrongreturnedtype`
-* :ref:`interfaces-isnotimplemented`
-* :ref:`interfaces-cantimplementtraversable`
-* :ref:`classes-wrongtypedpropertyinit`
-* :ref:`classes-mismatchproperties`
-* :ref:`classes-couldbestringable`
-* :ref:`classes-inheritedpropertymustmatch`
-* :ref:`functions-duplicatenamedparameter`
-* :ref:`php-jsonserializereturntype`
-* :ref:`php-falsetoarray`
-* :ref:`functions-deprecatedcallable`
-* :ref:`interfaces-cantoverloadconstants`
-* :ref:`classes-cantoverwritefinalconstant`
-* :ref:`structures-implicitconversiontoint`
-* :ref:`enums-nomagicmethod`
-* :ref:`typehints-wrongtypewithdefault`
-* :ref:`php-cloneconstant`
-* :ref:`structures-invalidcast`
-* :ref:`php-onlyvariablepassedbyreference`
-* :ref:`enums-duplicatecasevalue`
+* :ref:`final-class-usage`
+* :ref:`final-methods-usage`
+* :ref:`$this-belongs-to-classes-or-traits`
+* :ref:`classes-mutually-extending-each-other`
+* :ref:`undefined-class-constants`
+* :ref:`must-return-methods`
+* :ref:`undefined-interfaces`
+* :ref:`no-self-referencing-constant`
+* :ref:`using-$this-outside-a-class`
+* :ref:`undefined-trait`
+* :ref:`raised-access-level`
+* :ref:`self,-parent,-static-outside-class`
+* :ref:`implemented-methods-must-be-public`
+* :ref:`no-magic-method-with-array`
+* :ref:`method-signature-must-be-compatible`
+* :ref:`mismatch-type-and-default`
+* :ref:`can't-implement-throwable`
+* :ref:`abstract-or-implements`
+* :ref:`incompatible-signature-methods`
+* :ref:`undefined-insteadof`
+* :ref:`method-collision-traits`
+* :ref:`only-variable-for-reference`
+* :ref:`repeated-interface`
+* :ref:`avoid-self-in-interface`
+* :ref:`useless-method-alias`
+* :ref:`type-must-be-returned`
+* :ref:`clone-with-non-object`
+* :ref:`trait-not-found`
+* :ref:`wrong-type-returned`
+* :ref:`interfaces-is-not-implemented`
+* :ref:`can't-implement-traversable`
+* :ref:`wrong-typed-property-default`
+* :ref:`mismatch-properties-typehints`
+* :ref:`could-be-stringable`
+* :ref:`inherited-property-type-must-match`
+* :ref:`duplicate-named-parameter`
+* :ref:`php-native-interfaces-and-return-type`
+* :ref:`false-to-array-conversion`
+* :ref:`deprecated-callable`
+* :ref:`cant-overload-constants`
+* :ref:`can't-overwrite-final-constant`
+* :ref:`implicit-conversion-to-int`
+* :ref:`no-magic-method-for-enum`
+* :ref:`wrong-type-with-default`
+* :ref:`clone-constant`
+* :ref:`invalid-cast`
+* :ref:`only-variable-passed-by-reference`
+* :ref:`duplicate-enum-case-value`
 
 Specs
 _____

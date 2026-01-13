@@ -1,33 +1,11 @@
 .. _variables-php5indirectexpression:
 
-
 .. _php5-indirect-variable-expression:
 
 PHP5 Indirect Variable Expression
 +++++++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		PHP5 Indirect Variable Expression: Indirect variable expressions changes between PHP 5 an 7.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: PHP5 Indirect Variable Expression
-	:twitter:description: PHP5 Indirect Variable Expression: Indirect variable expressions changes between PHP 5 an 7
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: PHP5 Indirect Variable Expression
-	:og:type: article
-	:og:description: Indirect variable expressions changes between PHP 5 an 7
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP5 Indirect Variable Expression.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/Php5IndirectExpression.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/Php5IndirectExpression.html","name":"PHP5 Indirect Variable Expression","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Indirect variable expressions changes between PHP 5 an 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/PHP5 Indirect Variable Expression.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Indirect variable expressions changes between PHP 5 an 7.
+  Indirect variable expressions changes between PHP 5 an 7.
 
 The following structures are evaluated differently in PHP 5 and 7. It is recommended to review them or switch to a less ambiguous syntax.
 +-----------------------+-------------------------+-------------------------+
@@ -62,7 +40,7 @@ See also `Backward incompatible changes PHP 7.0 <https://www.php.net/manual/en/m
 Connex PHP features
 -------------------
 
-  + `global Scope <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
+  + `global <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
 
 
 Suggestions

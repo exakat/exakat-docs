@@ -1,33 +1,11 @@
 .. _classes-typedclassconstants:
 
-
 .. _typed-class-constants-usage:
 
 Typed Class Constants Usage
 +++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Typed Class Constants Usage: Class constants may be typed with the usual types, like a property or an argument.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Typed Class Constants Usage
-	:twitter:description: Typed Class Constants Usage: Class constants may be typed with the usual types, like a property or an argument
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Typed Class Constants Usage
-	:og:type: article
-	:og:description: Class constants may be typed with the usual types, like a property or an argument
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Typed Class Constants Usage.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/TypedClassConstants.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/TypedClassConstants.html","name":"Typed Class Constants Usage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Class constants may be typed with the usual types, like a property or an argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Typed Class Constants Usage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Class constants may be typed with the usual types, like a property or an argument. 
+  Class constants may be typed with the usual types, like a property or an argument. 
 
 While it appears to be a paradox to give a type to a structure which as a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ value, there are several situations where the type can be enforced: 
 
@@ -50,7 +28,7 @@ See also `PHP RFC: Typed class constants <https://wiki.php.net/rfc/typed_class_c
 Connex PHP features
 -------------------
 
-  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
 
 Specs

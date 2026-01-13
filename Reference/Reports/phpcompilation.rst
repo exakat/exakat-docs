@@ -6,22 +6,6 @@ PhpCompilation
 PhpCompilation
 ______________
 
-.. meta::
-	:description:
-		PhpCompilation: The PhpCompilation suggests a list of compilation directives when compiling the PHP binary, tailored for the code.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: PhpCompilation
-	:twitter:description: PhpCompilation: The PhpCompilation suggests a list of compilation directives when compiling the PHP binary, tailored for the code
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: PhpCompilation
-	:og:type: article
-	:og:description: The PhpCompilation suggests a list of compilation directives when compiling the PHP binary, tailored for the code
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
-	:og:locale: en
-
 The PhpCompilation suggests a list of compilation directives when compiling the PHP binary, tailored for the code
 
 PhpCompilation bases its selection on the code and its usage of features. PhpCompilation also recommends disabling unused standard extensions : this helps reducing the footprint of the binary, and prevents unused features to be available for intrusion. PhpCompilation is able to detects over 150 PHP extensions.
@@ -96,16 +80,16 @@ PhpCompilation bases its selection on the code and its usage of features. PhpCom
 Specs
 _____
 
-+--------------+---------------------------------------------+
-| Short name   | PhpCompilation                              |
-+--------------+---------------------------------------------+
-| Rulesets     | Appinfo.                                    |
-+--------------+---------------------------------------------+
-| Type         | Text                                        |
-+--------------+---------------------------------------------+
-| Target       | This report is written in 'compilePHP.txt'. |
-+--------------+---------------------------------------------+
-| Available in |                                             |
-+--------------+---------------------------------------------+
++--------------+------------------------------------------------------------------+
+| Short name   | PhpCompilation                                                   |
++--------------+------------------------------------------------------------------+
+| Rulesets     | Appinfo.                                                         |
++--------------+------------------------------------------------------------------+
+| Type         | Text                                                             |
++--------------+------------------------------------------------------------------+
+| Target       | This report is written in 'compilePHP.txt'.                      |
++--------------+------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
++--------------+------------------------------------------------------------------+
 
 

@@ -6,22 +6,6 @@ StubsJson
 StubsJson
 _________
 
-.. meta::
-	:description:
-		StubsJson: StubsJson produces a complete description of definitions from the code..
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: StubsJson
-	:twitter:description: StubsJson: StubsJson produces a complete description of definitions from the code.
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: StubsJson
-	:og:type: article
-	:og:description: StubsJson produces a complete description of definitions from the code.
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
-	:og:locale: en
-
 StubsJson produces a complete description of definitions from the code.
 
 StubsJson produces a complete description of definitions from the code. 
@@ -41,6 +25,9 @@ StubsJson produces a complete description of definitions from the code.
   + methods
 
 
+
+.. image:: ../images/report.stubs.json.png
+    :alt: Example of a StubsJson report (0)
 
 Specs
 _____

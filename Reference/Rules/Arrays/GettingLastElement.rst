@@ -1,33 +1,11 @@
 .. _arrays-gettinglastelement:
 
-
 .. _getting-last-element:
 
 Getting Last Element
 ++++++++++++++++++++
 
-.. meta::
-	:description:
-		Getting Last Element: Getting the last element of an array relies on array_key_last().
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Getting Last Element
-	:twitter:description: Getting Last Element: Getting the last element of an array relies on array_key_last()
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Getting Last Element
-	:og:type: article
-	:og:description: Getting the last element of an array relies on array_key_last()
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Getting Last Element.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/GettingLastElement.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/GettingLastElement.html","name":"Getting Last Element","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Getting the last element of an array relies on array_key_last()","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Getting Last Element.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Getting the last element of an array relies on `array_key_last() <https://www.php.net/array_key_last>`_.
+  Getting the last element of an array relies on `array_key_last() <https://www.php.net/array_key_last>`_.
 
 `array_key_last() <https://www.php.net/array_key_last>`_ was added in PHP 7.3. Before that, other ways had to be used, such as reaching the ``count() - 1`` elements, or via ``array_pop(`array_keys()) <https://www.php.net/array_keys>`_``.
 
@@ -64,7 +42,7 @@ Getting the last element of an array relies on `array_key_last() <https://www.ph
 Connex PHP features
 -------------------
 
-  + `Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
 
 
 Suggestions

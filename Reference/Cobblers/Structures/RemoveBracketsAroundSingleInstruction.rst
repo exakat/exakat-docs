@@ -1,21 +1,5 @@
 .. _structures-removebracketsaroundsingleinstruction:
 
-.. meta::
-	:description:
-		Remove Brackets Around Single Instruction: This cobbler removes brackets when they are not compulsory.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Remove Brackets Around Single Instruction
-	:twitter:description: Remove Brackets Around Single Instruction: This cobbler removes brackets when they are not compulsory
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Remove Brackets Around Single Instruction
-	:og:type: article
-	:og:description: This cobbler removes brackets when they are not compulsory
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Structures/RemoveBracketsAroundSingleInstruction.html
-	:og:locale: en
-
 .. _remove-brackets-around-single-instruction:
 
 Remove Brackets Around Single Instruction

@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1678 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1661 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -73,10 +73,6 @@ Here is the list of the current rulesets supported by Exakat Engine.
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-compatibilityphp83`             |List features that are incompatible with PHP 8.3.                                                     |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`ruleset-compatibilityphp84`             |List features that are incompatible with PHP 8.4.                                                     |
-+-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`ruleset-compatibilityphp85`             |List features that are incompatible with PHP 8.5.                                                     |
-+-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-dead-code`                      |Check the unused code or unreachable code.                                                            |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-deprecated`                     |List of deprecated features, across all PHP versions.                                                 |
@@ -100,10 +96,6 @@ Here is the list of the current rulesets supported by Exakat Engine.
 | :ref:`ruleset-one-liners`                     |Report expressions that are one liners.                                                               |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-php-recommendations`            |Report recommendations from the PHP manual.                                                           |
-+-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`ruleset-php-recommendations`            |Report recommendations from the PHP manual.                                                           |
-+-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`ruleset-php9deprecations`               |Check the code for the depreciations that will happen in PHP 9.                                       |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-performances`                   |Check the code for slow code.                                                                         |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
@@ -157,8 +149,6 @@ List of rulesets
    Rulesets/CompatibilityPHP81.rst
    Rulesets/CompatibilityPHP82.rst
    Rulesets/CompatibilityPHP83.rst
-   Rulesets/CompatibilityPHP84.rst
-   Rulesets/CompatibilityPHP85.rst
    Rulesets/Dead code.rst
    Rulesets/Deprecated.rst
    Rulesets/Dump.rst
@@ -171,8 +161,6 @@ List of rulesets
    Rulesets/NoDoc.rst
    Rulesets/OneLiners.rst
    Rulesets/PHP recommendations.rst
-   Rulesets/Php recommendations.rst
-   Rulesets/PHP9Deprecations.rst
    Rulesets/Performances.rst
    Rulesets/Preferences.rst
    Rulesets/Rector.rst

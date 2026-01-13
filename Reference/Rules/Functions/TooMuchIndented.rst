@@ -1,33 +1,11 @@
 .. _functions-toomuchindented:
 
-
 .. _too-much-indented:
 
 Too Much Indented
 +++++++++++++++++
 
-.. meta::
-	:description:
-		Too Much Indented: Reports methods that are using more than one level of indentation on average.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Too Much Indented
-	:twitter:description: Too Much Indented: Reports methods that are using more than one level of indentation on average
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Too Much Indented
-	:og:type: article
-	:og:description: Reports methods that are using more than one level of indentation on average
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Much Indented.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/TooMuchIndented.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/TooMuchIndented.html","name":"Too Much Indented","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 06 May 2025 16:54:00 +0000","dateModified":"Tue, 06 May 2025 16:54:00 +0000","description":"Reports methods that are using more than one level of indentation on average","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Too Much Indented.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Reports methods that are using more than one level of indentation on average. 
+  Reports methods that are using more than one level of indentation on average. 
 
 Indentations levels are counted for each for, foreach, if...then, while, do..while, try..catch..finally structure met. Compulsory expressions, such as conditions, are not counted in the total. Levels of indentation start at 0 (no indentation needed)
 
@@ -76,13 +54,13 @@ This analysis is distinct from Structures/MaxLevelOfIdentation, which only repor
    
    ?>
 
-+--------------------+---------+---------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Name               | Default | Type    | Description                                                                                                                                          |
-+--------------------+---------+---------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-| indentationAverage | 1       | integer | Minimal average of indentation in a method to report. Default is 1.0, which means that the method is on average at one level of indentation or more. |
-+--------------------+---------+---------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-| minimumSize        | 3       | integer | Minimal number of expressions in a method to apply this analysis.                                                                                    |
-+--------------------+---------+---------+------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------+---------+------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Name               | Default | Type | Description                                                                                                                                          |
++--------------------+---------+------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| indentationAverage | 1       | real | Minimal average of indentation in a method to report. Default is 1.0, which means that the method is on average at one level of indentation or more. |
++--------------------+---------+------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| minimumSize        | 3       | real | Minimal number of expressions in a method to apply this analysis.                                                                                    |
++--------------------+---------+------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 
@@ -91,7 +69,7 @@ See also :ref:`Max Level Of Nesting <max-level-of-nesting>`.
 Connex PHP features
 -------------------
 
-  + `Indentation <https://php-dictionary.readthedocs.io/en/latest/dictionary/indentation.ini.html>`_
+  + `indentation <https://php-dictionary.readthedocs.io/en/latest/dictionary/indentation.ini.html>`_
 
 
 Suggestions

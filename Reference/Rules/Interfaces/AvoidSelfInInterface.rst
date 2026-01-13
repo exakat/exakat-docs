@@ -1,33 +1,11 @@
 .. _interfaces-avoidselfininterface:
 
-
 .. _avoid-self-in-interface:
 
 Avoid Self In Interface
 +++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Avoid Self In Interface: Self and Parent are tricky when used in an interface.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Avoid Self In Interface
-	:twitter:description: Avoid Self In Interface: Self and Parent are tricky when used in an interface
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Avoid Self In Interface
-	:og:type: article
-	:og:description: Self and Parent are tricky when used in an interface
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid Self In Interface.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/AvoidSelfInInterface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/AvoidSelfInInterface.html","name":"Avoid Self In Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Self and Parent are tricky when used in an interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Avoid Self In Interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-`Self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ and `Parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ are tricky when used in an interface. 
+  `Self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ and `Parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ are tricky when used in an interface. 
 
 ``self`` refers to the current interface or its extended parents : as long as the constant is defined in the interface family, this is valid.  On the other hand, when ``self`` refers to the current class, the resolution of names would happen at execution time, leading to undefined errors.
 
@@ -67,16 +45,16 @@ Related PHP errors
 -------------------
 
   + `Cannot access parent:: when current class scope has no parent <https://php-errors.readthedocs.io/en/latest/messages/cannot-access-parent%3A%3A-when-current-class-scope-has-no-parent.html>`_
-  + `Undefined class constant <https://php-errors.readthedocs.io/en/latest/messages/undefined-class-constant-%27%25s%3A%3A%25s%27.html>`_
-  + `"static::" is not allowed in compile-time constants <https://php-errors.readthedocs.io/en/latest/messages/%22static%3A%3A%22-is-not-allowed-in-compile-time-constants.html>`_
+  + `Undefined class constant <https://php-errors.readthedocs.io/en/latest/messages/undefined-class-constant-%22%25s%5C%3A%5C%3A%25s%22.html>`_
+  + `"static::" is not allowed in compile-time constants <https://php-errors.readthedocs.io/en/latest/messages/%22static%3A%3A%22+is+not+allowed+in+compile-time+constants.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
-  + `Interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+  + `self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
+  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
 
 
 Suggestions

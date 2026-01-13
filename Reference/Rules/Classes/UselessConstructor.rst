@@ -1,33 +1,11 @@
 .. _classes-uselessconstructor:
 
-
 .. _useless-constructor:
 
 Useless Constructor
 +++++++++++++++++++
 
-.. meta::
-	:description:
-		Useless Constructor: Class constructor that have empty bodies are useless.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Useless Constructor
-	:twitter:description: Useless Constructor: Class constructor that have empty bodies are useless
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Useless Constructor
-	:og:type: article
-	:og:description: Class constructor that have empty bodies are useless
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Constructor.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UselessConstructor.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UselessConstructor.html","name":"Useless Constructor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Class constructor that have empty bodies are useless","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Useless Constructor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Class constructor that have empty bodies are useless. They may be removed, as they are not called.
+  Class constructor that have empty bodies are useless. They may be removed, as they are not called.
 
 One edge case is when the class has a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_, and the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ constructor must not be called.
 
@@ -55,7 +33,7 @@ Another edge case is promoted properties: the body of the constructor is still e
 Related PHP errors 
 -------------------
 
-  + `Cannot call constructor <https://php-errors.readthedocs.io/en/latest/messages/cannot-call-constructor.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+call+constructor.html>`_
 
 
 

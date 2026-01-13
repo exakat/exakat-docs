@@ -1,33 +1,11 @@
 .. _classes-usingthisoutsideaclass:
 
-
 .. _using-$this-outside-a-class:
 
 Using $this Outside A Class
 +++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Using $this Outside A Class: ``$this`` is a special variable, that should only be used in a class context.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Using $this Outside A Class
-	:twitter:description: Using $this Outside A Class: ``$this`` is a special variable, that should only be used in a class context
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Using $this Outside A Class
-	:og:type: article
-	:og:description: ``$this`` is a special variable, that should only be used in a class context
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Using $this Outside A Class.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UsingThisOutsideAClass.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UsingThisOutsideAClass.html","name":"Using $this Outside A Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"``$this`` is a special variable, that should only be used in a class context","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Using $this Outside A Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-``$this`` is a special variable, that should only be used in a class context. 
+  ``$this`` is a special variable, that should only be used in a class context. 
 
 Until PHP 7.1, ``$this`` may be used as an argument in a function or a method, a global, a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ : while this is legit, it sounds confusing enough to avoid it.
 Starting with PHP 7.1, the PHP `engine <https://www.php.net/engine>`_ check thoroughly that ``$this`` is used in an appropriate manner, and raise fatal errors in case it isn't. 
@@ -54,7 +32,7 @@ See also `Closure::bind <https://www.php.net/manual/en/closure.bind.php>`_ and `
 Related PHP errors 
 -------------------
 
-  + `Using $this when not in object context <https://php-errors.readthedocs.io/en/latest/messages/using-%24this-when-not-in-object-context.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Using+%24this+when+not+in+object+context.html>`_
 
 
 
@@ -80,7 +58,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Instant (5 mins)                                                                                                                                                                                                         |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 7.1 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/thisMustBeInObject.html>`__                                                                                                             |
+| Changed Behavior | PHP 7.1 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                                                               |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | High                                                                                                                                                                                                                     |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

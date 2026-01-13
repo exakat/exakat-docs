@@ -1,33 +1,11 @@
 .. _performances-memoizemagiccall:
 
-
 .. _memoize-magiccall:
 
 Memoize MagicCall
 +++++++++++++++++
 
-.. meta::
-	:description:
-		Memoize MagicCall: Cache calls to magic methods in local variable.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Memoize MagicCall
-	:twitter:description: Memoize MagicCall: Cache calls to magic methods in local variable
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Memoize MagicCall
-	:og:type: article
-	:og:description: Cache calls to magic methods in local variable
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Memoize MagicCall.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/MemoizeMagicCall.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/MemoizeMagicCall.html","name":"Memoize MagicCall","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Cache calls to magic methods in local variable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Memoize MagicCall.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Cache calls to magic methods in local variable. Local cache is faster than calling again the magic method as soon as the second call, provided that the value hasn't changed.
+  Cache calls to magic methods in local variable. Local cache is faster than calling again the magic method as soon as the second call, provided that the value hasn't changed.
 
 ``__get`` is slower, as it turns a simple member access into a full method call. 
 The caching is not possible if the processing of the object changes the value of the property.
@@ -78,7 +56,7 @@ See also `__get performance questions with PHP <https://stackoverflow.com/questi
 Connex PHP features
 -------------------
 
-  + `Memoization <https://php-dictionary.readthedocs.io/en/latest/dictionary/memoization.ini.html>`_
+  + `memoization <https://php-dictionary.readthedocs.io/en/latest/dictionary/memoization.ini.html>`_
 
 
 Suggestions

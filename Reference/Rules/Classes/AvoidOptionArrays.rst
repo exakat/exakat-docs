@@ -1,35 +1,11 @@
 .. _classes-avoidoptionarrays:
 
-
 .. _avoid-option-arrays-in-constructors:
 
 Avoid option arrays in constructors
 +++++++++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Avoid option arrays in constructors: Avoid option arrays in constructors.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Avoid option arrays in constructors
-	:twitter:description: Avoid option arrays in constructors: Avoid option arrays in constructors
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Avoid option arrays in constructors
-	:og:type: article
-	:og:description: Avoid option arrays in constructors
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid option arrays in constructors.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/AvoidOptionArrays.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/AvoidOptionArrays.html","name":"Avoid option arrays in constructors","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Avoid option arrays in constructors","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Avoid option arrays in constructors.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Avoid option arrays in constructors. Use one parameter per injected element.
-
-Arrays carry only the options at hand. They skip default values, or do not carry any checks and are prone to typos.
+  Avoid option arrays in constructors. Use one parameter per injected element.
 
 .. code-block:: php
    
@@ -63,15 +39,14 @@ Connex PHP features
 -------------------
 
   + `constructor <https://php-dictionary.readthedocs.io/en/latest/dictionary/constructor.ini.html>`_
-  + `option <https://php-dictionary.readthedocs.io/en/latest/dictionary/option.ini.html>`_
 
 
 Suggestions
 ___________
 
-* Spread the options in the argument list, one argument each.
-* Use a configuration class, that hold all the elements with clear names, instead of an array.
-* Use named parameters to pass and document the arguments.
+* Spread the options in the argument list, one argument each
+* Use a configuration class, that hold all the elements with clear names, instead of an array
+* Use named parameters to pass and document the arguments
 
 
 

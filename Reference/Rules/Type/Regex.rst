@@ -1,33 +1,11 @@
 .. _type-regex:
 
-
 .. _regex-inventory:
 
 Regex Inventory
 +++++++++++++++
 
-.. meta::
-	:description:
-		Regex Inventory: All regular expressions used in the code.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Regex Inventory
-	:twitter:description: Regex Inventory: All regular expressions used in the code
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Regex Inventory
-	:og:type: article
-	:og:description: All regular expressions used in the code
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Regex Inventory.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Type\/Regex.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Type\/Regex.html","name":"Regex Inventory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:52:58 +0000","dateModified":"Tue, 14 Jan 2025 12:52:58 +0000","description":"All regular expressions used in the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Regex Inventory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-All regular expressions used in the code. PHP relies on the PCRE extension to process them, with the functions `preg_match() <https://www.php.net/preg_match>`_, `preg_replace() <https://www.php.net/preg_replace>`_, etc. 
+  All regular expressions used in the code. PHP relies on the PCRE extension to process them, with the functions `preg_match() <https://www.php.net/preg_match>`_, `preg_replace() <https://www.php.net/preg_replace>`_, etc. 
 ``mbstring`` regular expressions are also collected. POSIX regex are not listed : they were deprecated in PHP 7.0.
 
 .. code-block:: php
@@ -47,14 +25,15 @@ See also `preg_match() <https://www.php.net/preg_match>`_, `ext/mbstring <http:/
 Related PHP errors 
 -------------------
 
-  + `No ending delimiter '/' <https://php-errors.readthedocs.io/en/latest/messages/no-ending-delimiter-%27%25c%27-found.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Delimiter+must+not+be+alphanumeric+or+backslash.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/No+ending+delimiter+%27%2F%27.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Regular Expressions <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
+  + `regex <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
 
 
 Specs

@@ -1,33 +1,11 @@
 .. _functions-toomanyparameters:
 
-
 .. _too-many-parameters:
 
 Too Many Parameters
 +++++++++++++++++++
 
-.. meta::
-	:description:
-		Too Many Parameters: Method has too many parameters.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Too Many Parameters
-	:twitter:description: Too Many Parameters: Method has too many parameters
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Too Many Parameters
-	:og:type: article
-	:og:description: Method has too many parameters
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Parameters.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/TooManyParameters.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/TooManyParameters.html","name":"Too Many Parameters","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Method has too many parameters","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Too Many Parameters.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Method has too many parameters. Exakat has a default parameter count which may be configured.
+  Method has too many parameters. Exakat has a default parameter count which may be configured.
 
 A method that needs more than 8 parameters is trying to do too much : it should be reviewed and split into smaller methods.
 
@@ -55,7 +33,7 @@ See also `How many parameters is too many ? <https://www.exakat.io/how-many-para
 Connex PHP features
 -------------------
 
-  + `Parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
+  + `parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
 
 
 Suggestions

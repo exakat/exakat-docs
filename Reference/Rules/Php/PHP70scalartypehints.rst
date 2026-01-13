@@ -1,33 +1,11 @@
 .. _php-php70scalartypehints:
 
+.. _php-7.0-scalar-typehints:
 
-.. _php-7.0-scalar-types:
+PHP 7.0 Scalar Typehints
+++++++++++++++++++++++++
 
-PHP 7.0 Scalar Types
-++++++++++++++++++++
-
-.. meta::
-	:description:
-		PHP 7.0 Scalar Types: New scalar types were introduced : ``bool``, ``int``, ``float``, ``string``.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: PHP 7.0 Scalar Types
-	:twitter:description: PHP 7.0 Scalar Types: New scalar types were introduced : ``bool``, ``int``, ``float``, ``string``
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: PHP 7.0 Scalar Types
-	:og:type: article
-	:og:description: New scalar types were introduced : ``bool``, ``int``, ``float``, ``string``
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 7.0 Scalar Types.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/PHP70scalartypehints.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/PHP70scalartypehints.html","name":"PHP 7.0 Scalar Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"New scalar types were introduced : ``bool``, ``int``, ``float``, ``string``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/PHP 7.0 Scalar Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-New scalar types were introduced : ``bool``, ``int``, ``float``, ``string``.
+  New scalar typehints were introduced : ``bool``, ``int``, ``float``, ``string``.
 
 They cannot be used before PHP 7.0, and will be confused with classes or interfaces.
 
@@ -52,7 +30,7 @@ See also `Scalar type declarations <https://www.php.net/manual/en/migration70.ne
 Connex PHP features
 -------------------
 
-  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
 
 
 Specs

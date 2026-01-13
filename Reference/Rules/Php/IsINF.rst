@@ -1,33 +1,11 @@
 .. _php-isinf:
 
-
 .. _manipulates-inf:
 
 Manipulates INF
 +++++++++++++++
 
-.. meta::
-	:description:
-		Manipulates INF: This code handles INF situations.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Manipulates INF
-	:twitter:description: Manipulates INF: This code handles INF situations
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Manipulates INF
-	:og:type: article
-	:og:description: This code handles INF situations
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Manipulates INF.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/IsINF.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/IsINF.html","name":"Manipulates INF","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"This code handles INF situations","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Manipulates INF.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-This code handles `INF <https://www.php.net/inf>`_ situations. `INF <https://www.php.net/inf>`_ represents the infinity, when used in a float context. It happens when a calculation returns a number that is much larger than the maximum allowed float (not integer), or a number that is not a Division by 0.
+  This code handles `INF <https://www.php.net/INF>`_ situations. `INF <https://www.php.net/INF>`_ represents the infinity, when used in a float context. It happens when a calculation returns a number that is much larger than the maximum allowed float (not integer), or a number that is not a Division by 0.
 
 .. code-block:: php
    
@@ -54,8 +32,8 @@ See also `Math predefined constants <https://www.php.net/manual/en/math.constant
 Connex PHP features
 -------------------
 
-  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
-  + `Interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
 
 
 Specs

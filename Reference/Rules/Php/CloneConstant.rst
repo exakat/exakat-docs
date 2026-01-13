@@ -1,33 +1,11 @@
 .. _php-cloneconstant:
 
-
 .. _clone-constant:
 
 Clone Constant
 ++++++++++++++
 
-.. meta::
-	:description:
-		Clone Constant: Cloning constant is possible since PHP 8.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Clone Constant
-	:twitter:description: Clone Constant: Cloning constant is possible since PHP 8
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Clone Constant
-	:og:type: article
-	:og:description: Cloning constant is possible since PHP 8
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Clone Constant.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/CloneConstant.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/CloneConstant.html","name":"Clone Constant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Cloning constant is possible since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Clone Constant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Cloning constant is possible since PHP 8.1. Until that version, constants could not be an object, and as such, could not be cloned. 
+  Cloning constant is possible since PHP 8.1. Until that version, constants could not be an object, and as such, could not be cloned. 
 
 This is also valid with default values, however they are assigned to a variable, which falls back to the classic clone usage.
 
@@ -48,7 +26,7 @@ See also `New in initializers <https://www.php.net/releases/8.1/en.php#new_in_in
 Related PHP errors 
 -------------------
 
-  + `__clone method called on non-object <https://php-errors.readthedocs.io/en/latest/messages/__clone-method-called-on-non-object.html>`_
+  + `__clone method called on non-object <https://php-errors.readthedocs.io/en/latest/messages/__clone+method+called+on+non-object.html>`_
 
 
 
@@ -56,7 +34,7 @@ Connex PHP features
 -------------------
 
   + `new <https://php-dictionary.readthedocs.io/en/latest/dictionary/new.ini.html>`_
-  + `Constants <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
 
 
 Specs

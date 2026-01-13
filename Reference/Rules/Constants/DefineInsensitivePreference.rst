@@ -1,33 +1,11 @@
 .. _constants-defineinsensitivepreference:
 
-
 .. _constant-case-preference:
 
 Constant Case Preference
 ++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Constant Case Preference: Define() creates constants which are case sensitive or not.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Constant Case Preference
-	:twitter:description: Constant Case Preference: Define() creates constants which are case sensitive or not
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Constant Case Preference
-	:og:type: article
-	:og:description: Define() creates constants which are case sensitive or not
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Case Preference.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Constants\/DefineInsensitivePreference.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Constants\/DefineInsensitivePreference.html","name":"Constant Case Preference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Define() creates constants which are case sensitive or not","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Constant Case Preference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-`Define() <https://www.php.net/define>`_ creates constants which are case sensitive or not. 
+  `Define() <https://www.php.net/define>`_ creates constants which are case sensitive or not. 
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make constant sensitivity definition consistent. 
 
@@ -57,15 +35,14 @@ See also `PHP Constants <https://www.php.net/manual/en/language.constants.php>`_
 Related PHP errors 
 -------------------
 
-  + `define(): Declaration of case-insensitive constants is deprecated <https://php-errors.readthedocs.io/en/latest/messages/define%28%29%3A-argument-%233-%28%24case_insensitive%29-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.html>`_
-  + `define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported <https://php-errors.readthedocs.io/en/latest/messages/define%28%29%3A-argument-%233-%28%24case_insensitive%29-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Case-insensitive+constants+are+deprecated.+The+correct+casing+for+this+constant+is+%22A%22.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Constants <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
 
 
 Specs

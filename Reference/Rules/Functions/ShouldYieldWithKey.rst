@@ -1,33 +1,11 @@
 .. _functions-shouldyieldwithkey:
 
-
 .. _should-yield-with-key:
 
 Should Yield With Key
 +++++++++++++++++++++
 
-.. meta::
-	:description:
-		Should Yield With Key: iterator_to_array() overwrite generated values with the same key.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Should Yield With Key
-	:twitter:description: Should Yield With Key: iterator_to_array() overwrite generated values with the same key
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Should Yield With Key
-	:og:type: article
-	:og:description: iterator_to_array() overwrite generated values with the same key
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Yield With Key.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/ShouldYieldWithKey.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/ShouldYieldWithKey.html","name":"Should Yield With Key","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"iterator_to_array() overwrite generated values with the same key","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Should Yield With Key.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-`iterator_to_array() <https://www.php.net/iterator_to_array>`_ overwrite generated values with the same key. 
+  `iterator_to_array() <https://www.php.net/iterator_to_array>`_ overwrite generated values with the same key. 
 
 PHP generators are based on the ``yield`` keyword. They also delegate some generating to other methods, with ``yield from``. 
 
@@ -35,7 +13,7 @@ When delegating, ``yield from`` uses the keys that are generated with ``yield``,
 
 The trap is that each ``yield from`` reset the index generation and start again with 0. Coupled with `iterator_to_array() <https://www.php.net/iterator_to_array>`_, this means that the final generated array may lack some values, while a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loop would yield all of them.
 
-Thanks to `Holger Woltersdorf <https://twitter.`com <https://www.php.net/com>`_/hollodotme>`_ for `pointing this <https://twitter.`com <https://www.php.net/com>`_/hollodotme/status/1057909890566537217>`_.
+Thanks to `Holger Woltersdorf <https://twitter.com/hollodotme>`_ for `pointing this <https://twitter.com/hollodotme/status/1057909890566537217>`_.
 
 .. code-block:: php
    
@@ -93,8 +71,8 @@ See also `Generator syntax <https://www.php.net/manual/en/language.generators.sy
 Connex PHP features
 -------------------
 
-  + `Yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
-  + `Index For Arrays <https://php-dictionary.readthedocs.io/en/latest/dictionary/key.ini.html>`_
+  + `yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
+  + `key <https://php-dictionary.readthedocs.io/en/latest/dictionary/key.ini.html>`_
 
 
 Suggestions

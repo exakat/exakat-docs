@@ -6,22 +6,6 @@ Perfile
 Perfile
 _______
 
-.. meta::
-	:description:
-		Perfile: The Perfile report lays out the results file per file..
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Perfile
-	:twitter:description: Perfile: The Perfile report lays out the results file per file.
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Perfile
-	:og:type: article
-	:og:description: The Perfile report lays out the results file per file.
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
-	:og:locale: en
-
 The Perfile report lays out the results file per file.
 
 The Perfile report displays one result per line, grouped by file, and ordered by line number. Here is an example : 

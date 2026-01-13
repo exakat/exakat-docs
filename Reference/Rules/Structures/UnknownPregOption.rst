@@ -1,33 +1,11 @@
 .. _structures-unknownpregoption:
 
-
 .. _unkown-regex-options:
 
 Unkown Regex Options
 ++++++++++++++++++++
 
-.. meta::
-	:description:
-		Unkown Regex Options: Regex support in PHP accepts the following list of options : ``eimsuxADJSUX``.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Unkown Regex Options
-	:twitter:description: Unkown Regex Options: Regex support in PHP accepts the following list of options : ``eimsuxADJSUX``
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Unkown Regex Options
-	:og:type: article
-	:og:description: Regex support in PHP accepts the following list of options : ``eimsuxADJSUX``
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unkown Regex Options.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UnknownPregOption.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UnknownPregOption.html","name":"Unkown Regex Options","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Regex support in PHP accepts the following list of options : ``eimsuxADJSUX``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Unkown Regex Options.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Regex support in PHP accepts the following list of options : ``eimsuxADJSUX``. 
+  Regex support in PHP accepts the following list of options : ``eimsuxADJSUX``. 
 
 All other letter used as option are not supported : depending on the situation, they may be ignored or raise an `error <https://www.php.net/error>`_.
 
@@ -48,7 +26,7 @@ See also `Pattern Modifiers <https://www.php.net/manual/en/reference.pcre.patter
 Connex PHP features
 -------------------
 
-  + `Regular Expressions <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
+  + `regex <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
 
 
 Suggestions

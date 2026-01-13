@@ -1,33 +1,11 @@
 .. _interfaces-undefinedinterfaces:
 
-
 .. _undefined-interfaces:
 
 Undefined Interfaces
 ++++++++++++++++++++
 
-.. meta::
-	:description:
-		Undefined Interfaces: Some types or ``instanceof`` that are relying on undefined interfaces or classes: the validation of the type will always fail and return false.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Undefined Interfaces
-	:twitter:description: Undefined Interfaces: Some types or ``instanceof`` that are relying on undefined interfaces or classes: the validation of the type will always fail and return false
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Undefined Interfaces
-	:og:type: article
-	:og:description: Some types or ``instanceof`` that are relying on undefined interfaces or classes: the validation of the type will always fail and return false
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Interfaces.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/UndefinedInterfaces.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/UndefinedInterfaces.html","name":"Undefined Interfaces","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Some types or ``instanceof`` that are relying on undefined interfaces or classes: the validation of the type will always fail and return false","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Undefined Interfaces.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Some types or ``instanceof`` that are relying on undefined interfaces or classes: the validation of the type will always fail and return `false <https://www.php.net/false>`_. Any condition based upon them are dead code.
+  Some types or ``instanceof`` that are relying on undefined interfaces or classes: the validation of the type will always fail and return false. Any condition based upon them are dead code.
 
 .. code-block:: php
    
@@ -53,14 +31,14 @@ See also `Object interfaces <https://www.php.net/manual/en/language.oop5.interfa
 Related PHP errors 
 -------------------
 
-  + `Argument #1 ($a) must be of type T <https://php-errors.readthedocs.io/en/latest/messages/argument-%23%25d-%28%24%25s%29-must-be-of-type-%25s%2C-%25s-given.html>`_
+  + `Argument #1 ($a) must be of type T <https://php-errors.readthedocs.io/en/latest/messages/argument-%23%25d-%5C%28%24%25s%5C%29-must-be-of-type-%25s%5C%2C-%25s-given.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
 
 
 Suggestions

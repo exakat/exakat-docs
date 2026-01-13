@@ -1,33 +1,11 @@
 .. _structures-ifwithsameconditions:
 
-
 .. _if-with-same-conditions:
 
 If With Same Conditions
 +++++++++++++++++++++++
 
-.. meta::
-	:description:
-		If With Same Conditions: Successive If / then structures that have the same condition may be either merged or have one of the condition changed.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: If With Same Conditions
-	:twitter:description: If With Same Conditions: Successive If / then structures that have the same condition may be either merged or have one of the condition changed
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: If With Same Conditions
-	:og:type: article
-	:og:description: Successive If / then structures that have the same condition may be either merged or have one of the condition changed
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/If With Same Conditions.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/IfWithSameConditions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/IfWithSameConditions.html","name":"If With Same Conditions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Successive If \/ then structures that have the same condition may be either merged or have one of the condition changed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/If With Same Conditions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Successive If / then structures that have the same condition may be either merged or have one of the condition changed. 
+  Successive If / then structures that have the same condition may be either merged or have one of the condition changed. 
 Note that if the values used in the condition have been modified in the first if/then structure, the two distinct conditions may be needed.
 
 .. code-block:: php

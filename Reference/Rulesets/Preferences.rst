@@ -3,66 +3,50 @@
 Preferences
 +++++++++++
 
-.. meta::
-	:description:
-		Preferences: Identify preferences in the code..
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Preferences
-	:twitter:description: Preferences: Identify preferences in the code.
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Preferences
-	:og:type: article
-	:og:description: Identify preferences in the code.
-	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Preferences.html
-	:og:locale: en
-
 This ruleset identify code with multiple forms, and report when one is more frequent than the others. Echo vs print, shell_exec() vs ``, etc.
 
 Total : 40 analysis
 
-* :ref:`constants-inconsistantcase`
-* :ref:`structures-echoprintconsistance`
-* :ref:`structures-constantcomparisonconsistance`
-* :ref:`structures-dieexitconsistance`
-* :ref:`arrays-arraybracketconsistence`
-* :ref:`php-globalsvsglobal`
-* :ref:`php-unsetorcast`
-* :ref:`php-closetagsconsistency`
-* :ref:`structures-oneexpressionbracketsconsistency`
-* :ref:`classes-newonfunctioncalloridentifier`
-* :ref:`structures-newlinestyle`
-* :ref:`structures-regexdelimiter`
-* :ref:`arrays-emptyfinal`
-* :ref:`structures-differencepreference`
-* :ref:`structures-concatenationinterpolationfavorite`
-* :ref:`structures-heredocdelimiterfavorite`
-* :ref:`php-declarestrict`
-* :ref:`php-declarestricttype`
-* :ref:`php-declareencoding`
-* :ref:`php-declareticks`
-* :ref:`php-lettercharslogicalfavorite`
-* :ref:`php-shellfavorite`
-* :ref:`classes-pppdeclarationstyle`
-* :ref:`structures-comparisonfavorite`
-* :ref:`structures-gtorltfavorite`
-* :ref:`constants-constdefinepreference`
-* :ref:`constants-defineinsensitivepreference`
-* :ref:`exceptions-catche`
-* :ref:`structures-notornot`
-* :ref:`functions-nulltypefavorite`
-* :ref:`structures-stringinterpolationfavorite`
-* :ref:`namespaces-constantwithusefavorite`
-* :ref:`structures-ifthenreturnfavorite`
-* :ref:`structures-arraycounttripleequal`
-* :ref:`structures-strictinarrayfavorite`
-* :ref:`structures-datetimepreference`
-* :ref:`structures-strormbfavorite`
-* :ref:`structures-shortorcompletecomparison`
-* :ref:`structures-castfavorite`
-* :ref:`structures-isaversusinstanceof`
+* :ref:`true-false-inconsistant-case`
+* :ref:`echo-or-print`
+* :ref:`constant-comparison`
+* :ref:`die-exit-consistence`
+* :ref:`array()---[--]-consistence`
+* :ref:`$globals-or-global`
+* :ref:`unset()-or-(unset)`
+* :ref:`close-tags-consistency`
+* :ref:`one-expression-brackets-consistency`
+* :ref:`new-on-functioncall-or-identifier`
+* :ref:`new-line-style`
+* :ref:`regex-delimiter`
+* :ref:`empty-final-element-in-array`
+* :ref:`difference-consistence`
+* :ref:`concatenation-interpolation-consistence`
+* :ref:`heredoc-delimiter`
+* :ref:`strict\_types-preference`
+* :ref:`declare-strict\_types-usage`
+* :ref:`encoding-usage`
+* :ref:`ticks-usage`
+* :ref:`logical-operators-favorite`
+* :ref:`shell-favorite`
+* :ref:`properties-declaration-consistence`
+* :ref:`strict-or-relaxed-comparison`
+* :ref:`comparisons-orientation`
+* :ref:`const-or-define-preference`
+* :ref:`constant-case-preference`
+* :ref:`caught-variable`
+* :ref:`not-or-tilde`
+* :ref:`null-type-favorite`
+* :ref:`string-interpolation-favorite`
+* :ref:`constant--with-or-without-use`
+* :ref:`if-then-return-favorite`
+* :ref:`empty-array-detection`
+* :ref:`strict-in\_array()-preference`
+* :ref:`date()-versus-datetime-preference`
+* :ref:`mono-or-multibytes-favorite`
+* :ref:`short-or-complete-comparison`
+* :ref:`favorite-casting-method`
+* :ref:`is\_a()-versus-instanceof`
 
 Specs
 _____

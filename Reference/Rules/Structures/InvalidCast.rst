@@ -1,33 +1,11 @@
 .. _structures-invalidcast:
 
-
 .. _invalid-cast:
 
 Invalid Cast
 ++++++++++++
 
-.. meta::
-	:description:
-		Invalid Cast: Some cast operations not permitted.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Invalid Cast
-	:twitter:description: Invalid Cast: Some cast operations not permitted
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Invalid Cast
-	:og:type: article
-	:og:description: Some cast operations not permitted
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Invalid Cast.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/InvalidCast.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/InvalidCast.html","name":"Invalid Cast","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Some cast operations not permitted","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Invalid Cast.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Some cast operations not permitted. 
+  Some cast operations not permitted. 
 
 + (string) on an object whose class doesn't have a ``__toString`` method
 + (int) on any object, except certain PHP native ones
@@ -49,16 +27,16 @@ Some cast operations not permitted.
 Related PHP errors 
 -------------------
 
-  + `Object of class stdClass could not be converted to float <https://php-errors.readthedocs.io/en/latest/messages/object-of-class-%25s-could-not-be-converted-to-float.html>`_
-  + `Object of class stdClass could not be converted to int <https://php-errors.readthedocs.io/en/latest/messages/object-of-class-%25s-could-not-be-converted-to-int.html>`_
-  + `Array to string conversion <https://php-errors.readthedocs.io/en/latest/messages/array-to-string-conversion.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Object+of+class+stdClass+could+not+be+converted+to+float.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Object+of+class+stdClass+could+not+be+converted+to+int.html>`_
+  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Array+to+string+conversion.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Cast Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+  + `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
 
 
 Specs

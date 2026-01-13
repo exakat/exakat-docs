@@ -1,33 +1,11 @@
 .. _typehints-wrongtypewithdefault:
 
-
 .. _wrong-type-with-default:
 
 Wrong Type With Default
 +++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Wrong Type With Default: The default value is not of the declared type.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Wrong Type With Default
-	:twitter:description: Wrong Type With Default: The default value is not of the declared type
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Wrong Type With Default
-	:og:type: article
-	:og:description: The default value is not of the declared type
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Type With Default.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Typehints\/WrongTypeWithDefault.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Typehints\/WrongTypeWithDefault.html","name":"Wrong Type With Default","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"The default value is not of the declared type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Wrong Type With Default.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-The default value is not of the declared type. 
+  The default value is not of the declared type. 
 
 For properties, this will generate an `error <https://www.php.net/error>`_ as soon as the default value is used : this is before constructor call for properties, and when the argument is omitted for promoted properties.
 
@@ -53,7 +31,7 @@ See also `When does PHP check for Fatal error <https://www.exakat.io/en/when-doe
 Related PHP errors 
 -------------------
 
-  + `Cannot assign %s to property %s::$%s of type %s <https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-%25s-to-property-%25s%3A%3A%24%25s-of-type-%25s.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+assign+string+to+property+A%3A%3A%24g+of+type+int.html>`_
 
 
 

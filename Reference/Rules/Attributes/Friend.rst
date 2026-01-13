@@ -1,33 +1,11 @@
 .. _attributes-friend:
 
-
 .. _friend-attribute:
 
 Friend Attribute
 ++++++++++++++++
 
-.. meta::
-	:description:
-		Friend Attribute: A method or class can supply via a #[Friend] attribute a list of classes.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Friend Attribute
-	:twitter:description: Friend Attribute: A method or class can supply via a #[Friend] attribute a list of classes
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Friend Attribute
-	:og:type: article
-	:og:description: A method or class can supply via a #[Friend] attribute a list of classes
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Friend Attribute.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Attributes\/Friend.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Attributes\/Friend.html","name":"Friend Attribute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"A method or class can supply via a #[Friend] attribute a list of classes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Friend Attribute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-A method or class can supply via a #[Friend] `attribute <https://www.php.net/attribute>`_ a list of classes. Only these classes can call the method. This is loosely based on the C++ friend feature.
+  A method or class can supply via a #[Friend] `attribute <https://www.php.net/attribute>`_ a list of classes. Only these classes can call the method. This is loosely based on the C++ friend feature.
 
 + Multiple classes can be specified. E.g. #[Friend(Foo\:\:class, Bar\:\:class)]
 + A class can have a #[Friend] `attribute <https://www.php.net/attribute>`_, classes listed here are applied to every method.
@@ -52,6 +30,7 @@ Based on the specificiations from Dave Liddament.
        }
    }
    
+   
    class PersonBuilder
    {
        public function build(): Person
@@ -61,6 +40,7 @@ Based on the specificiations from Dave Liddament.
            return $person;
        }
    }
+   
    
    // ERROR Call to Person::__construct is not from PersonBuilder
    $person = new Person();
@@ -72,7 +52,7 @@ See also `Friend <https://github.com/DaveLiddament/php-language-extensions#frien
 Connex PHP features
 -------------------
 
-  + `Attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
+  + `attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
 
 
 Suggestions

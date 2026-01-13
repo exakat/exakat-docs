@@ -1,33 +1,11 @@
 .. _php-versioncompareoperator:
 
+.. _version\_compare-operator:
 
-.. _version\_compare()-operator:
+version_compare Operator
+++++++++++++++++++++++++
 
-version_compare() Operator
-++++++++++++++++++++++++++
-
-.. meta::
-	:description:
-		version_compare() Operator: version_compare()'s third argument is checked for its value.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: version_compare() Operator
-	:twitter:description: version_compare() Operator: version_compare()'s third argument is checked for its value
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: version_compare() Operator
-	:og:type: article
-	:og:description: version_compare()'s third argument is checked for its value
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/version_compare() Operator.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/VersionCompareOperator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/VersionCompareOperator.html","name":"version_compare() Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"version_compare()'s third argument is checked for its value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/version_compare() Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-`version_compare() <https://www.php.net/version_compare>`_'s third argument is checked for its value. The third argument specifies the operator, which may be only one of the following : `<`, `lt`, `<=`, `le`, `>`, `gt`, `>=`, `ge`, `==`, `=`, `eq`, `!=`, `<>`, `ne`. The operator is case sensitive.
+  `version_compare() <https://www.php.net/version_compare>`_'s third argument is checked for value. The third argument specifies the operator, which may be only one of the following : `<`, `lt`, `<=`, `le`, `>`, `gt`, `>=`, `ge`, `==`, `=`, `eq`, `!=`, `<>`, `ne`. The operator is case sensitive.
 
 Until PHP 8.1, it was silently reverted to the default value. It is a deprecated warning in PHP 8.1 and will be finalized in PHP 9.0. It is recommended to fix this parameter in any PHP version.
 
@@ -48,14 +26,9 @@ Until PHP 8.1, it was silently reverted to the default value. It is a deprecated
 Related PHP errors 
 -------------------
 
-  + `version_compare(): Argument #3 ($operator) must be a valid comparison operator <https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-comparison-operator.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/version_compare%28%29%3A+Argument+%233+%28%24operator%29+must+be+a+valid+comparison+operator.html>`_
 
 
-
-Connex PHP features
--------------------
-
-  + `Validation <https://php-dictionary.readthedocs.io/en/latest/dictionary/validation.ini.html>`_
 
 
 Suggestions

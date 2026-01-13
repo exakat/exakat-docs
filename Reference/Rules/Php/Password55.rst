@@ -1,33 +1,11 @@
 .. _php-password55:
 
-
 .. _use-password\_hash():
 
 Use password_hash()
 +++++++++++++++++++
 
-.. meta::
-	:description:
-		Use password_hash(): password_hash() and password_check() are a better choice to replace the use of crypt() to check password.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Use password_hash()
-	:twitter:description: Use password_hash(): password_hash() and password_check() are a better choice to replace the use of crypt() to check password
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Use password_hash()
-	:og:type: article
-	:og:description: password_hash() and password_check() are a better choice to replace the use of crypt() to check password
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use password_hash().html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Password55.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Password55.html","name":"Use password_hash()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"password_hash() and password_check() are a better choice to replace the use of crypt() to check password","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Use password_hash().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-`password_hash() <https://www.php.net/password_hash>`_ and password_check() are a better choice to replace the use of `crypt() <https://www.php.net/crypt>`_ to check password.
+  `password_hash() <https://www.php.net/password_hash>`_ and password_check() are a better choice to replace the use of `crypt() <https://www.php.net/crypt>`_ to check password.
 
 PHP 5.5 introduced these functions.
 

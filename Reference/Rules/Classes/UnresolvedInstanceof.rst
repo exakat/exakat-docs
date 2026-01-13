@@ -1,33 +1,11 @@
 .. _classes-unresolvedinstanceof:
 
-
 .. _unresolved-instanceof:
 
 Unresolved Instanceof
 +++++++++++++++++++++
 
-.. meta::
-	:description:
-		Unresolved Instanceof: The instanceof operator doesn't confirm if the compared class exists.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Unresolved Instanceof
-	:twitter:description: Unresolved Instanceof: The instanceof operator doesn't confirm if the compared class exists
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Unresolved Instanceof
-	:og:type: article
-	:og:description: The instanceof operator doesn't confirm if the compared class exists
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unresolved Instanceof.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UnresolvedInstanceof.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UnresolvedInstanceof.html","name":"Unresolved Instanceof","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"The instanceof operator doesn't confirm if the compared class exists","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Unresolved Instanceof.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-The `instanceof <https://www.php.net/manual/en/language.operators.type.php>`_ operator doesn't confirm if the compared class exists. 
+  The `instanceof <https://www.php.net/manual/en/language.operators.type.php>`_ operator doesn't confirm if the compared class exists. 
 
 It checks if an variable is of a specific class. However, if the referenced class doesn't exist, because of a bug, a missed inclusion or a typo, the operator always fails, without a warning. 
 Make sure the following classes are well defined.

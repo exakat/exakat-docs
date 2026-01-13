@@ -1,37 +1,14 @@
 .. _classes-insufficientpropertytypehint:
 
+.. _insufficient-property-typehint:
 
-.. _insufficient-property-type:
+Insufficient Property Typehint
+++++++++++++++++++++++++++++++
 
-Insufficient Property Type
-++++++++++++++++++++++++++
+  The typehint used for a class property doesn't cover all it usage.
 
-.. meta::
-	:description:
-		Insufficient Property Type: The type used for a class property doesn't cover all it usage.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Insufficient Property Type
-	:twitter:description: Insufficient Property Type: The type used for a class property doesn't cover all it usage
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Insufficient Property Type
-	:og:type: article
-	:og:description: The type used for a class property doesn't cover all it usage
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Insufficient Property Type.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/InsufficientPropertyTypehint.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/InsufficientPropertyTypehint.html","name":"Insufficient Property Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"The type used for a class property doesn't cover all it usage","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Insufficient Property Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-The type used for a class property doesn't cover all it usage.
-
-The type is insufficient when a undefined method or constant is called, or if members are accessed while the type is an interface.
-
-This analysis relies on typed properties, as introduced in PHP 7.4. It also relies on typed assignations at construct time : the type of the assigned argument will be used as the property type. Getters and setters are not considered here.
+The typehint is insufficient when a undefined method or constant is called, or if members are accessed while the typehint is an interface.
+This analysis relies on typehinted properties, as introduced in PHP 7.4. It also relies on typehinted assignations at construct time : the typehint of the assigned argument will be used as the property typehint. Getters and setters are not considered here.
 
 .. code-block:: php
    
@@ -73,13 +50,13 @@ This analysis relies on typed properties, as introduced in PHP 7.4. It also reli
 Connex PHP features
 -------------------
 
-  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
 
 
 Suggestions
 ___________
 
-* Change the type to match the actual usage of the object in the class. 
+* Change the typehint to match the actual usage of the object in the class. 
 
 
 

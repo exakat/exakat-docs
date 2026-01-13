@@ -600,6 +600,10 @@ Analyzers may be configured in the `project/*/config.ini`; they may also be conf
   + minMagicCallsToGet : 2
 
     + Minimal number of calls of a magic property to make it worth locally caching.
+:ref:`Method Usage <method-usage>`
+  + searchFor : 
+
+    + Method to report in the codes : use static syntax to describe them : \a::foo(); \a\b\c::goo().
 :ref:`Missing Include <missing-include>`
   + constant_or_variable_name : 100
 
@@ -631,7 +635,7 @@ Analyzers may be configured in the `project/*/config.ini`; they may also be conf
   + allowedNames : 
 
     + PHP reserved names that can be used in the code. All in a string, comma separated.
-:ref:`Prefix And Suffixes With Type <prefix-and-suffixes-with-type>`
+:ref:`Prefix And Suffixes With Typehint <prefix-and-suffixes-with-typehint>`
   + prefixedType : prefixedType['is'] = 'bool';
 prefixedType['has'] = 'bool';
 prefixedType['set'] = 'void';

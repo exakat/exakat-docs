@@ -1,33 +1,11 @@
 .. _php-issetmultipleargs:
 
-
 .. _isset-multiple-arguments:
 
 Isset Multiple Arguments
 ++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Isset Multiple Arguments: isset() may be used with multiple arguments and acts as a AND.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Isset Multiple Arguments
-	:twitter:description: Isset Multiple Arguments: isset() may be used with multiple arguments and acts as a AND
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Isset Multiple Arguments
-	:og:type: article
-	:og:description: isset() may be used with multiple arguments and acts as a AND
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Isset Multiple Arguments.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/IssetMultipleArgs.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/IssetMultipleArgs.html","name":"Isset Multiple Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"isset() may be used with multiple arguments and acts as a AND","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Isset Multiple Arguments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-`isset() <https://www.www.php.net/isset>`_ may be used with multiple arguments and acts as a AND.
+  `isset() <https://www.www.php.net/isset>`_ may be used with multiple arguments and acts as a AND.
 
 .. code-block:: php
    
@@ -50,8 +28,8 @@ See also `Isset <http://www.php.net/isset>`_.
 Connex PHP features
 -------------------
 
-  + `Isset <https://php-dictionary.readthedocs.io/en/latest/dictionary/isset.ini.html>`_
-  + `Coalesce Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
+  + `isset <https://php-dictionary.readthedocs.io/en/latest/dictionary/isset.ini.html>`_
+  + `coalesce <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
 
 
 Suggestions

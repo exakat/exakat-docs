@@ -1,35 +1,14 @@
 .. _variables-novariableneeded:
 
-
 .. _no-variable-needed:
 
 No Variable Needed
 ++++++++++++++++++
 
-.. meta::
-	:description:
-		No Variable Needed: This analysis reports methods where the local variables are not needed.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: No Variable Needed
-	:twitter:description: No Variable Needed: This analysis reports methods where the local variables are not needed
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: No Variable Needed
-	:og:type: article
-	:og:description: This analysis reports methods where the local variables are not needed
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Variable Needed.html
-	:og:locale: en
+  This analysis reports methods where the local variables are not needed.
 
-.. raw:: html
+Such variables may be used to improve readability. 
 
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/NoVariableNeeded.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/NoVariableNeeded.html","name":"No Variable Needed","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"This analysis reports methods where the local variables are not needed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Variable Needed.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-This analysis reports methods where the local variables are not needed.
-
-Such variables may be used to improve readability.
 
 .. code-block:: php
    
@@ -42,13 +21,6 @@ Such variables may be used to improve readability.
    }
    
    ?>
-Connex PHP features
--------------------
-
-  + `Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
-  + `Useless <https://php-dictionary.readthedocs.io/en/latest/dictionary/useless.ini.html>`_
-  + `Readability <https://php-dictionary.readthedocs.io/en/latest/dictionary/readability.ini.html>`_
-
 
 Suggestions
 ___________

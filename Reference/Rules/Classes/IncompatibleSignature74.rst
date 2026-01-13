@@ -1,33 +1,11 @@
 .. _classes-incompatiblesignature74:
 
-
 .. _incompatible-signature-methods-with-covariance:
 
 Incompatible Signature Methods With Covariance
 ++++++++++++++++++++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Incompatible Signature Methods With Covariance: Methods should have the compatible signature when being overwritten.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Incompatible Signature Methods With Covariance
-	:twitter:description: Incompatible Signature Methods With Covariance: Methods should have the compatible signature when being overwritten
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Incompatible Signature Methods With Covariance
-	:og:type: article
-	:og:description: Methods should have the compatible signature when being overwritten
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Incompatible Signature Methods With Covariance.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/IncompatibleSignature74.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/IncompatibleSignature74.html","name":"Incompatible Signature Methods With Covariance","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Methods should have the compatible signature when being overwritten","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Incompatible Signature Methods With Covariance.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Methods should have the compatible signature when being overwritten.
+  Methods should have the compatible signature when being overwritten.
 
 The same signatures means the children class must have : 
 
@@ -60,16 +38,17 @@ See also `Object Inheritance <https://www.php.net/manual/en/language.oop5.inheri
 Related PHP errors 
 -------------------
 
-  + `Declaration of %s::%s($%s) should be compatible with %s::%s($%s = 1)  <https://php-errors.readthedocs.io/en/latest/messages/declaration-of-%25s-must-be-compatible-with-%25s.html>`_
-  + `Could not check compatibility between %s::%s(%s $%s) and %s::%s(%s $%s), because class %s is not available <https://php-errors.readthedocs.io/en/latest/messages/could-not-check-compatibility-between-%25s-and-%25s%2C-because-class-%25s-is-not-available.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Declaration+of+ab%3A%3Afoo%28%24a%29+should+be+compatible+with+a%3A%3Afoo%28%24a+%3D+1%29+.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Declaration+of+ab%3A%3Afoo%28%24a%29+must+be+compatible+with+a%3A%3Afoo%28%24a+%3D+1%29+.html>`_
+  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Could+not+check+compatibility+between+xx%3A%3Abar%28B+%24a%29+and+foo%3A%3Abar%28A+%24a%29%2C+because+class+A+is+not+available.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Covariance <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-covariance.ini.html>`_
-  + `Contravariance <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-contravariance.ini.html>`_
+  + `type-covariance <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-covariance.ini.html>`_
+  + `type-contravariance <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-contravariance.ini.html>`_
 
 
 Suggestions

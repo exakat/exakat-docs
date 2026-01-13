@@ -1,33 +1,11 @@
 .. _classes-toomanyinjections:
 
-
 .. _too-many-injections:
 
 Too Many Injections
 +++++++++++++++++++
 
-.. meta::
-	:description:
-		Too Many Injections: When a class is constructed with more than four dependencies, it should be split into smaller classes.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Too Many Injections
-	:twitter:description: Too Many Injections: When a class is constructed with more than four dependencies, it should be split into smaller classes
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Too Many Injections
-	:og:type: article
-	:og:description: When a class is constructed with more than four dependencies, it should be split into smaller classes
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Injections.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/TooManyInjections.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/TooManyInjections.html","name":"Too Many Injections","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"When a class is constructed with more than four dependencies, it should be split into smaller classes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Too Many Injections.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-When a class is constructed with more than four dependencies, it should be split into smaller classes.
+  When a class is constructed with more than four dependencies, it should be split into smaller classes.
 
 .. code-block:: php
    
@@ -65,7 +43,7 @@ See also `Dependency Injection Smells <http://seregazhuk.github.io/2017/05/04/di
 Connex PHP features
 -------------------
 
-  + `Injection <https://php-dictionary.readthedocs.io/en/latest/dictionary/injection.ini.html>`_
+  + `injection <https://php-dictionary.readthedocs.io/en/latest/dictionary/injection.ini.html>`_
 
 
 Suggestions

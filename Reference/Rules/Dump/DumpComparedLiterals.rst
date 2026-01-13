@@ -1,33 +1,11 @@
 .. _dump-dumpcomparedliterals:
 
-
 .. _collect-compared-literals:
 
 Collect Compared Literals
 +++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Collect Compared Literals: This collects the different literals (null, integers, floats, strings) that are used in comparisons.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Collect Compared Literals
-	:twitter:description: Collect Compared Literals: This collects the different literals (null, integers, floats, strings) that are used in comparisons
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Collect Compared Literals
-	:og:type: article
-	:og:description: This collects the different literals (null, integers, floats, strings) that are used in comparisons
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Compared Literals.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Dump\/DumpComparedLiterals.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Dump\/DumpComparedLiterals.html","name":"Collect Compared Literals","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"This collects the different literals (null, integers, floats, strings) that are used in comparisons","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Collect Compared Literals.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-This collects the different literals (`null <https://www.php.net/`null <https://www.php.net/null>`_>`_, integers, floats, strings) that are used in comparisons. 
+  This collects the different literals (null, integers, floats, strings) that are used in comparisons. 
 
 Comparisons include all the comparison operators : <, >, <=, >=, !=, <>, ==.
 

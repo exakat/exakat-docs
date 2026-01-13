@@ -1,33 +1,11 @@
 .. _php-nativeclasstypecompatibility:
 
-
 .. _php-native-class-type-compatibility:
 
 PHP Native Class Type Compatibility
 +++++++++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		PHP Native Class Type Compatibility: PHP enforces the method compatibility with native classes and interfaces.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: PHP Native Class Type Compatibility
-	:twitter:description: PHP Native Class Type Compatibility: PHP enforces the method compatibility with native classes and interfaces
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: PHP Native Class Type Compatibility
-	:og:type: article
-	:og:description: PHP enforces the method compatibility with native classes and interfaces
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP Native Class Type Compatibility.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/NativeClassTypeCompatibility.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/NativeClassTypeCompatibility.html","name":"PHP Native Class Type Compatibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"PHP enforces the method compatibility with native classes and interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/PHP Native Class Type Compatibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-PHP enforces the method compatibility with native classes and interfaces. 
+  PHP enforces the method compatibility with native classes and interfaces. 
 
 This means that classes that extends native PHP classes or interfaces must declare compatible types. They can't omit typing, like it was the case until PHP 8.0.
 This is needed for compatibility with PHP 8.0. This is probably good for older versions too, although it is not reported.
@@ -58,16 +36,16 @@ See also method-compatibility.
 Related PHP errors 
 -------------------
 
-  + `Return type of %s::%s() should either be compatible with %s::%s(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice <https://php-errors.readthedocs.io/en/latest/messages/return-type-of-%25s%3A%3A%25s%28%29-should-either-be-compatible-with-%25s%3A%3A%25s%28%29%3A-mixed.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Return+type+of+a%3A%3Akey%28%29+should+either+be+compatible+with+IteratorIterator%3A%3Akey%28%29%3A+mixed%2C+or+the+%23%5B%5CReturnTypeWillChange%5D+attribute+should+be+used+to+temporarily+suppress+the+notice.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Return Type Will Change <https://php-dictionary.readthedocs.io/en/latest/dictionary/returntypewillchange.ini.html>`_
-  + `Covariance <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-covariance.ini.html>`_
-  + `Contravariance <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-contravariance.ini.html>`_
+  + `returntypewillchange <https://php-dictionary.readthedocs.io/en/latest/dictionary/returntypewillchange.ini.html>`_
+  + `type-covariance <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-covariance.ini.html>`_
+  + `type-contravariance <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-contravariance.ini.html>`_
 
 
 Suggestions

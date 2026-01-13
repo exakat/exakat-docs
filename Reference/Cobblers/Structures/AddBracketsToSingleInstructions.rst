@@ -1,21 +1,5 @@
 .. _structures-addbracketstosingleinstructions:
 
-.. meta::
-	:description:
-		Add Brackets To Single Instructions: This cobbler adds curly brackets to single expression, with for(), foreach(), while().
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Add Brackets To Single Instructions
-	:twitter:description: Add Brackets To Single Instructions: This cobbler adds curly brackets to single expression, with for(), foreach(), while()
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Add Brackets To Single Instructions
-	:og:type: article
-	:og:description: This cobbler adds curly brackets to single expression, with for(), foreach(), while()
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Structures/AddBracketsToSingleInstructions.html
-	:og:locale: en
-
 .. _add-brackets-to-single-instructions:
 
 Add Brackets To Single Instructions

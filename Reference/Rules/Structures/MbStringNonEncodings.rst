@@ -1,38 +1,15 @@
 .. _structures-mbstringnonencodings:
 
-
 .. _mbstring-unknown-encodings:
 
 Mbstring Unknown Encodings
 ++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Mbstring Unknown Encodings: mbstring functions require one of its supported encoding as parameter.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Mbstring Unknown Encodings
-	:twitter:description: Mbstring Unknown Encodings: mbstring functions require one of its supported encoding as parameter
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Mbstring Unknown Encodings
-	:og:type: article
-	:og:description: mbstring functions require one of its supported encoding as parameter
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mbstring Unknown Encodings.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MbStringNonEncodings.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MbStringNonEncodings.html","name":"Mbstring Unknown Encodings","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"mbstring functions require one of its supported encoding as parameter","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Mbstring Unknown Encodings.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-mbstring functions require one of its supported encoding as parameter. 
+  mbstring functions require one of its supported encoding as parameter. 
 
 For example, `mb_chr() <https://www.php.net/mb_chr>`_ requires encoding as second parameter. The supported encodings are available with `mb_list_encodings() <https://www.php.net/mb_list_encodings>`_ and `mb_encoding_aliases() <https://www.php.net/mb_encoding_aliases>`_.
 
 A wrong encoding generates a fatal `error <https://www.php.net/error>`_.
-
 Here are some of the dropped encodings, depending on PHP versions: 
 
 + PHP 7.0
@@ -66,15 +43,15 @@ Here are some of the dropped encodings, depending on PHP versions:
 Related PHP errors 
 -------------------
 
-  + `Argument #2 ($encoding) must be a valid encoding, "%s" given <https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-encoding%2C-%22%25s%22-given.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Argument+%232+%28%24encoding%29+must+be+a+valid+encoding%2C+%22xxx%22+given.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Multibyte String <https://php-dictionary.readthedocs.io/en/latest/dictionary/mbstring.ini.html>`_
-  + `Encoding <https://php-dictionary.readthedocs.io/en/latest/dictionary/encoding.ini.html>`_
+  + `mbstring <https://php-dictionary.readthedocs.io/en/latest/dictionary/mbstring.ini.html>`_
+  + `encoding <https://php-dictionary.readthedocs.io/en/latest/dictionary/encoding.ini.html>`_
 
 
 Suggestions

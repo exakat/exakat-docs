@@ -1,35 +1,13 @@
 .. _structures-dirthenslash:
 
-
 .. _\_\_dir\_\_-then-slash:
 
 __DIR__ Then Slash
 ++++++++++++++++++
 
-.. meta::
-	:description:
-		__DIR__ Then Slash: __DIR__ must be concatenated with a string starting with /.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: __DIR__ Then Slash
-	:twitter:description: __DIR__ Then Slash: __DIR__ must be concatenated with a string starting with /
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: __DIR__ Then Slash
-	:og:type: article
-	:og:description: __DIR__ must be concatenated with a string starting with /
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/__DIR__ Then Slash.html
-	:og:locale: en
+  `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ must be concatenated with a string starting with /.
 
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DirThenSlash.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DirThenSlash.html","name":"__DIR__ Then Slash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"__DIR__ must be concatenated with a string starting with \/","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/__DIR__ Then Slash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-`__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ must be concatenated with a string starting with /.
-
-The magic constant `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ holds the name of the current `directory <https://www.php.net/directory>`_, without final /. When it is used to build path, then the following path fragment must start with /. Otherwise, two directories names will be merged together.
+The magic constant `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ holds the name of the current `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_, without final /. When it is used to build path, then the following path fragment must start with /. Otherwise, two directories names will be merged together.
 
 .. code-block:: php
    

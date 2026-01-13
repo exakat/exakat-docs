@@ -1,33 +1,11 @@
 .. _structures-uselessunset:
 
-
 .. _useless-unset:
 
 Useless Unset
 +++++++++++++
 
-.. meta::
-	:description:
-		Useless Unset: There are situations where trying to remove a variable is actually useless.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Useless Unset
-	:twitter:description: Useless Unset: There are situations where trying to remove a variable is actually useless
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Useless Unset
-	:og:type: article
-	:og:description: There are situations where trying to remove a variable is actually useless
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Unset.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UselessUnset.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UselessUnset.html","name":"Useless Unset","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"There are situations where trying to remove a variable is actually useless","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Useless Unset.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-There are situations where trying to remove a variable is actually useless. 
+  There are situations where trying to remove a variable is actually useless. 
 
 PHP ignores any command that tries to unset a global variable, a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variable, or a blind variable from a foreach loop. 
 
@@ -64,7 +42,7 @@ See also `unset <https://www.php.net/unset>`_.
 Connex PHP features
 -------------------
 
-  + `unset() <https://php-dictionary.readthedocs.io/en/latest/dictionary/unset.ini.html>`_
+  + `unset <https://php-dictionary.readthedocs.io/en/latest/dictionary/unset.ini.html>`_
 
 
 Suggestions

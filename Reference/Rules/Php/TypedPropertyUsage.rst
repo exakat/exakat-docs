@@ -1,33 +1,11 @@
 .. _php-typedpropertyusage:
 
-
 .. _typed-property-usage:
 
 Typed Property Usage
 ++++++++++++++++++++
 
-.. meta::
-	:description:
-		Typed Property Usage: PHP properties may be typed.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Typed Property Usage
-	:twitter:description: Typed Property Usage: PHP properties may be typed
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Typed Property Usage
-	:og:type: article
-	:og:description: PHP properties may be typed
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Typed Property Usage.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/TypedPropertyUsage.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/TypedPropertyUsage.html","name":"Typed Property Usage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"PHP properties may be typed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Typed Property Usage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-PHP properties may be typed. Since PHP 7.4, it is possible to type properties, just like arguments and return values.
+  PHP properties may be typed. Since PHP 7.4, it is possible to type properties, just like arguments and return values.
 
 .. code-block:: php
    
@@ -49,8 +27,8 @@ See also `Typed Properties 2.0 <https://wiki.php.net/rfc/typed_properties_v2>`_ 
 Connex PHP features
 -------------------
 
-  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
-  + `Property Type Declaration <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-declaration-property.ini.html>`_
+  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `type-declaration-property <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-declaration-property.ini.html>`_
 
 
 Specs

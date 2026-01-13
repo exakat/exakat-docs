@@ -1,38 +1,16 @@
 .. _classes-dontunsetproperties:
 
-
 .. _don't-unset-properties:
 
 Don't Unset Properties
 ++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Don't Unset Properties: Don't unset properties.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Don't Unset Properties
-	:twitter:description: Don't Unset Properties: Don't unset properties
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Don't Unset Properties
-	:og:type: article
-	:og:description: Don't unset properties
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Unset Properties.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/DontUnsetProperties.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/DontUnsetProperties.html","name":"Don't Unset Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Don't unset properties","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Don't Unset Properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Don't unset properties. They would go undefined, and raise warnings of undefined properties, even though the property is explicitly defined in the original class. 
+  Don't unset properties. They would go undefined, and raise warnings of undefined properties, even though the property is explicitly defined in the original class. 
 
 When getting rid of a property, assign it to `null`. This keeps the property defined in the object, yet allows existence check without errors.
 This analysis works on properties and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties. It also reports magic properties being unset.
 
-Thanks for `Benoit Burnichon <https://twitter.`com <https://www.php.net/com>`_/BenoitBurnichon>`_ for the original idea.
+Thanks for `Benoit Burnichon <https://twitter.com/BenoitBurnichon>`_ for the original idea.
 
 .. code-block:: php
    
@@ -63,14 +41,14 @@ Thanks for `Benoit Burnichon <https://twitter.`com <https://www.php.net/com>`_/B
 Related PHP errors 
 -------------------
 
-  + `Undefined property <https://php-errors.readthedocs.io/en/latest/messages/undefined-property-%25s%3A%3A%24%25s.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Undefined+property.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Properties <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
 
 
 Suggestions

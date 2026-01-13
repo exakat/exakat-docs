@@ -1,33 +1,11 @@
 .. _structures-concatenationinterpolationfavorite:
 
-
 .. _concatenation-interpolation-consistence:
 
 Concatenation Interpolation Consistence
 +++++++++++++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Concatenation Interpolation Consistence: Concatenations are done with the .
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Concatenation Interpolation Consistence
-	:twitter:description: Concatenation Interpolation Consistence: Concatenations are done with the 
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Concatenation Interpolation Consistence
-	:og:type: article
-	:og:description: Concatenations are done with the 
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Concatenation Interpolation Consistence.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ConcatenationInterpolationFavorite.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ConcatenationInterpolationFavorite.html","name":"Concatenation Interpolation Consistence","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Concatenations are done with the ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Concatenation Interpolation Consistence.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Concatenations are done with the . operator or by interpolation inside a string. 
+  Concatenations are done with the . operator or by interpolation inside a string. 
 
 Interpolation is a clean way to write concatenation, though it gets messy with long dereferences or with constants. Concatenations are longer to write. 
 
@@ -57,7 +35,7 @@ The analyzed code has less than 10% of one of them : for consistency reasons, it
 Connex PHP features
 -------------------
 
-  + `Concatenation <https://php-dictionary.readthedocs.io/en/latest/dictionary/concatenation.ini.html>`_
+  + `concatenation <https://php-dictionary.readthedocs.io/en/latest/dictionary/concatenation.ini.html>`_
 
 
 Specs

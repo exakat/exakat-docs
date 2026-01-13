@@ -1,33 +1,11 @@
 .. _php-useobjectapi:
 
-
 .. _use-php-object-api:
 
 Use PHP Object API
 ++++++++++++++++++
 
-.. meta::
-	:description:
-		Use PHP Object API: OOP API is the modern version of the PHP API.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Use PHP Object API
-	:twitter:description: Use PHP Object API: OOP API is the modern version of the PHP API
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Use PHP Object API
-	:og:type: article
-	:og:description: OOP API is the modern version of the PHP API
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use PHP Object API.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/UseObjectApi.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/UseObjectApi.html","name":"Use PHP Object API","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"OOP API is the modern version of the PHP API","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Use PHP Object API.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-OOP API is the modern version of the PHP API.
+  OOP API is the modern version of the PHP API.
 
 When PHP offers the alternative between procedural and OOP api for the same features, it is recommended to use the OOP API. 
 
@@ -63,7 +41,7 @@ OOP / procedural alternatives are available for `mysqli <https://www.php.net/man
 Connex PHP features
 -------------------
 
-  + `Object API <https://php-dictionary.readthedocs.io/en/latest/dictionary/object-api.ini.html>`_
+  + `object-api <https://php-dictionary.readthedocs.io/en/latest/dictionary/object-api.ini.html>`_
 
 
 Suggestions

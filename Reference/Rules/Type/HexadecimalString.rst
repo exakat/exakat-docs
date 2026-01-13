@@ -1,33 +1,11 @@
 .. _type-hexadecimalstring:
 
-
 .. _hexadecimal-in-string:
 
 Hexadecimal In String
 +++++++++++++++++++++
 
-.. meta::
-	:description:
-		Hexadecimal In String: Mark strings that may be confused with hexadecimal.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Hexadecimal In String
-	:twitter:description: Hexadecimal In String: Mark strings that may be confused with hexadecimal
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Hexadecimal In String
-	:og:type: article
-	:og:description: Mark strings that may be confused with hexadecimal
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Hexadecimal In String.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Type\/HexadecimalString.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Type\/HexadecimalString.html","name":"Hexadecimal In String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Mark strings that may be confused with hexadecimal","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Hexadecimal In String.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Mark strings that may be confused with hexadecimal. 
+  Mark strings that may be confused with hexadecimal. 
 
 Until PHP 7.0, PHP recognizes hexadecimal numbers inside strings, and converts them accordingly. 
 
@@ -56,7 +34,7 @@ See also `Integer Syntax <https://www.php.net/manual/en/language.types.integer.p
 Connex PHP features
 -------------------
 
-  + `Hexadecimal Integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/hexadecimal.ini.html>`_
+  + `hexadecimal <https://php-dictionary.readthedocs.io/en/latest/dictionary/hexadecimal.ini.html>`_
 
 
 Specs

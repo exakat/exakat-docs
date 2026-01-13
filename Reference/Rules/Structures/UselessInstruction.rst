@@ -1,33 +1,11 @@
 .. _structures-uselessinstruction:
 
-
 .. _useless-instructions:
 
 Useless Instructions
 ++++++++++++++++++++
 
-.. meta::
-	:description:
-		Useless Instructions: Those instructions are useless, or contains useless parts.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Useless Instructions
-	:twitter:description: Useless Instructions: Those instructions are useless, or contains useless parts
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Useless Instructions
-	:og:type: article
-	:og:description: Those instructions are useless, or contains useless parts
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Instructions.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UselessInstruction.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UselessInstruction.html","name":"Useless Instructions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Those instructions are useless, or contains useless parts","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Useless Instructions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Those instructions are useless, or contains useless parts. 
+  Those instructions are useless, or contains useless parts. 
 
 For example, an addition whose `result <https://www.php.net/result>`_ is not stored in a variable, or immediately used, does nothing : it is actually performed, and the `result <https://www.php.net/result>`_ is lost. Just plain lost. In fact, PHP might detect it, and optimize it away. 
 

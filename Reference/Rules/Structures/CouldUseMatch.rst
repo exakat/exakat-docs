@@ -1,33 +1,11 @@
 .. _structures-couldusematch:
 
-
 .. _could-use-match:
 
 Could Use Match
 +++++++++++++++
 
-.. meta::
-	:description:
-		Could Use Match: The switch() syntax use may be replaced by a match() call.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Could Use Match
-	:twitter:description: Could Use Match: The switch() syntax use may be replaced by a match() call
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Could Use Match
-	:og:type: article
-	:og:description: The switch() syntax use may be replaced by a match() call
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use Match.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CouldUseMatch.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CouldUseMatch.html","name":"Could Use Match","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"The switch() syntax use may be replaced by a match() call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Could Use Match.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-The `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ syntax use may be replaced by a `match() <https://www.php.net/manual/en/control-structures.match.php>`_ call. 
+  The `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ syntax use may be replaced by a `match() <https://www.php.net/manual/en/control-structures.match.php>`_ call. 
 
 The simplest case for such refactoring is when each of the switch's case (including default), assign one value to the same variable. See this below : 
 `Match() <https://www.php.net/manual/en/control-structures.match.php>`_ was introduced in PHP 8. It is not valid with older PHP versions.
@@ -61,8 +39,8 @@ See also `Match() <https://www.php.net/manual/en/control-structures.match.php>`_
 Connex PHP features
 -------------------
 
-  + `Match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
-  + `Switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
+  + `match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
+  + `switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
 
 
 Suggestions

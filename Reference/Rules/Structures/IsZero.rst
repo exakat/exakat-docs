@@ -1,33 +1,11 @@
 .. _structures-iszero:
 
-
 .. _is-actually-zero:
 
 Is Actually Zero
 ++++++++++++++++
 
-.. meta::
-	:description:
-		Is Actually Zero: This addition actually may be simplified because one term is actually negated by another.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Is Actually Zero
-	:twitter:description: Is Actually Zero: This addition actually may be simplified because one term is actually negated by another
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Is Actually Zero
-	:og:type: article
-	:og:description: This addition actually may be simplified because one term is actually negated by another
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is Actually Zero.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/IsZero.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/IsZero.html","name":"Is Actually Zero","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"This addition actually may be simplified because one term is actually negated by another","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Is Actually Zero.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-This addition actually may be simplified because one term is actually negated by another. 
+  This addition actually may be simplified because one term is actually negated by another. 
 
 This kind of `error <https://www.php.net/error>`_ happens when the expression is very large : the more terms are included, the more chances are that some auto-annihilation happens. 
 

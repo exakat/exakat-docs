@@ -1,33 +1,11 @@
 .. _structures-couldusestrcontains:
 
-
 .. _could-use-strcontains():
 
 Could Use strcontains()
 +++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Could Use strcontains(): PHP 8 introduced the strcontains() function, which is a replacement for strpos().
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Could Use strcontains()
-	:twitter:description: Could Use strcontains(): PHP 8 introduced the strcontains() function, which is a replacement for strpos()
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Could Use strcontains()
-	:og:type: article
-	:og:description: PHP 8 introduced the strcontains() function, which is a replacement for strpos()
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use strcontains().html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CouldUseStrContains.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CouldUseStrContains.html","name":"Could Use strcontains()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"PHP 8 introduced the strcontains() function, which is a replacement for strpos()","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Could Use strcontains().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-PHP 8 introduced the strcontains() function, which is a replacement for `strpos() <https://www.php.net/strpos>`_. strcontains() checks if a string is found inside a string, and returns a boolean. 
+  PHP 8 introduced the strcontains() function, which is a replacement for `strpos() <https://www.php.net/strpos>`_. strcontains() checks if a string is found inside a string, and returns a boolean. 
 
 When `strpos() <https://www.php.net/strpos>`_ is used as a boolean, or compared to a boolean, strcontains() is a good replacement. When `strpos() <https://www.php.net/strpos>`_ is actually used to calculate a position inside a string, it should not be replaced.
 

@@ -1,33 +1,11 @@
 .. _functions-uselessargument:
 
-
 .. _useless-argument:
 
 Useless Argument
 ++++++++++++++++
 
-.. meta::
-	:description:
-		Useless Argument: The argument is always used with the same value.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Useless Argument
-	:twitter:description: Useless Argument: The argument is always used with the same value
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Useless Argument
-	:og:type: article
-	:og:description: The argument is always used with the same value
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Argument.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/UselessArgument.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/UselessArgument.html","name":"Useless Argument","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"The argument is always used with the same value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Useless Argument.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-The argument is always used with the same value. This value could be hard coded in the method, and save one argument slot.
+  The argument is always used with the same value. This value could be hard coded in the method, and save one argument slot.
 
 There is no indication that this argument will be used with other values. It may be a development artifact, that survived without cleaning.
 Methods with less than 3 calls are not considered here, to avoid reporting methods used once. Also, arguments with a default value are omitted. 
@@ -65,7 +43,7 @@ See also `class <https://www.php.net/manual/en/language.oop5.basic.php#language.
 Connex PHP features
 -------------------
 
-  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
 
 
 Suggestions

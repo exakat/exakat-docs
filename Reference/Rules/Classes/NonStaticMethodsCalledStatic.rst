@@ -1,33 +1,11 @@
 .. _classes-nonstaticmethodscalledstatic:
 
-
 .. _non-static-methods-called-in-a-static:
 
 Non Static Methods Called In A Static
 +++++++++++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Non Static Methods Called In A Static: Static methods have to be declared as such (using the static keyword).
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Non Static Methods Called In A Static
-	:twitter:description: Non Static Methods Called In A Static: Static methods have to be declared as such (using the static keyword)
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Non Static Methods Called In A Static
-	:og:type: article
-	:og:description: Static methods have to be declared as such (using the static keyword)
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Non Static Methods Called In A Static.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/NonStaticMethodsCalledStatic.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/NonStaticMethodsCalledStatic.html","name":"Non Static Methods Called In A Static","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Static methods have to be declared as such (using the static keyword)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Non Static Methods Called In A Static.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-`Static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods have to be declared as such (using the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ keyword). Then, one may call them without instantiating the object.
+  `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods have to be declared as such (using the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ keyword). Then, one may call them without instantiating the object.
 
 PHP 7.0, and more recent versions, yield a deprecated `error <https://www.php.net/error>`_ : ``Non-`static <https://www.php.net/manual/en/language.oop5.static.php>`_ method A\:\:B() should not be called statically``.
 
@@ -67,8 +45,7 @@ See also `Static Keyword <https://www.php.net/manual/en/language.oop5.static.php
 Related PHP errors 
 -------------------
 
-  + `Non-static method %s::%s() should not be called statically <https://php-errors.readthedocs.io/en/latest/messages/non-static-method-%25s%3A%3A%25s%28%29-should-not-be-called-statically.html>`_
-  + `Non-static method %s::%s() cannot not be called statically <https://php-errors.readthedocs.io/en/latest/messages/non-static-method-%25s%3A%3A%25s%28%29-cannot-be-called-statically.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Non-static+method+A%3A%3AB%28%29+should+not+be+called+statically.html>`_
 
 
 

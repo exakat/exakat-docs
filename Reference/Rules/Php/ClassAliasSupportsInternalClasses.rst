@@ -1,33 +1,11 @@
 .. _php-classaliassupportsinternalclasses:
 
-
 .. _class\_alias()-supports-internal-classes:
 
 class_alias() Supports Internal Classes
 +++++++++++++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		class_alias() Supports Internal Classes: class_alias() accepts internal classes as first argument.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: class_alias() Supports Internal Classes
-	:twitter:description: class_alias() Supports Internal Classes: class_alias() accepts internal classes as first argument
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: class_alias() Supports Internal Classes
-	:og:type: article
-	:og:description: class_alias() accepts internal classes as first argument
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/class_alias() Supports Internal Classes.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ClassAliasSupportsInternalClasses.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ClassAliasSupportsInternalClasses.html","name":"class_alias() Supports Internal Classes","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"class_alias() accepts internal classes as first argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/class_alias() Supports Internal Classes.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-`class_alias() <https://www.php.net/class_alias>`_ accepts internal classes as first argument. Until PHP 8.3, this feature was restricted to user-defined classes.
+  `class_alias() <https://www.php.net/class_alias>`_ accepts internal classes as first argument. Until PHP 8.3, this feature was restricted to user-defined classes.
 
 .. code-block:: php
    
@@ -39,7 +17,7 @@ class_alias() Supports Internal Classes
 Related PHP errors 
 -------------------
 
-  + `class_alias(): Argument #1 ($class) must be a user-defined class name, internal class name given <https://php-errors.readthedocs.io/en/latest/messages/must-be-a-user-defined-class-name%2C-internal-class-name-given.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/class_alias%28%29%3A+Argument+%231+%28%24class%29+must+be+a+user-defined+class+name%2C+internal+class+name+given.html>`_
 
 
 

@@ -1,33 +1,11 @@
 .. _variables-undefinedvariable:
 
-
 .. _undefined-variable:
 
 Undefined Variable
 ++++++++++++++++++
 
-.. meta::
-	:description:
-		Undefined Variable: Variable that is used before any initialisation.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Undefined Variable
-	:twitter:description: Undefined Variable: Variable that is used before any initialisation
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Undefined Variable
-	:og:type: article
-	:og:description: Variable that is used before any initialisation
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Variable.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/UndefinedVariable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/UndefinedVariable.html","name":"Undefined Variable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:52:58 +0000","dateModified":"Tue, 14 Jan 2025 12:52:58 +0000","description":"Variable that is used before any initialisation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Undefined Variable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Variable that is used before any initialisation. 
+  Variable that is used before any initialisation. 
 
 It is recommended to use a default value for every variable used. When not specified, the default value is set to ``NULL`` by PHP.
 
@@ -45,6 +23,7 @@ This analysis doesn't handle dynamic variables, such as ``$$x``. It also doesn't
    // The following line may emit a warning : Undefined variable: $undefined
    echo "$var, $Var, $undefined";      // outputs "Bob, Joe, " 
    
+   
    ?>
 
 See also `Variable basics <https://www.php.net/manual/en/language.variables.basics.php>`_.
@@ -52,14 +31,15 @@ See also `Variable basics <https://www.php.net/manual/en/language.variables.basi
 Related PHP errors 
 -------------------
 
-  + `Undefined variable:  <https://php-errors.readthedocs.io/en/latest/messages/undefined-variable.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Creating+default+object+from+empty+value.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Undefined+variable%3A+.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Variables <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
 
 
 Suggestions

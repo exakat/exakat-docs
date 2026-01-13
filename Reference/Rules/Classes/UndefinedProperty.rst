@@ -1,33 +1,11 @@
 .. _classes-undefinedproperty:
 
-
 .. _undefined-properties:
 
 Undefined Properties
 ++++++++++++++++++++
 
-.. meta::
-	:description:
-		Undefined Properties: List of properties that are not explicitly defined in the class, its parents or traits.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Undefined Properties
-	:twitter:description: Undefined Properties: List of properties that are not explicitly defined in the class, its parents or traits
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Undefined Properties
-	:og:type: article
-	:og:description: List of properties that are not explicitly defined in the class, its parents or traits
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Properties.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UndefinedProperty.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UndefinedProperty.html","name":"Undefined Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"List of properties that are not explicitly defined in the class, its parents or traits","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Undefined Properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-List of properties that are not explicitly defined in the class, its parents or traits.
+  List of properties that are not explicitly defined in the class, its parents or traits.
 
 It is possible to spot unidentified properties by using the PHP's magic methods ``__get`` and ``__set``. Even if the class doesn't use magic methods, any call to an undefined property will be directed to those methods, and they can be used as a canary, warning that the code is missing a definition. 
 
@@ -55,15 +33,15 @@ See also `Properties <https://www.php.net/manual/en/language.oop5.properties.php
 Related PHP errors 
 -------------------
 
-  + `Undefined property: %s::$%s <https://php-errors.readthedocs.io/en/latest/messages/undefined-property-%25s%3A%3A%24%25s.html>`_
-  + `Property %s::$%s does not exist <https://php-errors.readthedocs.io/en/latest/messages/property-%25s-does-not-exist.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Undefined+property%3A+x%3A%3A%24e.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Property+%25s%3A%3A%24%25s+does+not+exist.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Properties <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
 
 
 Suggestions
@@ -91,7 +69,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                                                                                                                      |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 8.2 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dynamicProperties.html>`__                                                                                                                          |
+| Changed Behavior | PHP 8.2 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                                                                           |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                                                                            |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

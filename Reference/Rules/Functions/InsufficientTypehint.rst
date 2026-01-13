@@ -1,37 +1,15 @@
 .. _functions-insufficienttypehint:
 
+.. _insufficient-typehint:
 
-.. _insufficient-type:
+Insufficient Typehint
++++++++++++++++++++++
 
-Insufficient Type
-+++++++++++++++++
+  An argument is typehinted, but it actually calls methods, constants or properties that are not listed in the interface.
 
-.. meta::
-	:description:
-		Insufficient Type: An argument is typed, but it actually calls methods, constants or properties that are not listed in the interface.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Insufficient Type
-	:twitter:description: Insufficient Type: An argument is typed, but it actually calls methods, constants or properties that are not listed in the interface
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Insufficient Type
-	:og:type: article
-	:og:description: An argument is typed, but it actually calls methods, constants or properties that are not listed in the interface
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Insufficient Type.html
-	:og:locale: en
+Classes may be implementing more methods than the one that are listed in the interface they also implements. This means that filtering objects with a typehint, but calling other methods will be solved at execution time : if the method is available, it will be used; if it is not, a fatal `error <https://www.php.net/error>`_ is reported.
 
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/InsufficientTypehint.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/InsufficientTypehint.html","name":"Insufficient Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"An argument is typed, but it actually calls methods, constants or properties that are not listed in the interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Insufficient Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-An argument is typed, but it actually calls methods, constants or properties that are not listed in the interface.
-
-Classes may be implementing more methods than the one that are listed in the interface they also implements. This means that filtering objects with a type, but calling other methods will be solved at execution time : if the method is available, it will be used; if it is not, a fatal `error <https://www.php.net/error>`_ is reported.
-
-Inspired by discussion with `Brandon Savage <https://twitter.`com <https://www.php.net/com>`_/BrandonSavage>`_.
+Inspired by discussion with `Brandon Savage <https://twitter.com/BrandonSavage>`_.
 
 .. code-block:: php
    
@@ -64,9 +42,9 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
-  + `Interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
-  + `Abstract Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract-class.ini.html>`_
+  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+  + `abstract-class <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract-class.ini.html>`_
 
 
 Suggestions

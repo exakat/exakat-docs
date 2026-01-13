@@ -94,6 +94,12 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Classes/RenameClass.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Classes/RenameMethod.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Traits/RenameTrait.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Classes/RenameConstant.html</loc>
  </url>
  <url>
@@ -109,9 +115,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Interfaces/RenameInterface.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Classes/RenameMethod.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Structures/RenameMethodcall.html</loc>
  </url>
  <url>
@@ -119,9 +122,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Classes/RenameProperty.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Traits/RenameTrait.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Functions/SetNullType.html</loc>

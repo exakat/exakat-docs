@@ -1,33 +1,11 @@
 .. _classes-undefinedconstants:
 
-
 .. _undefined-class-constants:
 
 Undefined Class Constants
 +++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Undefined Class Constants: Class constants that are used, but never defined.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Undefined Class Constants
-	:twitter:description: Undefined Class Constants: Class constants that are used, but never defined
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Undefined Class Constants
-	:og:type: article
-	:og:description: Class constants that are used, but never defined
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Class Constants.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UndefinedConstants.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UndefinedConstants.html","name":"Undefined Class Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Class constants that are used, but never defined","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Undefined Class Constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Class constants that are used, but never defined. This yield a fatal `error <https://www.php.net/error>`_ upon execution, but no feedback at compile level.
+  Class constants that are used, but never defined. This yield a fatal `error <https://www.php.net/error>`_ upon execution, but no feedback at compile level.
 
 This analysis takes into account native PHP class constants, extensions and stubs. It also disambiguate enumeration cases. 
 
@@ -56,15 +34,15 @@ See also `Class constants <https://www.php.net/manual/en/language.oop5.constants
 Related PHP errors 
 -------------------
 
-  + `Undefined constant <https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%22%25s.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Undefined+constant.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Static Constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html>`_
-  + `Undefined <https://php-dictionary.readthedocs.io/en/latest/dictionary/undefined.ini.html>`_
+  + `class-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html>`_
+  + `undefined <https://php-dictionary.readthedocs.io/en/latest/dictionary/undefined.ini.html>`_
 
 
 Suggestions

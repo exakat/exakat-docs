@@ -1,33 +1,11 @@
 .. _enums-unusedenumcase:
 
-
 .. _unused-enumeration-case:
 
 Unused Enumeration Case
 +++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Unused Enumeration Case: Those are enumeration cases which are defined, yet not used.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Unused Enumeration Case
-	:twitter:description: Unused Enumeration Case: Those are enumeration cases which are defined, yet not used
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Unused Enumeration Case
-	:og:type: article
-	:og:description: Those are enumeration cases which are defined, yet not used
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Enumeration Case.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Enums\/UnusedEnumCase.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Enums\/UnusedEnumCase.html","name":"Unused Enumeration Case","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Those are enumeration cases which are defined, yet not used","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Unused Enumeration Case.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Those are enumeration cases which are defined, yet not used.
+  Those are enumeration cases which are defined, yet not used.
 
 The `error <https://www.php.net/error>`_ message when the case is missing mentions a class constant : this is because enumeration cases and class constants use the same configuration. They are only distinguished by their definition, which, here, does not exists.
 
@@ -50,14 +28,14 @@ The `error <https://www.php.net/error>`_ message when the case is missing mentio
 Related PHP errors 
 -------------------
 
-  + `Undefined constant %s::%s <https://php-errors.readthedocs.io/en/latest/messages/undefined-class-constant-%27%25s%3A%3A%25s%27.html>`_
+  + `Undefined constant x::C <https://php-errors.readthedocs.io/en/latest/messages/undefined-class-constant-%5C%27%25s%5C%3A%5C%3A%25s%5C%27.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Enumeration (enum) <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum.ini.html>`_
+  + `enum <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum.ini.html>`_
 
 
 Suggestions

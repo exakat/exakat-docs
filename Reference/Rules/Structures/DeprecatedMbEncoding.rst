@@ -1,33 +1,11 @@
 .. _structures-deprecatedmbencoding:
 
-
 .. _deprecated-mb\_string-encodings:
 
 Deprecated Mb_string Encodings
 ++++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Deprecated Mb_string Encodings: Some encodings, available in the mb_string extensions, are deprecated.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Deprecated Mb_string Encodings
-	:twitter:description: Deprecated Mb_string Encodings: Some encodings, available in the mb_string extensions, are deprecated
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Deprecated Mb_string Encodings
-	:og:type: article
-	:og:description: Some encodings, available in the mb_string extensions, are deprecated
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Deprecated Mb_string Encodings.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DeprecatedMbEncoding.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DeprecatedMbEncoding.html","name":"Deprecated Mb_string Encodings","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Some encodings, available in the mb_string extensions, are deprecated","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Deprecated Mb_string Encodings.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Some encodings, available in the mb_string extensions, are deprecated. Starting with PHP 8.2, the following encodings emits a warning: 
+  Some encodings, available in the mb_string extensions, are deprecated. Starting with PHP 8.2, the following encodings emits a warning: 
 
 + BASE64
 + UUENCODE
@@ -55,17 +33,14 @@ See also `PHP 8.2: Mbstring: Base64, Uuencode, QPrint, and HTML Entity encodings
 Related PHP errors 
 -------------------
 
-  + `mb_convert_encoding(): Handling Base64 via mbstring is deprecated; use base64_encode/base64_decode instead <https://php-errors.readthedocs.io/en/latest/messages/handling-base64-via-mbstring-is-deprecated%3B-use-base64_encode-base64_decode-instead.html>`_
-  + `Handling HTML entities via mbstring is deprecated; use htmlspecialchars, htmlentities, or mb_encode_numericentity/mb_decode_numericentity <https://php-errors.readthedocs.io/en/latest/messages/handling-html-entities-via-mbstring-is-deprecated%3B-use-htmlspecialchars%2C-htmlentities%2C-or-mb_encode_numericentity-mb_decode_numericentity.html>`_
-  + `Handling QPrint via mbstring is deprecated; use quoted_printable_encode/quoted_printable_decode <https://php-errors.readthedocs.io/en/latest/messages/handling-qprint-via-mbstring-is-deprecated%3B-use-quoted_printable_encode-quoted_printable_decode.html>`_
-  + `Handling Uuencode via mbstring is deprecated; use convert_uuencode/convert_uudecode instead <https://php-errors.readthedocs.io/en/latest/messages/handling-uuencode-via-mbstring-is-deprecated%3B-use-convert_uuencode-convert_uudecode-instead.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/mb_convert_encoding%28%29%3A+Handling+Base64+via+mbstring+is+deprecated%3B+use+base64_encode%2Fbase64_decode+instead.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Encoding <https://php-dictionary.readthedocs.io/en/latest/dictionary/encoding.ini.html>`_
+  + `encoding <https://php-dictionary.readthedocs.io/en/latest/dictionary/encoding.ini.html>`_
 
 
 Suggestions

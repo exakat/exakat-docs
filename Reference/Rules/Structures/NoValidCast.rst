@@ -1,35 +1,13 @@
 .. _structures-novalidcast:
 
+.. _no-valid-cast:
 
-.. _no-a-valid-cast:
+No Valid Cast
++++++++++++++
 
-No A Valid Cast
-+++++++++++++++
+  This cast generates an `error <https://www.php.net/error>`_, as there is no way to convert an object to an int. 
 
-.. meta::
-	:description:
-		No A Valid Cast: This cast generates an error, as there is no way to directly convert an object to an int.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: No A Valid Cast
-	:twitter:description: No A Valid Cast: This cast generates an error, as there is no way to directly convert an object to an int
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: No A Valid Cast
-	:og:type: article
-	:og:description: This cast generates an error, as there is no way to directly convert an object to an int
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No A Valid Cast.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/NoValidCast.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/NoValidCast.html","name":"No A Valid Cast","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"This cast generates an error, as there is no way to directly convert an object to an int","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No A Valid Cast.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-This cast generates an `error <https://www.php.net/error>`_, as there is no way to directly convert an object to an int. 
-
-The `result <https://www.php.net/result>`_ is 1, with a warning. 
+The `result <https://www.php.net/result>`_ will be 1. 
 
 This rule applies to float and int. This doesn't apply to string cast, as the magic method `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ allows for such conversions.
 
@@ -45,16 +23,14 @@ This rule applies to float and int. This doesn't apply to string cast, as the ma
 Related PHP errors 
 -------------------
 
-  + `Object of class stdClass could not be converted to int <https://php-errors.readthedocs.io/en/latest/messages/object-of-class-%25s-could-not-be-converted-to-int.html>`_
-  + `Object of class stdClass could not be converted to float <https://php-errors.readthedocs.io/en/latest/messages/object-of-class-%25s-could-not-be-converted-to-float.html>`_
-  + `Object of class stdClass could not be converted to string <https://php-errors.readthedocs.io/en/latest/messages/object-of-class-%25s-could-not-be-converted-to-string.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Object+of+class+stdClass+could+not+be+converted+to.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Cast Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+  + `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
 
 
 Suggestions

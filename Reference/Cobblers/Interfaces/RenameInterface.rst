@@ -1,21 +1,5 @@
 .. _interfaces-renameinterface:
 
-.. meta::
-	:description:
-		Rename Interface: Rename an interface into another one.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Rename Interface
-	:twitter:description: Rename Interface: Rename an interface into another one
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Rename Interface
-	:og:type: article
-	:og:description: Rename an interface into another one
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Interfaces/RenameInterface.html
-	:og:locale: en
-
 .. _rename-interface:
 
 Rename Interface

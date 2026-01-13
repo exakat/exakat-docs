@@ -3,73 +3,57 @@
 Security
 ++++++++
 
-.. meta::
-	:description:
-		Security: Check the code for common security bad practices, especially in the Web environnement..
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Security
-	:twitter:description: Security: Check the code for common security bad practices, especially in the Web environnement.
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Security
-	:og:type: article
-	:og:description: Check the code for common security bad practices, especially in the Web environnement.
-	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Security.html
-	:og:locale: en
-
 This ruleset focuses on code security. 
 
 Total : 47 analysis
 
-* :ref:`structures-evalusage`
-* :ref:`structures-phpinfousage`
-* :ref:`structures-vardumpusage`
-* :ref:`functions-hardcodedpasswords`
-* :ref:`security-directinjection`
-* :ref:`security-nosleep`
-* :ref:`security-parseurlwithoutparameters`
-* :ref:`security-avoidthosecrypto`
-* :ref:`structures-nohardcodedport`
-* :ref:`security-shouldusepreparedstatement`
-* :ref:`structures-nohardcodedip`
-* :ref:`security-comparehash`
-* :ref:`structures-pregoptione`
-* :ref:`structures-evalwithouttry`
-* :ref:`security-registerglobals`
-* :ref:`security-curloptions`
-* :ref:`php-betterrand`
-* :ref:`structures-nohardcodedhash`
-* :ref:`structures-randomwithouttry`
-* :ref:`security-indirectinjection`
-* :ref:`security-unserializesecondarg`
-* :ref:`security-dontechoerror`
-* :ref:`security-shouldusesessionregenerateid`
-* :ref:`security-encodedletters`
-* :ref:`security-setcookieargs`
-* :ref:`structures-noreturninfinally`
-* :ref:`security-mkdirdefault`
-* :ref:`structures-fallthrough`
-* :ref:`security-uploadfilenameinjection`
-* :ref:`security-anchorregex`
-* :ref:`security-sessionlazywrite`
-* :ref:`security-sqlite3requiressinglequotes`
-* :ref:`security-nonetforxmlload`
-* :ref:`security-dynamicdl`
-* :ref:`security-configureextract`
-* :ref:`security-moveuploadedfile`
-* :ref:`security-filterinputsource`
-* :ref:`security-safehttpheaders`
-* :ref:`security-integerconversion`
-* :ref:`security-minusoneonerror`
-* :ref:`security-noentignore`
-* :ref:`security-noweaksslcrypto`
-* :ref:`security-keepfilesrestricted`
-* :ref:`security-cryptokeylength`
-* :ref:`security-incompatibletypeswithincoming`
-* :ref:`security-filternotraw`
-* :ref:`security-sessioncacheddata`
+* :ref:`eval()-usage`
+* :ref:`phpinfo`
+* :ref:`var\_dump()...-usage`
+* :ref:`hardcoded-passwords`
+* :ref:`direct-injection`
+* :ref:`avoid-sleep()-usleep()`
+* :ref:`parse\_str()-warning`
+* :ref:`avoid-those-hash-functions`
+* :ref:`no-hardcoded-port`
+* :ref:`should-use-prepared-statement`
+* :ref:`no-hardcoded-ip`
+* :ref:`compare-hash`
+* :ref:`preg\_replace-with-option-e`
+* :ref:`eval()-without-try`
+* :ref:`register-globals`
+* :ref:`safe-curl-options`
+* :ref:`use-random\_int()`
+* :ref:`no-hardcoded-hash`
+* :ref:`random-without-try`
+* :ref:`indirect-injection`
+* :ref:`unserialize-second-arg`
+* :ref:`don't-echo-error`
+* :ref:`should-use-session\_regenerateid()`
+* :ref:`encoded-simple-letters`
+* :ref:`set-cookie-safe-arguments`
+* :ref:`no-return-or-throw-in-finally`
+* :ref:`mkdir-default`
+* :ref:`switch-fallthrough`
+* :ref:`upload-filename-injection`
+* :ref:`always-anchor-regex`
+* :ref:`session-lazy-write`
+* :ref:`sqlite3-requires-single-quotes`
+* :ref:`no-net-for-xml-load`
+* :ref:`dynamic-library-loading`
+* :ref:`configure-extract`
+* :ref:`move\_uploaded\_file-instead-of-copy`
+* :ref:`filter\_input()-as-a-source`
+* :ref:`safe-http-headers`
+* :ref:`insecure-integer-validation`
+* :ref:`minus-one-on-error`
+* :ref:`no-ent\_ignore`
+* :ref:`no-weak-ssl-crypto`
+* :ref:`keep-files-access-restricted`
+* :ref:`check-crypto-key-length`
+* :ref:`incompatible-types-with-incoming-values`
+* :ref:`filter-not-raw`
+* :ref:`unvalidated-data-cached-in-session`
 
 Specs
 _____

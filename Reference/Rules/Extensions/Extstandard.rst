@@ -1,33 +1,11 @@
 .. _extensions-extstandard:
 
-
 .. _ext-standard:
 
 ext/standard
 ++++++++++++
 
-.. meta::
-	:description:
-		ext/standard: Standards PHP functions.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: ext/standard
-	:twitter:description: ext/standard: Standards PHP functions
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: ext/standard
-	:og:type: article
-	:og:description: Standards PHP functions
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/standard.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extstandard.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extstandard.html","name":"ext\/standard","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Standards PHP functions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/ext\/standard.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Standards PHP functions.
+  Standards PHP functions.
 
 This is not a real PHP extension : it covers the core functions.
 

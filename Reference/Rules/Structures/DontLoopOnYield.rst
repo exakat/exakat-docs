@@ -1,33 +1,11 @@
 .. _structures-dontlooponyield:
 
-
 .. _don't-loop-on-yield:
 
 Don't Loop On Yield
 +++++++++++++++++++
 
-.. meta::
-	:description:
-		Don't Loop On Yield: Use ``yield from``, instead of looping on a generator with ``yield``.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Don't Loop On Yield
-	:twitter:description: Don't Loop On Yield: Use ``yield from``, instead of looping on a generator with ``yield``
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Don't Loop On Yield
-	:og:type: article
-	:og:description: Use ``yield from``, instead of looping on a generator with ``yield``
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Loop On Yield.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DontLoopOnYield.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DontLoopOnYield.html","name":"Don't Loop On Yield","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Use ``yield from``, instead of looping on a generator with ``yield``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Don't Loop On Yield.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Use ``yield from``, instead of looping on a `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ with ``yield``.
+  Use ``yield from``, instead of looping on a `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ with ``yield``.
 
 ``yield from`` delegate the yielding to another `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_, and keep calling that `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ until it is finished. It also works with implicit `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ datastructure, like arrays.
 There is a performance gain when delegating, over looping manually on the `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_. You may even consider writing the loop to store all values in an array, then ``yield from`` the array.
@@ -60,7 +38,7 @@ See also `Generator delegation via yield from <https://www.php.net/manual/en/lan
 Connex PHP features
 -------------------
 
-  + `Yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
+  + `yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
 
 
 Suggestions

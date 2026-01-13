@@ -1,33 +1,11 @@
 .. _structures-uncheckedresources:
 
-
 .. _unchecked-resources:
 
 Unchecked Resources
 +++++++++++++++++++
 
-.. meta::
-	:description:
-		Unchecked Resources: Resources are created, but never checked before being used.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Unchecked Resources
-	:twitter:description: Unchecked Resources: Resources are created, but never checked before being used
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Unchecked Resources
-	:og:type: article
-	:og:description: Resources are created, but never checked before being used
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unchecked Resources.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UncheckedResources.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UncheckedResources.html","name":"Unchecked Resources","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Resources are created, but never checked before being used","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Unchecked Resources.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Resources are created, but never checked before being used. This is not safe.
+  Resources are created, but never checked before being used. This is not safe.
 
 Always check that resources are correctly created before using them.
 

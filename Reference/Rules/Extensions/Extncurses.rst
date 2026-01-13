@@ -1,33 +1,11 @@
 .. _extensions-extncurses:
 
-
 .. _ext-ncurses:
 
 ext/ncurses
 +++++++++++
 
-.. meta::
-	:description:
-		ext/ncurses: Extension ncurses (CLI).
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: ext/ncurses
-	:twitter:description: ext/ncurses: Extension ncurses (CLI)
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: ext/ncurses
-	:og:type: article
-	:og:description: Extension ncurses (CLI)
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/ncurses.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extncurses.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extncurses.html","name":"ext\/ncurses","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Extension ncurses (CLI)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/ext\/ncurses.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Extension ncurses (CLI).
+  Extension ncurses (CLI).
 
 ncurses (new curses) is a free software emulation of curses in System V Rel 4.0 (and above).
 

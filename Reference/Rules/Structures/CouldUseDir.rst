@@ -1,33 +1,11 @@
 .. _structures-couldusedir:
 
-
 .. _could-use-\_\_dir\_\_:
 
 Could Use __DIR__
 +++++++++++++++++
 
-.. meta::
-	:description:
-		Could Use __DIR__: Use __DIR__ constant to access the current file's parent directory.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Could Use __DIR__
-	:twitter:description: Could Use __DIR__: Use __DIR__ constant to access the current file's parent directory
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Could Use __DIR__
-	:og:type: article
-	:og:description: Use __DIR__ constant to access the current file's parent directory
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use __DIR__.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CouldUseDir.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CouldUseDir.html","name":"Could Use __DIR__","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Use __DIR__ constant to access the current file's parent directory","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Could Use __DIR__.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Use `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ constant to access the current file's `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ `directory <https://www.php.net/directory>`_. 
+  Use `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ constant to access the current file's `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_. 
 
 Avoid using `dirname() <https://www.php.net/dirname>`_ on `__FILE__ <https://www.php.net/manual/en/language.constants.predefined.php>`_.
 `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ has been introduced in PHP 5.3.0.
@@ -52,7 +30,7 @@ See also `Magic Constants <https://www.php.net/manual/en/language.constants.pred
 Connex PHP features
 -------------------
 
-  + `Magic Constants <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-constant.ini.html>`_
+  + `magic-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-constant.ini.html>`_
 
 
 Suggestions

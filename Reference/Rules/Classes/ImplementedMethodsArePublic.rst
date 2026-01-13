@@ -1,33 +1,11 @@
 .. _classes-implementedmethodsarepublic:
 
-
 .. _implemented-methods-must-be-public:
 
 Implemented Methods Must Be Public
 ++++++++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Implemented Methods Must Be Public: Class methods that are defined in an interface must be public.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Implemented Methods Must Be Public
-	:twitter:description: Implemented Methods Must Be Public: Class methods that are defined in an interface must be public
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Implemented Methods Must Be Public
-	:og:type: article
-	:og:description: Class methods that are defined in an interface must be public
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Implemented Methods Must Be Public.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ImplementedMethodsArePublic.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ImplementedMethodsArePublic.html","name":"Implemented Methods Must Be Public","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Class methods that are defined in an interface must be public","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Implemented Methods Must Be Public.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Class methods that are defined in an interface must be public. They cannot be either private, nor protected.
+  Class methods that are defined in an interface must be public. They cannot be either private, nor protected.
 This `error <https://www.php.net/error>`_ is not reported by lint, and is reported at execution time.
 
 .. code-block:: php
@@ -53,15 +31,15 @@ See also `Interfaces <https://www.php.net/manual/en/language.oop5.interfaces.php
 Related PHP errors 
 -------------------
 
-  + `Access level to %s::$%s must be public (as in class %s) <https://php-errors.readthedocs.io/en/latest/messages/access-level-to-%25s%3A%3A%25s-must-be-%25s-%28as-in-%25s-%25s%29%25s.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Access+level+to+x%3A%3Afoo%28%29+must+be+public+%28as+in+class+i%29.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
-  + `Visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html>`_
+  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+  + `visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html>`_
 
 
 Suggestions

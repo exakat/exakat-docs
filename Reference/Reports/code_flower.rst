@@ -6,22 +6,6 @@ Code Flower
 Code Flower
 ___________
 
-.. meta::
-	:description:
-		Code Flower: The Code Flower represents hierarchies in a code source..
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Code Flower
-	:twitter:description: Code Flower: The Code Flower represents hierarchies in a code source.
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Code Flower
-	:og:type: article
-	:og:description: The Code Flower represents hierarchies in a code source.
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
-	:og:locale: en
-
 The Code Flower represents hierarchies in a code source.
 
 Codeflower is a javascript visualization of the code. It is based on Francois Zaninotto's `CodeFlower Source code visualization <http://www.redotheweb.com/CodeFlower/>`_.

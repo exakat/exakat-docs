@@ -1,21 +1,5 @@
 .. _namespaces-gatheruse:
 
-.. meta::
-	:description:
-		Gather Use Expression: Move lone use expression to the beginning of the file.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Gather Use Expression
-	:twitter:description: Gather Use Expression: Move lone use expression to the beginning of the file
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Gather Use Expression
-	:og:type: article
-	:og:description: Move lone use expression to the beginning of the file
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Namespaces/GatherUse.html
-	:og:locale: en
-
 .. _gather-use-expression:
 
 Gather Use Expression

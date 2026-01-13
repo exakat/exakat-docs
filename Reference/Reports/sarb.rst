@@ -6,22 +6,6 @@ Sarb
 Sarb
 ____
 
-.. meta::
-	:description:
-		Sarb: The Sarb report is a compatibility report with SARB.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Sarb
-	:twitter:description: Sarb: The Sarb report is a compatibility report with SARB
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Sarb
-	:og:type: article
-	:og:description: The Sarb report is a compatibility report with SARB
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
-	:og:locale: en
-
 The Sarb report is a compatibility report with SARB
 
 `SARB <https://github.com/DaveLiddament/sarb>`_ is the Static Analysis Results Baseliner. SARB is used to create a baseline of these results. As work on the project progresses SARB can takes the latest static analysis results, removes those issues in the baseline and report the issues raised since the baseline. SARB does this, in conjunction with git, by tracking lines of code between commits. SARB is the brainchild of `Dave Liddament <https://twitter.com/DaveLiddament>`_. 

@@ -6,22 +6,6 @@ Exakatyaml
 Exakatyaml
 __________
 
-.. meta::
-	:description:
-		Exakatyaml: Builds a list of ruleset, based on the number of issues from the previous audit..
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Exakatyaml
-	:twitter:description: Exakatyaml: Builds a list of ruleset, based on the number of issues from the previous audit.
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Exakatyaml
-	:og:type: article
-	:og:description: Builds a list of ruleset, based on the number of issues from the previous audit.
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
-	:og:locale: en
-
 Builds a list of ruleset, based on the number of issues from the previous audit.
 
 Exakatyaml helps with the configuration of exakat in a CI. It builds a list of ruleset, based on the number of issues from the previous audit.

@@ -1,33 +1,11 @@
 .. _performances-staticcallwithself:
 
-
 .. _static-call-with-self:
 
 Static Call With Self
 +++++++++++++++++++++
 
-.. meta::
-	:description:
-		Static Call With Self: Avoid using a static call on a non-static method.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Static Call With Self
-	:twitter:description: Static Call With Self: Avoid using a static call on a non-static method
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Static Call With Self
-	:og:type: article
-	:og:description: Avoid using a static call on a non-static method
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Static Call With Self.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/StaticCallWithSelf.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/StaticCallWithSelf.html","name":"Static Call With Self","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Avoid using a static call on a non-static method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Static Call With Self.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Avoid using a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ call on a non-`static <https://www.php.net/manual/en/language.oop5.static.php>`_ method. 
+  Avoid using a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ call on a non-`static <https://www.php.net/manual/en/language.oop5.static.php>`_ method. 
 
 PHP allows it inside the class itself. Yet, it makes the code confusing.
 
@@ -50,12 +28,6 @@ PHP allows it inside the class itself. Yet, it makes the code confusing.
    ?>
 
 See also `Don't call instance methods statically <https://thephp.cc/articles/dont-call-instance-methods-statically>`_.
-
-Connex PHP features
--------------------
-
-  + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
-  + `Self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
 
 
 Suggestions

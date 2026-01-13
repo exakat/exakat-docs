@@ -1,33 +1,11 @@
 .. _classes-abstractorimplements:
 
-
 .. _abstract-or-implements:
 
 Abstract Or Implements
 ++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Abstract Or Implements: A class must implements all abstract methods of it parents, or be abstract too.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Abstract Or Implements
-	:twitter:description: Abstract Or Implements: A class must implements all abstract methods of it parents, or be abstract too
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Abstract Or Implements
-	:og:type: article
-	:og:description: A class must implements all abstract methods of it parents, or be abstract too
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Abstract Or Implements.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/AbstractOrImplements.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/AbstractOrImplements.html","name":"Abstract Or Implements","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"A class must implements all abstract methods of it parents, or be abstract too","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Abstract Or Implements.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-A class must implements all abstract methods of it parents, or be abstract too. 
+  A class must implements all abstract methods of it parents, or be abstract too. 
 
 PHP detect such `error <https://www.php.net/error>`_ when all classes are loaded: in a code source where classes are split by files, such `error <https://www.php.net/error>`_ it won't be detected until execution, where PHP stops with a Fatal `Error <https://www.php.net/error>`_ : ``Class BA contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (A\:\:aFoo)``.
 
@@ -53,16 +31,16 @@ See also `Class Abstraction <https://www.php.net/abstract>`_.
 Related PHP errors 
 -------------------
 
-  + `Class %s contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (%s::%s) <https://php-errors.readthedocs.io/en/latest/messages/class-%25s-contains-%25d-abstract-method%25s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Class+BA+contains+1+abstract+method+and+must+therefore+be+declared+abstract+or+implement+the+remaining+methods+%28A%3A%3AaFoo%29.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Abstract Keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
+  + `abstract <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
   + `implements <https://php-dictionary.readthedocs.io/en/latest/dictionary/implements.ini.html>`_
-  + `Lazy Loading <https://php-dictionary.readthedocs.io/en/latest/dictionary/lazy-loading.ini.html>`_
+  + `lazy-loading <https://php-dictionary.readthedocs.io/en/latest/dictionary/lazy-loading.ini.html>`_
 
 
 Suggestions

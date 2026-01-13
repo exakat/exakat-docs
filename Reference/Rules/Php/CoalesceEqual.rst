@@ -1,33 +1,11 @@
 .. _php-coalesceequal:
 
-
 .. _coalesce-equal:
 
 Coalesce Equal
 ++++++++++++++
 
-.. meta::
-	:description:
-		Coalesce Equal: Usage of coalesce assignment operator.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Coalesce Equal
-	:twitter:description: Coalesce Equal: Usage of coalesce assignment operator
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Coalesce Equal
-	:og:type: article
-	:og:description: Usage of coalesce assignment operator
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Coalesce Equal.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/CoalesceEqual.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/CoalesceEqual.html","name":"Coalesce Equal","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Usage of coalesce assignment operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Coalesce Equal.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Usage of coalesce assignment operator. The operator is available in PHP since PHP 7.4.
+  Usage of coalesce assignment operator. The operator is available in PHP since PHP 7.4.
 
 .. code-block:: php
    
@@ -46,8 +24,8 @@ See also `Ternary Operator <https://www.php.net/manual/en/language.operators.com
 Connex PHP features
 -------------------
 
-  + `Coalesce Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
-  + `Short Syntax <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-syntax.ini.html>`_
+  + `coalesce <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
+  + `short-syntax <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-syntax.ini.html>`_
 
 
 Suggestions

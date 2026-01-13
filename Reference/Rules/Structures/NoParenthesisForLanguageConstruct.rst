@@ -1,33 +1,11 @@
 .. _structures-noparenthesisforlanguageconstruct:
 
-
 .. _no-parenthesis-for-language-construct:
 
 No Parenthesis For Language Construct
 +++++++++++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		No Parenthesis For Language Construct: Some PHP language constructs, such are ``include``, ``require``, ``include_once``, ``require_once``, ``print``, ``echo`` don't need parenthesis.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: No Parenthesis For Language Construct
-	:twitter:description: No Parenthesis For Language Construct: Some PHP language constructs, such are ``include``, ``require``, ``include_once``, ``require_once``, ``print``, ``echo`` don't need parenthesis
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: No Parenthesis For Language Construct
-	:og:type: article
-	:og:description: Some PHP language constructs, such are ``include``, ``require``, ``include_once``, ``require_once``, ``print``, ``echo`` don't need parenthesis
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Parenthesis For Language Construct.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/NoParenthesisForLanguageConstruct.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/NoParenthesisForLanguageConstruct.html","name":"No Parenthesis For Language Construct","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Some PHP language constructs, such are ``include``, ``require``, ``include_once``, ``require_once``, ``print``, ``echo`` don't need parenthesis","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Parenthesis For Language Construct.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Some PHP language constructs, such are ``include``, ``require``, ``include_once``, ``require_once``, ``print``, ``echo`` don't need parenthesis. They accept parenthesis, but it is may lead to strange situations. 
+  Some PHP language constructs, such are ``include``, ``require``, ``include_once``, ``require_once``, ``print``, ``echo`` don't need parenthesis. They accept parenthesis, but it is may lead to strange situations. 
 It it better to avoid using parenthesis with ``echo``, ``print``, ``return``, ``throw``, ``yield``, ``yield from``, ``include``, ``require``, ``include_once``, ``require_once``.
 
 .. code-block:: php
@@ -46,9 +24,9 @@ See also `ON PHP LANGUAGE CONSTRUCTS AND PARENTHESES <https://tfrommen.de/on-php
 Connex PHP features
 -------------------
 
-  + `Parenthesis <https://php-dictionary.readthedocs.io/en/latest/dictionary/parenthesis.ini.html>`_
-  + `Language Construct <https://php-dictionary.readthedocs.io/en/latest/dictionary/language-construct.ini.html>`_
-  + `Return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
+  + `parenthesis <https://php-dictionary.readthedocs.io/en/latest/dictionary/parenthesis.ini.html>`_
+  + `language-construct <https://php-dictionary.readthedocs.io/en/latest/dictionary/language-construct.ini.html>`_
+  + `return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
   + `include <https://php-dictionary.readthedocs.io/en/latest/dictionary/include.ini.html>`_
 
 

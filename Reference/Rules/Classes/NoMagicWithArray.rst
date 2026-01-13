@@ -1,33 +1,11 @@
 .. _classes-nomagicwitharray:
 
-
 .. _no-magic-method-with-array:
 
 No Magic Method With Array
 ++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		No Magic Method With Array: Magic method ``__set()`` doesn't work for array syntax.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: No Magic Method With Array
-	:twitter:description: No Magic Method With Array: Magic method ``__set()`` doesn't work for array syntax
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: No Magic Method With Array
-	:og:type: article
-	:og:description: Magic method ``__set()`` doesn't work for array syntax
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Magic Method With Array.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/NoMagicWithArray.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/NoMagicWithArray.html","name":"No Magic Method With Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Magic method ``__set()`` doesn't work for array syntax","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Magic Method With Array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Magic method ``__set()`` doesn't work for array syntax. 
+  Magic method ``__set()`` doesn't work for array syntax. 
 
 When overloading properties, they can only be used for scalar values, excluding arrays. Under the hood, PHP uses ``__get()`` to reach for the name of the property, and doesn't recognize the following index as an array. It yields an `error <https://www.php.net/error>`_ : "Indirect modification of overloaded property".
 
@@ -37,7 +15,7 @@ It is possible to use the array syntax with a magic property : by making the ``_
 
 This is not reported by linting.
 
-In this analysis, only properties that are found to be magic are reported. For example, using the b property outside the class scope is not reported, as it would yield too many `false <https://www.php.net/false>`_-positives.
+In this analysis, only properties that are found to be magic are reported. For example, using the b property outside the class scope is not reported, as it would yield too many false-positives.
 
 .. code-block:: php
    
@@ -74,14 +52,14 @@ See also `Overload <https://www.php.net/manual/en/language.oop5.overloading.php#
 Related PHP errors 
 -------------------
 
-  + `Indirect modification of overloaded property %s::$%s has no effect <https://php-errors.readthedocs.io/en/latest/messages/indirect-modification-of-overloaded-property-%25s%3A%3A%24%25s-has-no-effect.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Indirect+modification+of+overloaded+property+c%3A%3A%24b+has+no+effect.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Magic Methods <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
+  + `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
 
 
 Suggestions

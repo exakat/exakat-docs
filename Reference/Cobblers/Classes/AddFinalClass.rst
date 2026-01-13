@@ -1,21 +1,5 @@
 .. _classes-addfinalclass:
 
-.. meta::
-	:description:
-		Add Final Class: Adds ``final`` keyword to classes that can suppport it.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Add Final Class
-	:twitter:description: Add Final Class: Adds ``final`` keyword to classes that can suppport it
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Add Final Class
-	:og:type: article
-	:og:description: Adds ``final`` keyword to classes that can suppport it
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Classes/AddFinalClass.html
-	:og:locale: en
-
 .. _add-final-class:
 
 Add Final Class

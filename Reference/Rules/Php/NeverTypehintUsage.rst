@@ -1,33 +1,11 @@
 .. _php-nevertypehintusage:
 
+.. _never-typehint-usage:
 
-.. _never-type-usage:
+Never Typehint Usage
+++++++++++++++++++++
 
-Never Type Usage
-++++++++++++++++
-
-.. meta::
-	:description:
-		Never Type Usage: Never is a type, which characterize methods that never return a value.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Never Type Usage
-	:twitter:description: Never Type Usage: Never is a type, which characterize methods that never return a value
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Never Type Usage
-	:og:type: article
-	:og:description: Never is a type, which characterize methods that never return a value
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Never Type Usage.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/NeverTypehintUsage.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/NeverTypehintUsage.html","name":"Never Type Usage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Never is a type, which characterize methods that never return a value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Never Type Usage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Never is a type, which characterize methods that never return a value. It will either terminate the execution or throw an `exception <https://www.php.net/exception>`_.
+  Never is a typehint, which characterize methods that never return a value. It will either terminate the execution or throw an `exception <https://www.php.net/exception>`_.
 
 .. code-block:: php
    
@@ -45,7 +23,7 @@ See also `The “never” Return Type for PHP <https://betterprogramming.pub/the
 Connex PHP features
 -------------------
 
-  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
 
 
 Specs

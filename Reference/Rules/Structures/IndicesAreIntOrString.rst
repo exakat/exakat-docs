@@ -1,37 +1,17 @@
 .. _structures-indicesareintorstring:
 
-
 .. _indices-are-int-or-string:
 
 Indices Are Int Or String
 +++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Indices Are Int Or String: Indices in an array notation such as ``$array['indice']`` may only be integers or string.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Indices Are Int Or String
-	:twitter:description: Indices Are Int Or String: Indices in an array notation such as ``$array['indice']`` may only be integers or string
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Indices Are Int Or String
-	:og:type: article
-	:og:description: Indices in an array notation such as ``$array['indice']`` may only be integers or string
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Indices Are Int Or String.html
-	:og:locale: en
+  Indices in an array notation such as ``$array['indice']`` may only be integers or string.
 
-.. raw:: html
+Boolean, Null or float will be converted to their integer or string equivalent.
 
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/IndicesAreIntOrString.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/IndicesAreIntOrString.html","name":"Indices Are Int Or String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Indices in an array notation such as ``$array['indice']`` may only be integers or string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Indices Are Int Or String.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-Indices in an array notation such as ``$array['indice']`` may only be integers or string.
-
-Boolean, `Null <https://www.php.net/`null <https://www.php.net/null>`_>`_ or float are converted to their integer or string equivalent.
-
-Decimal numbers are rounded to the closest integer; ``null`` is transtyped to ``''`` (empty string); `true <https://www.php.net/true>`_ is 1 and `false <https://www.php.net/false>`_ is 0; Integers in strings are transtyped, while partial numbers or decimals are not analyzed in strings. 
+Decimal numbers are rounded to the closest integer; Null is transtyped to '' (empty string); true is 1 and false is 0; Integers in strings are transtyped, while partial numbers or decimals are not analyzed in strings. 
 
 As a general rule of thumb, only use integers or strings that don\'t look like integers. 
 
@@ -83,14 +63,14 @@ See also `Arrays syntax <https://www.php.net/manual/en/language.types.array.php>
 Related PHP errors 
 -------------------
 
-  + `Illegal offset type <https://php-errors.readthedocs.io/en/latest/messages/illegal-offset-type.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Illegal+offset+type.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
 
 
 Suggestions

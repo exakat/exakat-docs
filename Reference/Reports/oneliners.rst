@@ -6,22 +6,6 @@ OneLiners
 OneLiners
 _________
 
-.. meta::
-	:description:
-		OneLiners: The One Liners report collects one liner usages, which makes using IDE hard..
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: OneLiners
-	:twitter:description: OneLiners: The One Liners report collects one liner usages, which makes using IDE hard.
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: OneLiners
-	:og:type: article
-	:og:description: The One Liners report collects one liner usages, which makes using IDE hard.
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
-	:og:locale: en
-
 The One Liners report collects one liner usages, which makes using IDE hard.
 
 The One Liners report is based on Andreas Möllers's post `Avoiding one-liners in PHP <https://localheinz.com/articles/2023/03/18/avoiding-one-liners-in-php/#content-throw-expressions>`_. It reports all the one liners from that article.

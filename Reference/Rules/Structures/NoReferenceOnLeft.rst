@@ -1,33 +1,11 @@
 .. _structures-noreferenceonleft:
 
-
 .. _no-reference-on-left-side:
 
 No Reference On Left Side
 +++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		No Reference On Left Side: Do not use references as the right element in an assignation.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: No Reference On Left Side
-	:twitter:description: No Reference On Left Side: Do not use references as the right element in an assignation
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: No Reference On Left Side
-	:og:type: article
-	:og:description: Do not use references as the right element in an assignation
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Reference On Left Side.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/NoReferenceOnLeft.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/NoReferenceOnLeft.html","name":"No Reference On Left Side","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Do not use references as the right element in an assignation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Reference On Left Side.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Do not use references as the right element in an assignation. 
+  Do not use references as the right element in an assignation. 
 This is the case for most situations : addition, multiplication, bitshift, logical, power, concatenation.
 Note that PHP won't compile the code if the operator is a short operator (+=, .=, etc.), nor if the & is on the right side of the operator.
 
@@ -51,7 +29,7 @@ See also `References Explained <https://www.php.net/manual/en/language.reference
 Connex PHP features
 -------------------
 
-  + `References <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+  + `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
 
 
 Specs

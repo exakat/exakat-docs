@@ -3,54 +3,38 @@
 Typechecks
 ++++++++++
 
-.. meta::
-	:description:
-		Typechecks: Checks related to types..
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Typechecks
-	:twitter:description: Typechecks: Checks related to types.
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Typechecks
-	:og:type: article
-	:og:description: Checks related to types.
-	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Typechecks.html
-	:og:locale: en
-
 This ruleset focuses on typehinting. Missing typehints, or inconsistent typehint, are reported. 
 
 Total : 28 analysis
 
-* :ref:`functions-shouldbetypehinted`
-* :ref:`interfaces-uselessinterfaces`
-* :ref:`functions-noclassastypehint`
-* :ref:`functions-mismatcheddefaultarguments`
-* :ref:`functions-mismatchedtypehint`
-* :ref:`classes-childremovetypehint`
-* :ref:`php-notscalartype`
-* :ref:`functions-mismatchtypeanddefault`
-* :ref:`functions-insufficienttypehint`
-* :ref:`functions-badtypehintrelay`
-* :ref:`functions-wrongtypewithcall`
-* :ref:`functions-missingtypehint`
-* :ref:`classes-fossilizedmethod`
-* :ref:`typehints-couldbestring`
-* :ref:`typehints-couldbevoid`
-* :ref:`typehints-couldbecallable`
-* :ref:`functions-wrongargumenttype`
-* :ref:`typehints-couldbeint`
-* :ref:`typehints-couldbenull`
-* :ref:`typehints-couldbeiterable`
-* :ref:`typehints-couldbefloat`
-* :ref:`typehints-couldbeself`
-* :ref:`typehints-couldbeparent`
-* :ref:`typehints-couldbegenerator`
-* :ref:`classes-couldbeiterable`
-* :ref:`typehints-couldbenever`
+* :ref:`argument-should-be-typehinted`
+* :ref:`useless-interfaces`
+* :ref:`no-class-as-typehint`
+* :ref:`mismatched-default-arguments`
+* :ref:`mismatched-typehint`
+* :ref:`child-class-removes-typehint`
+* :ref:`not-a-scalar-type`
+* :ref:`mismatch-type-and-default`
+* :ref:`insufficient-typehint`
+* :ref:`bad-type-relay`
+* :ref:`wrong-type-with-call`
+* :ref:`missing-typehint`
+* :ref:`fossilized-method`
+* :ref:`could-be-string`
+* :ref:`could-be-void`
+* :ref:`could-be-callable`
+* :ref:`wrong-argument-type`
+* :ref:`type-could-be-integer`
+* :ref:`could-be-null`
+* :ref:`typehint-could-be-iterable`
+* :ref:`could-be-float`
+* :ref:`could-be-self`
+* :ref:`could-be-parent`
+* :ref:`could-be-generator`
+* :ref:`this-could-be-iterable`
+* :ref:`type-could-be-never`
 * :ref:`typehints-couldberesource`
-* :ref:`exceptions-possibletypeerror`
+* :ref:`possible-typeerror`
 
 Specs
 _____

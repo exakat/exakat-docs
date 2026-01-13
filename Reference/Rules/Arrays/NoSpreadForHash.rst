@@ -1,33 +1,11 @@
 .. _arrays-nospreadforhash:
 
-
 .. _no-spread-for-hash:
 
 No Spread For Hash
 ++++++++++++++++++
 
-.. meta::
-	:description:
-		No Spread For Hash: The spread operator ``.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: No Spread For Hash
-	:twitter:description: No Spread For Hash: The spread operator ``
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: No Spread For Hash
-	:og:type: article
-	:og:description: The spread operator ``
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Spread For Hash.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/NoSpreadForHash.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/NoSpreadForHash.html","name":"No Spread For Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"The spread operator ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Spread For Hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-The spread operator ``...`` used to work only on integer-indexed arrays. This limitation was removed in PHP 8.1 and more recent.
+  The spread operator ``...`` used to work only on integer-indexed arrays. This limitation was removed in PHP 8.1 and more recent.
 
 .. code-block:: php
    
@@ -41,7 +19,7 @@ The spread operator ``...`` used to work only on integer-indexed arrays. This li
    
    ?>
 
-See also https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list.
+See also `Variable-length argument lists <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_.
 
 Related PHP errors 
 -------------------
@@ -54,9 +32,9 @@ Related PHP errors
 Connex PHP features
 -------------------
 
-  + `Ellipsis <https://php-dictionary.readthedocs.io/en/latest/dictionary/ellipsis.ini.html>`_
-  + `Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
-  + `Array Spread <https://php-dictionary.readthedocs.io/en/latest/dictionary/array-spread.ini.html>`_
+  + `ellipsis <https://php-dictionary.readthedocs.io/en/latest/dictionary/ellipsis.ini.html>`_
+  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `array-spread <https://php-dictionary.readthedocs.io/en/latest/dictionary/array-spread.ini.html>`_
 
 
 Suggestions

@@ -1,33 +1,11 @@
 .. _classes-thisisnotanarray:
 
-
 .. _$this-is-not-an-array:
 
 $this Is Not An Array
 +++++++++++++++++++++
 
-.. meta::
-	:description:
-		$this Is Not An Array: ``$this`` variable represents the current object and it is not an array.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: $this Is Not An Array
-	:twitter:description: $this Is Not An Array: ``$this`` variable represents the current object and it is not an array
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: $this Is Not An Array
-	:og:type: article
-	:og:description: ``$this`` variable represents the current object and it is not an array
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/$this Is Not An Array.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ThisIsNotAnArray.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ThisIsNotAnArray.html","name":"$this Is Not An Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"``$this`` variable represents the current object and it is not an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/$this Is Not An Array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-``$this`` variable represents the current object and it is not an array. 
+  ``$this`` variable represents the current object and it is not an array. 
 
 This is unless the class (or its parents) has the ``ArrayAccess`` interface, or extends ``ArrayObject`` or ``SimpleXMLElement``.
 
@@ -56,7 +34,7 @@ See also `ArrayAccess <https://www.php.net/manual/en/class.arrayaccess.php>`_, `
 Related PHP errors 
 -------------------
 
-  + `Cannot use object of type %s as array <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-object-of-type-%25s-as-array.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+object+of+type+Foo+as+array.html>`_
 
 
 

@@ -1,33 +1,11 @@
 .. _extensions-extxxtea:
 
-
 .. _ext-xxtea:
 
 ext/xxtea
 +++++++++
 
-.. meta::
-	:description:
-		ext/xxtea: Extension xxtea : XXTEA encryption algorithm extension for PHP.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: ext/xxtea
-	:twitter:description: ext/xxtea: Extension xxtea : XXTEA encryption algorithm extension for PHP
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: ext/xxtea
-	:og:type: article
-	:og:description: Extension xxtea : XXTEA encryption algorithm extension for PHP
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/xxtea.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extxxtea.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extxxtea.html","name":"ext\/xxtea","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Extension xxtea : XXTEA encryption algorithm extension for PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/ext\/xxtea.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Extension xxtea : XXTEA encryption algorithm extension for PHP.
+  Extension xxtea : XXTEA encryption algorithm extension for PHP.
 
 XXTEA is a fast and `secure <https://www.php.net/secure>`_ encryption algorithm. This is a XXTEA extension for PHP.
 It is different from the original XXTEA encryption algorithm. It encrypts and decrypts string instead of uint32 array, and the key is also string.
@@ -55,7 +33,7 @@ See also `PECL ext/xxtea <https://pecl.php.net/package/xxtea>`_ and `ext/xxtea o
 Connex PHP features
 -------------------
 
-  + `XXTEA <https://php-dictionary.readthedocs.io/en/latest/dictionary/xxtea.ini.html>`_
+  + `xxtea <https://php-dictionary.readthedocs.io/en/latest/dictionary/xxtea.ini.html>`_
 
 
 Specs

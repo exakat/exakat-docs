@@ -1,33 +1,11 @@
 .. _performances-simpleswitch:
 
-
 .. _simple-switch-and-match:
 
 Simple Switch And Match
 +++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Simple Switch And Match: Switch() and match() are faster when relying only on literal integers or strings.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Simple Switch And Match
-	:twitter:description: Simple Switch And Match: Switch() and match() are faster when relying only on literal integers or strings
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Simple Switch And Match
-	:og:type: article
-	:og:description: Switch() and match() are faster when relying only on literal integers or strings
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Simple Switch And Match.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/SimpleSwitch.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/SimpleSwitch.html","name":"Simple Switch And Match","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Switch() and match() are faster when relying only on literal integers or strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Simple Switch And Match.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-`Switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ and `match() <https://www.php.net/manual/en/control-structures.match.php>`_ are faster when relying only on literal integers or strings.
+  `Switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ and `match() <https://www.php.net/manual/en/control-structures.match.php>`_ are faster when relying only on literal integers or strings.
 
 Since PHP 7.2, simple switches, that use only literal strings or integers, are optimized. The bigger the switch, the greater the gain.
 `Match() <https://www.php.net/manual/en/control-structures.match.php>`_ was introduced in PHP 8.0
@@ -101,8 +79,8 @@ See also `PHP 7.2's "switch" optimisations <https://derickrethans.nl/php7.2-swit
 Connex PHP features
 -------------------
 
-  + `Switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
-  + `Match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
+  + `switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
+  + `match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
 
 
 Suggestions

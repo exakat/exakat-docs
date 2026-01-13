@@ -1,33 +1,11 @@
 .. _structures-uselesscasting:
 
-
 .. _useless-type-casting:
 
 Useless Type Casting
 ++++++++++++++++++++
 
-.. meta::
-	:description:
-		Useless Type Casting: There is no need to cast values that are already well typed.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Useless Type Casting
-	:twitter:description: Useless Type Casting: There is no need to cast values that are already well typed
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Useless Type Casting
-	:og:type: article
-	:og:description: There is no need to cast values that are already well typed
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Type Casting.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UselessCasting.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UselessCasting.html","name":"Useless Type Casting","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"There is no need to cast values that are already well typed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Useless Type Casting.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-There is no need to cast values that are already well typed.
+  There is no need to cast values that are already well typed.
 
 Typed values, such as properties, do not have to be cast again, as the `engine <https://www.php.net/engine>`_ always ensures their type.
 
@@ -58,8 +36,8 @@ See also `Type juggling <https://www.php.net/manual/en/language.types.type-juggl
 Connex PHP features
 -------------------
 
-  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
-  + `Cast Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
 
 
 Suggestions

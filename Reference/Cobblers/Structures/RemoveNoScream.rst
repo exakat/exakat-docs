@@ -1,21 +1,5 @@
 .. _structures-removenoscream:
 
-.. meta::
-	:description:
-		Remove Noscream @: Removes the @ operator.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Remove Noscream @
-	:twitter:description: Remove Noscream @: Removes the @ operator
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Remove Noscream @
-	:og:type: article
-	:og:description: Removes the @ operator
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Structures/RemoveNoScream.html
-	:og:locale: en
-
 .. _remove-noscream-@:
 
 Remove Noscream @

@@ -1,35 +1,15 @@
 .. _php-nostringwithappend:
 
-
 .. _no-string-with-append:
 
 No String With Append
 +++++++++++++++++++++
 
-.. meta::
-	:description:
-		No String With Append: PHP 7, and more recent, doesn't allow the usage of the append operator ``[]`` with strings.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: No String With Append
-	:twitter:description: No String With Append: PHP 7, and more recent, doesn't allow the usage of the append operator ``[]`` with strings
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: No String With Append
-	:og:type: article
-	:og:description: PHP 7, and more recent, doesn't allow the usage of the append operator ``[]`` with strings
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No String With Append.html
-	:og:locale: en
-
-.. raw:: html
+  PHP 7 doesn't allow the usage of [] with strings. [] is an array-only operator.
 
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/NoStringWithAppend.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/NoStringWithAppend.html","name":"No String With Append","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"PHP 7, and more recent, doesn't allow the usage of the append operator ``[]`` with strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No String With Append.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
-PHP 7, and more recent, doesn't allow the usage of the append operator ``[]`` with strings. ``[]`` is an array-only operator.
-
-This was possible in PHP 5, and it is forbidden since in PHP 7.
+This was possible in PHP 5, but is now forbidden in PHP 7.
 
 .. code-block:: php
    
@@ -41,11 +21,14 @@ This was possible in PHP 5, and it is forbidden since in PHP 7.
    $string[] = 'd';
    
    ?>
+
+See also `class <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class>`_.
+
 Connex PHP features
 -------------------
 
-  + `String <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
-  + `Array Append <https://php-dictionary.readthedocs.io/en/latest/dictionary/append.ini.html>`_
+  + `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+  + `append <https://php-dictionary.readthedocs.io/en/latest/dictionary/append.ini.html>`_
 
 
 Suggestions

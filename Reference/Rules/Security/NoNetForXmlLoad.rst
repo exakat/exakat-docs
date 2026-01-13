@@ -1,33 +1,11 @@
 .. _security-nonetforxmlload:
 
-
 .. _no-net-for-xml-load:
 
 No Net For Xml Load
 +++++++++++++++++++
 
-.. meta::
-	:description:
-		No Net For Xml Load: Simplexml and ext/DOM load all external entities from the web, by default.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: No Net For Xml Load
-	:twitter:description: No Net For Xml Load: Simplexml and ext/DOM load all external entities from the web, by default
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: No Net For Xml Load
-	:og:type: article
-	:og:description: Simplexml and ext/DOM load all external entities from the web, by default
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Net For Xml Load.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Security\/NoNetForXmlLoad.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Security\/NoNetForXmlLoad.html","name":"No Net For Xml Load","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Simplexml and ext\/DOM load all external entities from the web, by default","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Net For Xml Load.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Simplexml and ext/DOM load all external entities from the web, by default. This is dangerous, in particular when loading unknown XML code.
+  Simplexml and ext/DOM load all external entities from the web, by default. This is dangerous, in particular when loading unknown XML code.
 
 Look at this XML code below : it is valid. It defines an entity ``xxe``, that is filled with a file, read on the system and base64 encoded.::
 
@@ -49,7 +27,7 @@ At that point, the example illustrates how a XXE works : by using the XML `engin
 
    
    
-   &lt;!DOCTYPE replace [&lt;!ENTITY writer SYSTEM "https://www.example.`com <https://www.php.net/com>`_/entities.dtd"&gt; ]&gt;
+   &lt;!DOCTYPE replace [&lt;!ENTITY writer SYSTEM "https://www.example.com/entities.dtd"&gt; ]&gt;
    <replace>&xxe;</replace>
    
    
@@ -72,7 +50,7 @@ See also `XML External Entity <https://github.com/swisskyrepo/PayloadsAllTheThin
 Connex PHP features
 -------------------
 
-  + `Extensible Markup Language (XML) <https://php-dictionary.readthedocs.io/en/latest/dictionary/xml.ini.html>`_
+  + `xml <https://php-dictionary.readthedocs.io/en/latest/dictionary/xml.ini.html>`_
 
 
 Suggestions

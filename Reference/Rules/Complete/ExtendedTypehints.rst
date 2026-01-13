@@ -1,33 +1,11 @@
 .. _complete-extendedtypehints:
 
+.. _extended-typehints:
 
-.. _extended-types:
+Extended Typehints
+++++++++++++++++++
 
-Extended Types
-++++++++++++++
-
-.. meta::
-	:description:
-		Extended Types: Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the type.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Extended Types
-	:twitter:description: Extended Types: Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the type
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Extended Types
-	:og:type: article
-	:og:description: Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the type
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Extended Types.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/ExtendedTypehints.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Complete\/ExtendedTypehints.html","name":"Extended Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Extended Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the type.
+  Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the typehint.
 
 .. code-block:: php
    
@@ -35,22 +13,22 @@ Produces all the definition links between typehints (arguments, return types, pr
    
    function foo(A $A) {}
    
-   // This is the raw definition of the above type
+   // This is the raw definition of the above typehint
    interface A {}
    
-   // This is valid definition of the above type
+   // This is valid definition of the above typehint
    class X implements A {}
-   // This is valid definition of the above type
+   // This is valid definition of the above typehint
    class Y extends X {}
    
-   // This is not related to the type
+   // This is not related to the typehint
    class Z {}
    
    ?>
 Connex PHP features
 -------------------
 
-  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
 
 
 Specs

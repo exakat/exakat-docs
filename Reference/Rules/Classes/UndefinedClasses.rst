@@ -1,36 +1,16 @@
 .. _classes-undefinedclasses:
 
-
 .. _undefined-classes:
 
 Undefined Classes
 +++++++++++++++++
 
-.. meta::
-	:description:
-		Undefined Classes: Those classes are used in the code, but there are no definition for them.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Undefined Classes
-	:twitter:description: Undefined Classes: Those classes are used in the code, but there are no definition for them
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Undefined Classes
-	:og:type: article
-	:og:description: Those classes are used in the code, but there are no definition for them
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Classes.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UndefinedClasses.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UndefinedClasses.html","name":"Undefined Classes","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 May 2025 16:18:44 +0000","dateModified":"Wed, 21 May 2025 16:18:44 +0000","description":"Those classes are used in the code, but there are no definition for them","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Undefined Classes.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Those classes are used in the code, but there are no definition for them.
+  Those classes are used in the code, but there are no definition for them.
 
 This may happens under normal conditions, if the application makes use of an unsupported extension, that defines extra classes; 
 or if some external libraries, such as PEAR, are not provided during the analysis.
+
+
 
 This analysis also checks in attributes.
 
@@ -56,7 +36,7 @@ This analysis also checks in attributes.
 Connex PHP features
 -------------------
 
-  + `Class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
 
 
 Suggestions

@@ -1,33 +1,11 @@
 .. _structures-shouldchainexception:
 
-
 .. _should-chain-exception:
 
 Should Chain Exception
 ++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Should Chain Exception: Chain exception to provide more context.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Should Chain Exception
-	:twitter:description: Should Chain Exception: Chain exception to provide more context
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Should Chain Exception
-	:og:type: article
-	:og:description: Chain exception to provide more context
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Chain Exception.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ShouldChainException.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ShouldChainException.html","name":"Should Chain Exception","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Chain exception to provide more context","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Should Chain Exception.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Chain `exception <https://www.php.net/exception>`_ to provide more context.
+  Chain `exception <https://www.php.net/exception>`_ to provide more context.
 
 When catching an `exception <https://www.php.net/exception>`_ and rethrowing another one, it is recommended to chain the `exception <https://www.php.net/exception>`_ : this means providing the original `exception <https://www.php.net/exception>`_, so that the final recipient has a chance to track the origin of the problem. This doesn't change the thrown message, but provides more information.
 
@@ -50,7 +28,7 @@ See also `Exception::__construct <https://www.php.net/manual/en/exception.constr
 Connex PHP features
 -------------------
 
-  + `Chaining Exceptions <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception-chain.ini.html>`_
+  + `exception-chain <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception-chain.ini.html>`_
 
 
 Suggestions

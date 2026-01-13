@@ -1,35 +1,15 @@
 .. _classes-wrongtypedpropertyinit:
 
-
 .. _wrong-typed-property-default:
 
 Wrong Typed Property Default
 ++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Wrong Typed Property Default: Property is typed, yet receives an incompatible value at constructor time.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Wrong Typed Property Default
-	:twitter:description: Wrong Typed Property Default: Property is typed, yet receives an incompatible value at constructor time
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Wrong Typed Property Default
-	:og:type: article
-	:og:description: Property is typed, yet receives an incompatible value at constructor time
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Typed Property Default.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/WrongTypedPropertyInit.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/WrongTypedPropertyInit.html","name":"Wrong Typed Property Default","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Property is typed, yet receives an incompatible value at constructor time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Wrong Typed Property Default.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Property is typed, yet receives an incompatible value at constructor time.
+  Property is typed, yet receives an incompatible value at constructor time.
 
 Initialized type might be a new instance, the return of a method call or an interface compatible object.
+
+
 
 PHP compiles such code, but won't execute it, as it detects the incompatibility at execution time.
 
@@ -37,7 +17,7 @@ PHP compiles such code, but won't execute it, as it detects the incompatibility 
    
    <?php
    
-   class X {
+   class x {
        private A $property;
        private B $incompatible;
        
@@ -58,15 +38,15 @@ See also :ref:`Wrong Type Returned <wrong-type-returned>` and :ref:`Mismatch Typ
 Related PHP errors 
 -------------------
 
-  + `Cannot use int as default value for parameter %s of type %s <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%25s-as-default-value-for-parameter-%24%25s-of-type-%25s.html>`_
-  + `Cannot use int as default value for property %s::$%s of type %s <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%25s-as-default-value-for-property-%25s%3A%3A%24%25s-of-type-%25s.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+int+as+default+value+for+parameter+%24a+of+type+string.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+int+as+default+value+for+property+x%3A%3A%24a+of+type+string.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Default Value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
+  + `default-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
 
 
 Suggestions

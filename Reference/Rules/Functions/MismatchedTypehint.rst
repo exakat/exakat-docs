@@ -1,36 +1,13 @@
 .. _functions-mismatchedtypehint:
 
+.. _mismatched-typehint:
 
-.. _mismatched-type:
+Mismatched Typehint
++++++++++++++++++++
 
-Mismatched Type
-+++++++++++++++
+  Relayed arguments don't have the same typehint.
 
-.. meta::
-	:description:
-		Mismatched Type: Relayed arguments don't have the same type.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Mismatched Type
-	:twitter:description: Mismatched Type: Relayed arguments don't have the same type
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Mismatched Type
-	:og:type: article
-	:og:description: Relayed arguments don't have the same type
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mismatched Type.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/MismatchedTypehint.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/MismatchedTypehint.html","name":"Mismatched Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Relayed arguments don't have the same type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Mismatched Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Relayed arguments don't have the same type.
-
-Type acts as a filter method. When an object is checked with a first class, and then checked again with a second distinct class, the whole process is always `false <https://www.php.net/false>`_ : $a can't be of two different classes at the same time.
-
+Typehint acts as a filter method. When an object is checked with a first class, and then checked again with a second distinct class, the whole process is always false : $a can't be of two different classes at the same time.
 Note : This analysis currently doesn't check generalisation of classes : for example, when B is a child of BB, it is still reported as a mismatch.
 
 .. code-block:: php
@@ -52,7 +29,7 @@ Note : This analysis currently doesn't check generalisation of classes : for exa
 Connex PHP features
 -------------------
 
-  + `Type System <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
 
 
 Suggestions

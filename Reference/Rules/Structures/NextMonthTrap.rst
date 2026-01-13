@@ -1,33 +1,11 @@
 .. _structures-nextmonthtrap:
 
-
 .. _next-month-trap:
 
 Next Month Trap
 +++++++++++++++
 
-.. meta::
-	:description:
-		Next Month Trap: Avoid using +1 month with strtotime().
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Next Month Trap
-	:twitter:description: Next Month Trap: Avoid using +1 month with strtotime()
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Next Month Trap
-	:og:type: article
-	:og:description: Avoid using +1 month with strtotime()
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Next Month Trap.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/NextMonthTrap.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/NextMonthTrap.html","name":"Next Month Trap","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Avoid using +1 month with strtotime()","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Next Month Trap.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Avoid using +1 month with `strtotime() <https://www.php.net/strtotime>`_. 
+  Avoid using +1 month with `strtotime() <https://www.php.net/strtotime>`_. 
 
 `strtotime() <https://www.php.net/strtotime>`_ calculates the next month by incrementing the month number. For day number that do not exist from one month to the next, `strtotime() <https://www.php.net/strtotime>`_ fixes them by setting them in the next-next month. 
 
@@ -55,7 +33,7 @@ See also `It is the 31st again <https://twitter.com/rasmus/status/92543173412819
 Connex PHP features
 -------------------
 
-  + `Dates <https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html>`_
+  + `date <https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html>`_
 
 
 Suggestions

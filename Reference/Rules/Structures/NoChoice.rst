@@ -1,33 +1,11 @@
 .. _structures-nochoice:
 
-
 .. _no-choice:
 
 No Choice
 +++++++++
 
-.. meta::
-	:description:
-		No Choice: A conditional structure is being used, and both alternatives are the same, leading to the illusion of choice.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: No Choice
-	:twitter:description: No Choice: A conditional structure is being used, and both alternatives are the same, leading to the illusion of choice
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: No Choice
-	:og:type: article
-	:og:description: A conditional structure is being used, and both alternatives are the same, leading to the illusion of choice
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Choice.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/NoChoice.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/NoChoice.html","name":"No Choice","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"A conditional structure is being used, and both alternatives are the same, leading to the illusion of choice","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Choice.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-A conditional structure is being used, and both alternatives are the same, leading to the illusion of choice. 
+  A conditional structure is being used, and both alternatives are the same, leading to the illusion of choice. 
 
 Either the condition is useless, and may be removed, or the alternatives need to be distinguished.
 
@@ -44,12 +22,6 @@ Either the condition is useless, and may be removed, or the alternatives need to
    $condition == 2 ?     doSomething() :     doSomething();
    
    ?>
-Connex PHP features
--------------------
-
-  + `Branch <https://php-dictionary.readthedocs.io/en/latest/dictionary/branch.ini.html>`_
-  + `Condition <https://php-dictionary.readthedocs.io/en/latest/dictionary/condition.ini.html>`_
-
 
 Suggestions
 ___________

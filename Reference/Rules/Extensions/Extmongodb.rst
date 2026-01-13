@@ -1,37 +1,15 @@
 .. _extensions-extmongodb:
 
-
 .. _ext-mongodb:
 
 ext/mongodb
 +++++++++++
 
-.. meta::
-	:description:
-		ext/mongodb: Extension MongoDb.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: ext/mongodb
-	:twitter:description: ext/mongodb: Extension MongoDb
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: ext/mongodb
-	:og:type: article
-	:og:description: Extension MongoDb
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/mongodb.html
-	:og:locale: en
+  Extension MongoDb.
 
-.. raw:: html
+Do not mistake with extension `Mongo <https://www.php.net/Mongo>`_, the previous version.
 
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extmongodb.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extmongodb.html","name":"ext\/mongodb","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Extension MongoDb","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/ext\/mongodb.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Extension `MongoDb <https://www.php.net/mongodb>`_.
-
-Do not mistake with extension `Mongo <https://www.php.net/mongo>`_, the previous version.
-
-`Mongodb <https://www.php.net/mongodb>`_ driver supports both PHP and HHVM and is developed atop the `libmongoc <https://github.`com <https://www.php.net/com>`_/`mongodb <https://www.php.net/mongodb>`_/`mongo <https://www.php.net/mongo>`_-c-driver>`_ and `libbson <https://github.`com <https://www.php.net/com>`_/`mongodb <https://www.php.net/mongodb>`_/libbson>`_ libraries.
+Mongodb driver supports both PHP and HHVM and is developed atop the `libmongoc <https://github.com/mongodb/mongo-c-driver>`_ and `libbson <https://github.com/mongodb/libbson>`_ libraries.
 
 .. code-block:: php
    

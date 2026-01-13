@@ -1,52 +1,30 @@
 .. _traits-finaltraitsarefinal:
 
-
 .. _final-traits-are-final:
 
 Final Traits Are Final
 ++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Final Traits Are Final: A final method in a trait is also final when in its importing class.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Final Traits Are Final
-	:twitter:description: Final Traits Are Final: A final method in a trait is also final when in its importing class
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Final Traits Are Final
-	:og:type: article
-	:og:description: A final method in a trait is also final when in its importing class
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Final Traits Are Final.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/FinalTraitsAreFinal.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/FinalTraitsAreFinal.html","name":"Final Traits Are Final","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"A final method in a trait is also final when in its importing class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Final Traits Are Final.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-A final method in a trait is also final when in its importing class. This means that the importing class may redefine it, but not the children.
+  A final method in a trait is also final when in its importing class. This means that the importing class may redefine it, but not the children.
 
 .. code-block:: php
    
    <?php
    
-   trait T {
+   trait t {
    	final function FFinal() {}
    	final function FNotFinalInClass() {}
    	function FNotFinal() {}     // This is a normal method
    }
    
-   class X {
+   class x {
    	use t;
    	
    	function FNotFinalInClass() {}
    
    }
    
-   class Y extends X {
+   class y extends x  {
    	function FFinal() {}            // This is KO, as it is final in the trait
    	function FNotFinalInClass() {}  // This is OK, the class as priority
    	function FNotFinal() {}   

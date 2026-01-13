@@ -1,38 +1,16 @@
 .. _structures-strposcompare:
 
-
 .. _strpos()-like-comparison:
 
 Strpos()-like Comparison
 ++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Strpos()-like Comparison: The result of that function may be mistaken with an error.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Strpos()-like Comparison
-	:twitter:description: Strpos()-like Comparison: The result of that function may be mistaken with an error
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Strpos()-like Comparison
-	:og:type: article
-	:og:description: The result of that function may be mistaken with an error
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Strpos()-like Comparison.html
-	:og:locale: en
+  The `result <https://www.php.net/result>`_ of that function may be mistaken with an `error <https://www.php.net/error>`_.
 
-.. raw:: html
+`strpos() <https://www.php.net/strpos>`_, along with several PHP native functions, returns a string position, starting at 0, or false, in case of failure. 
+It is recommended to check the `result <https://www.php.net/result>`_ of `strpos() <https://www.php.net/strpos>`_ with === or !==, so as to avoid confusing 0 and false. 
 
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/StrposCompare.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/StrposCompare.html","name":"Strpos()-like Comparison","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"The result of that function may be mistaken with an error","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Strpos()-like Comparison.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-The `result <https://www.php.net/result>`_ of that function may be mistaken with an `error <https://www.php.net/error>`_.
-
-`strpos() <https://www.php.net/strpos>`_, along with several PHP native functions, returns a string position, starting at 0, or `false <https://www.php.net/false>`_, in case of failure. 
-It is recommended to check the `result <https://www.php.net/result>`_ of `strpos() <https://www.php.net/strpos>`_ with === or !==, so as to avoid confusing 0 and `false <https://www.php.net/false>`_. 
-
-This analyzer list all the `strpos() <https://www.php.net/strpos>`_-like functions that are directly compared with == or !=. `preg_match() <https://www.php.net/preg_match>`_, when its first argument is a literal, is omitted : this function only returns `NULL <https://www.php.net/manual/en/language.types.`null <https://www.php.net/null>`_.php>`_ in case of regex `error <https://www.php.net/error>`_. 
+This analyzer list all the `strpos() <https://www.php.net/strpos>`_-like functions that are directly compared with == or !=. `preg_match() <https://www.php.net/preg_match>`_, when its first argument is a literal, is omitted : this function only returns `NULL <https://www.php.net/manual/en/language.types.null.php>`_ in case of regex `error <https://www.php.net/error>`_. 
 
 The full list is the following : 
 * `array_search() <https://www.php.net/array_search>`_
@@ -91,7 +69,7 @@ See also `strpos not working correctly <https://bugs.php.net/bug.php?id=52198>`_
 Connex PHP features
 -------------------
 
-  + `Strict Comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/strict-comparison.ini.html>`_
+  + `strict-comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/strict-comparison.ini.html>`_
 
 
 Suggestions

@@ -1,33 +1,11 @@
 .. _performances-arraymergeinloops:
 
-
 .. _no-array\_merge()-in-loops:
 
 No array_merge() In Loops
 +++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		No array_merge() In Loops: array_merge() is memory intensive : every call will duplicate the arguments in memory, before merging them.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: No array_merge() In Loops
-	:twitter:description: No array_merge() In Loops: array_merge() is memory intensive : every call will duplicate the arguments in memory, before merging them
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: No array_merge() In Loops
-	:og:type: article
-	:og:description: array_merge() is memory intensive : every call will duplicate the arguments in memory, before merging them
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No array_merge() In Loops.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/ArrayMergeInLoops.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/ArrayMergeInLoops.html","name":"No array_merge() In Loops","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"array_merge() is memory intensive : every call will duplicate the arguments in memory, before merging them","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No array_merge() In Loops.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-`array_merge() <https://www.php.net/array_merge>`_ is memory intensive : every call will duplicate the arguments in memory, before merging them. 
+  `array_merge() <https://www.php.net/array_merge>`_ is memory intensive : every call will duplicate the arguments in memory, before merging them. 
 
 To handle arrays that may be quite big, it is recommended to avoid using `array_merge() <https://www.php.net/array_merge>`_ in a loop. Instead, one should use `array_merge() <https://www.php.net/array_merge>`_ with as many arguments as possible, making the merge a on time call.
 Note that `array_merge_recursive() <https://www.php.net/array_merge_recursive>`_ and `file_put_contents() <https://www.php.net/file_put_contents>`_ are affected and reported the same way.
@@ -68,12 +46,6 @@ Note that `array_merge_recursive() <https://www.php.net/array_merge_recursive>`_
    ?>
 
 See also `Speed up array_merge() <https://www.exakat.io/en/speeding-up-array_merge/>`_.
-
-Connex PHP features
--------------------
-
-  + `Performance <https://php-dictionary.readthedocs.io/en/latest/dictionary/performance.ini.html>`_
-  + `Loops <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
 
 
 Suggestions

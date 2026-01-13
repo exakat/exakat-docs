@@ -1,33 +1,11 @@
 .. _functions-avoidbooleanargument:
 
-
 .. _use-named-boolean-in-argument-definition:
 
 Use Named Boolean In Argument Definition
 ++++++++++++++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Use Named Boolean In Argument Definition: Boolean values in argument definition are confusing.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Use Named Boolean In Argument Definition
-	:twitter:description: Use Named Boolean In Argument Definition: Boolean values in argument definition are confusing
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Use Named Boolean In Argument Definition
-	:og:type: article
-	:og:description: Boolean values in argument definition are confusing
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Named Boolean In Argument Definition.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/AvoidBooleanArgument.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/AvoidBooleanArgument.html","name":"Use Named Boolean In Argument Definition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Boolean values in argument definition are confusing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Use Named Boolean In Argument Definition.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Boolean values in argument definition are confusing. 
+  Boolean values in argument definition are confusing. 
 
 It is recommended to use explicit constant names or enumerations, instead. They are more readable. They also allow for easy replacement when the code evolve and has to replace those booleans by strings. This works even also with classes, and class constants.
 
@@ -45,6 +23,7 @@ It is recommended to use explicit constant names or enumerations, instead. They 
    
    rotateImage($im, HORIZONTAL_FLIP, NO_VERTICAL_FLIP);
    
+   
    // without constants 
    function flipImage($im, $horizontal = false, $vertical = false) { }
    
@@ -57,8 +36,8 @@ See also `Improve Passing Booleans in PHP  <https://freek.dev/2227-improve-passi
 Connex PHP features
 -------------------
 
-  + `Boolean <https://php-dictionary.readthedocs.io/en/latest/dictionary/boolean.ini.html>`_
-  + `Argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
+  + `boolean <https://php-dictionary.readthedocs.io/en/latest/dictionary/boolean.ini.html>`_
+  + `argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
 
 
 Suggestions

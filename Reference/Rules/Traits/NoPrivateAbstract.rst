@@ -1,33 +1,11 @@
 .. _traits-noprivateabstract:
 
-
 .. _no-private-abstract-method-in-trait:
 
 No Private Abstract Method In Trait
 +++++++++++++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		No Private Abstract Method In Trait: Method could not be both abstract and private in traits.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: No Private Abstract Method In Trait
-	:twitter:description: No Private Abstract Method In Trait: Method could not be both abstract and private in traits
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: No Private Abstract Method In Trait
-	:og:type: article
-	:og:description: Method could not be both abstract and private in traits
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Private Abstract Method In Trait.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/NoPrivateAbstract.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/NoPrivateAbstract.html","name":"No Private Abstract Method In Trait","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Method could not be both abstract and private in traits","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Private Abstract Method In Trait.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-Method could not be both abstract and private in traits. This was changed in PHP 8.0 : the class might overwrite the trait's method, since it has precedence of it. And when the class doesn't overwrite it, then the class has an abstract method, and can't be instantiated. 
+  Method could not be both abstract and private in traits. This was changed in PHP 8.0 : the class might overwrite the trait's method, since it has precedence of it. And when the class doesn't overwrite it, then the class has an abstract method, and can't be instantiated. 
 
 This might be important for backward incompatibility, although it doesn't lint in previous versions.
 
@@ -56,15 +34,15 @@ See also `Abstract Trait Members <https://www.php.net/manual/en/language.oop5.tr
 Related PHP errors 
 -------------------
 
-  + `Abstract function t::someAbstractPrivateFunction() cannot be declared private <https://php-errors.readthedocs.io/en/latest/messages/%25s-function-%25s%3A%3A%25s%28%29-cannot-be-declared-private.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Abstract+function+t%3A%3AsomeAbstractPrivateFunction%28%29+cannot+be+declared+private+.html>`_
 
 
 
 Connex PHP features
 -------------------
 
-  + `Trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
-  + `Abstract Keyword <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
+  + `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
+  + `abstract <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
 
 
 Specs
@@ -83,7 +61,7 @@ _____
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 8.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/abstractPrivateMethodInTrait.html>`__                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Changed Behavior | PHP 8.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

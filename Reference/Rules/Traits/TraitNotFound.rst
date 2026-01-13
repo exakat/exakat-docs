@@ -1,33 +1,11 @@
 .. _traits-traitnotfound:
 
-
 .. _trait-not-found:
 
 Trait Not Found
 +++++++++++++++
 
-.. meta::
-	:description:
-		Trait Not Found: A unknown trait is mentioned in the use expression.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Trait Not Found
-	:twitter:description: Trait Not Found: A unknown trait is mentioned in the use expression
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Trait Not Found
-	:og:type: article
-	:og:description: A unknown trait is mentioned in the use expression
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Trait Not Found.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/TraitNotFound.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/TraitNotFound.html","name":"Trait Not Found","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:52:58 +0000","dateModified":"Tue, 14 Jan 2025 12:52:58 +0000","description":"A unknown trait is mentioned in the use expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Trait Not Found.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-A unknown trait is mentioned in the use expression. 
+  A unknown trait is mentioned in the use expression. 
 
 The used traits all exist, but in the configuration block, some unmentioned trait is called.
 
@@ -36,22 +14,28 @@ Be aware that the traits used in any configuration block may originate in any us
 .. code-block:: php
    
    <?php
+   class x  { 
+       // c is not a used trait
+       use a, b { c::d insteadof e;}
    
-   class X  { 
-       // C is not a used trait
-       use A, B { C::d insteadof E;}
-   
-       // E is a used trait, even if is not in the use above.
-       use E;
+       // e is a used trait, even if is not in the use above.
+       use e;
    }
    ?>
 
-See also https://www.php.net/manual/en/language.oop5.traits.php.
+See also `Traits <https://www.php.net/manual/en/language.oop5.traits.php>`_.
+
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Trait+%27a%27+not+found+.html>`_
+
+
 
 Connex PHP features
 -------------------
 
-  + `Trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
+  + `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
 
 
 Suggestions

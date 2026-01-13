@@ -1,33 +1,11 @@
 .. _arrays-toomanydimensions:
 
-
 .. _too-many-array-dimensions:
 
 Too Many Array Dimensions
 +++++++++++++++++++++++++
 
-.. meta::
-	:description:
-		Too Many Array Dimensions: This analysis reports when arrays have too many dimensions.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Too Many Array Dimensions
-	:twitter:description: Too Many Array Dimensions: This analysis reports when arrays have too many dimensions
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Too Many Array Dimensions
-	:og:type: article
-	:og:description: This analysis reports when arrays have too many dimensions
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Array Dimensions.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/TooManyDimensions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/TooManyDimensions.html","name":"Too Many Array Dimensions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"This analysis reports when arrays have too many dimensions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Too Many Array Dimensions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-This analysis reports when arrays have too many dimensions. This happens when arrays are too deeply nested inside other arrays. 
+  This analysis reports when arrays have too many dimensions. This happens when arrays are too deeply nested inside other arrays. 
 
 PHP has no nesting limit, and accepts any number of of dimensions. This is usually very memory hungry, and could be better replaced with classes.
 
@@ -54,7 +32,7 @@ The default threshold for this rule is 3 (see examples above).
 Connex PHP features
 -------------------
 
-  + `Multidimensional Array <https://php-dictionary.readthedocs.io/en/latest/dictionary/multidimensional-array.ini.html>`_
+  + `multidimensional-array <https://php-dictionary.readthedocs.io/en/latest/dictionary/multidimensional-array.ini.html>`_
 
 
 Suggestions

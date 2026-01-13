@@ -1,33 +1,11 @@
 .. _structures-coalesceandconcat:
 
-
 .. _coalesce-and-concat:
 
 Coalesce And Concat
 +++++++++++++++++++
 
-.. meta::
-	:description:
-		Coalesce And Concat: The concatenation operator ``.
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Coalesce And Concat
-	:twitter:description: Coalesce And Concat: The concatenation operator ``
-	:twitter:creator: @exakat
-	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Coalesce And Concat
-	:og:type: article
-	:og:description: The concatenation operator ``
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Coalesce And Concat.html
-	:og:locale: en
-
-.. raw:: html
-
-
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CoalesceAndConcat.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CoalesceAndConcat.html","name":"Coalesce And Concat","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"The concatenation operator ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Coalesce And Concat.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
-
-The concatenation operator ``.`` has precedence over the coalesce operator ``??``. 
+  The concatenation operator ``.`` has precedence over the coalesce operator ``??``. 
 
 It is recommended to add parenthesis to make this expression explicit.
 
@@ -49,10 +27,10 @@ It is recommended to add parenthesis to make this expression explicit.
 Connex PHP features
 -------------------
 
-  + `Coalesce Operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
-  + `Concatenation <https://php-dictionary.readthedocs.io/en/latest/dictionary/concat.ini.html>`_
-  + `Precedence <https://php-dictionary.readthedocs.io/en/latest/dictionary/precedence.ini.html>`_
-  + `Parenthesis <https://php-dictionary.readthedocs.io/en/latest/dictionary/parenthesis.ini.html>`_
+  + `coalesce <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
+  + `concat <https://php-dictionary.readthedocs.io/en/latest/dictionary/concat.ini.html>`_
+  + `precedence <https://php-dictionary.readthedocs.io/en/latest/dictionary/precedence.ini.html>`_
+  + `parenthesis <https://php-dictionary.readthedocs.io/en/latest/dictionary/parenthesis.ini.html>`_
 
 
 Suggestions
