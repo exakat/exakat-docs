@@ -33,7 +33,7 @@ Init the project with the following command :
 
 ::
 
-  docker run -it --rm -v /Users/famille/Desktop/analyzeG3/projects:/usr/src/exakat/projects exakat/exakat:latest exakat init -p sculpin -R https://github.com/sculpin/sculpin -git
+  docker run -it --rm -v /Users/famille/Desktop/analyzeG3/projects:/usr/src/exakat/projects exakat/exakat:latest init -p sculpin -R https://github.com/sculpin/sculpin -git
 
 This will create a 'projects/sculpin' folder, with various documents and folder. The most important folder being 'code', where the code of the project is fetched, an cached. See _Commands for more details about the `init` command.
 
@@ -44,7 +44,7 @@ After creating the project, an audit may be run from the same directory:
 
 :: 
 
-    docker run -it --rm -v /Users/famille/Desktop/analyzeG3/projects:/usr/src/exakat/projects exakat/exakat:dev exakat project -p sculpin 
+    docker run -it --rm -v /Users/famille/Desktop/analyzeG3/projects:/usr/src/exakat/projects exakat/exakat:latest project -p sculpin 
 
 This command runs the whole cycle : code loading, code audits and report building. 
 
@@ -59,7 +59,7 @@ After a first audit, use the `report` command. Here is an example with the `Uml`
 
 :: 
 
-    docker run -it --rm -v /Users/famille/Desktop/analyzeG3/projects:/usr/src/exakat/projects exakat/exakat:dev exakat report -p sculpin -format Uml 
+    docker run -it --rm -v /Users/famille/Desktop/analyzeG3/projects:/usr/src/exakat/projects exakat/exakat:latest report -p sculpin -format Uml 
     
 Reports may only be build if the analysis they depend on, were already processed.
 
@@ -67,7 +67,7 @@ In command line, use the `-format` option, multiple times if necessary.
 
 :: 
 
-    docker run -it --rm -v /Users/famille/Desktop/analyzeG3/projects:/usr/src/exakat/projects exakat/exakat:dev exakat project -p sculpin -format Uml 
+    docker run -it --rm -v /Users/famille/Desktop/analyzeG3/projects:/usr/src/exakat/projects exakat/exakat:latest project -p sculpin -format Uml 
 
 In config.ini, edit the `projects/sculpin/report/config.ini` file, and add the following lines : 
 
@@ -89,8 +89,8 @@ After adding some modifications to the code and committing them, you need to upd
 
 :: 
 
-    docker run -it --rm -v /Users/famille/Desktop/analyzeG3/projects:/usr/src/exakat/projects exakat/exakat:dev exakat update -p sculpin 
-    docker run -it --rm -v /Users/famille/Desktop/analyzeG3/projects:/usr/src/exakat/projects exakat/exakat:dev exakat project -p sculpin
+    docker run -it --rm -v /Users/famille/Desktop/analyzeG3/projects:/usr/src/exakat/projects exakat/exakat:latest update -p sculpin 
+    docker run -it --rm -v /Users/famille/Desktop/analyzeG3/projects:/usr/src/exakat/projects exakat/exakat:latest project -p sculpin
 
 
 Docker container, within the code folder
@@ -124,7 +124,7 @@ After creating the configuration file, an audit may be run from the same directo
 
 :: 
 
-    docker run -it --rm -v $(`pwd`):/src exakat/exakat:latest exakat project
+    docker run -it --rm -w /src -v $(pwd):/src exakat/exakat:latest project
 
 This command runs the whole cycle : code loading, code audits and report building. It works without initial configuration. 
 
@@ -161,5 +161,5 @@ Check the `.exakat.yml` file before running the audit, to check if all the repor
 
 :: 
 
-    docker run -it --rm -w /src -v $(pwd):/src --entrypoint "/usr/src/exakat/exakat.phar" exakat/exakat:latest project
+    docker run -it --rm -w /src -v $(pwd):/src exakat/exakat:latest project
 
